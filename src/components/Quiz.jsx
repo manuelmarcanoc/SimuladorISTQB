@@ -123,8 +123,8 @@ const Quiz = ({ onClose }) => {
   };
 
   return (
-    <div className="app-container" style={{ display: 'flex', gap: '20px', alignItems: 'flex-start', justifyContent: 'center', width: '100%' }}>
-      <div className="retro-window" style={{ flex: 3, maxWidth: isSetupPhase || showResults ? '600px' : '800px', width: '100%' }}>
+    <div className="app-container" style={{ display: 'flex', justifyContent: 'center', width: '100%', padding: '20px' }}>
+      <div className="retro-window" style={{ maxWidth: isSetupPhase || showResults ? '600px' : '800px', width: '100%', margin: '0 auto' }}>
         <div className="title-bar">
           <div className="title-bar-text">
             Simulador_ISTQB.exe {(!isSetupPhase && !showResults) ? `[ Tiempo Restante: ${formatTime(timeLeft)} ]` : ''}
@@ -160,14 +160,14 @@ const Quiz = ({ onClose }) => {
       </div>
 
       {(!isSetupPhase && !showResults) && (
-        <div className="retro-window" style={{ flex: 1, minWidth: '250px', position: 'sticky', top: '10px' }}>
-          <div className="title-bar">
+        <div className="retro-window" style={{ position: 'fixed', right: '20px', top: '20px', width: '200px', maxHeight: '90vh', display: 'flex', flexDirection: 'column' }}>
+          <div className="title-bar" style={{ flexShrink: 0 }}>
             <div className="title-bar-text">Navegación</div>
             <div className="title-bar-controls">
               <button className="title-bar-btn" onClick={() => {}}>X</button>
             </div>
           </div>
-          <div className="window-body">
+          <div className="window-body" style={{ overflowY: 'auto', flexGrow: 1 }}>
             <QuestionNav 
               totalQuestions={questions.length}
               currentQuestionIndex={currentQuestionIndex}
