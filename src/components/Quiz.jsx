@@ -113,8 +113,8 @@ const Quiz = ({ onClose }) => {
   const timerWarning = !isSetupPhase && !showResults && timeLeft > 0 && timeLeft <= 300;
 
   return (
-    <div className="app-container" style={{ display: 'flex', justifyContent: 'center', width: '100%', padding: '20px' }}>
-      <div className="retro-window" style={{ maxWidth: isSetupPhase || showResults ? '600px' : '800px', width: '100%', margin: '0 auto' }}>
+    <div className="app-container quiz-main-container">
+      <div className="retro-window quiz-window">
         <div className="title-bar">
           <div className="title-bar-text">
             Simulador_ISTQB.exe
@@ -157,7 +157,7 @@ const Quiz = ({ onClose }) => {
       </div>
 
       {!isSetupPhase && !showResults && (
-        <div className="retro-window" style={{ position: 'fixed', right: '20px', top: '20px', width: '200px', maxHeight: '90vh', display: 'flex', flexDirection: 'column' }}>
+        <div className="retro-window question-nav-container">
           <div className="title-bar" style={{ flexShrink: 0 }}>
             <div className="title-bar-text">Navegación</div>
           </div>

@@ -50,11 +50,10 @@ function App() {
         </div>
       )}
 
-      {/* Study Notes Window */}
       {isNotesOpen && (
         <div style={{
-          position: 'absolute', top: '5%', left: '15%',
-          width: 'min(700px, 80vw)', height: '85vh',
+          position: 'absolute', top: '5%', left: '50%', transform: 'translateX(-50%)',
+          width: 'min(700px, 95vw)', height: '85vh',
           zIndex: 40, display: 'flex', flexDirection: 'column',
         }}>
           <div className="retro-window" style={{ height: '100%', maxWidth: '100%', display: 'flex', flexDirection: 'column' }}>
@@ -75,7 +74,7 @@ function App() {
 
       {/* PDF Window */}
       {isApuntesOpen && (
-        <div style={{ position: 'absolute', top: '10%', left: '20%', width: '500px', zIndex: 40 }}>
+        <div style={{ position: 'absolute', top: '10%', left: '50%', transform: 'translateX(-50%)', width: 'min(500px, 95vw)', zIndex: 40 }}>
           <div className="retro-window">
             <div className="title-bar">
               <div className="title-bar-text">C:\Syllabus_ISTQB_v4.0</div>
@@ -99,7 +98,7 @@ function App() {
 
       {/* Settings Window */}
       {isSettingsOpen && (
-        <div style={{ position: 'absolute', top: '20%', left: '30%', width: '350px', zIndex: 50 }}>
+        <div style={{ position: 'absolute', top: '20%', left: '50%', transform: 'translateX(-50%)', width: 'min(350px, 95vw)', zIndex: 50 }}>
           <div className="retro-window">
             <div className="title-bar">
               <div className="title-bar-text">Panel de Control</div>

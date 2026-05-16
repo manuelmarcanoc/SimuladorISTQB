@@ -661,3 +661,107 @@ body {
   border-left: 4px solid #e6c700;
 }
 
+/* ===== Responsive & Layout Classes ===== */
+.quiz-main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.quiz-window {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.question-nav-container {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 200px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile Media Queries */
+@media (max-width: 850px) {
+  .quiz-main-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .quiz-window {
+    max-width: 100%;
+  }
+
+  .question-nav-container {
+    position: static;
+    width: 100%;
+    max-height: 30vh;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .desktop-wallpaper-text {
+    font-size: 4rem; /* Smaller watermark on mobile */
+  }
+
+  .app-container {
+    padding: 10px;
+  }
+
+  .window-body {
+    padding: 1rem;
+  }
+
+  .title-bar-text {
+    font-size: 1rem;
+  }
+
+  .question-text {
+    font-size: 1.2rem;
+  }
+
+  .option-btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  /* Adjust absolute positioned windows to take full screen minus taskbar */
+  .retro-window {
+    width: 100% !important;
+  }
+
+  .taskbar {
+    padding: 0;
+  }
+
+  .taskbar-app {
+    font-size: 14px;
+    min-width: 80px;
+    padding: 2px 5px;
+  }
+
+  .time-text {
+    font-size: 14px;
+  }
+
+  .desktop-icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+
