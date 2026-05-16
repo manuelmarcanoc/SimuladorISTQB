@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Quiz from './components/Quiz';
+import StudyNotes from './components/StudyNotes';
 
 function App() {
-  const [time, setTime] = useState(new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}));
+  const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
   const [isQuizOpen, setIsQuizOpen] = useState(true);
   const [isApuntesOpen, setIsApuntesOpen] = useState(false);
+  const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [theme, setTheme] = useState('retro'); // 'retro' | 'modern'
+  const [theme, setTheme] = useState('retro');
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTime(new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}));
+      setTime(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
     }, 60000);
     return () => clearInterval(timer);
   }, []);
@@ -18,42 +20,72 @@ function App() {
   return (
     <main className={`desktop theme-${theme}`}>
       <div className="desktop-wallpaper-text">
-        SIMULADOR ISTQB<br/>FOUNDATION
+        SIMULADOR ISTQB<br />FOUNDATION
       </div>
-      
+
+      {/* Desktop Icons */}
       <div className="desktop-icons">
         <div className="icon" onDoubleClick={() => setIsQuizOpen(true)}>
           <div className="icon-img">💻</div>
           <span>Simulador</span>
         </div>
+        <div className="icon" onDoubleClick={() => setIsNotesOpen(true)}>
+          <div className="icon-img">📝</div>
+          <span>Apuntes</span>
+        </div>
         <div className="icon" onDoubleClick={() => setIsApuntesOpen(true)}>
           <div className="icon-img">🗂️</div>
-          <span>Apuntes</span>
+          <span>Syllabus PDF</span>
         </div>
         <div className="icon" onDoubleClick={() => setIsSettingsOpen(true)}>
           <div className="icon-img">⚙️</div>
           <span>Ajustes</span>
         </div>
       </div>
-      
+
+      {/* Quiz Window */}
       {isQuizOpen && (
-        <div className="quiz-wrapper" style={{ zIndex: isQuizOpen ? 30 : 10 }}>
+        <div className="quiz-wrapper" style={{ zIndex: 30 }}>
           <Quiz onClose={() => setIsQuizOpen(false)} />
         </div>
       )}
 
+      {/* Study Notes Window */}
+      {isNotesOpen && (
+        <div style={{
+          position: 'absolute', top: '5%', left: '15%',
+          width: 'min(700px, 80vw)', height: '85vh',
+          zIndex: 40, display: 'flex', flexDirection: 'column',
+        }}>
+          <div className="retro-window" style={{ height: '100%', maxWidth: '100%', display: 'flex', flexDirection: 'column' }}>
+            <div className="title-bar">
+              <div className="title-bar-text">📝 Apuntes_ISTQB — Resumen por Capítulo</div>
+              <div className="title-bar-controls">
+                <button className="title-bar-btn" onClick={() => setIsNotesOpen(false)}>_</button>
+                <button className="title-bar-btn">□</button>
+                <button className="title-bar-btn" onClick={() => setIsNotesOpen(false)}>X</button>
+              </div>
+            </div>
+            <div className="window-body" style={{ overflowY: 'auto', flexGrow: 1, fontFamily: 'inherit' }}>
+              <StudyNotes onClose={() => setIsNotesOpen(false)} />
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* PDF Window */}
       {isApuntesOpen && (
-        <div className="quiz-wrapper" style={{ zIndex: isApuntesOpen ? 40 : 10, position: 'absolute', top: '10%', left: '20%', width: '500px' }}>
+        <div style={{ position: 'absolute', top: '10%', left: '20%', width: '500px', zIndex: 40 }}>
           <div className="retro-window">
             <div className="title-bar">
-              <div className="title-bar-text">C:\Apuntes_ISTQB</div>
+              <div className="title-bar-text">C:\Syllabus_ISTQB_v4.0</div>
               <div className="title-bar-controls">
                 <button className="title-bar-btn" onClick={() => setIsApuntesOpen(false)}>_</button>
                 <button className="title-bar-btn">□</button>
                 <button className="title-bar-btn" onClick={() => setIsApuntesOpen(false)}>X</button>
               </div>
             </div>
-            <div className="window-body" style={{ display: 'flex', gap: '20px', backgroundColor: 'var(--os-window-inner, #ffffff)', minHeight: '200px' }}>
+            <div className="window-body" style={{ display: 'flex', gap: '20px', backgroundColor: 'var(--os-window-inner, #ffffff)', minHeight: '120px' }}>
               <a href={process.env.PUBLIC_URL + '/Apuntes_ISTQB.pdf'} download="Syllabus_ISTQB_v4.pdf" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="icon" style={{ width: '80px' }}>
                   <div className="icon-img">📄</div>
@@ -65,8 +97,9 @@ function App() {
         </div>
       )}
 
+      {/* Settings Window */}
       {isSettingsOpen && (
-        <div className="quiz-wrapper" style={{ zIndex: isSettingsOpen ? 50 : 10, position: 'absolute', top: '20%', left: '30%', width: '350px' }}>
+        <div style={{ position: 'absolute', top: '20%', left: '30%', width: '350px', zIndex: 50 }}>
           <div className="retro-window">
             <div className="title-bar">
               <div className="title-bar-text">Panel de Control</div>
@@ -94,23 +127,29 @@ function App() {
         </div>
       )}
 
+      {/* Taskbar */}
       <div className="taskbar">
         <button className="start-btn">
           <span className="win-logo">❖</span> Inicio
         </button>
         <div className="taskbar-apps">
           {isQuizOpen && (
-            <div className={`taskbar-app active`} onClick={() => setIsQuizOpen(true)}>
+            <div className="taskbar-app active" onClick={() => setIsQuizOpen(true)}>
               Simulador_ISTQB.exe
             </div>
           )}
+          {isNotesOpen && (
+            <div className="taskbar-app" onClick={() => setIsNotesOpen(true)}>
+              Apuntes.txt
+            </div>
+          )}
           {isApuntesOpen && (
-            <div className={`taskbar-app`} onClick={() => setIsApuntesOpen(true)}>
-              C:\Apuntes
+            <div className="taskbar-app" onClick={() => setIsApuntesOpen(true)}>
+              C:\Syllabus
             </div>
           )}
           {isSettingsOpen && (
-            <div className={`taskbar-app`} onClick={() => setIsSettingsOpen(true)}>
+            <div className="taskbar-app" onClick={() => setIsSettingsOpen(true)}>
               Panel de Control
             </div>
           )}
