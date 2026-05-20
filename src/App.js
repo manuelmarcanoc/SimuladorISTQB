@@ -27,6 +27,16 @@ function DesktopIcon({ src, label, onOpen, children }) {
   );
 }
 
+const DraggableWindow = ({ children, handle, ...props }) => {
+  const nodeRef = React.useRef(null);
+  const child = React.Children.only(children);
+  return (
+    <Draggable nodeRef={nodeRef} handle={handle} {...props}>
+      {React.cloneElement(child, { ref: nodeRef })}
+    </Draggable>
+  );
+};
+
 function App() {
   const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
   const [isQuizOpen, setIsQuizOpen] = useState(true);
@@ -129,25 +139,25 @@ function App() {
 
       {/* Quiz Window */}
       {isQuizOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="quiz-wrapper window-open-anim" style={{ zIndex: 30 }}>
             <Quiz onClose={() => setIsQuizOpen(false)} onNewAchievements={handleNewAchievements} />
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Minijuego Window */}
       {isConceptMatchOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="desktop-window desktop-window-tarjetas window-open-anim">
             <ConceptMatch onClose={() => setIsConceptMatchOpen(false)} onNewAchievements={handleNewAchievements} />
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Quest RPG Window */}
       {isQuestOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="desktop-window desktop-window-quest window-open-anim">
             <div className="retro-window" style={{ height: '100%', maxHeight: '86vh' }}>
               <div className="title-bar" style={{ cursor: 'grab' }}>
@@ -161,25 +171,25 @@ function App() {
               </div>
             </div>
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Logros Window */}
       {isAchievementsOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="desktop-window desktop-window-logros window-open-anim">
             <Achievements onClose={() => setIsAchievementsOpen(false)} />
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Estadísticas Window */}
       {isStatsOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="desktop-window desktop-window-estadisticas window-open-anim">
             <StatsPanel onClose={() => setIsStatsOpen(false)} />
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Notes Window */}
@@ -203,7 +213,7 @@ function App() {
 
       {/* PDF Window */}
       {isApuntesOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="desktop-window desktop-window-pdf window-open-anim">
             <div className="retro-window">
               <div className="title-bar" style={{ cursor: 'grab' }}>
@@ -223,12 +233,12 @@ function App() {
               </div>
             </div>
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Settings Window */}
       {isSettingsOpen && (
-        <Draggable handle=".title-bar">
+        <DraggableWindow handle=".title-bar">
           <div className="desktop-window desktop-window-settings window-open-anim">
             <div className="retro-window">
               <div className="title-bar" style={{ cursor: 'grab' }}>
@@ -259,7 +269,7 @@ function App() {
               </div>
             </div>
           </div>
-        </Draggable>
+        </DraggableWindow>
       )}
 
       {/* Taskbar */}
