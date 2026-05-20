@@ -304,9 +304,9 @@ const StudyNotes = () => {
   const chapter = CHAPTERS.find(c => c.id === selectedChapter);
 
   return (
-    <div className="notes-content" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+    <div className="notes-content" style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}>
       {/* Chapter selector */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '1rem' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '1rem', flexShrink: 0 }}>
         {CHAPTERS.map(c => (
           <button
             key={c.id}
@@ -325,29 +325,30 @@ const StudyNotes = () => {
         ))}
       </div>
 
-      <div className="notes-intro-panel">
-        <h3>Examen ISTQB Foundation Level v4.0</h3>
-        <ul>
-          {EXAM_OVERVIEW.map((tip, i) => (
-            <li key={i}>{tip}</li>
-          ))}
-        </ul>
-      </div>
-
-      {!chapter && (
-        <div className="notes-empty-state">
-          <p>Selecciona un capítulo para ver los apuntes clave del syllabus.</p>
-          <p className="notes-sub">
-            Cada sección incluye conceptos esenciales y un bloque <strong>En el examen</strong> con lo que más suele evaluarse.
-          </p>
+      <div style={{ overflowY: 'auto', flexGrow: 1, paddingRight: '4px' }}>
+        <div className="notes-intro-panel">
+          <h3>Examen ISTQB Foundation Level v4.0</h3>
+          <ul>
+            {EXAM_OVERVIEW.map((tip, i) => (
+              <li key={i}>{tip}</li>
+            ))}
+          </ul>
         </div>
-      )}
 
-      {chapter && (
-        <div style={{ overflowY: 'auto', flexGrow: 1 }}>
-          <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: chapter.color, borderBottom: `2px solid ${chapter.color}`, paddingBottom: '4px' }}>
-            {chapter.title}
-          </h2>
+        {!chapter && (
+          <div className="notes-empty-state">
+            <p>Selecciona un capítulo para ver los apuntes clave del syllabus.</p>
+            <p className="notes-sub">
+              Cada sección incluye conceptos esenciales y un bloque <strong>En el examen</strong> con lo que más suele evaluarse.
+            </p>
+          </div>
+        )}
+
+        {chapter && (
+          <div>
+            <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: chapter.color, borderBottom: `2px solid ${chapter.color}`, paddingBottom: '4px' }}>
+              {chapter.title}
+            </h2>
           {chapter.sections.map((section, si) => (
             <div key={si} style={{ marginBottom: '1.2rem' }}>
               <h3 style={{ fontSize: '1rem', fontWeight: 'bold', marginBottom: '6px', background: '#e8e8e8', padding: '4px 8px', borderLeft: `4px solid ${chapter.color}` }}>
@@ -368,7 +369,8 @@ const StudyNotes = () => {
             </div>
           ))}
         </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
