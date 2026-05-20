@@ -414,8 +414,30 @@ body {
 }
 
 .icon-img {
-  font-size: 48px;
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vintage-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.icon-img-settings {
+  width: 48px;
+  height: 48px;
+  color: #c0c0c0;
+  filter: drop-shadow(1px 1px 0 #000) drop-shadow(-1px -1px 0 #fff);
+}
+
+.icon-img-settings svg {
+  width: 40px;
+  height: 40px;
 }
 
 .icon span {
@@ -438,6 +460,105 @@ body {
   align-items: center;
   z-index: 10;
   padding-bottom: 50px;
+}
+
+.vibbe-credit {
+  position: absolute;
+  bottom: 48px;
+  right: 12px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 4px 8px;
+  z-index: 5;
+  pointer-events: none;
+  letter-spacing: 0.5px;
+}
+
+.vibbe-credit-taskbar {
+  font-size: 14px;
+  margin-right: 8px;
+  opacity: 0.85;
+}
+
+.desktop-window {
+  position: absolute;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-window-notes {
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(700px, 95vw);
+  height: 85vh;
+}
+
+.desktop-window-inner {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-window-pdf {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(500px, 95vw);
+}
+
+.desktop-window-settings {
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(350px, 95vw);
+}
+
+.window-body-scroll {
+  overflow-y: auto;
+  flex-grow: 1;
+  font-family: inherit;
+}
+
+.pdf-window-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: var(--os-window-inner, #ffffff);
+  min-height: 120px;
+}
+
+.pdf-download-link {
+  text-decoration: none;
+  color: inherit;
+  align-self: flex-start;
+}
+
+.pdf-file-icon {
+  width: 80px;
+}
+
+.pdf-file-label {
+  background: transparent !important;
+}
+
+.pdf-hint {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.settings-about {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #808080;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
 }
 
 /* Taskbar */
@@ -655,10 +776,52 @@ body {
 .notes-exam-tip {
   background: #fffbcc;
   border: 1px solid #e6c700;
-  padding: 5px 10px;
+  padding: 6px 10px;
   font-size: 12px;
-  margin-top: 5px;
+  margin-top: 6px;
   border-left: 4px solid #e6c700;
+  line-height: 1.45;
+}
+
+.notes-intro-panel {
+  background: #f0f0f0;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  padding: 12px 14px;
+  margin-bottom: 1rem;
+}
+
+.notes-intro-panel h3 {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  color: var(--os-titlebar);
+}
+
+.notes-intro-panel ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.notes-intro-panel li {
+  margin-bottom: 4px;
+}
+
+.notes-empty-state {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: #555;
+}
+
+.notes-empty-state p {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.notes-empty-state .notes-sub {
+  font-size: 0.85rem;
+  color: #666;
 }
 
 /* ===== Responsive & Layout Classes ===== */
@@ -708,7 +871,7 @@ body {
 
 @media (max-width: 600px) {
   .desktop-wallpaper-text {
-    font-size: 4rem; /* Smaller watermark on mobile */
+    font-size: 4rem;
   }
 
   .app-container {
@@ -736,32 +899,472 @@ body {
     font-size: 1rem;
   }
 
-  /* Adjust absolute positioned windows to take full screen minus taskbar */
   .retro-window {
     width: 100% !important;
   }
 
   .taskbar {
-    padding: 0;
+    display: none;
   }
 
-  .taskbar-app {
-    font-size: 14px;
-    min-width: 80px;
-    padding: 2px 5px;
+  .quiz-wrapper {
+    padding-bottom: 0;
   }
 
-  .time-text {
-    font-size: 14px;
+  .vibbe-credit {
+    bottom: 8px;
+    right: 8px;
+    font-size: 12px;
+  }
+
+  .desktop-window-notes {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .desktop-window-pdf,
+  .desktop-window-settings {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
   }
 
   .desktop-icons {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 15px;
-    top: 10px;
-    left: 10px;
+    gap: 12px;
+    top: 8px;
+    left: 8px;
+    max-width: calc(100vw - 16px);
+  }
+
+  .icon {
+    width: 72px;
+  }
+
+  .vintage-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon span {
+    font-size: 13px;
   }
 }
 
 
+/* ============================================================
+   WINDOW OPEN ANIMATION
+   ============================================================ */
+@keyframes windowOpen {
+  from { opacity: 0; transform: scale(0.96) translateY(6px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+.window-open-anim {
+  animation: windowOpen 0.18s ease-out both;
+}
+
+/* ============================================================
+   TIMER PROGRESS BAR (in Quiz title bar area)
+   ============================================================ */
+.quiz-timer-track {
+  height: 4px;
+  background: #808080;
+  width: 100%;
+  flex-shrink: 0;
+}
+.quiz-timer-fill {
+  height: 100%;
+  transition: width 1s linear, background 0.5s;
+}
+
+/* ============================================================
+   QUESTION PROGRESS BAR (inside window body)
+   ============================================================ */
+.question-progress-track {
+  height: 6px;
+  background: #d0d0d0;
+  border: 1px solid #aaa;
+  margin-bottom: 0.6rem;
+  position: relative;
+  overflow: hidden;
+}
+.question-progress-fill {
+  height: 100%;
+  background: #000080;
+  transition: width 0.4s ease;
+}
+
+/* ============================================================
+   DIFFICULTY BADGE — already uses .topic-badge, just colours
+   ============================================================ */
+.topic-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   REVIEW BUTTON
+   ============================================================ */
+.btn-review {
+  background: #fffbcc !important;
+  border-color: #e6c700 !important;
+  color: #5a4600 !important;
+}
+.btn-review:hover {
+  background: #fff3a0 !important;
+}
+
+/* ============================================================
+   FLASHCARD STYLES
+   ============================================================ */
+.flashcard-hint-box {
+  background: #fffbcc;
+  border: 1px solid #e6c700;
+  border-left: 4px solid #e6c700;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+}
+.flashcard-hint-box kbd {
+  background: var(--os-window);
+  border: 1px solid #888;
+  border-radius: 2px;
+  padding: 0 4px;
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+/* Progress bar */
+.flashcard-progress-bar-track {
+  height: 6px;
+  background: #d0d0d0;
+  border: 1px solid #aaa;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+}
+.flashcard-progress-bar-fill {
+  height: 100%;
+  background: #000080;
+  transition: width 0.4s ease;
+}
+
+/* 3D Flip Card */
+.flashcard-scene {
+  perspective: 1000px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+.flashcard-exit-right {
+  transform: translateX(60px) rotate(3deg);
+  opacity: 0;
+  pointer-events: none;
+}
+.flashcard-exit-left {
+  transform: translateX(-60px) rotate(-3deg);
+  opacity: 0;
+  pointer-events: none;
+}
+.flashcard-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+  min-height: 220px;
+}
+.flashcard-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  min-height: 220px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem;
+  border: 2px solid;
+  border-color: var(--os-border-light) var(--os-border-dark) var(--os-border-dark) var(--os-border-light);
+  background: var(--os-window);
+  box-sizing: border-box;
+}
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: #f0fff0;
+  border-color: #4caf50 !important;
+}
+.flashcard-header {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.flashcard-question {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  flex: 1;
+}
+.flashcard-hint {
+  font-size: 0.85rem;
+  color: #777;
+  text-align: center;
+  margin-top: auto;
+}
+.flashcard-answer {
+  font-size: 1.3rem;
+  color: #004d00;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.flashcard-explanation {
+  font-size: 0.9rem;
+  color: #333;
+  border-top: 1px dashed #aaa;
+  padding-top: 0.5rem;
+  line-height: 1.4;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+/* Make space for absolute positioning */
+.flashcard-scene > .flashcard-inner {
+  position: relative;
+  height: 220px;
+}
+
+/* ============================================================
+   ACHIEVEMENTS STYLES
+   ============================================================ */
+.achievements-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.achievement-card {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid;
+}
+.achievement-unlocked {
+  border-color: var(--os-border-light) var(--os-border-dark) var(--os-border-dark) var(--os-border-light);
+  background: #f0fff0;
+}
+.achievement-locked {
+  border-color: var(--os-border-shadow) var(--os-border-light) var(--os-border-light) var(--os-border-shadow);
+  background: #e8e8e8;
+  opacity: 0.7;
+}
+.achievement-icon {
+  font-size: 1.8rem;
+  width: 2.2rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.achievement-info {
+  display: flex;
+  flex-direction: column;
+}
+.achievement-title {
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+.achievement-desc {
+  font-size: 0.85rem;
+  color: #555;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Achievement Popup */
+@keyframes slideInPopup {
+  from { transform: translateX(120%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+.achievement-popup {
+  position: fixed;
+  bottom: 54px;
+  right: 16px;
+  z-index: 9999;
+  background: var(--os-window);
+  border: 2px solid;
+  border-color: var(--os-border-light) var(--os-border-dark) var(--os-border-dark) var(--os-border-light);
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  max-width: 300px;
+  cursor: pointer;
+  animation: slideInPopup 0.35s ease-out both;
+}
+.achievement-popup-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+.achievement-popup-text {
+  display: flex;
+  flex-direction: column;
+}
+.achievement-popup-title {
+  font-size: 0.85rem;
+  color: #555;
+  font-family: 'Segoe UI', sans-serif;
+}
+.achievement-popup-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000080;
+}
+.achievement-popup-desc {
+  font-size: 0.82rem;
+  color: #444;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.3;
+}
+
+/* ============================================================
+   STATS PANEL STYLES
+   ============================================================ */
+.stats-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 0.5rem;
+}
+.stats-summary-card {
+  border: 2px solid;
+  border-color: var(--os-border-shadow) var(--os-border-light) var(--os-border-light) var(--os-border-shadow);
+  padding: 8px 6px;
+  text-align: center;
+  background: #f5f5f5;
+}
+.stats-summary-value {
+  font-size: 1.6rem;
+  font-family: var(--font-retro);
+  line-height: 1;
+}
+.stats-summary-label {
+  font-size: 0.75rem;
+  color: #555;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.3;
+  margin-top: 2px;
+}
+
+/* Bar chart */
+.stats-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.stats-chart-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.stats-chart-label {
+  width: 160px;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stats-chart-bar-track {
+  flex: 1;
+  height: 14px;
+  background: #d0d0d0;
+  border: 1px solid #aaa;
+  position: relative;
+  overflow: hidden;
+}
+.stats-chart-bar-fill {
+  height: 100%;
+  transition: width 0.6s ease;
+}
+.stats-chart-pct {
+  width: 36px;
+  font-size: 0.85rem;
+  text-align: right;
+  flex-shrink: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* History table */
+.stats-history-table {
+  border: 2px solid;
+  border-color: var(--os-border-shadow) var(--os-border-light) var(--os-border-light) var(--os-border-shadow);
+  font-size: 0.85rem;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.stats-history-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  background: var(--os-titlebar);
+  color: white;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.stats-history-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 4px 8px;
+  border-bottom: 1px dotted #ccc;
+}
+.stats-history-row:last-child {
+  border-bottom: none;
+}
+.history-pass {
+  background: #f0fff0;
+}
+.history-fail {
+  background: #fff5f5;
+}
+
+/* ============================================================
+   ICON HOVER EFFECTS (desktop icons)
+   ============================================================ */
+.icon {
+  transition: transform 0.1s ease;
+}
+.icon:hover {
+  transform: translateY(-2px);
+}
+.icon:active {
+  transform: translateY(0px);
+}
+
+/* ============================================================
+   RESPONSIVE — stats summary on mobile
+   ============================================================ */
+@media (max-width: 600px) {
+  .stats-summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stats-chart-label {
+    width: 100px;
+    font-size: 0.75rem;
+  }
+  .stats-history-header,
+  .stats-history-row {
+    grid-template-columns: 1.8fr 1fr 1fr 1fr;
+  }
+  .stats-history-header span:nth-child(3),
+  .stats-history-row span:nth-child(3) {
+    display: none;
+  }
+  .flashcard-scene > .flashcard-inner {
+    height: auto;
+    min-height: 200px;
+  }
+}

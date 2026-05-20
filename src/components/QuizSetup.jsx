@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import questionsData from '../data/questions.json';
+import { loadWrongQuestions } from '../utils/storage';
 
 const CHAPTERS = [
   { value: 'all', label: 'Todos los Capítulos' },
@@ -16,6 +17,11 @@ const QuizSetup = ({ onStartQuiz }) => {
   const [difficulty, setDifficulty] = useState('all');
   const [questionCount, setQuestionCount] = useState(40);
   const [availableQuestions, setAvailableQuestions] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
+
+  useEffect(() => {
+    setWrongCount(loadWrongQuestions().length);
+  }, []);
 
   useEffect(() => {
     let filtered = questionsData;
@@ -31,6 +37,11 @@ const QuizSetup = ({ onStartQuiz }) => {
   const handleStart = (mode) => {
     if (mode === 'official') {
       onStartQuiz({ chapter: 'all', difficulty: 'all', count: 40, timePerQuestion: 97 });
+      return;
+    }
+    if (mode === 'review') {
+      const wrongQs = loadWrongQuestions();
+      onStartQuiz({ questions: wrongQs, count: wrongQs.length, timePerQuestion: 90 });
       return;
     }
     onStartQuiz({
@@ -107,9 +118,29 @@ const QuizSetup = ({ onStartQuiz }) => {
           [ Modo Examen Oficial — 40 Preg. / 65 min ]
         </button>
 
+        {wrongCount > 0 && (
+          <button
+            className="btn btn-review"
+            onClick={() => handleStart('review')}
+            style={{ marginTop: '0.5rem' }}
+          >
+            [ ⚠ Repasar {wrongCount} Errores del Último Examen ]
+          </button>
+        )}
+
         <p style={{ fontSize: '0.85rem', textAlign: 'center', color: '#555', marginTop: '0.3rem' }}>
           Banco total: <strong>{questionsData.length}</strong> preguntas ISTQB CTFL v4.0
         </p>
+
+        <div className="setup-info notes-exam-tip" style={{ marginTop: '0.8rem', textAlign: 'left' }}>
+          <strong>Consejos para el examen real:</strong>
+          <ul style={{ margin: '6px 0 0', paddingLeft: '1.2rem', fontSize: '0.85rem', lineHeight: '1.45' }}>
+            <li>65% para aprobar (26 de 40). Sin penalización por respuestas incorrectas.</li>
+            <li>En modo oficial: 40 preguntas en 65 min (~97 s por pregunta).</li>
+            <li>Lee cada enunciado entero antes de elegir; elimina opciones imposibles primero.</li>
+            <li>Repasa los capítulos 1, 4 y 5: suelen tener mayor peso en el examen.</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

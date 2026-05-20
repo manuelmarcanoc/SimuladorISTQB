@@ -43,13 +43,13 @@ const Results = ({ score, totalQuestions, userAnswers, questions, onRestart }) =
                 P{i + 1}: {q.question}
               </p>
               <p style={{ color: 'red', marginBottom: '0.3rem' }}>
-                ✗ Tu respuesta: {q.options[answer.selectedOption]}
+                Tu respuesta: {q.options[answer.selectedOption]}
               </p>
               <p style={{ color: 'green', marginBottom: '0.3rem' }}>
-                ✓ Correcta: {q.options[q.correctAnswer]}
+                Correcta: {q.options[q.correctAnswer]}
               </p>
               <p style={{ fontSize: '0.9rem', color: '#333' }}>
-                💡 {q.explanation}
+                <strong>Explicación:</strong> {q.explanation}
               </p>
             </div>
           ))}

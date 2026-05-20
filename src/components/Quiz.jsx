@@ -4,6 +4,11 @@ import Results from './Results';
 import QuizSetup from './QuizSetup';
 import QuestionNav from './QuestionNav';
 import questionsData from '../data/questions.json';
+import {
+  loadStats, saveStats, loadAchievements, saveAchievements,
+  checkAndUnlockAchievements,
+} from './Achievements';
+import { saveWrongQuestions } from '../utils/storage';
 
 // Fisher-Yates shuffle
 function shuffle(arr) {
@@ -15,13 +20,17 @@ function shuffle(arr) {
   return a;
 }
 
-const Quiz = ({ onClose }) => {
+
+
+const Quiz = ({ onClose, onNewAchievements }) => {
   const [isSetupPhase, setIsSetupPhase] = useState(true);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showResults, setShowResults] = useState(false);
   const [userAnswers, setUserAnswers] = useState({});
   const [timeLeft, setTimeLeft] = useState(0);
+  const [totalTime, setTotalTime] = useState(0);
+  const [currentStreak, setCurrentStreak] = useState(0);
 
   useEffect(() => {
     if (isSetupPhase || showResults || timeLeft <= 0) return;
@@ -38,18 +47,79 @@ const Quiz = ({ onClose }) => {
     return () => clearInterval(timerId);
   }, [isSetupPhase, showResults, timeLeft]);
 
+  // Save exam results when showResults becomes true
+  useEffect(() => {
+    if (!showResults || questions.length === 0) return;
+
+    const correctCount = Object.values(userAnswers).filter(a => a.isCorrect).length;
+    const pct = Math.round((correctCount / questions.length) * 100);
+
+    // Save wrong questions for "Repasar Errores"
+    const wrongQs = questions.filter((_, i) => userAnswers[i] && !userAnswers[i].isCorrect);
+    saveWrongQuestions(wrongQs);
+
+    // Build chapter stats
+    const chapterStats = {};
+    questions.forEach((q, i) => {
+      const ch = q.chapter;
+      if (!chapterStats[ch]) chapterStats[ch] = { correct: 0, total: 0 };
+      chapterStats[ch].total++;
+      if (userAnswers[i]?.isCorrect) chapterStats[ch].correct++;
+    });
+
+    // Update global stats
+    const stats = loadStats();
+    const newBestStreak = Math.max(stats.bestStreak || 0, currentStreak);
+    const updatedStats = {
+      ...stats,
+      totalAnswered: (stats.totalAnswered || 0) + questions.length,
+      totalCorrect: (stats.totalCorrect || 0) + correctCount,
+      totalExams: (stats.totalExams || 0) + 1,
+      passedExams: (stats.passedExams || 0) + (pct >= 65 ? 1 : 0),
+      perfectExams: (stats.perfectExams || 0) + (pct === 100 ? 1 : 0),
+      bestStreak: newBestStreak,
+      examHistory: [
+        ...(stats.examHistory || []),
+        { date: new Date().toISOString(), total: questions.length, correct: correctCount, pct, chapterStats },
+      ].slice(-50), // keep last 50 exams
+    };
+
+    // Study streak
+    const today = new Date().toDateString();
+    if (stats.lastStudyDate !== today) {
+      const yesterday = new Date(Date.now() - 86400000).toDateString();
+      updatedStats.studyStreak = stats.lastStudyDate === yesterday
+        ? (stats.studyStreak || 0) + 1
+        : 1;
+      updatedStats.lastStudyDate = today;
+    }
+
+    saveStats(updatedStats);
+
+    // Check achievements
+    const currentUnlocked = loadAchievements();
+    const { allUnlocked, newlyUnlocked } = checkAndUnlockAchievements(updatedStats, currentUnlocked);
+    if (newlyUnlocked.length > 0) {
+      saveAchievements(allUnlocked);
+      onNewAchievements && onNewAchievements(newlyUnlocked);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showResults]);
+
   const startQuiz = useCallback((config) => {
-    let filtered = [...questionsData];
+    let filtered = config.questions
+      ? config.questions
+      : [...questionsData];
 
-    // Fix: compare correctly with number or 'all'
-    if (config.chapter !== 'all') {
-      filtered = filtered.filter(q => q.chapter === config.chapter);
+    if (!config.questions) {
+      if (config.chapter !== 'all') {
+        filtered = filtered.filter(q => q.chapter === config.chapter);
+      }
+      if (config.difficulty !== 'all') {
+        filtered = filtered.filter(q => q.difficulty === config.difficulty);
+      }
+      filtered = shuffle(filtered).slice(0, config.count);
     }
-    if (config.difficulty !== 'all') {
-      filtered = filtered.filter(q => q.difficulty === config.difficulty);
-    }
-
-    filtered = shuffle(filtered).slice(0, config.count);
 
     // Shuffle options within each question
     const randomizedQuestions = filtered.map(q => {
@@ -70,18 +140,20 @@ const Quiz = ({ onClose }) => {
     setCurrentQuestionIndex(0);
     setShowResults(false);
     setUserAnswers({});
-    setTimeLeft(config.count * (config.timePerQuestion || 90));
+    setCurrentStreak(0);
+    const t = randomizedQuestions.length * (config.timePerQuestion || 90);
+    setTimeLeft(t);
+    setTotalTime(t);
   }, []);
 
   const handleOptionSelect = useCallback((index) => {
     setUserAnswers(prev => {
       if (prev[currentQuestionIndex]) return prev;
+      const isCorrect = index === questions[currentQuestionIndex].correctAnswer;
+      setCurrentStreak(s => isCorrect ? s + 1 : 0);
       return {
         ...prev,
-        [currentQuestionIndex]: {
-          selectedOption: index,
-          isCorrect: index === questions[currentQuestionIndex].correctAnswer,
-        },
+        [currentQuestionIndex]: { selectedOption: index, isCorrect },
       };
     });
   }, [currentQuestionIndex, questions]);
@@ -98,7 +170,9 @@ const Quiz = ({ onClose }) => {
     setIsSetupPhase(true);
     setUserAnswers({});
     setTimeLeft(0);
+    setTotalTime(0);
     setQuestions([]);
+    setCurrentStreak(0);
   }, []);
 
   const calculateScore = () =>
@@ -111,6 +185,7 @@ const Quiz = ({ onClose }) => {
   };
 
   const timerWarning = !isSetupPhase && !showResults && timeLeft > 0 && timeLeft <= 300;
+  const timerProgress = totalTime > 0 ? (timeLeft / totalTime) * 100 : 100;
 
   return (
     <div className="app-container quiz-main-container">
@@ -123,6 +198,9 @@ const Quiz = ({ onClose }) => {
                 {' '}[ Tiempo: {formatTime(timeLeft)} ]
               </span>
             )}
+            {!isSetupPhase && !showResults && currentStreak >= 3 && (
+              <span style={{ color: '#ffcc00' }}> 🔥{currentStreak}</span>
+            )}
           </div>
           <div className="title-bar-controls">
             <button className="title-bar-btn">_</button>
@@ -130,6 +208,19 @@ const Quiz = ({ onClose }) => {
             <button className="title-bar-btn" onClick={onClose}>X</button>
           </div>
         </div>
+
+        {/* Timer progress bar */}
+        {!isSetupPhase && !showResults && (
+          <div className="quiz-timer-track">
+            <div
+              className="quiz-timer-fill"
+              style={{
+                width: `${timerProgress}%`,
+                background: timerWarning ? '#ff4444' : timerProgress < 50 ? '#ff9800' : '#4caf50',
+              }}
+            />
+          </div>
+        )}
 
         <div className="window-body">
           {isSetupPhase ? (

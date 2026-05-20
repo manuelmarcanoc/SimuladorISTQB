@@ -205,8 +205,10 @@ const CHAPTERS = [
           'Documenta: alcance, enfoque, recursos, cronograma, riesgos.',
           'Criterios de entrada (ENTRY): condiciones para empezar a probar.',
           'Criterios de salida (EXIT): condiciones para dar por terminado el testing.',
-          'Estrategias: analítica (basada en riesgos), metódica, reactiva, consultiva...',
+          'Estrategias: analítica (basada en riesgos), metódica, reactiva, consultiva, basada en modelo.',
+          'Test Plan vs. Test Strategy: el plan es para un proyecto/fase; la estrategia define el enfoque general.',
         ],
+        exam: 'Diferenciar criterios de entrada/salida y elegir la estrategia adecuada al contexto.',
       },
       {
         heading: 'Estimación de Esfuerzo',
@@ -288,7 +290,15 @@ const CHAPTERS = [
   },
 ];
 
-const StudyNotes = ({ onClose }) => {
+const EXAM_OVERVIEW = [
+  '40 preguntas de opción múltiple, 65 minutos, puntuación mínima 65% (26 aciertos).',
+  'No hay penalización por fallar: responde todas las preguntas.',
+  'Lee el enunciado completo antes de mirar las opciones; muchas trampas están en el detalle.',
+  'Si dudas entre dos opciones, descarta primero las claramente incorrectas.',
+  'Los capítulos 1, 4 y 5 suelen concentrar más preguntas: priorízalos en el repaso.',
+];
+
+const StudyNotes = () => {
   const [selectedChapter, setSelectedChapter] = useState(null);
 
   const chapter = CHAPTERS.find(c => c.id === selectedChapter);
@@ -315,12 +325,20 @@ const StudyNotes = ({ onClose }) => {
         ))}
       </div>
 
+      <div className="notes-intro-panel">
+        <h3>Examen ISTQB Foundation Level v4.0</h3>
+        <ul>
+          {EXAM_OVERVIEW.map((tip, i) => (
+            <li key={i}>{tip}</li>
+          ))}
+        </ul>
+      </div>
+
       {!chapter && (
-        <div style={{ textAlign: 'center', padding: '2rem', color: '#555' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>📚</div>
-          <p style={{ fontSize: '1rem' }}>Selecciona un capítulo para ver los apuntes clave.</p>
-          <p style={{ fontSize: '0.85rem', marginTop: '0.5rem' }}>
-            Contiene resúmenes por tema e indicaciones de <strong>qué suele preguntarse en el examen</strong>.
+        <div className="notes-empty-state">
+          <p>Selecciona un capítulo para ver los apuntes clave del syllabus.</p>
+          <p className="notes-sub">
+            Cada sección incluye conceptos esenciales y un bloque <strong>En el examen</strong> con lo que más suele evaluarse.
           </p>
         </div>
       )}
@@ -343,8 +361,8 @@ const StudyNotes = ({ onClose }) => {
                 ))}
               </ul>
               {section.exam && (
-                <div style={{ marginTop: '6px', background: '#fffbcc', border: '1px solid #e6c700', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '2px' }}>
-                  <strong>📝 En el examen:</strong> {section.exam}
+                <div className="notes-exam-tip">
+                  <strong>En el examen:</strong> {section.exam}
                 </div>
               )}
             </div>
