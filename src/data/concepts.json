@@ -1,0 +1,126 @@
+[
+  {
+    "term": "Error (Equivocación)",
+    "definition": "Acción humana que produce un resultado incorrecto."
+  },
+  {
+    "term": "Defecto (Bug / Falta)",
+    "definition": "Imperfección o deficiencia en un producto de trabajo."
+  },
+  {
+    "term": "Falla (Failure)",
+    "definition": "Comportamiento inesperado o incorrecto del software en ejecución."
+  },
+  {
+    "term": "Paradoja del Pesticida",
+    "definition": "Si se repiten las mismas pruebas, eventualmente dejarán de encontrar nuevos defectos."
+  },
+  {
+    "term": "Shift-left",
+    "definition": "Realizar actividades de prueba lo más temprano posible en el ciclo de vida."
+  },
+  {
+    "term": "Pruebas de Componentes",
+    "definition": "Nivel de prueba enfocado en unidades individuales de código aisladas."
+  },
+  {
+    "term": "Pruebas de Integración",
+    "definition": "Nivel enfocado en las interacciones y las interfaces entre componentes o sistemas."
+  },
+  {
+    "term": "Pruebas de Sistema",
+    "definition": "Evaluación del comportamiento y las capacidades de todo el sistema o producto."
+  },
+  {
+    "term": "Pruebas de Aceptación",
+    "definition": "Pruebas realizadas por usuarios para determinar si el sistema satisface sus necesidades."
+  },
+  {
+    "term": "Prueba de Regresión",
+    "definition": "Asegurar que los cambios en el código no hayan afectado funcionalidades existentes."
+  },
+  {
+    "term": "Prueba de Confirmación",
+    "definition": "Volver a probar para verificar que un defecto específico fue corregido."
+  },
+  {
+    "term": "Pruebas Estáticas",
+    "definition": "Evaluar un producto de trabajo (ej. código o requisitos) sin ejecutarlo."
+  },
+  {
+    "term": "Análisis Estático",
+    "definition": "Uso de herramientas (como linters) para encontrar defectos en el código sin ejecución."
+  },
+  {
+    "term": "Revisión Informal",
+    "definition": "Revisión no documentada, sin proceso formal, como el pair programming."
+  },
+  {
+    "term": "Walkthrough (Revisión Guiada)",
+    "definition": "Revisión donde el autor guía al equipo con fines de aprendizaje o consenso."
+  },
+  {
+    "term": "Inspección",
+    "definition": "El tipo de revisión más formal, dirigida por un moderador capacitado."
+  },
+  {
+    "term": "Técnicas de Caja Negra",
+    "definition": "Técnicas de prueba basadas en la especificación, ignorando la estructura interna."
+  },
+  {
+    "term": "Técnicas de Caja Blanca",
+    "definition": "Técnicas de prueba basadas en el conocimiento de la estructura interna del código."
+  },
+  {
+    "term": "Partición de Equivalencia",
+    "definition": "Dividir entradas en clases válidas e inválidas donde el comportamiento se asume igual."
+  },
+  {
+    "term": "Valores Límite (BVA)",
+    "definition": "Probar los extremos numéricos de las particiones donde ocurren más defectos."
+  },
+  {
+    "term": "Tablas de Decisión",
+    "definition": "Útiles para probar reglas de negocio complejas con múltiples condiciones booleanas."
+  },
+  {
+    "term": "Transición de Estado",
+    "definition": "Técnica para modelar y probar sistemas donde las acciones dependen de estados previos."
+  },
+  {
+    "term": "Cobertura de Sentencias",
+    "definition": "Porcentaje de líneas o instrucciones ejecutables que han sido probadas."
+  },
+  {
+    "term": "Error Guessing",
+    "definition": "Técnica basada en la intuición y experiencia del probador para predecir fallos."
+  },
+  {
+    "term": "Plan de Pruebas",
+    "definition": "Documento que describe el alcance, enfoque, recursos y cronograma de las pruebas."
+  },
+  {
+    "term": "Criterios de Salida (Exit Criteria)",
+    "definition": "Condiciones que deben cumplirse para dar por finalizada una actividad de prueba."
+  },
+  {
+    "term": "Criterios de Entrada (Entry Criteria)",
+    "definition": "Condiciones que deben existir antes de que comience una actividad de prueba."
+  },
+  {
+    "term": "Trazabilidad",
+    "definition": "Capacidad de vincular requisitos con sus casos de prueba correspondientes."
+  },
+  {
+    "term": "Gestión de la Configuración",
+    "definition": "Garantiza que se pruebe la versión correcta del software y del entorno."
+  },
+  {
+    "term": "Riesgo de Producto",
+    "definition": "Posibilidad de un defecto en el software que afecte la calidad (ej. vulnerabilidad)."
+  },
+  {
+    "term": "Riesgo de Proyecto",
+    "definition": "Posibilidad de un evento que afecte el desarrollo (ej. pérdida de personal)."
+  }
+]

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Quiz from './components/Quiz';
 import StudyNotes from './components/StudyNotes';
-import Flashcards from './components/Flashcards';
+import ConceptMatch from './components/ConceptMatch';
 import Achievements from './components/Achievements';
 import StatsPanel from './components/StatsPanel';
 import { AchievementPopup } from './components/Achievements';
@@ -31,7 +31,7 @@ function App() {
   const [isApuntesOpen, setIsApuntesOpen] = useState(false);
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [isFlashcardsOpen, setIsFlashcardsOpen] = useState(false);
+  const [isConceptMatchOpen, setIsConceptMatchOpen] = useState(false);
   const [isAchievementsOpen, setIsAchievementsOpen] = useState(false);
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem('istqb_theme') || 'retro');
@@ -65,12 +65,12 @@ function App() {
         <DesktopIcon src={ICONS.apuntes} label="Apuntes" onOpen={() => setIsNotesOpen(true)} />
         <DesktopIcon src={ICONS.pdf} label="Syllabus PDF" onOpen={() => setIsApuntesOpen(true)} />
 
-        {/* Flashcards icon */}
-        <DesktopIcon src={null} label="Tarjetas" onOpen={() => setIsFlashcardsOpen(true)}>
+        {/* ConceptMatch icon */}
+        <DesktopIcon src={null} label="Minijuego" onOpen={() => setIsConceptMatchOpen(true)}>
           <svg viewBox="0 0 32 32" width="40" height="40" fill="currentColor" style={{ color: '#c0c0c0' }}>
-            <rect x="4" y="8" width="20" height="14" rx="2" fill="#fff" stroke="#000" strokeWidth="2"/>
-            <rect x="8" y="4" width="20" height="14" rx="2" fill="#c0c0c0" stroke="#000" strokeWidth="2"/>
-            <text x="14" y="16" fontSize="8" textAnchor="middle" fill="#000080" fontWeight="bold">A?</text>
+            <rect x="4" y="6" width="10" height="8" fill="#fff" stroke="#000" strokeWidth="2"/>
+            <rect x="18" y="18" width="10" height="8" fill="#a8f5a8" stroke="#000" strokeWidth="2"/>
+            <path d="M14 10 L23 10 L23 18" fill="none" stroke="#000" strokeWidth="2" strokeDasharray="4 2"/>
           </svg>
         </DesktopIcon>
 
@@ -123,10 +123,10 @@ function App() {
         </div>
       )}
 
-      {/* Tarjetas Window */}
-      {isFlashcardsOpen && (
+      {/* Tarjetas Window -> now Minijuego */}
+      {isConceptMatchOpen && (
         <div className="desktop-window desktop-window-tarjetas window-open-anim">
-          <Flashcards onClose={() => setIsFlashcardsOpen(false)} onNewAchievements={handleNewAchievements} />
+          <ConceptMatch onClose={() => setIsConceptMatchOpen(false)} onNewAchievements={handleNewAchievements} />
         </div>
       )}
 
@@ -233,9 +233,9 @@ function App() {
               Simulador_ISTQB.exe
             </div>
           )}
-          {isFlashcardsOpen && (
-            <div className="taskbar-app" onClick={() => setIsFlashcardsOpen(true)} role="button" tabIndex={0}>
-              Tarjetas.exe
+          {isConceptMatchOpen && (
+            <div className="taskbar-app" onClick={() => setIsConceptMatchOpen(true)} role="button" tabIndex={0}>
+              Conecta.exe
             </div>
           )}
           {isAchievementsOpen && (
