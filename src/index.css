@@ -1573,3 +1573,196 @@ body {
     font-size: 0.85rem;
   }
 }
+
+/* ============================================================
+   DESKTOP WINDOW - QUEST
+   ============================================================ */
+.desktop-window-quest {
+  top: 16%;
+  left: 60%;
+  transform: translateX(-50%);
+  width: min(800px, 94vw);
+  max-height: 85vh;
+  position: absolute;
+  z-index: 46;
+}
+
+/* ============================================================
+   RPG ADVENTURE GAME STYLES
+   ============================================================ */
+.rpg-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #000;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.rpg-hud {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #555;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.rpg-title {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.rpg-score {
+  color: #a8f5a8;
+}
+
+.rpg-scene {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rpg-character-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rpg-avatar {
+  width: 128px;
+  height: 128px;
+  border: 4px solid #fff;
+  image-rendering: pixelated;
+  background: #222;
+}
+
+.rpg-character-name {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffb347;
+}
+
+.rpg-dialog-box {
+  width: 100%;
+  min-height: 100px;
+  background: #000080;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+  position: relative;
+}
+
+.rpg-dialog-text {
+  margin: 0;
+}
+
+.rpg-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+  transition: opacity 0.3s;
+}
+
+.options-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.options-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.rpg-option-btn {
+  background: #222;
+  border: 2px solid #aaa;
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.rpg-option-btn:hover {
+  background: #444;
+  border-color: #fff;
+}
+
+.rpg-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feedback-correct {
+  color: #a8f5a8;
+}
+
+.feedback-wrong {
+  color: #ff6b6b;
+}
+
+.rpg-btn-next {
+  align-self: flex-end;
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.rpg-btn-next:hover {
+  background: #ddd;
+}
+
+.game-over-screen {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rpg-score-final {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin: 20px 0;
+}
+
+.rpg-desc {
+  max-width: 600px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.rpg-btn-primary {
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.rpg-btn-primary:hover {
+  background: #e6b800;
+}
+
+.shake-anim {
+  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}

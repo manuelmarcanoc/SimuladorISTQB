@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "character": "dev",
+    "characterName": "Dani (Desarrollador)",
+    "dialogue": "¡He terminado el módulo de pagos! Lo he probado yo mismo un par de veces y funciona perfecto. No creo que haga falta que lo mire QA, ¿lo pasamos a producción ya?",
+    "options": [
+      {
+        "text": "Claro, si el desarrollador dice que funciona, nos ahorramos tiempo y dinero.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! Recuerda el concepto de INDEPENDENCIA en el testing. Los autores tienen un sesgo cognitivo que les impide ver sus propios defectos."
+      },
+      {
+        "text": "No, debemos mantener la independencia del testing. Alguien distinto al autor debe revisar el código para evitar el sesgo de confirmación.",
+        "isCorrect": true,
+        "feedback": "¡Correcto! La independencia ayuda a detectar defectos que el autor original no pudo ver debido al sesgo de confirmación."
+      },
+      {
+        "text": "Solo lo pasamos a producción si firmas un documento asumiendo toda la responsabilidad de los bugs.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! El enfoque ISTQB fomenta el 'whole-team approach' (equipo completo). Todos somos responsables de la calidad, no se trata de buscar culpables."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "character": "pm",
+    "characterName": "Jefa de Proyecto (PM)",
+    "dialogue": "Tenemos el despliegue en 2 horas. Es una actualización crítica del sistema médico. Necesito que pruebes absolutamente TODOS los flujos posibles y todas las combinaciones de datos.",
+    "options": [
+      {
+        "text": "Entendido. Me quedaré toda la noche si es necesario para garantizar que no haya ni un solo defecto.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! Recuerda que 'Las pruebas exhaustivas son imposibles' y la 'Falacia de ausencia de defectos'."
+      },
+      {
+        "text": "Las pruebas exhaustivas son imposibles. Debemos usar el análisis de RIESGOS y priorizar los flujos más críticos para el paciente.",
+        "isCorrect": true,
+        "feedback": "¡Exacto! Principio 2 del ISTQB: Las pruebas exhaustivas son imposibles. Siempre debemos probar basados en el riesgo y la prioridad."
+      },
+      {
+        "text": "Eso corresponde a las Pruebas de Aceptación (UAT), así que deberías llamar al cliente para que lo haga él.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! El cliente hace el UAT, pero la responsabilidad técnica y funcional sigue siendo nuestra antes de soltar el release."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "character": "client",
+    "characterName": "Cliente VIP",
+    "dialogue": "Acabáis de entregarme la aplicación. Funciona sin bugs y el código es súper rápido. Pero... le falta el botón de 'Exportar a PDF' que pedí expresamente hace 3 meses. ¡Esto no me sirve!",
+    "options": [
+      {
+        "text": "Le mostraremos el reporte de cobertura de código al 100%. Técnicamente el software es perfecto.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! Al cliente no le importan tus métricas de caja blanca si la app no hace lo que necesita."
+      },
+      {
+        "text": "Esto demuestra el principio: 'El testing muestra la presencia de defectos, no su ausencia'.",
+        "isCorrect": false,
+        "feedback": "¡Casi! Pero hay un principio mejor para esto: La falacia de la ausencia de defectos."
+      },
+      {
+        "text": "Esta es la 'Falacia de ausencia de defectos'. Un software sin bugs es inútil si no cumple las necesidades y expectativas reales del usuario.",
+        "isCorrect": true,
+        "feedback": "¡Perfecto! El principio 7 nos advierte que eliminar defectos no sirve de nada si el sistema no cumple los requisitos del negocio."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "character": "dev",
+    "characterName": "Dani (Desarrollador)",
+    "dialogue": "Oye, sigo ejecutando tu misma suite de 50 tests automáticos cada día desde hace un año y ya nunca encuentran ningún fallo. ¡Significa que mi código es indestructible!",
+    "options": [
+      {
+        "text": "Esto es la 'Paradoja del Pesticida'. Si siempre corres los mismos tests, dejarán de encontrar nuevos bugs. Hay que revisar y actualizar los casos de prueba.",
+        "isCorrect": true,
+        "feedback": "¡Bravo! Principio 5: Los tests deben rotarse y actualizarse porque el software (y sus defectos) cambian y mutan."
+      },
+      {
+        "text": "Significa que hemos alcanzado el criterio de salida (Exit Criteria) y podemos dejar de probar este módulo para siempre.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! Nunca dejas de probar 'para siempre' si el software sigue en evolución."
+      },
+      {
+        "text": "Es culpa tuya por programar usando TDD en lugar de Cascada.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! TDD (Test-Driven Development) suele mejorar la calidad, no tiene nada que ver con esto."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "character": "pm",
+    "characterName": "Jefa de Proyecto (PM)",
+    "dialogue": "El cliente acaba de pedir un cambio en el cálculo de impuestos. Dani (Dev) dice que es solo cambiar un 'if' y tarda 5 minutos. ¿Necesitamos probar algo más?",
+    "options": [
+      {
+        "text": "Si es solo un 'if', con una prueba de confirmación (re-test) de ese if es suficiente.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! ¿Y si ese 'if' rompe los cálculos en otra parte del sistema?"
+      },
+      {
+        "text": "Debemos hacer un 'Análisis de Impacto' para ver qué otras áreas afecta, y luego ejecutar Pruebas de Regresión.",
+        "isCorrect": true,
+        "feedback": "¡Correcto! En las Pruebas de Mantenimiento, el análisis de impacto es vital para saber cuánta regresión es necesaria."
+      },
+      {
+        "text": "Hay que repetir todas las pruebas de Aceptación Operacional (OAT) desde cero.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! La OAT verifica infraestructura y backups, un cambio funcional de impuestos no requiere rehacer toda la OAT."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "character": "client",
+    "characterName": "Cliente VIP",
+    "dialogue": "No entiendo vuestros reportes... ¿Qué significa que tenemos un '95% de cobertura de ramas' y '12 bugs críticos en la API'? A mí solo me importa si puedo lanzar la tienda online mañana.",
+    "options": [
+      {
+        "text": "Deberías enviarle a nuestro equipo de DevOps para que le explique la métrica de ramas.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! El cliente no necesita clases técnicas, necesita entender el estado de calidad de SU producto."
+      },
+      {
+        "text": "Tienes razón. Para los stakeholders del negocio, las métricas técnicas no sirven. Debemos reportar la cobertura funcional y los riesgos de producto residuales.",
+        "isCorrect": true,
+        "feedback": "¡Exacto! ISTQB enfatiza que los reportes de prueba deben adaptarse a la audiencia. Al negocio le importan los riesgos, no las ramas de código."
+      },
+      {
+        "text": "Significa que la calidad es muy alta porque superamos el 90% en la pirámide de pruebas.",
+        "isCorrect": false,
+        "feedback": "¡Incorrecto! 12 bugs críticos impiden lanzar la tienda, sin importar el porcentaje de cobertura técnica."
+      }
+    ]
+  }
+]

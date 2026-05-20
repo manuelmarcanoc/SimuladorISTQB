@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Quiz from './components/Quiz';
 import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
+import ScenarioAdventure from './components/ScenarioAdventure';
 import Achievements from './components/Achievements';
 import StatsPanel from './components/StatsPanel';
 import { AchievementPopup } from './components/Achievements';
@@ -32,6 +33,7 @@ function App() {
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isConceptMatchOpen, setIsConceptMatchOpen] = useState(false);
+  const [isQuestOpen, setIsQuestOpen] = useState(false);
   const [isAchievementsOpen, setIsAchievementsOpen] = useState(false);
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem('istqb_theme') || 'retro');
@@ -71,6 +73,14 @@ function App() {
             <rect x="4" y="6" width="10" height="8" fill="#fff" stroke="#000" strokeWidth="2"/>
             <rect x="18" y="18" width="10" height="8" fill="#a8f5a8" stroke="#000" strokeWidth="2"/>
             <path d="M14 10 L23 10 L23 18" fill="none" stroke="#000" strokeWidth="2" strokeDasharray="4 2"/>
+          </svg>
+        </DesktopIcon>
+
+        {/* Quest icon */}
+        <DesktopIcon src={null} label="Aventura ISTQB" onOpen={() => setIsQuestOpen(true)}>
+          <svg viewBox="0 0 32 32" width="40" height="40" fill="currentColor" style={{ color: '#c0c0c0' }}>
+            <path d="M16 4 L28 10 L28 22 L16 28 L4 22 L4 10 Z" fill="#ff6b6b" stroke="#000" strokeWidth="2"/>
+            <circle cx="16" cy="16" r="4" fill="#fff" stroke="#000" strokeWidth="2"/>
           </svg>
         </DesktopIcon>
 
@@ -127,6 +137,23 @@ function App() {
       {isConceptMatchOpen && (
         <div className="desktop-window desktop-window-tarjetas window-open-anim">
           <ConceptMatch onClose={() => setIsConceptMatchOpen(false)} onNewAchievements={handleNewAchievements} />
+        </div>
+      )}
+
+      {/* Quest RPG Window */}
+      {isQuestOpen && (
+        <div className="desktop-window desktop-window-quest window-open-anim">
+          <div className="retro-window" style={{ height: '100%', maxHeight: '86vh' }}>
+            <div className="title-bar">
+              <span className="title-bar-text">Quest.exe</span>
+              <div className="title-bar-controls">
+                <button type="button" className="title-bar-btn" aria-label="Cerrar" onClick={() => setIsQuestOpen(false)}>X</button>
+              </div>
+            </div>
+            <div className="window-body" style={{ padding: 0, display: 'flex', flexDirection: 'column' }}>
+              <ScenarioAdventure onClose={() => setIsQuestOpen(false)} />
+            </div>
+          </div>
         </div>
       )}
 
@@ -236,6 +263,11 @@ function App() {
           {isConceptMatchOpen && (
             <div className="taskbar-app" onClick={() => setIsConceptMatchOpen(true)} role="button" tabIndex={0}>
               Conecta.exe
+            </div>
+          )}
+          {isQuestOpen && (
+            <div className="taskbar-app" onClick={() => setIsQuestOpen(true)} role="button" tabIndex={0}>
+              Quest.exe
             </div>
           )}
           {isAchievementsOpen && (
