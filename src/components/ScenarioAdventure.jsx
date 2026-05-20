@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import scenariosData from '../data/scenarios.json';
 
 const RPG_AVATARS = {
-  dev: '/avatars/dev.png',
-  pm: '/avatars/pm.png',
-  client: '/avatars/client.png'
+  dev: process.env.PUBLIC_URL + '/avatars/dev.png',
+  pm: process.env.PUBLIC_URL + '/avatars/pm.png',
+  client: process.env.PUBLIC_URL + '/avatars/client.png'
 };
 
 const ScenarioAdventure = ({ onClose }) => {

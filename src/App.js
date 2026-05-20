@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import Draggable from 'react-draggable';
 import Quiz from './components/Quiz';
 import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
@@ -128,47 +129,57 @@ function App() {
 
       {/* Quiz Window */}
       {isQuizOpen && (
-        <div className="quiz-wrapper window-open-anim" style={{ zIndex: 30 }}>
-          <Quiz onClose={() => setIsQuizOpen(false)} onNewAchievements={handleNewAchievements} />
-        </div>
+        <Draggable handle=".title-bar">
+          <div className="quiz-wrapper window-open-anim" style={{ zIndex: 30 }}>
+            <Quiz onClose={() => setIsQuizOpen(false)} onNewAchievements={handleNewAchievements} />
+          </div>
+        </Draggable>
       )}
 
-      {/* Tarjetas Window -> now Minijuego */}
+      {/* Minijuego Window */}
       {isConceptMatchOpen && (
-        <div className="desktop-window desktop-window-tarjetas window-open-anim">
-          <ConceptMatch onClose={() => setIsConceptMatchOpen(false)} onNewAchievements={handleNewAchievements} />
-        </div>
+        <Draggable handle=".title-bar">
+          <div className="desktop-window desktop-window-tarjetas window-open-anim">
+            <ConceptMatch onClose={() => setIsConceptMatchOpen(false)} onNewAchievements={handleNewAchievements} />
+          </div>
+        </Draggable>
       )}
 
       {/* Quest RPG Window */}
       {isQuestOpen && (
-        <div className="desktop-window desktop-window-quest window-open-anim">
-          <div className="retro-window" style={{ height: '100%', maxHeight: '86vh' }}>
-            <div className="title-bar">
-              <span className="title-bar-text">Quest.exe</span>
-              <div className="title-bar-controls">
-                <button type="button" className="title-bar-btn" aria-label="Cerrar" onClick={() => setIsQuestOpen(false)}>X</button>
+        <Draggable handle=".title-bar">
+          <div className="desktop-window desktop-window-quest window-open-anim">
+            <div className="retro-window" style={{ height: '100%', maxHeight: '86vh' }}>
+              <div className="title-bar" style={{ cursor: 'grab' }}>
+                <span className="title-bar-text">Quest.exe</span>
+                <div className="title-bar-controls">
+                  <button type="button" className="title-bar-btn" aria-label="Cerrar" onClick={() => setIsQuestOpen(false)}>X</button>
+                </div>
+              </div>
+              <div className="window-body" style={{ padding: 0, display: 'flex', flexDirection: 'column' }}>
+                <ScenarioAdventure onClose={() => setIsQuestOpen(false)} />
               </div>
             </div>
-            <div className="window-body" style={{ padding: 0, display: 'flex', flexDirection: 'column' }}>
-              <ScenarioAdventure onClose={() => setIsQuestOpen(false)} />
-            </div>
           </div>
-        </div>
+        </Draggable>
       )}
 
       {/* Logros Window */}
       {isAchievementsOpen && (
-        <div className="desktop-window desktop-window-logros window-open-anim">
-          <Achievements onClose={() => setIsAchievementsOpen(false)} />
-        </div>
+        <Draggable handle=".title-bar">
+          <div className="desktop-window desktop-window-logros window-open-anim">
+            <Achievements onClose={() => setIsAchievementsOpen(false)} />
+          </div>
+        </Draggable>
       )}
 
       {/* Estadísticas Window */}
       {isStatsOpen && (
-        <div className="desktop-window desktop-window-estadisticas window-open-anim">
-          <StatsPanel onClose={() => setIsStatsOpen(false)} />
-        </div>
+        <Draggable handle=".title-bar">
+          <div className="desktop-window desktop-window-estadisticas window-open-anim">
+            <StatsPanel onClose={() => setIsStatsOpen(false)} />
+          </div>
+        </Draggable>
       )}
 
       {/* Notes Window */}
@@ -192,61 +203,63 @@ function App() {
 
       {/* PDF Window */}
       {isApuntesOpen && (
-        <div className="desktop-window desktop-window-pdf window-open-anim">
-          <div className="retro-window">
-            <div className="title-bar">
-              <div className="title-bar-text">C:\Syllabus_ISTQB_v4.0</div>
-              <div className="title-bar-controls">
-                <button type="button" className="title-bar-btn" onClick={() => setIsApuntesOpen(false)}>_</button>
-                <button type="button" className="title-bar-btn">□</button>
-                <button type="button" className="title-bar-btn" onClick={() => setIsApuntesOpen(false)}>X</button>
+        <Draggable handle=".title-bar">
+          <div className="desktop-window desktop-window-pdf window-open-anim">
+            <div className="retro-window">
+              <div className="title-bar" style={{ cursor: 'grab' }}>
+                <div className="title-bar-text">C:\Syllabus_ISTQB_v4.0</div>
+                <div className="title-bar-controls">
+                  <button type="button" className="title-bar-btn" onClick={() => setIsApuntesOpen(false)}>X</button>
+                </div>
+              </div>
+              <div className="window-body pdf-window-body">
+                <a href={process.env.PUBLIC_URL + '/Apuntes_ISTQB.pdf'} download="Syllabus_ISTQB_v4.pdf" className="pdf-download-link">
+                  <div className="icon pdf-file-icon">
+                    <img src={ICONS.pdf} alt="" className="icon-img vintage-icon" draggable={false} />
+                    <span className="pdf-file-label">Syllabus_Oficial.pdf</span>
+                  </div>
+                </a>
+                <p className="pdf-hint">Descarga el syllabus oficial ISTQB CTFL v4.0 para consultar durante el estudio.</p>
               </div>
             </div>
-            <div className="window-body pdf-window-body">
-              <a href={process.env.PUBLIC_URL + '/Apuntes_ISTQB.pdf'} download="Syllabus_ISTQB_v4.pdf" className="pdf-download-link">
-                <div className="icon pdf-file-icon">
-                  <img src={ICONS.pdf} alt="" className="icon-img vintage-icon" draggable={false} />
-                  <span className="pdf-file-label">Syllabus_Oficial.pdf</span>
-                </div>
-              </a>
-              <p className="pdf-hint">Descarga el syllabus oficial ISTQB CTFL v4.0 para consultar durante el estudio.</p>
-            </div>
           </div>
-        </div>
+        </Draggable>
       )}
 
       {/* Settings Window */}
       {isSettingsOpen && (
-        <div className="desktop-window desktop-window-settings window-open-anim">
-          <div className="retro-window">
-            <div className="title-bar">
-              <div className="title-bar-text">Panel de Control</div>
-              <div className="title-bar-controls">
-                <button type="button" className="title-bar-btn" onClick={() => setIsSettingsOpen(false)}>X</button>
+        <Draggable handle=".title-bar">
+          <div className="desktop-window desktop-window-settings window-open-anim">
+            <div className="retro-window">
+              <div className="title-bar" style={{ cursor: 'grab' }}>
+                <div className="title-bar-text">Panel de Control</div>
+                <div className="title-bar-controls">
+                  <button type="button" className="title-bar-btn" onClick={() => setIsSettingsOpen(false)}>X</button>
+                </div>
               </div>
-            </div>
-            <div className="window-body">
-              <h3 style={{ marginTop: 0 }}>Apariencia</h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                <label style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <input type="radio" name="theme" value="retro" checked={theme === 'retro'} onChange={() => setTheme('retro')} />
-                  Estilo Retro (Windows 95)
-                </label>
-                <label style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <input type="radio" name="theme" value="modern" checked={theme === 'modern'} onChange={() => setTheme('modern')} />
-                  Estilo Moderno (Limpio)
-                </label>
-              </div>
-              <p className="settings-about">
-                Simulador ISTQB Foundation Level v4.0<br />
-                Desarrollado por <strong>Vibbe Labs</strong>
-              </p>
-              <div style={{ marginTop: '20px', textAlign: 'right' }}>
-                <button type="button" className="btn" onClick={() => setIsSettingsOpen(false)} style={{ width: 'auto' }}>Aceptar</button>
+              <div className="window-body">
+                <h3 style={{ marginTop: 0 }}>Apariencia</h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  <label style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <input type="radio" name="theme" value="retro" checked={theme === 'retro'} onChange={() => setTheme('retro')} />
+                    Estilo Retro (Windows 95)
+                  </label>
+                  <label style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <input type="radio" name="theme" value="modern" checked={theme === 'modern'} onChange={() => setTheme('modern')} />
+                    Estilo Moderno (Limpio)
+                  </label>
+                </div>
+                <p className="settings-about">
+                  Simulador ISTQB Foundation Level v4.0<br />
+                  Desarrollado por <strong>Vibbe Labs</strong>
+                </p>
+                <div style={{ marginTop: '20px', textAlign: 'right' }}>
+                  <button type="button" className="btn" onClick={() => setIsSettingsOpen(false)} style={{ width: 'auto' }}>Aceptar</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Draggable>
       )}
 
       {/* Taskbar */}
