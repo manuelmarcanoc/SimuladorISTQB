@@ -1368,3 +1368,83 @@ body {
     min-height: 200px;
   }
 }
+
+/* ============================================================
+   DESKTOP WINDOW POSITIONS — Tarjetas, Logros, Estadísticas
+   ============================================================ */
+.desktop-window-tarjetas {
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(740px, 92vw);
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 40;
+}
+
+.desktop-window-logros {
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(640px, 92vw);
+  max-height: 86vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 41;
+}
+
+.desktop-window-estadisticas {
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(880px, 96vw);
+  max-height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 42;
+}
+
+/* Flashcard window fills its container */
+.flashcard-window-frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flashcard-window-body {
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* Achievements/Stats fill their container */
+.desktop-window-logros .retro-window,
+.desktop-window-estadisticas .retro-window {
+  height: 100%;
+  max-height: 86vh;
+}
+
+/* Desktop icons — reduce gap so 7 fit vertically */
+.desktop-icons {
+  gap: 18px;
+}
+
+/* ============================================================
+   MOBILE — new windows go fullscreen on small screens
+   ============================================================ */
+@media (max-width: 600px) {
+  .desktop-window-tarjetas,
+  .desktop-window-logros,
+  .desktop-window-estadisticas {
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    max-height: none;
+  }
+}

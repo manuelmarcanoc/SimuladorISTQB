@@ -1,0 +1,4 @@
+cd C:\Users\Manuel\Documents\ISTQB_Test\istqb-quiz
+git add -A
+git commit -m "fix: ventanas PC como escritorio real, todo en español" -m "- Tarjetas/Logros/Estadísticas ahora son ventanas flotantes absolutas (tipo W95)" -m "- Eliminado el overlay fullscreen que hacía parecer la app solo para movil" -m "- Renombrado: Flashcards→Tarjetas, Stats→Estadísticas en iconos y taskbar" -m "- Tarjetas.exe: refactorizado a ventana única con estados condicionales internos" -m "- Logros/Estadísticas: eliminado wrapper externo, ahora fills su desktop-window" -m "- CSS: .desktop-window-tarjetas/logros/estadisticas con posicion centrada PC" -m "- Mobile: nuevas ventanas siguen siendo fullscreen en pantallas pequeñas" -m "- Icono desktop-icons gap reducido de 30px a 18px para caber 7 iconos"
+git push origin main

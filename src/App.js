@@ -66,7 +66,7 @@ function App() {
         <DesktopIcon src={ICONS.pdf} label="Syllabus PDF" onOpen={() => setIsApuntesOpen(true)} />
 
         {/* Flashcards icon */}
-        <DesktopIcon src={null} label="Flashcards" onOpen={() => setIsFlashcardsOpen(true)}>
+        <DesktopIcon src={null} label="Tarjetas" onOpen={() => setIsFlashcardsOpen(true)}>
           <svg viewBox="0 0 32 32" width="40" height="40" fill="currentColor" style={{ color: '#c0c0c0' }}>
             <rect x="4" y="8" width="20" height="14" rx="2" fill="#fff" stroke="#000" strokeWidth="2"/>
             <rect x="8" y="4" width="20" height="14" rx="2" fill="#c0c0c0" stroke="#000" strokeWidth="2"/>
@@ -82,7 +82,7 @@ function App() {
         </DesktopIcon>
 
         {/* Stats icon */}
-        <DesktopIcon src={null} label="Stats" onOpen={() => setIsStatsOpen(true)}>
+        <DesktopIcon src={null} label="Estadísticas" onOpen={() => setIsStatsOpen(true)}>
           <svg viewBox="0 0 32 32" width="40" height="40" fill="currentColor" style={{ color: '#c0c0c0' }}>
             <rect x="4" y="18" width="5" height="10" fill="#000080"/>
             <rect x="11" y="12" width="5" height="16" fill="#000080"/>
@@ -123,23 +123,23 @@ function App() {
         </div>
       )}
 
-      {/* Flashcards Window */}
+      {/* Tarjetas Window */}
       {isFlashcardsOpen && (
-        <div className="quiz-wrapper window-open-anim" style={{ zIndex: 31 }}>
+        <div className="desktop-window desktop-window-tarjetas window-open-anim">
           <Flashcards onClose={() => setIsFlashcardsOpen(false)} onNewAchievements={handleNewAchievements} />
         </div>
       )}
 
-      {/* Achievements Window */}
+      {/* Logros Window */}
       {isAchievementsOpen && (
-        <div className="quiz-wrapper window-open-anim" style={{ zIndex: 32 }}>
+        <div className="desktop-window desktop-window-logros window-open-anim">
           <Achievements onClose={() => setIsAchievementsOpen(false)} />
         </div>
       )}
 
-      {/* Stats Window */}
+      {/* Estadísticas Window */}
       {isStatsOpen && (
-        <div className="quiz-wrapper window-open-anim" style={{ zIndex: 33 }}>
+        <div className="desktop-window desktop-window-estadisticas window-open-anim">
           <StatsPanel onClose={() => setIsStatsOpen(false)} />
         </div>
       )}
@@ -235,7 +235,7 @@ function App() {
           )}
           {isFlashcardsOpen && (
             <div className="taskbar-app" onClick={() => setIsFlashcardsOpen(true)} role="button" tabIndex={0}>
-              Flashcards.exe
+              Tarjetas.exe
             </div>
           )}
           {isAchievementsOpen && (
@@ -245,7 +245,7 @@ function App() {
           )}
           {isStatsOpen && (
             <div className="taskbar-app" onClick={() => setIsStatsOpen(true)} role="button" tabIndex={0}>
-              Stats.exe
+              Estadísticas.exe
             </div>
           )}
           {isNotesOpen && (

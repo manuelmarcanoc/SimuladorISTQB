@@ -140,54 +140,52 @@ const Achievements = ({ onClose }) => {
   const [unlocked] = useState(() => loadAchievements());
 
   return (
-    <div className="app-container quiz-main-container" style={{ alignItems: 'flex-start', paddingTop: '20px' }}>
-      <div className="retro-window quiz-window">
-        <div className="title-bar">
-          <div className="title-bar-text">🏆 Logros — Simulador ISTQB</div>
-          <div className="title-bar-controls">
-            <button className="title-bar-btn">_</button>
-            <button className="title-bar-btn">□</button>
-            <button className="title-bar-btn" onClick={onClose}>X</button>
-          </div>
+    <div className="retro-window" style={{ display: 'flex', flexDirection: 'column', maxHeight: '100%' }}>
+      <div className="title-bar">
+        <div className="title-bar-text">🏆 Logros — Simulador ISTQB</div>
+        <div className="title-bar-controls">
+          <button className="title-bar-btn">_</button>
+          <button className="title-bar-btn">□</button>
+          <button className="title-bar-btn" onClick={onClose}>X</button>
         </div>
-        <div className="window-body">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-            <h2 className="question-text" style={{ margin: 0 }}>Mis Logros</h2>
-            <span style={{ fontSize: '1rem', color: '#555' }}>
-              {unlocked.length}/{ACHIEVEMENTS_CONFIG.length} desbloqueados
-            </span>
-          </div>
+      </div>
+      <div className="window-body" style={{ overflowY: 'auto', flex: 1 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+          <h2 className="question-text" style={{ margin: 0 }}>Mis Logros</h2>
+          <span style={{ fontSize: '1rem', color: '#555' }}>
+            {unlocked.length}/{ACHIEVEMENTS_CONFIG.length} desbloqueados
+          </span>
+        </div>
 
-          <div className="achievements-grid">
-            {ACHIEVEMENTS_CONFIG.map((ach) => {
-              const isUnlocked = unlocked.includes(ach.id);
-              return (
-                <div key={ach.id} className={`achievement-card ${isUnlocked ? 'achievement-unlocked' : 'achievement-locked'}`}>
-                  <div className="achievement-icon">{isUnlocked ? ach.icon : '🔒'}</div>
-                  <div className="achievement-info">
-                    <div className="achievement-title">{ach.title}</div>
-                    <div className="achievement-desc">{isUnlocked ? ach.description : '???'}</div>
-                  </div>
+        <div className="achievements-grid">
+          {ACHIEVEMENTS_CONFIG.map((ach) => {
+            const isUnlocked = unlocked.includes(ach.id);
+            return (
+              <div key={ach.id} className={`achievement-card ${isUnlocked ? 'achievement-unlocked' : 'achievement-locked'}`}>
+                <div className="achievement-icon">{isUnlocked ? ach.icon : '🔒'}</div>
+                <div className="achievement-info">
+                  <div className="achievement-title">{ach.title}</div>
+                  <div className="achievement-desc">{isUnlocked ? ach.description : '???'}</div>
                 </div>
-              );
-            })}
-          </div>
-
-          <div style={{ marginTop: '1.5rem', borderTop: '1px solid #aaa', paddingTop: '1rem' }}>
-            <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', fontSize: '1rem' }}>Estadísticas Globales:</p>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px', fontSize: '0.95rem' }}>
-              <span>Total respondidas:</span><span><strong>{stats.totalAnswered}</strong></span>
-              <span>Total correctas:</span><span><strong>{stats.totalCorrect}</strong></span>
-              <span>Simulaciones:</span><span><strong>{stats.totalExams}</strong></span>
-              <span>Aprobadas:</span><span><strong>{stats.passedExams}</strong></span>
-              <span>Perfectas (100%):</span><span><strong>{stats.perfectExams}</strong></span>
-              <span>Mejor racha:</span><span><strong>{stats.bestStreak} ⚡</strong></span>
-              <span>Flashcards completadas:</span><span><strong>{stats.flashcardsCompleted}</strong></span>
-            </div>
-          </div>
-
-          <button className="btn" style={{ marginTop: '1rem' }} onClick={onClose}>[ Cerrar ]</button>
+              </div>
+            );
+          })}
         </div>
+
+        <div style={{ marginTop: '1.5rem', borderTop: '1px solid #aaa', paddingTop: '1rem' }}>
+          <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', fontSize: '1rem' }}>Estadísticas Globales:</p>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px', fontSize: '0.95rem' }}>
+            <span>Total respondidas:</span><span><strong>{stats.totalAnswered}</strong></span>
+            <span>Total correctas:</span><span><strong>{stats.totalCorrect}</strong></span>
+            <span>Simulaciones:</span><span><strong>{stats.totalExams}</strong></span>
+            <span>Aprobadas:</span><span><strong>{stats.passedExams}</strong></span>
+            <span>Perfectas (100%):</span><span><strong>{stats.perfectExams}</strong></span>
+            <span>Mejor racha:</span><span><strong>{stats.bestStreak} ⚡</strong></span>
+            <span>Tarjetas completadas:</span><span><strong>{stats.flashcardsCompleted}</strong></span>
+          </div>
+        </div>
+
+        <button className="btn" style={{ marginTop: '1rem' }} onClick={onClose}>[ Cerrar ]</button>
       </div>
     </div>
   );
