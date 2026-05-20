@@ -5758,15 +5758,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "easy",
-    "question": "Which participant in the review process is responsible for ensuring that the review meetings run effectively and that everyone at the meetings can voice their opinions freely?",
+    "question": "¿Qué participante en el proceso de revisión es responsable de asegurar que las reuniones de revisión se desarrollen eficazmente y que todos puedan expresar sus opiniones libremente?",
     "options": [
-      "A) Manager",
-      "B) Moderator",
-      "C) Chairperson",
-      "D) Review Leader"
+      "A) Gerente",
+      "B) Moderador",
+      "C) Presidente",
+      "D) Líder de Revisión"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#18, LO: FL-3.2.3). Justificación: Moderator",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#18, LO: FL-3.2.3). Justificación: Moderador",
     "source": "Official Sample Exam D Q#18"
   },
   {
@@ -5774,15 +5774,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "You perform system testing of an e-commerce web application and are provided with the following requirement: REQ 05-017. If the total cost of purchases exceeds $100, the customer gets a 5% discount on subsequent purchases. Otherwise, the customer does not receive a discount. Which test techniques will be MOST helpful in designing test cases based on this requirement?",
+    "question": "Realizas pruebas de sistema de una aplicación web de comercio electrónico y se te proporciona el siguiente requisito: REQ 05-017. Si el costo total de las compras supera los $100, el cliente obtiene un 5% de descuento en compras posteriores. De lo contrario, el cliente no recibe ningún descuento. ¿Qué técnicas de prueba serán MÁS útiles para diseñar casos de prueba basados en este requisito?",
     "options": [
-      "A) White-box test techniques",
-      "B) Black-box test techniques",
-      "C) Experience-based test techniques",
-      "D) Risk-based test techniques"
+      "A) Técnicas de prueba de caja blanca",
+      "B) Técnicas de prueba de caja negra",
+      "C) Técnicas basadas en la experiencia",
+      "D) Técnicas de prueba basadas en riesgos"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#19, LO: FL-4.1.1). Justificación: Black-box test techniques",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#19, LO: FL-4.1.1). Justificación: Técnicas de prueba de caja negra",
     "source": "Official Sample Exam D Q#19"
   },
   {
@@ -5790,16 +5790,16 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "The system for selling cinema tickets calculates the discount type based on the client’s birth year (BY) and on the current year (CY) as follows: Let D be the difference between CY and BY, that is, D = CY – BY • If D < 0 then print the error message “birth year cannot be greater than current year” • If 0 ≤ D < 18 then apply the student discount • If 18 ≤ D < 65 then apply no discount • If D ≥ 65 then apply the pensioner discount Your test suite already contains two test cases: • BY = 1990, CY = 2020, expected result: no discount • BY = 2030, CY = 2029, expected result: print the error message Which of the following test data sets should be added to achieve full valid equivalence partitioning coverage for the discount type?",
+    "question": "El sistema de venta de entradas de cine calcula el tipo de descuento basado en el año de nacimiento (AN) del cliente y en el año actual (AA) de la siguiente manera: Sea D la diferencia entre AA y AN, es decir, D = AA – AN. • Si D < 0, muestra el error 'el año de nacimiento no puede ser mayor que el año actual'. • Si 0 ≤ D < 18, aplica el descuento de estudiante. • Si 18 ≤ D < 65, no aplica ningún descuento. • Si D ≥ 65, aplica el descuento de jubilado. Tu conjunto de pruebas ya contiene dos casos: • AN = 1990, AA = 2020, resultado esperado: ningún descuento. • AN = 2030, AA = 2029, resultado esperado: mostrar error. ¿Cuál de los siguientes conjuntos de datos de prueba debería añadirse para lograr una cobertura completa de partición de equivalencia válida para el tipo de descuento?",
     "options": [
-      "A) BY = 2001, CY = 2065",
-      "B) BY = 1900, CY = 1965",
-      "C) BY = 1965, CY = 1900",
-      "D) BY = 2011, CY = 2029",
-      "E) BY = 2000, CY = 2000"
+      "A) AN = 2001, AA = 2065",
+      "B) AN = 1900, AA = 1965",
+      "C) AN = 1965, AA = 1900",
+      "D) AN = 2011, AA = 2029",
+      "E) AN = 2000, AA = 2000"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#20, LO: FL-4.2.1). Justificación: BY = 1900, CY = 1965",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#20, LO: FL-4.2.1). Justificación: AN = 1900, AA = 1965",
     "source": "Official Sample Exam D Q#20"
   },
   {
@@ -5807,7 +5807,7 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are testing a temperature control system for a horticultural cold storage facility. The system receives the temperature (in full degrees Celsius) as the input. If the temperature is between 0 and 2 degrees inclusive, the system displays the message “temperature OK”. For lower temperatures, the system displays the message \"temperature too low\" and for higher temperatures it displays the message “temperature too high”. Using two-value boundary value analysis, which of the following sets of test inputs provides the highest level of boundary value coverage?",
+    "question": "Estás probando un sistema de control de temperatura para una instalación de almacenamiento en frío. El sistema recibe la temperatura (en grados Celsius enteros) como entrada. Si la temperatura está entre 0 y 2 grados inclusive, muestra 'temperatura OK'. Para temperaturas más bajas, muestra 'temperatura demasiado baja' y para más altas 'temperatura demasiado alta'. Usando el análisis de valores límite de dos valores, ¿cuál de los siguientes conjuntos proporciona el mayor nivel de cobertura de valores límite?",
     "options": [
       "A) –1, 3",
       "B) 0, 2",
@@ -5823,15 +5823,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are designing test cases based on the following decision table. R1 R2 R3 R4 R5 R6 R7 C1: Age 0-18 19-65 19-65 >65 0-18 19-65 >65 C2: Experience - 0-4 >4 - - - - C3: Registered? NO NO NO NO YES YES YES Category A A B B B D C So far you have designed the following test cases: • TC1: 19-year-old, unregistered man with no experience; expected result: category A • TC2: 65-year-old, unregistered woman with 5 years of experience; expected result: category B • TC3: 66-year-old, registered man with no experience; expected result: category C • TC4: 65-year-old, registered woman with 4 years of experience; expected result: category D Which of the following test cases, when added to the existing set of test cases, will increase the decision table coverage?",
+    "question": "Estás diseñando casos de prueba basados en una tabla de decisión de edades y experiencia. Hasta ahora has diseñado 4 casos de prueba. ¿Cuál de los siguientes casos de prueba, al añadirse al conjunto existente, aumentará la cobertura de la tabla de decisión?",
     "options": [
-      "A) 66-year-old, unregistered man with no experience; expected result: category B",
-      "B) 55-year-old, unregistered woman with 2 years of experience; expected result: category A",
-      "C) 19-year-old, registered woman with 5 years of experience; expected result: category D",
-      "D) No additional test case can increase the already achieved decision table coverage"
+      "A) Hombre de 66 años, no registrado, sin experiencia; resultado esperado: categoría B",
+      "B) Mujer de 55 años, no registrada, con 2 años de experiencia; resultado esperado: categoría A",
+      "C) Mujer de 19 años, registrada, con 5 años de experiencia; resultado esperado: categoría D",
+      "D) Ningún caso adicional puede aumentar la cobertura lograda"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#22, LO: FL-4.2.3). Justificación: 66-year-old, unregistered man with no experience; expected result: category B",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#22, LO: FL-4.2.3). Justificación: Hombre de 66 años, no registrado, sin experiencia; resultado esperado: categoría B",
     "source": "Official Sample Exam D Q#22"
   },
   {
@@ -5839,7 +5839,7 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are applying state transition testing to the hotel room reservation system modeled by the following state transition table, with 4 states and 5 different events: Events State Available NotAvailable ChangeRoom Cancel Pay S1: Requesting S2 S3 S2: Confirmed S1 S4 S4 S3: Waiting list S2 S4 S4: End Assuming all test cases start in the ‘Requesting’ state, which of the following test cases, represented as sequences of events, achieves the highest valid transitions coverage?",
+    "question": "Estás aplicando pruebas de transición de estado a un sistema de reserva de habitaciones de hotel. Asumiendo que todos los casos de prueba comienzan en el estado 'Solicitando' (Requesting), ¿cuál de los siguientes casos de prueba, representados como secuencias de eventos, logra la mayor cobertura de transiciones válidas?",
     "options": [
       "A) NotAvailable, Available, ChangeRoom, NotAvailable, Cancel",
       "B) Available, ChangeRoom, NotAvailable, Available, Pay",
@@ -5855,15 +5855,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Your test suite S for a program P achieves 100% statement coverage. It consists of three test cases, each of which achieves 50% statement coverage. Which of the following statements is CORRECT?",
+    "question": "Tu conjunto de pruebas S para un programa P logra el 100% de cobertura de sentencias. Consta de tres casos de prueba, cada uno de los cuales logra el 50% de cobertura de sentencias. ¿Cuál de las siguientes afirmaciones es CORRECTA?",
     "options": [
-      "A) Executing S will cause all possible failures in P",
-      "B) S achieves 100% branch coverage for P",
-      "C) Every executable statement in P containing a defect has been run at least once during the execution of S",
-      "D) After removing one test case from S, the remaining two test cases will st ill achieve 100% statement coverage"
+      "A) Ejecutar S causará todas las fallas posibles en P",
+      "B) S logra el 100% de cobertura de ramas para P",
+      "C) Cada sentencia ejecutable en P que contiene un defecto se ha ejecutado al menos una vez durante la ejecución de S",
+      "D) Después de eliminar un caso de prueba de S, los dos restantes aún lograrán el 100% de cobertura de sentencias"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#24, LO: FL-4.3.1). Justificación: Every executable statement in P containing a defect has been run at least once during the execution of S",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#24, LO: FL-4.3.1). Justificación: Cada sentencia ejecutable en P que contiene un defecto se ha ejecutado al menos una vez durante la ejecución de S",
     "source": "Official Sample Exam D Q#24"
   },
   {
@@ -5871,15 +5871,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Why does white-box testing facilitate defect detection even when the software specification is vague, outdated or incomplete?",
+    "question": "¿Por qué las pruebas de caja blanca facilitan la detección de defectos incluso cuando la especificación del software es vaga, anticuada o incompleta?",
     "options": [
-      "A) Test cases are designed based on the structure of the test object rather than t he specification",
-      "B) For each white-box test technique the coverage can be well-defined and easily m easured",
-      "C) White-box test techniques are very well designed to detect omissions in the requir ements",
-      "D) White-box test techniques can be used in both static testing and dynamic testin g"
+      "A) Los casos de prueba se diseñan basándose en la estructura del objeto de prueba en lugar de la especificación",
+      "B) Para cada técnica de caja blanca, la cobertura puede ser bien definida y medida fácilmente",
+      "C) Las técnicas de caja blanca están muy bien diseñadas para detectar omisiones en los requisitos",
+      "D) Las técnicas de caja blanca se pueden usar tanto en pruebas estáticas como dinámicas"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#25, LO: FL-4.3.3). Justificación: Test cases are designed based on the structure of the test object rather than t he specification",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#25, LO: FL-4.3.3). Justificación: Los casos de prueba se diseñan basándose en la estructura del objeto de prueba en lugar de la especificación",
     "source": "Official Sample Exam D Q#25"
   },
   {
@@ -5887,15 +5887,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following is NOT anticipated by the tester while applying error guessing?",
+    "question": "¿Cuál de las siguientes situaciones NO es anticipada por el probador al aplicar la técnica de predicción de errores (error guessing)?",
     "options": [
-      "A) The developer misunderstood the formula in the user story for calculating the interest",
-      "B) The developer wrote “FA = A*(1+IR^N)” instead of “FA = A*(1+IR)^N” in the source code",
-      "C) The developer missed the seminar on new compound interest rate legislation",
-      "D) The accuracy of the interest calculated by the system is not precise enough"
+      "A) El desarrollador entendió mal la fórmula en la historia de usuario para calcular el interés",
+      "B) El desarrollador escribió 'FA = A*(1+IR^N)' en lugar de 'FA = A*(1+IR)^N' en el código",
+      "C) El desarrollador faltó al seminario sobre la nueva legislación de tasas de interés compuesto",
+      "D) La precisión del interés calculado por el sistema no es lo suficientemente exacta"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#26, LO: FL-4.4.1). Justificación: The developer missed the seminar on new compound interest rate legislation",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#26, LO: FL-4.4.1). Justificación: El desarrollador faltó al seminario sobre la nueva legislación de tasas de interés compuesto",
     "source": "Official Sample Exam D Q#26"
   },
   {
@@ -5903,15 +5903,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following is true about exploratory testing?",
+    "question": "¿Cuál de las siguientes afirmaciones es cierta sobre las pruebas exploratorias?",
     "options": [
-      "A) Test cases are designed before the exploratory testing session starts",
-      "B) The tester can perform test execution, but cannot perform test design",
-      "C) Exploratory testing results are good predictors of the number of remaining de fects",
-      "D) During exploratory testing the tester may use black-box test techniques"
+      "A) Los casos de prueba se diseñan antes de que comience la sesión de pruebas exploratorias",
+      "B) El probador puede ejecutar pruebas, pero no puede diseñarlas",
+      "C) Los resultados de las pruebas exploratorias son buenos predictores del número de defectos restantes",
+      "D) Durante las pruebas exploratorias, el probador puede usar técnicas de caja negra"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#27, LO: FL-4.4.2). Justificación: During exploratory testing the tester may use black-box test techniques",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#27, LO: FL-4.4.2). Justificación: Durante las pruebas exploratorias, el probador puede usar técnicas de caja negra",
     "source": "Official Sample Exam D Q#27"
   },
   {
@@ -5919,15 +5919,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which collaborative user story writing practice enables the team to achieve a collective understanding of what needs to be delivered?",
+    "question": "¿Qué práctica colaborativa para escribir historias de usuario permite al equipo lograr una comprensión colectiva de lo que necesita ser entregado?",
     "options": [
-      "A) Planning poker, so that a team can achieve consensus on the effort needed to implemen t a user story",
-      "B) Reviews, so that a team can detect inconsistencies and contradictions in a user story",
-      "C) Iteration planning, so that user stories with the highest business value for a customer can be prioritized for implementation",
-      "D) Conversation, so that team members can understand how the software will be used"
+      "A) Planning poker, para llegar a un consenso sobre el esfuerzo",
+      "B) Revisiones, para detectar inconsistencias y contradicciones",
+      "C) Planificación de la iteración, para priorizar historias de mayor valor",
+      "D) Conversación, para que los miembros del equipo entiendan cómo se usará el software"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#28, LO: FL-4.5.1). Justificación: Conversation, so that team members can understand how the software will be used",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#28, LO: FL-4.5.1). Justificación: Conversación, para que los miembros del equipo entiendan cómo se usará el software",
     "source": "Official Sample Exam D Q#28"
   },
   {
@@ -5935,15 +5935,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You have just started designing test cases for the following user story. As a customer, I want to be able to filter search results by price range, so that I can find products within my budget more easily. Acceptance criteria: upwards 2. The filter should allow the customer to set a price range with a minimum and a maximum price 3. The search results should update dynamically as the customer adjusts the price range filter In all test cases the precondition is as follows: there are only two products available, products A and B. Product A costs $100 and product B costs $110. Which of the following is the BEST example of a test case for this user story?",
+    "question": "Estás diseñando casos de prueba para una historia de usuario donde el cliente quiere filtrar productos por rango de precio. Precondición: solo hay dos productos disponibles, A ($100) y B ($110). ¿Cuál es el MEJOR ejemplo de caso de prueba para esta historia de usuario?",
     "options": [
-      "A) Enter webpage and set filter to show prices between $90 and $100. Expected result: resu lts show product A only. Set maximum price to $110. Expected result: results now include both products A and B",
-      "B) Enter webpage. Expected result: the default minimum and maximum prices are $100 an d $110 respectively. Add product C to stock, with price $120. Refresh the client’s webpage. Expected result: the default maximum price changes to $120",
-      "C) Enter webpage and set filter to show prices between $90 and $115. Expected result: r esults show both products A and B. Change currency from USD to EUR. Expected result: the filter range changes correctly to EUR values, according to the current exchange rate",
-      "D) Enter webpage with three different browsers: Edge, Chrome and Opera. In each brow ser set filter between $90 and $110. Expected result: results include both products A and B and the results layout is the same in all three browsers"
+      "A) Entrar a la web y fijar filtro entre $90 y $100. Resultado: solo muestra A. Cambiar máximo a $110. Resultado: muestra A y B.",
+      "B) Entrar a la web. Añadir producto C con precio $120. Actualizar página. Resultado: el precio máximo predeterminado cambia a $120.",
+      "C) Entrar a la web y fijar filtro entre $90 y $115. Resultado: muestra A y B. Cambiar moneda a EUR. Resultado: el filtro cambia a valores en EUR.",
+      "D) Entrar a la web con Edge, Chrome y Opera. En cada uno fijar filtro entre $90 y $110. Resultado: muestran A y B con el mismo diseño en todos."
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#29, LO: FL-4.5.3). Justificación: Enter webpage and set filter to show prices between $90 and $100. Expected result: resu lts show product A only. Set maximum price to $110. Expected r",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#29, LO: FL-4.5.3). Justificación: Entrar a la web y fijar filtro entre $90 y $100. Resultado: solo muestra A. Cambiar máximo a $110. Resultado: muestra A y B.",
     "source": "Official Sample Exam D Q#29"
   },
   {
@@ -5951,15 +5951,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following BEST define EXIT criteria in a testing project?",
+    "question": "¿Cuál de los siguientes define MEJOR los criterios de salida (EXIT criteria) en un proyecto de pruebas?",
     "options": [
-      "A) Budget is approved",
-      "B) Budget runs out",
-      "C) Test basis is available",
-      "D) Test cases achieved at least 80% statement coverage"
+      "A) Se aprueba el presupuesto",
+      "B) Se agota el presupuesto",
+      "C) La base de prueba está disponible",
+      "D) Los casos de prueba lograron al menos un 80% de cobertura de sentencias"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#30, LO: FL-5.1.3). Justificación: Budget runs out",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#30, LO: FL-5.1.3). Justificación: Se agota el presupuesto",
     "source": "Official Sample Exam D Q#30"
   },
   {
@@ -5967,15 +5967,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "The team wants to estimate the time needed for one tester to execute four test cases for a software component. The team has gathered the following measures of the effort used to execute a single test case: • Best-case scenario: 1 hour • Worst-case scenario: 8 hours • Most likely scenario: 3 hours Given that the three-point estimation technique is being used, what is the final estimate of the time needed to execute all four test cases?",
+    "question": "El equipo quiere estimar el tiempo para ejecutar cuatro casos de prueba. Las medidas para un caso son: Mejor escenario: 1h, Peor escenario: 8h, Más probable: 3h. Usando la técnica de estimación de tres puntos, ¿cuál es la estimación final para los CUATRO casos de prueba?",
     "options": [
-      "A) 14 hours",
-      "B) 3.5 hours",
-      "C) 16 hours",
-      "D) 12 hours"
+      "A) 14 horas",
+      "B) 3.5 horas",
+      "C) 16 horas",
+      "D) 12 horas"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#31, LO: FL-5.1.4). Justificación: 14 hours",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#31, LO: FL-5.1.4). Justificación: 14 horas",
     "source": "Official Sample Exam D Q#31"
   },
   {
@@ -5983,7 +5983,7 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "The table shows the traceability matrix from test cases to requirements. “X” means that a given test case covers the corresponding requirement. Req1 Req2 Req3 Req4 Req5 Req6 Req7 TC1 X X X X TC2 X X X TC3 X X TC4 X You want to prioritize the test cases following the additional coverage prioritization technique. You execute all four test cases. Which test case should be executed as the LAST one?",
+    "question": "Tienes una matriz de trazabilidad y deseas priorizar los casos de prueba siguiendo la técnica de cobertura adicional (additional coverage prioritization). Ejecutarás cuatro casos de prueba. Según las técnicas estándar, ¿qué caso de prueba debería ejecutarse en ÚLTIMO lugar?",
     "options": [
       "A) TC1",
       "B) TC2",
@@ -5999,15 +5999,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "How can the testing quadrants be beneficial for testing?",
+    "question": "¿Cómo pueden ser beneficiosos los cuadrantes de prueba (testing quadrants)?",
     "options": [
-      "A) They help in test planning by dividing the test process into four phases, corresponding to the four basic test levels: component, integration, system, and acceptance testing",
-      "B) They help in assessing the high-level coverage (e.g., requirements coverage) based on low-level coverage (e.g., code coverage)",
-      "C) They help non-technical stakeholders to understand the different test types and tha t some test types are more relevant to certain test levels than others",
-      "D) They help agile teams to develop a communication strategy based on classifying people according to four basic psychological types, and on modelling the relations between them"
+      "A) Ayudan a planificar dividiendo en cuatro fases: componente, integración, sistema, aceptación",
+      "B) Ayudan a evaluar la cobertura de alto nivel basada en la de bajo nivel",
+      "C) Ayudan a los stakeholders no técnicos a entender los diferentes tipos de prueba y su relevancia por niveles",
+      "D) Ayudan a los equipos ágiles a comunicarse según perfiles psicológicos"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#33, LO: FL-5.1.7). Justificación: They help non-technical stakeholders to understand the different test types and tha t some test types are more relevant to certain test levels than ot",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#33, LO: FL-5.1.7). Justificación: Ayudan a los stakeholders no técnicos a entender los diferentes tipos de prueba y su relevancia por niveles",
     "source": "Official Sample Exam D Q#33"
   },
   {
@@ -6015,7 +6015,7 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "easy",
-    "question": "For a given risk, its risk level is $1,000 and its risk likelihood is estimated as 50%. What is the risk impact?",
+    "question": "Para un riesgo dado, el nivel de riesgo es de $1,000 y su probabilidad se estima en un 50%. ¿Cuál es el impacto del riesgo?",
     "options": [
       "A) $500",
       "B) $2,000",
@@ -6031,16 +6031,16 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following are product risks?",
+    "question": "¿Cuál de los siguientes es un riesgo de producto?",
     "options": [
-      "A) Scope creep",
-      "B) Poor architecture",
-      "C) Cost-cutting",
-      "D) Poor tool support",
-      "E) Too long response time"
+      "A) Corrupción del alcance (Scope creep)",
+      "B) Arquitectura deficiente (Poor architecture)",
+      "C) Recorte de costos",
+      "D) Falta de soporte de herramientas",
+      "E) Tiempo de respuesta demasiado largo"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#35, LO: FL-5.2.2). Justificación: Poor architecture",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#35, LO: FL-5.2.2). Justificación: Arquitectura deficiente (Poor architecture)",
     "source": "Official Sample Exam D Q#35"
   },
   {
@@ -6048,15 +6048,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following is NOT a valid purpose for a test report?",
+    "question": "¿Cuál de los siguientes NO es un propósito válido para un informe de pruebas?",
     "options": [
-      "A) Tracking test progress and identifying areas that require further attention",
-      "B) Providing information on the tests executed, their results, and defects found",
-      "C) Providing information about each defect, such as the steps to reproduce it",
-      "D) Providing information on testing planned for the next period"
+      "A) Seguimiento del progreso e identificación de áreas de atención",
+      "B) Proporcionar información sobre las pruebas ejecutadas, resultados y defectos",
+      "C) Proporcionar información sobre cómo reproducir cada defecto paso a paso",
+      "D) Proporcionar información sobre las pruebas planificadas para el próximo período"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#36, LO: FL-5.3.2). Justificación: Providing information about each defect, such as the steps to reproduce it",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#36, LO: FL-5.3.2). Justificación: Proporcionar información sobre cómo reproducir cada defecto paso a paso",
     "source": "Official Sample Exam D Q#36"
   },
   {
@@ -6064,15 +6064,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "The user reported a software failure. An engineer from the support team asked the user for the software version number where the failure was observed. Based on the version number, the team reassembled all the files that made up the release. This later allowed a developer to perform analysis, find the defect, and fix it. Which of the following enabled the above activity to be performed by the team?",
+    "question": "Un usuario reportó una falla. Soporte le pidió la versión del software. Con esa versión, el equipo reconstruyó los archivos del lanzamiento, lo que permitió al desarrollador analizar y corregir el defecto. ¿Qué proceso permitió realizar esta actividad?",
     "options": [
-      "A) Risk management",
-      "B) Test monitoring and control",
-      "C) Whole team approach",
-      "D) Configuration management"
+      "A) Gestión de riesgos",
+      "B) Monitorización y control de pruebas",
+      "C) Enfoque de equipo completo (Whole team)",
+      "D) Gestión de la configuración"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#37, LO: FL-5.4.1). Justificación: Configuration management",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#37, LO: FL-5.4.1). Justificación: Gestión de la configuración",
     "source": "Official Sample Exam D Q#37"
   },
   {
@@ -6080,15 +6080,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "Consider the following defect report for a Book Lending System. Defect ID: 001 | Title: Unable to Return a Book | Severity: High | Priority: | Environment: Windows 10, Google Chrome Description: When attempting to return a book using the Book Return feature, the system does not register the return and the book remains checked out to the user. Steps to Reproduce: Login to the Book Lending System as a user who has checked out a book. Click on the \"Book Return\" button for the book that has been checked out. System does not register the return and the book remains checked out. Expected Result: The book should be returned and no longer appear as checked out to the user. Actual Result: The book remains checked out to the user and is not registered as returned in the system. Attachments: [empty list] Which of the following is MOST likely to help the developer reproduce the failure quickly?",
+    "question": "Considera un informe de defecto de un Sistema de Préstamo de Libros. ¿Cuál de las siguientes acciones ayudaría MÁS al desarrollador a reproducir la falla rápidamente?",
     "options": [
-      "A) Adding information about which users and which books the failure affects to the “Description” section",
-      "B) Filling in the missing value for the “Priority” field",
-      "C) Adding memory dumps and database snapshots taken after each step described in the “Steps to Reproduce” section to the “Attachments” section.",
-      "D) Repeating the same test case for different environments and writing defect reports for each of them separately"
+      "A) Añadir información sobre qué usuarios y qué libros se ven afectados en la sección de 'Descripción'",
+      "B) Llenar el valor faltante del campo 'Prioridad'",
+      "C) Añadir volcados de memoria tras cada paso a la sección de 'Adjuntos'",
+      "D) Repetir el caso de prueba para diferentes entornos y crear un reporte separado para cada uno"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#38, LO: FL-5.5.1). Justificación: Adding information about which users and which books the failure affects to the “Description” section",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#38, LO: FL-5.5.1). Justificación: Añadir información sobre qué usuarios y qué libros se ven afectados en la sección de 'Descripción'",
     "source": "Official Sample Exam D Q#38"
   },
   {
@@ -6096,7 +6096,7 @@
     "chapter": 6,
     "topic": "Herramientas de Prueba",
     "difficulty": "medium",
-    "question": "Given the following test tool categories: i. Collaboration tools ii. DevOps tools iii. Management tools iv. Non-functional testing tools v. Test design and implementation tools Tools from which of the categories are MOST likely to facilitate test execution?",
+    "question": "Dadas las categorías de herramientas de prueba (i. Colaboración, ii. DevOps, iii. Gestión, iv. No funcionales, v. Diseño/Implementación). ¿Herramientas de cuáles categorías son MÁS propensas a facilitar la ejecución de pruebas?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -6104,7 +6104,7 @@
       "D) ii, iii, iv"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#39, LO: FL-6.1.1). Justificación: ii, iv",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#39, LO: FL-6.1.1). Justificación: ii, iv (DevOps, No funcionales)",
     "source": "Official Sample Exam D Q#39"
   },
   {
@@ -6112,15 +6112,15 @@
     "chapter": 6,
     "topic": "Herramientas de Prueba",
     "difficulty": "easy",
-    "question": "Which of the following is MOST likely to be a risk of test automation?",
+    "question": "¿Cuál de los siguientes es MÁS probable que sea un riesgo de la automatización de pruebas?",
     "options": [
-      "A) The detection of additional high-severity defects",
-      "B) Providing measures that are too complicated for humans to derive",
-      "C) Incompatibility with the development platform",
-      "D) Substantially reduced test execution times"
+      "A) Detección de defectos adicionales de alta severidad",
+      "B) Proporcionar métricas demasiado complicadas para los humanos",
+      "C) Incompatibilidad con la plataforma de desarrollo",
+      "D) Reducción sustancial del tiempo de ejecución"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#40, LO: FL-6.2.1). Justificación: Incompatibility with the development platform",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#40, LO: FL-6.2.1). Justificación: Incompatibilidad con la plataforma de desarrollo",
     "source": "Official Sample Exam D Q#40"
   },
   {
@@ -6128,7 +6128,7 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Given the following test tasks: 1. Derive test cases from test conditions 2. Identify reusable testware 3. Organize test cases into test procedures 4. Evaluate the test basis and the test object And the following test activities: A. Test analysis B. Test design C. Test implementation D. Test completion Which of the following BEST matches the tasks with the activities?",
+    "question": "Dadas las siguientes tareas de prueba: 1) Derivar casos de prueba desde condiciones, 2) Identificar testware reutilizable, 3) Organizar casos en procedimientos, 4) Evaluar la base de prueba; y actividades: A) Análisis, B) Diseño, C) Implementación, D) Finalización. ¿Cuál es el MEJOR emparejamiento?",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
