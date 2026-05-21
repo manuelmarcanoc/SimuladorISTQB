@@ -1,0 +1,189 @@
+import React, { useState } from 'react';
+
+const FLASHCARDS = [
+  // ── CAPÍTULO 1: FUNDAMENTOS ──────────────────────────────────────────────────
+  { front: 'Error (Mistake)', back: 'Una acción humana que produce un resultado incorrecto. Lo comete una PERSONA (el programador escribe código equivocado).', chapter: 1 },
+  { front: 'Defecto (Bug/Fault)', back: 'Una imperfección o deficiencia en un producto de trabajo. Es el ERROR introducido en el código/documento.', chapter: 1 },
+  { front: 'Fallo (Failure)', back: 'Un evento en el que un componente no realiza la función requerida. El DEFECTO se activa y el sistema produce un resultado incorrecto VISIBLE para el usuario.', chapter: 1 },
+  { front: 'Diferencia clave: Error → Defecto → Fallo', back: 'Error (causa humana) → Defecto (en el código) → Fallo (síntoma observable). Un defecto no siempre provoca un fallo (ej: código muerto).', chapter: 1 },
+  { front: '7 Principios: Principio 1', back: 'Las pruebas muestran la PRESENCIA de defectos, no su ausencia. Nunca se puede probar que un software no tiene bugs.', chapter: 1 },
+  { front: '7 Principios: Principio 2', back: 'Las pruebas EXHAUSTIVAS son IMPOSIBLES. Hay que priorizar por riesgo y criticidad.', chapter: 1 },
+  { front: '7 Principios: Principio 3', back: 'Las pruebas TEMPRANAS ahorran tiempo y dinero. Un defecto encontrado en requisitos cuesta 100x menos que en producción.', chapter: 1 },
+  { front: '7 Principios: Principio 4', back: 'AGRUPAMIENTO de defectos: el 80% de los defectos suele concentrarse en el 20% del código (Regla de Pareto).', chapter: 1 },
+  { front: '7 Principios: Principio 5', back: 'Paradoja del PESTICIDA: si siempre usas los mismos casos de prueba, dejarán de encontrar nuevos defectos. Hay que renovarlos.', chapter: 1 },
+  { front: '7 Principios: Principio 6', back: 'Las pruebas dependen del CONTEXTO. No se prueba igual una app médica que una tienda online.', chapter: 1 },
+  { front: '7 Principios: Principio 7', back: 'FALACIA de ausencia de defectos. Un sistema sin bugs es inútil si no satisface las necesidades del usuario.', chapter: 1 },
+  { front: 'Verificación vs Validación', back: 'VERIFICACIÓN: ¿Estamos construyendo el producto CORRECTAMENTE? (vs especificaciones)\nVALIDACIÓN: ¿Estamos construyendo el producto CORRECTO? (vs necesidades del usuario)', chapter: 1 },
+  { front: 'QA vs QC vs Testing', back: 'QA: proceso (preventivo, todo el ciclo)\nQC: producto (detectivo, busca defectos)\nTesting: subconjunto de QC (ejecutar pruebas)', chapter: 1 },
+  { front: 'Testware', back: 'Todos los artefactos producidos durante el proceso de prueba: planes, casos de prueba, datos de prueba, reportes, logs, etc.', chapter: 1 },
+  { front: 'Roles en testing: Tester vs Test Manager', back: 'TESTER: diseña y ejecuta pruebas.\nTEST MANAGER: planifica, monitorea y controla el proceso de prueba completo.', chapter: 1 },
+
+  // ── CAPÍTULO 2: PRUEBAS EN EL SDLC ──────────────────────────────────────────
+  { front: 'Niveles de prueba: Pruebas de Componente (Unitarias)', back: 'Prueban componentes individuales de forma AISLADA. Las ejecuta el desarrollador. Se usan stubs y drivers. Se centran en caja blanca.', chapter: 2 },
+  { front: 'Niveles de prueba: Pruebas de Integración', back: 'Verifican las INTERFACES entre componentes o sistemas. Existen dos tipos: integración de componentes (dentro de un sistema) e integración de sistemas (entre sistemas).', chapter: 2 },
+  { front: 'Niveles de prueba: Pruebas de Sistema', back: 'Prueban el COMPORTAMIENTO completo del sistema end-to-end. Verifican que cumple los requisitos funcionales y no funcionales. Se ejecutan en un entorno que replica producción.', chapter: 2 },
+  { front: 'Niveles de prueba: Pruebas de Aceptación', back: 'Realizadas por el CLIENTE/USUARIO para confirmar que el sistema satisface sus necesidades. Tipos: UAT (usuario), OAT (operacional), alfa (interno), beta (externo).', chapter: 2 },
+  { front: 'Tipos de prueba: Funcional vs No Funcional', back: 'FUNCIONAL: verifica QUÉ hace el sistema (¿funciona?)\nNO FUNCIONAL: verifica CÓMO lo hace (rendimiento, seguridad, usabilidad).', chapter: 2 },
+  { front: 'Pruebas de Caja Blanca vs Caja Negra', back: 'CAJA BLANCA: basadas en la estructura interna del código (el tester ve el código).\nCAJA NEGRA: basadas en la especificación (el tester no ve el código).', chapter: 2 },
+  { front: 'TDD (Test-Driven Development)', back: 'Se escriben los tests ANTES del código. El ciclo es: rojo (test falla) → verde (código mínimo para pasar) → refactor. Garantiza cobertura pero cuesta más tiempo inicial.', chapter: 2 },
+  { front: 'BDD (Behaviour-Driven Development)', back: 'Las pruebas se expresan en lenguaje natural (GIVEN/WHEN/THEN) para que negocio y técnicos las entiendan igual. Herramienta típica: Cucumber.', chapter: 2 },
+  { front: 'Pruebas de Regresión', back: 'Verifican que los cambios recientes NO han roto funcionalidades que ANTES funcionaban. Fundamentales tras cualquier cambio en el software.', chapter: 2 },
+  { front: 'Pruebas de Confirmación (Re-test)', back: 'Verifican que un defecto ESPECÍFICO ha sido corregido. Se re-ejecuta el caso de prueba que originalmente lo detectó.', chapter: 2 },
+  { front: 'Pruebas de Mantenimiento', back: 'Pruebas realizadas tras CAMBIOS en el sistema en producción. Requieren análisis de impacto para saber cuánta regresión es necesaria.', chapter: 2 },
+
+  // ── CAPÍTULO 3: PRUEBAS ESTÁTICAS ────────────────────────────────────────────
+  { front: 'Pruebas Estáticas vs Dinámicas', back: 'ESTÁTICAS: examinan el código/documentos SIN ejecutarlos (revisiones, análisis estático).\nDINÁMICAS: ejecutan el software para encontrar fallos.', chapter: 3 },
+  { front: 'Revisión Informal', back: 'La más ligera. Sin proceso formal, sin roles definidos, sin métricas. Solo un colega revisa. Objetivo: encontrar defectos rápidamente.', chapter: 3 },
+  { front: 'Walkthrough (Paseo)', back: 'El AUTOR guía al equipo a través del documento. Educacional, construye conocimiento compartido. Moderador opcional, actas opcionales.', chapter: 3 },
+  { front: 'Revisión Técnica', back: 'Un equipo técnico evalúa el producto. Tiene moderador, pero puede no tener todos los roles formales. Orientada a encontrar defectos técnicos.', chapter: 3 },
+  { front: 'Inspección (Fagan)', back: 'La revisión MÁS FORMAL. Tiene todos los roles: moderador, autor, revisor, secretario, lector. Sigue un proceso definido con entrada/salida. Métricas de defectos recopiladas.', chapter: 3 },
+  { front: 'Roles en una Inspección', back: 'MODERADOR: lidera y facilita.\nAUTOR: creó el documento.\nREVISOR: encuentra defectos.\nSECRETARIO/ESCRIBA: anota los defectos.\nLECTOR: lee el documento en voz alta.', chapter: 3 },
+  { front: 'Análisis Estático', back: 'Herramientas que analizan el código SIN ejecutarlo para detectar bugs, violaciones de estándares, complejidad excesiva, etc. (SonarQube, ESLint).', chapter: 3 },
+
+  // ── CAPÍTULO 4: TÉCNICAS DE PRUEBA ──────────────────────────────────────────
+  { front: 'Partición de Equivalencia (EP)', back: 'Divide los datos de entrada en PARTICIONES donde se asume que todos los valores del mismo grupo se comportan igual. Solo se necesita probar UN valor por partición.', chapter: 4 },
+  { front: 'Análisis de Valores Límite (BVA 2-value)', back: 'Prueba los BORDES de las particiones: el mínimo y el máximo de cada partición. Para un rango [1-100]: prueba 1, 100 (y opcionalmente 0, 101).', chapter: 4 },
+  { front: 'Análisis de Valores Límite (BVA 3-value)', back: 'Prueba el límite Y sus vecinos: min-1, min, min+1 y max-1, max, max+1. Para [1-100]: prueba 0, 1, 2, 99, 100, 101. Más riguroso.', chapter: 4 },
+  { front: 'Tablas de Decisión', back: 'Técnica para condiciones lógicas complejas. Combina todas las combinaciones posibles de condiciones de entrada con sus acciones resultantes. Garantiza cobertura de reglas.', chapter: 4 },
+  { front: 'Prueba de Transición de Estados', back: 'Modela el sistema como una máquina de estados. Se prueba cada TRANSICIÓN entre estados. Útil para sistemas con comportamiento dependiente del historial (cajero, login).', chapter: 4 },
+  { front: 'Cobertura de Sentencias (Statement Coverage)', back: 'Métrica de CAJA BLANCA. % de sentencias ejecutables que han sido ejecutadas por los tests. Meta habitual: 100%.', chapter: 4 },
+  { front: 'Cobertura de Decisiones (Branch Coverage)', back: 'Métrica de CAJA BLANCA. % de ramas (TRUE/FALSE) de cada decisión que han sido ejercitadas. MÁS FUERTE que cobertura de sentencias.', chapter: 4 },
+  { front: 'Diferencia: Statement vs Branch Coverage', back: 'El 100% de Branch Coverage implica 100% de Statement Coverage, pero NO al revés. Ejemplo: un if sin else puede tener 100% de sentencias con solo probar el camino true.', chapter: 4 },
+  { front: 'Pruebas Exploratorias', back: 'El tester DISEÑA y EJECUTA las pruebas simultáneamente, basándose en su conocimiento y experiencia. No hay casos de prueba predefinidos. Muy útil para encontrar bugs inesperados.', chapter: 4 },
+  { front: 'Adivinanza de Errores (Error Guessing)', back: 'El tester usa su EXPERIENCIA para adivinar dónde es más probable que haya defectos. No se basa en una técnica formal, sino en el instinto del tester.', chapter: 4 },
+
+  // ── CAPÍTULO 5: GESTIÓN ──────────────────────────────────────────────────────
+  { front: 'Plan de Prueba', back: 'Documento que describe el ALCANCE, enfoque, recursos y calendario de las actividades de prueba. Define: objetivos, criterios de entrada/salida, riesgos, entregables.', chapter: 5 },
+  { front: 'Criterios de Entrada vs Salida', back: 'ENTRADA (Definition of Ready): condiciones que deben cumplirse ANTES de empezar a probar.\nSALIDA (Definition of Done): condiciones que deben cumplirse para TERMINAR las pruebas.', chapter: 5 },
+  { front: 'Riesgo de Producto vs Riesgo de Proyecto', back: 'PRODUCTO: riesgo de que el software falle (afecta a la calidad).\nPROYECTO: riesgo de que el proyecto fracase (retrasos, presupuesto).', chapter: 5 },
+  { front: 'Pruebas Basadas en Riesgo', back: 'Prioriza las pruebas según la PROBABILIDAD de fallo multiplicada por el IMPACTO si falla. Lo de mayor riesgo se prueba primero y más a fondo.', chapter: 5 },
+  { front: 'Métricas de Prueba', back: 'Miden el avance y calidad de las pruebas: % de casos ejecutados, % de defectos corregidos, densidad de defectos, cobertura de código, etc.', chapter: 5 },
+  { front: 'Gestión de Defectos', back: 'Proceso de registrar, clasificar, priorizar y dar seguimiento a los defectos. Un reporte de defecto incluye: id, descripción, pasos para reproducir, severidad, prioridad, estado.', chapter: 5 },
+  { front: 'Severidad vs Prioridad', back: 'SEVERIDAD: impacto técnico del defecto en el sistema (p.ej. crítico, mayor, menor).\nPRIORIDAD: urgencia de su corrección desde el negocio (alta, media, baja). ¡Pueden no coincidir!', chapter: 5 },
+  { front: 'Independencia del Testing', back: 'Los testers independientes del desarrollador son más efectivos porque el autor tiene sesgos cognitivos que le impiden ver sus propios errores. Mayor independencia = mayor objetividad.', chapter: 5 },
+  { front: 'Whole-Team Approach', back: 'En Agile: TODOS los miembros del equipo son responsables de la calidad. Los testers colaboran con desarrolladores y negocio desde el principio.', chapter: 5 },
+
+  // ── CAPÍTULO 6: HERRAMIENTAS ─────────────────────────────────────────────────
+  { front: 'Tipos de herramientas: Automatización', back: 'Herramientas que ejecutan pruebas automáticamente: Selenium, Cypress, Playwright (UI), JUnit, pytest (unitarias), Postman, REST-assured (API).', chapter: 6 },
+  { front: 'Pruebas de Rendimiento', back: 'Verifican el comportamiento bajo carga. Tipos: prueba de carga (carga esperada), prueba de estrés (más allá del límite), prueba de picos (spike test). Herramienta: JMeter.', chapter: 6 },
+  { front: 'CI/CD y Testing', back: 'Integración Continua (CI): los tests se ejecutan automáticamente en cada commit. Entrega Continua (CD): el software pasa a producción automáticamente si todos los tests pasan.', chapter: 6 },
+  { front: 'Ventajas de la Automatización de Pruebas', back: 'Ahorra tiempo en regresión, encuentra defectos de forma consistente, permite ejecutar más pruebas, ejecuta pruebas imposibles manualmente (rendimiento, carga).', chapter: 6 },
+  { front: 'Riesgos de la Automatización', back: 'Coste inicial alto, mantenimiento de scripts, falsos positivos/negativos, no reemplaza la exploración manual, puede dar falsa sensación de seguridad.', chapter: 6 },
+];
+
+function FlipCard({ card, onKnow, onDontKnow }) {
+  const [flipped, setFlipped] = useState(false);
+  return (
+    <div className="flashcard-scene" onClick={() => setFlipped(f => !f)}>
+      <div className={`flashcard-card ${flipped ? 'is-flipped' : ''}`}>
+        <div className="flashcard-face flashcard-front">
+          <span className="flashcard-chapter">Cap. {card.chapter}</span>
+          <p className="flashcard-term">{card.front}</p>
+          <span className="flashcard-hint">Haz clic para ver la definición</span>
+        </div>
+        <div className="flashcard-face flashcard-back">
+          <span className="flashcard-chapter">Cap. {card.chapter}</span>
+          <p className="flashcard-definition">{card.back}</p>
+        </div>
+      </div>
+      {flipped && (
+        <div className="flashcard-actions" onClick={e => e.stopPropagation()}>
+          <button className="fc-btn fc-no" onClick={onDontKnow}>❌ No la sabía</button>
+          <button className="fc-btn fc-yes" onClick={onKnow}>✅ La sabía</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function Flashcards({ onClose }) {
+  const [deck, setDeck] = useState(() => {
+    const arr = [...FLASHCARDS];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  });
+  const [index, setIndex] = useState(0);
+  const [known, setKnown] = useState(0);
+  const [dontKnow, setDontKnow] = useState([]);
+  const [filterChapter, setFilterChapter] = useState(0); // 0 = all
+
+  const filtered = filterChapter === 0 ? deck : deck.filter(c => c.chapter === filterChapter);
+  const card = filtered[index % filtered.length];
+
+  const handleKnow = () => {
+    setKnown(k => k + 1);
+    setIndex(i => i + 1);
+  };
+  const handleDontKnow = () => {
+    setDontKnow(d => [...d, card]);
+    setIndex(i => i + 1);
+  };
+  const reviewDontKnow = () => {
+    if (dontKnow.length === 0) return;
+    setDeck([...dontKnow]);
+    setDontKnow([]);
+    setKnown(0);
+    setIndex(0);
+  };
+  const restartAll = () => {
+    const arr = [...FLASHCARDS];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    setDeck(arr);
+    setKnown(0);
+    setDontKnow([]);
+    setIndex(0);
+    setFilterChapter(0);
+  };
+
+  const currentPos = index % filtered.length;
+  const laps = Math.floor(index / filtered.length);
+
+  return (
+    <div className="flashcards-container">
+      {/* Header */}
+      <div className="fc-header">
+        <h2 className="fc-title">🃏 Flashcards ISTQB</h2>
+        <div className="fc-stats">
+          <span className="fc-stat fc-stat-known">✅ {known} sabidas</span>
+          <span className="fc-stat fc-stat-nope">❌ {dontKnow.length} a repasar</span>
+          <span className="fc-stat">{currentPos + 1}/{filtered.length}</span>
+        </div>
+      </div>
+
+      {/* Chapter filter */}
+      <div className="fc-filter">
+        {[0,1,2,3,4,5,6].map(ch => (
+          <button
+            key={ch}
+            className={`fc-filter-btn ${filterChapter === ch ? 'fc-filter-active' : ''}`}
+            onClick={() => { setFilterChapter(ch); setIndex(0); }}
+          >
+            {ch === 0 ? 'Todas' : `Cap.${ch}`}
+          </button>
+        ))}
+      </div>
+
+      {/* Card */}
+      <FlipCard key={`${index}-${filterChapter}`} card={card} onKnow={handleKnow} onDontKnow={handleDontKnow} />
+
+      {/* Bottom actions */}
+      <div className="fc-bottom">
+        {dontKnow.length > 0 && (
+          <button className="fc-action-btn fc-review-btn" onClick={reviewDontKnow}>
+            🔁 Repasar las {dontKnow.length} que no sabías
+          </button>
+        )}
+        <button className="fc-action-btn" onClick={restartAll}>
+          🔀 Barajar de nuevo
+        </button>
+        {laps > 0 && <span className="fc-lap">Vuelta {laps + 1}</span>}
+      </div>
+    </div>
+  );
+}

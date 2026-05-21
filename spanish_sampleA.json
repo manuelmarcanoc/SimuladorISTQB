@@ -1,0 +1,739 @@
+[
+  {
+    "id": 250,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "easy",
+    "question": "¿Cuál de las siguientes afirmaciones describe un objetivo de prueba válido?",
+    "options": [
+      "A) Demostrar que no hay defectos sin corregir en el sistema bajo prueba",
+      "B) Demostrar que no habrá fallos después de la implementación del sistema en producción",
+      "C) Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad D) Verificar que no hay combinaciones de entradas sin probar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#1, LO: FL-1.1.1). Justificación: Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad D) Verificar que no hay combinaciones de entradas sin probar",
+    "source": "Official Sample Exam A Q#1"
+  },
+  {
+    "id": 251,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes opciones muestra un ejemplo de actividades de prueba que contribuyen al éxito?",
+    "options": [
+      "A) Involucrar a los probadores durante diversas actividades del ciclo de vida del desarrollo de software (SDLC) ayudará a detectar defectos en los productos de trabajo",
+      "B) Los probadores intentan no molestar a los desarrolladores mientras programan, para que los desarrolladores escriban mejor código",
+      "C) Los probadores colaborando con los usuarios finales ayudan a mejorar la calidad de los informes de defectos durante las pruebas de integración de componente y las pruebas de sistema"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#2, LO: FL-1.2.1). Justificación: Involucrar a los probadores durante diversas actividades del ciclo de vida del desarrollo de software (SDLC) ayudará a detectar defectos en los productos de trabajo",
+    "source": "Official Sample Exam A Q#2"
+  },
+  {
+    "id": 252,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "Se le ha asignado como probador a un equipo que produce un nuevo sistema de forma incremental. Ha notado que no se han realizado cambios en los casos de prueba de regresión existentes durante varias iteraciones y no se identificaron nuevos defectos de regresión. Su gerente está contento, pero usted no. ¿Qué principio de prueba explica su escepticismo?",
+    "options": [
+      "A) Las pruebas se desgastan",
+      "B) Falacia de la ausencia de defectos",
+      "C) Los defectos se agrupan",
+      "D) Las pruebas exhaustivas son imposibles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#3, LO: FL-1.3.1). Justificación: Las pruebas se desgastan",
+    "source": "Official Sample Exam A Q#3"
+  },
+  {
+    "id": 253,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "Usted trabaja en un equipo que desarrolla una aplicación móvil para pedir comida. En la iteración actual, el equipo decidió implementar la funcionalidad de pago. ¿Cuál de las siguientes actividades forma parte del análisis de prueba?",
+    "options": [
+      "A) Estimar que probar la integración con el servicio de pago tomará 8 días-persona",
+      "B) Decidir que el equipo debe probar si es posible compartir el pago adecuadamente entre muchos usuarios",
+      "C) Usar el análisis de valores límite (BVA) para derivar los datos de prueba para los casos de prueba que verifican el correcto procesamiento del pago para el monto mínimo permitido a pagar",
+      "D) Analizar la discrepancia entre el resultado real y el resultado esperado después de ejecutar un caso de prueba que verifica el proceso de pago con tarjeta de crédito, y reportar un defecto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#4, LO: FL-1.4.1). Justificación: Decidir que el equipo debe probar si es posible compartir el pago adecuadamente entre muchos usuarios",
+    "source": "Official Sample Exam A Q#4"
+  },
+  {
+    "id": 254,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuáles de los siguientes factores tienen una influencia SIGNIFICATIVA en el enfoque de prueba? i. El SDLC ii. El número de defectos detectados en proyectos anteriores iii. Los riesgos de producto identificados iv. Nuevos requisitos regulatorios que obligan a realizar pruebas formales de caja blanca v. La configuración del entorno de prueba",
+    "options": [
+      "A) i, ii tienen una influencia significativa",
+      "B) i, iii, iv tienen una influencia significativa",
+      "C) ii, iv, v tienen una influencia significativa",
+      "D) iii, v tienen una influencia significativa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#5, LO: FL-1.4.2). Justificación: i, iii, iv tienen una influencia significativa",
+    "source": "Official Sample Exam A Q#5"
+  },
+  {
+    "id": 255,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuáles DOS de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de pruebas?",
+    "options": [
+      "A) Configurar entornos de prueba",
+      "B) Mantener el backlog del producto",
+      "C) Diseñar soluciones a nuevos requisitos",
+      "D) Crear el plan de prueba",
+      "E) Analizar la base de prueba"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#6, LO: FL-1.4.5). Justificación: Configurar entornos de prueba",
+    "source": "Official Sample Exam A Q#6"
+  },
+  {
+    "id": 256,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuáles de las siguientes habilidades (i-v) son las MÁS importantes para un probador? i. Tener conocimiento del dominio ii. Crear una visión del producto iii. Ser un buen jugador de equipo iv. Planificar y organizar el trabajo del equipo v. Pensamiento crítico",
+    "options": [
+      "A) ii y iv son importantes",
+      "B) i, iii y v son importantes",
+      "C) i, ii y v son importantes",
+      "D) iii y iv son importantes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#7, LO: FL-1.5.1). Justificación: i, iii y v son importantes",
+    "source": "Official Sample Exam A Q#7"
+  },
+  {
+    "id": 257,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "easy",
+    "question": "¿Cómo está presente el enfoque de todo el equipo en las interacciones entre los probadores y los representantes del negocio?",
+    "options": [
+      "A) Los representantes del negocio deciden los enfoques de automatización de pruebas",
+      "B) Los probadores ayudan a los representantes del negocio a definir una estrategia de prueba",
+      "C) Los representantes del negocio no forman parte del enfoque de todo el equipo",
+      "D) Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#8, LO: FL-1.5.2). Justificación: Los probadores ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas",
+    "source": "Official Sample Exam A Q#8"
+  },
+  {
+    "id": 258,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "easy",
+    "question": "Considere la siguiente regla: \"por cada actividad del SDLC hay una actividad de prueba correspondiente\". ¿En qué modelos del SDLC se cumple esta regla?",
+    "options": [
+      "A) Solo en los modelos de desarrollo secuenciales",
+      "B) Solo en los modelos de desarrollo iterativos",
+      "C) Solo en los modelos de desarrollo iterativos e incrementales",
+      "D) En los modelos de desarrollo secuenciales, incrementales e iterativos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#9, LO: FL-2.1.2). Justificación: En los modelos de desarrollo secuenciales, incrementales e iterativos",
+    "source": "Official Sample Exam A Q#9"
+  },
+  {
+    "id": 259,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "easy",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR el enfoque de desarrollo guiado por pruebas de aceptación (ATDD)?",
+    "options": [
+      "A) En ATDD, los criterios de aceptación generalmente se crean en base al formato dado/cuando/entonces (given/when/then)",
+      "B) En ATDD, los casos de prueba se crean principalmente en las pruebas de componente y están orientados al código",
+      "C) En ATDD, las pruebas se crean basadas en los criterios de aceptación para guiar el desarrollo del software relacionado",
+      "D) En ATDD, las pruebas se basan en el comportamiento deseado del software, lo cual facilita que los miembros del equipo las entiendan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#10, LO: FL-2.1.3). Justificación: En ATDD, las pruebas se crean basadas en los criterios de aceptación para guiar el desarrollo del software relacionado",
+    "source": "Official Sample Exam A Q#10"
+  },
+  {
+    "id": 260,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes NO es un ejemplo del enfoque shift-left?",
+    "options": [
+      "A) Revisar los requisitos del usuario antes de que sean aceptados formalmente por los interesados",
+      "B) Escribir una prueba de componente antes de que se escriba el código correspondiente",
+      "C) Ejecutar una prueba de eficiencia de rendimiento para un componente durante las pruebas de componente",
+      "D) Escribir un script de prueba antes de configurar el proceso de gestión de la configuración"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#11, LO: FL-2.1.5). Justificación: Escribir un script de prueba antes de configurar el proceso de gestión de la configuración",
+    "source": "Official Sample Exam A Q#11"
+  },
+  {
+    "id": 261,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes argumentos usaría para convencer a su gerente de organizar retrospectivas?",
+    "options": [
+      "A) Las retrospectivas son muy populares hoy en día y los clientes apreciarían si las agregamos a nuestros procesos",
+      "B) Organizar retrospectivas ahorrará dinero a la organización porque sin ellas los representantes de los usuarios finales no proporcionan retroalimentación inmediata sobre el producto",
+      "C) Las debilidades del proceso identificadas durante la retrospectiva se pueden analizar y servir como una lista de tareas pendientes para el programa de mejora continua de procesos de la organización",
+      "D) Las retrospectivas abarcan cinco valores que incluyen el coraje y el respeto, los cuales son cruciales para mantener la mejora continua en la organización"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#12, LO: FL-2.1.6). Justificación: Las debilidades del proceso identificadas durante la retrospectiva se pueden analizar y servir como una lista de tareas pendientes para el programa de mejora continua de procesos de la organización",
+    "source": "Official Sample Exam A Q#12"
+  },
+  {
+    "id": 262,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "¿Qué tipos de fallos (1-4) se ajustan MEJOR a qué niveles de prueba (A-D)? 1. Fallos en el comportamiento del sistema al desviarse de las necesidades de negocio del usuario 2. Fallos en la comunicación entre componentes 3. Fallos en la lógica en el código 4. Fallos por reglas de negocio implementadas incorrectamente A. Pruebas de componente B. Pruebas de integración de componente C. Pruebas de sistema D. Pruebas de aceptación",
+    "options": [
+      "A) 1D, 2B, 3A, 4C",
+      "B) 1D, 2B, 3C, 4A",
+      "C) 1B, 2A, 3D, 4C",
+      "D) 1C, 2B, 3A, 4D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#13, LO: FL-2.2.1). Justificación: 1D, 2B, 3A, 4C",
+    "source": "Official Sample Exam A Q#13"
+  },
+  {
+    "id": 263,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "Usted está probando una historia de usuario con tres criterios de aceptación: AC1, AC2 y AC3. AC1 está cubierto por el caso de prueba TC1, AC2 por TC2, y AC3 por TC3. El historial de ejecución de pruebas tuvo tres rondas de pruebas en tres versiones consecutivas del software de la siguiente manera: Ejecución 1 Ejecución 2 Ejecución 3 TC1 (1) Fallido (4) Pasado (7) Pasado TC2 (2) Pasado (5) Fallido (8) Pasado TC3 (3) Fallido (6) Fallido (9) Pasado Las pruebas se repiten una vez que se le informa que todos los defectos encontrados en la ronda de pruebas están corregidos y hay una nueva versión del software disponible. ¿Cuáles de las pruebas anteriores se ejecutan como pruebas de regresión?",
+    "options": [
+      "A) Solo 4, 7, 8, 9",
+      "B) Solo 5, 7",
+      "C) Solo 4, 6, 8, 9",
+      "D) Solo 5, 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#14, LO: FL-2.2.3). Justificación: Solo 5, 7",
+    "source": "Official Sample Exam A Q#14"
+  },
+  {
+    "id": 264,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes NO es un beneficio de las pruebas estáticas?",
+    "options": [
+      "A) Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC",
+      "B) Corregir defectos encontrados durante las pruebas estáticas es generalmente mucho menos costoso que corregir defectos encontrados durante las pruebas dinámicas",
+      "C) Encontrar defectos de codificación que podrían no haberse encontrado realizando únicamente pruebas dinámicas",
+      "D) Detectar lagunas e inconsistencias en los requisitos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#15, LO: FL-3.1.2). Justificación: Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC",
+    "source": "Official Sample Exam A Q#15"
+  },
+  {
+    "id": 265,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "easy",
+    "question": "¿Cuál de los siguientes es un beneficio de la retroalimentación temprana y frecuente?",
+    "options": [
+      "A) Mejora el proceso de prueba para futuros proyectos",
+      "B) Obliga a los clientes a priorizar sus requisitos en base a los riesgos acordados",
+      "C) Proporciona una medida para la calidad de los cambios",
+      "D) Ayuda a evitar malentendidos en los requisitos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#16, LO: FL-3.2.1). Justificación: Ayuda a evitar malentendidos en los requisitos",
+    "source": "Official Sample Exam A Q#16"
+  },
+  {
+    "id": 266,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "Las revisiones que se están utilizando en su organización tienen los siguientes atributos: • Existe el rol de un escriba • El propósito principal es evaluar la calidad • La reunión está dirigida por el autor del producto de trabajo • Hay preparación individual • Se produce un informe de revisión ¿Cuál de los siguientes tipos de revisión es MÁS probable que se esté utilizando?",
+    "options": [
+      "A) Revisión informal",
+      "B) Walkthrough",
+      "C) Revisión técnica",
+      "D) Inspección"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#17, LO: FL-3.2.4). Justificación: Walkthrough",
+    "source": "Official Sample Exam A Q#17"
+  },
+  {
+    "id": 267,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "easy",
+    "question": "¿Cuál de estas afirmaciones NO es un factor que contribuye al éxito de las revisiones?",
+    "options": [
+      "A) Los participantes deben dedicar tiempo adecuado para la revisión",
+      "B) Dividir los productos de trabajo grandes en partes pequeñas para que el esfuerzo requerido sea menos intenso",
+      "C) Los participantes deben evitar comportamientos que puedan indicar aburrimiento, exasperación u hostilidad hacia otros participantes",
+      "D) Los fallos encontrados deben ser reconocidos, apreciados y manejados objetivamente"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#18, LO: FL-3.2.5). Justificación: Los fallos encontrados deben ser reconocidos, apreciados y manejados objetivamente",
+    "source": "Official Sample Exam A Q#18"
+  },
+  {
+    "id": 268,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes es una característica de las técnicas de prueba basadas en la experiencia?",
+    "options": [
+      "A) Los casos de prueba se crean basándose en información detallada del diseño",
+      "B) Los elementos probados dentro de la sección de código de la interfaz se utilizan para medir la cobertura",
+      "C) Las técnicas de prueba dependen en gran medida del conocimiento del probador sobre el software y el dominio de negocio",
+      "D) Los casos de prueba se utilizan para identificar desviaciones de los requisitos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#19, LO: FL-4.1.1). Justificación: Las técnicas de prueba dependen en gran medida del conocimiento del probador sobre el software y el dominio de negocio",
+    "source": "Official Sample Exam A Q#19"
+  },
+  {
+    "id": 269,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Está probando un formulario de búsqueda de apartamentos simplificado que solo tiene dos criterios de búsqueda: • piso (con tres opciones posibles: planta baja; primer piso; segundo piso o superior) • tipo de jardín (con tres opciones posibles: sin jardín; jardín pequeño; jardín grande) Todos los apartamentos en la planta baja tienen jardín, los apartamentos en los pisos superiores no lo tienen. El formulario tiene un mecanismo de validación incorporado que no le permitirá usar los criterios de búsqueda que violen esta regla. Cada prueba tiene dos valores de entrada: piso y tipo de jardín. Desea aplicar la partición de equivalencia (EP) para cubrir cada piso y cada tipo de jardín en sus pruebas. ¿Cuál es el número mínimo de casos de prueba para lograr una cobertura EP del 100% para las particiones válidas?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#20, LO: FL-4.2.1). Justificación: 4",
+    "source": "Official Sample Exam A Q#20"
+  },
+  {
+    "id": 270,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Está probando un sistema que calcula la nota final del curso para un estudiante determinado. La nota final se asigna en función del resultado final, de acuerdo con las siguientes reglas: • 0 – 50 puntos: suspenso • 51 – 60 puntos: suficiente • 61 – 70 puntos: satisfactorio • 71 – 80 puntos: bien • 81 – 90 puntos: muy bien • 91 – 100 puntos: excelente Ha preparado el siguiente conjunto de casos de prueba: Resultado final Nota final TC1 91 excelente TC2 50 suspenso TC3 81 muy bien TC4 60 suficiente TC5 70 satisfactorio TC6 80 bien ¿Cuál es la cobertura de análisis de valores límite (BVA) de 2 valores para el resultado final que se logra con los casos de prueba existentes?",
+    "options": [
+      "A) 50%",
+      "B) 60%",
+      "C) 33.3%",
+      "D) 100%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#21, LO: FL-4.2.2). Justificación: 50%",
+    "source": "Official Sample Exam A Q#21"
+  },
+  {
+    "id": 271,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Su tienda favorita de alquiler diario de bicicletas acaba de introducir un nuevo sistema de gestión de relaciones con el cliente (CRM) y le ha pedido a usted, uno de sus miembros más leales, que lo pruebe. Las características implementadas son las siguientes: • Cualquiera puede alquilar una bicicleta, pero los miembros reciben un 20% de descuento • Sin embargo, si no se cumple el plazo de devolución, el descuento ya no está disponible • Después de 15 alquileres, los miembros obtienen un regalo: una camiseta. La tabla de decisión que describe las características implementadas se ve así: Condiciones R1 R2 R3 R4 R5 R6 R7 R8 Ser un miembro T T T T F F F F Plazo incumplido T F T F T F F T 15º alquiler F F T T F F T T Acciones 20% descuento X X Regalo Camiseta X X X Basándose ÚNICAMENTE en la descripción de las características del sistema CRM, ¿cuál de las reglas anteriores describe una situación imposible?",
+    "options": [
+      "A) R4",
+      "B) R2",
+      "C) R6",
+      "D) R8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#22, LO: FL-4.2.3). Justificación: R8",
+    "source": "Official Sample Exam A Q#22"
+  },
+  {
+    "id": 272,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Prueba un sistema cuyo ciclo de vida está modelado por el diagrama de transición de estado que se muestra a continuación. El sistema comienza en el estado INIT y finaliza su funcionamiento en el estado OFF. ¿Cuál es el número MÍNIMO de casos de prueba para lograr la cobertura de transiciones válidas?",
+    "options": [
+      "A) 4",
+      "B) 2",
+      "C) 7",
+      "D) 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#23, LO: FL-4.2.4). Justificación: 3",
+    "source": "Official Sample Exam A Q#23"
+  },
+  {
+    "id": 273,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "Su suite de pruebas logró una cobertura de sentencias del 100%. ¿Cuál es la consecuencia de este hecho?",
+    "options": [
+      "A) Cada instrucción en el código que contiene un defecto se ha ejecutado al menos una vez",
+      "B) Cualquier suite de pruebas que contenga más casos de prueba que su suite de pruebas también logrará una cobertura de sentencias del 100%",
+      "C) Cada ruta en el código se ha ejecutado al menos una vez",
+      "D) Cada combinación de valores de entrada ha sido probada al menos una vez"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#24, LO: FL-4.3.1). Justificación: Cada instrucción en el código que contiene un defecto se ha ejecutado al menos una vez",
+    "source": "Official Sample Exam A Q#24"
+  },
+  {
+    "id": 274,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes afirmaciones NO es cierta para las pruebas de caja blanca?",
+    "options": [
+      "A) Durante las pruebas de caja blanca se considera toda la implementación del software",
+      "B) Las métricas de cobertura de caja blanca pueden ayudar a identificar pruebas adicionales para aumentar la cobertura del código",
+      "C) Las técnicas de prueba de caja blanca se pueden utilizar en las pruebas estáticas",
+      "D) Las pruebas de caja blanca pueden ayudar a identificar lagunas en la implementación de los requisitos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#25, LO: FL-4.3.3). Justificación: Las pruebas de caja blanca pueden ayudar a identificar lagunas en la implementación de los requisitos",
+    "source": "Official Sample Exam A Q#25"
+  },
+  {
+    "id": 275,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes describe MEJOR el concepto detrás de la predicción de errores (error guessing)?",
+    "options": [
+      "A) La predicción de errores implica usar su conocimiento y experiencia sobre defectos encontrados en el pasado y los errores típicos cometidos por los desarrolladores",
+      "B) La predicción de errores implica usar su experiencia personal en desarrollo y los errores que usted cometió como desarrollador",
+      "C) La predicción de errores requiere que imagine que usted es el usuario del objeto de prueba y adivine los errores que el usuario podría cometer interactuando con él",
+      "D) La predicción de errores requiere que duplique rápidamente la tarea de desarrollo para identificar el tipo de errores que un desarrollador podría cometer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#26, LO: FL-4.4.1). Justificación: La predicción de errores implica usar su conocimiento y experiencia sobre defectos encontrados en el pasado y los errores típicos cometidos por los desarrolladores",
+    "source": "Official Sample Exam A Q#26"
+  },
+  {
+    "id": 276,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "Comenzó tarde, pero tiene un conocimiento del dominio muy detallado y buenas habilidades analíticas. La lista completa de requisitos aún no se ha compartido con el equipo, pero la gerencia está pidiendo que se presenten algunos resultados de pruebas. ¿Qué técnica de prueba encaja MEJOR en esta situación?",
+    "options": [
+      "A) Pruebas basadas en listas de comprobación",
+      "B) Predicción de errores",
+      "C) Pruebas exploratorias",
+      "D) Pruebas de rama"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#27, LO: FL-4.4.2). Justificación: Pruebas exploratorias",
+    "source": "Official Sample Exam A Q#27"
+  },
+  {
+    "id": 277,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes describe MEJOR la forma en que se pueden documentar los criterios de aceptación?",
+    "options": [
+      "A) Realizando retrospectivas para determinar las necesidades reales de los interesados con respecto a una historia de usuario determinada",
+      "B) Usando el formato dado/cuando/entonces (given/when/then) para describir una condición de prueba de ejemplo relacionada con una historia de usuario determinada",
+      "C) Usando comunicación verbal para reducir el riesgo de que otros malinterpreten los criterios de aceptación",
+      "D) Documentando los riesgos relacionados con una historia de usuario determinada en un plan de prueba para facilitar las pruebas basadas en el riesgo de una historia de usuario determinada"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#28, LO: FL-4.5.2). Justificación: Usando el formato dado/cuando/entonces (given/when/then) para describir una condición de prueba de ejemplo relacionada con una historia de usuario determinada",
+    "source": "Official Sample Exam A Q#28"
+  },
+  {
+    "id": 278,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Considere la siguiente historia de usuario: Como Editor quiero revisar el contenido antes de que se publique para asegurarme de que la gramática es correcta y sus criterios de aceptación: • El usuario puede iniciar sesión en el sistema de gestión de contenido con el rol de \"Editor\" • El editor puede ver las páginas de contenido existentes • El editor puede editar el contenido de la página • El editor puede agregar comentarios de marcado • El editor puede guardar los cambios • El editor puede reasignar al rol de \"propietario del contenido\" para realizar actualizaciones ¿Cuál de las siguientes es el MEJOR ejemplo de una prueba ATDD para esta historia de usuario?",
+    "options": [
+      "A) Probar si el editor puede guardar el documento después de editar el contenido de la página",
+      "B) Probar si el propietario del contenido puede iniciar sesión y realizar actualizaciones al contenido",
+      "C) Probar si el editor puede programar el contenido editado para su publicación",
+      "D) Probar si el editor puede reasignar a otro editor para realizar actualizaciones"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#29, LO: FL-4.5.3). Justificación: Probar si el editor puede guardar el documento después de editar el contenido de la página",
+    "source": "Official Sample Exam A Q#29"
+  },
+  {
+    "id": 279,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "¿Cuáles DOS de las siguientes opciones son los criterios de salida para probar un sistema?",
+    "options": [
+      "A) Preparación del entorno de prueba",
+      "B) La capacidad de iniciar sesión en el objeto de prueba por parte del probador",
+      "C) Se alcanza la densidad de defectos estimada",
+      "D) Los requisitos se traducen al formato dado/cuando/entonces (given/when/then)",
+      "E) Las pruebas de regresión están automatizadas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#31, LO: FL-5.1.3). Justificación: Se alcanza la densidad de defectos estimada",
+    "source": "Official Sample Exam A Q#31"
+  },
+  {
+    "id": 280,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Su equipo utiliza la técnica de estimación de tres puntos para estimar el esfuerzo de prueba de una nueva característica de alto riesgo. Se realizaron las siguientes estimaciones: • Estimación más optimista: 2 horas-persona • Estimación más probable: 11 horas-persona • Estimación más pesimista: 14 horas-persona ¿Cuál es la estimación final?",
+    "options": [
+      "A) 9 horas-persona",
+      "B) 14 horas-persona",
+      "C) 11 horas-persona",
+      "D) 10 horas-persona"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#32, LO: FL-5.1.4). Justificación: 10 horas-persona",
+    "source": "Official Sample Exam A Q#32"
+  },
+  {
+    "id": 281,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Está probando una aplicación móvil que permite a los usuarios encontrar un restaurante cercano según el tipo de comida que desean comer. Considere la siguiente lista de casos de prueba, prioridades (es decir, un número menor significa una prioridad mayor) y dependencias: Número de caso de prueba Condición de prueba cubierta Prioridad Dependencia lógica TC 001 Seleccionar tipo de comida 3 ninguna TC 002 Seleccionar restaurante 2 TC 001 TC 003 Obtener indicaciones 1 TC 002 TC 004 Llamar al restaurante 2 TC 002 TC 005 Hacer una reserva 3 TC 002 ¿Cuál de los siguientes casos de prueba debe ejecutarse en tercer lugar?",
+    "options": [
+      "A) TC 003",
+      "B) TC 005",
+      "C) TC 002",
+      "D) TC 001"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#33, LO: FL-5.1.5). Justificación: TC 003",
+    "source": "Official Sample Exam A Q#33"
+  },
+  {
+    "id": 282,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D): 1. Pruebas de usabilidad 2. Pruebas de componente 3. Pruebas funcionales 4. Pruebas de fiabilidad A. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo B. Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo C. Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto D. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto ¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?",
+    "options": [
+      "A) 1C, 2A, 3B, 4D",
+      "B) 1D, 2A, 3C, 4B",
+      "C) 1C, 2B, 3D, 4A",
+      "D) 1D, 2B, 3C, 4A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#34, LO: FL-5.1.7). Justificación: 1C, 2A, 3B, 4D",
+    "source": "Official Sample Exam A Q#34"
+  },
+  {
+    "id": 283,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "Durante un análisis de riesgos se identificó y evaluó el siguiente riesgo: • Riesgo: El tiempo de respuesta es demasiado largo para generar un informe • Probabilidad del riesgo: media; impacto del riesgo: alto • Respuesta al riesgo: o Un equipo de pruebas independiente realiza pruebas de eficiencia de rendimiento durante las pruebas de sistema o Una muestra seleccionada de usuarios finales realiza pruebas alfa y pruebas beta antes del lanzamiento ¿Qué medida se propone tomar en respuesta a este riesgo analizado?",
+    "options": [
+      "A) Aceptación del riesgo",
+      "B) Plan de contingencia",
+      "C) Mitigación del riesgo",
+      "D) Transferencia del riesgo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#35, LO: FL-5.2.4). Justificación: Mitigación del riesgo",
+    "source": "Official Sample Exam A Q#35"
+  },
+  {
+    "id": 284,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "¿Qué producto de trabajo puede utilizar un equipo ágil para mostrar la cantidad de trabajo que se ha completado y la cantidad de trabajo total restante para una iteración determinada?",
+    "options": [
+      "A) Criterios de aceptación",
+      "B) Informe de defecto",
+      "C) Informe de finalización de prueba",
+      "D) Gráfico de trabajo pendiente (Burndown chart)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#36, LO: FL-5.3.3). Justificación: Gráfico de trabajo pendiente (Burndown chart)",
+    "source": "Official Sample Exam A Q#36"
+  },
+  {
+    "id": 285,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "Necesita actualizar uno de los scripts de prueba automatizados para que esté alineado con un nuevo requisito. ¿Qué proceso indica que debe crear una nueva versión del script de prueba en el repositorio de pruebas?",
+    "options": [
+      "A) Gestión de la trazabilidad",
+      "B) Pruebas de mantenimiento",
+      "C) Gestión de la configuración",
+      "D) Ingeniería de requisitos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#37, LO: FL-5.4.1). Justificación: Gestión de la configuración",
+    "source": "Official Sample Exam A Q#37"
+  },
+  {
+    "id": 286,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Recibió el siguiente informe de defecto de los desarrolladores indicando que la anomalía descrita en este informe de prueba no es reproducible. La aplicación se congela 2022-May-03 – John Doe – Rechazado La aplicación se congela después de ingresar \"Entrada de prueba: $ä\" en el campo Nombre en la pantalla de creación de nuevo usuario. Intenté cerrar sesión, iniciar sesión con la cuenta test_admin01, el mismo problema. Intenté con otras cuentas de administración de prueba, el mismo problema. No se recibió ningún mensaje de error; el registro (ver adjunto) contiene una notificación de error fatal. Basado en el caso de prueba TC-1305, la aplicación debería aceptar la entrada proporcionada y crear el usuario. Por favor, solucione con alta prioridad, esta característica está relacionada con REQ-0012, que es un nuevo requisito de negocio crítico. ¿Qué información crítica FALTA en este informe de prueba que habría sido útil para los desarrolladores?",
+    "options": [
+      "A) Resultado esperado y resultado real",
+      "B) Referencias y estado del defecto",
+      "C) Entorno de prueba y elemento de prueba",
+      "D) Prioridad y severidad"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#38, LO: FL-5.5.1). Justificación: Entorno de prueba y elemento de prueba",
+    "source": "Official Sample Exam A Q#38"
+  },
+  {
+    "id": 287,
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "medium",
+    "question": "¿Qué actividad de prueba apoya una herramienta de preparación de datos?",
+    "options": [
+      "A) Monitorización de pruebas y control de pruebas",
+      "B) Análisis de prueba",
+      "C) Diseño de prueba e implementación de prueba",
+      "D) Finalización de prueba"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#39, LO: FL-6.1.1). Justificación: Diseño de prueba e implementación de prueba",
+    "source": "Official Sample Exam A Q#39"
+  },
+  {
+    "id": 288,
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "easy",
+    "question": "¿Qué elemento identifica correctamente un riesgo potencial de realizar la automatización de pruebas?",
+    "options": [
+      "A) Impedimentos para las pruebas",
+      "B) Cobertura de rama lograda",
+      "C) Progreso de las pruebas",
+      "D) Nuevos riesgos dentro del ciclo de prueba",
+      "E) Tiempo necesario para reparar un defecto Pregunta #A26 (1 Punto) ¿Cuál de las siguientes piezas de información contenida en un informe de progreso de prueba es la MENOS útil para los representantes del negocio?"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#40, LO: FL-6.2.1). Justificación: Cobertura de rama lograda",
+    "source": "Official Sample Exam A Q#40"
+  },
+  {
+    "id": 289,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es un ejemplo de por qué es necesario realizar pruebas?",
+    "options": [
+      "A) Las pruebas dinámicas aumentan la calidad al hacer que los objetos de prueba fallen de formas que los usuarios nunca podrían lograr",
+      "B) Las pruebas estáticas son utilizadas por los desarrolladores para identificar fallos en su código antes de lo que se puede lograr mediante pruebas dinámicas",
+      "C) El análisis estático proporciona evidencia a los clientes de que los elementos del sistema que no proporcionan salidas son aptos para el lanzamiento",
+      "D) Las revisiones aumentan la calidad de las especificaciones de requisitos y conllevan a que se necesiten menos cambios en los productos de trabajo derivados"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#1, LO: FL-1.2.1). Justificación: Las revisiones aumentan la calidad de las especificaciones de requisitos y conllevan a que se necesiten menos cambios en los productos de trabajo derivados",
+    "source": "Official Sample Exam B Q#1"
+  },
+  {
+    "id": 290,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "easy",
+    "question": "¿Cuál de las siguientes afirmaciones sobre aseguramiento de la calidad (QA) y/o control de la calidad (QC) es correcta?",
+    "options": [
+      "A) QA se realiza como parte de las pruebas",
+      "B) Las pruebas se realizan como parte de QC",
+      "C) Las pruebas son otro término para QC",
+      "D) Las pruebas se realizan como parte de QA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#2, LO: FL-1.2.2). Justificación: Las pruebas se realizan como parte de QC",
+    "source": "Official Sample Exam B Q#2"
+  },
+  {
+    "id": 291,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "Uno de los 'principios de la prueba' establece que las pruebas exhaustivas son imposibles. ¿Cuál de los siguientes es un ejemplo de cómo abordar este principio en la práctica?",
+    "options": [
+      "A) Crear casos de prueba que cubran cada posible salida especificada",
+      "B) Documentar todas las posibles variaciones de entrada de prueba y priorizarlas según su importancia",
+      "C) Comenzar las pruebas lo antes posible con revisiones y otros enfoques de pruebas estáticas",
+      "D) Usar la partición de equivalencia y el análisis de valores límite para generar casos de prueba"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#3, LO: FL-1.3.1). Justificación: Usar la partición de equivalencia y el análisis de valores límite para generar casos de prueba",
+    "source": "Official Sample Exam B Q#3"
+  },
+  {
+    "id": 292,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Qué actividad de prueba implica trabajar con los requisitos de datos de prueba, las condiciones de prueba, los requisitos del entorno de prueba y los casos de prueba?",
+    "options": [
+      "A) Diseño de prueba",
+      "B) Ejecución de prueba",
+      "C) Análisis de prueba",
+      "D) Implementación de prueba"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#4, LO: FL-1.4.1). Justificación: Diseño de prueba",
+    "source": "Official Sample Exam B Q#4"
+  },
+  {
+    "id": 293,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es MÁS probable que impacte la forma en que se realizan las pruebas para un objeto de prueba determinado?",
+    "options": [
+      "A) El nivel promedio de experiencia del equipo de marketing de la organización",
+      "B) El conocimiento de los usuarios de que se está desarrollando un nuevo sistema para ellos",
+      "C) El número de años de experiencia de los miembros del equipo de pruebas",
+      "D) La estructura organizacional del usuario final para una aplicación comercial de streaming de música"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#5, LO: FL-1.4.2). Justificación: El número de años de experiencia de los miembros del equipo de pruebas",
+    "source": "Official Sample Exam B Q#5"
+  },
+  {
+    "id": 294,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes afirmaciones es un ejemplo CORRECTO del valor de la trazabilidad?",
+    "options": [
+      "A) La trazabilidad entre los riesgos mitigados y los casos de prueba que pasaron proporciona un medio para determinar el nivel de riesgo residual",
+      "B) La trazabilidad entre los requisitos de usuario y los resultados de las pruebas proporciona un medio para medir el progreso del proyecto en comparación con los objetivos de negocio",
+      "C) La trazabilidad entre los probadores y los casos de prueba que fallaron proporciona un medio para determinar el nivel de habilidad de los probadores",
+      "D) La trazabilidad entre los riesgos identificados y las condiciones de prueba escritas proporciona un medio para determinar qué riesgos vale la pena probar"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#6, LO: FL-1.4.4). Justificación: La trazabilidad entre los requisitos de usuario y los resultados de las pruebas proporciona un medio para medir el progreso del proyecto en comparación con los objetivos de negocio",
+    "source": "Official Sample Exam B Q#6"
+  },
+  {
+    "id": 295,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es MÁS probable que sea un ejemplo de un probador utilizando una habilidad genérica al probar?",
+    "options": [
+      "A) El profundo conocimiento del probador sobre una variedad de juegos de computadora significó que se llevaba bien con uno de los desarrolladores que también era aficionado a los videojuegos",
+      "B) El probador era un antiguo piloto y fue más capaz de comprender los criterios de aceptación para el sistema de control del helicóptero",
+      "C) El probador trabajó previamente como programador y usó sus habilidades en esta área para comunicarse mejor con los analistas de negocio",
+      "D) El probador tuvo mucho cuidado de no cometer errores cuando generó metódicamente casos de prueba antes de comenzar su sesión de pruebas exploratorias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#7, LO: FL-1.5.1). Justificación: El probador era un antiguo piloto y fue más capaz de comprender los criterios de aceptación para el sistema de control del helicóptero",
+    "source": "Official Sample Exam B Q#7"
+  }
+]

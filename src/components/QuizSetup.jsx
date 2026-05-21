@@ -14,7 +14,6 @@ const CHAPTERS = [
 
 const QuizSetup = ({ onStartQuiz }) => {
   const [chapter, setChapter] = useState('all');
-  const [difficulty, setDifficulty] = useState('all');
   const [questionCount, setQuestionCount] = useState(40);
   const [availableQuestions, setAvailableQuestions] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
@@ -28,15 +27,12 @@ const QuizSetup = ({ onStartQuiz }) => {
     if (chapter !== 'all') {
       filtered = filtered.filter(q => q.chapter === parseInt(chapter, 10));
     }
-    if (difficulty !== 'all') {
-      filtered = filtered.filter(q => q.difficulty === difficulty);
-    }
     setAvailableQuestions(filtered.length);
-  }, [chapter, difficulty]);
+  }, [chapter]);
 
   const handleStart = (mode) => {
     if (mode === 'official') {
-      onStartQuiz({ chapter: 'all', difficulty: 'all', count: 40, timePerQuestion: 97 });
+      onStartQuiz({ chapter: 'all', count: 40, timePerQuestion: 97 });
       return;
     }
     if (mode === 'review') {
@@ -46,7 +42,6 @@ const QuizSetup = ({ onStartQuiz }) => {
     }
     onStartQuiz({
       chapter: chapter !== 'all' ? parseInt(chapter, 10) : 'all',
-      difficulty,
       count: Math.min(parseInt(questionCount, 10), availableQuestions),
       timePerQuestion: 90,
     });
@@ -66,15 +61,7 @@ const QuizSetup = ({ onStartQuiz }) => {
           </select>
         </div>
 
-        <div className="setup-group">
-          <label>Dificultad</label>
-          <select className="setup-select" value={difficulty} onChange={e => setDifficulty(e.target.value)}>
-            <option value="all">Cualquiera</option>
-            <option value="easy">Fácil</option>
-            <option value="medium">Media</option>
-            <option value="hard">Difícil</option>
-          </select>
-        </div>
+
 
         <div className="setup-group">
           <label>Número de Preguntas</label>

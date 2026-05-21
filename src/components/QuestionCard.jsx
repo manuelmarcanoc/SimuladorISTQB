@@ -2,8 +2,6 @@ import React from 'react';
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
-const DIFF_LABEL = { easy: 'Fácil', medium: 'Media', hard: 'Difícil' };
-const DIFF_BG    = { easy: '#a8f5a8', medium: '#ffe8a8', hard: '#f5a8a8' };
 
 const QuestionCard = ({
   questionData,
@@ -26,17 +24,6 @@ const QuestionCard = ({
       <div className="progress-container">
         <span>Pregunta {currentQuestionIndex + 1} de {totalQuestions}</span>
         <div style={{ display: 'flex', gap: '6px', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-          {questionData.difficulty && (
-            <span
-              className="topic-badge"
-              style={{
-                background: DIFF_BG[questionData.difficulty] || '#eee',
-                color: '#000',
-              }}
-            >
-              {DIFF_LABEL[questionData.difficulty] || questionData.difficulty}
-            </span>
-          )}
           <span className="topic-badge">Cap. {questionData.chapter} — {questionData.topic}</span>
         </div>
       </div>

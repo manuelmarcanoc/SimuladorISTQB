@@ -115,9 +115,6 @@ const Quiz = ({ onClose, onNewAchievements }) => {
       if (config.chapter !== 'all') {
         filtered = filtered.filter(q => q.chapter === config.chapter);
       }
-      if (config.difficulty !== 'all') {
-        filtered = filtered.filter(q => q.difficulty === config.difficulty);
-      }
       filtered = shuffle(filtered).slice(0, config.count);
     }
 

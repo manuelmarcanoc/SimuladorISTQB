@@ -1,0 +1,782 @@
+[
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Trabajas en un proyecto con riesgo de producto identificado: 'El módulo de pagos podría fallar bajo carga alta'. ¿Qué tipo de prueba deberías priorizar para mitigar este riesgo?",
+    "options": [
+      "A) Pruebas de regresión del módulo de pagos",
+      "B) Pruebas de rendimiento/carga en el módulo de pagos",
+      "C) Revisión estática del código del módulo de pagos",
+      "D) Pruebas de aceptación del usuario del módulo de pagos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El riesgo identificado es de rendimiento bajo carga, por lo que las pruebas de rendimiento/carga son las más indicadas para validar y mitigar ese riesgo de producto específico.",
+    "id": 416
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "hard",
+    "question": "Tu organización quiere implementar una herramienta de automatización de pruebas de GUI. ¿Cuál de los siguientes factores representa el MAYOR riesgo a largo plazo?",
+    "options": [
+      "A) El costo inicial de la licencia de la herramienta",
+      "B) La fragilidad de los scripts cuando la interfaz de usuario cambia frecuentemente",
+      "C) El tiempo de aprendizaje inicial del equipo",
+      "D) La incompatibilidad con el lenguaje de programación del sistema"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los scripts de automatización de GUI son muy frágiles ante cambios de interfaz (localizadores, IDs, posiciones). En proyectos con UI que evoluciona rápido, el mantenimiento puede superar el beneficio de la automatización.",
+    "id": 417
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "hard",
+    "question": "¿Cuál es la diferencia clave entre una herramienta de ejecución de pruebas y una herramienta de gestión de pruebas?",
+    "options": [
+      "A) No hay diferencia, son la misma herramienta",
+      "B) La de ejecución automatiza el run de scripts; la de gestión organiza, planifica y registra el progreso y resultados de las pruebas",
+      "C) La de gestión solo sirve para pruebas manuales; la de ejecución para automatizadas",
+      "D) La de ejecución genera informes; la de gestión ejecuta los casos de prueba"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las herramientas de ejecución (ej. Selenium, JUnit) corren los tests automáticamente. Las de gestión (ej. TestRail, Zephyr) organizan casos, planes, ciclos de prueba y rastrean resultados y cobertura.",
+    "id": 418
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es un ejemplo de prueba NO funcional?",
+    "options": [
+      "A) Verificar que el login rechaza contraseñas incorrectas",
+      "B) Comprobar que la página de inicio carga en menos de 3 segundos con 500 usuarios simultáneos",
+      "C) Validar que el cálculo del IVA es correcto",
+      "D) Confirmar que el botón 'Guardar' almacena los datos en la base de datos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las pruebas no funcionales evalúan atributos de calidad como rendimiento, usabilidad y seguridad. La opción B es una prueba de rendimiento (carga), que es no funcional.",
+    "id": 419
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "¿Cuál es la diferencia entre pruebas de confirmación (re-testing) y pruebas de regresión?",
+    "options": [
+      "A) Son lo mismo, solo nombres diferentes",
+      "B) La confirmación verifica que un defecto específico fue corregido; la regresión verifica que los cambios no rompieron nada más",
+      "C) La regresión solo la hacen los desarrolladores; la confirmación los testers",
+      "D) La confirmación se hace antes del desarrollo; la regresión después"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Re-testing (confirmación) ejecuta el caso de prueba que falló para verificar que el defecto concreto fue corregido. Regression testing verifica que el cambio no introdujo nuevos fallos en otras áreas.",
+    "id": 420
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes documentos puede ser objeto de revisión estática?",
+    "options": [
+      "A) Solo el código fuente",
+      "B) Solo los requisitos",
+      "C) Cualquier producto de trabajo: requisitos, diseño, código, casos de prueba, planes",
+      "D) Solo los documentos entregados al cliente"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las pruebas estáticas pueden aplicarse a cualquier producto de trabajo escrito: requisitos, especificaciones de diseño, código fuente, casos de prueba, planes de prueba, contratos, etc.",
+    "id": 421
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "Un campo de formulario acepta valores de edad entre 18 y 65 años. Usando partición de equivalencia, ¿cuántas clases se identifican (válidas + inválidas)?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se identifican 3 clases: inválida (<18), válida (18-65), inválida (>65). Hay 1 clase válida y 2 inválidas = 3 clases totales.",
+    "id": 422
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "¿Qué documento describe el alcance, enfoque, recursos, cronograma y objetivos de las actividades de prueba para un proyecto específico?",
+    "options": [
+      "A) Estrategia de pruebas",
+      "B) Plan de pruebas",
+      "C) Especificación de caso de prueba",
+      "D) Informe de resumen de pruebas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El Plan de Pruebas (Test Plan) describe para un proyecto específico: alcance, objetivos, enfoque, criterios de entrada/salida, recursos, riesgos y cronograma de las actividades de prueba.",
+    "id": 423
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Analiza el siguiente diagrama de flujo: START → A → IF X THEN B ELSE C → IF Y THEN D ELSE E → END. ¿Cuántos casos de prueba son necesarios para lograr 100% de cobertura de sentencias?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Para ejecutar todas las sentencias (A, B o C, D o E) necesitas al menos 2 casos: uno que tome X=true,Y=true (ejecuta A,B,D) y otro X=false,Y=false (ejecuta A,C,E). Con 2 casos cubres todas las sentencias.",
+    "id": 424
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Tienes una función con 4 condiciones independientes en una expresión AND: (A AND B AND C AND D). Para lograr 100% de cobertura de condición modificada/decisión (MC/DC), ¿cuántos casos de prueba son necesarios como mínimo?",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 5",
+      "D) 16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MC/DC requiere N+1 casos de prueba para N condiciones independientes. Con 4 condiciones: 4+1=5 casos mínimos. MC/DC demuestra que cada condición influye independientemente en el resultado.",
+    "id": 425
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Un sistema de semáforo tiene estados: Rojo, Ámbar_a_Verde, Verde, Ámbar_a_Rojo. La transición Rojo→Ámbar_a_Verde ocurre tras 60 segundos. ¿Cuántas transiciones válidas tiene el diagrama completo del semáforo?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El ciclo completo tiene 4 transiciones: Rojo→Ámbar_a_Verde, Ámbar_a_Verde→Verde, Verde→Ámbar_a_Rojo, Ámbar_a_Rojo→Rojo. Son exactamente 4 transiciones en el ciclo normal.",
+    "id": 426
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Estás probando una función de búsqueda. Según tu experiencia, sabes que las búsquedas con caracteres especiales (%, _, *) suelen causar inyección SQL. ¿Qué técnica basada en experiencia estás usando?",
+    "options": [
+      "A) Exploración estructurada",
+      "B) Error guessing (predicción de errores)",
+      "C) Prueba de caja blanca",
+      "D) Partición de equivalencia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error guessing es una técnica basada en la experiencia donde el tester predice dónde es más probable que haya defectos, basándose en su conocimiento de fallos comunes como inyección SQL con caracteres especiales.",
+    "id": 427
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Para el siguiente código IF (edad >= 18 AND pais == 'ES') THEN acceso = true ELSE acceso = false, ¿cuántos casos de prueba necesitas para 100% cobertura de decisión?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cobertura de decisión requiere que la condición compuesta sea evaluada como TRUE y como FALSE. Necesitas: caso 1 (edad=20, pais='ES'→true) y caso 2 (edad=15, pais='ES'→false). Mínimo 2 casos.",
+    "id": 428
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "hard",
+    "question": "Tu empresa desarrolla software de control de vuelos. El costo de fallar es catastrófico. ¿Cuál de los siguientes principios ISTQB justifica invertir más en pruebas que en proyectos de bajo riesgo?",
+    "options": [
+      "A) Las pruebas exhaustivas son posibles con suficientes recursos",
+      "B) Las pruebas dependen del contexto: el nivel de rigor debe adecuarse al riesgo y consecuencias del fallo",
+      "C) La ausencia de defectos es una falacia",
+      "D) Las pruebas tempranas ahorran tiempo y dinero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El principio 'Las pruebas dependen del contexto' establece que el enfoque, técnicas e intensidad de prueba varían según el dominio, riesgo y consecuencias. Software crítico requiere mayor rigor.",
+    "id": 429
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "hard",
+    "question": "Durante las pruebas de sistema, se encuentra un defecto en el módulo de facturación. El desarrollador lo corrige. Después, el tester descubre que la corrección introdujo un nuevo error en el módulo de inventario. ¿Cómo se llama este tipo de defecto introducido?",
+    "options": [
+      "A) Defecto de regresión",
+      "B) Defecto de integración",
+      "C) Defecto de mutación",
+      "D) Defecto de confirmación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un defecto de regresión (regression defect) es uno introducido inadvertidamente por un cambio (como una corrección de bug). Las pruebas de regresión están diseñadas específicamente para detectarlos.",
+    "id": 430
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "hard",
+    "question": "En desarrollo TDD (Test Driven Development), ¿cuál es el orden correcto del ciclo?",
+    "options": [
+      "A) Escribir código → Escribir test → Refactorizar",
+      "B) Escribir test (que falla) → Escribir código mínimo para pasar el test → Refactorizar",
+      "C) Diseñar → Escribir test → Escribir código → Refactorizar",
+      "D) Escribir test → Desplegar → Refactorizar → Escribir código"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TDD sigue el ciclo Red-Green-Refactor: 1) Escribir test que falla (Red), 2) Escribir el código mínimo para que pase (Green), 3) Refactorizar el código manteniendo los tests en verde.",
+    "id": 431
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "hard",
+    "question": "¿Cuál de las siguientes afirmaciones sobre las pruebas de integración de sistemas (system integration testing) es CORRECTA?",
+    "options": [
+      "A) Verifican la lógica interna de cada componente individual",
+      "B) Verifican las interacciones entre el sistema y sistemas externos o interfaces",
+      "C) Las ejecutan únicamente los usuarios finales",
+      "D) Solo se aplican en modelos de desarrollo en cascada"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las pruebas de integración de sistemas verifican las interfaces y comunicaciones entre el sistema bajo prueba y otros sistemas externos, servicios, APIs o hardware con los que interactúa.",
+    "id": 432
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "hard",
+    "question": "Un equipo DevOps implementa CI/CD. Las pruebas se ejecutan automáticamente en cada commit. ¿Qué tipo de pruebas son MÁS apropiadas para ejecutar en cada build del pipeline de CI?",
+    "options": [
+      "A) Pruebas de aceptación del usuario completas",
+      "B) Pruebas exploratorias manuales",
+      "C) Pruebas de componentes y de integración automatizadas rápidas",
+      "D) Pruebas de rendimiento completas con carga máxima"
+    ],
+    "correctAnswer": 2,
+    "explanation": "En CI, las pruebas deben ser rápidas y automatizadas para dar feedback inmediato. Las pruebas de componente e integración automatizadas son ideales. Las pruebas lentas (UAT, carga completa) van en fases separadas.",
+    "id": 433
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "hard",
+    "question": "Una organización realiza una revisión donde: existe un moderador independiente, los revisores preparan individualmente, se registran métricas de defectos, y se produce un informe formal. ¿Qué tipo de revisión es?",
+    "options": [
+      "A) Revisión informal",
+      "B) Walkthrough",
+      "C) Revisión técnica",
+      "D) Inspección"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La Inspección es la revisión más formal: tiene moderador capacitado, preparación individual, roles definidos (autor, moderador, escriba, revisores), métricas recogidas e informe formal de salida.",
+    "id": 434
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "hard",
+    "question": "¿Cuál es la diferencia principal entre una inspección y un walkthrough en revisiones estáticas?",
+    "options": [
+      "A) El walkthrough es más formal que la inspección",
+      "B) En el walkthrough el autor guía la reunión; en la inspección lo hace un moderador independiente",
+      "C) La inspección no requiere preparación previa; el walkthrough sí",
+      "D) El walkthrough produce métricas formales; la inspección no"
+    ],
+    "correctAnswer": 1,
+    "explanation": "En el Walkthrough, el autor guía a los participantes por su producto de trabajo. En la Inspección, un moderador independiente dirige el proceso siguiendo un proceso definido con más formalidad y rigor.",
+    "id": 435
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Eres test manager. El proyecto tiene 2 semanas de retraso. El director pide reducir el tiempo de pruebas a la mitad. ¿Cuál es la respuesta MÁS profesional?",
+    "options": [
+      "A) Aceptar y ejecutar todas las pruebas más rápido",
+      "B) Eliminar al azar la mitad de los casos de prueba",
+      "C) Presentar el análisis de riesgo: qué cobertura se pierde, qué riesgos aumentan, y proponer priorización basada en riesgo",
+      "D) Negarse completamente a reducir el tiempo de pruebas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La respuesta profesional es usar gestión de riesgos: mostrar qué áreas quedarán sin cubrir, el impacto en la calidad, y proponer una estrategia de priorización basada en riesgo para maximizar el valor con el tiempo disponible.",
+    "id": 436
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "¿Cuál de los siguientes es un ejemplo de 'riesgo de proyecto' (vs riesgo de producto) en el contexto de testing?",
+    "options": [
+      "A) El módulo de pago puede tener vulnerabilidades de seguridad",
+      "B) La falta de disponibilidad del entorno de pruebas puede retrasar la ejecución",
+      "C) El algoritmo de búsqueda puede devolver resultados incorrectos",
+      "D) El sistema puede degradarse bajo carga alta de usuarios"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los riesgos de proyecto amenazan el plan del proyecto (recursos, entornos, herramientas, cronograma). Los riesgos de producto amenazan la calidad del software. La falta de entorno es un riesgo de proyecto.",
+    "id": 437
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "hard",
+    "question": "Una empresa evalúa ROI de automatizar su suite de regresión (500 casos manuales, 2h cada ejecución manual). Si automatizar cuesta 200 horas y cada ejecución automatizada toma 15 min, ¿cuántas ejecuciones son necesarias para recuperar la inversión?",
+    "options": [
+      "A) 10 ejecuciones",
+      "B) 50 ejecuciones",
+      "C) 100 ejecuciones",
+      "D) 200 ejecuciones"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ahorro por ejecución: 2h - 0.25h = 1.75h. Para recuperar 200h de inversión: 200/1.75 ≈ 114 ejecuciones. La opción más cercana es 100, aunque la matemática exacta da ~114. (En muchos exámenes se simplifica el cálculo).",
+    "id": 438
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "Se aplica 'pairwise testing' (testing por pares) a un sistema con 5 parámetros, cada uno con 3 valores posibles. Si se probaran todas las combinaciones sería 3⁵=243 casos. ¿Para qué sirve pairwise?",
+    "options": [
+      "A) Para probar todas las combinaciones posibles sistemáticamente",
+      "B) Para reducir el número de casos de prueba asegurando que cada par de valores aparezca al menos una vez",
+      "C) Para probar solo los valores límite de cada parámetro",
+      "D) Para automatizar la generación de datos de prueba"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pairwise (o all-pairs) testing garantiza que cada combinación de 2 parámetros se prueba al menos una vez, reduciendo drásticamente el número de casos (de 243 a ~25 aprox.) manteniendo buena detección de defectos.",
+    "id": 439
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes actividades es responsabilidad del Test Manager (no del Tester individual)?",
+    "options": [
+      "A) Ejecutar casos de prueba",
+      "B) Reportar defectos encontrados",
+      "C) Coordinar la estrategia de pruebas y comunicar el estado al proyecto",
+      "D) Diseñar datos de prueba específicos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El Test Manager coordina, planifica, monitoriza y controla las actividades de prueba, define estrategia y comunica el progreso. Los testers individuales ejecutan, diseñan casos y reportan defectos.",
+    "id": 440
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes defectos es más probable encontrar mediante análisis estático que mediante pruebas dinámicas?",
+    "options": [
+      "A) Un cálculo que devuelve el resultado incorrecto bajo condiciones específicas",
+      "B) Una variable que puede ser nula (null pointer) en cierto camino del código nunca alcanzado en tests dinámicos",
+      "C) Un botón de la UI que no funciona en Firefox",
+      "D) Un tiempo de respuesta lento bajo carga alta"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El análisis estático puede detectar posibles null pointer exceptions, código muerto o caminos nunca ejecutados que las pruebas dinámicas no cubren. Es especialmente útil para defectos en caminos de código raramente ejecutados.",
+    "id": 441
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "¿Qué son los 'criterios de entrada' (entry criteria) en el proceso de pruebas?",
+    "options": [
+      "A) Los requisitos que debe cumplir el software para poder lanzarlo al mercado",
+      "B) Las condiciones que deben cumplirse antes de que pueda comenzar una actividad de prueba",
+      "C) Los criterios para aceptar un nuevo tester en el equipo",
+      "D) Las métricas de cobertura mínima para completar las pruebas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los criterios de entrada definen las precondiciones que deben cumplirse para iniciar una fase o actividad de prueba, por ejemplo: software compilado sin errores, entorno disponible, datos de prueba preparados.",
+    "id": 442
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "¿Cuál es el propósito del 'informe de resumen de pruebas' (test summary report) al final de una fase?",
+    "options": [
+      "A) Listar todos los casos de prueba que se van a ejecutar",
+      "B) Comunicar los resultados, métricas, defectos y evaluación de criterios de salida a los stakeholders",
+      "C) Describir las técnicas de diseño de pruebas utilizadas",
+      "D) Definir el presupuesto para la siguiente fase de pruebas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El test summary report comunica a los stakeholders el resultado de las pruebas: casos ejecutados/pasados/fallidos, defectos encontrados, cobertura lograda y evaluación de los criterios de salida (exit criteria).",
+    "id": 443
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es un beneficio REAL de la automatización de pruebas?",
+    "options": [
+      "A) Elimina completamente la necesidad de pruebas manuales",
+      "B) Permite ejecutar regresión frecuente y consistente con menor esfuerzo por ejecución tras la inversión inicial",
+      "C) Encuentra más tipos de defectos que las pruebas manuales",
+      "D) Es siempre rentable independientemente del tipo de proyecto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La automatización permite ejecutar regresión repetidamente con consistencia y menor esfuerzo por ciclo. No elimina las pruebas manuales, no siempre es rentable y los humanos detectan algunos defectos que la automatización no.",
+    "id": 444
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes técnicas es de 'caja blanca' (white-box)?",
+    "options": [
+      "A) Partición de equivalencia",
+      "B) Análisis de valores límite",
+      "C) Cobertura de sentencias",
+      "D) Tablas de decisión"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las técnicas de caja blanca (estructura) se basan en el código interno: cobertura de sentencias, ramas, condiciones. Las otras opciones (EP, BVA, tablas de decisión) son técnicas de caja negra basadas en especificaciones.",
+    "id": 445
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "easy",
+    "question": "Según ISTQB CTFL v4.0, ¿cuáles son los 7 principios del testing?",
+    "options": [
+      "A) El testing muestra presencia de defectos; testing exhaustivo es imposible; testing temprano; agrupamiento de defectos; paradoja del pesticida; el testing depende del contexto; la falacia de ausencia de defectos",
+      "B) El testing elimina todos los defectos; testing exhaustivo es posible; testing al final; defectos uniformes; el testing no depende del contexto",
+      "C) Solo hay 4 principios en ISTQB v4.0",
+      "D) Los 7 principios incluyen: automatización obligatoria, testing ágil, CI/CD, shift-left, shift-right, DevOps y TDD"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los 7 principios ISTQB son: 1)Testing muestra presencia de defectos 2)Testing exhaustivo es imposible 3)Testing temprano ahorra dinero 4)Agrupamiento de defectos 5)Paradoja del pesticida 6)Testing depende del contexto 7)Falacia de ausencia de defectos.",
+    "id": 446
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "easy",
+    "question": "¿Qué son los 'test stubs' en pruebas de integración?",
+    "options": [
+      "A) Herramientas de automatización de pruebas",
+      "B) Sustitutos de componentes llamados por el componente bajo prueba que aún no están disponibles",
+      "C) Informes de defectos encontrados durante integración",
+      "D) Datos de prueba generados automáticamente"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los stubs son componentes sustitutos que simulan módulos llamados por el componente bajo prueba (componentes 'hacia abajo' en la jerarquía) que no están disponibles aún durante las pruebas de integración.",
+    "id": 447
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Estás probando un sistema de reservas de hotel. Los precios varían según temporada: Baja (enero-marzo, oct-nov): 80€/noche; Media (abril-junio, sep): 120€/noche; Alta (julio-agosto, dic): 200€/noche. Usando EP, ¿cuántas clases de equivalencia válidas existen para el precio por noche?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 6",
+      "D) 12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Existen 3 clases de equivalencia válidas de precio: [80€ - temporada baja], [120€ - temporada media], [200€ - temporada alta]. EP agrupa por comportamiento equivalente del sistema, no por número de meses.",
+    "id": 448
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Sistema de votación online. Condiciones de voto: (1) Ciudadano registrado, (2) Mayor de 18 años, (3) No ha votado ya. Solo puede votar si cumple las 3. Diseña la tabla de decisión mínima. ¿Cuántas reglas distintas de comportamiento (no reglas imposibles) existen?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Con 3 condiciones booleanas hay 2³=8 combinaciones. Solo 1 combinación (V,V,V) permite votar; las otras 7 lo deniegan. Hay 8 reglas posibles que describen comportamientos distintos del sistema.",
+    "id": 449
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Pruebas de un semáforo peatonal. Estados: ROJO_PEATÓN, VERDE_PEATÓN, PARPADEO. Transiciones: ROJO→VERDE (tras 60s), VERDE→PARPADEO (tras 25s), PARPADEO→ROJO (tras 5s). ¿Qué cobertura de 0-switches (todas las transiciones) requiere como mínimo?",
+    "options": [
+      "A) 1 caso de prueba",
+      "B) 2 casos de prueba",
+      "C) 3 casos de prueba que cubran el ciclo completo",
+      "D) 6 casos de prueba, uno por cada transición posible"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La cobertura de 0-switches requiere que cada transición válida sea ejercida al menos una vez. Con 3 transiciones en un ciclo (R→V→P→R), 1 caso que recorra el ciclo completo las cubre todas. En la práctica se usan múltiples casos para variantes.",
+    "id": 450
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Tienes 100 casos de prueba para ejecutar en 5 días. Tras 3 días has ejecutado 50 casos, encontrado 15 defectos (5 críticos), y el equipo de desarrollo ha corregido 8. Los criterios de salida requieren: 90% de ejecución, 0 defectos críticos abiertos. ¿Cuál es tu situación?",
+    "options": [
+      "A) Puedes liberar: has cumplido los criterios de salida",
+      "B) No puedes liberar: faltan casos de prueba y tienes defectos críticos abiertos",
+      "C) Puedes liberar porque has encontrado y corregido la mayoría de defectos",
+      "D) Debes escalar al cliente para que decida si liberar o no"
+    ],
+    "correctAnswer": 1,
+    "explanation": "No cumples los criterios de salida: solo tienes 50% de ejecución (necesitas 90%) y aún hay 5-8=máximo 7... los 5 críticos siguen abiertos si solo se corrigieron 8 de 15 (mezcla). Con defectos críticos abiertos no se cumplen los exit criteria.",
+    "id": 451
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Tu equipo identificó los siguientes riesgos de producto: R1(prob=Alta, impacto=Alto), R2(prob=Baja, impacto=Alto), R3(prob=Alta, impacto=Bajo), R4(prob=Baja, impacto=Bajo). Usando testing basado en riesgo, ¿en qué orden priorizas las pruebas?",
+    "options": [
+      "A) R4, R3, R2, R1",
+      "B) R1, R2, R3, R4",
+      "C) R1, R3, R2, R4",
+      "D) R2, R1, R4, R3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El nivel de riesgo = probabilidad × impacto. R1(A×A=muy alto), R3(A×B=medio-alto), R2(B×A=medio-alto), R4(B×B=bajo). R1 primero, luego R3 y R2 (similar nivel), finalmente R4. El orden correcto es R1, R3, R2, R4.",
+    "id": 452
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: En una revisión de especificación de requisitos encuentras: 'El sistema deberá procesar las transacciones rápidamente y la interfaz deberá ser amigable'. ¿Qué tipos de defectos de requisitos hay?",
+    "options": [
+      "A) Solo ambigüedad",
+      "B) Ambigüedad ('rápidamente', 'amigable') y falta de verificabilidad: no son medibles ni testeables",
+      "C) Contradicción entre requisitos",
+      "D) Requisitos duplicados"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Rápidamente' y 'amigable' son términos ambiguos y no verificables. Buenos requisitos deben ser específicos y medibles (ej: 'procesar en <2s', 'puntuación SUS>75'). Este es el defecto más común en revisiones de requisitos.",
+    "id": 453
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: El equipo ha ejecutado 500 pruebas y encontrado 0 defectos. El product owner quiere liberar el software afirmando que 'está libre de bugs'. ¿Cuál es tu respuesta basada en principios ISTQB?",
+    "options": [
+      "A) Estás de acuerdo, 500 pruebas sin defectos es suficiente evidencia",
+      "B) Las pruebas solo muestran que no se encontraron defectos con ese conjunto de pruebas; no pueden demostrar su ausencia total (Principio 1). Liberar tiene riesgo residual",
+      "C) Debes añadir 500 pruebas más para estar seguros",
+      "D) Solicitar pruebas exhaustivas de todos los caminos posibles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Principio 1 ISTQB: 'Las pruebas muestran la presencia de defectos, no su ausencia'. 0 defectos en 500 pruebas no garantiza software libre de bugs, solo que ese conjunto de pruebas no los encontró. Siempre existe riesgo residual.",
+    "id": 454
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Un sistema de e-commerce tiene 3 niveles: Frontend (React), Backend API (Java), Base de datos (PostgreSQL). Al probar la función 'añadir al carrito', falla. El backend devuelve error 500. ¿Qué tipo de prueba de integración necesitas?",
+    "options": [
+      "A) Prueba de componente del frontend",
+      "B) Prueba de integración entre frontend y backend API para verificar el contrato de la interfaz",
+      "C) Prueba de sistema end-to-end completa",
+      "D) Prueba de aceptación del usuario"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El error 500 del backend indica un fallo en la interfaz entre frontend y backend. La prueba de integración de componentes verifica las interfaces y contratos entre los módulos integrados, que es exactamente lo que necesitas diagnosticar.",
+    "id": 455
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Tu empresa quiere adoptar una herramienta de automatización de pruebas de API. El equipo evalúa: costo, curva de aprendizaje, integración con CI/CD, soporte de protocolos REST/SOAP, y mantenibilidad. ¿Cuál es el factor MÁS crítico para garantizar el éxito a largo plazo?",
+    "options": [
+      "A) El menor costo de licencia",
+      "B) La facilidad de mantenimiento y la integración con el pipeline CI/CD existente",
+      "C) Que soporte el mayor número de protocolos posible",
+      "D) Que tenga la interfaz más intuitiva"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A largo plazo, la mantenibilidad de los scripts y la integración con CI/CD son críticos. Tests difíciles de mantener se abandonan. Sin integración en el pipeline, la automatización no aporta valor continuo.",
+    "id": 456
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Pruebas de un formulario de registro. Campos: nombre (obligatorio), email (formato válido), contraseña (8-20 chars, al menos 1 mayúscula). Usando EP, ¿cuántas clases de equivalencia existen SOLO para el campo contraseña?",
+    "options": [
+      "A) 2 (válida e inválida)",
+      "B) 4 (válida; inválida por longitud corta; inválida por longitud larga; inválida por sin mayúscula)",
+      "C) 3 (corta, válida, larga)",
+      "D) 6 (todas las combinaciones de longitud y formato)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Para contraseña: 1)Válida (8-20 chars + mayúscula), 2)Inválida-corta (<8 chars), 3)Inválida-larga (>20 chars), 4)Inválida-sin mayúscula (longitud OK pero sin mayúscula). Son 4 clases distintas con comportamiento diferente del sistema.",
+    "id": 457
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Tu organización implementa revisiones de código obligatorias. El equipo de desarrollo se queja de que ralentizan el proceso. ¿Cuál es el argumento MÁS sólido para justificar las revisiones?",
+    "options": [
+      "A) Son obligatorias por normativa, no hay alternativa",
+      "B) El costo de corregir defectos encontrados en revisión es significativamente menor que corregirlos en producción",
+      "C) Las revisiones mejoran la moral del equipo",
+      "D) La herramienta de revisión se pagó y hay que amortizarla"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El argumento económico es el más sólido: encontrar un defecto en revisión de código cuesta ~1x; en pruebas de sistema ~10x; en producción ~100x. Las revisiones tienen el mayor ROI en detección temprana de defectos.",
+    "id": 458
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "CASO PRÁCTICO: Estás gestionando pruebas de una app móvil. A 3 días de la release, tu equipo encuentra un defecto grave en el flujo de pago. El fix del desarrollador tomará 2 días. ¿Cuál es el proceso correcto según ISTQB?",
+    "options": [
+      "A) Cancelar la release automáticamente",
+      "B) Registrar el defecto, evaluar el impacto y riesgo, escalar para decisión de negocio sobre retrasar o liberar con workaround documentado",
+      "C) El tester debe corregir el defecto directamente",
+      "D) Ignorar el defecto si el cliente no lo ha reportado aún"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El proceso correcto es: documentar el defecto (bug report), analizar impacto/riesgo, y escalar a los stakeholders con información para decidir. No es decisión del tester unilateralmente retrasar o liberar; es una decisión de negocio informada.",
+    "id": 459
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "medium",
+    "question": "¿Qué describe mejor el concepto de 'shift-left' en testing?",
+    "options": [
+      "A) Mover las pruebas hacia el lado izquierdo de la pantalla",
+      "B) Iniciar actividades de prueba más temprano en el ciclo de vida del desarrollo",
+      "C) Reducir el número de testers en el equipo",
+      "D) Automatizar todas las pruebas de regresión"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shift-left significa adelantar (mover a la izquierda en la línea de tiempo) las actividades de prueba: revisar requisitos, hacer pruebas de componentes antes, usar TDD/ATDD, etc. El objetivo es detectar defectos antes para reducir costos.",
+    "id": 460
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "difficulty": "medium",
+    "question": "¿Cuál es el objetivo principal de las pruebas de aceptación del usuario (UAT)?",
+    "options": [
+      "A) Verificar que el código no tiene errores de sintaxis",
+      "B) Confirmar que el sistema satisface las necesidades del negocio y es apto para ser usado por los usuarios finales",
+      "C) Probar el rendimiento del sistema bajo carga",
+      "D) Verificar que los componentes se integran correctamente"
+    ],
+    "correctAnswer": 1,
+    "explanation": "UAT verifica que el sistema cumple los requisitos del negocio y las necesidades de los usuarios. Los usuarios o representantes de negocio confirman si el sistema es adecuado para su propósito antes de la aceptación formal.",
+    "id": 461
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "medium",
+    "question": "Una especificación dice: 'Si el usuario es premium Y lleva más de 1 año, aplica 20% descuento'. ¿Qué técnica de diseño de pruebas es MÁS directamente aplicable a esta regla de negocio?",
+    "options": [
+      "A) Análisis de valores límite",
+      "B) Tablas de decisión",
+      "C) Transición de estado",
+      "D) Cobertura de sentencias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las tablas de decisión son ideales para reglas de negocio con múltiples condiciones y combinaciones (premium: sí/no, antigüedad: >1año/<=1año) que determinan diferentes acciones (descuento o no).",
+    "id": 462
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "difficulty": "medium",
+    "question": "¿Qué es un 'framework de automatización de pruebas basado en palabras clave' (keyword-driven)?",
+    "options": [
+      "A) Un framework donde las palabras clave son contraseñas de acceso",
+      "B) Un framework donde los casos de prueba se describen usando palabras clave de alto nivel que representan acciones (ej: 'Login', 'ClickButton', 'VerifyText')",
+      "C) Un framework solo para pruebas de seguridad",
+      "D) Un framework que usa inteligencia artificial para generar pruebas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El keyword-driven testing usa palabras clave o palabras de acción que representan operaciones del sistema. Los casos de prueba se escriben en tablas con estas keywords, separando el diseño de pruebas de su implementación técnica.",
+    "id": 463
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes opciones describe mejor los 'criterios de salida' (exit criteria) de una fase de pruebas?",
+    "options": [
+      "A) Las condiciones para comenzar a probar",
+      "B) Las condiciones que deben cumplirse para considerar completada una fase de pruebas",
+      "C) El número máximo de defectos permitidos en producción",
+      "D) La fecha límite del proyecto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los criterios de salida (exit criteria o Definition of Done) definen cuándo una fase de prueba puede considerarse completa: ej. 95% de casos ejecutados, 0 defectos críticos abiertos, cobertura ≥80%.",
+    "id": 464
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es un ejemplo de técnica de análisis estático?",
+    "options": [
+      "A) Ejecutar el software con datos de prueba",
+      "B) Usar un linter o herramienta de análisis de código para detectar violaciones de estándares",
+      "C) Probar la interfaz de usuario manualmente",
+      "D) Medir el tiempo de respuesta del sistema"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El análisis estático examina el código sin ejecutarlo. Las herramientas linter (como SonarQube, ESLint, Checkstyle) detectan violaciones de estándares, código muerto, posibles null pointers, etc. sin ejecutar el programa.",
+    "id": 465
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "difficulty": "easy",
+    "question": "¿Cuál es la diferencia entre verificación y validación en testing?",
+    "options": [
+      "A) Son exactamente lo mismo",
+      "B) Verificación: ¿estamos construyendo el producto correctamente? Validación: ¿estamos construyendo el producto correcto?",
+      "C) Verificación la hacen los usuarios; validación los testers",
+      "D) Verificación es dinámica; validación es estática"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Verificación comprueba que el producto cumple sus especificaciones ('¿lo estamos construyendo bien?'). Validación comprueba que el producto satisface las necesidades reales del usuario ('¿estamos construyendo lo correcto?').",
+    "id": 466
+  },
+  {
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "difficulty": "easy",
+    "question": "¿Qué significa 'cobertura de ramas' (branch coverage) del 100%?",
+    "options": [
+      "A) Que se probaron todas las líneas de código",
+      "B) Que cada decisión en el código tomó el valor true Y false al menos una vez",
+      "C) Que se probaron todos los posibles valores de entrada",
+      "D) Que se ejecutaron todas las funciones del sistema"
+    ],
+    "correctAnswer": 1,
+    "explanation": "100% de cobertura de ramas (o decisión) significa que cada resultado posible de cada punto de decisión (if/else, switch) fue ejecutado al menos una vez: tanto la rama verdadera como la falsa de cada condición.",
+    "id": 467
+  }
+]
