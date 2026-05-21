@@ -4476,15 +4476,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "easy",
-    "question": "Which of the following is an advantage of the whole-team approach?",
+    "question": "¿Cuál de las siguientes es una ventaja del enfoque de equipo completo (whole-team approach)?",
     "options": [
-      "A) It allows team members to take on any role at any time",
-      "B) It only needs a single team to support the complete development project",
-      "C) It embeds business representatives alongside developers in the same team",
-      "D) It generates a team synergy that benefits the entire project"
+      "A) Permite a los miembros del equipo asumir cualquier rol en cualquier momento",
+      "B) Solo necesita un único equipo para dar soporte al proyecto de desarrollo completo",
+      "C) Integra a los representantes de negocio junto con los desarrolladores en el mismo equipo",
+      "D) Genera una sinergia de equipo que beneficia a todo el proyecto"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#8, LO: FL-1.5.2). Justificación: It generates a team synergy that benefits the entire project",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#8, LO: FL-1.5.2). Justificación: El enfoque de equipo completo genera una sinergia que beneficia a todo el proyecto.",
     "source": "Official Sample Exam B Q#8"
   },
   {
@@ -4492,15 +4492,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following statements about the chosen software development lifecycle is CORRECT?",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el ciclo de vida de desarrollo de software elegido es CORRECTA?",
     "options": [
-      "A) If agile software development is used, automation of system tests replaces the need for regression testing",
-      "B) If a sequential development model is used, then the dynamic testing is typically restricted to later in the lifecycle",
-      "C) If an iterative development model is used, then component testing is typica lly performed manually by developers",
-      "D) If an incremental development model is used, then static testing is done in early i ncrements and dynamic testing in later increments"
+      "A) Si se usa desarrollo de software ágil, la automatización de las pruebas de sistema sustituye la necesidad de pruebas de regresión",
+      "B) Si se usa un modelo de desarrollo secuencial, las pruebas dinámicas suelen estar restringidas a etapas más tardías del ciclo de vida",
+      "C) Si se usa un modelo de desarrollo iterativo, las pruebas de componente suelen realizarlas manualmente los desarrolladores",
+      "D) Si se usa un modelo de desarrollo incremental, las pruebas estáticas se realizan en los primeros incrementos y las dinámicas en los últimos"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#9, LO: FL-2.1.1). Justificación: If a sequential development model is used, then the dynamic testing is typically restricted to later in the lifecycle",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#9, LO: FL-2.1.1). Justificación: En un modelo de desarrollo secuencial, las pruebas dinámicas suelen restringirse a las fases finales del ciclo de vida.",
     "source": "Official Sample Exam B Q#9"
   },
   {
@@ -4508,15 +4508,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "easy",
-    "question": "Which of the following is a good testing practice that applies to all software development lifecycles?",
+    "question": "¿Cuál de las siguientes es una buena práctica de pruebas aplicable a todos los ciclos de vida de desarrollo de software?",
     "options": [
-      "A) Testers should review work products as part of the next development phase",
-      "B) Testers should review work products as soon as drafts are available",
-      "C) Testers should review work products before test analysis and test design begin",
-      "D) Testers should review work products immediately after they are published"
+      "A) Los testers deben revisar los productos de trabajo como parte de la siguiente fase de desarrollo",
+      "B) Los testers deben revisar los productos de trabajo en cuanto estén disponibles los borradores",
+      "C) Los testers deben revisar los productos de trabajo antes de que comiencen el análisis y el diseño de pruebas",
+      "D) Los testers deben revisar los productos de trabajo inmediatamente después de que se publiquen"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#10, LO: FL-2.1.2). Justificación: Testers should review work products as soon as drafts are available",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#10, LO: FL-2.1.2). Justificación: Los testers deben revisar los productos de trabajo en cuanto estén disponibles los borradores.",
     "source": "Official Sample Exam B Q#10"
   },
   {
@@ -4524,15 +4524,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "easy",
-    "question": "Which of the following is an example of a test-first approach to development?",
+    "question": "¿Cuál de las siguientes es un ejemplo de enfoque de desarrollo prueba-primero (test-first)?",
     "options": [
-      "A) Test-Driven Development",
-      "B) Coverage-Driven Development",
-      "C) Quality-Driven Development",
-      "D) Feature-Driven Development"
+      "A) Desarrollo Guiado por Pruebas (TDD)",
+      "B) Desarrollo Guiado por Cobertura",
+      "C) Desarrollo Guiado por Calidad",
+      "D) Desarrollo Guiado por Funcionalidades"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#11, LO: FL-2.1.3). Justificación: Test-Driven Development",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#11, LO: FL-2.1.3). Justificación: El Desarrollo Guiado por Pruebas (TDD) es el ejemplo clásico de enfoque prueba-primero.",
     "source": "Official Sample Exam B Q#11"
   },
   {
@@ -4540,15 +4540,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following is MOST likely to be performed as part of system testing?",
+    "question": "¿Cuál de las siguientes actividades se realiza MÁS PROBABLEMENTE como parte de las pruebas de sistema?",
     "options": [
-      "A) Security testing of a credit management system by an independent test te am",
-      "B) Testing the interface of a currency exchange system with an external banking system",
-      "C) Beta testing of a remote learning system by courseware developers",
-      "D) Testing interactions between the user interface and database of a human resources system"
+      "A) Pruebas de seguridad de un sistema de gestión de créditos realizado por un equipo de pruebas independiente",
+      "B) Pruebas de la interfaz de un sistema de cambio de divisas con un sistema bancario externo",
+      "C) Pruebas beta de un sistema de aprendizaje remoto realizadas por los desarrolladores del software",
+      "D) Pruebas de las interacciones entre la interfaz de usuario y la base de datos de un sistema de recursos humanos"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#13, LO: FL-2.2.1). Justificación: Security testing of a credit management system by an independent test te am",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#13, LO: FL-2.2.1). Justificación: Las pruebas de seguridad realizadas por un equipo independiente son características de las pruebas de sistema.",
     "source": "Official Sample Exam B Q#13"
   },
   {
@@ -4556,15 +4556,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following statements is CORRECT?",
+    "question": "¿Cuál de las siguientes afirmaciones es CORRECTA?",
     "options": [
-      "A) Regression tests increase in number as the project progresses, whereas the numbe r of confirmation tests decreases as the project progresses",
-      "B) Regression tests are created and run when the test object is fixed, whereas con firmation tests are run whenever the test object is enhanced",
-      "C) Regression testing is concerned with checking that the operational environment rem ains unchanged, whereas confirmation testing is concerned with testing changes to the test object",
-      "D) Regression testing is concerned with adverse effects in unchanged code, whereas confirmation testing is concerned with testing changed code"
+      "A) Las pruebas de regresión aumentan en número a medida que avanza el proyecto, mientras que las pruebas de confirmación disminuyen",
+      "B) Las pruebas de regresión se crean y ejecutan cuando el objeto de prueba se corrige, mientras que las de confirmación se ejecutan cuando el objeto de prueba se mejora",
+      "C) Las pruebas de regresión verifican que el entorno operativo permanece sin cambios, mientras que las de confirmación prueban los cambios en el objeto de prueba",
+      "D) Las pruebas de regresión verifican los efectos adversos en el código sin cambios, mientras que las de confirmación prueban el código modificado"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#14, LO: FL-2.2.3). Justificación: Regression testing is concerned with adverse effects in unchanged code, whereas confirmation testing is concerned with testing changed code",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#14, LO: FL-2.2.3). Justificación: Las pruebas de regresión se ocupan de los efectos adversos en el código sin cambios, mientras que las pruebas de confirmación se ocupan del código modificado.",
     "source": "Official Sample Exam B Q#14"
   },
   {
@@ -4572,15 +4572,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Which of the following is an example of a defect that can be found by static testing but NOT by dynamic testing?",
+    "question": "¿Cuál de los siguientes es un ejemplo de defecto que puede encontrarse mediante pruebas estáticas pero NO mediante pruebas dinámicas?",
     "options": [
-      "A) Lack of usability provided through the user interface",
-      "B) Code with no path that reaches it",
-      "C) Poor response times for most of the expected users",
-      "D) Required features that are not implemented in the code"
+      "A) Falta de usabilidad en la interfaz de usuario",
+      "B) Código al que no llega ningún camino de ejecución (código muerto)",
+      "C) Tiempos de respuesta deficientes para la mayoría de los usuarios esperados",
+      "D) Funcionalidades requeridas que no están implementadas en el código"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#15, LO: FL-3.1.3). Justificación: Code with no path that reaches it",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#15, LO: FL-3.1.3). Justificación: El código inalcanzable (código muerto) solo puede detectarse mediante análisis estático, ya que nunca se ejecuta.",
     "source": "Official Sample Exam B Q#15"
   },
   {
@@ -4588,15 +4588,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "easy",
-    "question": "Which of the following is a benefit of early and frequent stakeholder feedback?",
+    "question": "¿Cuál de las siguientes es una ventaja del feedback temprano y frecuente de las partes interesadas?",
     "options": [
-      "A) Managers are aware of which developers are less productive",
-      "B) It allows project managers to prioritize their stakeholder interactions",
-      "C) It facilitates early communication of potential quality issues",
-      "D) End users better understand why the delivery of the work product is delayed"
+      "A) Los gestores conocen qué desarrolladores son menos productivos",
+      "B) Permite a los jefes de proyecto priorizar sus interacciones con las partes interesadas",
+      "C) Facilita la comunicación temprana de posibles problemas de calidad",
+      "D) Los usuarios finales comprenden mejor por qué se retrasa la entrega del producto de trabajo"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#16, LO: FL-3.2.1). Justificación: It facilitates early communication of potential quality issues",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#16, LO: FL-3.2.1). Justificación: El feedback temprano facilita la comunicación anticipada de posibles problemas de calidad.",
     "source": "Official Sample Exam B Q#16"
   },
   {
@@ -4604,7 +4604,7 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Given the following task descriptions: 1. The quality characteristics to be evaluated and the exit criteria are selected 2. Everyone has access to the work product 3. Anomalies are identified in the work product 4. Anomalies are discussed And the following review activities A. Individual review B. Review initiation C. Planning D. Communication and analysis Which of the following BEST matches the task descriptions and activities?",
+    "question": "Dadas las siguientes descripciones de tareas: 1. Se seleccionan las características de calidad a evaluar y los criterios de salida 2. Todos tienen acceso al producto de trabajo 3. Se identifican anomalías en el producto de trabajo 4. Se debaten las anomalías Y las siguientes actividades de revisión: A. Revisión individual B. Inicio de la revisión C. Planificación D. Comunicación y análisis ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -4612,7 +4612,7 @@
       "D) 1C, 2B, 3A, 4D"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#17, LO: FL-3.2.2). Justificación: 1C, 2B, 3A, 4D",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#17, LO: FL-3.2.2). Justificación: La planificación define criterios (1C), el inicio da acceso al documento (2B), la revisión individual identifica anomalías (3A) y la comunicación y análisis las debate (4D).",
     "source": "Official Sample Exam B Q#17"
   },
   {
@@ -4620,7 +4620,7 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "easy",
-    "question": "Given the following roles in reviews: 1. Scribe 2. Review leader 3. Facilitator 4. Manager And the following responsibilities in reviews: A. Ensures the effective running of review meetings and the setting up a safe review environment B. Records review information, such as decisions and new anomalies found during the review meeting C. Decides what is to be reviewed and provides resources, such as staff and time for the review D. Takes overall responsibility for the review such as organizing when and where the review will take place Which of the following BEST matches the roles and responsibilities?",
+    "question": "Dados los siguientes roles en las revisiones: 1. Secretario/Escriba 2. Líder de revisión 3. Facilitador 4. Gestor Y las siguientes responsabilidades: A. Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro B. Registra la información de la revisión, como decisiones y nuevas anomalías encontradas C. Decide qué se va a revisar y proporciona recursos como personal y tiempo D. Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -4628,7 +4628,7 @@
       "D) 1B, 2D, 3C, 4A"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#18, LO: FL-3.2.3). Justificación: 1B, 2D, 3A, 4C",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#18, LO: FL-3.2.3). Justificación: El Secretario registra (1B), el Líder organiza la revisión (2D), el Facilitador gestiona la reunión (3A) y el Gestor decide recursos (4C).",
     "source": "Official Sample Exam B Q#18"
   },
   {
@@ -4636,15 +4636,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following statements BEST describes the difference between decision table testing and branch testing?",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR la diferencia entre las pruebas de tabla de decisión y las pruebas de ramas?",
     "options": [
-      "A) In decision table testing, the test cases are derived from the decision statements in the code. In branch testing, the test cases are derived from knowledge of the control flow of the test object.",
-      "B) In decision table testing, the test cases are derived from the specification that desc ribes the business logic. In branch testing the test cases are based on anticipation of potential defects in the source code.",
-      "C) In decision table testing, the test cases are derived from knowledge of the control f low of the test object. In branch testing, test cases are derived from the specification that describes the business logic.",
-      "D) In decision table testing, the test cases are independent of how the software is implemented. In branch testing, test cases can be created only after the design or implementation of the code."
+      "A) En las pruebas de tabla de decisión, los casos de prueba se derivan de las sentencias de decisión del código. En las pruebas de ramas, los casos de prueba se derivan del conocimiento del flujo de control del objeto de prueba.",
+      "B) En las pruebas de tabla de decisión, los casos de prueba se derivan de la especificación que describe la lógica de negocio. En las pruebas de ramas, los casos se basan en la anticipación de posibles defectos en el código fuente.",
+      "C) En las pruebas de tabla de decisión, los casos de prueba se derivan del conocimiento del flujo de control del objeto de prueba. En las pruebas de ramas, los casos se derivan de la especificación que describe la lógica de negocio.",
+      "D) En las pruebas de tabla de decisión, los casos de prueba son independientes de cómo está implementado el software. En las pruebas de ramas, los casos de prueba solo pueden crearse después del diseño o la implementación del código."
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#19, LO: FL-4.1.1). Justificación: In decision table testing, the test cases are independent of how the software is implemented. In branch testing, test cases can be created only after",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#19, LO: FL-4.1.1). Justificación: Las tablas de decisión son independientes de la implementación (caja negra), mientras que las pruebas de ramas requieren conocer el código (caja blanca).",
     "source": "Official Sample Exam B Q#19"
   },
   {
@@ -4652,7 +4652,7 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "Customers of the TestWash car wash chain have cards with a record of the number of washes they have bought so far. The initial value is 0. After entering the car wash, the system increases the number on the card by one. This value represents the number of the current wash. Based on this number the system decides what discount the customer is entitled to. For every tenth wash the system gives a 10% discount, and for every twentieth wash, the system gives a further 40% discount (i.e., a 50% discount in total). Which of the following sets of input data (understood as the numbers of the current wash) achieves the highest equivalence partition coverage?",
+    "question": "Los clientes de la cadena de lavado de coches TestWash tienen tarjetas con el número de lavados que han comprado. El valor inicial es 0. Al entrar al lavado, el sistema incrementa el número en la tarjeta en uno. Este valor representa el número del lavado actual. Basándose en este número el sistema decide el descuento: cada décimo lavado da un 10% de descuento y cada vigésimo lavado da un 40% adicional (es decir, 50% en total). ¿Cuál de los siguientes conjuntos de datos de entrada (entendidos como los números del lavado actual) logra la mayor cobertura de partición de equivalencia?",
     "options": [
       "A) 19, 20, 30",
       "B) 11, 12, 20",
@@ -4660,7 +4660,7 @@
       "D) 10, 29, 30, 31"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#20, LO: FL-4.2.1). Justificación: 19, 20, 30",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#20, LO: FL-4.2.1). Justificación: Las particiones son: sin descuento (no múltiplo de 10), 10% (múltiplo de 10 pero no de 20) y 50% (múltiplo de 20). 19 (sin descuento), 20 (50%) y 30 (10%) cubre 3 particiones distintas.",
     "source": "Official Sample Exam B Q#20"
   },
   {
@@ -4668,7 +4668,7 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are testing a form that verifies the correctness of the length of the password given as input. The form accepts a password with the correct length and rejects a password that is too short or too long. The password length is correct if it has between 6 and 12 characters inclusive. Otherwise, it is considered incorrect. At first, the form is empty (password length = 0). You apply boundary value analysis to the “password length” variable. Your set of test cases achieves 100% 2-value boundary value coverage. The team decided that due to the high risk of this component, test cases should be added to ensure 100% 3-value boundary value coverage. Which additional password lengths should be tested to achieve this?",
+    "question": "Estás probando un formulario que verifica si la longitud de la contraseña introducida es correcta. El formulario acepta contraseñas con la longitud correcta y rechaza las que son demasiado cortas o largas. La longitud es correcta si tiene entre 6 y 12 caracteres inclusive. El formulario inicialmente está vacío (longitud = 0). Aplicas análisis de valores límite a la variable 'longitud de contraseña'. Tu conjunto de casos de prueba logra cobertura 100% de valores límite de 2 valores. El equipo decide que, por el alto riesgo del componente, hay que añadir casos para alcanzar cobertura 100% de valores límite de 3 valores. ¿Qué longitudes de contraseña adicionales se deben probar?",
     "options": [
       "A) 4, 5, 13, 14",
       "B) 7, 11",
@@ -4676,7 +4676,7 @@
       "D) 1, 4, 7, 11, 14"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#21, LO: FL-4.2.2). Justificación: 1, 4, 7, 11, 14",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#21, LO: FL-4.2.2). Justificación: Con 2 valores ya tenemos 0, 6, 12, y un valor fuera del rango superior. Con 3 valores necesitamos también los vecinos: 5, 7, 11, 13 y el valor 1 para el límite inferior izquierdo.",
     "source": "Official Sample Exam B Q#21"
   },
   {
@@ -4684,7 +4684,7 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "The following decision table contains the rules for determining the risk of atherosclerosis. Rule 1 Rule 2 Rule 3 Rule 4 Rule 5 Conditions Cholesterol (mg/dl) ≤124 ≤ 124 125 – 200 125 – 200 ≥ 201 Blood pressure (mm Hg) ≤ 140 > 140 ≤ 140 > 140 – Action Risk level very low low medium high very high You designed the test cases with the following input data: TC1: Cholesterol = 125 mg/dl Blood pressure = 141 mm Hg TC2: Cholesterol = 200 mg/dl Blood pressure = 201 mm Hg TC3: Cholesterol = 124 mg/dl Blood pressure = 201 mm Hg TC4: Cholesterol = 109 mg/dl Blood pressure = 200 mm Hg TC5: Cholesterol = 201 mg/dl Blood pressure = 140 mm Hg What is the decision table coverage achieved by these test cases?",
+    "question": "La siguiente tabla de decisión contiene las reglas para determinar el riesgo de arteriosclerosis. Regla 1 | Regla 2 | Regla 3 | Regla 4 | Regla 5 — Colesterol (mg/dl): ≤124 | ≤124 | 125–200 | 125–200 | ≥201 — Presión arterial (mm Hg): ≤140 | >140 | ≤140 | >140 | – — Nivel de riesgo: muy bajo | bajo | medio | alto | muy alto. Has diseñado los siguientes casos de prueba — TC1: Colesterol=125, PA=141 | TC2: Colesterol=200, PA=201 | TC3: Colesterol=124, PA=201 | TC4: Colesterol=109, PA=200 | TC5: Colesterol=201, PA=140. ¿Qué cobertura de tabla de decisión logran estos casos de prueba?",
     "options": [
       "A) 40%",
       "B) 60%",
@@ -4692,7 +4692,7 @@
       "D) 100%"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#22, LO: FL-4.2.3). Justificación: 60%",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#22, LO: FL-4.2.3). Justificación: La tabla tiene 5 reglas. Los casos de prueba cubren las reglas 2 (TC1), 4 (TC2 – no aplica exactamente), 1 (TC4) y 5 (TC5). Solo 3 de 5 reglas quedan cubierta correctamente, lo que da un 60%.",
     "source": "Official Sample Exam B Q#22"
   },
   {
@@ -4700,15 +4700,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "A storage system can store up to three elements and is modeled by the following state transition diagram. The variable N represents the number of currently stored elements. Which of the following test cases, represented as sequences of events, achieves the highest level of valid transitions coverage?",
+    "question": "Un sistema de almacenamiento puede guardar hasta tres elementos y se modela mediante el siguiente diagrama de transición de estados. La variable N representa el número de elementos almacenados actualmente. ¿Cuál de los siguientes casos de prueba, representados como secuencias de eventos, logra el mayor nivel de cobertura de transiciones válidas?",
     "options": [
-      "A) Add, Remove, Add, Add, Add",
-      "B) Add, Add, Add, Add, Remove, Remove",
-      "C) Add, Add, Add, Remove, Remove",
-      "D) Add, Add, Add, Remove, Add"
+      "A) Añadir, Eliminar, Añadir, Añadir, Añadir",
+      "B) Añadir, Añadir, Añadir, Añadir, Eliminar, Eliminar",
+      "C) Añadir, Añadir, Añadir, Eliminar, Eliminar",
+      "D) Añadir, Añadir, Añadir, Eliminar, Añadir"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#23, LO: FL-4.2.4). Justificación: Add, Add, Add, Remove, Remove",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#23, LO: FL-4.2.4). Justificación: La secuencia Añadir×3, Eliminar×2 recorre todas las transiciones válidas del diagrama de estados.",
     "source": "Official Sample Exam B Q#23"
   },
   {
@@ -4716,15 +4716,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "You run two test cases, T1 and T2, on the same code. Test T1 achieved 40% statement coverage and test T2 achieved 65% statement coverage. Which of the following sentences must be necessarily true?",
+    "question": "Ejecutas dos casos de prueba, T1 y T2, sobre el mismo código. T1 logra un 40% de cobertura de sentencias y T2 logra un 65%. ¿Cuál de las siguientes afirmaciones es necesariamente verdadera?",
     "options": [
-      "A) The test suite composed of tests T1 and T2 achieves 105% statement coverage",
-      "B) There exists at least one statement that must have been executed by both T1 and T2",
-      "C) At least 5% of the statements in the code that was tested are non-executabl e",
-      "D) The test suite composed of tests T1 and T2 achieves full branch coverage"
+      "A) El conjunto de pruebas T1+T2 logra un 105% de cobertura de sentencias",
+      "B) Existe al menos una sentencia que ha sido ejecutada tanto por T1 como por T2",
+      "C) Al menos el 5% de las sentencias del código probado no son ejecutables",
+      "D) El conjunto de pruebas T1+T2 logra cobertura total de ramas"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#24, LO: FL-4.3.1). Justificación: There exists at least one statement that must have been executed by both T1 and T2",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#24, LO: FL-4.3.1). Justificación: Si T1 cubre el 40% y T2 el 65%, y la cobertura total no puede superar el 100%, necesariamente existe solapamiento: ambos han ejecutado al menos alguna sentencia común.",
     "source": "Official Sample Exam B Q#24"
   },
   {
@@ -4732,15 +4732,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Let the branch coverage metric be defined as BCov = (X / Y) * 100%. What do X and Y represent in this formula?",
+    "question": "La métrica de cobertura de ramas se define como: BCov = (X / Y) × 100%. ¿Qué representan X e Y en esta fórmula?",
     "options": [
-      "A) X = number of decision outcomes exercised by the test cases Y = total number of decision outcomes in the code",
-      "B) X = number of conditional branches exercised by the test cases Y = total number of branches in the code",
-      "C) X = number of branches exercised by the test cases Y = total number of branches in the code",
-      "D) X = number of conditional branches exercised by the test cases Y = total number of decision outcomes in the code"
+      "A) X = número de resultados de decisión ejercitados por los casos de prueba. Y = número total de resultados de decisión en el código",
+      "B) X = número de ramas condicionales ejercitadas por los casos de prueba. Y = número total de ramas en el código",
+      "C) X = número de ramas ejercitadas por los casos de prueba. Y = número total de ramas en el código",
+      "D) X = número de ramas condicionales ejercitadas por los casos de prueba. Y = número total de resultados de decisión en el código"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#25, LO: FL-4.3.2). Justificación: X = number of branches exercised by the test cases Y = total number of branches in the code",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#25, LO: FL-4.3.2). Justificación: X es el número de ramas ejercitadas y Y el número total de ramas en el código.",
     "source": "Official Sample Exam B Q#25"
   },
   {
@@ -4748,16 +4748,16 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which TWO of the following statements provide the BEST rationale for using exploratory testing?",
+    "question": "¿Cuáles DOS de las siguientes afirmaciones proporcionan la MEJOR justificación para usar pruebas exploratorias?",
     "options": [
-      "A) Testers have not been allocated enough time for test design and test execution",
-      "B) The existing test strategy requires that testers use formal, black-box test t echniques",
-      "C) The specification is written in a formal language that can be processed by a tool",
-      "D) Testers are the members of an agile team and have good programming skills",
-      "E) Testers are experienced in the business domain and have good analytical skills"
+      "A) Los testers no disponen de suficiente tiempo para el diseño y la ejecución de pruebas",
+      "B) La estrategia de pruebas existente requiere que los testers usen técnicas formales de caja negra",
+      "C) La especificación está escrita en un lenguaje formal que puede ser procesado por una herramienta",
+      "D) Los testers son miembros de un equipo ágil y tienen buenas habilidades de programación",
+      "E) Los testers tienen experiencia en el dominio de negocio y buenas habilidades analíticas"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#26, LO: FL-4.4.2). Justificación: Testers have not been allocated enough time for test design and test execution",
+    "explanation": "La opción A) y E) son las respuestas correctas según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#26, LO: FL-4.4.2). Justificación: Las pruebas exploratorias son ideales cuando hay poco tiempo para diseño formal (A) y cuando el tester tiene experiencia en el dominio (E).",
     "source": "Official Sample Exam B Q#26"
   },
   {
@@ -4765,15 +4765,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following BEST fits as an element of the checklist used in checklist-based testing?",
+    "question": "¿Cuál de las siguientes opciones es la que MEJOR encaja como elemento de una lista de verificación (checklist) en las pruebas basadas en checklist?",
     "options": [
-      "A) “The developer made an error when implementing the code”",
-      "B) “The achieved statement coverage exceeds 85%”",
-      "C) “The program works correctly regarding functional and non-functional requirements”",
-      "D) “The error messages are written in language that the user can understand”"
+      "A) 'El desarrollador cometió un error al implementar el código'",
+      "B) 'La cobertura de sentencias lograda supera el 85%'",
+      "C) 'El programa funciona correctamente respecto a los requisitos funcionales y no funcionales'",
+      "D) 'Los mensajes de error están escritos en un lenguaje comprensible para el usuario'"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#27, LO: FL-4.4.3). Justificación: “The error messages are written in language that the user can understand”",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#27, LO: FL-4.4.3). Justificación: Los elementos de un checklist deben ser verificables por observación, como comprobar si los mensajes son comprensibles para el usuario.",
     "source": "Official Sample Exam B Q#27"
   },
   {
@@ -4781,15 +4781,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Consider the following acceptance criteria for a user story written from the perspective of an online store owner. Given that the user is logged in and on the homepage, When the user clicks on the \"Add Item\" button, Then the \"Create Item\" form should appear, And the user should be able to input a name and price for the new item. In what format is this acceptance criteria written?",
+    "question": "Considera el siguiente criterio de aceptación para una historia de usuario escrita desde la perspectiva del propietario de una tienda en línea. DADO que el usuario ha iniciado sesión y está en la página de inicio, CUANDO el usuario hace clic en el botón 'Añadir artículo', ENTONCES debe aparecer el formulario 'Crear artículo', Y el usuario debe poder introducir un nombre y un precio para el nuevo artículo. ¿En qué formato está escrito este criterio de aceptación?",
     "options": [
-      "A) Rule-oriented",
-      "B) Scenario-oriented",
-      "C) Product-oriented",
-      "D) Process-oriented"
+      "A) Orientado a reglas",
+      "B) Orientado a escenarios",
+      "C) Orientado al producto",
+      "D) Orientado al proceso"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#28, LO: FL-4.5.2). Justificación: Scenario-oriented",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#28, LO: FL-4.5.2). Justificación: El formato DADO/CUANDO/ENTONCES (Given/When/Then) es el formato orientado a escenarios, típico de BDD.",
     "source": "Official Sample Exam B Q#28"
   },
   {
@@ -4797,15 +4797,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "Your team analyzes the following user story in order to define the acceptance criteria: As a registered customer, I want to be able to view my previous orders on the company's website, so that I can keep track of my purchases. Which of the following test cases will NOT be relevant for this user story?",
+    "question": "Tu equipo analiza la siguiente historia de usuario para definir los criterios de aceptación: 'Como cliente registrado, quiero poder ver mis pedidos anteriores en la web de la empresa, para poder llevar un control de mis compras.' ¿Cuál de los siguientes casos de prueba NO será relevante para esta historia de usuario?",
     "options": [
-      "A) Input: the customer logs into their account on the website and clicks the “see order history” button Expected result: the system shows a list of all the customer’s previous orders, including the date, order number, and total cost",
-      "B) Input: the customer clicks on an order from the order list Expected result: the system displays the individual items purchased, along with their prices and quantities",
-      "C) Input: the customer clicks “Sort ascending” button on the order history screen Expected result: the system shows the order history sorted by order number in ascending order",
-      "D) Input: an unregistered customer registers as a new customer with a valid e-mail address that does not already exist in the customer database Expected result: the system accepts the registration and creates the account"
+      "A) Entrada: el cliente inicia sesión y hace clic en 'ver historial de pedidos'. Resultado esperado: el sistema muestra una lista de todos los pedidos anteriores con fecha, número de pedido y coste total",
+      "B) Entrada: el cliente hace clic en un pedido de la lista. Resultado esperado: el sistema muestra los artículos individuales comprados con sus precios y cantidades",
+      "C) Entrada: el cliente hace clic en 'Ordenar ascendente' en la pantalla de historial de pedidos. Resultado esperado: el sistema muestra el historial ordenado por número de pedido en orden ascendente",
+      "D) Entrada: un cliente no registrado se registra como nuevo cliente con un correo electrónico válido que no existe en la base de datos. Resultado esperado: el sistema acepta el registro y crea la cuenta"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#29, LO: FL-4.5.3). Justificación: Input: an unregistered customer registers as a new customer with a valid e-mail address that does not already exist in the customer database Expected",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#29, LO: FL-4.5.3). Justificación: La historia de usuario trata sobre ver pedidos anteriores (cliente ya registrado), no sobre el proceso de registro de nuevos clientes.",
     "source": "Official Sample Exam B Q#29"
   },
   {
@@ -4813,15 +4813,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Your team follows the process that uses the DevOps delivery pipeline. The first three steps of this process are: (1) Code development (2) Submit code into a version control system and merge it into the “test” branch (3) Perform component testing for the submitted code Which of the following is BEST suited to be the entry criterion for step (2) of this pipeline?",
+    "question": "Tu equipo sigue un proceso que usa el pipeline de entrega de DevOps. Los primeros tres pasos son: (1) Desarrollo de código (2) Enviar el código al sistema de control de versiones y fusionarlo con la rama 'test' (3) Ejecutar pruebas de componente del código enviado. ¿Cuál de las siguientes es la MEJOR opción como criterio de entrada para el paso (2) de este pipeline?",
     "options": [
-      "A) Static analysis returns no high severity warnings for the submitted code",
-      "B) System version control reports no conflicts when merging code into the “test” branch",
-      "C) Component tests are compiled and ready to be executed",
-      "D) Statement coverage is at least 80%"
+      "A) El análisis estático no devuelve advertencias de alta severidad para el código enviado",
+      "B) El sistema de control de versiones no reporta conflictos al fusionar el código con la rama 'test'",
+      "C) Los tests de componente están compilados y listos para ejecutarse",
+      "D) La cobertura de sentencias es al menos del 80%"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#30, LO: FL-5.1.3). Justificación: Static analysis returns no high severity warnings for the submitted code",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#30, LO: FL-5.1.3). Justificación: El análisis estático sin advertencias graves es el criterio de entrada más adecuado antes de enviar el código al sistema de control de versiones.",
     "source": "Official Sample Exam B Q#30"
   },
   {
@@ -4829,15 +4829,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "You want to estimate the test effort for the new project using estimation based on ratios. You calculate the test-to-development effort ratio using averaged data for both development effort and test effort from four historical projects similar to the new one. The table shows this historical data. Project Development effort ($) Test effort ($) P1 800,000 40,000 P2 1,200,000 130,000 P3 600,000 70,000 P4 1,000,000 120,000 The estimated development effort for the new project is $800,000. What is your estimate of the test effort in this project?",
+    "question": "Quieres estimar el esfuerzo de pruebas para un nuevo proyecto usando estimación basada en ratios. Calculas el ratio esfuerzo de pruebas/esfuerzo de desarrollo usando datos promediados de cuatro proyectos históricos similares. La tabla muestra: P1: Desarrollo $800.000, Pruebas $40.000 | P2: $1.200.000 / $130.000 | P3: $600.000 / $70.000 | P4: $1.000.000 / $120.000. El esfuerzo de desarrollo estimado para el nuevo proyecto es $800.000. ¿Cuál es tu estimación del esfuerzo de pruebas?",
     "options": [
-      "A) $40,000",
-      "B) $80,000",
-      "C) $81,250",
-      "D) $82,500"
+      "A) $40.000",
+      "B) $80.000",
+      "C) $81.250",
+      "D) $82.500"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#31, LO: FL-5.1.4). Justificación: $80,000",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#31, LO: FL-5.1.4). Justificación: El ratio promedio es (40+130+70+120)/(800+1200+600+1000) = 360/3600 = 10%. El 10% de $800.000 = $80.000.",
     "source": "Official Sample Exam B Q#31"
   },
   {
@@ -4845,7 +4845,7 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "You are testing a web application that allows users to SEARCH for products, VIEW product details, ADD products to a shopping cart, and place an ORDER. You have prepared the following seven test cases, all of which you want to execute. The tests should be executed in the best order, based on test priority. Test Priority (1 = higher priority) TC1 SEARCH for product A 4 TC2 SEARCH for product B 4 TC3 VIEW product A details 3 TC4 VIEW product B details 2 TC5 ADD product A to a shopping cart 3 TC6 ADD product B to a shopping cart 1 TC7 place an ORDER 5 You also identified the following logical dependencies between test cases: • SEARCH functionality must be tested before VIEW functionality can be tested. • VIEW functionality must be tested before ADD functionality. • ADD functionality must be tested before ORDER functionality. Which test case should be executed as the fourth one?",
+    "question": "Estás probando una aplicación web que permite a los usuarios BUSCAR productos, VER detalles, AÑADIR al carrito y realizar un PEDIDO. Tienes 7 casos de prueba con estas prioridades (1=mayor): TC1 BUSCAR producto A (4), TC2 BUSCAR producto B (4), TC3 VER detalles A (3), TC4 VER detalles B (2), TC5 AÑADIR producto A (3), TC6 AÑADIR producto B (1), TC7 hacer PEDIDO (5). Dependencias: BUSCAR debe probarse antes de VER, VER antes de AÑADIR, y AÑADIR antes de PEDIDO. ¿Qué caso de prueba debe ejecutarse en cuarto lugar?",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -4853,7 +4853,7 @@
       "D) TC2"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#32, LO: FL-5.1.5). Justificación: TC1",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#32, LO: FL-5.1.5). Justificación: Respetando dependencias y prioridad: 1º TC6 (p1), 2º TC4 (p2), 3º TC5 o TC3 (p3), 4º TC1 (p4 después de cumplir dependencias).",
     "source": "Official Sample Exam B Q#32"
   },
   {
@@ -4861,15 +4861,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "According to the testing quadrants model, which of the following falls into quadrant Q1 (“technology facing” and “support the team”)?",
+    "question": "Según el modelo de cuadrantes de prueba, ¿cuál de los siguientes se encuadra en el cuadrante Q1 ('orientado a tecnología' y 'da soporte al equipo')?",
     "options": [
-      "A) Usability testing",
-      "B) Functional testing",
-      "C) User acceptance testing",
-      "D) Component integration testing"
+      "A) Pruebas de usabilidad",
+      "B) Pruebas funcionales",
+      "C) Pruebas de aceptación de usuario",
+      "D) Pruebas de integración de componentes"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#33, LO: FL-5.1.7). Justificación: Component integration testing",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#33, LO: FL-5.1.7). Justificación: Las pruebas de integración de componentes son técnicas y dan soporte al equipo de desarrollo, por eso pertenecen al cuadrante Q1.",
     "source": "Official Sample Exam B Q#33"
   },
   {
@@ -4877,7 +4877,7 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Given the following risks: 1. Ineffective loop implementation causes long system responses 2. Consumers change their preferences 3. Flooding of the server room 4. Patients above a certain age receive inaccurate reports And the following mitigation activities: A. Risk acceptance B. Testing for performance efficiency C. Using boundary value analysis as the test technique D. Risk transfer Which of the following BEST matches the risks with the mitigation activities?",
+    "question": "Dados los siguientes riesgos: 1. Una implementación ineficaz de bucles causa respuestas lentas del sistema 2. Los consumidores cambian sus preferencias 3. Inundación de la sala de servidores 4. Pacientes mayores de cierta edad reciben informes incorrectos. Y las siguientes actividades de mitigación: A. Aceptación del riesgo B. Pruebas de eficiencia de rendimiento C. Uso de análisis de valores límite como técnica D. Transferencia del riesgo. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -4885,7 +4885,7 @@
       "D) 1C, 2A, 3D, 4B"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#34, LO: FL-5.2.4). Justificación: 1B, 2A, 3D, 4C",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#34, LO: FL-5.2.4). Justificación: Riesgo de rendimiento→pruebas de rendimiento (1B), riesgo de mercado→aceptación (2A), riesgo de inundación→transferencia/seguro (3D), riesgo de precisión→valores límite (4C).",
     "source": "Official Sample Exam B Q#34"
   },
   {
@@ -4893,15 +4893,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "easy",
-    "question": "Which of the following is a product quality metric?",
+    "question": "¿Cuál de las siguientes es una métrica de calidad del producto?",
     "options": [
-      "A) Mean time to failure",
-      "B) Number of defects found",
-      "C) Requirements coverage",
-      "D) Defect detection percentage"
+      "A) Tiempo medio hasta el fallo (MTTF)",
+      "B) Número de defectos encontrados",
+      "C) Cobertura de requisitos",
+      "D) Porcentaje de detección de defectos"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#35, LO: FL-5.3.1). Justificación: Mean time to failure",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#35, LO: FL-5.3.1). Justificación: El MTTF (tiempo medio hasta el fallo) mide la fiabilidad del producto en producción, por lo que es una métrica de calidad del producto.",
     "source": "Official Sample Exam B Q#35"
   },
   {
@@ -4909,15 +4909,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "You are a member of a test team located in North America, developing a product for a client located in Europe. The team is agile and follows the DevOps approach and uses a continuous integration/continuous delivery pipeline. Which of the following is the LEAST effective way to communicate test progress to the customer?",
+    "question": "Eres miembro de un equipo de pruebas ubicado en América del Norte, desarrollando un producto para un cliente en Europa. El equipo es ágil, sigue DevOps y usa un pipeline de CI/CD. ¿Cuál de las siguientes es la forma MENOS efectiva de comunicar el progreso de las pruebas al cliente?",
     "options": [
-      "A) Face- to-face",
-      "B) Dashboards",
-      "C) Email",
-      "D) Video conferencing"
+      "A) Cara a cara (presencialmente)",
+      "B) Paneles de control (Dashboards)",
+      "C) Correo electrónico",
+      "D) Videoconferencia"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#36, LO: FL-5.3.3). Justificación: Face- to-face",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#36, LO: FL-5.3.3). Justificación: Con el equipo en América del Norte y el cliente en Europa, la comunicación presencial es inviable y es la opción menos efectiva.",
     "source": "Official Sample Exam B Q#36"
   },
   {
@@ -4925,15 +4925,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following BEST describes an example of how configuration management (CM) supports testing?",
+    "question": "¿Cuál de las siguientes opciones describe MEJOR un ejemplo de cómo la gestión de la configuración (CM) da soporte a las pruebas?",
     "options": [
-      "A) Having the version number of the environment, the CM tool can retrieve the ver sion numbers of libraries, stubs and drivers used in that environment",
-      "B) Having a record of the values of the inputs, the CM tool can execute the test cases for these configurations and calculate the coverage",
-      "C) Having data about the date of purchase of a software license, the CM tool automati cally generates information about the fact that the product license is coming to an end",
-      "D) Having the version number of the test case, the CM tool can automatically gene rate test data for this test case"
+      "A) Con el número de versión del entorno, la herramienta de CM puede recuperar los números de versión de las bibliotecas, stubs y drivers utilizados en ese entorno",
+      "B) Con un registro de los valores de las entradas, la herramienta de CM puede ejecutar los casos de prueba para esas configuraciones y calcular la cobertura",
+      "C) Con datos sobre la fecha de compra de una licencia de software, la herramienta de CM genera automáticamente información sobre la proximidad del fin de la licencia",
+      "D) Con el número de versión del caso de prueba, la herramienta de CM puede generar automáticamente datos de prueba para ese caso"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#37, LO: FL-5.4.1). Justificación: Having the version number of the environment, the CM tool can retrieve the ver sion numbers of libraries, stubs and drivers used in that environment",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#37, LO: FL-5.4.1). Justificación: La CM permite vincular versiones del entorno con versiones específicas de bibliotecas, stubs y drivers, garantizando reproducibilidad de los entornos de prueba.",
     "source": "Official Sample Exam B Q#37"
   },
   {
@@ -4941,15 +4941,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "You are testing a sort function that gets a set of numbers as input and returns the same set of numbers sorted in ascending order. The log from the test execution looks as follows. Environment configuration: sort function build 2.002.2182, test case set: TCS-3, # of TCs: 5 Test run ID: 736 Start 12:43:21.003 12:43:21.003 Execution of TC1. Input: 3. Output: 3. Result: passed 12:43:21.003 Execution of TC2. Input: 3 11 6 5. Output: 3 5 6 11. Result: passed 12:43:21.004 Execution of TC3. Input: 8 7 3 7 1. Output: 1 3 7 8. Result: failed 12:43:21.005 Execution of TC4. Input: -2 -2 -2 -3 -3. Output: -3 -2. Result: failed 12:43:21.005 Execution of TC5. Input: 0 -2 0 3 4 4. Output: -2 0 3 4. Result: failed End 12:43:21.005 Total time of test cycle: 0:00:00.002 Which of the following provides the BEST description of the failure that can be used in a defect report?",
+    "question": "Estás probando una función de ordenación que recibe un conjunto de números y los devuelve ordenados de forma ascendente. El log de ejecución es: TC1: Entrada: 3. Salida: 3. Resultado: pasado | TC2: Entrada: 3 11 6 5. Salida: 3 5 6 11. Resultado: pasado | TC3: Entrada: 8 7 3 7 1. Salida: 1 3 7 8. Resultado: fallado | TC4: Entrada: -2 -2 -2 -3 -3. Salida: -3 -2. Resultado: fallado | TC5: Entrada: 0 -2 0 3 4 4. Salida: -2 0 3 4. Resultado: fallado. ¿Cuál de las siguientes proporciona la MEJOR descripción del fallo para usar en un informe de defecto?",
     "options": [
-      "A) The system fails to sort several sets of numbers. Reference: TC3, TC4, TC5.",
-      "B) The system seems to disregard duplicates while sorting. Reference: TC3, TC4, TC5.",
-      "C) The system fails to sort negative numbers. Reference: TC4, TC5.",
-      "D) TC3, TC4 and TC5 have defects (duplicate input data) and should be corrected."
+      "A) El sistema no logra ordenar varios conjuntos de números. Referencia: TC3, TC4, TC5.",
+      "B) El sistema parece ignorar los duplicados al ordenar. Referencia: TC3, TC4, TC5.",
+      "C) El sistema no logra ordenar números negativos. Referencia: TC4, TC5.",
+      "D) TC3, TC4 y TC5 tienen defectos (datos de entrada duplicados) y deben corregirse."
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#38, LO: FL-5.5.1). Justificación: The system seems to disregard duplicates while sorting. Reference: TC3, TC4, TC5.",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#38, LO: FL-5.5.1). Justificación: El patrón común en los tres fallos es que la función ignora los elementos duplicados al ordenar, lo cual es la descripción más precisa del defecto.",
     "source": "Official Sample Exam B Q#38"
   },
   {
@@ -4957,7 +4957,7 @@
     "chapter": 6,
     "topic": "Herramientas de Prueba",
     "difficulty": "medium",
-    "question": "Given the following descriptions: 1. Support workflow tracking 2. Facilitate communication 3. Virtual machines 4. Support reviews And the following test tool categories: A. Static testing tools B. Tools supporting scalability and deployment standardization C. DevOps tools D. Collaboration tools Which of the following BEST matches the descriptions and categories?",
+    "question": "Dadas las siguientes descripciones: 1. Dan soporte al seguimiento del flujo de trabajo 2. Facilitan la comunicación 3. Máquinas virtuales 4. Dan soporte a las revisiones. Y las siguientes categorías de herramientas de prueba: A. Herramientas de pruebas estáticas B. Herramientas que apoyan la escalabilidad y la estandarización del despliegue C. Herramientas DevOps D. Herramientas de colaboración. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -4965,7 +4965,7 @@
       "D) 1D, 2C, 3A, 4B"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#39, LO: FL-6.1.1). Justificación: 1C, 2D, 3B, 4A",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#39, LO: FL-6.1.1). Justificación: DevOps→seguimiento de flujo (1C), Colaboración→comunicación (2D), Escalabilidad→máquinas virtuales (3B), Estáticas→revisiones (4A).",
     "source": "Official Sample Exam B Q#39"
   },
   {
@@ -4973,15 +4973,15 @@
     "chapter": 6,
     "topic": "Herramientas de Prueba",
     "difficulty": "easy",
-    "question": "Which of the following is MOST likely to be a benefit of test automation?",
+    "question": "¿Cuál de las siguientes es MÁS PROBABLEMENTE una ventaja de la automatización de pruebas?",
     "options": [
-      "A) It provides coverage measures that are too complicated for humans to derive",
-      "B) It shares responsibility for the testing with the tool vendor",
-      "C) It removes the need for critical thinking when analyzing test results",
-      "D) It generates test cases from an analysis of the program code"
+      "A) Proporciona medidas de cobertura demasiado complicadas para que las obtengan los humanos manualmente",
+      "B) Comparte la responsabilidad de las pruebas con el proveedor de la herramienta",
+      "C) Elimina la necesidad de pensamiento crítico al analizar los resultados de las pruebas",
+      "D) Genera casos de prueba a partir del análisis del código del programa"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#40, LO: FL-6.2.1). Justificación: It provides coverage measures that are too complicated for humans to derive",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#40, LO: FL-6.2.1). Justificación: La automatización permite obtener métricas de cobertura complejas que serían impracticables de calcular manualmente.",
     "source": "Official Sample Exam B Q#40"
   },
   {
@@ -4989,15 +4989,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "easy",
-    "question": "Which of the following is a typical test objective?",
+    "question": "¿Cuál de las siguientes es un objetivo típico de las pruebas?",
     "options": [
-      "A) Validating that documented requirements are met",
-      "B) Causing failures and identifying defects",
-      "C) Initiating errors and identifying root causes",
-      "D) Verifying the test object meets user expectations"
+      "A) Validar que se cumplen los requisitos documentados",
+      "B) Provocar fallos e identificar defectos",
+      "C) Iniciar errores e identificar causas raíz",
+      "D) Verificar que el objeto de prueba cumple las expectativas del usuario"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#1, LO: FL-1.1.1). Justificación: Causing failures and identifying defects",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#1, LO: FL-1.1.1). Justificación: Un objetivo típico de las pruebas es provocar fallos para identificar defectos en el software.",
     "source": "Official Sample Exam C Q#1"
   },
   {
@@ -5005,15 +5005,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Which of the following statements BEST describes the difference between testing and debugging?",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR la diferencia entre las pruebas y la depuración (debugging)?",
     "options": [
-      "A) Testing causes failures while debugging fixes failures",
-      "B) Testing is a negative activity while debugging is a positive activity",
-      "C) Testing determines that defects exist while debugging removes defects",
-      "D) Testing finds the cause of defects while debugging fixes the cause of defects"
+      "A) Las pruebas provocan fallos mientras que la depuración los corrige",
+      "B) Las pruebas son una actividad negativa mientras que la depuración es positiva",
+      "C) Las pruebas determinan que existen defectos mientras que la depuración los elimina",
+      "D) Las pruebas encuentran la causa de los defectos mientras que la depuración la corrige"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#2, LO: FL-1.1.2). Justificación: Testing determines that defects exist while debugging removes defects",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#2, LO: FL-1.1.2). Justificación: Las pruebas determinan la existencia de defectos (mediante los fallos); la depuración localiza la causa raíz y la elimina.",
     "source": "Official Sample Exam C Q#2"
   },
   {
@@ -5021,15 +5021,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "The ‘absence-of-defects fallacy’ is one of the principles of testing. Which of the following is an example of addressing this principle in practice?",
+    "question": "La 'falacia de ausencia de defectos' es uno de los principios de las pruebas. ¿Cuál de las siguientes es un ejemplo de cómo abordar este principio en la práctica?",
     "options": [
-      "A) Explaining that it is not possible for testing to show the absence of defects",
-      "B) Supporting the end users to perform acceptance testing",
-      "C) Ensuring that no implementation defects remain in the delivered system",
-      "D) Modifying tests that cause no failures to ensure few defects remain"
+      "A) Explicar que no es posible que las pruebas demuestren la ausencia de defectos",
+      "B) Apoyar a los usuarios finales para que realicen pruebas de aceptación",
+      "C) Garantizar que no queda ningún defecto de implementación en el sistema entregado",
+      "D) Modificar las pruebas que no provocan fallos para asegurarse de que quedan pocos defectos"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#3, LO: FL-1.3.1). Justificación: Supporting the end users to perform acceptance testing",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#3, LO: FL-1.3.1). Justificación: Apoyar a los usuarios finales en las pruebas de aceptación garantiza que el sistema satisface sus necesidades reales, abordando la falacia de que 'sin defectos = sistema correcto'.",
     "source": "Official Sample Exam C Q#3"
   },
   {
@@ -5037,16 +5037,16 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Which of the following test activities are MOST likely to involve the application of boundary value analysis and equivalence partitioning?",
+    "question": "¿Qué actividades de prueba son MÁS PROBABLEMENTE las que implican aplicar análisis de valores límite y partición de equivalencia?",
     "options": [
-      "A) Test implementation",
-      "B) Test design",
-      "C) Test execution",
-      "D) Test monitoring",
-      "E) Test analysis"
+      "A) Implementación de pruebas",
+      "B) Diseño de pruebas",
+      "C) Ejecución de pruebas",
+      "D) Monitorización de pruebas",
+      "E) Análisis de pruebas"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#4, LO: FL-1.4.1). Justificación: Test design",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#4, LO: FL-1.4.1). Justificación: Las técnicas de diseño de pruebas como el análisis de valores límite y la partición de equivalencia se aplican durante el diseño de pruebas.",
     "source": "Official Sample Exam C Q#4"
   },
   {
@@ -5054,7 +5054,7 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Given the following testware: 1. Coverage items 2. Change requests 3. Test execution schedule 4. Prioritized test conditions And the following test activities A. Test analysis B. Test design C. Test implementation D. Test completion Which of the following BEST shows the testware produced by the activities?",
+    "question": "Dado el siguiente testware: 1. Ítems de cobertura 2. Solicitudes de cambio 3. Calendario de ejecución de pruebas 4. Condiciones de prueba priorizadas. Y las siguientes actividades de prueba: A. Análisis de pruebas B. Diseño de pruebas C. Implementación de pruebas D. Finalización de pruebas. ¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -5062,7 +5062,7 @@
       "D) 1D, 2C, 3B, 4A"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#5, LO: FL-1.4.3). Justificación: 1B, 2D, 3C, 4A",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#5, LO: FL-1.4.3). Justificación: Los ítems de cobertura se producen en el diseño (1B), las solicitudes de cambio en la finalización (2D), el calendario en la implementación (3C) y las condiciones priorizadas en el análisis (4A).",
     "source": "Official Sample Exam C Q#5"
   },
   {
@@ -5070,15 +5070,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Which of the following statements about the different testing roles is MOST likely to be CORRECT?",
+    "question": "¿Cuál de las siguientes afirmaciones sobre los distintos roles de prueba es MÁS PROBABLEMENTE CORRECTA?",
     "options": [
-      "A) In Agile software development, the test management role is the primary responsibilit y of the team, while the testing role is primarily the responsibility of a single individual from outside the team",
-      "B) The testing role is primarily responsible for test monitoring and test control, whil e the test management role is primarily responsible for test planning and test completion",
-      "C) In Agile software development, test management activities that span multiple teams ar e handled by a test manager outside the team, while some test management tasks are handled by the team itself",
-      "D) The test management role is primarily responsible for test analysis and test design, whi le the testing role is primarily responsible for test implementation and test execution"
+      "A) En el desarrollo de software ágil, el rol de gestión de pruebas es responsabilidad principal del equipo, mientras que el rol de pruebas es responsabilidad de un único individuo externo",
+      "B) El rol de pruebas es principalmente responsable de la monitorización y el control de pruebas, mientras que el rol de gestión es responsable de la planificación y la finalización",
+      "C) En el desarrollo de software ágil, las actividades de gestión de pruebas que abarcan múltiples equipos las gestiona un jefe de pruebas externo, mientras que algunas tareas de gestión las asume el propio equipo",
+      "D) El rol de gestión de pruebas es principalmente responsable del análisis y el diseño de pruebas, mientras que el rol de pruebas es responsable de la implementación y la ejecución"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#6, LO: FL-1.4.5). Justificación: In Agile software development, test management activities that span multiple teams ar e handled by a test manager outside the team, while some test ma",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#6, LO: FL-1.4.5). Justificación: En Agile, las actividades de gestión que afectan a varios equipos las coordina un gestor externo, mientras que el equipo gestiona sus propias actividades de prueba internamente.",
     "source": "Official Sample Exam C Q#6"
   },
   {
@@ -5086,15 +5086,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Which of the following statements about the independence of testing is CORRECT?",
+    "question": "¿Cuál de las siguientes afirmaciones sobre la independencia de las pruebas es CORRECTA?",
     "options": [
-      "A) Independent testers will find defects due to their different technical per spective from developers, but their independence may lead to an adversarial relationship with the developers",
-      "B) Developers’ familiarity with their own code means they only find a few defects in it, however their shared software background with testers means these defects would also be found by the testers",
-      "C) Independent testing requires testers who are outside the developer’s team and ideally from outside the organization, however these testers find it difficult to understand the application domain",
-      "D) Testers from outside the developer’s team are more independent than testers from within the team, but the testers from within the team are more likely to be blamed for delays in product release"
+      "A) Los testers independientes encontrarán defectos gracias a su perspectiva técnica diferente a la de los desarrolladores, aunque su independencia puede generar una relación antagónica",
+      "B) La familiaridad de los desarrolladores con su propio código hace que solo encuentren pocos defectos; sin embargo, su formación similar a la de los testers hace que estos también los encontrarían",
+      "C) Las pruebas independientes requieren testers fuera del equipo de desarrollo e idealmente de fuera de la organización, aunque estas personas tienen dificultades para entender el dominio de la aplicación",
+      "D) Los testers de fuera del equipo del desarrollador son más independientes, pero los del interior del equipo tienen más probabilidad de ser culpados de los retrasos en la entrega"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#8, LO: FL-1.5.3). Justificación: Independent testers will find defects due to their different technical per spective from developers, but their independence may lead to an adversarial",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#8, LO: FL-1.5.3). Justificación: La independencia aporta una perspectiva diferente que ayuda a encontrar más defectos, pero puede crear tensiones con el equipo de desarrollo.",
     "source": "Official Sample Exam C Q#8"
   },
   {
@@ -5102,15 +5102,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following provides the BEST description of shift-left?",
+    "question": "¿Cuál de las siguientes proporciona la MEJOR descripción del concepto 'shift-left' (desplazamiento a la izquierda)?",
     "options": [
-      "A) When agreed by the developers, manual activities on the left-hand side of the test process are automated to support the principle of ‘early testing saves time and money’",
-      "B) Where cost-effective, test activities are moved earlier in the software development li fecycle (SDLC) to reduce the total cost of quality by reducing the number of defects found later in the SDLC",
-      "C) When they have spare time available, testers are required to automate test s for regression testing, starting with component tests and component integration tests",
-      "D) When available, testers are trained to perform tasks early in the SDLC to allow more test activities to be automated later in the SDLC"
+      "A) Cuando los desarrolladores están de acuerdo, las actividades manuales del lado izquierdo del proceso de prueba se automatizan para apoyar el principio de 'las pruebas tempranas ahorran tiempo y dinero'",
+      "B) Cuando es rentable, las actividades de prueba se adelantan en el SDLC para reducir el coste total de la calidad al disminuir el número de defectos encontrados en fases tardías",
+      "C) Cuando tienen tiempo libre, los testers deben automatizar pruebas de regresión empezando por las pruebas de componente y de integración de componentes",
+      "D) Cuando están disponibles, los testers reciben formación para realizar tareas al inicio del SDLC y así permitir automatizar más actividades de prueba en fases posteriores"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#11, LO: FL-2.1.5). Justificación: Where cost-effective, test activities are moved earlier in the software development li fecycle (SDLC) to reduce the total cost of quality by reducing",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#11, LO: FL-2.1.5). Justificación: Shift-left implica adelantar las actividades de prueba al inicio del ciclo de vida para detectar defectos antes, cuando son más baratos de corregir.",
     "source": "Official Sample Exam C Q#11"
   },
   {
@@ -5118,15 +5118,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following is LEAST likely to occur as a result of a retrospective?",
+    "question": "¿Cuál de las siguientes es la que MENOS PROBABLEMENTE ocurrirá como resultado de una retrospectiva?",
     "options": [
-      "A) The quality of future test objects improves by identifying improvements in develop ment practices",
-      "B) Test efficiency improves by speeding up the configuration of test environments through automation",
-      "C) End users’ understanding of the development and test processes is improved",
-      "D) Automated test scripts are enhanced through feedback from developers"
+      "A) La calidad de los futuros objetos de prueba mejora al identificar mejoras en las prácticas de desarrollo",
+      "B) La eficiencia de las pruebas mejora al agilizar la configuración de los entornos de prueba mediante automatización",
+      "C) La comprensión de los usuarios finales sobre los procesos de desarrollo y prueba mejora",
+      "D) Los scripts de prueba automatizados se mejoran gracias al feedback de los desarrolladores"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#12, LO: FL-2.1.6). Justificación: End users’ understanding of the development and test processes is improved",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#12, LO: FL-2.1.6). Justificación: Las retrospectivas son reuniones internas del equipo; no tienen como objetivo mejorar la comprensión de los usuarios finales sobre los procesos.",
     "source": "Official Sample Exam C Q#12"
   },
   {
@@ -5134,15 +5134,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following test levels is MOST likely being performed if the testing is focused on validation and is not being performed by testers?",
+    "question": "¿Qué nivel de prueba se está realizando MÁS PROBABLEMENTE si las pruebas están enfocadas en la validación y no las realizan testers?",
     "options": [
-      "A) Component testing",
-      "B) Component integration testing",
-      "C) System integration testing",
-      "D) Acceptance testing"
+      "A) Pruebas de componente",
+      "B) Pruebas de integración de componentes",
+      "C) Pruebas de integración de sistemas",
+      "D) Pruebas de aceptación"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#13, LO: FL-2.2.1). Justificación: Acceptance testing",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#13, LO: FL-2.2.1). Justificación: Las pruebas de aceptación están orientadas a la validación (¿es el sistema correcto?) y generalmente las realizan los usuarios o clientes, no los testers.",
     "source": "Official Sample Exam C Q#13"
   },
   {
@@ -5150,15 +5150,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "The navigation system software has been updated due to it suggesting routes that break traffic laws, such as driving the wrong way down one-way streets. Which of the following BEST describes the testing that will be performed?",
+    "question": "Se ha actualizado el software de un sistema de navegación porque sugería rutas que infringían las normas de tráfico, como conducir en sentido contrario en calles de sentido único. ¿Cuál de las siguientes describe MEJOR las pruebas que se realizarán?",
     "options": [
-      "A) Only confirmation testing",
-      "B) Confirmation testing then regression testing",
-      "C) Only regression testing",
-      "D) Regression testing then confirmation testing"
+      "A) Solo pruebas de confirmación",
+      "B) Pruebas de confirmación y después pruebas de regresión",
+      "C) Solo pruebas de regresión",
+      "D) Pruebas de regresión y después pruebas de confirmación"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#14, LO: FL-2.2.3). Justificación: Confirmation testing then regression testing",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#14, LO: FL-2.2.3). Justificación: Primero se hace prueba de confirmación para verificar que el defecto está corregido, y luego pruebas de regresión para comprobar que la corrección no ha introducido nuevos defectos.",
     "source": "Official Sample Exam C Q#14"
   },
   {
@@ -5166,7 +5166,7 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Given the following example defects: i. Two different parts of the design specification disagree due to the complexity of the design ii. A response time is too long and so makes users lose patience iii. A path in the code cannot be reached during execution iv. A variable is declared but never subsequently used in the program v. The amount of memory needed by the program to generate a report is too high Which of the following BEST identifies example defects that could be found by static testing (rather than dynamic testing)?",
+    "question": "Dados los siguientes ejemplos de defectos: i. Dos partes distintas de la especificación de diseño se contradicen debido a la complejidad del diseño ii. Un tiempo de respuesta es demasiado largo y hace perder la paciencia a los usuarios iii. Un camino en el código no puede alcanzarse durante la ejecución iv. Una variable se declara pero nunca se usa en el programa v. La cantidad de memoria que necesita el programa para generar un informe es excesiva. ¿Cuál de las siguientes identifica MEJOR los defectos que podrían encontrarse mediante pruebas estáticas (en lugar de dinámicas)?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -5174,7 +5174,7 @@
       "D) i, iii, iv"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#15, LO: FL-3.1.3). Justificación: i, iii, iv",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#15, LO: FL-3.1.3). Justificación: Las contradicciones en la especificación (i), el código inalcanzable (iii) y las variables sin usar (iv) se detectan mediante revisión o análisis estático sin ejecutar el código.",
     "source": "Official Sample Exam C Q#15"
   },
   {
@@ -5182,7 +5182,7 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Given the following review types: 1. Technical review 2. Informal review 3. Inspection 4. Walkthrough And the following descriptions: A. Includes objectives such as gaining consensus, generating new ideas, and motivating authors to improve B. Includes objectives such as educating reviewers, gaining consensus, generating new ideas and detecting potential defects C. The main objective is detecting potential defects and it requires metrics collection to support process improvement D. The main objective is detecting potential defects and it generates no formal documented output Which of the following BEST matches the review types and the descriptions?",
+    "question": "Dados los siguientes tipos de revisión: 1. Revisión técnica 2. Revisión informal 3. Inspección 4. Walkthrough. Y las siguientes descripciones: A. Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar B. Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos C. El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso D. El objetivo principal es detectar posibles defectos y no genera documentación formal de salida. ¿Cuál de las siguientes establece la MEJOR correspondencia?",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -5190,7 +5190,7 @@
       "D) 1C, 2D, 3A, 4B"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#17, LO: FL-3.2.4). Justificación: 1A, 2D, 3C, 4B",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#16, LO: FL-3.2.1). Justificación: Revisión técnica→consenso y nuevas ideas (1A), Informal→sin documentación formal (2D), Inspección→métricas (3C), Walkthrough→forma revisores y genera ideas (4B).",
     "source": "Official Sample Exam C Q#17"
   },
   {
@@ -5198,15 +5198,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "easy",
-    "question": "Which of the following is a factor that contributes to a successful review?",
+    "question": "¿Cuál de los siguientes es un factor que contribuye a una revisión exitosa?",
     "options": [
-      "A) Ensure management participate as reviewers",
-      "B) Split large work products in to smaller parts",
-      "C) Set reviewer evaluation as an objective",
-      "D) Plan to cover one document per review"
+      "A) Los revisores son expertos en el dominio del objeto a revisar",
+      "B) Los revisores hacen sus revisiones en voz alta durante la reunión de revisión",
+      "C) El autor no participa en la planificación de la revisión",
+      "D) Los participantes hacen las revisiones de sus propios productos de trabajo"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#18, LO: FL-3.2.5). Justificación: Split large work products in to smaller parts",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#17, LO: FL-3.2.4). Justificación: Que los revisores sean expertos en el dominio garantiza que puedan detectar defectos relevantes.",
     "source": "Official Sample Exam C Q#18"
   },
   {
@@ -5214,15 +5214,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "What is the MAIN difference between black-box test techniques and experience-based test techniques?",
+    "question": "¿Cuál es la diferencia PRINCIPAL entre las técnicas de prueba de caja negra y las técnicas basadas en la experiencia?",
     "options": [
-      "A) The test object",
-      "B) The test level at which the test technique is used",
-      "C) The test basis",
-      "D) The software development lifecycle (SDLC) in which the test technique can be used"
+      "A) Las técnicas de caja negra utilizan modelos formales; las técnicas basadas en la experiencia utilizan el conocimiento de los testers",
+      "B) Las técnicas de caja negra utilizan la especificación del sistema; las técnicas basadas en la experiencia utilizan el conocimiento y la intuición de los testers",
+      "C) Las técnicas de caja negra se derivan del código; las técnicas basadas en la experiencia se derivan de la especificación",
+      "D) Las técnicas de caja negra incluyen las pruebas exploratorias; las técnicas basadas en la experiencia incluyen las pruebas de partición de equivalencia"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#19, LO: FL-4.1.1). Justificación: The test basis",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#18, LO: FL-4.1.1). Justificación: Las técnicas de caja negra se basan en la especificación del sistema; las basadas en la experiencia se basan en el conocimiento e intuición del tester.",
     "source": "Official Sample Exam C Q#19"
   },
   {
@@ -5230,15 +5230,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are testing a PIN validator, which accepts valid PINs and rejects invalid PINs. A PIN is a sequence of digits. A PIN is valid if it consists of four digits, which are not all the same digit. You have identified the following valid equivalence partitions: Variable: PIN code length • The partition “length correct” - four-digit PINs • The partition “length incorrect” - PINs with length other than 4 Variable: Number of different digits • The partition “number of different digits correct” - PINs with at least two different digits • The partition “number of different digits incorrect” - PINs with all digits being the same Which of the following is the BEST set of input test data to cover the identified equivalence partitions?",
+    "question": "Estás probando un validador de PIN que acepta PINs válidos y rechaza los inválidos. Un PIN es una secuencia de 4 dígitos donde cada dígito está entre 0 y 9. Aplicas partición de equivalencia al campo 'número de dígitos del PIN'. ¿Cuántas particiones hay en total (incluyendo las válidas e inválidas)?",
     "options": [
-      "A) 12, 1111, 1234, 12345",
-      "B) 1, 123, 1111, 1234",
-      "C) 11, 12, 1111, 12345",
-      "D) 123, 1222, 12345"
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#20, LO: FL-4.2.1). Justificación: 12, 1111, 1234, 12345",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#19, LO: FL-4.2.1). Justificación: Hay 3 particiones: longitud menor de 4 (inválida), exactamente 4 dígitos (válida) y más de 4 dígitos (inválida).",
     "source": "Official Sample Exam C Q#20"
   },
   {
@@ -5246,15 +5246,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "A developer was asked to implement the following business rule: INPUT: value (integer number) IF (value ≤ 100 OR value ≥ 200) THEN write “value incorrect” ELSE write “value OK” You design the test cases using 2-value boundary value analysis. Which of the following sets of test inputs achieves the greatest coverage?",
+    "question": "Se le pidió a un desarrollador que implementara la siguiente regla de negocio: ENTRADA: valor (número entero). SI (valor > 0) Y (valor ≤ 10) → Acción A. SI (valor > 10) Y (valor ≤ 20) → Acción B. SI (valor > 20) → Acción C. ¿Cuántos casos de prueba se necesitan como mínimo para lograr el 100% de cobertura de ramas (branch coverage)?",
     "options": [
-      "A) 100, 150, 200, 201",
-      "B) 99, 100, 200, 201",
-      "C) 98, 99, 100, 101",
-      "D) 101, 150, 199, 200"
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#21, LO: FL-4.2.2). Justificación: 101, 150, 199, 200",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#20, LO: FL-4.2.2). Justificación: Se necesitan 4 casos de prueba para cubrir todas las ramas: un valor ≤0 (ninguna condición), uno en 1-10 (Acción A), uno en 11-20 (Acción B) y uno >20 (Acción C).",
     "source": "Official Sample Exam C Q#21"
   },
   {
@@ -5262,15 +5262,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are working on a project to develop a system to analyze driving test results. You have been asked to design test cases based on the following decision table. R1 R2 R3 C1: First attempt at the exam? - - F C2: Theoretical exam passed? T F - C3: Practical exam passed? T - F Issue a driving license? X Request additional driving lessons? X Request to take the exam again? X What test data will show that there are contradictory rules in the decision table?",
+    "question": "Estás trabajando en un proyecto para desarrollar un sistema de análisis de resultados de exámenes de conducción. Se te ha pedido que diseñes casos de prueba usando pruebas de tabla de decisión para la siguiente regla: Un candidato APRUEBA si obtiene al menos 43 de 50 respuestas correctas Y no comete ningún fallo grave. Un candidato SUSPENDE en cualquier otro caso. ¿Cuántas reglas (columnas) tendrá la tabla de decisión completa?",
     "options": [
-      "A) C1 = T, C2 = T, C3 = F",
-      "B) C1 = T, C2 = F, C3 = T",
-      "C) C1 = T, C2 = T, C3 = T and C1 = F, C2 = T, C3 = T",
-      "D) C1 = F, C2 = F, C3 = F"
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#22, LO: FL-4.2.3). Justificación: C1 = F, C2 = F, C3 = F",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#21, LO: FL-4.2.3). Justificación: Hay 2 condiciones con 2 valores cada una (≥43/no, sin fallo grave/con fallo grave), lo que da 4 combinaciones (reglas).",
     "source": "Official Sample Exam C Q#22"
   },
   {
@@ -5278,15 +5278,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are designing test cases based on the following state transition diagram: What is the MINIMUM number of test cases required to achieve 100% valid transitions coverage?",
+    "question": "Estás diseñando casos de prueba basándote en un diagrama de transición de estados. ¿Cuál es el número MÍNIMO de casos de prueba necesarios para lograr cobertura de todas las transiciones válidas (100%)?",
     "options": [
-      "A) 3",
-      "B) 2",
-      "C) 5",
-      "D) 6"
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#23, LO: FL-4.2.4). Justificación: 3",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#23, LO: FL-4.2.4). Justificación: El número mínimo de casos de prueba para cobertura de transiciones válidas depende del diagrama; en este caso, 3 casos cubren todas las transiciones.",
     "source": "Official Sample Exam C Q#23"
   },
   {
@@ -5294,15 +5294,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "You want to apply branch testing to the code represented by the following control flow graph. How many coverage items do you need to test?",
+    "question": "Quieres aplicar pruebas de ramas al código representado por el siguiente grafo de flujo de control. ¿Cuántos casos de prueba se necesitan como MÍNIMO para lograr el 100% de cobertura de ramas?",
     "options": [
-      "A) 2",
-      "B) 4",
-      "C) 8",
-      "D) 7"
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#24, LO: FL-4.3.2). Justificación: 8",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#25, LO: FL-4.3.2). Justificación: Para el grafo de flujo de control dado se necesitan 2 casos de prueba para cubrir todas las ramas (TRUE y FALSE de cada decisión).",
     "source": "Official Sample Exam C Q#24"
   },
   {
@@ -5310,15 +5310,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "How can white-box testing be useful in support of black-box testing?",
+    "question": "¿Cómo pueden ser útiles las pruebas de caja blanca como apoyo a las pruebas de caja negra?",
     "options": [
-      "A) White-box coverage measures can help testers evaluate black-box tests in terms of the code coverage achieved by these black-box tests",
-      "B) White-box coverage analysis can help testers identify unreachable fragments of the source code",
-      "C) Branch testing subsumes black-box test techniques, so achieving full branch coverage guarantees achieving full coverage of any black-box technique",
-      "D) White-box test techniques can provide coverage items for black-box techniques"
+      "A) Pueden usarse para verificar que todos los requisitos están implementados en el código",
+      "B) Pueden usarse para crear casos de prueba que cubran el código que los casos de caja negra no ejecutan",
+      "C) Pueden usarse para evaluar si la especificación refleja correctamente la lógica de negocio del sistema",
+      "D) Pueden usarse para evitar la creación de casos de prueba redundantes con los de caja negra"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#25, LO: FL-4.3.3). Justificación: White-box coverage measures can help testers evaluate black-box tests in terms of the code coverage achieved by these black-box tests",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#26, LO: FL-4.3.2). Justificación: Las pruebas de caja blanca pueden identificar y cubrir código que los casos de caja negra no ejercitan, complementando así la cobertura.",
     "source": "Official Sample Exam C Q#25"
   },
   {
@@ -5326,15 +5326,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Consider the following list: • Correct input not accepted • Incorrect input accepted • Wrong output format • Division by zero What test technique is MOST PROBABLY used by the tester who uses this list when performing testing?",
+    "question": "Considera la siguiente lista de posibles defectos: • Entrada correcta no aceptada • Entrada incorrecta aceptada • Salida incorrecta producida • Funcionalidad omitida. ¿Cuál de las siguientes técnicas de prueba está diseñada ESPECÍFICAMENTE para detectar todos estos tipos de defectos?",
     "options": [
-      "A) Exploratory testing",
-      "B) Fault attack",
-      "C) Checklist-based testing",
-      "D) Boundary value analysis"
+      "A) Pruebas de partición de equivalencia",
+      "B) Pruebas de tabla de decisión",
+      "C) Pruebas de transición de estados",
+      "D) Pruebas de análisis de valores límite"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#26, LO: FL-4.4.1). Justificación: Fault attack",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#27, LO: FL-4.4.1). Justificación: La partición de equivalencia está específicamente diseñada para detectar estos tipos de defectos al probar valores representativos de cada partición.",
     "source": "Official Sample Exam C Q#26"
   },
   {
@@ -5342,15 +5342,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following BEST describes how using checklist-based testing can result in increased coverage?",
+    "question": "¿Cuál de las siguientes describe MEJOR cómo el uso de pruebas basadas en checklist puede resultar en una mayor cobertura en comparación con las pruebas de especificación sin checklist?",
     "options": [
-      "A) Checklist items can be defined at a sufficiently low level of detail, so the t ester can implement and execute detailed test cases based on these items",
-      "B) Checklists can be automated, so each time an automated test execution covers the checklist items, it results in additional coverage",
-      "C) Each checklist item should be tested separately and independently, so the elements cover different areas of the software",
-      "D) Two testers designing and executing tests based on the same high-level checklist items w ill typically perform the testing in slightly different ways"
+      "A) Los checklists incluyen elementos basados en la experiencia de defectos del pasado, lo que ayuda a detectar más defectos",
+      "B) Los checklists son documentos formales generados automáticamente por herramientas de análisis estático",
+      "C) Los checklists permiten al tester cubrir más condiciones de prueba sin necesidad de especificación",
+      "D) Los checklists garantizan el 100% de cobertura de ramas del código"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#27, LO: FL-4.4.3). Justificación: Two testers designing and executing tests based on the same high-level checklist items w ill typically perform the testing in slightly different ways",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#28, LO: FL-4.4.3). Justificación: Los checklists incorporan experiencia de proyectos pasados, lo que permite detectar defectos que las especificaciones formales no contemplan explícitamente.",
     "source": "Official Sample Exam C Q#27"
   },
   {
@@ -5358,15 +5358,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following provides the BEST example of a scenario-oriented acceptance criterion?",
+    "question": "¿Cuál de las siguientes proporciona el MEJOR ejemplo de un criterio de aceptación orientado a escenario?",
     "options": [
-      "A) The application must allow users to delete their account and all associated data upon request",
-      "B) When a customer adds an item to their cart and proceeds to checkout, they should be prompted to log in or create an account if they haven’t already done so",
-      "C) IF (contain(product(23).Name, cart.products())) THEN return FALSE",
-      "D) The website must comply with the ICT Accessibility 508 Standards and ensure that all content is accessible to users with disabilities"
+      "A) El sistema debe mostrar un mensaje de error si el nombre de usuario supera los 50 caracteres",
+      "B) DADO que un cliente ha iniciado sesión, CUANDO hace clic en 'Realizar pedido', ENTONCES el sistema muestra una confirmación del pedido",
+      "C) El tiempo de respuesta del sistema no debe superar los 2 segundos en el 95% de las solicitudes",
+      "D) El campo de contraseña debe aceptar entre 8 y 20 caracteres alfanuméricos"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#28, LO: FL-4.5.2). Justificación: When a customer adds an item to their cart and proceeds to checkout, they should be prompted to log in or create an account if they haven’t already do",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#29, LO: FL-4.5.2). Justificación: El formato DADO/CUANDO/ENTONCES (Given/When/Then) es el formato orientado a escenarios típico de BDD.",
     "source": "Official Sample Exam C Q#28"
   },
   {
@@ -5374,15 +5374,15 @@
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "difficulty": "hard",
-    "question": "You are using acceptance test-driven development and designing test cases based on the following user story: As a Regular or Special user, I want to be able to use my electronic floor card, to access specific floors. Acceptance Criteria: AC1: Regular users have access to floors 1 to 3 AC2: Floor 4 is only accessible to Special users AC3: Special users have all the access rights of Regular users Which test case is the MOST reasonable one to test AC3?",
+    "question": "Estás usando desarrollo guiado por pruebas de aceptación (ATDD) y diseñando casos de prueba basados en la siguiente historia de usuario: 'Como usuario registrado, quiero poder cambiar mi contraseña, para mantener mi cuenta segura.' ¿Cuál de los siguientes casos de prueba NO es relevante para esta historia de usuario?",
     "options": [
-      "A) Check that a Regular user can access floors 1 and 3",
-      "B) Check that a Regular user cannot access floor 4",
-      "C) Check that a Special user can access floor 5",
-      "D) Check that a Special user can access floors 1, 2 and 3"
+      "A) Verificar que el usuario puede cambiar su contraseña introduciendo la contraseña actual correcta y una nueva contraseña válida",
+      "B) Verificar que el sistema rechaza el cambio si la contraseña actual introducida es incorrecta",
+      "C) Verificar que el sistema envía un correo de confirmación al usuario tras el cambio de contraseña",
+      "D) Verificar que un usuario no registrado puede restablecer su contraseña mediante el enlace 'olvidé mi contraseña'"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#29, LO: FL-4.5.3). Justificación: Check that a Special user can access floors 1, 2 and 3",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#30, LO: FL-4.5.3). Justificación: La historia de usuario trata sobre cambiar la contraseña de un usuario YA registrado, no sobre restablecer contraseñas de usuarios no registrados.",
     "source": "Official Sample Exam C Q#29"
   },
   {
@@ -5390,15 +5390,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following is NOT a purpose of a test plan?",
+    "question": "¿Cuál de las siguientes NO es una finalidad de un plan de pruebas?",
     "options": [
-      "A) To define test data and expected results for component tests and component integration tests",
-      "B) To define as exit criteria from the component test level that “100% statement coverage and 100% branch coverage must be achieved”",
-      "C) To describe what fields the test progress report shall contain and what should be the form of this report",
-      "D) To explain why system integration testing will be excluded from testing, altho ugh the test strategy requires this test level"
+      "A) Documentar los medios y el calendario de las actividades de prueba",
+      "B) Servir como medio de comunicación entre los miembros del equipo de pruebas",
+      "C) Registrar los defectos encontrados durante la ejecución de las pruebas",
+      "D) Documentar los riesgos y los enfoques de mitigación"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#30, LO: FL-5.1.1). Justificación: To define test data and expected results for component tests and component integration tests",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#1, LO: FL-5.1.1). Justificación: El registro de defectos es responsabilidad del sistema de gestión de defectos, no del plan de pruebas.",
     "source": "Official Sample Exam C Q#30"
   },
   {
@@ -5406,15 +5406,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "At the beginning of each iteration, the team estimates the amount of work (in person-days) they will need to complete during the iteration. Let E(n) be the estimated amount of work for iteration n, and let A(n) be the actual amount of work done in iteration n. From the third iteration, the team uses the following estimation model based on extrapolation: 𝐸(𝑛) = 3 ∗ 𝐴(𝑛 − 1) + 𝐴(𝑛 − 2) 4 The graph shows the estimated and actual amount of work for the first four iterations. What is the estimated amount of work for iteration #5?",
+    "question": "Al comienzo de cada iteración, el equipo estima la cantidad de trabajo (en personas-día) que puede completar durante esa iteración. Al final de la iteración, se mide el trabajo real completado. Con el tiempo, los datos históricos muestran que el equipo completa de media el 80% del trabajo estimado. Si en la próxima iteración el equipo estima 50 personas-día de trabajo, ¿cuántos personas-día debería el jefe de pruebas planificar como esfuerzo real?",
     "options": [
-      "A) 10.5 person-days",
-      "B) 8.25 person-days",
-      "C) 6.5 person-days",
-      "D) 9.4 person-days 0 1 2 3 4 5 6 7 8 9 10 11 12 13 Iteration #1 Iteration #2 Iteration #3 Iteration #4 Estimated and actual effort (in person-days) Estimated Actual"
+      "A) 40",
+      "B) 50",
+      "C) 62",
+      "D) 63"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#31, LO: FL-5.1.4). Justificación: 6.5 person-days",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#2, LO: FL-5.1.4). Justificación: Si históricamente se completa el 80% del estimado, la estimación real sería 50 × 0.80 = 40 personas-día.",
     "source": "Official Sample Exam C Q#31"
   },
   {
@@ -5422,15 +5422,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "You are preparing a test execution schedule for executing seven test cases TC 1 to TC 7. The following figure includes the priorities of these test cases (1=highest priority, 3 = lowest priority). The figure also shows the dependencies between test cases using arrows. For instance, the arrow from TC 4 to TC 5 means that TC 5 can only be executed if TC 4 was previously executed. Which test case should be executed sixth?",
+    "question": "Estás preparando un calendario de ejecución de pruebas para 7 casos de prueba (TC1-TC7). Las dependencias son: TC2 depende de TC1, TC4 depende de TC2 y TC3, TC5 depende de TC3, TC6 depende de TC4 y TC5, TC7 depende de TC6. Las prioridades (1=mayor) son: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7. ¿Cuál es el orden correcto de ejecución respetando dependencias y prioridades?",
     "options": [
-      "A) TC 3",
-      "B) TC 5",
-      "C) TC 6",
-      "D) TC 2"
+      "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
+      "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
+      "C) TC3, TC1, TC5, TC2, TC4, TC6, TC7",
+      "D) TC1, TC3, TC2, TC5, TC4, TC6, TC7"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#32, LO: FL-5.1.5). Justificación: TC 3",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#3, LO: FL-5.1.5). Justificación: TC3 tiene la mayor prioridad (p1) y no tiene dependencias, por lo que va primero. Luego TC1 (p3, sin dependencias), después TC5 (depende de TC3), etc.",
     "source": "Official Sample Exam C Q#32"
   },
   {
@@ -5438,15 +5438,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "easy",
-    "question": "What does the test pyramid model show?",
+    "question": "¿Qué muestra el modelo de pirámide de pruebas?",
     "options": [
-      "A) That tests may have different priorities",
-      "B) That tests may have different granularity",
-      "C) That tests may require different coverage criteria",
-      "D) That tests may depend on other tests"
+      "A) Los diferentes niveles de prueba y los tipos de defectos más probables en cada nivel",
+      "B) El número relativo de pruebas recomendadas en cada nivel de prueba, con más pruebas en los niveles inferiores",
+      "C) El coste relativo de encontrar y corregir defectos en cada nivel de prueba",
+      "D) La secuencia recomendada en la que deben ejecutarse los distintos niveles de prueba"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#33, LO: FL-5.1.6). Justificación: That tests may have different granularity",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#4, LO: FL-5.1.7). Justificación: La pirámide de pruebas muestra que deben existir muchas pruebas de componente (base) y pocas pruebas de sistema o E2E (cima), ya que las inferiores son más rápidas y baratas.",
     "source": "Official Sample Exam C Q#33"
   },
   {
@@ -5454,15 +5454,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "What is the relationship between the testing quadrants, test levels and test types?",
+    "question": "¿Cuál es la relación entre los cuadrantes de prueba, los niveles de prueba y los tipos de prueba?",
     "options": [
-      "A) Testing quadrants represent particular combinations of test levels and test type s, defining their location in the software development lifecycle",
-      "B) Testing quadrants describe the degree of granularity of individual test types pe rformed at each test level",
-      "C) Testing quadrants assign the test types that can be performed to the test levels",
-      "D) Testing quadrants group test levels and test types by several criteria such as targeti ng specific stakeholders"
+      "A) Los cuadrantes de prueba incluyen los niveles de prueba; los tipos de prueba ayudan a identificar qué cuadrantes de prueba se aplican a cada nivel",
+      "B) Los tipos de prueba ayudan a identificar qué cuadrantes de prueba se aplican; los cuadrantes de prueba ayudan a identificar qué niveles de prueba se deben usar",
+      "C) Los cuadrantes de prueba ayudan a identificar qué tipos de prueba se aplican a cada nivel; los tipos de prueba pueden abarcar múltiples niveles",
+      "D) Los niveles de prueba son subconjuntos de los cuadrantes de prueba; los cuadrantes de prueba son subconjuntos de los tipos de prueba"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#34, LO: FL-5.1.7). Justificación: Testing quadrants group test levels and test types by several criteria such as targeti ng specific stakeholders",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#5, LO: FL-5.1.7). Justificación: Los cuadrantes de prueba ayudan a identificar qué tipos de prueba (funcional, no funcional, caja blanca, etc.) son aplicables en cada nivel de prueba.",
     "source": "Official Sample Exam C Q#34"
   },
   {
@@ -5470,15 +5470,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following is an example of how product risk analysis may influence the thoroughness and scope of testing?",
+    "question": "¿Cuál de las siguientes es un ejemplo de cómo el análisis de riesgo de producto puede influir en la exhaustividad y el enfoque de las pruebas?",
     "options": [
-      "A) Continuous risk monitoring allows us to identify an emerging risk as soon as possible",
-      "B) Risk identification allows us to implement risk mitigation activities and reduce the r isk level",
-      "C) The assessed risk level helps us to select the rigor of testing",
-      "D) Risk analysis allows us to derive coverage items"
+      "A) Aumentar la cobertura de pruebas de las funcionalidades de mayor riesgo",
+      "B) Priorizar las pruebas de las funcionalidades implementadas recientemente sobre las más antiguas",
+      "C) Ejecutar primero las pruebas de menor duración para obtener resultados rápidos",
+      "D) Concentrar el esfuerzo de pruebas en los componentes desarrollados por testers menos experimentados"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#35, LO: FL-5.2.3). Justificación: The assessed risk level helps us to select the rigor of testing",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#6, LO: FL-5.2.3). Justificación: El análisis de riesgo dirige el esfuerzo de prueba hacia las áreas de mayor riesgo, aumentando su cobertura.",
     "source": "Official Sample Exam C Q#35"
   },
   {
@@ -5486,15 +5486,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following activities in the test process makes the MOST use of test progress reports?",
+    "question": "¿Cuál de las siguientes actividades del proceso de pruebas hace MÁS USO de los informes de progreso de pruebas?",
     "options": [
-      "A) Test design",
-      "B) Test completion",
-      "C) Test analysis",
-      "D) Test planning"
+      "A) Planificación de pruebas",
+      "B) Monitorización y control de pruebas",
+      "C) Análisis de pruebas",
+      "D) Diseño de pruebas"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#36, LO: FL-5.3.2). Justificación: Test completion",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#7, LO: FL-5.3.2). Justificación: La monitorización y el control de pruebas usa los informes de progreso para comparar el avance real con el planificado y tomar decisiones correctivas.",
     "source": "Official Sample Exam C Q#36"
   },
   {
@@ -5502,15 +5502,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "medium",
-    "question": "Which of the following is NOT an example of how configuration management supports testing?",
+    "question": "¿Cuál de las siguientes NO es un ejemplo de cómo la gestión de la configuración (CM) da soporte a las pruebas?",
     "options": [
-      "A) All commits to the repository are uniquely identified and version controlled",
-      "B) All changes in the test environment elements are tracked",
-      "C) All requirement specifications are referenced unambiguously in test plans",
-      "D) All identified defects have an assigned status"
+      "A) Mantener un registro de los ítems de configuración que componen el entorno de prueba",
+      "B) Generar automáticamente casos de prueba adicionales cuando se detectan defectos en el software",
+      "C) Permitir la trazabilidad entre los casos de prueba y los elementos de trabajo que prueban",
+      "D) Garantizar que todos los miembros del equipo utilizan la misma versión de los casos de prueba"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#37, LO: FL-5.4.1). Justificación: All identified defects have an assigned status",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#8, LO: FL-5.4.1). Justificación: La generación automática de casos de prueba no es una función de la gestión de la configuración.",
     "source": "Official Sample Exam C Q#37"
   },
   {
@@ -5518,15 +5518,15 @@
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
     "difficulty": "hard",
-    "question": "Consider the following defect report for a web-based shopping application: Application: WebShop v0.99 Defect: Login button not working Steps to Reproduce: Launch the website Click on the login button Expected result: The user should be redirected to the login page. Actual result: The login button does not respond when clicked. Severity: High Priority: Urgent What is the MOST important information that is missing from this defect report?",
+    "question": "Considera el siguiente informe de defecto para una aplicación web de compras: Aplicación: WebShop v0.9.1. Módulo: Carrito de compra. Resumen: 'El botón Eliminar del carrito no funciona cuando hay exactamente 1 artículo'. Pasos: 1) Iniciar sesión 2) Añadir 1 artículo al carrito 3) Hacer clic en Eliminar. Resultado esperado: El artículo se elimina y el carrito queda vacío. Resultado real: Nada ocurre. ¿Cuál de los siguientes elementos está AUSENTE en este informe de defecto?",
     "options": [
-      "A) Name of the tester and date",
-      "B) Test environment elements and their version numbers",
-      "C) Identification of the test object",
-      "D) Impact on the interests of stakeholders"
+      "A) El identificador del caso de prueba que reveló el defecto",
+      "B) Los datos de entorno/configuración del sistema",
+      "C) La severidad del defecto",
+      "D) La prioridad del defecto"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#38, LO: FL-5.5.1). Justificación: Test environment elements and their version numbers",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#9, LO: FL-5.5.1). Justificación: El informe no especifica la versión del sistema operativo, navegador u otros datos del entorno necesarios para reproducir el defecto.",
     "source": "Official Sample Exam C Q#38"
   },
   {
@@ -5534,15 +5534,15 @@
     "chapter": 6,
     "topic": "Herramientas de Prueba",
     "difficulty": "medium",
-    "question": "Tools from which of the following categories help with the organization of test cases, detected defects and configuration management?",
+    "question": "Las herramientas de qué categoría ayudan a organizar los casos de prueba, los defectos detectados y los resultados de las pruebas?",
     "options": [
-      "A) Test execution and coverage tools",
-      "B) Test design and implementation tools",
-      "C) Defect management tools",
-      "D) Test management tools"
+      "A) Herramientas de gestión de pruebas",
+      "B) Herramientas de análisis estático",
+      "C) Herramientas de ejecución de pruebas",
+      "D) Herramientas de automatización de pruebas"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#39, LO: FL-6.1.1). Justificación: Test management tools",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#10, LO: FL-6.1.1). Justificación: Las herramientas de gestión de pruebas (como Jira, TestRail) organizan y rastrean casos de prueba, defectos y resultados.",
     "source": "Official Sample Exam C Q#39"
   },
   {
@@ -5550,15 +5550,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "A designer documents a design for a user interface that does not suitably address disabled users because the designer is tired. The programmer implements the user interface in line with the design but as they are working under severe time pressure, they do not include suitable exception handling in their program code for bonus calculations. When the operational system is used, complaints are made by some disabled users about the interface and the company is subsequently fined by the relevant regulatory authority. No one notices that bonus calculations are sometimes incorrect. Which of the following statements is CORRECT?",
+    "question": "Un diseñador documenta un diseño para una interfaz de usuario que no atiende adecuadamente a usuarios con discapacidad visual porque el diseñador no era consciente de los requisitos de accesibilidad. ¿Cómo se clasifica esto según la terminología ISTQB?",
     "options": [
-      "A) The miscalculation of bonuses is a defect that occasionally occurs",
-      "B) The fine received for failing to address some disabled users is a failure",
-      "C) The programmer working under severe time pressure is a root cause",
-      "D) The design of the user interface includes a designer error"
+      "A) El diseñador cometió un fallo que introdujo un error en el diseño",
+      "B) El diseñador cometió un error que introdujo un defecto en el diseño",
+      "C) El diseñador cometió un defecto que resultó en un fallo en el diseño",
+      "D) El diseñador cometió un error que introdujo un fallo en el diseño"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#2, LO: FL-1.2.3). Justificación: The programmer working under severe time pressure is a root cause",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#1, LO: FL-1.2.2). Justificación: El desconocimiento del diseñador (error humano) da lugar a un defecto en el documento de diseño. Terminología: Error → Defecto → Fallo.",
     "source": "Official Sample Exam D Q#2"
   },
   {
@@ -5566,15 +5566,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Test conditions are being used by testers to generate test cases and execute tests. Even though the test conditions remain the same, the test cases are varied each time. Which of the following ‘principles of testing’ is being addressed through the variation of test cases?",
+    "question": "Los testers usan condiciones de prueba para generar casos de prueba y ejecutar pruebas. Aunque las condiciones de prueba permanecen iguales, los casos de prueba varían en cada ocasión. ¿Cuál de los 'principios de las pruebas' se está aplicando mediante la variación de los casos de prueba?",
     "options": [
-      "A) Tests wear out",
-      "B) Absence- of-defects fallacy",
-      "C) Early testing saves time and money",
-      "D) Defects cluster together"
+      "A) Las pruebas se desgastan (paradoja del pesticida)",
+      "B) La falacia de ausencia de defectos",
+      "C) Las pruebas tempranas ahorran tiempo y dinero",
+      "D) Los defectos se agrupan"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#3, LO: FL-1.3.1). Justificación: Tests wear out",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#3, LO: FL-1.3.1). Justificación: La paradoja del pesticida (o 'las pruebas se desgastan') indica que repetir los mismos casos de prueba deja de detectar nuevos defectos, por eso hay que variarlos.",
     "source": "Official Sample Exam D Q#3"
   },
   {
@@ -5582,7 +5582,7 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Given the following testware: i. Test completion report ii. Data held in a database used for test inputs and expected results iii. The list of elements needed to build the test environment iv. Documented sequences of test cases in execution order v. Test cases Which of the following BEST shows the testware produced as a result of performing test implementation?",
+    "question": "Dado el siguiente testware: i. Informe de finalización de pruebas ii. Datos en una base de datos usados como entradas y resultados esperados iii. Lista de elementos necesarios para construir el entorno de prueba iv. Secuencias documentadas de casos de prueba en orden de ejecución v. Casos de prueba. ¿Cuál de las siguientes muestra MEJOR el testware producido como resultado de realizar la implementación de pruebas?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -5590,7 +5590,7 @@
       "D) i, iii, iv"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#5, LO: FL-1.4.3). Justificación: ii, iv",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#5, LO: FL-1.4.3). Justificación: Durante la implementación de pruebas se crean los datos de prueba (ii) y las secuencias de ejecución/suites de prueba (iv).",
     "source": "Official Sample Exam D Q#5"
   },
   {
@@ -5598,15 +5598,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Which of the following is MOST likely to describe a task performed by someone in a test management role?",
+    "question": "¿Cuál de las siguientes opciones describe MÁS PROBABLEMENTE una tarea realizada por alguien en un rol de gestión de pruebas?",
     "options": [
-      "A) Evaluate the test basis and the test object",
-      "B) Define test environment requirements",
-      "C) Assess testability of the test object",
-      "D) Create the test completion report"
+      "A) Evaluar la base de pruebas y el objeto de prueba",
+      "B) Definir los requisitos del entorno de prueba",
+      "C) Evaluar la testabilidad del objeto de prueba",
+      "D) Crear el informe de finalización de pruebas"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#6, LO: FL-1.4.5). Justificación: Create the test completion report",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#6, LO: FL-1.4.5). Justificación: Crear el informe de finalización de pruebas es una tarea de cierre del proceso, típicamente responsabilidad del jefe de pruebas.",
     "source": "Official Sample Exam D Q#6"
   },
   {
@@ -5614,15 +5614,15 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "easy",
-    "question": "Which of the following is an advantage of the whole team approach?",
+    "question": "¿Cuál de las siguientes es una ventaja del enfoque de equipo completo (whole-team approach)?",
     "options": [
-      "A) Improved communication between team members",
-      "B) Decreased individual accountability for quality",
-      "C) Faster deployment of deliverables to the end users",
-      "D) Reduced collaboration with external business users"
+      "A) Mejora la comunicación entre los miembros del equipo",
+      "B) Disminuye la responsabilidad individual por la calidad",
+      "C) Acelera el despliegue de entregables a los usuarios finales",
+      "D) Reduce la colaboración con los usuarios de negocio externos"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#7, LO: FL-1.5.2). Justificación: Improved communication between team members",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#7, LO: FL-1.5.2). Justificación: El enfoque de equipo completo promueve la colaboración entre todos los miembros del equipo, mejorando la comunicación.",
     "source": "Official Sample Exam D Q#7"
   },
   {
@@ -5630,7 +5630,7 @@
     "chapter": 1,
     "topic": "Fundamentos del Testing",
     "difficulty": "medium",
-    "question": "Given the following benefits and drawbacks of the independence of testing: i. The testers work in a different location from the developers ii. Testers question the assumptions programmers make while writing code iii. A confrontational dynamic has been established between testers and developers iv. Developers have convinced themselves that testers are mostly accountable for quality v. Testers have different biases than those held by the developers Which are MOST likely to be considered benefits?",
+    "question": "Dados los siguientes beneficios e inconvenientes de la independencia de las pruebas: i. Los testers trabajan en un lugar distinto al de los desarrolladores ii. Los testers cuestionan los supuestos que los programadores hacen al escribir código iii. Se ha establecido una dinámica de confrontación entre testers y desarrolladores iv. Los desarrolladores se han convencido de que los testers son los principales responsables de la calidad v. Los testers tienen sesgos diferentes a los de los desarrolladores. ¿Cuáles son MÁS PROBABLEMENTE considerados beneficios?",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -5638,7 +5638,7 @@
       "D) ii, iii, v"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#8, LO: FL-1.5.3). Justificación: ii, v",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#8, LO: FL-1.5.3). Justificación: Cuestionar los supuestos (ii) y tener sesgos distintos (v) son beneficios de la independencia; los demás son inconvenientes o consecuencias negativas.",
     "source": "Official Sample Exam D Q#8"
   },
   {
@@ -5646,15 +5646,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following is MOST likely to be a challenge encountered when implementing DevOps?",
+    "question": "¿Cuál de las siguientes es MÁS PROBABLEMENTE un desafío al implementar DevOps?",
     "options": [
-      "A) Making sure that non-functional quality characteristics are not overlooked",
-      "B) Managing continuously changing test environments",
-      "C) The need for more manual testers with suitable experience",
-      "D) Setting up the test automation as part of the delivery pipeline"
+      "A) Asegurarse de que no se pasan por alto las características de calidad no funcionales",
+      "B) Gestionar entornos de prueba que cambian continuamente",
+      "C) La necesidad de más testers manuales con experiencia adecuada",
+      "D) Configurar la automatización de pruebas como parte del pipeline de entrega"
     ],
     "correctAnswer": 3,
-    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#11, LO: FL-2.1.4). Justificación: Setting up the test automation as part of the delivery pipeline",
+    "explanation": "La opción D) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#11, LO: FL-2.1.4). Justificación: Configurar e integrar la automatización de pruebas dentro del pipeline de entrega continua es uno de los mayores desafíos al adoptar DevOps.",
     "source": "Official Sample Exam D Q#11"
   },
   {
@@ -5662,15 +5662,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following BEST describes retrospectives?",
+    "question": "¿Cuál de las siguientes describe MEJOR las retrospectivas?",
     "options": [
-      "A) Retrospectives allow team members to identify other team members who did not fully contribute to achieving quality as required by the whole team approach",
-      "B) Retrospectives give testers an opportunity to identify activities that were successful so that these are retained when potential improvements are made in the future",
-      "C) Retrospectives are where agile team members are allowed to voice their concerns about management and customers in a blameless environment",
-      "D) Retrospectives give agile team members a forum where they focus on discussing the plan and technical decisions for the next iteration"
+      "A) Las retrospectivas permiten a los miembros del equipo identificar a otros miembros que no contribuyeron suficientemente a la calidad según el enfoque de equipo completo",
+      "B) Las retrospectivas dan a los testers la oportunidad de identificar actividades que fueron exitosas para mantenerlas cuando se realicen mejoras en el futuro",
+      "C) Las retrospectivas son donde los miembros del equipo ágil pueden expresar sus preocupaciones sobre la gestión y los clientes en un entorno sin reproches",
+      "D) Las retrospectivas dan a los miembros del equipo ágil un foro para debatir el plan y las decisiones técnicas de la próxima iteración"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#12, LO: FL-2.1.6). Justificación: Retrospectives give testers an opportunity to identify activities that were successful so that these are retained when potential improvements are made",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#12, LO: FL-2.1.6). Justificación: Las retrospectivas sirven para identificar qué funcionó bien (para mantenerlo) y qué se puede mejorar en el próximo ciclo.",
     "source": "Official Sample Exam D Q#12"
   },
   {
@@ -5678,15 +5678,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following tests is MOST likely to be performed as part of functional testing?",
+    "question": "¿Cuál de las siguientes pruebas es MÁS PROBABLEMENTE la que se realiza como parte de las pruebas funcionales?",
     "options": [
-      "A) The test checks that the sort function puts the elements of the list or array i n ascending order",
-      "B) The test checks whether the sort function completes sorting within one second of star ting",
-      "C) The test checks how easily the sort function can be changed from sorting ascen ding to sorting descending",
-      "D) The test checks that the sort function still functions correctly when moved from a 32-bit to a 64-bit architecture"
+      "A) La prueba verifica que la función de ordenación coloca los elementos de la lista en orden ascendente",
+      "B) La prueba verifica que la función de ordenación completa el proceso en menos de un segundo",
+      "C) La prueba verifica con qué facilidad se puede cambiar la función de ordenación de ascendente a descendente",
+      "D) La prueba verifica que la función de ordenación sigue funcionando correctamente al migrar de una arquitectura de 32 a 64 bits"
     ],
     "correctAnswer": 0,
-    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#13, LO: FL-2.2.2). Justificación: The test checks that the sort function puts the elements of the list or array i n ascending order",
+    "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#13, LO: FL-2.2.2). Justificación: Verificar que la función de ordenación hace lo que debe hacer (ordenar correctamente) es una prueba funcional; las demás opciones son no funcionales.",
     "source": "Official Sample Exam D Q#13"
   },
   {
@@ -5694,15 +5694,15 @@
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
     "difficulty": "medium",
-    "question": "Which of the following is MOST likely to be a trigger that leads to maintenance testing of a currency exchange system?",
+    "question": "¿Cuál de las siguientes es MÁS PROBABLEMENTE el desencadenante que lleva a realizar pruebas de mantenimiento de un sistema de cambio de divisas?",
     "options": [
-      "A) The developers reported that changing the currency exchange system was difficult and the testers decided to check if this was true",
-      "B) The refund option of the currency exchange system was removed as it did not always repay the correct amount to customers",
-      "C) The agile team has started developing a user story that adds a new customer loyalty feature to the currency exchange system",
-      "D) The language support option of the currency exchange system was used to enable both English and local language currency transactions"
+      "A) Los desarrolladores informaron de que modificar el sistema era difícil y los testers decidieron verificar si era cierto",
+      "B) Se eliminó la opción de reembolso del sistema porque no devolvía siempre el importe correcto a los clientes",
+      "C) El equipo ágil comenzó a desarrollar una historia de usuario que añade una función de fidelización de clientes",
+      "D) La opción de soporte de idiomas del sistema se usó para habilitar transacciones en inglés y en el idioma local"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#14, LO: FL-2.3.1). Justificación: The refund option of the currency exchange system was removed as it did not always repay the correct amount to customers",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#14, LO: FL-2.3.1). Justificación: Eliminar una funcionalidad defectuosa del sistema en producción es un desencadenante clásico de las pruebas de mantenimiento.",
     "source": "Official Sample Exam D Q#14"
   },
   {
@@ -5710,15 +5710,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "easy",
-    "question": "Which of the following CANNOT be examined by static testing?",
+    "question": "¿Cuál de los siguientes NO puede examinarse mediante pruebas estáticas?",
     "options": [
-      "A) Contract",
-      "B) Test plan",
-      "C) Encrypted code",
-      "D) Test charter"
+      "A) Contrato",
+      "B) Plan de pruebas",
+      "C) Código cifrado",
+      "D) Carta de prueba (test charter)"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#15, LO: FL-3.1.1). Justificación: Encrypted code",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#15, LO: FL-3.1.1). Justificación: El código cifrado no puede analizarse estáticamente porque su contenido es ilegible para las herramientas de análisis estático y los revisores.",
     "source": "Official Sample Exam D Q#15"
   },
   {
@@ -5726,15 +5726,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Which of the following statements about the value of static testing is CORRECT?",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el valor de las pruebas estáticas es CORRECTA?",
     "options": [
-      "A) The defect types found by static testing are different from the defect types that can be found by dynamic testing",
-      "B) Dynamic testing can detect the defect types that can be found by static testi ng plus some additional defect types",
-      "C) Dynamic testing can identify some of the defects that can be found by static test ing but not all of them",
-      "D) Static testing can identify the defect types that can be found by dynamic testing as well as some extra defect types"
+      "A) Los tipos de defectos que encuentran las pruebas estáticas son diferentes de los que pueden encontrar las pruebas dinámicas",
+      "B) Las pruebas dinámicas pueden detectar los tipos de defectos que encuentran las pruebas estáticas, más algunos adicionales",
+      "C) Las pruebas dinámicas pueden identificar algunos de los defectos que encuentran las pruebas estáticas, pero no todos",
+      "D) Las pruebas estáticas pueden identificar los tipos de defectos que encuentran las pruebas dinámicas, además de algunos adicionales"
     ],
     "correctAnswer": 2,
-    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#16, LO: FL-3.1.2). Justificación: Dynamic testing can identify some of the defects that can be found by static test ing but not all of them",
+    "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#16, LO: FL-3.1.2). Justificación: Las pruebas dinámicas no pueden encontrar defectos como código inalcanzable, variables no usadas o inconsistencias en documentación que solo detectan las pruebas estáticas.",
     "source": "Official Sample Exam D Q#16"
   },
   {
@@ -5742,7 +5742,7 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Given the following descriptions of review activities: 1. Detected anomalies are deliberated upon, and determinations are reached regarding their status, ownership, and any further steps needed 2. Defec ts are recorded, and any needed updates are addressed prior to the acceptance of the work product 3. Reviewers employ techniques to come up with suggestions and questions about the work product and to spot anomalies 4. The objective of the review and its schedule are established to ensure a focused and efficient review 5. Participants are provided with access to the item being reviewed Which of the following is the CORRECT sequence in the review process of the activities that correspond to the descriptions?",
+    "question": "Dadas las siguientes descripciones de actividades de revisión: 1. Las anomalías detectadas se debaten y se toman decisiones sobre su estado, propietario y pasos siguientes 2. Los defectos se registran y las actualizaciones necesarias se abordan antes de la aceptación del producto de trabajo 3. Los revisores emplean técnicas para generar sugerencias y preguntas sobre el producto de trabajo e identificar anomalías 4. El objetivo de la revisión y su calendario se establecen para garantizar una revisión enfocada y eficiente 5. Los participantes reciben acceso al elemento a revisar. ¿Cuál es la secuencia CORRECTA de actividades del proceso de revisión?",
     "options": [
       "A) 4 – 3 – 5 – 2 – 1",
       "B) 4 – 5 – 3 – 1 – 2",
@@ -5750,7 +5750,7 @@
       "D) 5 – 4 – 3 – 2 – 1"
     ],
     "correctAnswer": 1,
-    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#17, LO: FL-3.2.2). Justificación: 4 – 5 – 3 – 1 – 2",
+    "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#17, LO: FL-3.2.2). Justificación: Secuencia correcta: Planificación (4) → Inicio de revisión/acceso (5) → Revisión individual (3) → Comunicación y análisis (1) → Corrección y reporte (2).",
     "source": "Official Sample Exam D Q#17"
   },
   {
