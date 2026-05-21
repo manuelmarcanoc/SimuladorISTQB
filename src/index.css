@@ -382,7 +382,7 @@ body {
 .desktop-wallpaper-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 10%;
   transform: translate(-50%, -50%);
   font-size: 10rem;
   color: rgba(255, 255, 255, 0.08); /* Faded watermark */
@@ -490,8 +490,8 @@ body {
 
 .desktop-window-notes {
   top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
+  
   width: min(700px, 95vw);
   height: 85vh;
 }
@@ -505,15 +505,15 @@ body {
 
 .desktop-window-pdf {
   top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
+  
   width: min(500px, 95vw);
 }
 
 .desktop-window-settings {
   top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
+  
   width: min(350px, 95vw);
 }
 
@@ -964,11 +964,11 @@ body {
    WINDOW OPEN ANIMATION
    ============================================================ */
 @keyframes windowOpen {
-  from { opacity: 0; transform: scale(0.9) translateY(20px); }
-  to   { opacity: 1; transform: scale(1) translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 .window-open-anim {
-  animation: windowOpen 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: windowOpen 0.25s ease both;
 }
 
 /* ============================================================
@@ -1374,8 +1374,8 @@ body {
    ============================================================ */
 .desktop-window-tarjetas {
   top: 4%;
-  left: 48%;
-  transform: translateX(-50%);
+  left: 5%;
+  
   width: min(740px, 92vw);
   height: 88vh;
   display: flex;
@@ -1385,8 +1385,8 @@ body {
 
 .desktop-window-logros {
   top: 6%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
+  
   width: min(640px, 92vw);
   max-height: 86vh;
   overflow: hidden;
@@ -1397,8 +1397,8 @@ body {
 
 .desktop-window-estadisticas {
   top: 8%;
-  left: 52%;
-  transform: translateX(-50%);
+  left: 15%;
+  
   width: min(880px, 96vw);
   max-height: 90vh;
   overflow: hidden;
@@ -1409,8 +1409,8 @@ body {
 
 .desktop-window-notes {
   top: 10%;
-  left: 54%;
-  transform: translateX(-50%);
+  left: 20%;
+  
   width: min(700px, 92vw);
   height: 85vh;
   position: absolute;
@@ -1419,8 +1419,8 @@ body {
 
 .desktop-window-pdf {
   top: 12%;
-  left: 56%;
-  transform: translateX(-50%);
+  left: 25%;
+  
   width: 400px;
   position: absolute;
   z-index: 44;
@@ -1428,8 +1428,8 @@ body {
 
 .desktop-window-settings {
   top: 14%;
-  left: 58%;
-  transform: translateX(-50%);
+  left: 30%;
+  
   width: 350px;
   position: absolute;
   z-index: 45;
@@ -1579,8 +1579,8 @@ body {
    ============================================================ */
 .desktop-window-quest {
   top: 16%;
-  left: 60%;
-  transform: translateX(-50%);
+  left: 35%;
+  
   width: min(800px, 94vw);
   max-height: 85vh;
   position: absolute;
@@ -1591,6 +1591,7 @@ body {
    RPG ADVENTURE GAME STYLES
    ============================================================ */
 .rpg-container {
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   flex: 1;
