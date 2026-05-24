@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1001,
+    "chapter": 1,
+    "topic": "Fundamentos de Pruebas",
+    "question": "¿Cuál de los siguientes es un objetivo común de la prueba de software?",
+    "options": [
+      "Confirmar que el software cumple con los requisitos especificados.",
+      "Asegurar que no haya errores en el código fuente.",
+      "Demostrar que el sistema es completamente seguro contra ataques externos.",
+      "Verificar que todos los usuarios estén satisfechos con el producto."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Confirmar el cumplimiento de los requisitos es un objetivo común (syllabus 1.1). Las pruebas no pueden asegurar que no haya errores (falso), ni que sea completamente seguro o que todos estén satisfechos.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1002,
+    "chapter": 1,
+    "topic": "Fundamentos de Pruebas",
+    "question": "Una empresa de software desarrolla aplicaciones para el sector financiero. El equipo de dirección pregunta al jefe de pruebas por qué las pruebas son esenciales en su contexto, más allá de encontrar defectos. ¿Cuál de las siguientes razones describe MEJOR por qué las pruebas son necesarias en este contexto?",
+    "options": [
+      "Para demostrar que el software no tiene ningún defecto antes de su entrega.",
+      "Para proporcionar confianza sobre el nivel de calidad del software y cumplir con los requisitos regulatorios del sector.",
+      "Para reemplazar el proceso de revisión de requisitos y reducir la documentación.",
+      "Para asegurar que todos los desarrolladores conozcan el código del sistema completo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "En el sector financiero, proporcionar confianza y cumplir con regulaciones es vital. Las pruebas no pueden demostrar la ausencia de defectos (principio de falacia de ausencia de defectos).",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1003,
+    "chapter": 1,
+    "topic": "Principios de Prueba",
+    "question": "Estás evaluando la calidad de las pruebas realizadas en un software antes de su lanzamiento. Observas que aunque se han ejecutado muchas pruebas, aún persisten defectos significativos. ¿Cuál de los siete principios de prueba se refleja en esta situación?",
+    "options": [
+      "Las pruebas exhaustivas son imposibles",
+      "Los defectos se agrupan",
+      "Las pruebas se desgastan",
+      "Falacia de la ausencia de defectos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los defectos tienden a agruparse en módulos específicos (Cluster de defectos o Pareto).",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1004,
+    "chapter": 5,
+    "topic": "Planificación de Pruebas",
+    "question": "Estás participando en un proyecto de software que desarrolla una plataforma de e-learning. El equipo ha decidido llevar a cabo pruebas de regresión en la versión actual del sistema. ¿Cuál de las siguientes actividades se realiza durante la fase de planificación de pruebas?",
+    "options": [
+      "Definir qué funcionalidades se probarán en la próxima iteración.",
+      "Ejecutar casos de prueba para verificar que la funcionalidad de la plataforma de e-learning funcione.",
+      "Revisar los resultados de las pruebas y documentar los defectos encontrados.",
+      "Analizar los requisitos del sistema para identificar casos de prueba."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La planificación incluye definir el alcance, es decir, qué se va a probar. Ejecutar es ejecución; analizar es análisis; revisar resultados es cierre o monitorización.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1006,
+    "chapter": 5,
+    "topic": "Roles en las Pruebas",
+    "question": "¿Cuál de las siguientes actividades es TÍPICA de un rol de gerente de pruebas?",
+    "options": [
+      "Desarrollar casos de prueba",
+      "Gestionar el equipo de pruebas",
+      "Ejecutar pruebas automatizadas",
+      "Realizar análisis de defectos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El gerente de pruebas (Test Manager) supervisa, planifica y gestiona. Desarrollar y ejecutar casos suele ser rol del tester.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1007,
+    "chapter": 1,
+    "topic": "Habilidades del Probador",
+    "question": "¿Cuál de las siguientes habilidades es esencial para un probador al evaluar la calidad de un producto de software? i. Comunicación efectiva ii. Conocimiento técnico iii. Capacidad de análisis iv. Gestión del tiempo",
+    "options": [
+      "i y ii son esenciales; iii y iv no lo son",
+      "iii y iv son esenciales; i y ii no lo son",
+      "ii y iii son esenciales; i y iv no lo son",
+      "i y iii son esenciales; ii y iv no lo son"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La comunicación efectiva y la capacidad de análisis (i y iii) son primordiales según el syllabus para reportar problemas y diseñar pruebas, aunque ii y iv también ayudan.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1008,
+    "chapter": 1,
+    "topic": "Enfoque de Equipo Completo",
+    "question": "¿Cuál es una ventaja clave del enfoque de equipo completo en el proceso de desarrollo de software?",
+    "options": [
+      "Promueve la comunicación aislada entre los probadores y los desarrolladores.",
+      "Facilita la colaboración entre todas las partes interesadas desde el inicio del proyecto.",
+      "Aumenta la duración de las pruebas al requerir revisiones extensas.",
+      "Elimina la necesidad de una estrategia de pruebas bien definida."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El enfoque de equipo completo fomenta la colaboración mutua de todos los perfiles desde el inicio.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1009,
+    "chapter": 2,
+    "topic": "Pruebas en el SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor la importancia de las pruebas en el ciclo de vida del desarrollo de software (SDLC)?",
+    "options": [
+      "Las pruebas se realizan solo al final del SDLC para verificar el producto final.",
+      "Las pruebas deben planificarse y realizarse a lo largo de todo el SDLC para detectar problemas temprano.",
+      "Las pruebas son opcionales y solo se necesitan si el cliente lo solicita.",
+      "Las pruebas se centran únicamente en la funcionalidad del software y no en otros aspectos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Realizar pruebas a lo largo de todo el SDLC (shift-left) es clave para detectar y corregir problemas lo antes posible.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1010,
+    "chapter": 2,
+    "topic": "TDD vs ATDD",
+    "question": "¿Cuál de las siguientes descripciones se relaciona MEJOR con el desarrollo guiado por pruebas (TDD)?",
+    "options": [
+      "En TDD, las pruebas se escriben antes del código y se utilizan para guiar el desarrollo.",
+      "En TDD, los desarrolladores crean primero el código y luego los casos de prueba correspondientes.",
+      "En TDD, las pruebas solo se realizan al final del ciclo de desarrollo para verificar el producto.",
+      "En TDD, se utilizan casos de prueba de aceptación como base para el diseño de código."
+    ],
+    "correctAnswer": 0,
+    "explanation": "TDD consiste en escribir las pruebas (unitarias) antes de escribir el código fuente que las haga pasar.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1011,
+    "chapter": 2,
+    "topic": "Shift-Left",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor cómo el enfoque de \"desplazamiento hacia la izquierda\" (shift-left) puede mejorar la calidad del software?",
+    "options": [
+      "Permite la detección y corrección de defectos en etapas posteriores del ciclo de vida del desarrollo.",
+      "Facilita la integración continua y la entrega temprana de valor al cliente al encontrar errores pronto.",
+      "Aumenta la complejidad del proceso de desarrollo al introducir más pruebas en las fases iniciales.",
+      "Reduce la necesidad de documentación al aplicar más pruebas de usuario al final del ciclo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mover las pruebas a la izquierda permite encontrar errores antes, mejorando la integración y reduciendo costes.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1012,
+    "chapter": 2,
+    "topic": "Retrospectivas",
+    "question": "¿Cuál es un beneficio clave de realizar retrospectivas en un equipo de trabajo?",
+    "options": [
+      "Permiten al equipo ignorar los problemas de comunicación que pueden surgir durante el proyecto.",
+      "Ayudan a identificar y promover prácticas que han resultado efectivas en el pasado y que se pueden aplicar en futuros ciclos.",
+      "Son una formalidad que se debe cumplir sin generar un impacto real en el proyecto.",
+      "Facilitan que los líderes del equipo asuman el control total del proceso sin considerar opiniones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las retrospectivas son el motor de la mejora continua (identificar lo que funcionó y lo que no).",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1013,
+    "chapter": 2,
+    "topic": "Niveles de Prueba",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba y sus enfoques? 1. Valida la funcionalidad completa en producción simulada. 2. Verifica que módulos individuales funcionen. 3. Asegura que módulos se integren juntos. 4. Valida requisitos desde la perspectiva del usuario final. A. Pruebas de sistema, B. Pruebas de componentes, C. Pruebas de integración, D. Pruebas de aceptación",
+    "options": [
+      "1A, 2B, 3C, 4D",
+      "1C, 2A, 3D, 4B",
+      "1D, 2C, 3A, 4B",
+      "1B, 2D, 3A, 4C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1: Sistema (A), 2: Componentes (B), 3: Integración (C), 4: Aceptación (D).",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1014,
+    "chapter": 2,
+    "topic": "Regresión vs Confirmación",
+    "question": "Se ejecutaron los casos de prueba: TC1 Falló, TC2 Pasó, TC3 Falló. Después de las correcciones, se ejecutan nuevamente TC1, TC2 y TC3. ¿Cuáles de estas ejecuciones se consideran pruebas de regresión?",
+    "options": [
+      "TC1",
+      "TC2",
+      "TC3",
+      "TC1 y TC3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La ejecución de TC2 es regresión, ya que previamente funcionaba y se verifica que los cambios no lo hayan roto. TC1 y TC3 son pruebas de confirmación.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1015,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "question": "¿Cuál de las siguientes afirmaciones es VERDADERA sobre las pruebas estáticas?",
+    "options": [
+      "Las pruebas estáticas ayudan a reducir el tiempo de desarrollo al encontrar defectos en las etapas iniciales.",
+      "Las pruebas estáticas siempre detectan todos los tipos de defectos en el código fuente.",
+      "Las pruebas estáticas son más efectivas que las dinámicas en la validación de la funcionalidad.",
+      "Las pruebas estáticas no pueden ser utilizadas para mejorar la calidad de la documentación."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Encontrar problemas estáticamente (sin ejecutar código) ahorra mucho dinero y tiempo.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1016,
+    "chapter": 3,
+    "topic": "Retroalimentación Temprana",
+    "question": "¿Qué ventaja proporciona la retroalimentación temprana y frecuente de las partes interesadas durante el desarrollo del software?",
+    "options": [
+      "Fomenta la innovación en las soluciones propuestas.",
+      "Reduce la posibilidad de retrabajo al identificar problemas a tiempo.",
+      "Aumenta la duración del ciclo de vida del producto.",
+      "Mejora la satisfacción del equipo de desarrollo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El feedback continuo previene construir el producto equivocado, reduciendo retrabajo costoso.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1017,
+    "chapter": 3,
+    "topic": "Revisiones",
+    "question": "En su organización: No hay rol de moderador. El objetivo es encontrar defectos y mejorar. Se discute abiertamente. No se requiere documentación formal al final. ¿Qué tipo de revisión es?",
+    "options": [
+      "Revisión informal",
+      "Revisión técnica",
+      "Inspección",
+      "Revisión guiada"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sin moderador, sin documentación y orientada a mejorar con discusión abierta: Revisión informal.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1018,
+    "chapter": 3,
+    "topic": "Revisiones",
+    "question": "¿Cuál de los siguientes factores es esencial para asegurar la efectividad de una revisión?",
+    "options": [
+      "Contar con un facilitador que guíe el proceso de revisión.",
+      "Permitir que solo los expertos participen en todas las revisiones.",
+      "Realizar la revisión de manera improvisada sin preparación previa.",
+      "Limitar el tiempo de discusión para no extenderse demasiado."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un facilitador u otros roles claros mejoran el éxito. Sin embargo, en algunas metodologías otra clave es la 'preparación previa'.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1019,
+    "chapter": 4,
+    "topic": "Caja Blanca",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor una técnica de prueba de caja blanca?",
+    "options": [
+      "Se basa en el conocimiento del funcionamiento interno del software y su estructura de código.",
+      "Se utiliza principalmente para evaluar la experiencia del usuario y la usabilidad del sistema.",
+      "Los casos de prueba se diseñan sin tener en cuenta la lógica interna del sistema.",
+      "Se centra en la identificación de defectos en los requerimientos mediante pruebas de interfaz."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Caja blanca se basa en la estructura interna (código, arquitectura).",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1020,
+    "chapter": 4,
+    "topic": "Partición de Equivalencia",
+    "question": "Un sistema de calificaciones acepta puntajes 0-100. Reprobado: 0-59, Aprobado: 60-69, Bueno: 70-89, Excelente: 90-100. Usando partición de equivalencia, ¿cuál es el número MÍNIMO de casos de prueba para lograr 100% de cobertura de las particiones VÁLIDAS?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hay 4 particiones válidas: [0,59], [60,69], [70,89], [90,100]. Se necesita 1 caso por cada una, por tanto 4 casos.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1021,
+    "chapter": 4,
+    "topic": "Análisis de Valores Límite",
+    "question": "Campo 'Edad' acepta 16 a 65 años. Tu conjunto incluye: 15, 16, 17, 64, 65, 66. ¿Qué porcentaje de cobertura de Análisis de Valores Límite (AVL) de 3 valores logras?",
+    "options": [
+      "50%",
+      "67%",
+      "83%",
+      "100%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "En BVA 3-valores, un límite 'X' necesita X-1, X, X+1. Para 16 necesitas 15,16,17. Para 65 necesitas 64,65,66. Tienes todos, cobertura 100%.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1022,
+    "chapter": 4,
+    "topic": "Tabla de Decisiones",
+    "question": "En una tabla de decisiones para préstamos tienes 4 condiciones. Si quisieras minimizar la tabla debido a la gran cantidad de combinaciones, ¿cuál sería la mejor estrategia?",
+    "options": [
+      "Eliminar todas las condiciones menos importantes",
+      "Usar un enfoque basado en riesgo para reducir las reglas a probar",
+      "Combinar todas las condiciones en una sola regla",
+      "Crear múltiples tablas pequeñas separadas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cuando una tabla es masiva (ej. 2^N reglas), la estrategia sugerida por ISTQB es minimizar mediante enfoque de riesgos.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1023,
+    "chapter": 4,
+    "topic": "Transición de Estados",
+    "question": "¿Cuál de las siguientes afirmaciones sobre los criterios de cobertura en pruebas de transición de estado es CORRECTA?",
+    "options": [
+      "Cobertura de todos los estados es más fuerte que cobertura de transiciones válidas",
+      "Cobertura de transiciones válidas garantiza cobertura completa de todos los estados",
+      "Cobertura de todas las transiciones incluye solo transiciones válidas",
+      "Para lograr la cobertura de transiciones válidas se debe probar solo una transición por caso de prueba"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Si cubres todas las transiciones válidas (flechas), forzosamente has visitado todos los estados (nodos). Por ende, Cobertura de Transiciones Válidas es más fuerte que Cobertura de Estados.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1024,
+    "chapter": 4,
+    "topic": "Cobertura de Sentencias",
+    "question": "¿Cuál de las siguientes afirmaciones es verdadera respecto a la cobertura de sentencias en pruebas de software?",
+    "options": [
+      "La cobertura de sentencias garantiza que todos los casos de prueba han encontrado defectos.",
+      "Lograr una cobertura de sentencias del 100% significa que se han ejecutado todas las sentencias del código al menos una vez.",
+      "La cobertura de sentencias es irrelevante si se realizan pruebas funcionales exhaustivas.",
+      "Una cobertura de sentencias del 100% asegura que no hay bucles en el código."
+    ],
+    "correctAnswer": 1,
+    "explanation": "100% de cobertura de sentencias (statement coverage) significa que cada línea/instrucción ha sido ejecutada al menos 1 vez.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1025,
+    "chapter": 4,
+    "topic": "Caja Blanca",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor una ventaja de las pruebas de caja blanca?",
+    "options": [
+      "Las pruebas de caja blanca permiten verificar la lógica interna del código y su flujo de ejecución.",
+      "Las pruebas de caja blanca son útiles para validar la experiencia del usuario en la interfaz gráfica.",
+      "Las pruebas de caja blanca aseguran que todos los requisitos funcionales han sido implementados correctamente.",
+      "Las pruebas de caja blanca son siempre más efectivas que las pruebas de caja negra sin necesidad de análisis de diseño."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Permiten verificar la lógica interna, encontrar ramas muertas, y comprobar estructuras del código.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1026,
+    "chapter": 4,
+    "topic": "Predicción de Errores",
+    "question": "¿Cuál de las siguientes afirmaciones SE REFIERE a la predicción de errores en un proceso de prueba?",
+    "options": [
+      "La predicción de errores se basa únicamente en métricas cuantitativas de defectos anteriores.",
+      "La predicción de errores implica identificar las áreas del software con más probabilidades de contener defectos basándose en experiencia.",
+      "La predicción de errores requiere que los testers realicen pruebas unitarias en todas las funciones.",
+      "La predicción de errores es un proceso que solo los desarrolladores pueden realizar."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error Guessing (Predicción de Errores) depende enormemente de la experiencia del tester para intuir dónde los devs se han equivocado típicamente.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1027,
+    "chapter": 4,
+    "topic": "Pruebas Exploratorias",
+    "question": "Un equipo está creando una app móvil innovadora, y se usará pruebas exploratorias debido a falta de documentación. ¿Cuál de las siguientes afirmaciones sobre las pruebas exploratorias es CORRECTA?",
+    "options": [
+      "Las pruebas exploratorias son siempre menos efectivas que las pruebas basadas en requisitos.",
+      "Las pruebas exploratorias permiten a los testers adaptarse rápidamente a cambios en el software.",
+      "Las pruebas exploratorias requieren un plan de pruebas detallado antes de realizarse.",
+      "Las pruebas exploratorias no son adecuadas para aplicaciones complejas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Son flexibles, adaptativas e ideales cuando la documentación es escasa o cambiante.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1028,
+    "chapter": 4,
+    "topic": "Criterios de Aceptación",
+    "question": "¿Cuál de las siguientes afirmaciones describe UNA técnica adecuada para redactar criterios de aceptación?",
+    "options": [
+      "Estableciendo criterios en forma de preguntas abiertas para fomentar la discusión.",
+      "Utilizando ejemplos concretos que ilustren cómo se espera que funcione la funcionalidad.",
+      "Documentando criterios en un documento separado para mejorar la organización.",
+      "Redactando criterios en un lenguaje técnico para asegurar precisión en los detalles."
+    ],
+    "correctAnswer": 1,
+    "explanation": "En enfoques ágiles/ATDD, los ejemplos concretos (ej. Behavior Driven Development con Given-When-Then) son la mejor manera de documentar criterios de aceptación.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1029,
+    "chapter": 4,
+    "topic": "ATDD",
+    "question": "Un equipo ágil usa ATDD. ¿Cuándo se crean los casos de prueba de aceptación en el enfoque ATDD?",
+    "options": [
+      "Después de que el desarrollador ha terminado de implementar la historia de usuario.",
+      "Durante el taller de especificación, antes de que comience el desarrollo.",
+      "Únicamente durante la fase de pruebas de regresión al final del sprint.",
+      "Cuando el cliente realiza la prueba de aceptación de usuario (UAT)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La clave de Acceptance Test Driven Development (ATDD) es redactar la prueba de aceptación en colaboración *antes* de picar código.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": 1030,
+    "chapter": 5,
+    "topic": "Estimación",
+    "question": "En tu proyecto anterior, la proporción entre esfuerzo de desarrollo y esfuerzo de prueba fue de 5:3. El proyecto actual estima 800 días-persona de desarrollo. Usando estimación basada en proporciones, ¿cuál sería la estimación del esfuerzo de prueba?",
+    "options": [
+      "400 días-persona",
+      "480 días-persona",
+      "533 días-persona",
+      "600 días-persona"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regla de 3: Si 5 devs = 3 QA, entonces 800 devs = X QA. X = (800 * 3) / 5 = 480 días.",
+    "source": "Práctica Adicional"
+  }
+]

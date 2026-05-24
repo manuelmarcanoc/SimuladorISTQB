@@ -78,40 +78,40 @@ const QuizSetup = ({ onStartQuiz }) => {
         <div className="setup-info" style={{ borderTop: '1px solid #aaa', paddingTop: '0.5rem', marginTop: '0.2rem' }}>
           Preguntas disponibles con estos filtros: <strong>{availableQuestions}</strong>
           {availableQuestions < parseInt(questionCount, 10) && availableQuestions > 0 && (
-            <span style={{ color: 'var(--os-titlebar)' }}> → Se usarán {availableQuestions}</span>
+            <span style={{ color: 'var(--primary)' }}> → Se usarán {availableQuestions}</span>
           )}
         </div>
 
         {availableQuestions === 0 && (
-          <p className="setup-info" style={{ color: 'var(--os-error)' }}>
+          <p className="setup-info" style={{ color: 'var(--error)' }}>
             No hay preguntas con estos filtros. Amplía la selección.
           </p>
         )}
 
         <button
-          className="btn"
+          className="btn btn-secondary"
           onClick={() => handleStart('custom')}
           disabled={availableQuestions === 0}
           style={{ marginTop: '0.5rem' }}
         >
-          [ Iniciar Simulación ]
+          Iniciar Simulación
         </button>
 
         <button
           className="btn"
           onClick={() => handleStart('official')}
-          style={{ marginTop: '0.5rem', background: 'var(--os-titlebar)', color: 'white' }}
+          style={{ marginTop: '0.5rem' }}
         >
-          [ Modo Examen Oficial — 40 Preg. / 65 min ]
+          Modo Examen Oficial — 40 Preg. / 65 min
         </button>
 
         {wrongCount > 0 && (
           <button
-            className="btn btn-review"
+            className="btn btn-secondary"
             onClick={() => handleStart('review')}
-            style={{ marginTop: '0.5rem' }}
+            style={{ marginTop: '0.5rem', color: 'var(--warning)' }}
           >
-            [ ⚠ Repasar {wrongCount} Errores del Último Examen ]
+            ⚠ Repasar {wrongCount} Errores del Último Examen
           </button>
         )}
 

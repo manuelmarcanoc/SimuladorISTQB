@@ -73,13 +73,13 @@ const QuestionCard = ({
 
       <div style={{ display: 'flex', gap: '10px', marginTop: '1rem' }}>
         {!isAnswered && (
-          <button className="btn" onClick={handleNextQuestion}>
-            {currentQuestionIndex === totalQuestions - 1 ? '[ Terminar Examen ]' : '[ Saltar Pregunta ]'}
+          <button className="btn btn-secondary" onClick={handleNextQuestion}>
+            {currentQuestionIndex === totalQuestions - 1 ? 'Terminar Examen' : 'Saltar Pregunta'}
           </button>
         )}
         {isAnswered && (
           <button className="btn" onClick={handleNextQuestion}>
-            {currentQuestionIndex === totalQuestions - 1 ? '[ Ver Resultados ]' : '[ Siguiente →]'}
+            {currentQuestionIndex === totalQuestions - 1 ? 'Ver Resultados' : 'Siguiente →'}
           </button>
         )}
       </div>

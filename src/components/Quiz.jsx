@@ -185,24 +185,19 @@ const Quiz = ({ onClose, onNewAchievements }) => {
   const timerProgress = totalTime > 0 ? (timeLeft / totalTime) * 100 : 100;
 
   return (
-    <div className="app-container quiz-main-container">
-      <div className="retro-window quiz-window">
-        <div className="title-bar">
-          <div className="title-bar-text">
-            Simulador_ISTQB.exe
+    <div className="quiz-main-container">
+      <div className="card">
+        <div className="card-header">
+          <div className="card-title">
+            Simulador ISTQB
             {!isSetupPhase && !showResults && (
-              <span style={{ color: timerWarning ? '#ffcc00' : 'inherit' }}>
-                {' '}[ Tiempo: {formatTime(timeLeft)} ]
+              <span style={{ color: timerWarning ? 'var(--warning)' : 'var(--text-muted)', fontSize: '1rem', marginLeft: '1rem' }}>
+                [ Tiempo: {formatTime(timeLeft)} ]
               </span>
             )}
             {!isSetupPhase && !showResults && currentStreak >= 3 && (
-              <span style={{ color: '#ffcc00' }}> 🔥{currentStreak}</span>
+              <span style={{ color: 'var(--warning)', fontSize: '1rem' }}> 🔥{currentStreak}</span>
             )}
-          </div>
-          <div className="title-bar-controls">
-            <button className="title-bar-btn">_</button>
-            <button className="title-bar-btn">□</button>
-            <button className="title-bar-btn" onClick={onClose}>X</button>
           </div>
         </div>
 
@@ -219,7 +214,7 @@ const Quiz = ({ onClose, onNewAchievements }) => {
           </div>
         )}
 
-        <div className="window-body">
+        <div className="card-body">
           {isSetupPhase ? (
             <QuizSetup onStartQuiz={startQuiz} />
           ) : showResults ? (
@@ -245,11 +240,11 @@ const Quiz = ({ onClose, onNewAchievements }) => {
       </div>
 
       {!isSetupPhase && !showResults && (
-        <div className="retro-window question-nav-container">
-          <div className="title-bar" style={{ flexShrink: 0 }}>
-            <div className="title-bar-text">Navegación</div>
+        <div className="card">
+          <div className="card-header">
+            <div className="card-title">Navegación</div>
           </div>
-          <div className="window-body" style={{ overflowY: 'auto', flexGrow: 1 }}>
+          <div className="card-body">
             <QuestionNav
               totalQuestions={questions.length}
               currentQuestionIndex={currentQuestionIndex}
