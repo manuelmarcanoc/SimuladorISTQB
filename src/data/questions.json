@@ -3640,5 +3640,245 @@
     "correctAnswer": 1,
     "explanation": "Regla de 3: Si 5 devs = 3 QA, entonces 800 devs = X QA. X = (800 * 3) / 5 = 480 días.",
     "source": "Práctica Adicional"
+  },
+  {
+    "id": 1031,
+    "chapter": 4,
+    "topic": "Transición de Estado",
+    "question": "¿Cuál de las siguientes afirmaciones sobre los criterios de cobertura en pruebas de transición de estado es CORRECTA?",
+    "options": [
+      "Cobertura de todos los estados es más fuerte que cobertura de transiciones válidas",
+      "Cobertura de transiciones válidas garantiza cobertura completa de todos los estados",
+      "Cobertura de todas las transiciones incluye solo transiciones válidas",
+      "Para lograr la cobertura de transiciones válidas se debe probar solo una transición por caso de prueba"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lograr una cobertura de transiciones válidas completa garantiza una cobertura completa en todos los estados, ya que para ejercitar todas las transiciones válidas necesariamente se deben visitar todos los estados.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1032,
+    "chapter": 4,
+    "topic": "Cobertura de Sentencias",
+    "question": "¿Cuál de las siguientes afirmaciones es verdadera respecto a la cobertura de sentencias en pruebas de software?",
+    "options": [
+      "La cobertura de sentencias garantiza que todos los casos de prueba han encontrado defectos.",
+      "Lograr una cobertura de sentencias del 100% significa que se han ejecutado todas las sentencias del código al menos una vez.",
+      "La cobertura de sentencias es irrelevante si se realizan pruebas funcionales exhaustivas.",
+      "Una cobertura de sentencias del 100% asegura que no hay bucles en el código."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Una cobertura de sentencias del 100% significa que cada sentencia en el código ha sido ejecutada al menos una vez durante las pruebas.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1033,
+    "chapter": 4,
+    "topic": "Caja Blanca",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta respecto a las pruebas de caja blanca?",
+    "options": [
+      "Las pruebas de caja blanca se enfocan en la funcionalidad del software sin considerar su estructura interna.",
+      "El análisis de flujo de datos es una técnica utilizada en pruebas de caja blanca para identificar posibles errores.",
+      "Las pruebas de caja blanca son menos efectivas que las de caja negra para detectar defectos en la lógica de negocio.",
+      "Las pruebas de caja blanca se limitan a verificar la correcta implementación de los requisitos del usuario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El análisis de flujo de datos es una técnica de prueba de caja blanca que ayuda a identificar errores en el uso de variables y su flujo a través del código.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1034,
+    "chapter": 4,
+    "topic": "Criterios de Aceptación",
+    "question": "¿Cuál de las siguientes afirmaciones describe de manera más adecuada cómo se pueden definir los criterios de aceptación para una historia de usuario?",
+    "options": [
+      "Especificando solamente los requisitos funcionales sin detalles sobre la validación.",
+      "Describiendo los resultados esperados utilizando un formato claro y conciso que incluya ejemplos concretos.",
+      "Enfocándose únicamente en la implementación técnica que debe realizarse para cumplir la historia de usuario.",
+      "Generando un documento extenso que incluya todos los aspectos del proyecto, no solo los relacionados con la historia de usuario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Utilizar un formato claro y ejemplos concretos ayuda a que todos los interesados comprendan mejor los criterios de aceptación.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1035,
+    "chapter": 5,
+    "topic": "Criterios de Entrada",
+    "question": "¿Cuál de las siguientes opciones representa un criterio de entrada para un ciclo de pruebas?",
+    "options": [
+      "Se han definido los criterios de aceptación del cliente.",
+      "Se han completado todas las pruebas de regresión.",
+      "Se ha documentado la cobertura de requisitos.",
+      "Los entregables del proyecto cumplen con las especificaciones."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La definición de criterios de aceptación es un criterio de entrada que asegura que los requisitos están claros antes de comenzar las pruebas. (Las opciones B y D son criterios de salida).",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1036,
+    "chapter": 5,
+    "topic": "Estimación",
+    "question": "Tu equipo está en la tercera iteración de un proyecto ágil. Los esfuerzos de prueba de las iteraciones anteriores fueron: Iteración 1: 45 días-persona, Iteración 2: 52 días-persona. Usando extrapolación, ¿cuál sería la estimación más apropiada para la Iteración 3?",
+    "options": [
+      "45 días-persona (el mínimo histórico)",
+      "48.5 días-persona (promedio de las dos iteraciones)",
+      "52 días-persona (tendencia creciente)",
+      "59 días-persona (extrapolación de la tendencia)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Según el syllabus, en extrapolación 'el equipo puede extrapolar el esfuerzo de prueba en la próxima iteración como el esfuerzo promediado de las últimas tres iteraciones'. Con dos iteraciones, el promedio es (45 + 52) / 2 = 48.5 días.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1037,
+    "chapter": 2,
+    "topic": "Cuadrantes Ágiles",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D): 1. Pruebas de usabilidad 2. Pruebas de componentes 3. Pruebas funcionales 4. Pruebas de fiabilidad. Q1: tecnología/apoya equipo, Q2: negocio/apoya equipo, Q3: negocio/crítica producto, Q4: tecnología/crítica producto. ¿Qué combinaciones son correctas?",
+    "options": [
+      "1C, 2A, 3B, 4D",
+      "1D, 2A, 3C, 4B",
+      "1C, 2B, 3D, 4A",
+      "1D, 2B, 3C, 4A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Usabilidad -> Q3 (1C). Componentes -> Q1 (2A). Funcionales -> Q2 (3B). Fiabilidad -> Q4 (4D).",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1038,
+    "chapter": 1,
+    "topic": "Principios de Prueba",
+    "question": "Estás evaluando la calidad de las pruebas realizadas en un software antes de su lanzamiento. Observas que aunque se han ejecutado muchas pruebas, aún persisten defectos significativos. ¿Cuál de los siete principios de prueba se refleja en esta situación?",
+    "options": [
+      "Las pruebas exhaustivas son imposibles",
+      "Los defectos se agrupan",
+      "Las pruebas se desgastan",
+      "Falacia de la ausencia de defectos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Este principio indica que un número reducido de componentes puede contener la mayoría de los defectos (agrupamiento), lo que explica por qué persisten defectos significativos localizados.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1039,
+    "chapter": 1,
+    "topic": "Habilidades del Probador",
+    "question": "¿Cuáles de las siguientes habilidades (i-v) son esenciales para un probador en su trabajo diario? i. Habilidad para escribir informes claros ii. Conocimiento de lenguajes de programación iii. Capacidad de análisis de riesgos iv. Ser un buen comunicador v. Conocer herramientas de automatización",
+    "options": [
+      "i, iii y iv son esenciales; ii y v no lo son",
+      "ii, iii y v son esenciales; i y iv no lo son",
+      "i, ii y iv son esenciales; iii y v no lo son",
+      "iii, iv y v son esenciales; i y ii no lo son"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Escribir informes (i), análisis de riesgos (iii) y comunicación (iv) son habilidades esenciales (soft y hard skills básicas). La programación y automatización son deseables pero no estrictamente esenciales para todo probador diario.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1040,
+    "chapter": 2,
+    "topic": "Retrospectivas",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor el propósito de las retrospectivas en un equipo ágil?",
+    "options": [
+      "Las retrospectivas se utilizan principalmente para planificar las próximas tareas y asignar responsabilidades a los miembros del equipo.",
+      "Las retrospectivas ayudan a identificar qué funcionó y qué no, permitiendo al equipo hacer ajustes en su proceso para mejorar continuamente.",
+      "Las retrospectivas son reuniones donde se presentan los resultados finales del proyecto a los interesados.",
+      "Las retrospectivas son fundamentales para evaluar la satisfacción del cliente con el producto entregado."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El principal objetivo de las retrospectivas es identificar áreas de mejora en el proceso de trabajo del equipo, fomentando la mejora continua.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1041,
+    "chapter": 3,
+    "topic": "Revisiones",
+    "question": "¿Cuál de las siguientes afirmaciones es un factor clave para el éxito de las revisiones?",
+    "options": [
+      "La revisión debe ser realizada en un ambiente relajado y sin presiones externas.",
+      "Los revisores deben tener conocimiento previo del contenido que están revisando.",
+      "Es mejor que solo un participante hable durante la revisión para evitar confusiones.",
+      "El objetivo de la revisión debe ser identificar solo errores críticos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un ambiente relajado permite una mejor comunicación y colaboración entre los participantes.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1042,
+    "chapter": 6,
+    "topic": "Herramientas",
+    "question": "¿Cuál de las siguientes herramientas de prueba facilita la gestión de requisitos y su trazabilidad?",
+    "options": [
+      "Herramientas de gestión de pruebas",
+      "Herramientas de automatización de pruebas",
+      "Herramientas de gestión de defectos",
+      "Herramientas de gestión de requisitos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las herramientas de gestión de requisitos están diseñadas específicamente para facilitar la gestión y trazabilidad de los requisitos a lo largo del ciclo de vida del proyecto.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1043,
+    "chapter": 1,
+    "topic": "Principios de Prueba",
+    "question": "Estás revisando el progreso de un proyecto de software y notas que se han corregido defectos, pero no se han realizado nuevas pruebas. El gerente del proyecto está satisfecho con los resultados, pero te preocupa la calidad. ¿Qué principio de prueba podría justificar tu preocupación?",
+    "options": [
+      "Las pruebas se desgastan",
+      "Falacia de la ausencia de defectos",
+      "Los defectos se agrupan",
+      "Las pruebas exhaustivas son imposibles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se refiere a la creencia errónea de que la simple corrección de defectos existentes significa que no hay otros problemas en el sistema (falacia de ausencia de defectos), lo cual es engañoso sin nuevas pruebas que lo validen contra los requisitos.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1044,
+    "chapter": 3,
+    "topic": "Revisiones",
+    "question": "El autor de un documento de diseño lidera una sesión de revisión. Un escriba registra los defectos encontrados. Los participantes pueden hacer preguntas libremente y el autor explica su diseño. No se utilizan criterios de entrada ni de salida formales. ¿Qué tipo de revisión describe este escenario?",
+    "options": [
+      "Inspección",
+      "Revisión técnica",
+      "Guía técnica (Walkthrough)",
+      "Revisión informal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La guía técnica (walkthrough) es liderada por el autor, cuenta con un escriba y no tiene criterios formales de entrada o salida.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1045,
+    "chapter": 4,
+    "topic": "Técnicas",
+    "question": "Estás a cargo de un proyecto de software donde se han identificado varios riesgos, pero el tiempo para pruebas es limitado. El equipo de desarrollo ha entregado la aplicación sin una documentación detallada. ¿Cuál sería la mejor técnica de prueba a utilizar en esta situación?",
+    "options": [
+      "Pruebas basadas en riesgos",
+      "Pruebas exploratorias",
+      "Pruebas automatizadas",
+      "Pruebas de regresión"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las pruebas exploratorias son adecuadas cuando hay poca documentación y el tiempo es limitado; los testers utilizan su experiencia para explorar y evaluar el sistema de forma heurística.",
+    "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1046,
+    "chapter": 5,
+    "topic": "Criterios de Entrada",
+    "question": "¿Cuál de los siguientes es un criterio de entrada para iniciar las pruebas de un software?",
+    "options": [
+      "La documentación de diseño está completada",
+      "Los informes de pruebas anteriores han sido revisados",
+      "Se ha establecido un entorno de producción",
+      "Las pruebas unitarias han sido completadas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La documentación de diseño completada indica que los requerimientos base y especificaciones están listas para permitir crear condiciones y planificar el ciclo de pruebas (Criterio de entrada válido).",
+    "source": "Errores Reportados - Set 2"
   }
 ]
