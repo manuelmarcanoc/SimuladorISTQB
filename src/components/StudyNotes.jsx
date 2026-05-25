@@ -325,6 +325,53 @@ const CHAPTERS = [
       },
     ],
   },
+  {
+    id: 7,
+    title: 'Cap. 7 — Fórmulas y Cálculos (Cheat Sheet)',
+    color: '#D2691E',
+    sections: [
+      {
+        heading: 'Cobertura de Sentencias',
+        items: [
+          'Fórmula: (Sentencias ejecutadas / Total de sentencias) * 100',
+          'Ejemplo: El código tiene 50 sentencias. Pruebas cubren 45. Cobertura = (45 / 50) * 100 = 90%.',
+        ],
+        exam: 'Pregunta directa de cálculo de porcentajes.',
+      },
+      {
+        heading: 'Cobertura de Ramas',
+        items: [
+          'Fórmula: (Ramas ejecutadas / Total de ramas) * 100',
+          'Importante: Si te dan el total de sentencias ejecutadas y el total de ramas ejecutadas para calcular la cobertura de RAMAS, ignora completamente las sentencias.',
+          'Ejemplo: 100 sentencias, 12 ramas. Ejecutaste 90 sentencias y 9 ramas. Cobertura ramas = (9 / 12) * 100 = 75%.',
+        ],
+        exam: 'Te darán sentencias para despistarte, céntrate solo en las ramas.',
+      },
+      {
+        heading: 'Estimación de Tres Puntos (PERT)',
+        items: [
+          'Fórmula: E = (Optimista + 4 * Más Probable + Pesimista) / 6',
+          'Ejemplo: Optimista = 5, Probable = 7, Pesimista = 15. E = (5 + 28 + 15) / 6 = 48 / 6 = 8 días.',
+        ],
+      },
+      {
+        heading: 'Extrapolación',
+        items: [
+          'Regla: Se calcula usando el promedio de iteraciones pasadas.',
+          'Ejemplo: Sprint 1 (45 días), Sprint 2 (52 días). Sprint 3 estimado = (45 + 52) / 2 = 48.5 días.',
+        ],
+      },
+      {
+        heading: 'Cobertura de Transiciones de Estado',
+        items: [
+          'Fórmula: (Transiciones ejecutadas / Total de transiciones válidas) * 100',
+          'El 100% de transiciones válidas GARANTIZA el 100% de los estados.',
+          'Menos del 100% de transiciones NO garantiza el 100% de los estados (puede que sí o que no).',
+        ],
+        exam: 'Lee bien si piden garantía. Solo 100% de transiciones asegura 100% de estados.',
+      },
+    ],
+  },
 ];
 
 const EXAM_OVERVIEW = [
