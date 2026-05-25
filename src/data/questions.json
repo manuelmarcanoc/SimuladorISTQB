@@ -3880,5 +3880,140 @@
     "correctAnswer": 0,
     "explanation": "La documentación de diseño completada indica que los requerimientos base y especificaciones están listas para permitir crear condiciones y planificar el ciclo de pruebas (Criterio de entrada válido).",
     "source": "Errores Reportados - Set 2"
+  },
+  {
+    "id": 1047,
+    "chapter": 2,
+    "topic": "Cuadrantes Ágiles",
+    "question": "¿A qué cuadrante ágil pertenecen las pruebas de rendimiento, seguridad y fiabilidad, y cuál es su objetivo principal?",
+    "options": [
+      "Cuadrante Q1; orientadas a la tecnología para apoyar al equipo.",
+      "Cuadrante Q3; orientadas al negocio para criticar el producto.",
+      "Cuadrante Q4; orientadas a la tecnología para criticar el producto.",
+      "Cuadrante Q2; orientadas al negocio para apoyar al equipo."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las pruebas de atributos de calidad (rendimiento, seguridad, fiabilidad) se encuentran en el Cuadrante Q4. Están orientadas a la tecnología y su propósito es 'criticar el producto' (evaluar el producto contra métricas técnicas).",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1048,
+    "chapter": 2,
+    "topic": "Cuadrantes Ágiles",
+    "question": "Durante el desarrollo de un sprint, el equipo ejecuta pruebas exploratorias y pruebas de usabilidad para evaluar el sistema desde la perspectiva del usuario real. ¿En qué cuadrante ágil se ubican estas pruebas?",
+    "options": [
+      "Q1 (Apoyo tecnológico, orientadas a la tecnología)",
+      "Q2 (Apoyo al negocio, orientadas al negocio)",
+      "Q3 (Crítica al producto, orientadas al negocio)",
+      "Q4 (Crítica al producto, orientadas a la tecnología)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las pruebas exploratorias y de usabilidad forman parte del Cuadrante Q3. Su objetivo es criticar el producto evaluándolo desde la perspectiva orientada al negocio (el usuario real).",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1049,
+    "chapter": 4,
+    "topic": "Métricas de Cobertura",
+    "question": "Tienes un bloque de código con 120 sentencias ejecutables. Tras ejecutar tu conjunto de pruebas, los reportes indican que se han ejercitado exactamente 90 sentencias. ¿Cuál es el nivel de cobertura de sentencias (statement coverage) alcanzado?",
+    "options": [
+      "25%",
+      "90%",
+      "120%",
+      "75%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La cobertura de sentencias se calcula como: (Sentencias ejecutadas / Total de sentencias) * 100. En este caso: (90 / 120) * 100 = 75%.",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1050,
+    "chapter": 4,
+    "topic": "Métricas de Cobertura",
+    "question": "Un probador de software quiere calcular la cobertura lograda por sus pruebas. El componente bajo prueba tiene 50 sentencias ejecutables y 12 ramas posibles. Durante las pruebas, se han ejecutado 45 sentencias y 9 ramas. ¿Cuál es la métrica de cobertura de RAMAS alcanzada?",
+    "options": [
+      "90%",
+      "75%",
+      "45%",
+      "12%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La cobertura de ramas se enfoca únicamente en el número de ramas (decisiones) ejercitadas. Se calcula: (Ramas ejercitadas / Total de ramas) * 100. Por tanto: (9 / 12) * 100 = 75%. Las sentencias ejecutadas (45/50 = 90%) son irrelevantes para calcular la cobertura de ramas.",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1051,
+    "chapter": 4,
+    "topic": "Cobertura en Transiciones de Estado",
+    "question": "Un conjunto de pruebas cubre 8 de las 10 transiciones válidas totales de un diagrama de estados. ¿Qué porcentaje de cobertura de transiciones válidas se ha alcanzado y qué se puede afirmar con total seguridad sobre la cobertura de los estados?",
+    "options": [
+      "80%; Se garantiza que todos los estados han sido visitados (100% cobertura de estados).",
+      "80%; No necesariamente se han visitado todos los estados.",
+      "20%; No necesariamente se han visitado todos los estados.",
+      "100%; Se garantiza que todos los estados han sido visitados."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La cobertura de transiciones es 8/10 = 80%. Según el Syllabus ISTQB, solo una cobertura de transiciones válidas del 100% GARANTIZA una cobertura del 100% de los estados. Al ser del 80%, puede que se haya visitado cada estado, pero NO se puede garantizar.",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1052,
+    "chapter": 5,
+    "topic": "Estimación de Pruebas",
+    "question": "El equipo utiliza la técnica de estimación de tres puntos para una nueva funcionalidad. Las estimaciones en días son: Optimista = 10, Más Probable = 15, Pesimista = 26. ¿Cuál es la estimación final redondeada utilizando la fórmula ponderada E = (o + 4m + p) / 6?",
+    "options": [
+      "15 días",
+      "16 días",
+      "17 días",
+      "18 días"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aplicando la fórmula E = (o + 4m + p) / 6: E = (10 + (4 * 15) + 26) / 6 => (10 + 60 + 26) / 6 = 96 / 6 = 16 días.",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1053,
+    "chapter": 5,
+    "topic": "Estimación de Pruebas",
+    "question": "Para planificar el esfuerzo de pruebas del próximo Sprint, el gerente propone un escenario optimista donde todo funciona a la primera (5 días), un escenario pesimista con múltiples bloqueos (15 días) y un escenario más probable basado en la experiencia reciente (7 días). Usando la técnica de 3 puntos, ¿cuál es el esfuerzo estimado?",
+    "options": [
+      "8 días",
+      "9 días",
+      "7 días",
+      "10 días"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aplicando la fórmula de los tres puntos ponderada: (5 + 4*7 + 15) / 6 = (5 + 28 + 15) / 6 = 48 / 6 = 8 días.",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1054,
+    "chapter": 5,
+    "topic": "Técnicas de Estimación",
+    "question": "El equipo de pruebas necesita estimar el esfuerzo para un nuevo proyecto. Deciden basar su estimación en la métrica 'Número de Casos de Uso'. Históricamente, probar un caso de uso completo toma 3 días. Si el nuevo proyecto tiene 12 casos de uso, estiman 36 días. ¿Qué técnica se ha utilizado?",
+    "options": [
+      "Estimación basada en consenso (Planning Poker)",
+      "Estimación de tres puntos",
+      "Estimación basada en ratios (o basada en métricas proporcionales)",
+      "Extrapolación"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Se ha utilizado una estimación basada en métricas/ratios. Multiplicar una métrica estándar (3 días por caso de uso) por el tamaño del nuevo proyecto (12 casos) es la base de las estimaciones paramétricas o basadas en ratios.",
+    "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1055,
+    "chapter": 5,
+    "topic": "Técnicas de Estimación",
+    "question": "¿En qué se basa principalmente la técnica de estimación conocida como Planning Poker?",
+    "options": [
+      "En fórmulas matemáticas complejas basadas en líneas de código.",
+      "En la experiencia de los miembros del equipo buscando un consenso iterativo e interactivo.",
+      "En la extrapolación directa de las últimas tres iteraciones del equipo.",
+      "En la fórmula matemática de estimación de tres puntos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Planning Poker es una técnica de estimación basada en la experiencia y en el consenso interactivo. El equipo discute y vota de forma anónima hasta alcanzar un acuerdo común sobre el esfuerzo requerido.",
+    "source": "Generadas (Agile/Metrics)"
   }
 ]
