@@ -15,7 +15,7 @@ const QuestionCard = ({
   const progressPct = ((currentQuestionIndex) / totalQuestions) * 100;
 
   return (
-    <div>
+    <div className="animate-in">
       {/* Question progress bar */}
       <div className="question-progress-track">
         <div className="question-progress-fill" style={{ width: `${progressPct}%` }} />

@@ -185,8 +185,21 @@ const Quiz = ({ onClose, onNewAchievements }) => {
   const timerProgress = totalTime > 0 ? (timeLeft / totalTime) * 100 : 100;
 
   return (
-    <div className="quiz-main-container">
+    <div className="quiz-main-container animate-in">
       <div className="card">
+        {/* Timer progress bar at the very top of the card */}
+        {!isSetupPhase && !showResults && (
+          <div className="quiz-timer-track">
+            <div
+              className="quiz-timer-fill"
+              style={{
+                width: `${timerProgress}%`,
+                background: timerWarning ? 'var(--error)' : timerProgress < 50 ? 'var(--warning)' : 'var(--primary)',
+              }}
+            />
+          </div>
+        )}
+
         <div className="card-header">
           <div className="card-title">
             Simulador ISTQB
@@ -201,18 +214,7 @@ const Quiz = ({ onClose, onNewAchievements }) => {
           </div>
         </div>
 
-        {/* Timer progress bar */}
-        {!isSetupPhase && !showResults && (
-          <div className="quiz-timer-track">
-            <div
-              className="quiz-timer-fill"
-              style={{
-                width: `${timerProgress}%`,
-                background: timerWarning ? '#ff4444' : timerProgress < 50 ? '#ff9800' : '#4caf50',
-              }}
-            />
-          </div>
-        )}
+
 
         <div className="card-body">
           {isSetupPhase ? (
@@ -227,6 +229,7 @@ const Quiz = ({ onClose, onNewAchievements }) => {
             />
           ) : (
             <QuestionCard
+              key={currentQuestionIndex}
               questionData={questions[currentQuestionIndex]}
               currentQuestionIndex={currentQuestionIndex}
               totalQuestions={questions.length}

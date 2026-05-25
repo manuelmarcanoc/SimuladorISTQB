@@ -48,8 +48,8 @@ const QuizSetup = ({ onStartQuiz }) => {
   };
 
   return (
-    <div>
-      <h2 className="question-text" style={{ textAlign: 'center' }}>Configura tu Simulación</h2>
+    <div className="animate-in">
+      <h2 className="card-title" style={{ textAlign: 'center', marginBottom: '2rem' }}>Configura tu Simulación</h2>
 
       <div className="setup-form">
         <div className="setup-group">
