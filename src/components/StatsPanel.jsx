@@ -43,30 +43,30 @@ const StatsPanel = ({ language }) => {
       <div style={{ padding: '2rem' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
           <div style={{ background: 'var(--surface-solid)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--text-main)', marginBottom: '0.25rem', fontFamily: 'Outfit, sans-serif' }}>{stats.totalAnswered}</div>
+            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--text-main)', marginBottom: '0.25rem', fontFamily: 'Space Grotesk, sans-serif' }}>{stats.totalAnswered}</div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('questionsLabel')}</div>
           </div>
           <div style={{ background: 'var(--surface-solid)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-            <div style={{ fontSize: '2rem', fontWeight: '700', color: totalPct >= 65 ? 'var(--success)' : 'var(--text-main)', marginBottom: '0.25rem', fontFamily: 'Outfit, sans-serif' }}>{totalPct}%</div>
+            <div style={{ fontSize: '2rem', fontWeight: '700', color: totalPct >= 65 ? 'var(--success)' : 'var(--text-main)', marginBottom: '0.25rem', fontFamily: 'Space Grotesk, sans-serif' }}>{totalPct}%</div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('globalAccuracy')}</div>
           </div>
           <div style={{ background: 'var(--surface-solid)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--text-main)', marginBottom: '0.25rem', fontFamily: 'Outfit, sans-serif' }}>{stats.totalExams}</div>
+            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--text-main)', marginBottom: '0.25rem', fontFamily: 'Space Grotesk, sans-serif' }}>{stats.totalExams}</div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('simulations')}</div>
           </div>
           <div style={{ background: 'var(--surface-solid)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--success)', marginBottom: '0.25rem', fontFamily: 'Outfit, sans-serif' }}>{stats.passedExams}</div>
+            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--success)', marginBottom: '0.25rem', fontFamily: 'Space Grotesk, sans-serif' }}>{stats.passedExams}</div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('passedLabel')}</div>
           </div>
           <div style={{ background: 'var(--surface-solid)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--secondary)', marginBottom: '0.25rem', fontFamily: 'Outfit, sans-serif', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
+            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--secondary)', marginBottom: '0.25rem', fontFamily: 'Space Grotesk, sans-serif', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
               {stats.bestStreak}
             </div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('bestStreak')}</div>
           </div>
           <div style={{ background: 'var(--surface-solid)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-color)', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--warning)', marginBottom: '0.25rem', fontFamily: 'Outfit, sans-serif', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
+            <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--warning)', marginBottom: '0.25rem', fontFamily: 'Space Grotesk, sans-serif', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
               {stats.perfectExams}
             </div>
@@ -76,7 +76,7 @@ const StatsPanel = ({ language }) => {
 
         {Object.keys(chapterAcc).length > 0 && (
           <div style={{ marginBottom: '2.5rem' }}>
-            <h3 style={{ fontSize: '1.2rem', color: 'var(--text-main)', marginBottom: '1rem', fontFamily: 'Playfair Display, serif' }}>{t('accuracyByChapter')}</h3>
+            <h3 style={{ fontSize: '1.2rem', color: 'var(--text-main)', marginBottom: '1rem', fontFamily: 'Space Grotesk, sans-serif' }}>{t('accuracyByChapter')}</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
               {Object.entries(chapterAcc).sort(([a], [b]) => a - b).map(([ch, st]) => {
                 const pct = Math.round((st.correct / st.total) * 100);
@@ -96,7 +96,7 @@ const StatsPanel = ({ language }) => {
         )}
 
         <div>
-          <h3 style={{ fontSize: '1.2rem', color: 'var(--text-main)', marginBottom: '1rem', fontFamily: 'Playfair Display, serif' }}>{t('recentSimulations')}</h3>
+          <h3 style={{ fontSize: '1.2rem', color: 'var(--text-main)', marginBottom: '1rem', fontFamily: 'Space Grotesk, sans-serif' }}>{t('recentSimulations')}</h3>
           {history.length === 0 ? (
             <p style={{ color: 'var(--text-muted)', textAlign: 'center', padding: '2rem', background: 'var(--surface-solid)', borderRadius: 'var(--radius-md)' }}>
               {t('noSimulations')}

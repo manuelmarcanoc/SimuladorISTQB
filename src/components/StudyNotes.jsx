@@ -58,10 +58,10 @@ const StudyNotes = ({ language }) => {
             </h2>
           {chapter.sections.map((section, si) => (
             <div key={si} style={{ marginBottom: '1.2rem' }}>
-              <h3 style={{ fontSize: '1rem', fontWeight: 'bold', marginBottom: '6px', background: '#e8e8e8', padding: '4px 8px', borderLeft: `4px solid ${chapter.color}` }}>
+              <h3 className="notes-heading" style={{ borderLeft: `4px solid ${chapter.color}` }}>
                 {section.heading}
               </h3>
-              <ul style={{ paddingLeft: '1.2rem', margin: 0 }}>
+              <ul className="notes-list">
                 {section.items.map((item, ii) => (
                   <li key={ii} style={{ fontSize: '0.9rem', marginBottom: '4px', lineHeight: '1.4' }}>
                     {item}
