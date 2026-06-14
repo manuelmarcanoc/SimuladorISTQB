@@ -4375,5 +4375,125 @@
     "correctAnswer": 1,
     "explanation": "A. No es correcto. Desarrollar casos de prueba es responsabilidad de los probadores o analistas. B. Es correcto. Un líder de pruebas se encarga de coordinar los recursos y las actividades del equipo de pruebas. C. No es correcto. La ejecución de pruebas de regresión es más comúnmente realizada por los probadores. D. No es correcto. Especificar requisitos es responsabilidad de los analistas de negocios o del product owner.",
     "source": "Generadas (Test Roles)"
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "¿Cuál de las siguientes actividades es un ejemplo del enfoque \"desplazamiento hacia la izquierda (shift left)\" en el proceso de desarrollo de software?",
+    "options": [
+      "A) Realizar revisiones de código después de la finalización del desarrollo del software.",
+      "B) Involucrar al equipo de pruebas en las etapas iniciales del proyecto para definir criterios de aceptación.",
+      "C) Llevar a cabo pruebas de integración una vez completada la implementación del sistema.",
+      "D) Escribir la documentación del usuario sólo después de que se haya completado el desarrollo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Es correcto. Involucrar al equipo de pruebas desde el inicio ayuda a identificar problemas temprano.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1080
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe correctamente el enfoque de desarrollo guiado por pruebas (TDD)?",
+    "options": [
+      "A) En TDD, primero se escribe un caso de prueba que define una función deseada antes de desarrollar el código.",
+      "B) En TDD, las pruebas se crean después de que se ha completado el desarrollo del software.",
+      "C) En TDD, se enfoca en pruebas de rendimiento y no en pruebas unitarias.",
+      "D) En TDD, los casos de prueba son irrelevantes para el proceso de desarrollo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. En TDD, se escribe primero un caso de prueba que guía el desarrollo del código, promoviendo un enfoque iterativo.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1081
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR la metodología de desarrollo guiado por pruebas (TDD)?",
+    "options": [
+      "A) En TDD, las pruebas se escriben después de que se ha completado el desarrollo del código.",
+      "B) En TDD, se crea primero una prueba que falla antes de escribir el código para hacer que pase la prueba.",
+      "C) En TDD, solo se desarrollan pruebas de aceptación al final del ciclo de desarrollo.",
+      "D) En TDD, el código y las pruebas se desarrollan de manera completamente independiente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Es correcto. En TDD, se redacta una prueba que inicialmente falla, lo que guía el desarrollo posterior del código.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1082
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)?\n\n1. Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado.\n2. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente.\n3. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos.\n4. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final.\n\nA. Pruebas de sistema\nB. Pruebas de componentes\nC. Pruebas de integración\nD. Pruebas de aceptación",
+    "options": [
+      "A) 1A, 2B, 3C, 4D",
+      "B) 1C, 2A, 3D, 4B",
+      "C) 1D, 2C, 3A, 4B",
+      "D) 1B, 2D, 3A, 4C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. La afirmación 1 describe correctamente las pruebas de sistema (1A), que validan el sistema en su totalidad. La afirmación 2 se refiere a las pruebas de componentes (2B). La 3 se relaciona con las pruebas de integración (3C). La 4 se corresponde con las pruebas de aceptación (4D).",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1083
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor un beneficio de realizar retrospectivas después de cada iteración en un equipo de trabajo?",
+    "options": [
+      "A) Las retrospectivas aseguran que todos los miembros del equipo estén de acuerdo en las decisiones tomadas durante la iteración.",
+      "B) Las retrospectivas permiten identificar y abordar problemas en el proceso de trabajo, facilitando así mejoras continuas.",
+      "C) Las retrospectivas son una oportunidad para que el equipo celebre sus éxitos sin enfocarse en áreas de mejora.",
+      "D) Las retrospectivas son solo una formalidad que se realiza para cumplir con las exigencias del marco ágil."
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Es correcto. Las retrospectivas son cruciales para identificar problemas y facilitar la mejora continua en el proceso de trabajo del equipo.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1084
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor el propósito de una retrospectiva en un equipo ágil?",
+    "options": [
+      "A) Las retrospectivas son reuniones para que el equipo comparta las tareas completadas y planifique el siguiente sprint.",
+      "B) Las retrospectivas permiten al equipo reflexionar sobre lo que salió bien y lo que no, y generar acciones para mejorar en el futuro.",
+      "C) Las retrospectivas son sesiones donde se discuten los defectos de los miembros del equipo para que no se repitan.",
+      "D) Las retrospectivas son útiles solo al final del proyecto para evaluar el rendimiento global del equipo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Es correcto. El objetivo principal de una retrospectiva es reflexionar sobre el trabajo realizado y encontrar formas de mejorar el proceso para futuros sprints.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1085
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "Imagina que has realizado pruebas en una nueva característica del software y has encontrado algunos defectos. Después de corregir esos defectos, ejecutas una serie de pruebas nuevamente. ¿Qué tipo de pruebas estás realizando si estás validando que los defectos han sido corregidos?",
+    "options": [
+      "A) Pruebas de regresión",
+      "B) Pruebas de confirmación",
+      "C) Pruebas funcionales",
+      "D) Pruebas de caja negra"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Correcto. Las pruebas de confirmación se realizan para asegurar que los defectos identificados han sido efectivamente corregidos.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1086
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas durante el SDLC",
+    "question": "Un equipo de pruebas ha ejecutado un conjunto de pruebas sobre una nueva funcionalidad en una aplicación. En la primera ejecución, se encontraron defectos y se realizaron correcciones. En la segunda ejecución de pruebas, algunas de las pruebas se repitieron. ¿Cuál de las siguientes afirmaciones describe correctamente las pruebas realizadas?",
+    "options": [
+      "A) Las pruebas que se repitieron son pruebas de confirmación, mientras que las pruebas de la nueva funcionalidad son pruebas de regresión.",
+      "B) Las pruebas de la nueva funcionalidad se consideran pruebas de confirmación y las pruebas repetidas son pruebas de regresión.",
+      "C) Las pruebas repetidas son pruebas de confirmación y las pruebas de la nueva funcionalidad son pruebas de regresión.",
+      "D) Todas las pruebas ejecutadas son pruebas de regresión."
+    ],
+    "correctAnswer": 2,
+    "explanation": "C. Correcto. Las pruebas repetidas validan correcciones, clasificándose como pruebas de confirmación, mientras que las de nueva funcionalidad se consideran pruebas de regresión.",
+    "source": "Añadidas Usuario (Tema 2)",
+    "id": 1087
   }
 ]
