@@ -194,8 +194,8 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
   const timerProgress = totalTime > 0 ? (timeLeft / totalTime) * 100 : 100;
 
   return (
-    <div className="quiz-main-container animate-in">
-      <div className="card">
+    <div className={`quiz-main-container animate-in${!isSetupPhase && !showResults ? ' quiz-active' : ''}`}>
+      <div className="card quiz-primary-card">
         {/* Timer progress bar at the very top of the card */}
         {!isSetupPhase && !showResults && (
           <div className="quiz-timer-track">
@@ -223,8 +223,6 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
           </div>
         </div>
 
-
-
         <div className="card-body">
           {isSetupPhase ? (
             <QuizSetup onStartQuiz={startQuiz} />
@@ -237,36 +235,33 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
               onRestart={handleRestart}
             />
           ) : (
-            <QuestionCard
-              key={currentQuestionIndex}
-              questionData={questions[currentQuestionIndex]}
-              currentQuestionIndex={currentQuestionIndex}
-              totalQuestions={questions.length}
-              selectedOption={userAnswers[currentQuestionIndex]?.selectedOption ?? null}
-              handleOptionSelect={handleOptionSelect}
-              handleNextQuestion={handleNextQuestion}
-              isAnswered={!!userAnswers[currentQuestionIndex]}
-            />
+            <div className="quiz-active-layout">
+              <div className="quiz-question-area">
+                <QuestionCard
+                  key={currentQuestionIndex}
+                  questionData={questions[currentQuestionIndex]}
+                  currentQuestionIndex={currentQuestionIndex}
+                  totalQuestions={questions.length}
+                  selectedOption={userAnswers[currentQuestionIndex]?.selectedOption ?? null}
+                  handleOptionSelect={handleOptionSelect}
+                  handleNextQuestion={handleNextQuestion}
+                  isAnswered={!!userAnswers[currentQuestionIndex]}
+                />
+              </div>
+              <div className="quiz-nav-sidebar">
+                <div className="quiz-nav-label">Ir a pregunta</div>
+                <QuestionNav
+                  totalQuestions={questions.length}
+                  currentQuestionIndex={currentQuestionIndex}
+                  userAnswers={userAnswers}
+                  onJump={setCurrentQuestionIndex}
+                  onFinish={() => setShowResults(true)}
+                />
+              </div>
+            </div>
           )}
         </div>
       </div>
-
-      {!isSetupPhase && !showResults && (
-        <div className="card">
-          <div className="card-header">
-            <div className="card-title">Navegación</div>
-          </div>
-          <div className="card-body">
-            <QuestionNav
-              totalQuestions={questions.length}
-              currentQuestionIndex={currentQuestionIndex}
-              userAnswers={userAnswers}
-              onJump={setCurrentQuestionIndex}
-              onFinish={() => setShowResults(true)}
-            />
-          </div>
-        </div>
-      )}
     </div>
   );
 };
