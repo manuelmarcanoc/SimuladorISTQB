@@ -696,66 +696,51 @@ h1, h2, h3, h4, h5, h6, .app-title {
   width: 100%;
 }
 
-/* During active quiz: wider to fit question + mini nav side-by-side */
+/* During active quiz: keep a reasonable max-width */
 .quiz-main-container.quiz-active {
-  max-width: 1040px;
+  max-width: 860px;
 }
 
-/* Inside the card during active quiz: question | mini nav */
+/* Inside the card during active quiz: nav top | question bottom */
 .quiz-active-layout {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-@media (min-width: 860px) {
-  .quiz-active-layout {
-    grid-template-columns: 1fr 220px;
-  }
+/* The mini nav top inside the card */
+.quiz-nav-top {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* The mini nav sidebar inside the card */
-.quiz-nav-sidebar {
-  border-left: 1px solid var(--border-color);
-  padding-left: 1.5rem;
-}
-
-@media (max-width: 859px) {
-  .quiz-nav-sidebar {
-    border-left: none;
-    border-top: 1px solid var(--border-color);
-    padding-left: 0;
-    padding-top: 1.5rem;
-  }
-}
-
-.quiz-nav-label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  margin-bottom: 0.75rem;
-}
-
-/* Make nav grid compact inside sidebar */
-.quiz-nav-sidebar .nav-grid {
-  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+/* Make nav grid compact inside top nav */
+.quiz-nav-top .nav-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 6px;
   margin-top: 0;
+  max-height: 120px;
+  overflow-y: auto;
+  padding: 4px;
 }
 
-.quiz-nav-sidebar .nav-grid .nav-btn {
+.quiz-nav-top .nav-grid .nav-btn {
+  width: 32px;
+  height: 32px;
   font-size: 0.8rem;
   border-radius: 6px;
+  flex-shrink: 0;
 }
 
-.quiz-nav-sidebar .btn {
-  margin-top: 1rem;
-  width: 100%;
-  font-size: 0.9rem;
-  padding: 0.65rem 1rem;
+.quiz-nav-top .btn {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
 }
 
 .quiz-timer-track {

@@ -127,11 +127,13 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
       const withMeta = q.options.map((opt, idx) => ({
         text: opt.replace(/^[A-Ea-e][)\.]\s*/, ''),
         isCorrect: idx === q.correctAnswer,
+        originalIndex: idx
       }));
       const shuffled = shuffle(withMeta);
       return {
         ...q,
         options: shuffled.map(o => o.text),
+        optionMapping: shuffled.map(o => o.originalIndex),
         correctAnswer: shuffled.findIndex(o => o.isCorrect),
       };
     });
@@ -150,6 +152,30 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
         console.error("Error loading questions for lang", language, err);
         alert("Translation not available yet. Please wait a few seconds and try again.");
       });
+  }, [language]);
+
+  // Translate active questions when language changes mid-quiz
+  useEffect(() => {
+    if (isSetupPhase || questions.length === 0) return;
+    
+    import(`../data/questions${language === 'es' ? '' : '_' + language}.json`)
+      .then((module) => {
+        const questionsData = module.default || module;
+        setQuestions(prevQs => prevQs.map(prevQ => {
+          const newQData = questionsData.find(q => q.id === prevQ.id);
+          if (!newQData) return prevQ;
+          return {
+            ...prevQ,
+            question: newQData.question,
+            explanation: newQData.explanation,
+            options: prevQ.optionMapping 
+              ? prevQ.optionMapping.map(origIdx => newQData.options[origIdx].replace(/^[A-Ea-e][)\.]\s*/, ''))
+              : prevQ.options
+          };
+        }));
+      })
+      .catch(err => console.error("Error translating questions on the fly", err));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language]);
 
   const handleOptionSelect = useCallback((index) => {
@@ -236,6 +262,15 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
             />
           ) : (
             <div className="quiz-active-layout">
+              <div className="quiz-nav-top">
+                <QuestionNav
+                  totalQuestions={questions.length}
+                  currentQuestionIndex={currentQuestionIndex}
+                  userAnswers={userAnswers}
+                  onJump={setCurrentQuestionIndex}
+                  onFinish={() => setShowResults(true)}
+                />
+              </div>
               <div className="quiz-question-area">
                 <QuestionCard
                   key={currentQuestionIndex}
@@ -246,16 +281,6 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
                   handleOptionSelect={handleOptionSelect}
                   handleNextQuestion={handleNextQuestion}
                   isAnswered={!!userAnswers[currentQuestionIndex]}
-                />
-              </div>
-              <div className="quiz-nav-sidebar">
-                <div className="quiz-nav-label">Ir a pregunta</div>
-                <QuestionNav
-                  totalQuestions={questions.length}
-                  currentQuestionIndex={currentQuestionIndex}
-                  userAnswers={userAnswers}
-                  onJump={setCurrentQuestionIndex}
-                  onFinish={() => setShowResults(true)}
                 />
               </div>
             </div>
