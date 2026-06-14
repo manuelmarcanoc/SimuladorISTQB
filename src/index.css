@@ -284,6 +284,9 @@ h1, h2, h3, h4, h5, h6, .app-title {
   width: 250px;
   padding: 2rem 1rem;
   flex-shrink: 0;
+  position: sticky;
+  top: 100px;
+  height: max-content;
 }
 
 .ad-placeholder {

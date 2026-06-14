@@ -3,6 +3,7 @@ import Quiz from './components/Quiz';
 import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
 import StatsPanel from './components/StatsPanel';
+import AdComponent from './components/AdComponent';
 import { setLanguage, t, getLanguage } from './i18n';
 
 function App() {
@@ -116,10 +117,7 @@ function App() {
 
       <div className="layout-wrapper">
         <aside className="ad-sidebar left-ad">
-          <div className="ad-placeholder">
-            <span>Espacio Publicitario</span>
-            <small>Apoya el proyecto</small>
-          </div>
+          <AdComponent adSlot="6641167211" />
         </aside>
 
         <main className="main-content">
@@ -127,10 +125,7 @@ function App() {
         </main>
 
         <aside className="ad-sidebar right-ad">
-          <div className="ad-placeholder">
-            <span>Espacio Publicitario</span>
-            <small>Apoya el proyecto</small>
-          </div>
+          <AdComponent adSlot="6641167211" />
         </aside>
       </div>
     </div>
