@@ -113,11 +113,11 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
             <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
             <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
           </svg>
-          Conecta Conceptos
+          {t('connectConcepts')}
         </div>
         {isStarted && (
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', fontWeight: '600' }}>
-            <span style={{ color: 'var(--text-main)' }}>Puntuación: <span style={{ color: 'var(--primary)' }}>{score}</span></span>
+            <span style={{ color: 'var(--text-main)' }}>{t('scoreLabel')} <span style={{ color: 'var(--primary)' }}>{score}</span></span>
             {streak > 1 && <span style={{ color: 'var(--warning)', background: 'var(--warning-bg)', padding: '2px 8px', borderRadius: '12px', fontSize: '0.9rem' }}>🔥 x{streak}</span>}
           </div>
         )}
@@ -151,7 +151,7 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
             <h2 className="card-title" style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>{t('roundComplete')}</h2>
             <div className="score-display" style={{ color: 'var(--primary)', margin: '1rem 0' }}>{score} pts</div>
             <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>
-              Has emparejado todos los conceptos correctamente.
+              {t('matchedAll')}
             </p>
             <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
               <button className="btn" onClick={startNewRound}>{t('playAgain')}</button>
@@ -161,10 +161,10 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginTop: '1rem' }} className="animate-in">
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>{t('terms')}</h3>
-              {roundTerms.map(t => {
-                const isMatched = matchedIds.has(t.id);
-                const isSelected = selectedTerm === t.id;
-                const isError = errorPair?.termId === t.id;
+              {roundTerms.map(term => {
+                const isMatched = matchedIds.has(term.id);
+                const isSelected = selectedTerm === term.id;
+                const isError = errorPair?.termId === term.id;
                 
                 let btnClass = 'option-btn';
                 if (isSelected) btnClass += ' selected';
@@ -173,20 +173,20 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
 
                 return (
                   <button
-                    key={`term-${t.id}`}
+                    key={`term-${term.id}`}
                     className={btnClass}
-                    style={{ 
-                      opacity: isMatched ? 0.5 : 1, 
+                    style={{
+                      opacity: isMatched ? 0.5 : 1,
                       transform: isMatched ? 'scale(0.98)' : 'none',
                       boxShadow: isMatched ? 'none' : undefined,
                       textAlign: 'center',
                       justifyContent: 'center',
                       fontWeight: '600'
                     }}
-                    onClick={() => handleTermClick(t.id)}
+                    onClick={() => handleTermClick(term.id)}
                     disabled={isMatched}
                   >
-                    {t.text}
+                    {term.text}
                   </button>
                 );
               })}

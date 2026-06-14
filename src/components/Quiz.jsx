@@ -251,7 +251,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
 
         <div className="card-body">
           {isSetupPhase ? (
-            <QuizSetup onStartQuiz={startQuiz} />
+            <QuizSetup onStartQuiz={startQuiz} language={language} />
           ) : showResults ? (
             <Results
               score={calculateScore()}

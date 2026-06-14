@@ -54,7 +54,7 @@ const QuestionCard = ({
               className={className}
               onClick={() => handleOptionSelect(index)}
               disabled={isAnswered}
-              aria-label={`Opción ${OPTION_LETTERS[index]}: ${option}`}
+              aria-label={`${OPTION_LETTERS[index]}: ${option}`}
             >
               <span style={{ fontWeight: 'bold', marginRight: '8px', minWidth: '18px', flexShrink: 0 }}>
                 {OPTION_LETTERS[index]})

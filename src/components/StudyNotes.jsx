@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import notesData from '../data/notes_data';
+import { t } from '../i18n';
 
 const StudyNotes = ({ language }) => {
   const [selectedChapter, setSelectedChapter] = useState(null);
@@ -27,14 +28,14 @@ const StudyNotes = ({ language }) => {
               color: selectedChapter === c.id ? 'white' : undefined,
             }}
           >
-            Cap. {c.id}
+            {t('chapter')} {c.id}
           </button>
         ))}
       </div>
 
       <div style={{ overflowY: 'auto', flexGrow: 1, paddingRight: '4px' }}>
         <div className="notes-intro-panel">
-          <h3>Examen ISTQB Foundation Level v4.0</h3>
+          <h3>{t('examTitle')}</h3>
           <ul>
             {examOverview.map((tip, i) => (
               <li key={i}>{tip}</li>

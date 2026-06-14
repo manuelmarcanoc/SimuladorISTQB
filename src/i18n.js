@@ -1,9 +1,11 @@
 export const translations = {
   es: {
+    // Nav
     simulator: 'Simulador',
     notes: 'Apuntes',
     minigame: 'Minijuego',
     stats: 'Estadísticas',
+    // Generic
     start: 'Empezar Partida',
     newSimulation: 'Nueva Simulación',
     question: 'Pregunta',
@@ -30,7 +32,69 @@ export const translations = {
     skip: 'Saltar Pregunta',
     finishExam: 'Terminar Examen',
     viewResults: 'Ver Resultados',
-    explanation: 'Explicación:'
+    explanation: 'Explicación:',
+    // Setup
+    configTitle: 'Configura tu Simulación',
+    configSubtitle: 'Practica con preguntas oficiales del temario ISTQB CTFL v4.0',
+    topicChapter: 'Tema / Capítulo',
+    numQuestions: 'Número de Preguntas',
+    questionsWord: 'Preguntas',
+    standardExamTag: '(Examen Estándar)',
+    availableWithFilters: 'Preguntas disponibles con estos filtros:',
+    willUse: 'Se usarán {n}',
+    noQuestionsFilters: 'No hay preguntas con estos filtros. Amplía la selección.',
+    startSimulation: 'Iniciar Simulación',
+    officialExamMode: 'Modo Examen Oficial — 40 Preg. / 65 min',
+    reviewErrors: 'Repasar {n} Errores del Último Examen',
+    totalBank: 'Banco total: {n} preguntas ISTQB CTFL v4.0',
+    examTipsTitle: 'Consejos para el examen real:',
+    tip1: '65% para aprobar (26 de 40). Sin penalización por respuestas incorrectas.',
+    tip2: 'En modo oficial: 40 preguntas en 65 min (~97 s por pregunta).',
+    tip3: 'Lee cada enunciado entero antes de elegir; elimina opciones imposibles primero.',
+    tip4: 'Repasa los capítulos 1, 4 y 5: suelen tener mayor peso en el examen.',
+    // Results
+    errorReview: 'Revisión de Errores',
+    backToResults: 'Volver a Resultados',
+    yourAnswer: 'Tu respuesta:',
+    correctLabel: 'Correcta:',
+    noErrors: '¡Sin errores! Excelente trabajo.',
+    congratsPassed: '¡Felicidades, Aprobado!',
+    notPassed: 'No Aprobado — Sigue Practicando',
+    minRequired: 'Mínimo requerido para aprobar ISTQB: 65%',
+    chapterBreakdown: 'Desglose por Capítulo',
+    viewErrors: 'Ver {n} Errores',
+    // ConceptMatch
+    connectConcepts: 'Conecta Conceptos',
+    scoreLabel: 'Puntuación:',
+    matchedAll: 'Has emparejado todos los conceptos correctamente.',
+    // StudyNotes
+    examTitle: 'Examen ISTQB Foundation Level v4.0',
+    // Stats
+    questionsLabel: 'Preguntas',
+    globalAccuracy: 'Acierto global',
+    simulations: 'Simulaciones',
+    passedLabel: 'Aprobadas',
+    bestStreak: 'Mejor racha',
+    perfect: 'Perfectos',
+    accuracyByChapter: 'Acierto por Capítulo',
+    recentSimulations: 'Últimas Simulaciones',
+    noSimulations: 'Aún no hay simulaciones registradas.',
+    dateLabel: 'Fecha',
+    statusLabel: 'Estado',
+    // Chapters
+    allChapters: 'Todos los Capítulos',
+    chapterNames: {
+      1: 'Fundamentos de Pruebas',
+      2: 'Pruebas a lo Largo del SDLC',
+      3: 'Pruebas Estáticas',
+      4: 'Análisis y Diseño de Pruebas',
+      5: 'Gestión de las Actividades de Prueba',
+      6: 'Herramientas de Prueba',
+    },
+    chapterShort: {
+      1: 'Fundamentos', 2: 'SDLC', 3: 'Estáticas', 4: 'Análisis', 5: 'Gestión', 6: 'Herramientas',
+    },
+    locale: 'es-ES',
   },
   en: {
     simulator: 'Simulator',
@@ -63,7 +127,63 @@ export const translations = {
     skip: 'Skip Question',
     finishExam: 'Finish Exam',
     viewResults: 'View Results',
-    explanation: 'Explanation:'
+    explanation: 'Explanation:',
+    configTitle: 'Set Up Your Simulation',
+    configSubtitle: 'Practice with official questions from the ISTQB CTFL v4.0 syllabus',
+    topicChapter: 'Topic / Chapter',
+    numQuestions: 'Number of Questions',
+    questionsWord: 'Questions',
+    standardExamTag: '(Standard Exam)',
+    availableWithFilters: 'Questions available with these filters:',
+    willUse: '{n} will be used',
+    noQuestionsFilters: 'No questions match these filters. Widen your selection.',
+    startSimulation: 'Start Simulation',
+    officialExamMode: 'Official Exam Mode — 40 Q. / 65 min',
+    reviewErrors: 'Review {n} Mistakes from Last Exam',
+    totalBank: 'Full bank: {n} ISTQB CTFL v4.0 questions',
+    examTipsTitle: 'Tips for the real exam:',
+    tip1: '65% to pass (26 of 40). No penalty for wrong answers.',
+    tip2: 'Official mode: 40 questions in 65 min (~97 s per question).',
+    tip3: 'Read the full question before choosing; rule out impossible options first.',
+    tip4: 'Review chapters 1, 4 and 5: they usually carry more weight in the exam.',
+    errorReview: 'Mistake Review',
+    backToResults: 'Back to Results',
+    yourAnswer: 'Your answer:',
+    correctLabel: 'Correct:',
+    noErrors: 'No mistakes! Excellent work.',
+    congratsPassed: 'Congratulations, Passed!',
+    notPassed: 'Not Passed — Keep Practicing',
+    minRequired: 'Minimum required to pass ISTQB: 65%',
+    chapterBreakdown: 'Breakdown by Chapter',
+    viewErrors: 'View {n} Mistakes',
+    connectConcepts: 'Connect Concepts',
+    scoreLabel: 'Score:',
+    matchedAll: 'You matched all concepts correctly.',
+    examTitle: 'ISTQB Foundation Level v4.0 Exam',
+    questionsLabel: 'Questions',
+    globalAccuracy: 'Global accuracy',
+    simulations: 'Simulations',
+    passedLabel: 'Passed',
+    bestStreak: 'Best streak',
+    perfect: 'Perfect',
+    accuracyByChapter: 'Accuracy by Chapter',
+    recentSimulations: 'Recent Simulations',
+    noSimulations: 'No simulations recorded yet.',
+    dateLabel: 'Date',
+    statusLabel: 'Status',
+    allChapters: 'All Chapters',
+    chapterNames: {
+      1: 'Fundamentals of Testing',
+      2: 'Testing Throughout the SDLC',
+      3: 'Static Testing',
+      4: 'Test Analysis and Design',
+      5: 'Managing the Test Activities',
+      6: 'Test Tools',
+    },
+    chapterShort: {
+      1: 'Fundamentals', 2: 'SDLC', 3: 'Static', 4: 'Analysis', 5: 'Management', 6: 'Tools',
+    },
+    locale: 'en-GB',
   },
   fr: {
     simulator: 'Simulateur',
@@ -96,8 +216,64 @@ export const translations = {
     skip: 'Passer la Question',
     finishExam: 'Terminer l\'Examen',
     viewResults: 'Voir les Résultats',
-    explanation: 'Explication :'
-  }
+    explanation: 'Explication :',
+    configTitle: 'Configurez votre Simulation',
+    configSubtitle: 'Entraînez-vous avec des questions officielles du programme ISTQB CTFL v4.0',
+    topicChapter: 'Thème / Chapitre',
+    numQuestions: 'Nombre de Questions',
+    questionsWord: 'Questions',
+    standardExamTag: '(Examen Standard)',
+    availableWithFilters: 'Questions disponibles avec ces filtres :',
+    willUse: '{n} seront utilisées',
+    noQuestionsFilters: 'Aucune question avec ces filtres. Élargissez la sélection.',
+    startSimulation: 'Lancer la Simulation',
+    officialExamMode: 'Mode Examen Officiel — 40 Q. / 65 min',
+    reviewErrors: 'Revoir {n} Erreurs du Dernier Examen',
+    totalBank: 'Banque totale : {n} questions ISTQB CTFL v4.0',
+    examTipsTitle: 'Conseils pour l\'examen réel :',
+    tip1: '65% pour réussir (26 sur 40). Aucune pénalité pour les mauvaises réponses.',
+    tip2: 'En mode officiel : 40 questions en 65 min (~97 s par question).',
+    tip3: 'Lisez tout l\'énoncé avant de choisir ; éliminez d\'abord les options impossibles.',
+    tip4: 'Révisez les chapitres 1, 4 et 5 : ils pèsent souvent plus dans l\'examen.',
+    errorReview: 'Revue des Erreurs',
+    backToResults: 'Retour aux Résultats',
+    yourAnswer: 'Votre réponse :',
+    correctLabel: 'Correcte :',
+    noErrors: 'Aucune erreur ! Excellent travail.',
+    congratsPassed: 'Félicitations, Admis !',
+    notPassed: 'Non Admis — Continuez à Pratiquer',
+    minRequired: 'Minimum requis pour réussir l\'ISTQB : 65%',
+    chapterBreakdown: 'Répartition par Chapitre',
+    viewErrors: 'Voir {n} Erreurs',
+    connectConcepts: 'Reliez les Concepts',
+    scoreLabel: 'Score :',
+    matchedAll: 'Vous avez associé tous les concepts correctement.',
+    examTitle: 'Examen ISTQB Foundation Level v4.0',
+    questionsLabel: 'Questions',
+    globalAccuracy: 'Précision globale',
+    simulations: 'Simulations',
+    passedLabel: 'Réussis',
+    bestStreak: 'Meilleure série',
+    perfect: 'Parfaits',
+    accuracyByChapter: 'Précision par Chapitre',
+    recentSimulations: 'Dernières Simulations',
+    noSimulations: 'Aucune simulation enregistrée pour le moment.',
+    dateLabel: 'Date',
+    statusLabel: 'Statut',
+    allChapters: 'Tous les Chapitres',
+    chapterNames: {
+      1: 'Fondamentaux des Tests',
+      2: 'Tests Tout au Long du SDLC',
+      3: 'Tests Statiques',
+      4: 'Analyse et Conception des Tests',
+      5: 'Gestion des Activités de Test',
+      6: 'Outils de Test',
+    },
+    chapterShort: {
+      1: 'Fondamentaux', 2: 'SDLC', 3: 'Statiques', 4: 'Analyse', 5: 'Gestion', 6: 'Outils',
+    },
+    locale: 'fr-FR',
+  },
 };
 
 let currentLanguage = 'es';
@@ -108,6 +284,21 @@ export const setLanguage = (lang) => {
 
 export const getLanguage = () => currentLanguage;
 
-export const t = (key) => {
-  return translations[currentLanguage][key] || key;
+export const t = (key, vars) => {
+  const dict = translations[currentLanguage] || translations.es;
+  let val = dict[key];
+  if (val === undefined) val = translations.es[key];
+  if (val === undefined) return key;
+  if (typeof val === 'string' && vars) {
+    Object.keys(vars).forEach((k) => {
+      val = val.replace(new RegExp(`\\{${k}\\}`, 'g'), vars[k]);
+    });
+  }
+  return val;
+};
+
+// Helper for objects/arrays (chapter maps) with language passed explicitly.
+export const tl = (lang, key) => {
+  const dict = translations[lang] || translations.es;
+  return dict[key] !== undefined ? dict[key] : translations.es[key];
 };

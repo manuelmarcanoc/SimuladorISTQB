@@ -4,7 +4,7 @@ import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
 import StatsPanel from './components/StatsPanel';
 import AdComponent from './components/AdComponent';
-import { setLanguage, t, getLanguage } from './i18n';
+import { setLanguage, t } from './i18n';
 
 function App() {
   const [activeTab, setActiveTab] = useState('simulador');
@@ -43,11 +43,13 @@ function App() {
     <div className={`app-container${darkMode ? ' dark-mode' : ''}`}>
       <header className="app-header">
         <div className="app-title">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-          </svg>
-          ISTQB
+          <span className="brand-mark">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </span>
+          <span className="brand-text">ISTQB<span className="brand-accent">easy</span></span>
         </div>
         <nav className="nav-links">
           <button 
@@ -75,27 +77,18 @@ function App() {
             {t('stats')}
           </button>
         </nav>
-        <div className="lang-selector" style={{ display: 'flex', gap: '5px', background: 'var(--primary-light)', padding: '4px', borderRadius: 'var(--radius-pill)' }}>
-          {['es', 'en', 'fr'].map(l => (
-            <button 
-              key={l}
-              onClick={() => handleLanguageChange(l)}
-              style={{
-                border: 'none',
-                background: lang === l ? 'var(--primary)' : 'transparent',
-                color: lang === l ? 'white' : 'var(--text-muted)',
-                padding: '4px 10px',
-                borderRadius: 'var(--radius-pill)',
-                cursor: 'pointer',
-                fontWeight: '600',
-                textTransform: 'uppercase',
-                fontSize: '0.85rem'
-              }}
-            >
-              {l}
-            </button>
-          ))}
-        </div>
+        <div className="header-actions">
+          <div className="lang-selector">
+            {['es', 'en', 'fr'].map(l => (
+              <button
+                key={l}
+                className={`lang-btn ${lang === l ? 'active' : ''}`}
+                onClick={() => handleLanguageChange(l)}
+              >
+                {l}
+              </button>
+            ))}
+          </div>
         {/* Dark mode toggle */}
         <button
           onClick={toggleDark}
@@ -113,6 +106,7 @@ function App() {
             </svg>
           )}
         </button>
+        </div>
       </header>
 
       <div className="layout-wrapper">
@@ -128,6 +122,10 @@ function App() {
           <AdComponent adSlot="6641167211" />
         </aside>
       </div>
+
+      <footer className="app-footer">
+        <p>Created by <strong>Vibbe Labs</strong></p>
+      </footer>
     </div>
   );
 }
