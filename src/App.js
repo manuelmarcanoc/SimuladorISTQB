@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Quiz from './components/Quiz';
 import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
-import ScenarioAdventure from './components/ScenarioAdventure';
 import StatsPanel from './components/StatsPanel';
 
 function App() {
@@ -16,8 +15,6 @@ function App() {
         return <StudyNotes />;
       case 'conecta':
         return <ConceptMatch />;
-      case 'quest':
-        return <ScenarioAdventure />;
       case 'stats':
         return <StatsPanel />;
       default:
@@ -55,12 +52,6 @@ function App() {
             Minijuego
           </button>
           <button 
-            className={`nav-btn ${activeTab === 'quest' ? 'active' : ''}`}
-            onClick={() => setActiveTab('quest')}
-          >
-            Aventura
-          </button>
-          <button 
             className={`nav-btn ${activeTab === 'stats' ? 'active' : ''}`}
             onClick={() => setActiveTab('stats')}
           >
@@ -69,9 +60,25 @@ function App() {
         </nav>
       </header>
 
-      <main className="main-content">
-        {renderContent()}
-      </main>
+      <div className="layout-wrapper">
+        <aside className="ad-sidebar left-ad">
+          <div className="ad-placeholder">
+            <span>Espacio Publicitario</span>
+            <small>Apoya el proyecto</small>
+          </div>
+        </aside>
+
+        <main className="main-content">
+          {renderContent()}
+        </main>
+
+        <aside className="ad-sidebar right-ad">
+          <div className="ad-placeholder">
+            <span>Espacio Publicitario</span>
+            <small>Apoya el proyecto</small>
+          </div>
+        </aside>
+      </div>
     </div>
   );
 }

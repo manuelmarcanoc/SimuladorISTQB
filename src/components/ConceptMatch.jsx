@@ -18,7 +18,7 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
   
   const [selectedTerm, setSelectedTerm] = useState(null);
   const [selectedDef, setSelectedDef] = useState(null);
-  const [errorPair, setErrorPair] = useState(null); // {termId, defId}
+  const [errorPair, setErrorPair] = useState(null); 
   
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
@@ -26,16 +26,13 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
   const [isStarted, setIsStarted] = useState(false);
 
   const startNewRound = useCallback(() => {
-    // Pick 5 random concepts
     const shuffledConcepts = shuffleArray(conceptsData).slice(0, 5);
     
-    // Assign IDs for matching logic
     const roundData = shuffledConcepts.map((item, index) => ({
       ...item,
       id: index
     }));
 
-    // Split into terms and defs, then shuffle independently
     const terms = shuffleArray(roundData.map(item => ({ id: item.id, text: item.term })));
     const defs = shuffleArray(roundData.map(item => ({ id: item.id, text: item.definition })));
 
@@ -67,22 +64,18 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
     setSelectedDef(id);
   };
 
-  // Evaluate matches
   useEffect(() => {
     if (selectedTerm !== null && selectedDef !== null) {
       if (selectedTerm === selectedDef) {
-        // Correct match
         setMatchedIds(prev => new Set(prev).add(selectedTerm));
         setScore(s => s + 10 + (streak * 2));
         setStreak(s => s + 1);
         setSelectedTerm(null);
         setSelectedDef(null);
       } else {
-        // Wrong match
         setStreak(0);
         setErrorPair({ termId: selectedTerm, defId: selectedDef });
         
-        // Clear error after animation
         setTimeout(() => {
           setErrorPair(null);
           setSelectedTerm(null);
@@ -92,11 +85,9 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
     }
   }, [selectedTerm, selectedDef, streak]);
 
-  // Check round complete
   useEffect(() => {
     if (isStarted && matchedIds.size === 5 && !roundComplete) {
       setRoundComplete(true);
-      // Update global stats for achievements
       const stats = loadStats();
       const updatedStats = { ...stats, flashcardsCompleted: (stats.flashcardsCompleted || 0) + 1 };
       saveStats(updatedStats);
@@ -110,55 +101,75 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
   }, [matchedIds.size, isStarted, roundComplete, onNewAchievements]);
 
   return (
-    <div className="retro-window flashcard-window-frame">
-      <div className="title-bar">
-        <div className="title-bar-text">
-          Conecta.exe — {isStarted ? `Puntos: ${score}` : 'Minijuego ISTQB'}
-          {streak >= 3 && <span style={{ color: '#ffcc00' }}> 🔥 Racha x{streak}</span>}
+    <div className="card animate-in" style={{ padding: '0', overflow: 'hidden' }}>
+      <div className="card-header" style={{ margin: 0, padding: '1.5rem 2rem', background: 'var(--primary-light)', borderBottom: '1px solid var(--primary)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div className="card-title" style={{ color: 'var(--primary-hover)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+          Conecta Conceptos
         </div>
-        <div className="title-bar-controls">
-          <button className="title-bar-btn">_</button>
-          <button className="title-bar-btn">□</button>
-          <button className="title-bar-btn" onClick={onClose}>X</button>
-        </div>
+        {isStarted && (
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', fontWeight: '600' }}>
+            <span style={{ color: 'var(--text-main)' }}>Puntuación: <span style={{ color: 'var(--primary)' }}>{score}</span></span>
+            {streak > 1 && <span style={{ color: 'var(--warning)', background: 'var(--warning-bg)', padding: '2px 8px', borderRadius: '12px', fontSize: '0.9rem' }}>🔥 x{streak}</span>}
+          </div>
+        )}
       </div>
 
-      <div className="window-body flashcard-window-body" style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ padding: '2rem' }}>
         {!isStarted ? (
-          <div style={{ textAlign: 'center', padding: '2rem 1rem' }}>
-            <h2>🔗 Conecta Conceptos</h2>
-            <p style={{ margin: '1rem 0', color: '#555', lineHeight: '1.5' }}>
-              El examen ISTQB requiere conocer a la perfección su terminología.<br/>
-              Empareja cada <strong>término</strong> con su <strong>definición</strong> correcta.<br/>
-              ¡Gana más puntos por hacer combos sin fallar!
+          <div style={{ textAlign: 'center', padding: '2rem 1rem' }} className="animate-in">
+            <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🔗</div>
+            <h2 className="question-text" style={{ marginBottom: '1rem' }}>Domina la Terminología</h2>
+            <p style={{ margin: '0 auto 2rem auto', color: 'var(--text-muted)', lineHeight: '1.6', maxWidth: '600px', fontSize: '1.1rem' }}>
+              El examen ISTQB requiere conocer a la perfección su glosario.<br/>
+              Empareja cada <strong>término</strong> con su <strong>definición</strong> correcta para ganar puntos.<br/>
+              ¡Consigue multiplicadores haciendo emparejamientos seguidos sin fallar!
             </p>
-            <button className="btn" style={{ marginTop: '1.5rem', padding: '8px 20px', fontSize: '1.1rem' }} onClick={startNewRound}>
-              [ Empezar Juego ]
+            <button className="btn" style={{ padding: '12px 32px', fontSize: '1.1rem' }} onClick={startNewRound}>
+              Empezar Partida
             </button>
           </div>
         ) : roundComplete ? (
-          <div className="results-container" style={{ flexGrow: 1, justifyContent: 'center' }}>
-            <div style={{ fontSize: '3rem' }}>🏆</div>
-            <h2 className="question-text">¡Ronda Completada!</h2>
-            <div className="score-display">{score} pts</div>
-            <p style={{ marginBottom: '2rem' }}>¡Excelente! Has emparejado todos los conceptos correctamente.</p>
-            <div style={{ display: 'flex', gap: '10px' }}>
-              <button className="btn" onClick={startNewRound}>[ Jugar Siguiente Ronda ]</button>
-              <button className="btn" onClick={onClose}>[ Cerrar ]</button>
+          <div className="results-card animate-in" style={{ padding: '2rem 0' }}>
+            <div style={{ fontSize: '5rem', margin: '0 auto', color: 'var(--warning)' }}>🏆</div>
+            <h2 className="card-title" style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>¡Ronda Perfecta!</h2>
+            <div className="score-display" style={{ color: 'var(--primary)', margin: '1rem 0' }}>{score} pts</div>
+            <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>
+              Has emparejado todos los conceptos correctamente.
+            </p>
+            <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
+              <button className="btn" onClick={startNewRound}>Jugar Nueva Ronda</button>
             </div>
           </div>
         ) : (
-          <div className="match-board">
-            <div className="match-column">
-              <h3 className="match-col-title">Términos</h3>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginTop: '1rem' }} className="animate-in">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>Términos</h3>
               {roundTerms.map(t => {
                 const isMatched = matchedIds.has(t.id);
                 const isSelected = selectedTerm === t.id;
                 const isError = errorPair?.termId === t.id;
+                
+                let btnClass = 'option-btn';
+                if (isSelected) btnClass += ' selected';
+                if (isMatched) btnClass += ' correct';
+                if (isError) btnClass += ' incorrect';
+
                 return (
                   <button
                     key={`term-${t.id}`}
-                    className={`match-item ${isSelected ? 'match-selected' : ''} ${isMatched ? 'match-correct' : ''} ${isError ? 'match-wrong' : ''}`}
+                    className={btnClass}
+                    style={{ 
+                      opacity: isMatched ? 0.5 : 1, 
+                      transform: isMatched ? 'scale(0.98)' : 'none',
+                      boxShadow: isMatched ? 'none' : undefined,
+                      textAlign: 'center',
+                      justifyContent: 'center',
+                      fontWeight: '600'
+                    }}
                     onClick={() => handleTermClick(t.id)}
                     disabled={isMatched}
                   >
@@ -168,16 +179,28 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
               })}
             </div>
             
-            <div className="match-column">
-              <h3 className="match-col-title">Definiciones</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>Definiciones</h3>
               {roundDefs.map(d => {
                 const isMatched = matchedIds.has(d.id);
                 const isSelected = selectedDef === d.id;
                 const isError = errorPair?.defId === d.id;
+                
+                let btnClass = 'option-btn';
+                if (isSelected) btnClass += ' selected';
+                if (isMatched) btnClass += ' correct';
+                if (isError) btnClass += ' incorrect';
+
                 return (
                   <button
                     key={`def-${d.id}`}
-                    className={`match-item match-def ${isSelected ? 'match-selected' : ''} ${isMatched ? 'match-correct' : ''} ${isError ? 'match-wrong' : ''}`}
+                    className={btnClass}
+                    style={{ 
+                      opacity: isMatched ? 0.5 : 1, 
+                      transform: isMatched ? 'scale(0.98)' : 'none',
+                      boxShadow: isMatched ? 'none' : undefined,
+                      fontSize: '0.95rem'
+                    }}
                     onClick={() => handleDefClick(d.id)}
                     disabled={isMatched}
                   >
