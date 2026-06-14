@@ -1,0 +1,603 @@
+[
+  {
+    "id": 250,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Which of the following statements describes a valid test objective?",
+    "options": [
+      "A) Demonstrate that there are no uncorrected defects in the system under test",
+      "B) Demonstrate that there will be no failures after the system is implemented in production",
+      "C) Reduce the risk level of the test object and build confidence in the quality level D) Verify that there are no untested combinations of inputs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#1, LO: FL-1.1.1). Rationale: Reduce the risk level of the test object and build confidence in the quality level D) Verify that there are no untested combinations of inputs",
+    "source": "Official Sample Exam A Q#1"
+  },
+  {
+    "id": 251,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Which of the following shows an example of testing activities that contribute to success?",
+    "options": [
+      "A) Involving testers during various software development life cycle (SDLC) activities will help detect defects in work products",
+      "B) Testers try not to disturb developers while programming, so that developers write better code",
+      "C) Testers collaborating with end users help improve the quality of defect reporting during component integration testing and system testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#2, LO: FL-1.2.1). Rationale: Involving testers during various software development life cycle (SDLC) activities will help detect defects in work products",
+    "source": "Official Sample Exam A Q#2"
+  },
+  {
+    "id": 252,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "You have been assigned as a tester to a team that produces a new system incrementally. You have noticed that no changes have been made to existing regression test cases for several iterations and no new regression defects have been identified. Your manager is happy, but you are not. What principle of proof explains your skepticism?",
+    "options": [
+      "A) Tests wear out",
+      "B) Fallacy of the absence of defects",
+      "C) Defects are grouped together",
+      "D) Exhaustive testing is impossible"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#3, LO: FL-1.3.1). Rationale: Evidence wears out",
+    "source": "Official Sample Exam A Q#3"
+  },
+  {
+    "id": 253,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "You work on a team that develops a mobile app for ordering food. In the current iteration, the team decided to implement payment functionality. Which of the following activities is part of test analysis?",
+    "options": [
+      "A) Estimate that testing the integration with the payment service will take 8 person-days",
+      "B) Decide that the team should test whether it is possible to share the payment appropriately among many users",
+      "C) Use boundary value analysis (BVA) to derive test data for test cases that verify correct payment processing for the minimum amount allowed to be paid",
+      "D) Analyze the discrepancy between the actual result and the expected result after running a test case that verifies the credit card payment process, and report a defect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#4, LO: FL-1.4.1). Rationale: Decide that the team should test whether it is possible to share the payment appropriately among many users",
+    "source": "Official Sample Exam A Q#4"
+  },
+  {
+    "id": 254,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Which of the following factors have a SIGNIFICANT influence on the testing approach? Yo. The SDLC ii. The number of defects detected in previous projects iii. The identified product risks iv. New regulatory requirements mandating formal white box testing v. Setting up the test environment",
+    "options": [
+      "A) i, ii have a significant influence",
+      "B) i, iii, iv have a significant influence",
+      "C) ii, iv, v have a significant influence",
+      "D) iii, v have a significant influence"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#5, LO: FL-1.4.2). Rationale: i, iii, iv have significant influence",
+    "source": "Official Sample Exam A Q#5"
+  },
+  {
+    "id": 255,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Which TWO of the following tasks MAINLY belong to a testing role?",
+    "options": [
+      "A) Set up test environments",
+      "B) Maintain the product backlog",
+      "C) Design solutions to new requirements",
+      "D) Create the test plan",
+      "E) Analyze the evidence base"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#6, LO: FL-1.4.5). Rationale: Set up test environments",
+    "source": "Official Sample Exam A Q#6"
+  },
+  {
+    "id": 256,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Which of the following skills (i-v) are MOST important for a tester? Yo. Have knowledge of the domain ii. Create a product vision iii. Be a good team player iv. Plan and organize the team's work v. Critical thinking",
+    "options": [
+      "A) ii and iv are important",
+      "B) i, iii and v are important",
+      "C) i, ii and v are important",
+      "D) iii and iv are important"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#7, LO: FL-1.5.1). Rationale: i, iii and v are important",
+    "source": "Official Sample Exam A Q#7"
+  },
+  {
+    "id": 257,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "How is the whole-team approach present in interactions between testers and business representatives?",
+    "options": [
+      "A) Business representatives decide test automation approaches",
+      "B) Testers help business representatives define a testing strategy",
+      "C) Business representatives are not part of the entire team's focus",
+      "D) Testers help business representatives create proper acceptance tests"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#8, LO: FL-1.5.2). Rationale: Testers help business representatives create proper acceptance tests",
+    "source": "Official Sample Exam A Q#8"
+  },
+  {
+    "id": 258,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Consider the following rule: \"for every SDLC activity there is a corresponding test activity.\" In which SDLC models does this rule apply?",
+    "options": [
+      "A) Only in sequential development models",
+      "B) Only in iterative development models",
+      "C) Only in iterative and incremental development models",
+      "D) In ​​sequential, incremental and iterative development models"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#9, LO: FL-2.1.2). Justification: In sequential, incremental and iterative development models",
+    "source": "Official Sample Exam A Q#9"
+  },
+  {
+    "id": 259,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Which of the following statements BEST describes the acceptance test-driven development (ATDD) approach?",
+    "options": [
+      "A) In ATDD, acceptance criteria are generally created based on the given/when/then format.",
+      "B) In ATDD, test cases are mainly created in component tests and are code-oriented",
+      "C) In ATDD, tests are created based on acceptance criteria to guide the development of related software",
+      "D) In ​​ATDD, testing is based on the desired behavior of the software, making it easier for team members to understand"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#10, LO: FL-2.1.3). Rationale: In ATDD, tests are created based on acceptance criteria to guide the development of related software",
+    "source": "Official Sample Exam A Q#10"
+  },
+  {
+    "id": 260,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Which of the following is NOT an example of the shift-left approach?",
+    "options": [
+      "A) Review user requirements before they are formally accepted by stakeholders",
+      "B) Write a component test before the corresponding code is written",
+      "C) Run a performance efficiency test for a component during component testing",
+      "D) Write a test script before configuring the configuration management process"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#11, LO: FL-2.1.5). Rationale: Write a test script before configuring the configuration management process",
+    "source": "Official Sample Exam A Q#11"
+  },
+  {
+    "id": 261,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Which of the following arguments would you use to convince your manager to organize retrospectives?",
+    "options": [
+      "A) Retrospectives are very popular nowadays and clients would appreciate it if we added them to our processes",
+      "B) Hosting retrospectives will save the organization money because without them, end-user representatives do not provide immediate feedback on the product.",
+      "C) Process weaknesses identified during the retrospective can be analyzed and serve as a to-do list for the organization's continuous process improvement program.",
+      "D) Retrospectives encompass five values ​​including courage and respect, which are crucial to maintaining continuous improvement in the organization."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#12, LO: FL-2.1.6). Rationale: Process weaknesses identified during the retrospective can be analyzed and serve as a to-do list for the organization's continuous process improvement program.",
+    "source": "Official Sample Exam A Q#12"
+  },
+  {
+    "id": 262,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Which fault types (1-4) BEST fit which test levels (A-D)? 1. Failures in system behavior by deviating from the user's business needs 2. Failures in communication between components 3. Failures in logic in the code 4. Failures due to incorrectly implemented business rules A. Component testing B. Component integration testing C. System testing D. Acceptance testing",
+    "options": [
+      "A) 1D, 2B, 3A, 4C",
+      "B) 1D, 2B, 3C, 4A",
+      "C) 1B, 2A, 3D, 4C",
+      "D) 1C, 2B, 3A, 4D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#13, LO: FL-2.2.1). Rationale: 1D, 2B, 3A, 4C",
+    "source": "Official Sample Exam A Q#13"
+  },
+  {
+    "id": 263,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test run history had three rounds of testing on three consecutive versions of the software as follows: Run 1 Run 2 Run 3 TC1 (1) Fail (4) Pass (7) Pass TC2 (2) Pass (5) Fail (8) Pass TC3 (3) Fail (6) Fail (9) Pass The tests are repeated once you are informed that all defects found in the test round are corrected and a new version of the software is available. Which of the above tests are run as regression tests?",
+    "options": [
+      "A) Only 4, 7, 8, 9",
+      "B) Only 5, 7",
+      "C) Only 4, 6, 8, 9",
+      "D) Only 5, 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#14, LO: FL-2.2.3). Justification: Only 5, 7",
+    "source": "Official Sample Exam A Q#14"
+  },
+  {
+    "id": 264,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "question": "Which of the following is NOT a benefit of static testing?",
+    "options": [
+      "A) Have less expensive defect management due to the ease of detecting defects later in the SDLC",
+      "B) Fixing defects found during static testing is generally much less expensive than fixing defects found during dynamic testing",
+      "C) Find coding defects that might not have been found by doing dynamic testing alone",
+      "D) Detect gaps and inconsistencies in requirements"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#15, LO: FL-3.1.2). Rationale: Have less costly defect management due to the ease of detecting defects later in the SDLC",
+    "source": "Official Sample Exam A Q#15"
+  },
+  {
+    "id": 265,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "question": "Which of the following is a benefit of early and frequent feedback?",
+    "options": [
+      "A) Improve the testing process for future projects",
+      "B) Forces customers to prioritize their requirements based on agreed risks",
+      "C) Provides a measure for the quality of changes",
+      "D) Helps avoid misunderstandings in requirements"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#16, LO: FL-3.2.1). Rationale: Helps avoid misunderstandings in requirements",
+    "source": "Official Sample Exam A Q#16"
+  },
+  {
+    "id": 266,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "question": "The reviews that are being used in your organization have the following attributes: • There is a role of a scribe • The primary purpose is to assess quality • The meeting is led by the author of the work product • There is individual preparation • A review report is produced Which of the following types of review is MOST likely being used?",
+    "options": [
+      "A) Informal review",
+      "B) Walkthrough",
+      "C) Technical review",
+      "D) Inspection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#17, LO: FL-3.2.4). Rationale: Walkthrough",
+    "source": "Official Sample Exam A Q#17"
+  },
+  {
+    "id": 267,
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "question": "Which of these statements is NOT a contributing factor to successful reviews?",
+    "options": [
+      "A) Participants must allocate adequate time for review",
+      "B) Divide large work products into small parts so that the effort required is less intense",
+      "C) Participants should avoid behavior that may indicate boredom, exasperation, or hostility toward other participants.",
+      "D) Failures found must be recognized, appreciated and handled objectively"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#18, LO: FL-3.2.5). Rationale: Failures found must be recognized, appreciated and handled objectively",
+    "source": "Official Sample Exam A Q#18"
+  },
+  {
+    "id": 268,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Which of the following is a characteristic of experience-based testing techniques?",
+    "options": [
+      "A) Test cases are created based on detailed design information",
+      "B) Tested elements within the interface code section are used to measure coverage",
+      "C) Testing techniques depend largely on the tester's knowledge of the software and the business domain.",
+      "D) Test cases are used to identify deviations from requirements"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#19, LO: FL-4.1.1). Rationale: Testing techniques largely depend on the tester's knowledge of the software and the business domain.",
+    "source": "Official Sample Exam A Q#19"
+  },
+  {
+    "id": 269,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "You are testing a simplified apartment search form that only has two search criteria: • floor (with three possible options: ground floor; first floor; second floor or higher) • garden type (with three possible options: no garden; small garden; large garden) All apartments on the ground floor have a garden, apartments on the upper floors do not. The form has a built-in validation mechanism that will not allow you to use search criteria that violate this rule. Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each type of garden in your tests. What is the minimum number of test cases to achieve 100% EP coverage for valid partitions?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#20, LO: FL-4.2.1). Justification: 4",
+    "source": "Official Sample Exam A Q#20"
+  },
+  {
+    "id": 270,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules: • 0 – 50 points: failed • 51 – 60 points: sufficient • 61 – 70 points: satisfactory • 71 – 80 points: good • 81 – 90 points: very good • 91 – 100 points: excellent You have prepared the following set of test cases: Final result Final grade TC1 91 excellent TC2 50 failed TC3 81 very good TC4 60 sufficient TC5 70 satisfactory TC6 80 good What is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?",
+    "options": [
+      "A) 50%",
+      "B) 60%",
+      "C) 33.3%",
+      "D) 100%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#21, LO: FL-4.2.2). Justification: 50%",
+    "source": "Official Sample Exam A Q#21"
+  },
+  {
+    "id": 271,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Your favorite daily bike rental shop just introduced a new customer relationship management (CRM) system and asked you, one of its most loyal members, to try it out. The features implemented are as follows: • Anyone can rent a bike, but members receive a 20% discount • However, if the return deadline is missed, the discount is no longer available • After 15 rentals, members get a gift: a t-shirt. The decision table describing the implemented features looks like this: Conditions R1 R2 R3 R4 R5 R6 R7 R8 Be a member T T T T F F F F Missed deadline T F T F T F F T 15th rental F F T T F F T T Shares 20% discount X",
+    "options": [
+      "A) R4",
+      "B) R2",
+      "C) R6",
+      "D) R8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#22, LO: FL-4.2.3). Justification: R8",
+    "source": "Official Sample Exam A Q#22"
+  },
+  {
+    "id": 272,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Test a system whose life cycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state. What is the MINIMUM number of test cases to achieve valid transition coverage?",
+    "options": [
+      "A) 4",
+      "B) 2",
+      "C) 7",
+      "D) 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#23, LO: FL-4.2.4). Justification: 3",
+    "source": "Official Sample Exam A Q#23"
+  },
+  {
+    "id": 273,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Their test suite achieved 100% sentence coverage. What is the consequence of this fact?",
+    "options": [
+      "A) Every statement in the code that contains a defect has been executed at least once",
+      "B) Any test suite that contains more test cases than your test suite will also achieve 100% statement coverage",
+      "C) Every route in the code has been executed at least once",
+      "D) Each combination of input values ​​has been tested at least once"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#24, LO: FL-4.3.1). Rationale: Every statement in the code that contains a defect has been executed at least once",
+    "source": "Official Sample Exam A Q#24"
+  },
+  {
+    "id": 274,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Which of the following statements is NOT true for white box testing?",
+    "options": [
+      "A) During white box testing the entire software implementation is considered",
+      "B) White box coverage metrics can help identify additional tests to increase code coverage",
+      "C) White box testing techniques can be used in static testing",
+      "D) White box testing can help identify gaps in the implementation of requirements"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#25, LO: FL-4.3.3). Rationale: White box testing can help identify gaps in the implementation of requirements",
+    "source": "Official Sample Exam A Q#25"
+  },
+  {
+    "id": 275,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Which of the following BEST describes the concept behind error guessing?",
+    "options": [
+      "A) Bug prediction involves using your knowledge and experience about defects found in the past and typical mistakes made by developers",
+      "B) Bug prediction involves using your personal development experience and the mistakes you made as a developer",
+      "C) Error prediction requires you to imagine that you are the user of the test object and guess the errors that the user might make interacting with it",
+      "D) Bug prediction requires you to quickly duplicate the development task to identify the type of bugs a developer might make"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#26, LO: FL-4.4.1). Rationale: Bug prediction involves using your knowledge and experience about defects found in the past and typical errors made by developers",
+    "source": "Official Sample Exam A Q#26"
+  },
+  {
+    "id": 276,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Started late but has very detailed domain knowledge and good analytical skills. The full list of requirements has not yet been shared with the team, but management is asking for some test results to be submitted. Which testing technique BEST fits this situation?",
+    "options": [
+      "A) Tests based on checklists",
+      "B) Error prediction",
+      "C) Exploratory tests",
+      "D) Branch testing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#27, LO: FL-4.4.2). Rationale: Exploratory testing",
+    "source": "Official Sample Exam A Q#27"
+  },
+  {
+    "id": 277,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Which of the following BEST describes how acceptance criteria can be documented?",
+    "options": [
+      "A) Conducting retrospectives to determine the real needs of stakeholders regarding a given user story",
+      "B) Using the given/when/then format to describe an example test condition related to a given user story",
+      "C) Using verbal communication to reduce the risk of others misunderstanding the acceptance criteria",
+      "D) Documenting the risks related to a given user story in a test plan to facilitate risk-based testing of a given user story"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#28, LO: FL-4.5.2). Rationale: Using the given/when/then format to describe an example test condition related to a given user story",
+    "source": "Official Sample Exam A Q#28"
+  },
+  {
+    "id": 278,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Consider the following user story: As an Editor I want to review the content before it is published to ensure that the grammar is correct and its acceptance criteria: • The user can log in to the content management system with the role of \"Editor\" • The editor can view existing content pages • The editor can edit the content of the page • The editor can add markup comments • The editor can save changes • The editor can reassign to the \"content owner\" role to make updates Which of the following is the BEST example of an ATDD test for this user story?",
+    "options": [
+      "A) Test if the editor can save the document after editing the page content",
+      "B) Test if the content owner can log in and make updates to the content",
+      "C) Test if the editor can schedule the edited content for publication",
+      "D) Test if the editor can reassign to another editor to make updates"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#29, LO: FL-4.5.3). Rationale: Test if the editor can save the document after editing the page content",
+    "source": "Official Sample Exam A Q#29"
+  },
+  {
+    "id": 279,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Which TWO of the following are the exit criteria for testing a system?",
+    "options": [
+      "A) Preparation of the test environment",
+      "B) The ability to log into the test object by the tester",
+      "C) The estimated defect density is reached",
+      "D) Requirements are translated into given/when/then format",
+      "E) Regression testing is automated"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#31, LO: FL-5.1.3). Justification: Estimated defect density is reached",
+    "source": "Official Sample Exam A Q#31"
+  },
+  {
+    "id": 280,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "His team uses the three-point estimation technique to estimate the testing effort for a new high-risk feature. The following estimates were made: • Most optimistic estimate: 2 person-hours • Most probable estimate: 11 person-hours • Most pessimistic estimate: 14 person-hours What is the final estimate?",
+    "options": [
+      "A) 9 person-hours",
+      "B) 14 person-hours",
+      "C) 11 person-hours",
+      "D) 10 person-hours"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#32, LO: FL-5.1.4). Justification: 10 person-hours",
+    "source": "Official Sample Exam A Q#32"
+  },
+  {
+    "id": 281,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "It is testing a mobile app that allows users to find a nearby restaurant based on the type of food they want to eat. Consider the following list of test cases, priorities (i.e., a lower number means a higher priority), and dependencies: Test Case Number Test Condition Covered Priority Logical Dependency TC 001 Select Food Type 3 none TC 002 Select Restaurant 2 TC 001 TC 003 Get Directions 1 TC 002 TC 004 Call Restaurant 2 TC 002 TC 005 Make a Reservation 3 TC 002 Which Of the following test cases should be executed thirdly?",
+    "options": [
+      "A) TC 003",
+      "B) TC 005",
+      "C) TC 002",
+      "D) TC 001"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#33, LO: FL-5.1.5). Justification: TC 003",
+    "source": "Official Sample Exam A Q#33"
+  },
+  {
+    "id": 282,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Consider the following test categories (1-4) and Agile Testing Quadrants (A-D): 1. Usability Testing 2. Component Testing 3. Functional Testing 4. Reliability Testing A. Agile Testing Quadrant Q1: Technology-oriented, supporting the development team B. Agile Testing Quadrant Q2: Business-oriented, supporting the development team C. Agile Testing Quadrant Q3: Business-oriented, Product Critique D. Agile Testing Quadrant Q4: Technology Oriented, Product Critique How do the following test categories map to the agile testing quadrants?",
+    "options": [
+      "A) 1C, 2A, 3B, 4D",
+      "B) 1D, 2A, 3C, 4B",
+      "C) 1C, 2B, 3D, 4A",
+      "D) 1D, 2B, 3C, 4A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#34, LO: FL-5.1.7). Rationale: 1C, 2A, 3B, 4D",
+    "source": "Official Sample Exam A Q#34"
+  },
+  {
+    "id": 283,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "During a risk analysis the following risk was identified and evaluated: • Risk: Response time is too long to generate a report • Risk probability: medium; risk impact: high • Risk response: o An independent testing team performs performance efficiency testing during system testing o A selected sample of end users performs alpha testing and beta testing prior to release What action do you propose to take in response to this analyzed risk?",
+    "options": [
+      "A) Acceptance of risk",
+      "B) Contingency plan",
+      "C) Risk mitigation",
+      "D) Risk transfer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#35, LO: FL-5.2.4). Rationale: Risk mitigation",
+    "source": "Official Sample Exam A Q#35"
+  },
+  {
+    "id": 284,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "What work product can an agile team use to show the amount of work that has been completed and the total amount of work remaining for a given iteration?",
+    "options": [
+      "A) Acceptance criteria",
+      "B) Defect report",
+      "C) Test completion report",
+      "D) Burndown chart"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#36, LO: FL-5.3.3). Rationale: Burndown chart",
+    "source": "Official Sample Exam A Q#36"
+  },
+  {
+    "id": 285,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "You need to update one of the automated test scripts to be aligned with a new requirement. Which process indicates that you should create a new version of the test script in the test repository?",
+    "options": [
+      "A) Traceability management",
+      "B) Maintenance tests",
+      "C) Configuration management",
+      "D) Requirements engineering"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#37, LO: FL-5.4.1). Rationale: Configuration Management",
+    "source": "Official Sample Exam A Q#37"
+  },
+  {
+    "id": 286,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Received the following defect report from the developers stating that the anomaly described in this test report is not reproducible. Application freezes 2022-May-03 – John Doe – Rejected Application freezes after entering “Test Input: $ä” in the Name field on the new user creation screen. Tried logging out, logging in with test_admin01 account, same issue. Tried with other test admin accounts, same issue. No error message received; The log (see attached) contains a fatal error notification. Based on test case TC-1305, the application should accept the provided input and create the user. Please fix with high priority, this feature is related to REQ-0012 which is a new critical business requirement. What critical information is MISSING from this test report that would have been helpful to the developers?",
+    "options": [
+      "A) Expected result and actual result",
+      "B) References and status of the defect",
+      "C) Test environment and test element",
+      "D) Priority and severity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#38, LO: FL-5.5.1). Rationale: Test Environment and Test Item",
+    "source": "Official Sample Exam A Q#38"
+  },
+  {
+    "id": 287,
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "question": "What testing activity does a data preparation tool support?",
+    "options": [
+      "A) Test monitoring and test control",
+      "B) Test analysis",
+      "C) Test design and test implementation",
+      "D) Test completion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#39, LO: FL-6.1.1). Rationale: Test Design and Test Implementation",
+    "source": "Official Sample Exam A Q#39"
+  },
+  {
+    "id": 288,
+    "chapter": 6,
+    "topic": "Herramientas de Prueba",
+    "question": "Which element correctly identifies a potential risk of performing test automation?",
+    "options": [
+      "A) Impediments to testing",
+      "B) Branch coverage achieved",
+      "C) Testing progress",
+      "D) New risks within the testing cycle",
+      "E) Time required to repair a defect Question #A26 (1 Point) Which of the following pieces of information contained in a test progress report is the LEAST useful to business representatives?"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#40, LO: FL-6.2.1). Rationale: Branch coverage achieved",
+    "source": "Official Sample Exam A Q#40"
+  },
+  {
+    "id": 289,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Which of the following is an example of why testing is necessary?",
+    "options": [
+      "A) Dynamic testing increases quality by making test objects fail in ways that users could never achieve",
+      "B) Static tests are used by developers to identify bugs in their code earlier than can be achieved through dynamic testing",
+      "C) Static analysis provides evidence to customers that system elements that do not provide outputs are suitable for release",
+      "D) Revisions increase the quality of the requirements specifications and lead to fewer changes being needed in the derived work products"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Option D) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample B, Q#1, LO: FL-1.2.1). Rationale: Revisions increase the quality of requirements specifications and lead to fewer changes being needed in derived work products.",
+    "source": "Official Sample Exam B Q#1"
+  }
+]

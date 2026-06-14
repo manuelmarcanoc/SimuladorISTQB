@@ -1,0 +1,126 @@
+[
+  {
+    "term": "Error (Mistake)",
+    "definition": "Human action that produces an incorrect result."
+  },
+  {
+    "term": "Defect (Bug / Lack)",
+    "definition": "Imperfection or deficiency in a work product."
+  },
+  {
+    "term": "Failure",
+    "definition": "Unexpected or incorrect behavior of running software."
+  },
+  {
+    "term": "Pesticide Paradox",
+    "definition": "If the same tests are repeated, they will eventually stop finding new defects."
+  },
+  {
+    "term": "Shift-left",
+    "definition": "Perform testing activities as early as possible in the lifecycle."
+  },
+  {
+    "term": "Component Testing",
+    "definition": "Testing level focused on isolated individual units of code."
+  },
+  {
+    "term": "Integration Testing",
+    "definition": "Level focused on the interactions and interfaces between components or systems."
+  },
+  {
+    "term": "System Tests",
+    "definition": "Evaluation of the behavior and capabilities of the entire system or product."
+  },
+  {
+    "term": "Acceptance Tests",
+    "definition": "Testing performed by users to determine if the system meets their needs."
+  },
+  {
+    "term": "Regression Test",
+    "definition": "Ensure that code changes have not affected existing functionality."
+  },
+  {
+    "term": "Confirmation Test",
+    "definition": "Retest to verify that a specific defect was corrected."
+  },
+  {
+    "term": "Static Tests",
+    "definition": "Evaluate a work product (e.g. code or requirements) without executing it."
+  },
+  {
+    "term": "Static Analysis",
+    "definition": "Using tools (such as linters) to find defects in code without execution."
+  },
+  {
+    "term": "Informal Review",
+    "definition": "Undocumented review, without formal process, such as pair programming."
+  },
+  {
+    "term": "Walkthrough",
+    "definition": "Review where the author guides the team for learning or consensus purposes."
+  },
+  {
+    "term": "Inspection",
+    "definition": "The most formal type of review, led by a trained moderator."
+  },
+  {
+    "term": "Black Box Techniques",
+    "definition": "Testing techniques based on the specification, ignoring the internal structure."
+  },
+  {
+    "term": "White Box Techniques",
+    "definition": "Testing techniques based on knowledge of the internal structure of the code."
+  },
+  {
+    "term": "Equivalence Partition",
+    "definition": "Split input into valid and invalid classes where behavior is assumed equal."
+  },
+  {
+    "term": "Limit Values ​​(BVA)",
+    "definition": "Test the numerical extremes of the partitions where most defects occur."
+  },
+  {
+    "term": "Decision Tables",
+    "definition": "Useful for testing complex business rules with multiple Boolean conditions."
+  },
+  {
+    "term": "State Transition",
+    "definition": "Technique for modeling and testing systems where actions depend on previous states."
+  },
+  {
+    "term": "Sentence Coverage",
+    "definition": "Percentage of executable lines or instructions that have been tested."
+  },
+  {
+    "term": "Guessing error",
+    "definition": "Technique based on the tester's intuition and experience to predict failures."
+  },
+  {
+    "term": "Test Plan",
+    "definition": "Document that describes the scope, approach, resources and schedule of the tests."
+  },
+  {
+    "term": "Exit Criteria",
+    "definition": "Conditions that must be met to terminate a test activity."
+  },
+  {
+    "term": "Entry Criteria",
+    "definition": "Conditions that must exist before a test activity begins."
+  },
+  {
+    "term": "Traceability",
+    "definition": "Ability to link requirements with their corresponding test cases."
+  },
+  {
+    "term": "Configuration Management",
+    "definition": "Ensures that the correct version of the software and environment is tested."
+  },
+  {
+    "term": "Product Risk",
+    "definition": "Possibility of a defect in the software that affects quality (e.g. vulnerability)."
+  },
+  {
+    "term": "Project Risk",
+    "definition": "Possibility of an event that affects development (e.g. loss of personnel)."
+  }
+]

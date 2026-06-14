@@ -1,0 +1,126 @@
+[
+  {
+    "term": "Erreur (erreur)",
+    "definition": "Action humaine qui produit un résultat incorrect."
+  },
+  {
+    "term": "Défaut (Bug / Manque)",
+    "definition": "Imperfection ou déficience dans un produit de travail."
+  },
+  {
+    "term": "Échec",
+    "definition": "Comportement inattendu ou incorrect du logiciel en cours d'exécution."
+  },
+  {
+    "term": "Le paradoxe des pesticides",
+    "definition": "Si les mêmes tests sont répétés, ils finiront par ne plus détecter de nouveaux défauts."
+  },
+  {
+    "term": "Maj-gauche",
+    "definition": "Effectuez des activités de test le plus tôt possible dans le cycle de vie."
+  },
+  {
+    "term": "Test des composants",
+    "definition": "Niveau de test axé sur des unités de code individuelles isolées."
+  },
+  {
+    "term": "Tests d'intégration",
+    "definition": "Niveau axé sur les interactions et les interfaces entre composants ou systèmes."
+  },
+  {
+    "term": "Tests du système",
+    "definition": "Évaluation du comportement et des capacités de l'ensemble du système ou du produit."
+  },
+  {
+    "term": "Tests d'acceptation",
+    "definition": "Tests effectués par les utilisateurs pour déterminer si le système répond à leurs besoins."
+  },
+  {
+    "term": "Test de régression",
+    "definition": "Assurez-vous que les modifications du code n’ont pas affecté les fonctionnalités existantes."
+  },
+  {
+    "term": "Test de confirmation",
+    "definition": "Retestez pour vérifier qu’un défaut spécifique a été corrigé."
+  },
+  {
+    "term": "Tests statiques",
+    "definition": "Évaluez un produit de travail (par exemple, un code ou des exigences) sans l'exécuter."
+  },
+  {
+    "term": "Analyse statique",
+    "definition": "Utiliser des outils (tels que des linters) pour trouver des défauts dans le code sans exécution."
+  },
+  {
+    "term": "Examen informel",
+    "definition": "Examen non documenté, sans processus formel, tel que la programmation en binôme."
+  },
+  {
+    "term": "Procédure pas à pas",
+    "definition": "Examinez où l'auteur guide l'équipe à des fins d'apprentissage ou de consensus."
+  },
+  {
+    "term": "Inspection",
+    "definition": "Le type d’évaluation le plus formel, dirigé par un modérateur qualifié."
+  },
+  {
+    "term": "Techniques de la boîte noire",
+    "definition": "Techniques de test basées sur la spécification, ignorant la structure interne."
+  },
+  {
+    "term": "Techniques de la boîte blanche",
+    "definition": "Techniques de tests basées sur la connaissance de la structure interne du code."
+  },
+  {
+    "term": "Partition d'équivalence",
+    "definition": "Divisez l'entrée en classes valides et invalides où le comportement est supposé égal."
+  },
+  {
+    "term": "Valeurs limites (BVA)",
+    "definition": "Testez les extrêmes numériques des partitions où se produisent la plupart des défauts."
+  },
+  {
+    "term": "Tableaux de décision",
+    "definition": "Utile pour tester des règles métier complexes avec plusieurs conditions booléennes."
+  },
+  {
+    "term": "Transition d'État",
+    "definition": "Technique de modélisation et de test de systèmes dont les actions dépendent d'états précédents."
+  },
+  {
+    "term": "Couverture des phrases",
+    "definition": "Pourcentage de lignes exécutables ou d'instructions qui ont été testées."
+  },
+  {
+    "term": "Erreur de devinette",
+    "definition": "Technique basée sur l'intuition et l'expérience du testeur pour prédire les pannes."
+  },
+  {
+    "term": "Plan de test",
+    "definition": "Document décrivant la portée, l'approche, les ressources et le calendrier des tests."
+  },
+  {
+    "term": "Critères de sortie",
+    "definition": "Conditions qui doivent être remplies pour mettre fin à une activité de test."
+  },
+  {
+    "term": "Critères d'entrée",
+    "definition": "Conditions qui doivent exister avant le début d’une activité de test."
+  },
+  {
+    "term": "Traçabilité",
+    "definition": "Possibilité de lier les exigences avec leurs cas de test correspondants."
+  },
+  {
+    "term": "Gestion des configurations",
+    "definition": "S'assure que la version correcte du logiciel et de l'environnement est testée."
+  },
+  {
+    "term": "Risque produit",
+    "definition": "Possibilité d'un défaut dans le logiciel affectant la qualité (par exemple vulnérabilité)."
+  },
+  {
+    "term": "Risque du projet",
+    "definition": "Possibilité d'un événement affectant le développement (par exemple perte de personnel)."
+  }
+]

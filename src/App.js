@@ -3,22 +3,29 @@ import Quiz from './components/Quiz';
 import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
 import StatsPanel from './components/StatsPanel';
+import { setLanguage, t, getLanguage } from './i18n';
 
 function App() {
   const [activeTab, setActiveTab] = useState('simulador');
+  const [lang, setLang] = useState('es');
+
+  const handleLanguageChange = (newLang) => {
+    setLang(newLang);
+    setLanguage(newLang);
+  };
 
   const renderContent = () => {
     switch (activeTab) {
       case 'simulador':
-        return <Quiz />;
+        return <Quiz language={lang} />;
       case 'apuntes':
-        return <StudyNotes />;
+        return <StudyNotes language={lang} />;
       case 'conecta':
-        return <ConceptMatch />;
+        return <ConceptMatch language={lang} />;
       case 'stats':
-        return <StatsPanel />;
+        return <StatsPanel language={lang} />;
       default:
-        return <Quiz />;
+        return <Quiz language={lang} />;
     }
   };
 
@@ -30,34 +37,55 @@ function App() {
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
             <polyline points="22 4 12 14.01 9 11.01"></polyline>
           </svg>
-          Simulador ISTQB
+          ISTQB
         </div>
         <nav className="nav-links">
           <button 
             className={`nav-btn ${activeTab === 'simulador' ? 'active' : ''}`}
             onClick={() => setActiveTab('simulador')}
           >
-            Simulador
+            {t('simulator')}
           </button>
           <button 
             className={`nav-btn ${activeTab === 'apuntes' ? 'active' : ''}`}
             onClick={() => setActiveTab('apuntes')}
           >
-            Apuntes
+            {t('notes')}
           </button>
           <button 
             className={`nav-btn ${activeTab === 'conecta' ? 'active' : ''}`}
             onClick={() => setActiveTab('conecta')}
           >
-            Minijuego
+            {t('minigame')}
           </button>
           <button 
             className={`nav-btn ${activeTab === 'stats' ? 'active' : ''}`}
             onClick={() => setActiveTab('stats')}
           >
-            Estadísticas
+            {t('stats')}
           </button>
         </nav>
+        <div className="lang-selector" style={{ display: 'flex', gap: '5px', background: 'var(--primary-light)', padding: '4px', borderRadius: 'var(--radius-pill)' }}>
+          {['es', 'en', 'fr'].map(l => (
+            <button 
+              key={l}
+              onClick={() => handleLanguageChange(l)}
+              style={{
+                border: 'none',
+                background: lang === l ? 'var(--primary)' : 'transparent',
+                color: lang === l ? 'white' : 'var(--text-muted)',
+                padding: '4px 10px',
+                borderRadius: 'var(--radius-pill)',
+                cursor: 'pointer',
+                fontWeight: '600',
+                textTransform: 'uppercase',
+                fontSize: '0.85rem'
+              }}
+            >
+              {l}
+            </button>
+          ))}
+        </div>
       </header>
 
       <div className="layout-wrapper">

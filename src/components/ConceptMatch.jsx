@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import conceptsData from '../data/concepts.json';
+import { t } from '../i18n';
 import { loadStats, saveStats, loadAchievements, saveAchievements, checkAndUnlockAchievements } from './Achievements';
 
 function shuffleArray(array) {
@@ -11,7 +11,7 @@ function shuffleArray(array) {
   return newArr;
 }
 
-const ConceptMatch = ({ onClose, onNewAchievements }) => {
+const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
   const [roundTerms, setRoundTerms] = useState([]);
   const [roundDefs, setRoundDefs] = useState([]);
   const [matchedIds, setMatchedIds] = useState(new Set());
@@ -26,25 +26,30 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
   const [isStarted, setIsStarted] = useState(false);
 
   const startNewRound = useCallback(() => {
-    const shuffledConcepts = shuffleArray(conceptsData).slice(0, 5);
-    
-    const roundData = shuffledConcepts.map((item, index) => ({
-      ...item,
-      id: index
-    }));
+    import(`../data/concepts${language === 'es' ? '' : '_' + language}.json`)
+      .then((module) => {
+        const conceptsData = module.default;
+        const shuffledConcepts = shuffleArray(conceptsData).slice(0, 5);
+        
+        const roundData = shuffledConcepts.map((item, index) => ({
+          ...item,
+          id: index
+        }));
 
-    const terms = shuffleArray(roundData.map(item => ({ id: item.id, text: item.term })));
-    const defs = shuffleArray(roundData.map(item => ({ id: item.id, text: item.definition })));
+        const terms = shuffleArray(roundData.map(item => ({ id: item.id, text: item.term })));
+        const defs = shuffleArray(roundData.map(item => ({ id: item.id, text: item.definition })));
 
-    setRoundTerms(terms);
-    setRoundDefs(defs);
-    setMatchedIds(new Set());
-    setSelectedTerm(null);
-    setSelectedDef(null);
-    setErrorPair(null);
-    setRoundComplete(false);
-    setIsStarted(true);
-  }, []);
+        setRoundTerms(terms);
+        setRoundDefs(defs);
+        setMatchedIds(new Set());
+        setSelectedTerm(null);
+        setSelectedDef(null);
+        setErrorPair(null);
+        setRoundComplete(false);
+        setIsStarted(true);
+      })
+      .catch(err => console.error("Error loading concepts:", err));
+  }, [language]);
 
   const handleTermClick = (id) => {
     if (matchedIds.has(id)) return;
@@ -121,33 +126,41 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
       <div style={{ padding: '2rem' }}>
         {!isStarted ? (
           <div style={{ textAlign: 'center', padding: '2rem 1rem' }} className="animate-in">
-            <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🔗</div>
-            <h2 className="question-text" style={{ marginBottom: '1rem' }}>Domina la Terminología</h2>
+            <div style={{ color: 'var(--primary)', marginBottom: '1rem' }}>
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+              </svg>
+            </div>
+            <h2 className="question-text" style={{ marginBottom: '1rem' }}>{t('dominate')}</h2>
             <p style={{ margin: '0 auto 2rem auto', color: 'var(--text-muted)', lineHeight: '1.6', maxWidth: '600px', fontSize: '1.1rem' }}>
-              El examen ISTQB requiere conocer a la perfección su glosario.<br/>
-              Empareja cada <strong>término</strong> con su <strong>definición</strong> correcta para ganar puntos.<br/>
-              ¡Consigue multiplicadores haciendo emparejamientos seguidos sin fallar!
+              {t('dominateText')}
             </p>
             <button className="btn" style={{ padding: '12px 32px', fontSize: '1.1rem' }} onClick={startNewRound}>
-              Empezar Partida
+              {t('start')}
             </button>
           </div>
         ) : roundComplete ? (
           <div className="results-card animate-in" style={{ padding: '2rem 0' }}>
-            <div style={{ fontSize: '5rem', margin: '0 auto', color: 'var(--warning)' }}>🏆</div>
-            <h2 className="card-title" style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>¡Ronda Perfecta!</h2>
+            <div style={{ color: 'var(--warning)', margin: '0 auto' }}>
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h2 className="card-title" style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>{t('roundComplete')}</h2>
             <div className="score-display" style={{ color: 'var(--primary)', margin: '1rem 0' }}>{score} pts</div>
             <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>
               Has emparejado todos los conceptos correctamente.
             </p>
             <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
-              <button className="btn" onClick={startNewRound}>Jugar Nueva Ronda</button>
+              <button className="btn" onClick={startNewRound}>{t('playAgain')}</button>
             </div>
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginTop: '1rem' }} className="animate-in">
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>Términos</h3>
+              <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>{t('terms')}</h3>
               {roundTerms.map(t => {
                 const isMatched = matchedIds.has(t.id);
                 const isSelected = selectedTerm === t.id;
@@ -180,7 +193,7 @@ const ConceptMatch = ({ onClose, onNewAchievements }) => {
             </div>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>Definiciones</h3>
+              <h3 style={{ fontSize: '1.2rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '0.5rem', textAlign: 'center' }}>{t('definitions')}</h3>
               {roundDefs.map(d => {
                 const isMatched = matchedIds.has(d.id);
                 const isSelected = selectedDef === d.id;

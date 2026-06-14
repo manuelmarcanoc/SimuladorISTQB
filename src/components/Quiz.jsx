@@ -3,7 +3,8 @@ import QuestionCard from './QuestionCard';
 import Results from './Results';
 import QuizSetup from './QuizSetup';
 import QuestionNav from './QuestionNav';
-import questionsData from '../data/questions.json';
+import questionsDataEs from '../data/questions.json';
+import { t } from '../i18n';
 import {
   loadStats, saveStats, loadAchievements, saveAchievements,
   checkAndUnlockAchievements,
@@ -22,7 +23,7 @@ function shuffle(arr) {
 
 
 
-const Quiz = ({ onClose, onNewAchievements }) => {
+const Quiz = ({ language, onClose, onNewAchievements }) => {
   const [isSetupPhase, setIsSetupPhase] = useState(true);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -107,9 +108,12 @@ const Quiz = ({ onClose, onNewAchievements }) => {
   }, [showResults]);
 
   const startQuiz = useCallback((config) => {
-    let filtered = config.questions
-      ? config.questions
-      : [...questionsData];
+    import(`../data/questions${language === 'es' ? '' : '_' + language}.json`)
+      .then((module) => {
+        const questionsData = module.default || module;
+        let filtered = config.questions
+          ? config.questions
+          : [...questionsData];
 
     if (!config.questions) {
       if (config.chapter !== 'all') {
@@ -132,16 +136,21 @@ const Quiz = ({ onClose, onNewAchievements }) => {
       };
     });
 
-    setQuestions(randomizedQuestions);
-    setIsSetupPhase(false);
-    setCurrentQuestionIndex(0);
-    setShowResults(false);
-    setUserAnswers({});
-    setCurrentStreak(0);
-    const t = randomizedQuestions.length * (config.timePerQuestion || 90);
-    setTimeLeft(t);
-    setTotalTime(t);
-  }, []);
+        setQuestions(randomizedQuestions);
+        setIsSetupPhase(false);
+        setCurrentQuestionIndex(0);
+        setShowResults(false);
+        setUserAnswers({});
+        setCurrentStreak(0);
+        const tTotal = randomizedQuestions.length * (config.timePerQuestion || 90);
+        setTimeLeft(tTotal);
+        setTotalTime(tTotal);
+      })
+      .catch(err => {
+        console.error("Error loading questions for lang", language, err);
+        alert("Translation not available yet. Please wait a few seconds and try again.");
+      });
+  }, [language]);
 
   const handleOptionSelect = useCallback((index) => {
     setUserAnswers(prev => {
@@ -202,10 +211,10 @@ const Quiz = ({ onClose, onNewAchievements }) => {
 
         <div className="card-header">
           <div className="card-title">
-            Simulador ISTQB
+            {t('simulator')}
             {!isSetupPhase && !showResults && (
               <span style={{ color: timerWarning ? 'var(--warning)' : 'var(--text-muted)', fontSize: '1rem', marginLeft: '1rem' }}>
-                [ Tiempo: {formatTime(timeLeft)} ]
+                [ {t('time')}: {formatTime(timeLeft)} ]
               </span>
             )}
             {!isSetupPhase && !showResults && currentStreak >= 3 && (
