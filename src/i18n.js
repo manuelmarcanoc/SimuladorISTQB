@@ -25,7 +25,12 @@ export const translations = {
     roundComplete: '¡Ronda Perfecta!',
     playAgain: 'Jugar Nueva Ronda',
     dominate: 'Domina la Terminología',
-    dominateText: 'El examen ISTQB requiere conocer a la perfección su glosario. Empareja cada término con su definición correcta para ganar puntos.'
+    dominateText: 'El examen ISTQB requiere conocer a la perfección su glosario. Empareja cada término con su definición correcta para ganar puntos.',
+    chapter: 'Cap.',
+    skip: 'Saltar Pregunta',
+    finishExam: 'Terminar Examen',
+    viewResults: 'Ver Resultados',
+    explanation: 'Explicación:'
   },
   en: {
     simulator: 'Simulator',
@@ -53,7 +58,12 @@ export const translations = {
     roundComplete: 'Perfect Round!',
     playAgain: 'Play Next Round',
     dominate: 'Master the Terminology',
-    dominateText: 'The ISTQB exam requires perfect knowledge of its glossary. Match each term with its correct definition to earn points.'
+    dominateText: 'The ISTQB exam requires perfect knowledge of its glossary. Match each term with its correct definition to earn points.',
+    chapter: 'Ch.',
+    skip: 'Skip Question',
+    finishExam: 'Finish Exam',
+    viewResults: 'View Results',
+    explanation: 'Explanation:'
   },
   fr: {
     simulator: 'Simulateur',
@@ -81,7 +91,12 @@ export const translations = {
     roundComplete: 'Manche Parfaite!',
     playAgain: 'Jouer la Prochaine Manche',
     dominate: 'Maîtrisez la Terminologie',
-    dominateText: 'L\'examen ISTQB nécessite une parfaite connaissance de son glossaire. Associez chaque terme à sa définition correcte pour gagner des points.'
+    dominateText: 'L\'examen ISTQB nécessite une parfaite connaissance de son glossaire. Associez chaque terme à sa définition correcte pour gagner des points.',
+    chapter: 'Chap.',
+    skip: 'Passer la Question',
+    finishExam: 'Terminer l\'Examen',
+    viewResults: 'Voir les Résultats',
+    explanation: 'Explication :'
   }
 };
 

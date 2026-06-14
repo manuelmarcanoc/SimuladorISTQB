@@ -125,7 +125,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
     // Shuffle options within each question
     const randomizedQuestions = filtered.map(q => {
       const withMeta = q.options.map((opt, idx) => ({
-        text: opt,
+        text: opt.replace(/^[A-Ea-e][)\.]\s*/, ''),
         isCorrect: idx === q.correctAnswer,
       }));
       const shuffled = shuffle(withMeta);

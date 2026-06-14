@@ -1,4 +1,5 @@
 import React from 'react';
+import { t } from '../i18n';
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
@@ -22,9 +23,9 @@ const QuestionCard = ({
       </div>
 
       <div className="progress-container">
-        <span>Pregunta {currentQuestionIndex + 1} de {totalQuestions}</span>
+        <span>{t('question')} {currentQuestionIndex + 1} {t('of')} {totalQuestions}</span>
         <div style={{ display: 'flex', gap: '6px', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-          <span className="topic-badge">Cap. {questionData.chapter} — {questionData.topic}</span>
+          <span className="topic-badge">{t('chapter')} {questionData.chapter} — {questionData.topic}</span>
         </div>
       </div>
 
@@ -67,19 +68,19 @@ const QuestionCard = ({
 
       {isAnswered && questionData.explanation && (
         <div className="explanation-box">
-          <strong>Explicación:</strong> {questionData.explanation}
+          <strong>{t('explanation')}</strong> {questionData.explanation}
         </div>
       )}
 
       <div style={{ display: 'flex', gap: '10px', marginTop: '1rem' }}>
         {!isAnswered && (
           <button className="btn btn-secondary" onClick={handleNextQuestion}>
-            {currentQuestionIndex === totalQuestions - 1 ? 'Terminar Examen' : 'Saltar Pregunta'}
+            {currentQuestionIndex === totalQuestions - 1 ? t('finishExam') : t('skip')}
           </button>
         )}
         {isAnswered && (
           <button className="btn" onClick={handleNextQuestion}>
-            {currentQuestionIndex === totalQuestions - 1 ? 'Ver Resultados' : 'Siguiente →'}
+            {currentQuestionIndex === totalQuestions - 1 ? t('viewResults') : t('next') + ' →'}
           </button>
         )}
       </div>
