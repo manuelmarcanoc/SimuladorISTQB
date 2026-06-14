@@ -4015,5 +4015,365 @@
     "correctAnswer": 1,
     "explanation": "Planning Poker es una técnica de estimación basada en la experiencia y en el consenso interactivo. El equipo discute y vota de forma anónima hasta alcanzar un acuerdo común sobre el esfuerzo requerido.",
     "source": "Generadas (Agile/Metrics)"
+  },
+  {
+    "id": 1056,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor la importancia de las pruebas en el ciclo de vida del desarrollo de software (SDLC)?",
+    "options": [
+      "Las pruebas se realizan solo al final del SDLC para verificar el producto final.",
+      "Las pruebas deben planificarse y realizarse a lo largo de todo el SDLC para detectar problemas temprano.",
+      "Las pruebas son opcionales y solo se necesitan si el cliente lo solicita.",
+      "Las pruebas se centran únicamente en la funcionalidad del software y no en otros aspectos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Las pruebas deben integrarse en cada fase del SDLC, no solo al final. B. Correcto. Planificar y realizar pruebas durante todo el SDLC ayuda a identificar y resolver problemas a tiempo. C. Incorrecto. Las pruebas son fundamentales y no deben ser opcionales. D. Incorrecto. Las pruebas deben abordar tanto la funcionalidad como otros aspectos como la usabilidad y el rendimiento.",
+    "source": "Generadas (SDLC)"
+  },
+  {
+    "id": 1057,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "En el contexto de las pruebas de software, ¿cuál de las siguientes afirmaciones describe mejor el objetivo de la planificación de pruebas?",
+    "options": [
+      "Identificar todos los defectos posibles en el software.",
+      "Definir los recursos, el alcance y el enfoque de las pruebas a realizar.",
+      "Crear casos de prueba específicos para cada módulo del software.",
+      "Revisar el código fuente para asegurar la calidad del software."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Aunque identificar defectos es un objetivo de las pruebas, la planificación se centra en definir cómo se llevarán a cabo las pruebas. B. Correcto. La planificación define los recursos necesarios, el alcance y el enfoque de las pruebas. C. Incorrecto. Crear casos de prueba es parte de la ejecución, no de la planificación. D. Incorrecto. Revisar el código fuente es parte de la revisión de calidad.",
+    "source": "Generadas (Test Planning)"
+  },
+  {
+    "id": 1058,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál es una de las principales ventajas de realizar retrospectivas periódicas en un equipo de desarrollo?",
+    "options": [
+      "Permiten a los miembros del equipo compartir sus opiniones sin restricciones sobre el producto final.",
+      "Facilitan la identificación de patrones de comunicación que pueden mejorar la colaboración dentro del equipo.",
+      "Proporcionan un espacio para que el equipo evalúe y ajuste su proceso de trabajo en función de lo aprendido en el ciclo anterior.",
+      "Ayudan a establecer métricas para medir el rendimiento del producto terminado."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. El enfoque principal de las retrospectivas es sobre el proceso y no sobre el producto. B. No es correcto. Identificar patrones de comunicación no es el objetivo principal. C. Es correcto. Las retrospectivas son fundamentales para que el equipo evalúe y ajuste su proceso basándose en la experiencia previa, contribuyendo a la mejora continua. D. No es correcto. Las retrospectivas no están centradas en establecer métricas para el producto.",
+    "source": "Generadas (Retrospectivas)"
+  },
+  {
+    "id": 1059,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál es un beneficio clave de realizar retrospectivas al final de un proyecto?",
+    "options": [
+      "Permitir a los miembros del equipo compartir sus opiniones sobre la última entrega del proyecto.",
+      "Generar un ambiente de crítica donde solo se mencionan los errores del equipo.",
+      "Facilitar la identificación de lecciones aprendidas que pueden ser aplicadas en futuros proyectos.",
+      "Asegurar que todos los miembros del equipo tengan la oportunidad de hablar sin un enfoque claro en los procesos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. Aunque compartir opiniones es parte de las retrospectivas, el enfoque principal es la mejora continua. B. No es correcto. Las retrospectivas no deben ser un espacio de crítica negativa. C. Es correcto. Identificar lecciones aprendidas es fundamental para aplicar mejoras en futuros proyectos. D. No es correcto. Las retrospectivas deben tener un enfoque claro en la mejora de procesos.",
+    "source": "Generadas (Retrospectivas)"
+  },
+  {
+    "id": 1060,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de las siguientes descripciones se asocia mejor con el desarrollo guiado por pruebas (TDD)?",
+    "options": [
+      "En TDD, se crean primero los casos de prueba y luego se desarrolla el código para pasarlos.",
+      "En TDD, se escribe el código y luego se generan pruebas manuales para verificar su funcionamiento.",
+      "En TDD, las pruebas se realizan solo después de que toda la funcionalidad ha sido implementada.",
+      "En TDD, se enfoca únicamente en pruebas de integración y no en pruebas unitarias."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. TDD se basa en el ciclo de escribir una prueba, hacer que falle, implementar el código y luego refactorizar. B. No es correcto. En TDD, las pruebas son parte del proceso de desarrollo, no se generan manualmente después. C. No es correcto. TDD implica que las pruebas se escriban antes de implementar la funcionalidad. D. No es correcto. TDD se enfoca principalmente en pruebas unitarias.",
+    "source": "Generadas (TDD)"
+  },
+  {
+    "id": 1061,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR el enfoque de desarrollo guiado por pruebas de unidad (TDD)?",
+    "options": [
+      "En TDD, las pruebas se escriben después del código para validar su funcionamiento.",
+      "En TDD, se crean primero las pruebas y luego se desarrolla el código necesario para pasarlas.",
+      "En TDD, los desarrolladores se enfocan en la documentación en lugar de las pruebas automatizadas.",
+      "En TDD, el enfoque es exclusivamente en pruebas de integración y no en pruebas unitarias."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. En TDD, las pruebas se escriben antes del código, no después. B. Es correcto. En TDD, se escriben las pruebas primero y luego se desarrolla el código para cumplir con esas pruebas. C. No es correcto. TDD se centra en las pruebas automatizadas. D. No es correcto. TDD se centra en pruebas unitarias, no exclusivamente en pruebas de integración.",
+    "source": "Generadas (TDD)"
+  },
+  {
+    "id": 1062,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Un equipo ha corregido varios defectos y lanzado una nueva versión. Antes de la corrección, algunos casos de prueba fallaron. El equipo necesita verificar que los defectos se han corregido y que los cambios no han afectado otras partes del sistema. ¿Cuál de las siguientes descripciones se ajusta mejor a las pruebas que se llevarán a cabo?",
+    "options": [
+      "Las pruebas de confirmación se centran únicamente en los casos de prueba que fallaron anteriormente.",
+      "Las pruebas de regresión aseguran que las funcionalidades que no fueron modificadas sigan funcionando correctamente.",
+      "Las pruebas de confirmación incluyen los casos de prueba que fallaron en versiones anteriores y los que se ejecutan por primera vez.",
+      "Las pruebas de regresión solo se aplican a nuevos defectos descubiertos en la nueva versión."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Las pruebas de confirmación verifican que los defectos corregidos funcionen, pero no se limitan a los casos que fallaron. B. Correcto. Las pruebas de regresión verifican que las modificaciones no han afectado las funcionalidades existentes. C. Incorrecto. Las pruebas de confirmación solo se refieren a los defectos corregidos. D. Incorrecto. Las pruebas de regresión se aplican a todas las funcionalidades existentes.",
+    "source": "Generadas (Confirmation/Regression)"
+  },
+  {
+    "id": 1063,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Has encontrado defectos en una nueva característica del software y, tras su corrección, ejecutas pruebas nuevamente. ¿Qué tipo de pruebas estás realizando si estás validando que los defectos han sido corregidos?",
+    "options": [
+      "Pruebas de regresión",
+      "Pruebas de confirmación",
+      "Pruebas funcionales",
+      "Pruebas de caja negra"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Las pruebas de regresión se centran en verificar que funcionalidades que ya funcionaban sigan funcionando. B. Correcto. Las pruebas de confirmación se realizan para asegurar que los defectos identificados han sido efectivamente corregidos. C. Incorrecto. Las pruebas funcionales evalúan el comportamiento del software frente a requisitos. D. Incorrecto. Las pruebas de caja negra no están específicamente relacionadas con la corrección de defectos.",
+    "source": "Generadas (Confirmation/Regression)"
+  },
+  {
+    "id": 1064,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de los siguientes enunciados describe MEJOR el propósito de las pruebas de sistema en comparación con las pruebas de integración? (1) Las pruebas de sistema se centran en el comportamiento del sistema completo como un todo. (2) Las pruebas de integración verifican la interacción entre módulos individuales. (3) Las pruebas de sistema son más específicas y se enfocan en componentes aislados. (4) Las pruebas de integración se realizan después de las pruebas de aceptación.",
+    "options": [
+      "1 y 2 son correctas",
+      "1 y 3 son correctas",
+      "2 y 4 son correctas",
+      "1, 2 y 3 son correctas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correcto. Las pruebas de sistema evalúan el comportamiento del sistema completo (1) y las pruebas de integración se enfocan en cómo los módulos interactúan entre sí (2). B. Incorrecto. La afirmación 3 es falsa, las pruebas de sistema no son más específicas. C. Incorrecto. La afirmación 4 es falsa, las pruebas de integración se realizan ANTES de las de aceptación. D. Incorrecto. La afirmación 3 es incorrecta.",
+    "source": "Generadas (Test Levels)"
+  },
+  {
+    "id": 1065,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de los siguientes niveles de prueba se enfoca principalmente en verificar la interacción entre diferentes módulos del sistema?",
+    "options": [
+      "Pruebas de aceptación",
+      "Pruebas de sistema",
+      "Pruebas de integración",
+      "Pruebas de componentes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. Las pruebas de aceptación validan que el sistema cumple los requisitos del usuario desde una perspectiva comercial. B. Las pruebas de sistema verifican el cumplimiento global de requisitos. C. Correcto. Las pruebas de integración se centran en verificar cómo interactúan diferentes módulos, asegurando que funcionen correctamente juntos. D. Las pruebas de componentes verifican el funcionamiento de un módulo individual.",
+    "source": "Generadas (Test Levels)"
+  },
+  {
+    "id": 1066,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor un beneficio del enfoque 'desplazamiento hacia la izquierda (shift left)'?",
+    "options": [
+      "Reduce el costo total del ciclo de vida al identificar defectos más tarde en el proceso.",
+      "Mejora la colaboración entre los equipos de desarrollo y pruebas desde el inicio del proyecto.",
+      "Aumenta la cantidad de pruebas realizadas en el entorno de producción.",
+      "Elimina la necesidad de pruebas manuales al final del ciclo de desarrollo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. El shift-left busca identificar defectos tempranamente, lo que reduce costos. B. Es correcto. Fomenta la colaboración temprana entre los equipos para detectar y resolver problemas antes. C. No es correcto. Aumentar pruebas en producción no es un objetivo del shift-left. D. No es correcto. Si bien se busca automatizar, el enfoque no elimina las pruebas manuales.",
+    "source": "Generadas (Shift Left)"
+  },
+  {
+    "id": 1067,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor cómo el enfoque de 'desplazamiento hacia la izquierda' puede mejorar la calidad del software?",
+    "options": [
+      "Permite la detección y corrección de defectos en etapas posteriores del ciclo de vida del desarrollo.",
+      "Facilita la integración continua y la entrega temprana de valor al cliente.",
+      "Aumenta la complejidad del proceso de desarrollo al introducir más pruebas en las fases iniciales.",
+      "Reduce la necesidad de documentación al aplicar más pruebas de usuario al final del ciclo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. El shift-left se centra en detectar defectos lo antes posible, no en etapas posteriores. B. Es correcto. Este enfoque permite integrar y entregar software de valor al cliente más rápidamente, mejorando la calidad desde el inicio. C. No es correcto. El objetivo es simplificar el proceso al mejorar la calidad inicial. D. No es correcto. El shift-left no elimina la necesidad de documentación.",
+    "source": "Generadas (Shift Left)"
+  },
+  {
+    "id": 1068,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Cuál de las siguientes opciones describe mejor por qué son necesarias las pruebas en el desarrollo de software?",
+    "options": [
+      "Las pruebas ayudan a identificar errores antes de que el software sea entregado a los usuarios.",
+      "Las pruebas son solo un requisito para cumplir con las normativas de calidad.",
+      "Las pruebas solo son necesarias si hay un cambio en los requisitos del software.",
+      "Las pruebas garantizan que el software funcionará en todos los dispositivos disponibles."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correcto. Las pruebas son esenciales para identificar y corregir errores antes de que los usuarios finales utilicen el software. B. Incorrecto. Su valor principal radica en la identificación de defectos y mejora de la calidad. C. Incorrecto. Las pruebas deben realizarse independientemente de si hay cambios en los requisitos. D. Incorrecto. No se puede garantizar que el software funcione en todos los dispositivos.",
+    "source": "Generadas (Why Testing)"
+  },
+  {
+    "id": 1069,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Cuál de los siguientes es un objetivo típico de las pruebas de software?",
+    "options": [
+      "Asegurarse de que el software cumpla con todos los requisitos del cliente.",
+      "Identificar defectos en el software antes de su lanzamiento.",
+      "Probar todas las posibles combinaciones de entradas del sistema.",
+      "Garantizar que el sistema esté completamente libre de errores."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Las pruebas no pueden asegurar el cumplimiento total de todos los requisitos. B. Es correcto. Un objetivo fundamental de las pruebas es identificar defectos antes de que el software sea lanzado. C. No es correcto. Probar todas las combinaciones es impracticable (principio de prueba 2). D. No es correcto. Es imposible garantizar que un sistema esté totalmente libre de errores.",
+    "source": "Generadas (Test Objectives)"
+  },
+  {
+    "id": 1070,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Cuáles de los siguientes contextos podría modificar el enfoque del proceso de pruebas en un proyecto de software? (i) El tipo de cliente y sus expectativas, (ii) La experiencia del equipo de desarrollo, (iii) La duración del proyecto, (iv) La metodología de desarrollo utilizada.",
+    "options": [
+      "i y ii son contextos que modifican el enfoque de pruebas",
+      "ii y iii son contextos que modifican el enfoque de pruebas",
+      "i, iii y iv son contextos que modifican el enfoque de pruebas",
+      "ii, iv son contextos que modifican el enfoque de pruebas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C. Es correcto. El tipo de cliente (i) influye en el enfoque; la duración del proyecto (iii) afecta la planificación; y la metodología de desarrollo (iv) impacta en el tipo de pruebas a realizar. Estos tres tienen mayor peso que la experiencia del equipo por sí sola.",
+    "source": "Generadas (Context)"
+  },
+  {
+    "id": 1071,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Qué elementos del contexto pueden alterar la estrategia de pruebas en un proyecto? (i) La experiencia del equipo de pruebas, (ii) El presupuesto disponible para pruebas, (iii) Las herramientas de automatización utilizadas, (iv) La cultura organizacional del equipo.",
+    "options": [
+      "i, ii, iii alteran la estrategia de pruebas",
+      "ii, iii, iv alteran la estrategia de pruebas",
+      "i, iii, iv alteran la estrategia de pruebas",
+      "i, ii, iv alteran la estrategia de pruebas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Correcto. El presupuesto (ii) afecta directamente la planificación y ejecución de pruebas. Las herramientas de automatización (iii) pueden cambiar la forma en que se realizan las pruebas. La cultura organizacional (iv) influye en la comunicación y colaboración. Estos tres son los más determinantes para alterar la estrategia.",
+    "source": "Generadas (Context)"
+  },
+  {
+    "id": 1072,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Durante una revisión de las pruebas, notas que se están utilizando pruebas similares en diferentes proyectos sin ninguna adaptación. Esto ha resultado en alta tasa de éxito pero muchos defectos pasados por alto. ¿Cuál principio de prueba podría explicar esta situación?",
+    "options": [
+      "Las pruebas exhaustivas son imposibles",
+      "Las pruebas se desgastan",
+      "Los defectos se agrupan",
+      "Falacia de la ausencia de defectos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Este principio trata sobre las combinaciones posibles de datos. B. Es correcto. Las pruebas se desgastan (Pesticide Paradox): las mismas pruebas repetidas sin adaptación pierden efectividad y dejan de encontrar nuevos defectos. C. No es correcto. Los defectos se agrupan trata sobre la concentración de defectos en módulos específicos. D. No es correcto. La falacia se refiere a la creencia errónea de que sin defectos el software es perfecto.",
+    "source": "Generadas (Test Principles)"
+  },
+  {
+    "id": 1073,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Durante un proyecto, el equipo cree que su software es perfecto porque no han recibido informes de errores en semanas. Como probador, sabes que esto no garantiza la calidad. ¿Qué principio de prueba refleja esta situación?",
+    "options": [
+      "La falacia de la ausencia de defectos",
+      "Las pruebas se desgastan",
+      "Los defectos se agrupan",
+      "Las pruebas exhaustivas son imposibles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Este principio indica que la ausencia de defectos reportados no significa que el software esté libre de defectos, ya que puede llevar a una falsa sensación de seguridad. B. No es correcto. Este principio se refiere a que las pruebas repetitivas pierden efectividad. C. No es correcto. Este principio trata sobre la concentración de defectos. D. No es correcto. Este principio trata sobre la imposibilidad de probar todas las combinaciones.",
+    "source": "Generadas (Test Principles)"
+  },
+  {
+    "id": 1074,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Qué habilidades son esenciales para un probador al trabajar en un equipo ágil? (i) Escucha activa, (ii) Conocimientos técnicos profundos, (iii) Comunicación efectiva, (iv) Capacidad para trabajar bajo presión.",
+    "options": [
+      "i y iii son esenciales; ii y iv no lo son",
+      "i, ii y iv son esenciales; iii no lo es",
+      "iii y iv son esenciales; i y ii no lo son",
+      "i, ii y iii son esenciales; iv no lo es"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D. Correcto. La escucha activa (i), los conocimientos técnicos profundos (ii) y la comunicación efectiva (iii) son habilidades fundamentales para un probador en un equipo ágil. La capacidad para trabajar bajo presión (iv) es menos determinante como habilidad genérica de prueba según ISTQB.",
+    "source": "Generadas (Tester Skills)"
+  },
+  {
+    "id": 1075,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Cuál de las siguientes habilidades (i-v) es ESENCIAL para un probador? (i) Análisis de riesgos, (ii) Comunicación efectiva, (iii) Conocimientos técnicos sobre programación, (iv) Creatividad, (v) Gestión del tiempo.",
+    "options": [
+      "i y ii son esenciales; iii, iv y v no lo son",
+      "iii y iv son esenciales; i, ii y v no lo son",
+      "ii y v son esenciales; i, iii y iv no lo son",
+      "i, ii y iv son esenciales; iii y v no lo son"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D. Es correcto. El análisis de riesgos (i) y la comunicación efectiva (ii) son habilidades fundamentales, y la creatividad (iv) también juega un papel importante en la identificación de problemas de calidad. Los conocimientos técnicos profundos (iii) y la gestión del tiempo (v) son menos determinantes como habilidades esenciales.",
+    "source": "Generadas (Tester Skills)"
+  },
+  {
+    "id": 1076,
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "En un proyecto de desarrollo de software, el equipo está revisando el enfoque de pruebas para una nueva funcionalidad de gestión de usuarios. ¿Cuál de las siguientes actividades es parte del diseño de pruebas?",
+    "options": [
+      "Describir los criterios de aceptación para la funcionalidad de gestión de usuarios.",
+      "Revisar los requisitos del sistema para identificar posibles condiciones de prueba.",
+      "Ejecutar los casos de prueba definidos para verificar la funcionalidad de gestión de usuarios.",
+      "Crear casos de prueba a partir de los requisitos y diseñar las condiciones de prueba asociadas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A. No es correcto. Describir criterios de aceptación es parte de la especificación de requisitos. B. No es correcto. Revisar requisitos es parte del análisis de pruebas. C. No es correcto. Ejecutar casos de prueba es parte de la fase de ejecución. D. Es correcto. Crear casos de prueba y diseñar condiciones de prueba son actividades clave en el diseño de pruebas.",
+    "source": "Generadas (Test Design)"
+  },
+  {
+    "id": 1077,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Estás participando en un proyecto de software que desarrolla una plataforma de e-learning. El equipo ha decidido llevar a cabo pruebas de regresión. ¿Cuál de las siguientes actividades se realiza durante la fase de planificación de pruebas?",
+    "options": [
+      "Definir qué funcionalidades se probarán en la próxima iteración.",
+      "Ejecutar casos de prueba para verificar que la funcionalidad de la plataforma funcione.",
+      "Revisar los resultados de las pruebas y documentar los defectos encontrados.",
+      "Analizar los requisitos del sistema para identificar casos de prueba."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Definir las funcionalidades que se probarán es parte de la planificación de pruebas. B. No es correcto. La ejecución es parte de la fase de ejecución de pruebas. C. No es correcto. Revisar resultados y documentar defectos se realiza tras la ejecución. D. No es correcto. Analizar requisitos para identificar casos de prueba es parte del análisis de pruebas.",
+    "source": "Generadas (Test Planning)"
+  },
+  {
+    "id": 1078,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "¿Cuál de las siguientes actividades es TÍPICA de un rol de gerente de pruebas?",
+    "options": [
+      "Desarrollar casos de prueba",
+      "Gestionar el equipo de pruebas",
+      "Ejecutar pruebas automatizadas",
+      "Realizar análisis de defectos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Desarrollar casos de prueba es una tarea que generalmente realiza un probador. B. Es correcto. Gestionar el equipo de pruebas es una responsabilidad clave del gerente de pruebas. C. No es correcto. Ejecutar pruebas automatizadas es tarea de los probadores. D. No es correcto. El análisis de defectos es responsabilidad de los probadores principalmente.",
+    "source": "Generadas (Test Roles)"
+  },
+  {
+    "id": 1079,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "¿Cuál de las siguientes tareas es TÍPICAMENTE realizada por un líder de pruebas?",
+    "options": [
+      "Desarrollar casos de prueba",
+      "Coordinar recursos del equipo de pruebas",
+      "Ejecutar pruebas de regresión",
+      "Especificar requisitos del sistema"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Desarrollar casos de prueba es responsabilidad de los probadores o analistas. B. Es correcto. Un líder de pruebas se encarga de coordinar los recursos y las actividades del equipo de pruebas. C. No es correcto. La ejecución de pruebas de regresión es más comúnmente realizada por los probadores. D. No es correcto. Especificar requisitos es responsabilidad de los analistas de negocios o del product owner.",
+    "source": "Generadas (Test Roles)"
   }
 ]

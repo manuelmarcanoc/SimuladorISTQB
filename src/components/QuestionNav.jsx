@@ -1,4 +1,5 @@
 import React from 'react';
+import { t } from '../i18n';
 
 const QuestionNav = ({ totalQuestions, currentQuestionIndex, userAnswers, onJump, onFinish }) => {
   return (
@@ -24,7 +25,7 @@ const QuestionNav = ({ totalQuestions, currentQuestionIndex, userAnswers, onJump
         })}
       </div>
       <button className="btn" onClick={onFinish} style={{ marginTop: '20px' }}>
-        [ Terminar Examen ]
+        {t('finishExam')}
       </button>
     </div>
   );
