@@ -4923,7 +4923,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)? Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final. Pruebas de sistema Pruebas de componentes Pruebas de integración Pruebas de aceptación",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)?\n\n**Enfoques:**\n1. Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado.\n2. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente.\n3. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos.\n4. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final.\n\n**Niveles de prueba:**\nA. Pruebas de sistema\nB. Pruebas de componentes\nC. Pruebas de integración\nD. Pruebas de aceptación",
     "options": [
       "A. 1A, 2B, 3C, 4D",
       "B. 1C, 2A, 3D, 4B",

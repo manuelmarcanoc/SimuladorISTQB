@@ -4871,7 +4871,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Which of the following statements adequately describe the levels of testing (1-4) and their specific approaches (A-D)? Testing performed to validate full system functionality in a simulated production environment. Tests that focus on verifying that individual modules are working correctly. Tests that ensure that different modules integrate and work together. Testing that involves validation of requirements from the perspective of the end user. System testing Component testing Integration testing Acceptance testing",
+    "question": "Which of the following statements adequately describe the levels of testing (1-4) and their specific approaches (A-D)?\n\n**Approaches:**\n1. Testing performed to validate full system functionality in a simulated production environment.\n2. Tests that focus on verifying that individual modules are working correctly.\n3. Tests that ensure that different modules integrate and work together.\n4. Testing that involves validation of requirements from the perspective of the end user.\n\n**Levels of testing:**\nA. System testing\nB. Component testing\nC. Integration testing\nD. Acceptance testing",
     "options": [
       "A. 1A, 2B, 3C, 4D",
       "B. 1C, 2A, 3D, 4B",

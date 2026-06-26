@@ -4871,7 +4871,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Lequel des énoncés suivants décrit de manière adéquate les niveaux de tests (1-4) et leurs approches spécifiques (A-D) ? Tests effectués pour valider la fonctionnalité complète du système dans un environnement de production simulé. Tests qui visent à vérifier que les modules individuels fonctionnent correctement. Des tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble. Tests qui impliquent la validation des exigences du point de vue de l'utilisateur final. Tests du système Tests des composants Tests d’intégration Tests d’acceptation",
+    "question": "Lequel des énoncés suivants décrit de manière adéquate les niveaux de tests (1-4) et leurs approches spécifiques (A-D) ?\n\n**Approches:**\n1. Tests effectués pour valider la fonctionnalité complète du système dans un environnement de production simulé.\n2. Tests qui visent à vérifier que les modules individuels fonctionnent correctement.\n3. Des tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble.\n4. Tests qui impliquent la validation des exigences du point de vue de l'utilisateur final.\n\n**Niveaux de tests:**\nA. Tests du système\nB. Tests des composants\nC. Tests d'intégration\nD. Tests d'acceptation",
     "options": [
       "A. 1A, 2B, 3C, 4D",
       "B.1C, 2A, 3D, 4B",
