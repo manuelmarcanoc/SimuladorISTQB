@@ -1788,7 +1788,7 @@
     "id": "q_batch2_6ody8pkik",
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D) : Tests d'acceptation utilisateur Tests de performance Tests d'intégration de composants Tests de user stories. Quadrant de tests agiles Q1 : orienté technologie, soutient l'équipe de développement. Quadrant de tests agiles Q2 : orienté métier, soutient l'équipe de développement. Quadrant de tests agiles Q3 : orienté métier, critique le produit. Quadrant de tests agiles Q4 : orienté technologie, critique le produit. Quelles combinaisons sont correctes pour ces catégories de test et les quadrants ?",
+    "question": "Identifiez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :\n\n1. Tests d'acceptation par les utilisateurs\n2. Tests de performances\n3. Tests d'intégration de composants\n4. Tests de user stories\n\nA. Quadrant Q1 : orienté vers la technologie, soutient l'équipe de développement\nB. Quadrant Q2 : orienté vers les affaires, soutient l'équipe de développement\nC. Quadrant Q3 : orienté vers les affaires, critique le produit\nD. Quadrant Q4 : orienté vers la technologie, critique le produit\n\nQuelles sont les combinaisons correctes pour ces catégories et quadrants de tests ?",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",

@@ -4814,7 +4814,7 @@
   {
     "id": "q_batch2_6ody8pkik",
     "topic": "Testing a lo largo del SDLC",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D): Pruebas de aceptación del usuario Pruebas de rendimiento Pruebas de integración de componentes Pruebas de historias de usuario Cuadrante de pruebas ágiles Q1: orientado a la tecnología, apoya al equipo de desarrollo Cuadrante de pruebas ágiles Q2: orientado a los negocios, apoya al equipo de desarrollo Cuadrante de pruebas ágiles Q3: orientado a los negocios, crítica al producto Cuadrante de pruebas ágiles Q4: orientado a la tecnología, crítica al producto ¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes?",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de aceptación del usuario\n2. Pruebas de rendimiento\n3. Pruebas de integración de componentes\n4. Pruebas de historias de usuario\n\nA. Cuadrante Q1: orientado a la tecnología, apoya al equipo de desarrollo\nB. Cuadrante Q2: orientado a los negocios, apoya al equipo de desarrollo\nC. Cuadrante Q3: orientado a los negocios, crítica al producto\nD. Cuadrante Q4: orientado a la tecnología, crítica al producto\n\n¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes?",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",

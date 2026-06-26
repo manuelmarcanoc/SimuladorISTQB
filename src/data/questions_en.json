@@ -1788,7 +1788,7 @@
     "id": "q_batch2_6ody8pkik",
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D): User acceptance testing Performance testing Component integration testing User story testing. Agile testing quadrant Q1: technology-oriented, supports the development team. Agile testing quadrant Q2: business-oriented, supports the development team. Agile testing quadrant Q3: business-oriented, critiques the product. Agile testing quadrant Q4: technology-oriented, critiques the product. Which combinations are correct for these test categories and the quadrants?",
+    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D):\n\n1. User acceptance testing\n2. Performance testing\n3. Component integration testing\n4. User story testing\n\nA. Agile testing quadrant Q1: technology facing, supports the development team\nB. Agile testing quadrant Q2: business facing, supports the development team\nC. Agile testing quadrant Q3: business facing, critiques product\nD. Agile testing quadrant Q4: technology facing, critiques product\n\nWhich combinations are correct for these test categories and quadrants?",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
