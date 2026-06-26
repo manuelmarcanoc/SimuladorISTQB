@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { t } from '../i18n';
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E'];
@@ -29,7 +31,9 @@ const QuestionCard = ({
         </div>
       </div>
 
-      <h2 className="question-text">{questionData.question}</h2>
+      <div className="question-text">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{questionData.question}</ReactMarkdown>
+      </div>
 
       <div className="options-list">
         {questionData.options.map((option, index) => {

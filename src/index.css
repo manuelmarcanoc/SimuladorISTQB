@@ -1033,3 +1033,24 @@ h1, h2, h3, h4, h5, h6, .app-title {
 .dark-mode .bmc-btn:hover {
   box-shadow: 4px 4px 0 rgba(0,0,0,0.5);
 }
+
+/* Markdown Table Styles */
+.question-text table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+.question-text th, .question-text td {
+  border: 1px solid var(--border-ink);
+  padding: 8px 12px;
+  text-align: left;
+}
+.question-text th {
+  background-color: var(--primary-light);
+  font-weight: 600;
+}
+.dark-mode .question-text th {
+  background-color: #2c2820;
+}
+

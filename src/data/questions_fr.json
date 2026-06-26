@@ -1005,21 +1005,6 @@
     "source": "Práctica Adicional"
   },
   {
-    "id": 1014,
-    "chapter": 2,
-    "topic": "Tests tout au long du SDLC",
-    "question": "Les cas de test ont été exécutés : TC1 Échoué, TC2 Réussi, TC3 Échoué. Après les corrections, TC1, TC2 et TC3 sont exécutés à nouveau. Lesquelles de ces exécutions sont considérées comme des tests de régression ?",
-    "options": [
-      "TC1",
-      "TC2",
-      "TC3",
-      "TC1 et TC3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "L'exécution de TC2 est de la régression, car il fonctionnait auparavant et l'on vérifie que les changements ne l'ont pas cassé. TC1 et TC3 sont des tests de confirmation.",
-    "source": "Práctica Adicional"
-  },
-  {
     "id": 1037,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
@@ -1438,21 +1423,6 @@
     "correctAnswer": 0,
     "explanation": "L'option A) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon A, Q#13, LO : FL-2.2.1). Justification : 1D, 2B, 3A, 4C",
     "source": "Official Sample Exam A Q#13"
-  },
-  {
-    "id": 263,
-    "chapter": 2,
-    "topic": "Tests tout au long du SDLC",
-    "question": "Vous testez une user story avec trois critères d’acceptation : AC1, AC2 et AC3. AC1 est couvert par le scénario de test TC1, AC2 par TC2 et AC3 par TC3. L'historique des tests comporte trois séries de tests sur trois versions consécutives du logiciel, comme suit : Exécution 1 Exécution 2 Exécution 3 TC1 (1) Échec (4) Réussite (7) Réussite TC2 (2) Réussite (5) Échec (8) Réussite TC3 (3) Échec (6) Échec (9) Réussite Les tests sont répétés une fois que vous êtes informé que tous les défauts trouvés lors de la série de tests sont corrigés et qu'une nouvelle version du logiciel est disponible. Parmi les tests ci-dessus, lesquels sont exécutés en tant que tests de régression ?",
-    "options": [
-      "A) Seulement 4, 7, 8, 9",
-      "B) Seulement 5, 7",
-      "C) Seulement 4, 6, 8, 9",
-      "D) Seulement 5, 6"
-    ],
-    "correctAnswer": 1,
-    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon A, Q#14, LO : FL-2.2.3). Justification : seulement 5, 7",
-    "source": "Official Sample Exam A Q#14"
   },
   {
     "id": 297,
@@ -2640,21 +2610,6 @@
     "source": "Official Sample Exam A Q#20"
   },
   {
-    "id": 270,
-    "chapter": 4,
-    "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous testez un système qui calcule la note finale du cours pour un étudiant donné. La note finale est attribuée en fonction du résultat final, selon les règles suivantes : • 0 – 50 points : échoué • 51 – 60 points : suffisant • 61 – 70 points : satisfaisant • 71 – 80 points : bon • 81 – 90 points : très bien • 91 – 100 points : excellent Vous avez préparé l'ensemble de cas de test suivant : Résultat final Note finale TC1 91 excellent TC2 50 échoué TC3 81 très bien TC4 60 suffisant TC5 70 satisfaisant TC6 80 bon Quelle est la couverture de l'analyse des valeurs limites (BVA) à 2 valeurs pour le résultat final obtenu avec les cas de test existants ?",
-    "options": [
-      "A) 50 %",
-      "B) 60 %",
-      "C) 33,3%",
-      "D) 100 %"
-    ],
-    "correctAnswer": 0,
-    "explanation": "L'option A) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon A, Q#21, LO : FL-4.2.2). Justification : 50%",
-    "source": "Official Sample Exam A Q#21"
-  },
-  {
     "id": 271,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
@@ -2818,21 +2773,6 @@
     "correctAnswer": 3,
     "explanation": "L'option D) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (Échantillon B, Q#21, LO : FL-4.2.2). Justification : Avec 2 valeurs nous avons déjà 0, 6, 12 et une valeur au-dessus de la plage supérieure. Avec 3 valeurs nous avons aussi besoin des voisins : 5, 7, 11, 13 et la valeur 1 pour la limite inférieure gauche.",
     "source": "Official Sample Exam B Q#21"
-  },
-  {
-    "id": 309,
-    "chapter": 4,
-    "topic": "Techniques d'analyse et de conception des tests",
-    "question": "La table de décision suivante contient les règles pour déterminer le risque d'artériosclérose. Règles 1 à 5 - Cholestérol (mg/dl) : <=124 | <=124 | 125-200 | 125-200 | >=201 - Pression artérielle (mm Hg) : <=140 | >140 | <=140 | >140 | - - Niveau de risque : très bas | bas | moyen | élevé | très élevé. Vous avez conçu les cas de test suivants - TC1 : Cholestérol=125, PA=141 | TC2 : Cholestérol=200, PA=201 | TC3 : Cholestérol=124, PA=201 | TC4 : Cholestérol=109, PA=200 | TC5 : Cholestérol=201, PA=140. Quelle couverture de la table de décision ces cas de test atteignent-ils ?",
-    "options": [
-      "A) 40 %",
-      "B) 60 %",
-      "C) 80 %",
-      "D) 100 %"
-    ],
-    "correctAnswer": 1,
-    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (Échantillon B, Q#22, LO : FL-4.2.3). Justification : La table a 5 règles. Les cas de test ne couvrent correctement que 3 des 5 règles, soit 60 %.",
-    "source": "Official Sample Exam B Q#22"
   },
   {
     "id": 310,
@@ -4053,21 +3993,6 @@
     "source": "Official Sample Exam B Q#31"
   },
   {
-    "id": 319,
-    "chapter": 5,
-    "topic": "Gestion des activités de test",
-    "question": "Vous testez une application web qui permet aux utilisateurs de RECHERCHER des produits, VOIR les détails, AJOUTER au panier et passer une COMMANDE. Vous avez 7 cas de test avec ces priorités (1=la plus élevée) : TC1 RECHERCHER produit A (4), TC2 RECHERCHER produit B (4), TC3 VOIR détails A (3), TC4 VOIR détails B (2), TC5 AJOUTER produit A (3), TC6 AJOUTER produit B (1), TC7 passer COMMANDE (5). Dépendances : RECHERCHER doit être testé avant VOIR, VOIR avant AJOUTER, et AJOUTER avant COMMANDE. Quel cas de test doit être exécuté en quatrième ?",
-    "options": [
-      "A) TC3",
-      "B) TC1",
-      "C) TC7",
-      "D) TC2"
-    ],
-    "correctAnswer": 1,
-    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (Échantillon B, Q#32, LO : FL-5.1.5). Justification : En respectant les dépendances et la priorité : 1er TC6 (p1), 2e TC4 (p2), 3e TC5/TC3 (p3), 4e TC1 (p4 après satisfaction des dépendances).",
-    "source": "Official Sample Exam B Q#32"
-  },
-  {
     "id": 320,
     "chapter": 5,
     "topic": "Gestion des activités de test",
@@ -4143,21 +4068,6 @@
     "source": "Official Sample Exam B Q#37"
   },
   {
-    "id": 325,
-    "chapter": 5,
-    "topic": "Gestion des activités de test",
-    "question": "Vous testez une fonction de tri qui reçoit un ensemble de nombres et les renvoie triés par ordre croissant. Le journal d'exécution est : TC1 : Entrée : 3. Sortie : 3. Résultat : réussi | TC2 : Entrée : 3 11 6 5. Sortie : 3 5 6 11. Résultat : réussi | TC3 : Entrée : 8 7 3 7 1. Sortie : 1 3 7 8. Résultat : échoué | TC4 : Entrée : -2 -2 -2 -3 -3. Sortie : -3 -2. Résultat : échoué | TC5 : Entrée : 0 -2 0 3 4 4. Sortie : -2 0 3 4. Résultat : échoué. Laquelle des options suivantes fournit la MEILLEURE description de la défaillance à utiliser dans un rapport de défaut ?",
-    "options": [
-      "A) Le système ne parvient pas à trier plusieurs ensembles de nombres. Référence : TC3, TC4, TC5.",
-      "B) Le système semble ignorer les doublons lors du tri. Référence : TC3, TC4, TC5.",
-      "C) Le système ne parvient pas à trier les nombres négatifs. Référence : TC4, TC5.",
-      "D) TC3, TC4 et TC5 ont des défauts (données d'entrée dupliquées) et doivent être corrigés."
-    ],
-    "correctAnswer": 1,
-    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (Échantillon B, Q#38, LO : FL-5.5.1). Justification : Le schéma commun dans les trois défaillances est que la fonction ignore les éléments dupliqués lors du tri, ce qui est la description la plus précise du défaut.",
-    "source": "Official Sample Exam B Q#38"
-  },
-  {
     "id": 353,
     "chapter": 5,
     "topic": "Gestion des activités de test",
@@ -4186,21 +4096,6 @@
     "correctAnswer": 0,
     "explanation": "L'option A) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (Échantillon D, Q#2, LO : FL-5.1.4). Justification : Si historiquement 80 % de l'estimation est réalisée, l'estimation réelle serait 50 x 0,80 = 40 personnes-jours.",
     "source": "Official Sample Exam C Q#31"
-  },
-  {
-    "id": 355,
-    "chapter": 5,
-    "topic": "Gestion des activités de test",
-    "question": "Vous préparez un calendrier d'exécution des tests pour 7 cas de test (TC1-TC7). Les dépendances sont : TC2 dépend de TC1, TC4 dépend de TC2 et TC3, TC5 dépend de TC3, TC6 dépend de TC4 et TC5, TC7 dépend de TC6. Les priorités (1=la plus élevée) sont : TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7. Quel est l'ordre d'exécution correct en respectant les dépendances et les priorités ?",
-    "options": [
-      "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
-      "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
-      "C) TC3, TC1, TC5, TC2, TC4, TC6, TC7",
-      "D) TC1, TC3, TC2, TC5, TC4, TC6, TC7"
-    ],
-    "correctAnswer": 2,
-    "explanation": "L'option C) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (Échantillon D, Q#3, LO : FL-5.1.5). Justification : TC3 a la priorité la plus élevée (p1) et aucune dépendance, il passe donc en premier. Puis TC1 (p3, sans dépendances), ensuite TC5 (dépend de TC3), etc.",
-    "source": "Official Sample Exam C Q#32"
   },
   {
     "id": 356,
@@ -4714,21 +4609,6 @@
     "source": "banco-extra"
   },
   {
-    "id": "q_batch2_t5hos07b9",
-    "chapter": 5,
-    "topic": "Gestion des activités de test",
-    "question": "Vous avez les cas de test suivants pour un système de banque en ligne : TC1 Login (risque prob 2, impact 2, sans dépendance) ; TC2 Consulter le solde (3, 3, dépend de TC1) ; TC3 Transférer de l'argent (2, 2, dépend de TC1 et TC2) ; TC4 Changer le PIN (4, 4, dépend de TC1). En appliquant la priorisation basée sur les risques, où l'impact et la probabilité sont sur une échelle de 1 à 5 (1=Très élevé, 5=Très faible), quel serait l'ordre d'exécution le PLUS approprié ?",
-    "options": [
-      "TC1, TC3, TC2, TC4",
-      "TC1, TC2, TC3, TC4",
-      "TC3, TC1, TC2, TC4",
-      "TC1, TC4, TC2, TC3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "B. Correct. TC1 d'abord : il est indépendant et la base de tous les autres cas. TC2 avant TC3/TC4 car TC2 comporte un risque plus élevé et TC3 dépend de TC2. Les autres ordres rompent une dépendance (TC3 avant TC2) ou priorisent trop tôt le TC4 moins risqué.",
-    "source": "banco-extra"
-  },
-  {
     "id": "q_batch2_zras116y8",
     "chapter": 5,
     "topic": "Gestion des activités de test",
@@ -5000,22 +4880,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "A. L'énoncé 1 décrit correctement les tests du système (1A), qui valident l'ensemble du système. L'énoncé 2 fait référence aux tests de composants (2B), où la fonctionnalité des modules individuels est vérifiée. 3 est lié aux tests d'intégration (3C), qui se concentrent sur l'interaction entre les modules. 4 correspond aux tests d'acceptation (4D), où les exigences sont validées du point de vue de l'utilisateur final. B. Le choix B est incorrect. L'instruction 1 n'est pas associée aux tests d'intégration (1C), mais aux tests du système. L'énoncé 2 décrit correctement les tests de composants, mais l'énoncé 3 ne concerne pas correctement les tests d'acceptation. C. Le choix C est incorrect. L'énoncé 1 ne décrit pas les tests d'acceptation (1D), mais constitue plutôt une approche de test du système. Les autres descriptions ne correspondent pas non plus aux niveaux de test correspondants. D. Le choix D est incorrect. L'énoncé 1 ne correspond pas au test des composants (1B), mais au test du système. Les autres descriptions sont également incorrectes concernant les niveaux de test.",
-    "source": "User Provided Batch 3"
-  },
-  {
-    "id": "q_batch3_l6n0dvnvr",
-    "chapter": 5,
-    "topic": "Desarrollo y Testing",
-    "difficulty": "medium",
-    "question": "Une équipe de développement a corrigé plusieurs défauts dans une nouvelle version de l'application. Les scénarios de test suivants ont été exécutés dans la version précédente : Résultat du test dans la version précédente TC1 a échoué TC2 a réussi TC3 a échoué Après les corrections, l'équipe exécute à nouveau les scénarios de test TC1, TC2 et TC3. Lesquelles de ces exécutions sont considérées comme des tests de régression ?",
-    "options": [
-      "TC1 et TC3",
-      "TC2 et TC3",
-      "TC1 et TC2",
-      "TC2 uniquement"
-    ],
-    "correctAnswer": 0,
-    "explanation": "R. Incorrect. TC1 et TC3 échouaient dans la version précédente, leur relance constitue donc des tests de confirmation (re-testing) : on vérifie que le défaut a été corrigé. Ce ne sont pas des tests de régression. B. Incorrect. TC2 est un test de régression, mais TC3 a échoué dans la version précédente et est donc un test de confirmation. La combinaison TC2+TC3 n'est pas correcte. C. Incorrect. TC2 est un test de régression, mais TC1 a échoué dans la version précédente et est un test de confirmation, pas un test de régression. De plus, cette option était identique à l'option D, ce qui constituait un défaut structurel de la question. D. Exactement. TC2 réussi dans la version précédente. En le réexécutant après les corrections, on vérifie que les modifications n'ont pas introduit de nouveaux défauts dans les fonctionnalités qui fonctionnaient déjà. C'est exactement la définition des tests de régression selon la secte CTFL v4.0. 2.2.3. TC1 et TC3, qui ont échoué auparavant, sont des tests de confirmation.",
     "source": "User Provided Batch 3"
   },
   {
@@ -5316,5 +5180,141 @@
     "correctAnswer": 0,
     "explanation": "R. C'est exact. L'automatisation vous permet d'exécuter des tests plus rapidement et plus fréquemment, ce qui peut augmenter la couverture des tests. B. Ce n’est pas correct. Même si l’automatisation peut réduire le besoin de tests manuels, elle ne peut pas l’éliminer complètement dans tous les cas. C. Ce n’est pas exact. L’automatisation ne réduit pas nécessairement la complexité des logiciels ; elle peut en fait introduire sa propre complexité. D. Ce n’est pas exact. L'automatisation, si elle est effectuée correctement, peut réduire le risque d'erreur humaine lors de l'exécution des tests.",
     "source": "User Provided Batch 4"
+  },
+  {
+    "id": 263,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "Vous testez une user story avec trois critères d’acceptation : AC1, AC2 et AC3. AC1 est couvert par le scénario de test TC1, AC2 par TC2 et AC3 par TC3. L'historique d'exécution des tests comprenait trois séries de tests sur trois versions consécutives du logiciel, comme suit :\n\n| | Exécution 1 | Exécution 2 | Exécution 3 |\n|---|---|---|---|\n| TC1 (1) | Échec (4) | Passé (7) | Passé |\n| TC2 (2) | Passé (5) | Échec (8) | Passé |\n| TC3 (3) | Échec (6) | Échec (9) | Passé |\n\nLes tests sont répétés une fois que vous êtes informé que tous les défauts détectés lors de la série de tests sont corrigés et qu'une nouvelle version du logiciel est disponible. Parmi les tests ci-dessus, lesquels sont exécutés en tant que tests de régression ?",
+    "options": [
+      "A) Seulement 4, 7, 8, 9",
+      "B) Seulement 5, 7",
+      "C) Seulement 4, 6, 8, 9",
+      "D) Seulement 5, 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon A, Q#14, LO : FL-2.2.3). Justification : seulement 5, 7",
+    "source": "Official Sample Exam A Q#14"
+  },
+  {
+    "id": 270,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Vous testez un système qui calcule la note finale du cours pour un étudiant donné. La note finale est attribuée en fonction du résultat final, selon les règles suivantes :\n- 0 – 50 points : échec\n- 51 – 60 points : suffisant\n- 61 – 70 points : satisfaisant\n- 71 – 80 points : bien\n- 81 – 90 points : très bien\n- 91 – 100 points : excellent\n\nVous avez préparé l'ensemble de scénarios de test suivant :\n\n| TC | Résultat final | Note finale |\n|---|---|---|\n| TC1 | 91 | excellent |\n| TC2 | 50 | suspense |\n| TC3 | 81 | très bien |\n| TC4 | 60 | assez |\n| TC5 | 70 | satisfaisant |\n| TC6 | 80 | bon |\n\nQuelle est la couverture de l'analyse des valeurs limites (BVA) à 2 valeurs pour le résultat final obtenu avec les cas de test existants ?",
+    "options": [
+      "A) 50 %",
+      "B) 60 %",
+      "C) 33,3%",
+      "D) 100 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "L'option A) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon A, Q#21, LO : FL-4.2.2). Justification : 50%",
+    "source": "Official Sample Exam A Q#21"
+  },
+  {
+    "id": 309,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "Le tableau de décision suivant contient les règles permettant de déterminer le risque d’artériosclérose.\n\n| | Règle 1 | Règle 2 | Règle 3 | Règle 4 | Règle 5 |\n|---|---|---|---|---|---|\n| Cholestérol (mg/dl) | ≤124 | ≤124 | 125-200 | 125-200 | ≥201 |\n| Pression artérielle (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |\n| Niveau de risque | très faible | faible | moyen | élevé | très élevé |\n\nVous avez conçu les cas de tests suivants :\n- TC1 : Cholestérol=125, TA=141\n- TC2 : Cholestérol=200, TA=201\n- TC3 : Cholestérol=124, TA=201\n- TC4 : Cholestérol=109, TA=200\n- TC5 : Cholestérol=201, TA=140\n\nQuelle couverture de table de décision ces cas de test atteignent-ils ?",
+    "options": [
+      "A) 40 %",
+      "B) 60 %",
+      "C) 80 %",
+      "D) 100 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon B, Q#22, LO : FL-4.2.3). Justification : Le tableau comporte 5 règles. Les cas de test couvrent les règles 2 (TC1), 4 (TC2 – pas exactement applicable), 1 (TC4) et 5 (TC5). Seules 3 règles sur 5 sont correctement couvertes, ce qui donne 60 %.",
+    "source": "Official Sample Exam B Q#22"
+  },
+  {
+    "id": 319,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Vous testez une application Web qui permet aux utilisateurs de RECHERCHER des produits, d'AFFICHER les détails, d'AJOUTER au panier et de passer une COMMANDE. Vous disposez de 7 cas de test avec ces priorités (1 = la plus élevée) :\n- TC1 : RECHERCHE produit A (4)\n- TC2 : RECHERCHE produit B (4)\n- TC3 : VOIR détails A (3)\n- TC4 : VOIR détails B (2)\n- TC5 : AJOUTER le produit À (3)\n- TC6 : AJOUTER le produit B (1)\n- TC7 : passer la COMMANDE (5)\n\nDépendances : LOOKUP doit être testé avant VIEW, VIEW avant ADD et ADD avant ORDER. Quel scénario de test doit être exécuté en quatrième ?",
+    "options": [
+      "A) TC3",
+      "B) TC1",
+      "C) SS7",
+      "D) TC2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon B, Q#32, LO : FL-5.1.5). Justification : Respect des dépendances et de la priorité : 1er TC6 (p1), 2ème TC4 (p2), 3ème TC5 ou TC3 (p3), 4ème TC1 (p4 après avoir rempli les dépendances).",
+    "source": "Official Sample Exam B Q#32"
+  },
+  {
+    "id": 325,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Vous testez une fonction de tri qui prend un ensemble de nombres et les renvoie triés par ordre croissant. Le journal d'exécution est :\n\n- TC1 : Entrée : '3'. Sortie : « 3 ». Résultat : réussi\n- TC2 : Entrée : `3 11 6 5`. Sortie : « 3 5 6 11 ». Résultat : réussi\n- TC3 : Entrée : `8 7 3 7 1`. Sortie : `1 3 7 8`. Résultat : échec\n- TC4 : Entrée : `-2 -2 -2 -3 -3`. Sortie : `-3 -2`. Résultat : échec\n- TC5 : Entrée : `0 -2 0 3 4 4`. Sortie : `-2 0 3 4`. Résultat : échec\n\nLequel des éléments suivants fournit la MEILLEURE description du bogue à utiliser dans un rapport de défaut ?",
+    "options": [
+      "A) Le système ne parvient pas à trier plusieurs ensembles de nombres. Référence : TC3, TC4, TC5.",
+      "B) Le système semble ignorer les doublons lors du tri. Référence : TC3, TC4, TC5.",
+      "C) Le système ne peut pas trier les nombres négatifs. Référence : TC4, TC5.",
+      "D) TC3, TC4 et TC5 présentent des défauts (données d'entrée en double) et doivent être corrigés."
+    ],
+    "correctAnswer": 1,
+    "explanation": "L'option B) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon B, Q#38, LO : FL-5.5.1). Justification : Le modèle commun aux trois bogues est que la fonction ignore les éléments en double lors du tri, ce qui constitue la description la plus précise du défaut.",
+    "source": "Official Sample Exam B Q#38"
+  },
+  {
+    "id": 355,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Vous préparez un planning d'exécution de tests pour 7 cas de tests (TC1-TC7).\n\nLes dépendances sont :\n- TC2 dépend de TC1\n- TC4 dépend de TC2 et TC3\n- TC5 dépend du TC3\n- TC6 dépend de TC4 et TC5\n- TC7 dépend du TC6\n\nLes priorités (1=la plus élevée) sont : TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nQuel est le bon ordre d’exécution en respectant les dépendances et les priorités ?",
+    "options": [
+      "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
+      "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
+      "C) TC3, TC1, TC5, TC2, TC4, TC6, TC7",
+      "D) TC1, TC3, TC2, TC5, TC4, TC6, TC7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "L'option C) est la bonne réponse selon l'examen officiel ISTQB CTFL v4.0 (échantillon D, Q#3, LO : FL-5.1.5). Justification : TC3 a la priorité la plus élevée (p1) et n'a aucune dépendance, il passe donc en premier. Puis TC1 (p3, pas de dépendances), puis TC5 (dépend de TC3), etc.",
+    "source": "Official Sample Exam C Q#32"
+  },
+  {
+    "id": 1014,
+    "chapter": 2,
+    "topic": "Regresión vs Confirmación",
+    "question": "Les cas de tests ont été exécutés :\n- Échec du TC1\n- SS2 réussi\n- Échec de SS3\n\nAprès corrections, TC1, TC2 et TC3 sont à nouveau exécutés. Lesquelles de ces exécutions sont considérées comme des tests de régression ?",
+    "options": [
+      "CT1",
+      "TC2",
+      "TC3",
+      "TC1 et TC3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "L'exécution de TC2 est une régression, puisqu'il fonctionnait auparavant et on vérifie que les changements ne l'ont pas cassé. TC1 et TC3 sont des tests de confirmation.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": "q_batch2_t5hos07b9",
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :\n\n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |\n|---|---|---|---|---|\n| TC1 | Connexion | 2 | 2 | Aucun |\n| TC2 | Vérifier le solde | 3 | 3 | TC1 |\n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |\n| TC4 | Changer le code PIN | 4 | 4 | TC1 |\n\nEn appliquant une priorisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très faible), quel serait l'ordre d'exécution LE PLUS approprié ?",
+    "options": [
+      "TC1, TC3, TC2, TC4",
+      "TC1, TC2, TC3, TC4",
+      "TC3, TC1, TC2, TC4",
+      "TC1, TC4, TC2, TC3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R. Incorrect. Problème 1 : TC3 dépend de TC2 (nécessite un solde interrogé), mais TC3 s'exécute avant TC2. Cela rompt la dépendance. Problème 2 : TC2 a un risque plus élevé (9) que TC4 (16), mais TC4 est exécuté avant TC2. Mauvaise priorité des risques. B. Exactement. TC1 en premier : il est indépendant et sert de base à tous les autres cas. TC2 avant TC3/TC4 : TC2 a un risque plus élevé (9) que TC4 (16), et TC3 dépend de TC2. C. Incorrect. Problème critique : TC3 dépend de TC1 et TC2, mais s'exécute en premier, avant les deux. Il échouera en raison du manque de dépendances. D. Incorrect. Problème 1 : TC2 a un risque plus élevé (9) que TC4 (16), mais TC4 est exécuté avant TC2. Mauvaise priorité des risques. Problème 2 : TC3 dépend de TC2, mais TC2 s'exécute après TC3. Brisez la dépendance.",
+    "chapter": 5,
+    "source": "banco-extra"
+  },
+  {
+    "id": "q_batch3_l6n0dvnvr",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Une équipe de développement a corrigé plusieurs défauts dans une nouvelle version de l'application. Les cas de test suivants ont été exécutés dans la version précédente :\n\n| Test | Résultat dans la version précédente |\n|---|---|\n| TC1 | Échec |\n| TC2 | Passé |\n| TC3 | Échec |\n\nAprès les corrections, l’équipe exécute à nouveau les cas de test TC1, TC2 et TC3. Lesquelles de ces exécutions sont considérées comme des tests de régression ?",
+    "options": [
+      "TC1 et TC3",
+      "TC2 et TC3",
+      "TC1 et TC2",
+      "TC2 uniquement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Incorrect. TC1 et TC3 échouaient dans la version précédente, leur relance constitue donc des tests de confirmation (re-testing) : on vérifie que le défaut a été corrigé. Ce ne sont pas des tests de régression. B. Incorrect. TC2 est un test de régression, mais TC3 a échoué dans la version précédente et est donc un test de confirmation. La combinaison TC2+TC3 n'est pas correcte. C. Incorrect. TC2 est un test de régression, mais TC1 a échoué dans la version précédente et est un test de confirmation, pas un test de régression. De plus, cette option était identique à l'option D, ce qui constituait un défaut structurel de la question. D. Exactement. TC2 réussi dans la version précédente. En le réexécutant après les corrections, on vérifie que les modifications n'ont pas introduit de nouveaux défauts dans les fonctionnalités qui fonctionnaient déjà. C'est exactement la définition des tests de régression selon la secte CTFL v4.0. 2.2.3. TC1 et TC3, qui ont échoué auparavant, sont des tests de confirmation.",
+    "source": "User Provided Batch 3"
   }
 ]

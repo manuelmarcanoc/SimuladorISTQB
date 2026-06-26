@@ -1005,21 +1005,6 @@
     "source": "Práctica Adicional"
   },
   {
-    "id": 1014,
-    "chapter": 2,
-    "topic": "Testing Throughout the SDLC",
-    "question": "The test cases were executed: TC1 Failed, TC2 Passed, TC3 Failed. After corrections, TC1, TC2, and TC3 are run again. Which of these executions are considered regression testing?",
-    "options": [
-      "TC1",
-      "TC2",
-      "TC3",
-      "TC1 and TC3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Running TC2 is regression, since it previously worked and is being verified that the changes have not broken it. TC1 and TC3 are confirmation tests.",
-    "source": "Práctica Adicional"
-  },
-  {
     "id": 1037,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
@@ -1438,21 +1423,6 @@
     "correctAnswer": 0,
     "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#13, LO: FL-2.2.1). Rationale: 1D, 2B, 3A, 4C",
     "source": "Official Sample Exam A Q#13"
-  },
-  {
-    "id": 263,
-    "chapter": 2,
-    "topic": "Testing Throughout the SDLC",
-    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test run history had three rounds of testing on three consecutive versions of the software as follows: Run 1 Run 2 Run 3 TC1 (1) Fail (4) Pass (7) Pass TC2 (2) Pass (5) Fail (8) Pass TC3 (3) Fail (6) Fail (9) Pass The tests are repeated once you are informed that all defects found in the test round are corrected and a new version of the software is available. Which of the above tests are run as regression tests?",
-    "options": [
-      "A) Only 4, 7, 8, 9",
-      "B) Only 5, 7",
-      "C) Only 4, 6, 8, 9",
-      "D) Only 5, 6"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#14, LO: FL-2.2.3). Justification: Only 5, 7",
-    "source": "Official Sample Exam A Q#14"
   },
   {
     "id": 297,
@@ -2640,21 +2610,6 @@
     "source": "Official Sample Exam A Q#20"
   },
   {
-    "id": 270,
-    "chapter": 4,
-    "topic": "Test Analysis and Design Techniques",
-    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules: • 0 – 50 points: failed • 51 – 60 points: sufficient • 61 – 70 points: satisfactory • 71 – 80 points: good • 81 – 90 points: very good • 91 – 100 points: excellent You have prepared the following set of test cases: Final result Final grade TC1 91 excellent TC2 50 failed TC3 81 very good TC4 60 sufficient TC5 70 satisfactory TC6 80 good What is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?",
-    "options": [
-      "A) 50%",
-      "B) 60%",
-      "C) 33.3%",
-      "D) 100%"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#21, LO: FL-4.2.2). Justification: 50%",
-    "source": "Official Sample Exam A Q#21"
-  },
-  {
     "id": 271,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
@@ -2818,21 +2773,6 @@
     "correctAnswer": 3,
     "explanation": "Option D) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample B, Q#21, LO: FL-4.2.2). Rationale: With 2 values we already have 0, 6, 12 and a value above the upper range. With 3 values we also need the neighbors: 5, 7, 11, 13 and the value 1 for the left lower boundary.",
     "source": "Official Sample Exam B Q#21"
-  },
-  {
-    "id": 309,
-    "chapter": 4,
-    "topic": "Test Analysis and Design Techniques",
-    "question": "The following decision table contains the rules to determine the risk of arteriosclerosis. Rule 1 to 5 - Cholesterol (mg/dl): <=124 | <=124 | 125-200 | 125-200 | >=201 - Blood pressure (mm Hg): <=140 | >140 | <=140 | >140 | - - Risk level: very low | low | medium | high | very high. You designed the following test cases - TC1: Cholesterol=125, BP=141 | TC2: Cholesterol=200, BP=201 | TC3: Cholesterol=124, BP=201 | TC4: Cholesterol=109, BP=200 | TC5: Cholesterol=201, BP=140. What decision table coverage do these test cases achieve?",
-    "options": [
-      "A) 40%",
-      "B) 60%",
-      "C) 80%",
-      "D) 100%"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option B) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample B, Q#22, LO: FL-4.2.3). Rationale: The table has 5 rules. The test cases correctly cover only 3 of the 5 rules, giving 60%.",
-    "source": "Official Sample Exam B Q#22"
   },
   {
     "id": 310,
@@ -4053,21 +3993,6 @@
     "source": "Official Sample Exam B Q#31"
   },
   {
-    "id": 319,
-    "chapter": 5,
-    "topic": "Managing the Test Activities",
-    "question": "You are testing a web application that allows users to SEARCH products, VIEW details, ADD to cart, and place an ORDER. You have 7 test cases with these priorities (1=highest): TC1 SEARCH product A (4), TC2 SEARCH product B (4), TC3 VIEW details A (3), TC4 VIEW details B (2), TC5 ADD product A (3), TC6 ADD product B (1), TC7 place ORDER (5). Dependencies: SEARCH must be tested before VIEW, VIEW before ADD, and ADD before ORDER. Which test case should be executed fourth?",
-    "options": [
-      "A) TC3",
-      "B) TC1",
-      "C) TC7",
-      "D) TC2"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option B) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample B, Q#32, LO: FL-5.1.5). Rationale: Respecting dependencies and priority: 1st TC6 (p1), 2nd TC4 (p2), 3rd TC5/TC3 (p3), 4th TC1 (p4 after meeting dependencies).",
-    "source": "Official Sample Exam B Q#32"
-  },
-  {
     "id": 320,
     "chapter": 5,
     "topic": "Managing the Test Activities",
@@ -4143,21 +4068,6 @@
     "source": "Official Sample Exam B Q#37"
   },
   {
-    "id": 325,
-    "chapter": 5,
-    "topic": "Managing the Test Activities",
-    "question": "You are testing a sorting function that receives a set of numbers and returns them sorted in ascending order. The execution log is: TC1: Input: 3. Output: 3. Result: passed | TC2: Input: 3 11 6 5. Output: 3 5 6 11. Result: passed | TC3: Input: 8 7 3 7 1. Output: 1 3 7 8. Result: failed | TC4: Input: -2 -2 -2 -3 -3. Output: -3 -2. Result: failed | TC5: Input: 0 -2 0 3 4 4. Output: -2 0 3 4. Result: failed. Which of the following provides the BEST failure description to use in a defect report?",
-    "options": [
-      "A) The system fails to sort various sets of numbers. Reference: TC3, TC4, TC5.",
-      "B) The system appears to ignore duplicates when sorting. Reference: TC3, TC4, TC5.",
-      "C) The system fails to sort negative numbers. Reference: TC4, TC5.",
-      "D) TC3, TC4, and TC5 have defects (duplicated input data) and must be fixed."
-    ],
-    "correctAnswer": 1,
-    "explanation": "Option B) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample B, Q#38, LO: FL-5.5.1). Rationale: The common pattern in the three failures is that the function ignores duplicate elements when sorting, which is the most precise description of the defect.",
-    "source": "Official Sample Exam B Q#38"
-  },
-  {
     "id": 353,
     "chapter": 5,
     "topic": "Managing the Test Activities",
@@ -4186,21 +4096,6 @@
     "correctAnswer": 0,
     "explanation": "Option A) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample D, Q#2, LO: FL-5.1.4). Rationale: If historically 80% of the estimate is completed, the actual estimate would be 50 x 0.80 = 40 person-days.",
     "source": "Official Sample Exam C Q#31"
-  },
-  {
-    "id": 355,
-    "chapter": 5,
-    "topic": "Managing the Test Activities",
-    "question": "You are preparing a test execution schedule for 7 test cases (TC1-TC7). The dependencies are: TC2 depends on TC1, TC4 depends on TC2 and TC3, TC5 depends on TC3, TC6 depends on TC4 and TC5, TC7 depends on TC6. The priorities (1=highest) are: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7. What is the correct execution order respecting dependencies and priorities?",
-    "options": [
-      "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
-      "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
-      "C) TC3, TC1, TC5, TC2, TC4, TC6, TC7",
-      "D) TC1, TC3, TC2, TC5, TC4, TC6, TC7"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Option C) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample D, Q#3, LO: FL-5.1.5). Rationale: TC3 has the highest priority (p1) and no dependencies, so it goes first. Then TC1 (p3, no dependencies), then TC5 (depends on TC3), etc.",
-    "source": "Official Sample Exam C Q#32"
   },
   {
     "id": 356,
@@ -4714,21 +4609,6 @@
     "source": "banco-extra"
   },
   {
-    "id": "q_batch2_t5hos07b9",
-    "chapter": 5,
-    "topic": "Managing the Test Activities",
-    "question": "You have test cases for an online banking system: TC1 Login (risk prob 2, impact 2, no dependency); TC2 Check balance (3, 3, depends on TC1); TC3 Transfer money (2, 2, depends on TC1 and TC2); TC4 Change PIN (4, 4, depends on TC1). Applying risk-based prioritization, where impact and probability are on a 1-5 scale (1=Very High, 5=Very Low), what would be the MOST appropriate execution order?",
-    "options": [
-      "TC1, TC3, TC2, TC4",
-      "TC1, TC2, TC3, TC4",
-      "TC3, TC1, TC2, TC4",
-      "TC1, TC4, TC2, TC3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "B. Correct. TC1 first: it is independent and the basis for all other cases. TC2 before TC3/TC4 because TC2 carries higher risk and TC3 depends on TC2. The other orders either break a dependency (TC3 before TC2) or prioritize the lower-risk TC4 too early.",
-    "source": "banco-extra"
-  },
-  {
     "id": "q_batch2_zras116y8",
     "chapter": 5,
     "topic": "Managing the Test Activities",
@@ -5000,22 +4880,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "A. Statement 1 correctly describes system tests (1A), which validate the entire system. Statement 2 refers to component testing (2B), where the functionality of individual modules is verified. 3 is related to integration testing (3C), which focuses on the interaction between modules. 4 corresponds to acceptance testing (4D), where the requirements are validated from the perspective of the end user. B. Choice B is incorrect. Statement 1 is not associated with integration testing (1C), but with system testing. Statement 2 correctly describes component testing, but statement 3 does not correctly relate to acceptance testing. C. Choice C is incorrect. Statement 1 does not describe acceptance testing (1D), but rather is a system testing approach. The other descriptions also do not match the corresponding test levels. D. Choice D is incorrect. Statement 1 does not correspond to component testing (1B), but to system testing. The other descriptions are also incorrect regarding the testing levels.",
-    "source": "User Provided Batch 3"
-  },
-  {
-    "id": "q_batch3_l6n0dvnvr",
-    "chapter": 5,
-    "topic": "Desarrollo y Testing",
-    "difficulty": "medium",
-    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version: Test Result in the previous version TC1 Failed TC2 Passed TC3 Failed After corrections, the team runs test cases TC1, TC2, and TC3 again. Which of these runs are considered regression testing?",
-    "options": [
-      "TC1 and TC3",
-      "TC2 and TC3",
-      "TC1 and TC2",
-      "TC2 only"
-    ],
-    "correctAnswer": 0,
-    "explanation": "A. Incorrect. TC1 and TC3 failed in the previous version, so re-running them constitutes confirmation tests (re-testing): it is verified that the defect has been corrected. They are not regression tests. B. Incorrect. TC2 is a regression test, but TC3 failed in the previous version and is therefore a confirmation test. The combination TC2+TC3 is not correct. C. Incorrect. TC2 is a regression test, but TC1 failed in the previous version and is a confirmation test, not a regression test. Furthermore, this option was identical to option D, which constituted a structural defect in the question. D. Correct. TC2 passed in the previous version. By re-running it after the corrections, it is verified that the changes have not introduced new defects in functionality that already worked. This is exactly the definition of regression testing according to CTFL v4.0 sect. 2.2.3. TC1 and TC3, which failed before, are confirmation tests.",
     "source": "User Provided Batch 3"
   },
   {
@@ -5316,5 +5180,141 @@
     "correctAnswer": 0,
     "explanation": "A. That is correct. Automation allows you to run tests faster and more frequently, which can increase test coverage. B. It is not correct. Although automation can reduce the need for manual testing, it cannot eliminate it completely in all cases. C. It is not correct. Automation does not necessarily reduce software complexity, it can, in fact, introduce its own complexity. D. It is not correct. Automation, if done correctly, can reduce the chance of human error during test execution.",
     "source": "User Provided Batch 4"
+  },
+  {
+    "id": 263,
+    "chapter": 2,
+    "topic": "Testing a lo largo del SDLC",
+    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three rounds of testing on three consecutive versions of the software as follows:\n\n| | Execution 1 | Execution 2 | Execution 3 |\n|---|---|---|---|\n| TC1 (1) | Failed (4) | Past (7) | Past |\n| TC2 (2) | Past (5) | Failed (8) | Past |\n| TC3 (3) | Failed (6) | Failed (9) | Past |\n\nTesting is repeated once you are informed that all defects found in the round of testing are fixed and a new version of the software is available. Which of the above tests are run as regression tests?",
+    "options": [
+      "A) Only 4, 7, 8, 9",
+      "B) Only 5, 7",
+      "C) Only 4, 6, 8, 9",
+      "D) Only 5, 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#14, LO: FL-2.2.3). Justification: Only 5, 7",
+    "source": "Official Sample Exam A Q#14"
+  },
+  {
+    "id": 270,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules:\n- 0 – 50 points: fail\n- 51 – 60 points: sufficient\n- 61 – 70 points: satisfactory\n- 71 – 80 points: good\n- 81 – 90 points: very good\n- 91 – 100 points: excellent\n\nYou have prepared the following set of test cases:\n\n| TC | Final result | Final note |\n|---|---|---|\n| TC1 | 91 | excellent |\n| TC2 | 50 | suspense |\n| TC3 | 81 | very good |\n| TC4 | 60 | enough |\n| TC5 | 70 | satisfactory |\n| TC6 | 80 | good |\n\nWhat is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?",
+    "options": [
+      "A) 50%",
+      "B) 60%",
+      "C) 33.3%",
+      "D) 100%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#21, LO: FL-4.2.2). Justification: 50%",
+    "source": "Official Sample Exam A Q#21"
+  },
+  {
+    "id": 309,
+    "chapter": 4,
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
+    "question": "The following decision table contains the rules for determining the risk of arteriosclerosis.\n\n| | Rule 1 | Rule 2 | Rule 3 | Rule 4 | Rule 5 |\n|---|---|---|---|---|---|\n| Cholesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |\n| Blood pressure (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |\n| Risk level | very low | low | medium | high | very high |\n\nYou have designed the following test cases:\n- TC1: Cholesterol=125, BP=141\n- TC2: Cholesterol=200, BP=201\n- TC3: Cholesterol=124, BP=201\n- TC4: Cholesterol=109, BP=200\n- TC5: Cholesterol=201, BP=140\n\nWhat decision table coverage do these test cases achieve?",
+    "options": [
+      "A) 40%",
+      "B) 60%",
+      "C) 80%",
+      "D) 100%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample B, Q#22, LO: FL-4.2.3). Justification: The table has 5 rules. The test cases cover rules 2 (TC1), 4 (TC2 – not exactly applicable), 1 (TC4) and 5 (TC5). Only 3 out of 5 rules are covered correctly, which gives 60%.",
+    "source": "Official Sample Exam B Q#22"
+  },
+  {
+    "id": 319,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "You are testing a web application that allows users to SEARCH products, VIEW details, ADD to cart, and place an ORDER. You have 7 test cases with these priorities (1=highest):\n- TC1: SEARCH product A (4)\n- TC2: SEARCH product B (4)\n- TC3: SEE details A (3)\n- TC4: SEE details B (2)\n- TC5: ADD product TO (3)\n- TC6: ADD product B (1)\n- TC7: place ORDER (5)\n\nDependencies: LOOKUP must be tested before VIEW, VIEW before ADD, and ADD before ORDER. Which test case should be executed fourth?",
+    "options": [
+      "A) TC3",
+      "B) TC1",
+      "C) SS7",
+      "D) TC2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample B, Q#32, LO: FL-5.1.5). Justification: Respecting dependencies and priority: 1st TC6 (p1), 2nd TC4 (p2), 3rd TC5 or TC3 (p3), 4th TC1 (p4 after fulfilling dependencies).",
+    "source": "Official Sample Exam B Q#32"
+  },
+  {
+    "id": 325,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "You are testing a sort function that takes a set of numbers and returns them sorted in ascending order. The execution log is:\n\n- TC1: Input: `3`. Output: `3`. Result: passed\n- TC2: Input: `3 11 6 5`. Output: `3 5 6 11`. Result: passed\n- TC3: Input: `8 7 3 7 1`. Output: `1 3 7 8`. Result: failed\n- TC4: Input: `-2 -2 -2 -3 -3`. Output: `-3 -2`. Result: failed\n- TC5: Input: `0 -2 0 3 4 4`. Output: `-2 0 3 4`. Result: failed\n\nWhich of the following provides the BEST description of the bug to use in a defect report?",
+    "options": [
+      "A) The system fails to sort several sets of numbers. Reference: TC3, TC4, TC5.",
+      "B) The system seems to ignore duplicates when sorting. Reference: TC3, TC4, TC5.",
+      "C) The system cannot sort negative numbers. Reference: TC4, TC5.",
+      "D) TC3, TC4 and TC5 have defects (duplicate input data) and must be corrected."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample B, Q#38, LO: FL-5.5.1). Rationale: The common pattern in all three bugs is that the function ignores duplicate elements when sorting, which is the most accurate description of the defect.",
+    "source": "Official Sample Exam B Q#38"
+  },
+  {
+    "id": 355,
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "You are preparing a test execution schedule for 7 test cases (TC1-TC7).\n\nThe dependencies are:\n- TC2 depends on TC1\n- TC4 depends on TC2 and TC3\n- TC5 depends on TC3\n- TC6 depends on TC4 and TC5\n- TC7 depends on TC6\n\nThe priorities (1=highest) are: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nWhat is the correct order of execution respecting dependencies and priorities?",
+    "options": [
+      "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
+      "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
+      "C) TC3, TC1, TC5, TC2, TC4, TC6, TC7",
+      "D) TC1, TC3, TC2, TC5, TC4, TC6, TC7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample D, Q#3, LO: FL-5.1.5). Rationale: TC3 has the highest priority (p1) and has no dependencies, so it goes first. Then TC1 (p3, no dependencies), then TC5 (depends on TC3), etc.",
+    "source": "Official Sample Exam C Q#32"
+  },
+  {
+    "id": 1014,
+    "chapter": 2,
+    "topic": "Regresión vs Confirmación",
+    "question": "The test cases were executed:\n- TC1 Failed\n- SS2 Passed\n- SS3 Failed\n\nAfter corrections, TC1, TC2 and TC3 are executed again. Which of these runs are considered regression testing?",
+    "options": [
+      "TC1",
+      "TC2",
+      "TC3",
+      "TC1 and TC3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The execution of TC2 is a regression, since it previously worked and it is verified that the changes have not broken it. TC1 and TC3 are confirmatory tests.",
+    "source": "Práctica Adicional"
+  },
+  {
+    "id": "q_batch2_t5hos07b9",
+    "topic": "Gestión de las Actividades de Prueba",
+    "question": "You have the following test cases for an online banking system:\n\n| Case | Functionality Risk | Risk Probability | Risk Impact | Dependency |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | None |\n| TC2 | Check balance | 3 | 3 | TC1 |\n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |\n| TC4 | Change PIN | 4 | 4 | TC1 |\n\nApplying risk-based prioritization, where impact and probability is measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
+    "options": [
+      "TC1, TC3, TC2, TC4",
+      "TC1, TC2, TC3, TC4",
+      "TC3, TC1, TC2, TC4",
+      "TC1, TC4, TC2, TC3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrect. Problem 1: TC3 depends on TC2 (needs queried balance), but TC3 runs before TC2. This breaks the dependency. Problem 2: TC2 has higher risk (9) than TC4 (16), but TC4 is executed before TC2. Poorly prioritize risk. B. Correct. TC1 first: It is independent and base for all other cases. TC2 before TC3/TC4: TC2 has a higher risk (9) than TC4 (16), and TC3 depends on TC2. C. Incorrect. Critical issue: TC3 depends on TC1 and TC2, but runs first, before both. It will fail due to lack of dependencies. D. Incorrect. Problem 1: TC2 has higher risk (9) than TC4 (16), but TC4 is executed before TC2. Poorly prioritize risk. Problem 2: TC3 depends on TC2, but TC2 runs after TC3. Break the dependency.",
+    "chapter": 5,
+    "source": "banco-extra"
+  },
+  {
+    "id": "q_batch3_l6n0dvnvr",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version:\n\n| Test | Result in previous version |\n|---|---|\n| TC1 | Failed |\n| TC2 | Passed |\n| TC3 | Failed |\n\nAfter corrections, the team runs test cases TC1, TC2, and TC3 again. Which of these runs are considered regression testing?",
+    "options": [
+      "TC1 and TC3",
+      "TC2 and TC3",
+      "TC1 and TC2",
+      "TC2 only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Incorrect. TC1 and TC3 failed in the previous version, so re-running them constitutes confirmation tests (re-testing): it is verified that the defect has been corrected. They are not regression tests. B. Incorrect. TC2 is a regression test, but TC3 failed in the previous version and is therefore a confirmation test. The combination TC2+TC3 is not correct. C. Incorrect. TC2 is a regression test, but TC1 failed in the previous version and is a confirmation test, not a regression test. Furthermore, this option was identical to option D, which constituted a structural defect in the question. D. Correct. TC2 passed in the previous version. By re-running it after the corrections, it is verified that the changes have not introduced new defects in functionality that already worked. This is exactly the definition of regression testing according to CTFL v4.0 sect. 2.2.3. TC1 and TC3, which failed before, are confirmation tests.",
+    "source": "User Provided Batch 3"
   }
 ]
