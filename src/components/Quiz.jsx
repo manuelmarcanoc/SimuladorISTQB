@@ -129,7 +129,11 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
         isCorrect: idx === q.correctAnswer,
         originalIndex: idx
       }));
-      const shuffled = shuffle(withMeta);
+      
+      // We DO NOT shuffle options anymore because the explanations 
+      // in the JSON explicitly reference the original A, B, C, D letters.
+      const shuffled = withMeta;
+
       return {
         ...q,
         options: shuffled.map(o => o.text),
