@@ -6,6 +6,10 @@ import StatsPanel from './components/StatsPanel';
 import AdComponent from './components/AdComponent';
 import { setLanguage, t } from './i18n';
 
+const BMC_URL = 'https://buymeacoffee.com/manuelmc';
+const SHARE_URL = 'https://istqbeasy.com';
+const SHARE_TEXT = '🎓 Simulador ISTQB CTFL v4.0 gratuito con más de 357 preguntas en ES/EN/FR. ¡Os lo recomiendo para preparar la certificación!';
+
 function App() {
   const [activeTab, setActiveTab] = useState('simulador');
   const [lang, setLang] = useState('es');
@@ -126,7 +130,7 @@ function App() {
       <footer className="app-footer">
         <a
           className="bmc-btn"
-          href="https://buymeacoffee.com/manuelmc"
+          href={BMC_URL}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -139,8 +143,36 @@ function App() {
           </svg>
           Buy me a coffee
         </a>
-        <p>Created by <strong>Vibbe Labs</strong></p>
+        <button
+          className="share-footer-btn"
+          onClick={() => {
+            if (navigator.share) {
+              navigator.share({ title: 'ISTQBeasy', text: SHARE_TEXT, url: SHARE_URL });
+            } else {
+              navigator.clipboard.writeText(SHARE_URL);
+              alert('¡Enlace copiado! Compártelo en foros y grupos 🚀');
+            }
+          }}
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+          Compartir
+        </button>
+        <p>Created by <strong>ISTQBeasy</strong> · <a href={BMC_URL} target="_blank" rel="noopener noreferrer" style={{color:'var(--primary)', textDecoration:'none'}}>Apóyanos ☕</a></p>
       </footer>
+
+      {/* Floating Buy Me a Coffee button */}
+      <a
+        href={BMC_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bmc-float"
+        title="¿Te ha ayudado? ¡Invítame a un café!"
+      >
+        ☕
+      </a>
     </div>
   );
 }

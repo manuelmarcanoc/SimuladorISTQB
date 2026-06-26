@@ -1034,6 +1034,124 @@ h1, h2, h3, h4, h5, h6, .app-title {
   box-shadow: 4px 4px 0 rgba(0,0,0,0.5);
 }
 
+/* Floating Buy Me a Coffee button */
+.bmc-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #ffdd00;
+  color: #1c1a17;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18), 0 2px 4px rgba(0,0,0,0.12);
+  z-index: 999;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px solid rgba(0,0,0,0.08);
+}
+
+.bmc-float:hover {
+  transform: scale(1.12) translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+}
+
+.bmc-float:active {
+  transform: scale(0.97);
+}
+
+/* Share button in footer */
+.share-footer-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  background: var(--surface-solid);
+  border: 1.5px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.share-footer-btn:hover {
+  background: var(--hover-bg);
+  transform: translateY(-1px);
+}
+
+/* Buy Me a Coffee banner in Results */
+.bmc-results-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem auto 0;
+  padding: 1.2rem 1.5rem;
+  background: linear-gradient(135deg, #fffbea 0%, #fff8d6 100%);
+  border: 1.5px solid #f0d060;
+  border-radius: var(--radius-lg);
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+.dark-mode .bmc-results-banner {
+  background: linear-gradient(135deg, rgba(255,221,0,0.1) 0%, rgba(255,221,0,0.05) 100%);
+  border-color: rgba(255,221,0,0.3);
+}
+
+.bmc-results-emoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.bmc-results-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex: 1;
+  min-width: 160px;
+}
+
+.bmc-results-text strong {
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+.bmc-results-text span {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.bmc-results-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #1c1a17;
+  background: #ffdd00;
+  padding: 0.55rem 1.2rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid rgba(0,0,0,0.15);
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.12);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.bmc-results-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.15);
+}
+
 /* Markdown Table Styles */
 .question-text table {
   width: 100%;
