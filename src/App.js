@@ -4,6 +4,8 @@ import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
 import StatsPanel from './components/StatsPanel';
 import AdComponent from './components/AdComponent';
+import CookieBanner from './components/CookieBanner';
+import LegalPage from './components/LegalPage';
 import { setLanguage, t } from './i18n';
 
 const BMC_URL = 'https://buymeacoffee.com/manuelmc';
@@ -16,6 +18,8 @@ function App() {
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem('istqb-dark') === 'true';
   });
+  const [showLegal, setShowLegal] = useState(false);
+  const [legalTab, setLegalTab] = useState('sobre');
 
   const toggleDark = () => {
     const next = !darkMode;
@@ -161,6 +165,16 @@ function App() {
           Compartir
         </button>
         <p>Created by <strong>ISTQBeasy</strong> · <a href={BMC_URL} target="_blank" rel="noopener noreferrer" style={{color:'var(--primary)', textDecoration:'none'}}>Apóyanos ☕</a></p>
+        
+        <div className="footer-links">
+          <button className="footer-link-btn" onClick={() => { setLegalTab('sobre'); setShowLegal(true); }}>
+            Sobre el proyecto
+          </button>
+          <span className="footer-dot">•</span>
+          <button className="footer-link-btn" onClick={() => { setLegalTab('privacidad'); setShowLegal(true); }}>
+            Política de Privacidad
+          </button>
+        </div>
       </footer>
 
       {/* Floating Buy Me a Coffee button */}
@@ -173,6 +187,9 @@ function App() {
       >
         ☕
       </a>
+
+      <CookieBanner />
+      {showLegal && <LegalPage onClose={() => setShowLegal(false)} initialTab={legalTab} />}
     </div>
   );
 }
