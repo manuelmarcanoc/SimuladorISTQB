@@ -1492,3 +1492,35 @@ h1, h2, h3, h4, h5, h6, .app-title {
   color: var(--text-muted);
   font-size: 0.85rem;
 }
+
+
+/* Notes Intro Panel */
+.notes-intro-panel {
+  color: var(--text-main);
+  background: var(--surface);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1.5px solid var(--border-color);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.dark-mode .notes-intro-panel {
+  border-color: var(--border-ink);
+  background: #2c2820;
+  color: #f0f0f0;
+}
+
+.notes-intro-panel h3 {
+  color: var(--text-main);
+  margin-bottom: 1rem;
+}
+.dark-mode .notes-intro-panel h3 {
+  color: var(--primary-light);
+}
+
+.notes-empty-state {
+  color: var(--text-main);
+}
+.dark-mode .notes-empty-state {
+  color: #f0f0f0;
+}
