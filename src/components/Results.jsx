@@ -135,7 +135,7 @@ const Results = ({ score, totalQuestions, userAnswers, questions, onRestart }) =
           rel="noopener noreferrer"
           className="bmc-results-btn"
         >
-          ☕ Donar
+          ☕ Invítame a un café
         </a>
       </div>
     </div>
