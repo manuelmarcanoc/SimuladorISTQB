@@ -4953,5 +4953,69 @@
     "correctAnswer": 1,
     "explanation": "Le test piloté par mots-clés utilise des mots-clés ou mots d'action qui représentent des opérations du système. Les cas de test sont écrits dans des tableaux avec ces mots-clés, séparant la conception des tests de leur implémentation technique.",
     "source": "banco"
+  },
+  {
+    "id": "q_batch3_bi3fp7yfr",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Parmi les affirmations suivantes concernant la gestion des tests, laquelle est correcte ?",
+    "options": [
+      "La gestion des tests n'est pas nécessaire si le développement est effectué dans un environnement agile.",
+      "La gestion des tests ne doit être appliquée que dans les étapes finales du développement.",
+      "La gestion des tests aide à planifier, surveiller et contrôler le processus de test.",
+      "La gestion des tests relève de la seule responsabilité de l’équipe de développement."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Incorrect. La gestion des tests est importante dans tous les environnements, y compris les environnements agiles. B. Incorrect. La gestion des tests doit être continue tout au long du cycle de vie du développement. C. Exactement. La gestion des tests est essentielle pour une planification et un contrôle appropriés. D. Incorrect. La gestion des tests relève de la responsabilité de toute l’équipe, pas seulement du développement.",
+    "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch3_nfi6e89ri",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Quel niveau de tests correspond le mieux à l’identification des défauts liés à l’interface entre les différents modules d’un système ?",
+    "options": [
+      "Tests d'acceptation",
+      "Tests système",
+      "Tests d'intégration",
+      "Tests de composants"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Incorrect. Les tests d'acceptation se concentrent sur la validation si le système répond aux exigences du client, et non sur l'interface entre les modules. B. Incorrect. Les tests système évaluent le système dans son ensemble, mais ne se concentrent pas spécifiquement sur l'interaction entre les modules. C. Exactement. Les tests d'intégration se concentrent sur la vérification de la communication et de l'interaction entre les différents composants ou modules du système. D. Incorrect. Les tests de composants se concentrent sur le test d'un seul module de manière isolée, et non sur son interaction avec d'autres.",
+    "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch3_vitftajfv",
+    "chapter": 2,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lequel des énoncés suivants décrit de manière adéquate les niveaux de tests (1-4) et leurs approches spécifiques (A-D) ? Tests effectués pour valider la fonctionnalité complète du système dans un environnement de production simulé. Tests qui visent à vérifier que les modules individuels fonctionnent correctement. Des tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble. Tests qui impliquent la validation des exigences du point de vue de l'utilisateur final. Tests du système Tests des composants Tests d’intégration Tests d’acceptation",
+    "options": [
+      "A. 1A, 2B, 3C, 4D",
+      "B.1C, 2A, 3D, 4B",
+      "C.1D, 2C, 3A, 4B",
+      "D.1B, 2D, 3A, 4C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. L'énoncé 1 décrit correctement les tests du système (1A), qui valident l'ensemble du système. L'énoncé 2 fait référence aux tests de composants (2B), où la fonctionnalité des modules individuels est vérifiée. 3 est lié aux tests d'intégration (3C), qui se concentrent sur l'interaction entre les modules. 4 correspond aux tests d'acceptation (4D), où les exigences sont validées du point de vue de l'utilisateur final. B. Le choix B est incorrect. L'instruction 1 n'est pas associée aux tests d'intégration (1C), mais aux tests du système. L'énoncé 2 décrit correctement les tests de composants, mais l'énoncé 3 ne concerne pas correctement les tests d'acceptation. C. Le choix C est incorrect. L'énoncé 1 ne décrit pas les tests d'acceptation (1D), mais constitue plutôt une approche de test du système. Les autres descriptions ne correspondent pas non plus aux niveaux de test correspondants. D. Le choix D est incorrect. L'énoncé 1 ne correspond pas au test des composants (1B), mais au test du système. Les autres descriptions sont également incorrectes concernant les niveaux de test.",
+    "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch3_l6n0dvnvr",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Une équipe de développement a corrigé plusieurs défauts dans une nouvelle version de l'application. Les scénarios de test suivants ont été exécutés dans la version précédente : Résultat du test dans la version précédente TC1 a échoué TC2 a réussi TC3 a échoué Après les corrections, l'équipe exécute à nouveau les scénarios de test TC1, TC2 et TC3. Lesquelles de ces exécutions sont considérées comme des tests de régression ?",
+    "options": [
+      "TC1 et TC3",
+      "TC2 et TC3",
+      "TC1 et TC2",
+      "TC2 uniquement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Incorrect. TC1 et TC3 échouaient dans la version précédente, leur relance constitue donc des tests de confirmation (re-testing) : on vérifie que le défaut a été corrigé. Ce ne sont pas des tests de régression. B. Incorrect. TC2 est un test de régression, mais TC3 a échoué dans la version précédente et est donc un test de confirmation. La combinaison TC2+TC3 n'est pas correcte. C. Incorrect. TC2 est un test de régression, mais TC1 a échoué dans la version précédente et est un test de confirmation, pas un test de régression. De plus, cette option était identique à l'option D, ce qui constituait un défaut structurel de la question. D. Exactement. TC2 réussi dans la version précédente. En le réexécutant après les corrections, on vérifie que les modifications n'ont pas introduit de nouveaux défauts dans les fonctionnalités qui fonctionnaient déjà. C'est exactement la définition des tests de régression selon la secte CTFL v4.0. 2.2.3. TC1 et TC3, qui ont échoué auparavant, sont des tests de confirmation.",
+    "source": "User Provided Batch 3"
   }
 ]

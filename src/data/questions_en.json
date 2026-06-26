@@ -4953,5 +4953,69 @@
     "correctAnswer": 1,
     "explanation": "Keyword-driven testing uses keywords or action words that represent system operations. Test cases are written in tables with these keywords, separating test design from its technical implementation.",
     "source": "banco"
+  },
+  {
+    "id": "q_batch3_bi3fp7yfr",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following statements about test management is correct?",
+    "options": [
+      "Test management is not necessary if development is done in an agile environment.",
+      "Test management should be applied only in the final stages of development.",
+      "Test management helps to plan, monitor and control the testing process.",
+      "Test management is the sole responsibility of the development team."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Incorrect. Test management is important in all environments, including agile ones. B. Incorrect. Test management must be continuous throughout the entire development lifecycle. C. Correct. Test management is essential for proper planning and control. D. Incorrect. Test management is the responsibility of the entire team, not just development.",
+    "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch3_nfi6e89ri",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which level of testing best corresponds to the identification of defects related to the interface between different modules of a system?",
+    "options": [
+      "Acceptance tests",
+      "System tests",
+      "Integration tests",
+      "Component testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Incorrect. Acceptance testing focuses on validating whether the system meets the customer's requirements, not on the interface between modules. B. Incorrect. System testing evaluates the system as a whole, but does not focus specifically on the interaction between modules. C. Correct. Integration testing focuses on verifying the communication and interaction between different components or modules of the system. D. Incorrect. Component testing focuses on testing a single module in isolation, not its interaction with others.",
+    "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch3_vitftajfv",
+    "chapter": 2,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following statements adequately describe the levels of testing (1-4) and their specific approaches (A-D)? Testing performed to validate full system functionality in a simulated production environment. Tests that focus on verifying that individual modules are working correctly. Tests that ensure that different modules integrate and work together. Testing that involves validation of requirements from the perspective of the end user. System testing Component testing Integration testing Acceptance testing",
+    "options": [
+      "A. 1A, 2B, 3C, 4D",
+      "B. 1C, 2A, 3D, 4B",
+      "C. 1D, 2C, 3A, 4B",
+      "D. 1B, 2D, 3A, 4C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Statement 1 correctly describes system tests (1A), which validate the entire system. Statement 2 refers to component testing (2B), where the functionality of individual modules is verified. 3 is related to integration testing (3C), which focuses on the interaction between modules. 4 corresponds to acceptance testing (4D), where the requirements are validated from the perspective of the end user. B. Choice B is incorrect. Statement 1 is not associated with integration testing (1C), but with system testing. Statement 2 correctly describes component testing, but statement 3 does not correctly relate to acceptance testing. C. Choice C is incorrect. Statement 1 does not describe acceptance testing (1D), but rather is a system testing approach. The other descriptions also do not match the corresponding test levels. D. Choice D is incorrect. Statement 1 does not correspond to component testing (1B), but to system testing. The other descriptions are also incorrect regarding the testing levels.",
+    "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch3_l6n0dvnvr",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version: Test Result in the previous version TC1 Failed TC2 Passed TC3 Failed After corrections, the team runs test cases TC1, TC2, and TC3 again. Which of these runs are considered regression testing?",
+    "options": [
+      "TC1 and TC3",
+      "TC2 and TC3",
+      "TC1 and TC2",
+      "TC2 only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Incorrect. TC1 and TC3 failed in the previous version, so re-running them constitutes confirmation tests (re-testing): it is verified that the defect has been corrected. They are not regression tests. B. Incorrect. TC2 is a regression test, but TC3 failed in the previous version and is therefore a confirmation test. The combination TC2+TC3 is not correct. C. Incorrect. TC2 is a regression test, but TC1 failed in the previous version and is a confirmation test, not a regression test. Furthermore, this option was identical to option D, which constituted a structural defect in the question. D. Correct. TC2 passed in the previous version. By re-running it after the corrections, it is verified that the changes have not introduced new defects in functionality that already worked. This is exactly the definition of regression testing according to CTFL v4.0 sect. 2.2.3. TC1 and TC3, which failed before, are confirmation tests.",
+    "source": "User Provided Batch 3"
   }
 ]
