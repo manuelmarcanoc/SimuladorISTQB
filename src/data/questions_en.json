@@ -5316,5 +5316,69 @@
     "correctAnswer": 0,
     "explanation": "A. Incorrect. TC1 and TC3 failed in the previous version, so re-running them constitutes confirmation tests (re-testing): it is verified that the defect has been corrected. They are not regression tests. B. Incorrect. TC2 is a regression test, but TC3 failed in the previous version and is therefore a confirmation test. The combination TC2+TC3 is not correct. C. Incorrect. TC2 is a regression test, but TC1 failed in the previous version and is a confirmation test, not a regression test. Furthermore, this option was identical to option D, which constituted a structural defect in the question. D. Correct. TC2 passed in the previous version. By re-running it after the corrections, it is verified that the changes have not introduced new defects in functionality that already worked. This is exactly the definition of regression testing according to CTFL v4.0 sect. 2.2.3. TC1 and TC3, which failed before, are confirmation tests.",
     "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch5_oy2vhh5m6",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "What type of testing tool is best suited for issue management in a software project?",
+    "options": [
+      "Test management tool",
+      "Test automation tool",
+      "Incident tracking tool",
+      "Configuration Management Tool"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Although test management tools help organize and plan tests, they are not specifically designed to manage issues. B. It is not correct. Test automation tools are focused on running tests automatically, not managing issues. C. It is correct. Issue tracking tools are essential for recording, tracking, and managing defects found during testing. D. It is not correct. Configuration management tools are used to control and maintain software configurations, but are not for incident management.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch5_o536w1du4",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "What is the main benefit of using a test management tool?",
+    "options": [
+      "Automate testing without human intervention",
+      "Facilitate test planning and monitoring",
+      "Automatically generate test cases from code",
+      "Identify errors in code without running tests"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Although some tools can help with automation, the main purpose of a test management tool is planning and tracking. B. It is correct. A test management tool allows teams to plan, organize, and track test progress, facilitating coordination and communication. C. It is not correct. Tools that automatically generate test cases are typically analysis tools, not test management tools. D. It is not correct. Identifying bugs in code without running tests is not a function of test management tools; that's more of a function of static analysis tools.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch5_pdbyrk068",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following statements describes a benefit of test automation?",
+    "options": [
+      "Increased need for staff to be highly trained in programming",
+      "Allows execution of repetitive tests quickly and consistently",
+      "Test software maintenance cost increases significantly",
+      "Requires less time to plan manual tests"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Although automation may require some training, it is not an intrinsic benefit. B. It is correct. Automation allows you to run repetitive tests quickly and consistently, which is a huge benefit. C. It is not correct. Although there may be maintenance costs, the benefit is that efficiency can increase. D. It is not correct. Automation does not necessarily reduce manual test planning time.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch5_aqadcfs6i",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following is a benefit of test automation?",
+    "options": [
+      "Increase in test coverage",
+      "Increased time required to run tests",
+      "Reliance on specific testing tools",
+      "Reduction of necessary documentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. That is correct. Test automation allows you to run more tests in less time, thus increasing coverage. B. It is not correct. Automation generally reduces the time needed to run a test suite. C. It is not correct. Although automation can create tool dependency, this is not a benefit. D. It is not correct. Automation does not necessarily reduce documentation, it often requires additional documentation for test scripts.",
+    "source": "User Provided Batch 4"
   }
 ]

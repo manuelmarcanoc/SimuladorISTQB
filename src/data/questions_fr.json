@@ -5316,5 +5316,69 @@
     "correctAnswer": 0,
     "explanation": "R. Incorrect. TC1 et TC3 échouaient dans la version précédente, leur relance constitue donc des tests de confirmation (re-testing) : on vérifie que le défaut a été corrigé. Ce ne sont pas des tests de régression. B. Incorrect. TC2 est un test de régression, mais TC3 a échoué dans la version précédente et est donc un test de confirmation. La combinaison TC2+TC3 n'est pas correcte. C. Incorrect. TC2 est un test de régression, mais TC1 a échoué dans la version précédente et est un test de confirmation, pas un test de régression. De plus, cette option était identique à l'option D, ce qui constituait un défaut structurel de la question. D. Exactement. TC2 réussi dans la version précédente. En le réexécutant après les corrections, on vérifie que les modifications n'ont pas introduit de nouveaux défauts dans les fonctionnalités qui fonctionnaient déjà. C'est exactement la définition des tests de régression selon la secte CTFL v4.0. 2.2.3. TC1 et TC3, qui ont échoué auparavant, sont des tests de confirmation.",
     "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch5_oy2vhh5m6",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Quel type d'outil de test est le mieux adapté à la gestion des problèmes dans un projet logiciel ?",
+    "options": [
+      "Outil de gestion des tests",
+      "Outil d'automatisation des tests",
+      "Outil de suivi des incidents",
+      "Outil de gestion des configurations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Bien que les outils de gestion des tests aident à organiser et planifier les tests, ils ne sont pas spécifiquement conçus pour gérer les problèmes. B. Ce n’est pas correct. Les outils d'automatisation des tests se concentrent sur l'exécution automatique des tests et non sur la gestion des problèmes. C. C'est exact. Les outils de suivi des problèmes sont essentiels pour enregistrer, suivre et gérer les défauts détectés lors des tests. D. Ce n’est pas exact. Les outils de gestion de configuration sont utilisés pour contrôler et maintenir les configurations logicielles, mais ne sont pas destinés à la gestion des incidents.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch5_o536w1du4",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Quel est le principal avantage d’utiliser un outil de gestion de tests ?",
+    "options": [
+      "Automatisez les tests sans intervention humaine",
+      "Faciliter la planification et le suivi des tests",
+      "Générer automatiquement des cas de test à partir du code",
+      "Identifiez les erreurs dans le code sans exécuter de tests"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Bien que certains outils puissent faciliter l’automatisation, l’objectif principal d’un outil de gestion des tests est la planification et le suivi. B. C’est exact. Un outil de gestion des tests permet aux équipes de planifier, d'organiser et de suivre la progression des tests, facilitant ainsi la coordination et la communication. C. Ce n’est pas exact. Les outils qui génèrent automatiquement des cas de test sont généralement des outils d'analyse et non des outils de gestion de tests. D. Ce n’est pas exact. L'identification des bogues dans le code sans exécuter de tests n'est pas une fonction des outils de gestion des tests ; c'est davantage une fonction des outils d'analyse statique.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch5_pdbyrk068",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lequel des énoncés suivants décrit un avantage de l’automatisation des tests ?",
+    "options": [
+      "Besoin accru de personnel hautement qualifié en programmation",
+      "Permet l’exécution de tests répétitifs de manière rapide et cohérente",
+      "Le coût de maintenance des logiciels de test augmente considérablement",
+      "Nécessite moins de temps pour planifier des tests manuels"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Même si l’automatisation nécessite une certaine formation, elle ne constitue pas un avantage intrinsèque. B. C’est exact. L'automatisation vous permet d'exécuter des tests répétitifs de manière rapide et cohérente, ce qui constitue un énorme avantage. C. Ce n’est pas exact. Même s’il peut y avoir des coûts de maintenance, l’avantage est que l’efficacité peut augmenter. D. Ce n’est pas exact. L'automatisation ne réduit pas nécessairement le temps de planification manuelle des tests.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch5_aqadcfs6i",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Parmi les éléments suivants, lequel constitue un avantage de l’automatisation des tests ?",
+    "options": [
+      "Augmentation de la couverture des tests",
+      "Augmentation du temps requis pour exécuter les tests",
+      "Recours à des outils de test spécifiques",
+      "Réduction de la documentation nécessaire"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. C'est exact. L'automatisation des tests vous permet d'exécuter plus de tests en moins de temps, augmentant ainsi la couverture. B. Ce n’est pas correct. L'automatisation réduit généralement le temps nécessaire à l'exécution d'une suite de tests. C. Ce n’est pas exact. Même si l’automatisation peut créer une dépendance aux outils, cela ne constitue pas un avantage. D. Ce n’est pas exact. L'automatisation ne réduit pas nécessairement la documentation, elle nécessite souvent une documentation supplémentaire pour les scripts de test.",
+    "source": "User Provided Batch 4"
   }
 ]

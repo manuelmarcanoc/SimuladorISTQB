@@ -1,0 +1,80 @@
+[
+  {
+    "id": "q_batch5_oy2vhh5m6",
+    "topic": "5",
+    "question": "¿Qué tipo de herramienta de prueba es más adecuada para la gestión de incidencias en un proyecto de software?",
+    "options": [
+      "Herramienta de gestión de pruebas",
+      "Herramienta de automatización de pruebas",
+      "Herramienta de seguimiento de incidencias",
+      "Herramienta de gestión de configuraciones"
+    ],
+    "correctAnswer": "A",
+    "explanation": "A. No es correcto. Aunque las herramientas de gestión de pruebas ayudan a organizar y planificar pruebas, no están específicamente diseñadas para gestionar incidencias. B. No es correcto. Las herramientas de automatización de pruebas están enfocadas en ejecutar pruebas automáticamente, no en gestionar incidencias. C. Es correcto. Las herramientas de seguimiento de incidencias son esenciales para registrar, rastrear y gestionar defectos encontrados durante las pruebas. D. No es correcto. Las herramientas de gestión de configuraciones se utilizan para controlar y mantener configuraciones del software, pero no son para gestión de incidencias."
+  },
+  {
+    "id": "q_batch5_o536w1du4",
+    "topic": "5",
+    "question": "¿Cuál es el principal beneficio de utilizar una herramienta de gestión de pruebas?",
+    "options": [
+      "Automatizar las pruebas sin intervención humana",
+      "Facilitar la planificación y el seguimiento de las pruebas",
+      "Generar automáticamente los casos de prueba a partir del código",
+      "Identificar errores en el código sin ejecutar pruebas"
+    ],
+    "correctAnswer": "A",
+    "explanation": "A. No es correcto. Aunque algunas herramientas pueden ayudar en la automatización, el propósito principal de una herramienta de gestión de pruebas es la planificación y el seguimiento. B. Es correcto. Una herramienta de gestión de pruebas permite a los equipos planificar, organizar y hacer seguimiento del progreso de las pruebas, facilitando la coordinación y la comunicación. C. No es correcto. Las herramientas que generan casos de prueba automáticamente suelen ser herramientas de análisis, no herramientas de gestión de pruebas. D. No es correcto. Identificar errores en el código sin ejecutar pruebas no es una función de las herramientas de gestión de pruebas; esa es más bien una función de herramientas de análisis estático."
+  },
+  {
+    "id": "q_batch5_im28deuop",
+    "topic": "5",
+    "question": "¿Cuál de las siguientes herramientas de prueba se utiliza generalmente para automatizar la ejecución de pruebas?",
+    "options": [
+      "Herramientas de gestión de pruebas",
+      "Herramientas de pruebas de rendimiento",
+      "Herramientas de automatización de pruebas",
+      "Herramientas de gestión de defectos"
+    ],
+    "correctAnswer": "A",
+    "explanation": "A. No es correcto. Las herramientas de gestión de pruebas se utilizan para planificar, organizar y realizar un seguimiento del proceso de prueba, pero no para ejecutar pruebas de forma automatizada. B. No es correcto. Las herramientas de pruebas de rendimiento están diseñadas para evaluar el rendimiento del sistema bajo carga, no para automatizar la ejecución de pruebas en general. C. Es correcto. Las herramientas de automatización de pruebas están diseñadas específicamente para ejecutar pruebas automáticamente, lo que permite realizar pruebas de manera más rápida y eficiente. D. No es correcto. Las herramientas de gestión de defectos se utilizan para rastrear y gestionar errores encontrados durante el proceso de prueba, no para automatizar la ejecución de pruebas."
+  },
+  {
+    "id": "q_batch5_pdbyrk068",
+    "topic": "5",
+    "question": "¿Cuál de las siguientes afirmaciones describe un beneficio de la automatización de pruebas?",
+    "options": [
+      "Aumenta la necesidad de que el personal esté altamente capacitado en programación",
+      "Permite la ejecución de pruebas repetitivas de manera rápida y consistente",
+      "El costo de mantenimiento del software de prueba se incrementa significativamente",
+      "Requiere menos tiempo para planear las pruebas manuales"
+    ],
+    "correctAnswer": "A",
+    "explanation": "A. No es correcto. Aunque la automatización puede requerir cierta capacitación, no es un beneficio intrínseco. B. Es correcto. La automatización permite ejecutar pruebas repetitivas con rapidez y consistencia, lo que es un gran beneficio. C. No es correcto. Aunque puede haber costos de mantenimiento, el beneficio es que la eficiencia puede aumentar. D. No es correcto. La automatización no necesariamente reduce el tiempo de planificación de pruebas manuales."
+  },
+  {
+    "id": "q_batch5_aqadcfs6i",
+    "topic": "1",
+    "question": "¿Cuál de los siguientes es un beneficio de la automatización de pruebas?",
+    "options": [
+      "Aumento en la cobertura de pruebas",
+      "Incremento del tiempo necesario para ejecutar pruebas",
+      "Dependencia en herramientas de prueba específicas",
+      "Reducción de la documentación necesaria"
+    ],
+    "correctAnswer": "A",
+    "explanation": "A. Es correcto. La automatización de pruebas permite ejecutar más pruebas en menos tiempo, aumentando así la cobertura. B. No es correcto. La automatización generalmente reduce el tiempo necesario para ejecutar un conjunto de pruebas. C. No es correcto. Aunque la automatización puede crear dependencia de herramientas, esto no es un beneficio. D. No es correcto. La automatización no necesariamente reduce la documentación, a menudo requiere documentación adicional para scripts de prueba."
+  },
+  {
+    "id": "q_batch5_q1rvmejcp",
+    "topic": "1",
+    "question": "¿Cuál de los siguientes enunciados describe un beneficio de la automatización de pruebas?",
+    "options": [
+      "Aumenta la cobertura de pruebas en menos tiempo",
+      "Elimina completamente la necesidad de pruebas manuales",
+      "Reduce la complejidad del desarrollo de software",
+      "Aumenta la posibilidad de errores humanos en la ejecución"
+    ],
+    "correctAnswer": "A",
+    "explanation": "A. Es correcto. La automatización permite ejecutar pruebas más rápidamente y con mayor frecuencia, lo que puede aumentar la cobertura de pruebas. B. No es correcto. Aunque la automatización puede reducir la necesidad de pruebas manuales, no puede eliminarla por completo en todos los casos. C. No es correcto. La automatización no necesariamente reduce la complejidad del software, puede, de hecho, introducir su propia complejidad. D. No es correcto. La automatización, si se hace correctamente, puede reducir la posibilidad de errores humanos durante la ejecución de pruebas."
+  }
+]
