@@ -48,7 +48,7 @@
     "id": 1007,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lorsqu'il évalue la qualité d'un produit logiciel ? i. Communication efficace ii. Connaissances techniques iii. Capacité d'analyse iv. Gestion du temps",
+    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lorsqu'il évalue la qualité d'un produit logiciel ?\n\ni. Communication efficace\n\nii. Connaissances techniques\n\niii. Capacité d'analyse\n\niv. Gestion du temps",
     "options": [
       "i et ii sont essentielles ; iii et iv ne le sont pas",
       "iii et iv sont essentielles ; i et ii ne le sont pas",
@@ -93,7 +93,7 @@
     "id": 1039,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Lesquelles des compétences suivantes (i-v) sont essentielles pour un testeur dans son travail quotidien ? i. Capacité à rédiger des rapports clairs ii. Connaissance des langages de programmation iii. Capacité d'analyse des risques iv. Être un bon communicant v. Connaître les outils d'automatisation",
+    "question": "Lesquelles des compétences suivantes (i-v) sont essentielles pour un testeur dans son travail quotidien ?\n\ni. Capacité à rédiger des rapports clairs\n\nii. Connaissance des langages de programmation\n\niii. Capacité d'analyse des risques\n\niv. Être un bon communicant\n\nv. Connaître les outils d'automatisation",
     "options": [
       "i, iii et iv sont essentielles ; ii et v ne le sont pas",
       "ii, iii et v sont essentielles ; i et iv ne le sont pas",
@@ -316,7 +316,7 @@
     "id": 254,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Parmi les facteurs suivants, lesquels ont une influence SIGNIFICATIVE sur l'approche de test ? Yo. Le SDLC ii. Le nombre de défauts détectés dans les projets précédents iii. Les risques liés aux produits identifiés iv. Nouvelles exigences réglementaires exigeant des tests formels en boîte blanche v. Mise en place de l'environnement de test",
+    "question": "Parmi les facteurs suivants, lesquels ont une influence SIGNIFICATIVE sur l'approche de test ? Yo. Le SDLC\n\nii. Le nombre de défauts détectés dans les projets précédents\n\niii. Les risques liés aux produits identifiés\n\niv. Nouvelles exigences réglementaires exigeant des tests formels en boîte blanche\n\nv. Mise en place de l'environnement de test",
     "options": [
       "A) i, ii ont une influence significative",
       "B) i, iii, iv ont une influence significative",
@@ -347,7 +347,7 @@
     "id": 256,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Parmi les compétences suivantes (i-v), lesquelles sont les PLUS importantes pour un testeur ? Yo. Avoir une connaissance du domaine ii. Créer une vision du produit iii. Être un bon joueur d'équipe iv. Planifier et organiser le travail de l'équipe v. Pensée critique",
+    "question": "Parmi les compétences suivantes (i-v), lesquelles sont les PLUS importantes pour un testeur ? Yo. Avoir une connaissance du domaine\n\nii. Créer une vision du produit\n\niii. Être un bon joueur d'équipe\n\niv. Planifier et organiser le travail de l'équipe\n\nv. Pensée critique",
     "options": [
       "A) ii et iv sont importants",
       "B) i, iii et v sont importants",
@@ -558,7 +558,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donné le testware suivant : 1. Éléments de couverture 2. Demandes de changement 3. Calendrier d'exécution des tests 4. Conditions de test priorisées. Et les activités de test suivantes : A. Analyse des tests B. Conception des tests C. Implémentation des tests D. Clôture des tests. Laquelle des options suivantes montre le MIEUX le testware produit par chaque activité ?",
+    "question": "Étant donné le testware suivant :\n\n1. Éléments de couverture\n\n2. Demandes de changement\n\n3. Calendrier d'exécution des tests\n\n4. Conditions de test priorisées. Et les activités de test suivantes :\n\nA. Analyse des tests\n\nB. Conception des tests\n\nC. Implémentation des tests\n\nD. Clôture des tests. Laquelle des options suivantes montre le MIEUX le testware produit par chaque activité ?",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -633,7 +633,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donné le testware suivant : i. Rapport de clôture des tests ii. Données dans une base de données utilisées comme entrées et résultats attendus iii. Liste des éléments nécessaires pour construire l'environnement de test iv. Séquences documentées de cas de test dans l'ordre d'exécution v. Cas de test. Laquelle des options suivantes montre le MIEUX le testware produit à la suite de l'implémentation des tests ?",
+    "question": "Étant donné le testware suivant :\n\ni. Rapport de clôture des tests\n\nii. Données dans une base de données utilisées comme entrées et résultats attendus\n\niii. Liste des éléments nécessaires pour construire l'environnement de test\n\niv. Séquences documentées de cas de test dans l'ordre d'exécution\n\nv. Cas de test. Laquelle des options suivantes montre le MIEUX le testware produit à la suite de l'implémentation des tests ?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -678,7 +678,7 @@
     "id": 368,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donnés les avantages et inconvénients suivants de l'indépendance des tests : i. Les testeurs travaillent dans un lieu différent de celui des développeurs ii. Les testeurs remettent en question les hypothèses que les programmeurs font en écrivant le code iii. Une dynamique de confrontation s'est établie entre testeurs et développeurs iv. Les développeurs se sont convaincus que les testeurs sont les principaux responsables de la qualité v. Les testeurs ont des biais différents de ceux des développeurs. Lesquels sont le PLUS PROBABLEMENT considérés comme des avantages ?",
+    "question": "Étant donnés les avantages et inconvénients suivants de l'indépendance des tests :\n\ni. Les testeurs travaillent dans un lieu différent de celui des développeurs\n\nii. Les testeurs remettent en question les hypothèses que les programmeurs font en écrivant le code\n\niii. Une dynamique de confrontation s'est établie entre testeurs et développeurs\n\niv. Les développeurs se sont convaincus que les testeurs sont les principaux responsables de la qualité\n\nv. Les testeurs ont des biais différents de ceux des développeurs. Lesquels sont le PLUS PROBABLEMENT considérés comme des avantages ?",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -693,7 +693,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant données les tâches de test suivantes : 1) Dériver les cas de test à partir des conditions, 2) Identifier le testware réutilisable, 3) Organiser les cas de test en procédures, 4) Évaluer la base de test ; et les activités : A) Analyse, B) Conception, C) Implémentation, D) Clôture. Quelle est la MEILLEURE correspondance ?",
+    "question": "Étant données les tâches de test suivantes :\n\n1) Dériver les cas de test à partir des conditions,\n\n2) Identifier le testware réutilisable,\n\n3) Organiser les cas de test en procédures,\n\n4) Évaluer la base de test ; et les activités :\n\nA) Analyse,\n\nB) Conception,\n\nC) Implémentation,\n\nD) Clôture. Quelle est la MEILLEURE correspondance ?",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -993,7 +993,7 @@
     "id": 1013,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Lesquelles des affirmations suivantes décrivent correctement les niveaux de test et leurs approches ? 1. Valide la fonctionnalité complète dans un environnement de production simulé. 2. Vérifie que les modules individuels fonctionnent. 3. Garantit que les modules s'intègrent ensemble. 4. Valide les exigences du point de vue de l'utilisateur final. A. Tests système, B. Tests de composants, C. Tests d'intégration, D. Tests d'acceptation",
+    "question": "Lesquelles des affirmations suivantes décrivent correctement les niveaux de test et leurs approches ?\n\n1. Valide la fonctionnalité complète dans un environnement de production simulé.\n\n2. Vérifie que les modules individuels fonctionnent.\n\n3. Garantit que les modules s'intègrent ensemble.\n\n4. Valide les exigences du point de vue de l'utilisateur final.\n\nA. Tests système,\n\nB. Tests de composants,\n\nC. Tests d'intégration,\n\nD. Tests d'acceptation",
     "options": [
       "1A, 2B, 3C, 4D",
       "1C, 2A, 3D, 4B",
@@ -1008,7 +1008,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D) : 1. Tests d'utilisabilité 2. Tests de composants 3. Tests fonctionnels 4. Tests de fiabilité. Q1 : technologie/soutient l'équipe, Q2 : métier/soutient l'équipe, Q3 : métier/critique le produit, Q4 : technologie/critique le produit. Quelles combinaisons sont correctes ?",
+    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D) :\n\n1. Tests d'utilisabilité\n\n2. Tests de composants\n\n3. Tests fonctionnels\n\n4. Tests de fiabilité. Q1 : technologie/soutient l'équipe, Q2 : métier/soutient l'équipe, Q3 : métier/critique le produit, Q4 : technologie/critique le produit. Quelles combinaisons sont correctes ?",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -1413,7 +1413,7 @@
     "id": 262,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Quels types de défauts (1-4) correspondent le MIEUX à quels niveaux de test (A-D) ? 1. Défaillances dans le comportement du système en s'écartant des besoins professionnels de l'utilisateur 2. Défaillances dans la communication entre les composants 3. Défaillances dans la logique du code 4. Défaillances dues à des règles métier mal mises en œuvre A. Tests de composants B. Tests d'intégration de composants C. Tests du système D. Tests d'acceptation",
+    "question": "Quels types de défauts (1-4) correspondent le MIEUX à quels niveaux de test (A-D) ?\n\n1. Défaillances dans le comportement du système en s'écartant des besoins professionnels de l'utilisateur\n\n2. Défaillances dans la communication entre les composants\n\n3. Défaillances dans la logique du code\n\n4. Défaillances dues à des règles métier mal mises en œuvre\n\nA. Tests de composants\n\nB. Tests d'intégration de composants\n\nC. Tests du système\n\nD. Tests d'acceptation",
     "options": [
       "A)1D, 2B, 3A, 4C",
       "B)1D, 2B, 3C, 4A",
@@ -1998,7 +1998,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant données les descriptions de tâches suivantes : 1. On sélectionne les caractéristiques de qualité à évaluer et les critères de sortie 2. Tout le monde a accès au produit de travail 3. On identifie des anomalies dans le produit de travail 4. On discute des anomalies. Et les activités de revue suivantes : A. Revue individuelle B. Lancement de la revue C. Planification D. Communication et analyse. Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions de tâches et les activités ?",
+    "question": "Étant données les descriptions de tâches suivantes :\n\n1. On sélectionne les caractéristiques de qualité à évaluer et les critères de sortie\n\n2. Tout le monde a accès au produit de travail\n\n3. On identifie des anomalies dans le produit de travail\n\n4. On discute des anomalies. Et les activités de revue suivantes :\n\nA. Revue individuelle\n\nB. Lancement de la revue\n\nC. Planification\n\nD. Communication et analyse. Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions de tâches et les activités ?",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -2013,7 +2013,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les rôles de revue suivants : 1. Secrétaire/Scribe 2. Responsable de la revue 3. Facilitateur 4. Manager. Et les responsabilités suivantes : A. Garantit le déroulement efficace des réunions de revue et établit un environnement sûr B. Consigne les informations de la revue, comme les décisions et les nouvelles anomalies trouvées C. Décide de ce qui sera revu et fournit des ressources comme du personnel et du temps D. Assume la responsabilité globale de la revue : quand et où elle aura lieu. Laquelle des options suivantes établit la MEILLEURE correspondance entre les rôles et les responsabilités ?",
+    "question": "Étant donnés les rôles de revue suivants :\n\n1. Secrétaire/Scribe\n\n2. Responsable de la revue\n\n3. Facilitateur\n\n4. Manager. Et les responsabilités suivantes :\n\nA. Garantit le déroulement efficace des réunions de revue et établit un environnement sûr\n\nB. Consigne les informations de la revue, comme les décisions et les nouvelles anomalies trouvées\n\nC. Décide de ce qui sera revu et fournit des ressources comme du personnel et du temps\n\nD. Assume la responsabilité globale de la revue : quand et où elle aura lieu. Laquelle des options suivantes établit la MEILLEURE correspondance entre les rôles et les responsabilités ?",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -2028,7 +2028,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les exemples de défauts suivants : i. Deux parties différentes de la spécification de conception se contredisent en raison de la complexité de la conception ii. Un temps de réponse est trop long et fait perdre patience aux utilisateurs iii. Un chemin dans le code ne peut pas être atteint pendant l'exécution iv. Une variable est déclarée mais jamais utilisée dans le programme v. La quantité de mémoire dont le programme a besoin pour générer un rapport est excessive. Laquelle des options suivantes identifie le MIEUX les défauts qui pourraient être trouvés par les tests statiques (plutôt que dynamiques) ?",
+    "question": "Étant donnés les exemples de défauts suivants :\n\ni. Deux parties différentes de la spécification de conception se contredisent en raison de la complexité de la conception\n\nii. Un temps de réponse est trop long et fait perdre patience aux utilisateurs\n\niii. Un chemin dans le code ne peut pas être atteint pendant l'exécution\n\niv. Une variable est déclarée mais jamais utilisée dans le programme\n\nv. La quantité de mémoire dont le programme a besoin pour générer un rapport est excessive. Laquelle des options suivantes identifie le MIEUX les défauts qui pourraient être trouvés par les tests statiques (plutôt que dynamiques) ?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -2043,7 +2043,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les types de revue suivants : 1. Revue technique 2. Revue informelle 3. Inspection 4. Walkthrough. Et les descriptions suivantes : A. Inclut des objectifs comme atteindre un consensus, générer de nouvelles idées et motiver les auteurs à s'améliorer B. Inclut des objectifs comme former les relecteurs, atteindre un consensus, générer de nouvelles idées et détecter des défauts potentiels C. L'objectif principal est de détecter des défauts potentiels et nécessite la collecte de métriques pour l'amélioration du processus D. L'objectif principal est de détecter des défauts potentiels et ne génère pas de documentation de sortie formelle. Laquelle des options suivantes établit la MEILLEURE correspondance ?",
+    "question": "Étant donnés les types de revue suivants :\n\n1. Revue technique\n\n2. Revue informelle\n\n3. Inspection\n\n4. Walkthrough. Et les descriptions suivantes :\n\nA. Inclut des objectifs comme atteindre un consensus, générer de nouvelles idées et motiver les auteurs à s'améliorer\n\nB. Inclut des objectifs comme former les relecteurs, atteindre un consensus, générer de nouvelles idées et détecter des défauts potentiels\n\nC. L'objectif principal est de détecter des défauts potentiels et nécessite la collecte de métriques pour l'amélioration du processus\n\nD. L'objectif principal est de détecter des défauts potentiels et ne génère pas de documentation de sortie formelle. Laquelle des options suivantes établit la MEILLEURE correspondance ?",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -2103,7 +2103,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant données les descriptions suivantes d'activités de revue : 1. Les anomalies détectées sont discutées et des décisions sont prises sur leur statut, leur propriétaire et les étapes suivantes 2. Les défauts sont consignés et les mises à jour nécessaires sont traitées avant l'acceptation du produit de travail 3. Les relecteurs emploient des techniques pour générer des suggestions et des questions sur le produit de travail et identifier des anomalies 4. L'objectif de la revue et son calendrier sont établis pour garantir une revue ciblée et efficace 5. Les participants reçoivent l'accès à l'élément à revoir. Quelle est la séquence CORRECTE des activités du processus de revue ?",
+    "question": "Étant données les descriptions suivantes d'activités de revue :\n\n1. Les anomalies détectées sont discutées et des décisions sont prises sur leur statut, leur propriétaire et les étapes suivantes\n\n2. Les défauts sont consignés et les mises à jour nécessaires sont traitées avant l'acceptation du produit de travail\n\n3. Les relecteurs emploient des techniques pour générer des suggestions et des questions sur le produit de travail et identifier des anomalies\n\n4. L'objectif de la revue et son calendrier sont établis pour garantir une revue ciblée et efficace\n\n5. Les participants reçoivent l'accès à l'élément à revoir. Quelle est la séquence CORRECTE des activités du processus de revue ?",
     "options": [
       "A) 4 - 3 - 5 - 2 - 1",
       "B) 4 - 5 - 3 - 1 - 2",
@@ -3891,7 +3891,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) : 1. Tests d'utilisabilité 2. Tests de composants 3. Tests fonctionnels 4. Tests de fiabilité A. Quadrant de tests agiles Q1 : orienté technologie, soutenant l'équipe de développement B. Quadrant de tests agiles Q2 : orienté commercial, soutenant l'équipe de développement C. Quadrant de tests agiles Q3 : orienté commercial, critique produit D. Quadrant de tests agiles Q4 : Orienté technologie, critique produit Comment les catégories de tests suivantes correspondent-elles aux quadrants des tests agiles ?",
+    "question": "Considérez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :\n\n1. Tests d'utilisabilité\n\n2. Tests de composants\n\n3. Tests fonctionnels\n\n4. Tests de fiabilité\n\nA. Quadrant de tests agiles Q1 : orienté technologie, soutenant l'équipe de développement\n\nB. Quadrant de tests agiles Q2 : orienté commercial, soutenant l'équipe de développement\n\nC. Quadrant de tests agiles Q3 : orienté commercial, critique produit\n\nD. Quadrant de tests agiles Q4 : Orienté technologie, critique produit Comment les catégories de tests suivantes correspondent-elles aux quadrants des tests agiles ?",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B)1D, 2A, 3C, 4B",
@@ -4011,7 +4011,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Étant donnés les risques suivants : 1. Une implémentation inefficace des boucles provoque des réponses lentes du système 2. Les consommateurs changent leurs préférences 3. Inondation de la salle des serveurs 4. Les patients au-delà d'un certain âge reçoivent des rapports incorrects. Et les activités d'atténuation suivantes : A. Acceptation du risque B. Tests d'efficacité de performance C. Utilisation de l'analyse des valeurs limites comme technique D. Transfert du risque. Laquelle des options suivantes établit la MEILLEURE correspondance entre les risques et les activités d'atténuation ?",
+    "question": "Étant donnés les risques suivants :\n\n1. Une implémentation inefficace des boucles provoque des réponses lentes du système\n\n2. Les consommateurs changent leurs préférences\n\n3. Inondation de la salle des serveurs\n\n4. Les patients au-delà d'un certain âge reçoivent des rapports incorrects. Et les activités d'atténuation suivantes :\n\nA. Acceptation du risque\n\nB. Tests d'efficacité de performance\n\nC. Utilisation de l'analyse des valeurs limites comme technique\n\nD. Transfert du risque. Laquelle des options suivantes établit la MEILLEURE correspondance entre les risques et les activités d'atténuation ?",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -4176,7 +4176,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez le rapport de défaut suivant pour une application web d'achat : Application : WebShop v0.9.1. Module : Panier. Résumé : 'Le bouton Supprimer du panier ne fonctionne pas lorsqu'il y a exactement 1 article'. Étapes : 1) Se connecter 2) Ajouter 1 article au panier 3) Cliquer sur Supprimer. Résultat attendu : L'article est supprimé et le panier est vide. Résultat réel : Rien ne se passe. Lequel des éléments suivants est ABSENT de ce rapport de défaut ?",
+    "question": "Considérez le rapport de défaut suivant pour une application web d'achat : Application : WebShop v0.9.1. Module : Panier. Résumé : 'Le bouton Supprimer du panier ne fonctionne pas lorsqu'il y a exactement 1 article'. Étapes :\n\n1) Se connecter\n\n2) Ajouter 1 article au panier\n\n3) Cliquer sur Supprimer. Résultat attendu : L'article est supprimé et le panier est vide. Résultat réel : Rien ne se passe. Lequel des éléments suivants est ABSENT de ce rapport de défaut ?",
     "options": [
       "A) L'identifiant du cas de test qui a révélé le défaut",
       "B) Les données d'environnement/configuration du système",
@@ -4673,7 +4673,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Étant données les descriptions suivantes : 1. Prennent en charge le suivi du flux de travail 2. Facilitent la communication 3. Machines virtuelles 4. Prennent en charge les revues. Et les catégories d'outils de test suivantes : A. Outils de test statique B. Outils qui soutiennent l'évolutivité et la standardisation du déploiement C. Outils DevOps D. Outils de collaboration. Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions et les catégories ?",
+    "question": "Étant données les descriptions suivantes :\n\n1. Prennent en charge le suivi du flux de travail\n\n2. Facilitent la communication\n\n3. Machines virtuelles\n\n4. Prennent en charge les revues. Et les catégories d'outils de test suivantes :\n\nA. Outils de test statique\n\nB. Outils qui soutiennent l'évolutivité et la standardisation du déploiement\n\nC. Outils DevOps\n\nD. Outils de collaboration. Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions et les catégories ?",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -4718,7 +4718,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Étant données les catégories d'outils de test (i. Collaboration, ii. DevOps, iii. Gestion, iv. Non fonctionnels, v. Conception/Implémentation). Les outils de quelles catégories sont les PLUS susceptibles de faciliter l'exécution des tests ?",
+    "question": "Étant données les catégories d'outils de test (i. Collaboration,\n\nii. DevOps,\n\niii. Gestion,\n\niv. Non fonctionnels,\n\nv. Conception/Implémentation). Les outils de quelles catégories sont les PLUS susceptibles de faciliter l'exécution des tests ?",
     "options": [
       "A) i, v",
       "B) ii, iv",

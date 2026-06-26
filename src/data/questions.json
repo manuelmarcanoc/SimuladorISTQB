@@ -61,7 +61,7 @@
     "id": 254,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Cuáles de los siguientes factores tienen una influencia SIGNIFICATIVA en el enfoque de prueba? i. El SDLC ii. El número de defectos detectados en proyectos anteriores iii. Los riesgos de producto identificados iv. Nuevos requisitos regulatorios que obligan a realizar pruebas formales de caja blanca v. La configuración del entorno de prueba",
+    "question": "¿Cuáles de los siguientes factores tienen una influencia SIGNIFICATIVA en el enfoque de prueba?\n\ni. El SDLC\n\nii. El número de defectos detectados en proyectos anteriores\n\niii. Los riesgos de producto identificados\n\niv. Nuevos requisitos regulatorios que obligan a realizar pruebas formales de caja blanca\n\nv. La configuración del entorno de prueba",
     "options": [
       "A) i, ii tienen una influencia significativa",
       "B) i, iii, iv tienen una influencia significativa",
@@ -92,7 +92,7 @@
     "id": 256,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Cuáles de las siguientes habilidades (i-v) son las MÁS importantes para un probador? i. Tener conocimiento del dominio ii. Crear una visión del producto iii. Ser un buen jugador de equipo iv. Planificar y organizar el trabajo del equipo v. Pensamiento crítico",
+    "question": "¿Cuáles de las siguientes habilidades (i-v) son las MÁS importantes para un probador?\n\ni. Tener conocimiento del dominio\n\nii. Crear una visión del producto\n\niii. Ser un buen jugador de equipo\n\niv. Planificar y organizar el trabajo del equipo\n\nv. Pensamiento crítico",
     "options": [
       "A) ii y iv son importantes",
       "B) i, iii y v son importantes",
@@ -182,7 +182,7 @@
     "id": 262,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "¿Qué tipos de fallos (1-4) se ajustan MEJOR a qué niveles de prueba (A-D)? 1. Fallos en el comportamiento del sistema al desviarse de las necesidades de negocio del usuario 2. Fallos en la comunicación entre componentes 3. Fallos en la lógica en el código 4. Fallos por reglas de negocio implementadas incorrectamente A. Pruebas de componente B. Pruebas de integración de componente C. Pruebas de sistema D. Pruebas de aceptación",
+    "question": "¿Qué tipos de fallos (1-4) se ajustan MEJOR a qué niveles de prueba (A-D)?\n\n1. Fallos en el comportamiento del sistema al desviarse de las necesidades de negocio del usuario\n\n2. Fallos en la comunicación entre componentes\n\n3. Fallos en la lógica en el código\n\n4. Fallos por reglas de negocio implementadas incorrectamente\n\nA. Pruebas de componente\n\nB. Pruebas de integración de componente\n\nC. Pruebas de sistema\n\nD. Pruebas de aceptación",
     "options": [
       "A) 1D, 2B, 3A, 4C",
       "B) 1D, 2B, 3C, 4A",
@@ -483,7 +483,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D): 1. Pruebas de usabilidad 2. Pruebas de componente 3. Pruebas funcionales 4. Pruebas de fiabilidad A. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo B. Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo C. Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto D. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto ¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?",
+    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n\n2. Pruebas de componente\n\n3. Pruebas funcionales\n\n4. Pruebas de fiabilidad\n\nA. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo\n\nB. Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo\n\nC. Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto\n\nD. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto ¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B) 1D, 2A, 3C, 4B",
@@ -814,7 +814,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dadas las siguientes descripciones de tareas: 1. Se seleccionan las características de calidad a evaluar y los criterios de salida 2. Todos tienen acceso al producto de trabajo 3. Se identifican anomalías en el producto de trabajo 4. Se debaten las anomalías Y las siguientes actividades de revisión: A. Revisión individual B. Inicio de la revisión C. Planificación D. Comunicación y análisis ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?",
+    "question": "Dadas las siguientes descripciones de tareas:\n\n1. Se seleccionan las características de calidad a evaluar y los criterios de salida\n\n2. Todos tienen acceso al producto de trabajo\n\n3. Se identifican anomalías en el producto de trabajo\n\n4. Se debaten las anomalías Y las siguientes actividades de revisión:\n\nA. Revisión individual\n\nB. Inicio de la revisión\n\nC. Planificación\n\nD. Comunicación y análisis ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -829,7 +829,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes roles en las revisiones: 1. Secretario/Escriba 2. Líder de revisión 3. Facilitador 4. Gestor Y las siguientes responsabilidades: A. Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro B. Registra la información de la revisión, como decisiones y nuevas anomalías encontradas C. Decide qué se va a revisar y proporciona recursos como personal y tiempo D. Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?",
+    "question": "Dados los siguientes roles en las revisiones:\n\n1. Secretario/Escriba\n\n2. Líder de revisión\n\n3. Facilitador\n\n4. Gestor Y las siguientes responsabilidades:\n\nA. Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro\n\nB. Registra la información de la revisión, como decisiones y nuevas anomalías encontradas\n\nC. Decide qué se va a revisar y proporciona recursos como personal y tiempo\n\nD. Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -1070,7 +1070,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Dados los siguientes riesgos: 1. Una implementación ineficaz de bucles causa respuestas lentas del sistema 2. Los consumidores cambian sus preferencias 3. Inundación de la sala de servidores 4. Pacientes mayores de cierta edad reciben informes incorrectos. Y las siguientes actividades de mitigación: A. Aceptación del riesgo B. Pruebas de eficiencia de rendimiento C. Uso de análisis de valores límite como técnica D. Transferencia del riesgo. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?",
+    "question": "Dados los siguientes riesgos:\n\n1. Una implementación ineficaz de bucles causa respuestas lentas del sistema\n\n2. Los consumidores cambian sus preferencias\n\n3. Inundación de la sala de servidores\n\n4. Pacientes mayores de cierta edad reciben informes incorrectos. Y las siguientes actividades de mitigación:\n\nA. Aceptación del riesgo\n\nB. Pruebas de eficiencia de rendimiento\n\nC. Uso de análisis de valores límite como técnica\n\nD. Transferencia del riesgo. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -1145,7 +1145,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Dadas las siguientes descripciones: 1. Dan soporte al seguimiento del flujo de trabajo 2. Facilitan la comunicación 3. Máquinas virtuales 4. Dan soporte a las revisiones. Y las siguientes categorías de herramientas de prueba: A. Herramientas de pruebas estáticas B. Herramientas que apoyan la escalabilidad y la estandarización del despliegue C. Herramientas DevOps D. Herramientas de colaboración. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?",
+    "question": "Dadas las siguientes descripciones:\n\n1. Dan soporte al seguimiento del flujo de trabajo\n\n2. Facilitan la comunicación\n\n3. Máquinas virtuales\n\n4. Dan soporte a las revisiones. Y las siguientes categorías de herramientas de prueba:\n\nA. Herramientas de pruebas estáticas\n\nB. Herramientas que apoyan la escalabilidad y la estandarización del despliegue\n\nC. Herramientas DevOps\n\nD. Herramientas de colaboración. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -1236,7 +1236,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dado el siguiente testware: 1. Ítems de cobertura 2. Solicitudes de cambio 3. Calendario de ejecución de pruebas 4. Condiciones de prueba priorizadas. Y las siguientes actividades de prueba: A. Análisis de pruebas B. Diseño de pruebas C. Implementación de pruebas D. Finalización de pruebas. ¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?",
+    "question": "Dado el siguiente testware:\n\n1. Ítems de cobertura\n\n2. Solicitudes de cambio\n\n3. Calendario de ejecución de pruebas\n\n4. Condiciones de prueba priorizadas. Y las siguientes actividades de prueba:\n\nA. Análisis de pruebas\n\nB. Diseño de pruebas\n\nC. Implementación de pruebas\n\nD. Finalización de pruebas. ¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -1341,7 +1341,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes ejemplos de defectos: i. Dos partes distintas de la especificación de diseño se contradicen debido a la complejidad del diseño ii. Un tiempo de respuesta es demasiado largo y hace perder la paciencia a los usuarios iii. Un camino en el código no puede alcanzarse durante la ejecución iv. Una variable se declara pero nunca se usa en el programa v. La cantidad de memoria que necesita el programa para generar un informe es excesiva. ¿Cuál de las siguientes identifica MEJOR los defectos que podrían encontrarse mediante pruebas estáticas (en lugar de dinámicas)?",
+    "question": "Dados los siguientes ejemplos de defectos:\n\ni. Dos partes distintas de la especificación de diseño se contradicen debido a la complejidad del diseño\n\nii. Un tiempo de respuesta es demasiado largo y hace perder la paciencia a los usuarios\n\niii. Un camino en el código no puede alcanzarse durante la ejecución\n\niv. Una variable se declara pero nunca se usa en el programa\n\nv. La cantidad de memoria que necesita el programa para generar un informe es excesiva. ¿Cuál de las siguientes identifica MEJOR los defectos que podrían encontrarse mediante pruebas estáticas (en lugar de dinámicas)?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -1356,7 +1356,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes tipos de revisión: 1. Revisión técnica 2. Revisión informal 3. Inspección 4. Walkthrough. Y las siguientes descripciones: A. Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar B. Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos C. El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso D. El objetivo principal es detectar posibles defectos y no genera documentación formal de salida. ¿Cuál de las siguientes establece la MEJOR correspondencia?",
+    "question": "Dados los siguientes tipos de revisión:\n\n1. Revisión técnica\n\n2. Revisión informal\n\n3. Inspección\n\n4. Walkthrough. Y las siguientes descripciones:\n\nA. Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar\n\nB. Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos\n\nC. El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso\n\nD. El objetivo principal es detectar posibles defectos y no genera documentación formal de salida. ¿Cuál de las siguientes establece la MEJOR correspondencia?",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -1671,7 +1671,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Considera el siguiente informe de defecto para una aplicación web de compras: Aplicación: WebShop v0.9.1. Módulo: Carrito de compra. Resumen: 'El botón Eliminar del carrito no funciona cuando hay exactamente 1 artículo'. Pasos: 1) Iniciar sesión 2) Añadir 1 artículo al carrito 3) Hacer clic en Eliminar. Resultado esperado: El artículo se elimina y el carrito queda vacío. Resultado real: Nada ocurre. ¿Cuál de los siguientes elementos está AUSENTE en este informe de defecto?",
+    "question": "Considera el siguiente informe de defecto para una aplicación web de compras: Aplicación: WebShop v0.9.1. Módulo: Carrito de compra. Resumen: 'El botón Eliminar del carrito no funciona cuando hay exactamente 1 artículo'. Pasos:\n\n1) Iniciar sesión\n\n2) Añadir 1 artículo al carrito\n\n3) Hacer clic en Eliminar. Resultado esperado: El artículo se elimina y el carrito queda vacío. Resultado real: Nada ocurre. ¿Cuál de los siguientes elementos está AUSENTE en este informe de defecto?",
     "options": [
       "A) El identificador del caso de prueba que reveló el defecto",
       "B) Los datos de entorno/configuración del sistema",
@@ -1731,7 +1731,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dado el siguiente testware: i. Informe de finalización de pruebas ii. Datos en una base de datos usados como entradas y resultados esperados iii. Lista de elementos necesarios para construir el entorno de prueba iv. Secuencias documentadas de casos de prueba en orden de ejecución v. Casos de prueba. ¿Cuál de las siguientes muestra MEJOR el testware producido como resultado de realizar la implementación de pruebas?",
+    "question": "Dado el siguiente testware:\n\ni. Informe de finalización de pruebas\n\nii. Datos en una base de datos usados como entradas y resultados esperados\n\niii. Lista de elementos necesarios para construir el entorno de prueba\n\niv. Secuencias documentadas de casos de prueba en orden de ejecución\n\nv. Casos de prueba. ¿Cuál de las siguientes muestra MEJOR el testware producido como resultado de realizar la implementación de pruebas?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -1776,7 +1776,7 @@
     "id": 368,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dados los siguientes beneficios e inconvenientes de la independencia de las pruebas: i. Los testers trabajan en un lugar distinto al de los desarrolladores ii. Los testers cuestionan los supuestos que los programadores hacen al escribir código iii. Se ha establecido una dinámica de confrontación entre testers y desarrolladores iv. Los desarrolladores se han convencido de que los testers son los principales responsables de la calidad v. Los testers tienen sesgos diferentes a los de los desarrolladores. ¿Cuáles son MÁS PROBABLEMENTE considerados beneficios?",
+    "question": "Dados los siguientes beneficios e inconvenientes de la independencia de las pruebas:\n\ni. Los testers trabajan en un lugar distinto al de los desarrolladores\n\nii. Los testers cuestionan los supuestos que los programadores hacen al escribir código\n\niii. Se ha establecido una dinámica de confrontación entre testers y desarrolladores\n\niv. Los desarrolladores se han convencido de que los testers son los principales responsables de la calidad\n\nv. Los testers tienen sesgos diferentes a los de los desarrolladores. ¿Cuáles son MÁS PROBABLEMENTE considerados beneficios?",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -1881,7 +1881,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dadas las siguientes descripciones de actividades de revisión: 1. Las anomalías detectadas se debaten y se toman decisiones sobre su estado, propietario y pasos siguientes 2. Los defectos se registran y las actualizaciones necesarias se abordan antes de la aceptación del producto de trabajo 3. Los revisores emplean técnicas para generar sugerencias y preguntas sobre el producto de trabajo e identificar anomalías 4. El objetivo de la revisión y su calendario se establecen para garantizar una revisión enfocada y eficiente 5. Los participantes reciben acceso al elemento a revisar. ¿Cuál es la secuencia CORRECTA de actividades del proceso de revisión?",
+    "question": "Dadas las siguientes descripciones de actividades de revisión:\n\n1. Las anomalías detectadas se debaten y se toman decisiones sobre su estado, propietario y pasos siguientes\n\n2. Los defectos se registran y las actualizaciones necesarias se abordan antes de la aceptación del producto de trabajo\n\n3. Los revisores emplean técnicas para generar sugerencias y preguntas sobre el producto de trabajo e identificar anomalías\n\n4. El objetivo de la revisión y su calendario se establecen para garantizar una revisión enfocada y eficiente\n\n5. Los participantes reciben acceso al elemento a revisar. ¿Cuál es la secuencia CORRECTA de actividades del proceso de revisión?",
     "options": [
       "A) 4 – 3 – 5 – 2 – 1",
       "B) 4 – 5 – 3 – 1 – 2",
@@ -2213,7 +2213,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Dadas las categorías de herramientas de prueba (i. Colaboración, ii. DevOps, iii. Gestión, iv. No funcionales, v. Diseño/Implementación). ¿Herramientas de cuáles categorías son MÁS propensas a facilitar la ejecución de pruebas?",
+    "question": "Dadas las categorías de herramientas de prueba (i. Colaboración,\n\nii. DevOps,\n\niii. Gestión,\n\niv. No funcionales,\n\nv. Diseño/Implementación). ¿Herramientas de cuáles categorías son MÁS propensas a facilitar la ejecución de pruebas?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -2243,7 +2243,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dadas las siguientes tareas de prueba: 1) Derivar casos de prueba desde condiciones, 2) Identificar testware reutilizable, 3) Organizar casos en procedimientos, 4) Evaluar la base de prueba; y actividades: A) Análisis, B) Diseño, C) Implementación, D) Finalización. ¿Cuál es el MEJOR emparejamiento?",
+    "question": "Dadas las siguientes tareas de prueba:\n\n1) Derivar casos de prueba desde condiciones,\n\n2) Identificar testware reutilizable,\n\n3) Organizar casos en procedimientos,\n\n4) Evaluar la base de prueba; y actividades:\n\nA) Análisis,\n\nB) Diseño,\n\nC) Implementación,\n\nD) Finalización. ¿Cuál es el MEJOR emparejamiento?",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -3285,7 +3285,7 @@
     "id": 1007,
     "chapter": 1,
     "topic": "Habilidades del Probador",
-    "question": "¿Cuál de las siguientes habilidades es esencial para un probador al evaluar la calidad de un producto de software? i. Comunicación efectiva ii. Conocimiento técnico iii. Capacidad de análisis iv. Gestión del tiempo",
+    "question": "¿Cuál de las siguientes habilidades es esencial para un probador al evaluar la calidad de un producto de software?\n\ni. Comunicación efectiva\n\nii. Conocimiento técnico\n\niii. Capacidad de análisis\n\niv. Gestión del tiempo",
     "options": [
       "i y ii son esenciales; iii y iv no lo son",
       "iii y iv son esenciales; i y ii no lo son",
@@ -3375,7 +3375,7 @@
     "id": 1013,
     "chapter": 2,
     "topic": "Niveles de Prueba",
-    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba y sus enfoques? 1. Valida la funcionalidad completa en producción simulada. 2. Verifica que módulos individuales funcionen. 3. Asegura que módulos se integren juntos. 4. Valida requisitos desde la perspectiva del usuario final. A. Pruebas de sistema, B. Pruebas de componentes, C. Pruebas de integración, D. Pruebas de aceptación",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba y sus enfoques?\n\n1. Valida la funcionalidad completa en producción simulada.\n\n2. Verifica que módulos individuales funcionen.\n\n3. Asegura que módulos se integren juntos.\n\n4. Valida requisitos desde la perspectiva del usuario final.\n\nA. Pruebas de sistema,\n\nB. Pruebas de componentes,\n\nC. Pruebas de integración,\n\nD. Pruebas de aceptación",
     "options": [
       "1A, 2B, 3C, 4D",
       "1C, 2A, 3D, 4B",
@@ -3735,7 +3735,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Cuadrantes Ágiles",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D): 1. Pruebas de usabilidad 2. Pruebas de componentes 3. Pruebas funcionales 4. Pruebas de fiabilidad. Q1: tecnología/apoya equipo, Q2: negocio/apoya equipo, Q3: negocio/crítica producto, Q4: tecnología/crítica producto. ¿Qué combinaciones son correctas?",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n\n2. Pruebas de componentes\n\n3. Pruebas funcionales\n\n4. Pruebas de fiabilidad. Q1: tecnología/apoya equipo, Q2: negocio/apoya equipo, Q3: negocio/crítica producto, Q4: tecnología/crítica producto. ¿Qué combinaciones son correctas?",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -3765,7 +3765,7 @@
     "id": 1039,
     "chapter": 1,
     "topic": "Habilidades del Probador",
-    "question": "¿Cuáles de las siguientes habilidades (i-v) son esenciales para un probador en su trabajo diario? i. Habilidad para escribir informes claros ii. Conocimiento de lenguajes de programación iii. Capacidad de análisis de riesgos iv. Ser un buen comunicador v. Conocer herramientas de automatización",
+    "question": "¿Cuáles de las siguientes habilidades (i-v) son esenciales para un probador en su trabajo diario?\n\ni. Habilidad para escribir informes claros\n\nii. Conocimiento de lenguajes de programación\n\niii. Capacidad de análisis de riesgos\n\niv. Ser un buen comunicador\n\nv. Conocer herramientas de automatización",
     "options": [
       "i, iii y iv son esenciales; ii y v no lo son",
       "ii, iii y v son esenciales; i y iv no lo son",
