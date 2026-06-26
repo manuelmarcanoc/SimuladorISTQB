@@ -5017,5 +5017,304 @@
     "correctAnswer": 0,
     "explanation": "A. Incorrect. TC1 and TC3 failed in the previous version, so re-running them constitutes confirmation tests (re-testing): it is verified that the defect has been corrected. They are not regression tests. B. Incorrect. TC2 is a regression test, but TC3 failed in the previous version and is therefore a confirmation test. The combination TC2+TC3 is not correct. C. Incorrect. TC2 is a regression test, but TC1 failed in the previous version and is a confirmation test, not a regression test. Furthermore, this option was identical to option D, which constituted a structural defect in the question. D. Correct. TC2 passed in the previous version. By re-running it after the corrections, it is verified that the changes have not introduced new defects in functionality that already worked. This is exactly the definition of regression testing according to CTFL v4.0 sect. 2.2.3. TC1 and TC3, which failed before, are confirmation tests.",
     "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch4_1oqi797rc",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Q",
+    "options": [],
+    "correctAnswer": 0,
+    "explanation": "",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_x1vez8tp7",
+    "chapter": 2,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following elements are factors that can affect the testing strategy in a software project? The profile of the test team The complexity of the system to be tested The availability of hardware resources The project management techniques used",
+    "options": [
+      "i, ii and iii are factors that affect the testing strategy",
+      "ii, iii and iv are factors that affect the testing strategy",
+      "i, iii and iv are factors that affect the testing strategy",
+      "i, ii, iii and iv are factors that affect the testing strategy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A.i. It's true. The profile of the testing team can influence how testing is carried out. ii. It's true. The complexity of the system directly affects the approach and tools used in testing. iii. It's true. The availability of hardware resources is crucial for test execution. Therefore, they are all factors that affect the testing strategy. B. ii. It's true. The complexity of the system affects the testing approach. iii. It's true. The availability of hardware resources is important. iv. It's true. Project management techniques can play a role, but it doesn't cover all aspects. Therefore, it is not the most complete option. C.i. It's true. The profile of the test team is important. iii. It's true. The availability of resources is crucial. iv. It's true. Project management techniques can play a role, but they are not as relevant as the other factors mentioned. Therefore, it does not cover all relevant aspects. D.i. It's true. The profile of the test team influences the testing strategy. ii. It's true. The complexity of the system to be tested impacts the strategy. iii. It's true. The availability of hardware resources is essential. iv. It's true. Project management techniques also have an impact. Therefore, the correct answer is D.P",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_d9p5xynen",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following skills is essential for a tester when evaluating the quality of a software product? Effective communication Technical knowledge Analytical skills Time management",
+    "options": [
+      "i and ii are essential; iii and iv are not",
+      "iii and iv are essential; i and ii are not",
+      "ii and iii are essential; i and iv are not",
+      "i and iii are essential; ii and iv are not"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A. While effective communication and technical knowledge are important, they are not the most essential in quality assessment, as analysis and time management are key in the testing process. B. Although analytical skills and time management are important, the need for communication skills and technical knowledge to correctly evaluate a product cannot be ignored. C. Technical knowledge is crucial, but quality assessment cannot be carried out without communication skills and analytical skills, which are equally essential. D. Correct. Effective communication and analytical skills are fundamental skills for a tester, allowing them to correctly interpret and evaluate test results. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_fb7uzan6z",
+    "chapter": 3,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "In your organization, reviews are conducted that have the following characteristics: There is no specific role assigned for the moderator. The goal is to find defects and improve the product. Participants openly discuss their opinions. No formal documentation required at the end. What type of review is being carried out?",
+    "options": [
+      "Informal review",
+      "Technical review",
+      "Inspection",
+      "Guided review"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. The features mentioned are typical of an informal review, where a moderator is not required and documentation is minimal or non-existent. B. Technical reviews typically include a moderator and a more structured approach, which is not mentioned here. C. In an inspection, formal documentation and a methodical approach to finding defects are expected, which is not the case here. D. Guided reviews include a moderator and a focus on quality assessment, which does not apply to the given description. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_8s5zi6k9s",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "You are testing a grading system that accepts scores on a scale of 0-100. The system ranks the scores as follows: 0-59: Fail 60-69: Pass 70-89: Good 90-100: Excellent Using equivalence partitioning, what is the MINIMUM number of test cases needed to achieve 100% coverage of valid partitions?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. 3 test cases would not cover the 4 valid partitions identified. B. It is correct. 4 test cases are needed to cover the 4 valid partitions identified: one for Fail (0-59), one for Pass (60-69), one for Good (70-89) and one for Excellent (90-100). According to the syllabus, to achieve 100% coverage with equivalence partitioning, test cases must exercise all identified partitions covering each partition at least once. C. It is not correct. 5 test cases would be more than necessary to cover the minimum valid partitions. D. It is not correct. 6 test cases exceed the minimum number required. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_9dq3pcf6l",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "For an 'Age' field that accepts values ​​from 16 to 65 years, your test suite includes the following values: 15, 16, 17, 64, 65, 66. What percentage of 3-value Limit Value Analysis (LVA) coverage do you achieve?",
+    "options": [
+      "50%",
+      "67%",
+      "83%",
+      "100%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. 50% would be 3 of 6 items covered. B. It is not correct. 67% would be 4 of 6 items covered. C. It is not correct. 83% would be 5 of 6 items covered. D. It is correct. In 3-value BVA, for each cutoff value (16 and 65) there are three coverage elements: the cutoff value and its two neighbors. For limit 16: 15, 16, 17. For limit 65: 64, 65, 66. The test suite covers the 6 required elements (15, 16, 17, 64, 65, 66), therefore 6/6 = 100%. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_lwvrb8dbo",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "In a decision table for a loan approval system, you have the following conditions: Age ≥ 18 years Income ≥ $30,000 Good credit history Employed for ≥ 2 years If you wanted to minimize the table due to the large number of combinations, what would be the best strategy?",
+    "options": [
+      "Remove all less important conditions",
+      "Use a risk-based approach to narrow down the rules to test",
+      "Combine all conditions into a single rule",
+      "Create multiple separate small tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Removing conditions can leave significant gaps in coverage. B. It is correct. According to the syllabus, 'if there are many conditions, exercising all the decision rules can take a long time, since the number of rules grows exponentially with the number of conditions. In such a case, to reduce the number of rules that must be exercised, a minimized decision table or a risk-based approach can be used.' C. It is not correct. Combining all conditions does not solve the complexity problem. D. It is not correct. Multiple separate tables do not address the problem of exponential joins. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_paz05v6hi",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following statements REFERS to error prediction in a testing process?",
+    "options": [
+      "Bug prediction is based solely on quantitative metrics of past defects without considering the development context.",
+      "Bug prediction involves identifying areas of the software that are most likely to contain defects, based on bug history and code complexity.",
+      "Bug prediction requires testers to perform unit tests on all functions before they can predict bugs.",
+      "Bug prediction is a process that only developers can perform, since they know their code best."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Although quantitative metrics are useful, error prediction also considers context and prior experience to be effective. B. It is correct. Bug prediction involves using bug history along with factors such as code complexity to identify problem areas. C. It is not correct. Bug prediction does not depend on performing unit testing, but on analyzing past defect patterns. D. It is not correct. Bug prediction is a task that can also be performed by testers, who can provide a different perspective on risk areas. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_a4nevsfk4",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "A development team is creating an innovative mobile application, and has decided to use exploratory testing due to a lack of documentation. Which of the following statements about exploratory testing is CORRECT?",
+    "options": [
+      "Exploratory testing is always less effective than requirements-based testing.",
+      "Exploratory testing allows testers to quickly adapt to changes in the software.",
+      "Exploratory testing requires a detailed test plan before being performed.",
+      "Exploratory testing is not suitable for complex applications."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Exploratory testing can be very effective, especially in environments where requirements are ambiguous or change frequently. B. It is correct. Exploratory testing allows testers to adapt and respond to software changes more flexibly. C. It is not correct. Although there may be a general approach, exploratory testing is characterized by not depending on a rigorous and detailed test plan. D. It is not correct. Exploratory testing can be very useful in complex applications by allowing for more dynamic and creative exploration. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_q2p8s0mdy",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following statements BEST describes how acceptance criteria can be structured in a user story?",
+    "options": [
+      "Defined solely by the development team, without the need for review by stakeholders.",
+      "Written in a clear and concise format that facilitates understanding by all interested parties involved.",
+      "Creating an extensive list of technical requirements that must be met for the delivery of the user story.",
+      "Established based on the personal expectations of the team members, without considering the project objectives."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Acceptance criteria should be reviewed and agreed upon by all stakeholders, not just the development team. B. It is correct. A clear and concise format helps all stakeholders understand what is needed to consider the user story complete. C. It is not correct. Although technical requirements may be important, acceptance criteria should focus on user satisfaction conditions, not an exhaustive technical list. D. It is not correct. Acceptance criteria should align with project objectives and user needs, not be based on individual expectations. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_m7s7cmw0j",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "During an ATDD specification workshop, the team identifies ambiguities in a user story about payment processing. What is the MOST appropriate action according to the ATDD approach?",
+    "options": [
+      "The tester must create test cases that cover all possible interpretations",
+      "Resolve ambiguities during the workshop before creating test cases",
+      "Postpone creating test cases until development is complete",
+      "Create test cases only for the most likely scenarios"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Creating cases for all interpretations without resolving ambiguities can lead to conflicting or incorrect cases. B. It is correct. According to the syllabus, during the specification workshop 'incompleteness, ambiguities or defects in the user story are resolved during this process' before proceeding to create the test cases. This is critical at ATDD to ensure everyone has the same understanding. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_s9bm5wa3g",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following is an entry criterion for test execution?",
+    "options": [
+      "The results of previous tests have been documented.",
+      "The acceptance criteria for the requirements have been defined.",
+      "The test team has completed test planning.",
+      "The software has passed all unit tests."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Documenting previous test results is good practice, but it is not a specific entry criterion. B. It is correct. Defining requirements acceptance criteria is essential to ensure entry criteria are clear before testing. C. It is not correct. Completing test planning may be a preliminary step, but it is not an entry criterion in itself. D. It is not correct. Passing all unit tests is an exit criterion, as it indicates that a testing phase has completed successfully. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_jq145tq22",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "In your test plan, you have prioritized test cases based on requirements. However, you realize that some high-priority cases cannot be executed in the ideal order due to dependencies and resource availability. What is the MOST appropriate action according to the syllabus?",
+    "options": [
+      "Maintain order based on priority of requirements ignoring dependencies",
+      "Adjust the order considering dependencies and resource availability",
+      "Switch to a different prioritization strategy",
+      "Run only high-priority standalone cases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Ignoring dependencies can cause tests to fail for technical reasons rather than actual defects. B. It is correct. The syllabus states that 'if a test case with a higher priority depends on a test case with a lower priority, the lower priority test case should be executed first' and that 'the test execution order should also take into account resource availability.' C. It is not correct. There is no need to change the prioritization strategy, just adjust the order of execution. D. It is not correct. This would excessively limit test coverage. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_f4ffyxzso",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "How are the following tests classified according to the agile testing quadrants (A-D) and their relationship to testing levels? Component Testing Functional Testing Exploratory Testing Non-Functional Testing Agile Testing Quadrant Q1: Technology Oriented, Supports the Team Agile Testing Quadrant Q2: Business Oriented, Supports the Team Agile Testing Quadrant Q3: Business Oriented, Product Critical Agile Testing Quadrant Q4: Technology Oriented, Product Critical Select ONE option that correctly represents the classification.",
+    "options": [
+      "1A, 2B, 3C, 4D",
+      "1B, 2A, 3D, 4C",
+      "1C, 2D, 3A, 4B",
+      "1D, 2C, 3B, 4A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct – according to the syllabus (section 5.1.7, p. 53): 1 (component testing) → Q1 (technology, team support) 2 (functional testing) → Q2 (business, team support) 3 (exploratory testing) → Q3 (business, product critique) 4 (non-functional testing) → Q4 (technology, product critique) Tests in these quadrants relate directly to the levels and types of testing indicated in the Marick/Crispin model. B. Incorrect – component tests (1) are not in Q2; They are in Q1. Functional tests (2) are not in Q1; They are in Q2. C. Incorrect – exploratory tests (3) are not in Q1; They are in Q3. Non-functional tests (4) are not in Q2; They are in Q4. D. Incorrect – component tests (1) are not in Q4; They are in Q1. Exploratory tests (3) are not in Q2; They are in Q3. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_z9hth9gwh",
+    "chapter": 3,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "In a software development project, the following risk was identified: Risk: User documentation is not up to date. Risk probability: high; risk impact: medium Risk response: a thorough review of the documentation is organized with the development team users are informed about possible inconsistencies in the documentation What is the most appropriate measure to respond to this analyzed risk?",
+    "options": [
+      "Risk mitigation",
+      "Risk acceptance",
+      "Risk transfer",
+      "Risk elimination"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. That is correct. Reviewing documentation helps mitigate the risk of inconsistencies. B. It is not correct. Accepting the risk does not address the problem of outdated documentation. C. It is not correct. Risk is not being transferred, but rather addressed directly. D. It is not correct. This risk cannot be completely eliminated, but steps can be taken to mitigate it. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_kzxw2m4i9",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "When tracking defects found during testing, what is the benefit of configuration management in this process?",
+    "options": [
+      "Helps document testing requirements.",
+      "It allows you to identify the version of the software in which the defect was found.",
+      "Facilitates the creation of new test cases.",
+      "Ensures all defects are resolved before delivery."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Configuration management does not focus on requirements, but on the management of test items and their version. B. It is correct. Configuration management allows defects to be associated with specific versions of the software, making them easier to track and resolve. C. It is not correct. Creating new test cases is part of test design, not a direct benefit of configuration management. D. It is not correct. Although P configuration management",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_attdk2hjt",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "A test analyst prepares the following defect report: ID: BUG-00721 ​​| Title: 'Date of Birth' field accepts future dates | Severity: Medium | Priority: High | Reported by: A. López | Configuration: App v3.2.1, Chrome 120 | Steps to reproduce: (1) Open registration form, (2) Enter date of birth '08/15/2030', (3) Click 'Save'. What is the MOST important information missing from this report?",
+    "options": [
+      "The name of the developer assigned to resolve the defect.",
+      "The actual result obtained and the expected result, to facilitate reproduction and correction.",
+      "An estimate of the time required to correct the defect.",
+      "The number of users affected by the defect."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Incorrect. Assigning the defect to a developer is a post-management activity, not an essential component of the initial report. B. Correct. According to CTFL Syllabus v4.0 §5.5.1, a complete defect report must include the actual results obtained and the expected results. Without this information, the developer cannot confirm the incorrect behavior or validate the fix. C. Incorrect. Estimating fix time is the responsibility of the development team, not the defect report. D. Incorrect. The impact on users may be indicated in the priority/severity, but is not an essential field of the defect report according to the syllabus. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_83alrpwtk",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following testing tools is generally used to automate test execution?",
+    "options": [
+      "Test management tools",
+      "Performance testing tools",
+      "Test automation tools",
+      "Defect management tools"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. It is not correct. Test management tools are used to plan, organize, and track the testing process, but not to execute tests in an automated manner. B. It is not correct. Performance testing tools are designed to evaluate system performance under load, not to automate test execution in general. C. It is correct. Test automation tools are specifically designed to run tests automatically, allowing for faster and more efficient testing. D. It is not correct. Defect management tools are used to track and manage bugs found during the testing process, not to automate test execution. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_7576lzkad",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Which of the following statements describes a benefit of test automation?",
+    "options": [
+      "Increase test coverage in less time",
+      "Completely eliminates the need for manual testing",
+      "Reduces the complexity of software development",
+      "Increases the possibility of human errors in execution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. That is correct. Automation allows you to run tests faster and more frequently, which can increase test coverage. B. It is not correct. Although automation can reduce the need for manual testing, it cannot eliminate it completely in all cases. C. It is not correct. Automation does not necessarily reduce software complexity, it can, in fact, introduce its own complexity. D. It is not correct. Automation, if done correctly, can reduce the chance of human error during test execution.",
+    "source": "User Provided Batch 4"
   }
 ]

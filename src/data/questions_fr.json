@@ -5017,5 +5017,304 @@
     "correctAnswer": 0,
     "explanation": "R. Incorrect. TC1 et TC3 échouaient dans la version précédente, leur relance constitue donc des tests de confirmation (re-testing) : on vérifie que le défaut a été corrigé. Ce ne sont pas des tests de régression. B. Incorrect. TC2 est un test de régression, mais TC3 a échoué dans la version précédente et est donc un test de confirmation. La combinaison TC2+TC3 n'est pas correcte. C. Incorrect. TC2 est un test de régression, mais TC1 a échoué dans la version précédente et est un test de confirmation, pas un test de régression. De plus, cette option était identique à l'option D, ce qui constituait un défaut structurel de la question. D. Exactement. TC2 réussi dans la version précédente. En le réexécutant après les corrections, on vérifie que les modifications n'ont pas introduit de nouveaux défauts dans les fonctionnalités qui fonctionnaient déjà. C'est exactement la définition des tests de régression selon la secte CTFL v4.0. 2.2.3. TC1 et TC3, qui ont échoué auparavant, sont des tests de confirmation.",
     "source": "User Provided Batch 3"
+  },
+  {
+    "id": "q_batch4_1oqi797rc",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Q",
+    "options": [],
+    "correctAnswer": 0,
+    "explanation": "",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_x1vez8tp7",
+    "chapter": 2,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Parmi les éléments suivants, lesquels sont des facteurs pouvant affecter la stratégie de test dans un projet logiciel ? Le profil de l'équipe de test La complexité du système à tester La disponibilité des ressources matérielles Les techniques de gestion de projet utilisées",
+    "options": [
+      "i, ii et iii sont des facteurs qui affectent la stratégie de test",
+      "ii, iii et iv sont des facteurs qui affectent la stratégie de test",
+      "i, iii et iv sont des facteurs qui affectent la stratégie de test",
+      "i, ii, iii et iv sont des facteurs qui affectent la stratégie de test"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A.i. C'est vrai. Le profil de l’équipe de test peut influencer la manière dont les tests sont effectués. ii. C'est vrai. La complexité du système affecte directement l'approche et les outils utilisés lors des tests. iii. C'est vrai. La disponibilité des ressources matérielles est cruciale pour l’exécution des tests. Ce sont donc tous des facteurs qui affectent la stratégie de test. B. ii. C'est vrai. La complexité du système affecte l'approche de test. iii. C'est vrai. La disponibilité des ressources matérielles est importante. iv. C'est vrai. Les techniques de gestion de projet peuvent jouer un rôle, mais elles ne couvrent pas tous les aspects. Ce n’est donc pas l’option la plus complète. C.i. C'est vrai. Le profil de l’équipe de test est important. iii. C'est vrai. La disponibilité des ressources est cruciale. iv. C'est vrai. Les techniques de gestion de projet peuvent jouer un rôle, mais elles ne sont pas aussi pertinentes que les autres facteurs mentionnés. Il ne couvre donc pas tous les aspects pertinents. D.i. C'est vrai. Le profil de l'équipe de test influence la stratégie de test. ii. C'est vrai. La complexité du système à tester impacte la stratégie. iii. C'est vrai. La disponibilité des ressources matérielles est essentielle. iv. C'est vrai. Les techniques de gestion de projet ont également un impact. La bonne réponse est donc D.P.",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_d9p5xynen",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lors de l'évaluation de la qualité d'un produit logiciel ? Communication efficace Connaissances techniques Compétences analytiques Gestion du temps",
+    "options": [
+      "i et ii sont essentiels ; iii et iv ne sont pas",
+      "iii et iv sont essentiels ; moi et ii ne le sommes pas",
+      "ii et iii sont essentiels ; moi et iv ne le sommes pas",
+      "i et iii sont essentiels ; ii et iv ne sont pas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "R. Bien qu'une communication efficace et des connaissances techniques soient importantes, elles ne sont pas essentielles à l'évaluation de la qualité, car l'analyse et la gestion du temps sont essentielles au processus de test. B. Bien que les compétences analytiques et la gestion du temps soient importantes, le besoin de compétences en communication et de connaissances techniques pour évaluer correctement un produit ne peut être ignoré. C. Les connaissances techniques sont cruciales, mais l'évaluation de la qualité ne peut être réalisée sans des compétences en communication et des compétences analytiques, qui sont tout aussi essentielles. D. Exactement. Des compétences de communication et d’analyse efficaces sont des compétences fondamentales pour un testeur, leur permettant d’interpréter et d’évaluer correctement les résultats des tests. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_fb7uzan6z",
+    "chapter": 3,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Dans votre organisation, les révisions effectuées présentent les caractéristiques suivantes : Aucun rôle spécifique n'est attribué au modérateur. Le but est de trouver des défauts et d’améliorer le produit. Les participants discutent ouvertement de leurs opinions. Aucune documentation formelle requise à la fin. Quel type de révision est effectué ?",
+    "options": [
+      "Examen informel",
+      "Examen technique",
+      "Inspection",
+      "Examen guidé"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Les fonctionnalités mentionnées sont typiques d'une révision informelle, où un modérateur n'est pas requis et où la documentation est minime ou inexistante. B. Les examens techniques incluent généralement un modérateur et une approche plus structurée, ce qui n'est pas mentionné ici. C. Lors d'une inspection, une documentation formelle et une approche méthodique pour trouver les défauts sont attendues, ce qui n'est pas le cas ici. D. Les révisions guidées incluent un modérateur et mettent l'accent sur l'évaluation de la qualité, ce qui ne s'applique pas à la description donnée. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_8s5zi6k9s",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Vous testez un système de notation qui accepte des scores sur une échelle de 0 à 100. Le système classe les scores comme suit : 0-59 : Échec 60-69 : Réussite 70-89 : Bon 90-100 : Excellent En utilisant le partitionnement d'équivalence, quel est le nombre MINIMUM de cas de test nécessaire pour obtenir une couverture à 100 % des partitions valides ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. 3 cas de test ne couvriraient pas les 4 partitions valides identifiées. B. C’est exact. 4 cas de tests sont nécessaires pour couvrir les 4 partitions valides identifiées : une pour Échec (0-59), une pour Réussite (60-69), une pour Bon (70-89) et une pour Excellent (90-100). Selon le programme, pour obtenir une couverture à 100 % avec un partitionnement d'équivalence, les cas de test doivent exercer toutes les partitions identifiées couvrant chaque partition au moins une fois. C. Ce n’est pas exact. 5 cas de tests seraient plus que nécessaires pour couvrir les partitions minimales valides. D. Ce n’est pas exact. 6 cas de test dépassent le nombre minimum requis. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_9dq3pcf6l",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Pour un champ « Âge » qui accepte des valeurs de 16 à 65 ans, votre suite de tests comprend les valeurs suivantes : 15, 16, 17, 64, 65, 66. Quel pourcentage de couverture d'analyse des valeurs limites (LVA) à 3 valeurs obtenez-vous ?",
+    "options": [
+      "50%",
+      "67%",
+      "83%",
+      "100%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. 50 % correspondraient à 3 des 6 éléments couverts. B. Ce n’est pas correct. 67 % seraient 4 des 6 éléments couverts. C. Ce n’est pas exact. 83 % seraient 5 des 6 éléments couverts. D. C'est exact. En BVA à 3 valeurs, pour chaque valeur seuil (16 et 65), il existe trois éléments de couverture : la valeur seuil et ses deux voisins. Pour la limite 16 : 15, 16, 17. Pour la limite 65 : 64, 65, 66. La suite de tests couvre les 6 éléments requis (15, 16, 17, 64, 65, 66), donc 6/6 = 100%. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_lwvrb8dbo",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Dans une table de décision pour un système d'approbation de prêt, vous avez les conditions suivantes : Âge ≥ 18 ans Revenu ≥ 30 000 $ Bon historique de crédit Employé depuis ≥ 2 ans Si vous vouliez minimiser la table en raison du grand nombre de combinaisons, quelle serait la meilleure stratégie ?",
+    "options": [
+      "Supprimez toutes les conditions moins importantes",
+      "Utiliser une approche basée sur les risques pour affiner les règles à tester",
+      "Combinez toutes les conditions en une seule règle",
+      "Créez plusieurs petites tables distinctes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. La suppression de conditions peut laisser des lacunes importantes dans la couverture. B. C’est exact. Selon le programme, « s'il existe de nombreuses conditions, l'application de toutes les règles de décision peut prendre beaucoup de temps, car le nombre de règles augmente de façon exponentielle avec le nombre de conditions. Dans un tel cas, pour réduire le nombre de règles à appliquer, une table de décision minimisée ou une approche basée sur les risques peuvent être utilisées. C. Ce n’est pas exact. La combinaison de toutes les conditions ne résout pas le problème de complexité. D. Ce n’est pas exact. Plusieurs tables distinctes ne résolvent pas le problème des jointures exponentielles. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_paz05v6hi",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Laquelle des affirmations suivantes SE FAIT RÉFÉRER à la prédiction d’erreurs dans un processus de test ?",
+    "options": [
+      "La prédiction des bogues est basée uniquement sur des mesures quantitatives des défauts passés sans tenir compte du contexte de développement.",
+      "La prédiction des bogues consiste à identifier les zones du logiciel les plus susceptibles de contenir des défauts, en fonction de l'historique des bogues et de la complexité du code.",
+      "La prédiction des bogues nécessite que les testeurs effectuent des tests unitaires sur toutes les fonctions avant de pouvoir prédire les bogues.",
+      "La prédiction de bogues est un processus que seuls les développeurs peuvent effectuer, car ce sont eux qui connaissent le mieux leur code."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Bien que les mesures quantitatives soient utiles, la prédiction des erreurs prend également en compte le contexte et l’expérience antérieure pour être efficaces. B. C’est exact. La prédiction des bogues implique l'utilisation de l'historique des bogues ainsi que de facteurs tels que la complexité du code pour identifier les zones problématiques. C. Ce n’est pas exact. La prédiction des bogues ne dépend pas de la réalisation de tests unitaires, mais de l'analyse des modèles de défauts passés. D. Ce n’est pas exact. La prédiction des bogues est une tâche qui peut également être effectuée par les testeurs, qui peuvent apporter une perspective différente sur les zones à risque. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_a4nevsfk4",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Une équipe de développement crée une application mobile innovante et a décidé de recourir à des tests exploratoires en raison d'un manque de documentation. Parmi les affirmations suivantes concernant les tests exploratoires, laquelle est CORRECT ?",
+    "options": [
+      "Les tests exploratoires sont toujours moins efficaces que les tests basés sur les exigences.",
+      "Les tests exploratoires permettent aux testeurs de s'adapter rapidement aux modifications apportées au logiciel.",
+      "Les tests exploratoires nécessitent un plan de test détaillé avant d’être effectués.",
+      "Les tests exploratoires ne conviennent pas aux applications complexes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Les tests exploratoires peuvent être très efficaces, en particulier dans les environnements où les exigences sont ambiguës ou changent fréquemment. B. C’est exact. Les tests exploratoires permettent aux testeurs de s'adapter et de répondre avec plus de flexibilité aux modifications logicielles. C. Ce n’est pas exact. Bien qu'il puisse exister une approche générale, les tests exploratoires se caractérisent par le fait qu'ils ne dépendent pas d'un plan de test rigoureux et détaillé. D. Ce n’est pas exact. Les tests exploratoires peuvent être très utiles dans des applications complexes en permettant une exploration plus dynamique et créative. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_q2p8s0mdy",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Laquelle des affirmations suivantes décrit le MIEUX comment les critères d’acceptation peuvent être structurés dans une user story ?",
+    "options": [
+      "Défini uniquement par l'équipe de développement, sans nécessiter d'examen par les parties prenantes.",
+      "Rédigé dans un format clair et concis qui facilite la compréhension par toutes les parties intéressées impliquées.",
+      "Créer une liste complète d'exigences techniques qui doivent être remplies pour la livraison de la user story.",
+      "Établi en fonction des attentes personnelles des membres de l'équipe, sans tenir compte des objectifs du projet."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Les critères d'acceptation doivent être examinés et acceptés par toutes les parties prenantes, et pas seulement par l'équipe de développement. B. C’est exact. Un format clair et concis aide toutes les parties prenantes à comprendre ce qui est nécessaire pour considérer la user story comme complète. C. Ce n’est pas exact. Même si les exigences techniques peuvent être importantes, les critères d'acceptation doivent se concentrer sur les conditions de satisfaction des utilisateurs et non sur une liste technique exhaustive. D. Ce n’est pas exact. Les critères d'acceptation doivent s'aligner sur les objectifs du projet et les besoins des utilisateurs, et non être basés sur des attentes individuelles. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_m7s7cmw0j",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lors d'un atelier de spécification ATDD, l'équipe identifie les ambiguïtés dans une user story concernant le traitement des paiements. Quelle est l’action LA PLUS appropriée selon l’approche ATDD ?",
+    "options": [
+      "Le testeur doit créer des cas de tests qui couvrent toutes les interprétations possibles",
+      "Résoudre les ambiguïtés pendant l'atelier avant de créer des cas de test",
+      "Reporter la création de cas de test jusqu'à ce que le développement soit terminé",
+      "Créez des cas de test uniquement pour les scénarios les plus probables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Créer des cas pour toutes les interprétations sans résoudre les ambiguïtés peut conduire à des cas contradictoires ou incorrects. B. C’est exact. Selon le programme, lors de l'atelier de spécification, « les incomplétude, les ambiguïtés ou les défauts de la user story sont résolus au cours de ce processus » avant de procéder à la création des cas de test. Ceci est essentiel chez ATDD pour garantir que tout le monde ait la même compréhension. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_s9bm5wa3g",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lequel des éléments suivants est un critère d’entrée pour l’exécution d’un test ?",
+    "options": [
+      "Les résultats des tests précédents ont été documentés.",
+      "Les critères d'acceptation des exigences ont été définis.",
+      "L'équipe de test a terminé la planification des tests.",
+      "Le logiciel a réussi tous les tests unitaires."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Documenter les résultats des tests antérieurs est une bonne pratique, mais ce n'est pas un critère d'entrée spécifique. B. C’est exact. La définition des critères d’acceptation des exigences est essentielle pour garantir que les critères d’entrée sont clairs avant les tests. C. Ce n’est pas exact. La planification des tests peut être une étape préliminaire, mais ce n'est pas un critère d'entrée en soi. D. Ce n’est pas exact. La réussite de tous les tests unitaires est un critère de sortie, car elle indique qu'une phase de test s'est terminée avec succès. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_jq145tq22",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Dans votre plan de test, vous avez hiérarchisé les cas de test en fonction des exigences. Cependant, vous réalisez que certains cas hautement prioritaires ne peuvent pas être exécutés dans l’ordre idéal en raison des dépendances et de la disponibilité des ressources. Quelle est l’action LA PLUS appropriée selon le programme ?",
+    "options": [
+      "Maintenir l'ordre en fonction de la priorité des exigences en ignorant les dépendances",
+      "Ajustez l'ordre en tenant compte des dépendances et de la disponibilité des ressources",
+      "Passer à une stratégie de priorisation différente",
+      "Exécuter uniquement les cas autonomes hautement prioritaires"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Ignorer les dépendances peut entraîner l'échec des tests pour des raisons techniques plutôt que pour des défauts réels. B. C’est exact. Le programme indique que « si un scénario de test avec une priorité plus élevée dépend d'un scénario de test avec une priorité inférieure, le scénario de test de priorité inférieure doit être exécuté en premier » et que « l'ordre d'exécution des tests doit également prendre en compte la disponibilité des ressources ». C. Ce n’est pas exact. Il n'est pas nécessaire de changer la stratégie de priorisation, il suffit d'ajuster l'ordre d'exécution. D. Ce n’est pas exact. Cela limiterait excessivement la couverture des tests. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_f4ffyxzso",
+    "chapter": 4,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Comment les tests suivants sont-ils classés selon les quadrants de tests agiles (A-D) et leur relation avec les niveaux de tests ? Tests de composants Tests fonctionnels Tests exploratoires Tests non fonctionnels Tests agiles Quadrant Q1 : Orienté technologie, prend en charge le quadrant Tests agiles en équipe Q2 : Orienté métier, prend en charge le quadrant Tests agiles en équipe Q3 : Orienté métier, critique produit Quadrant Tests agiles Q4 : Orienté technologie, critique produit Sélectionnez UNE option qui représente correctement la classification.",
+    "options": [
+      "1A, 2B, 3C, 4D",
+      "1B, 2A, 3D, 4C",
+      "1C, 2D, 3A, 4B",
+      "1D, 2C, 3B, 4A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct – selon le programme (section 5.1.7, p. 53) : 1 (tests de composants) → Q1 (technologie, support d'équipe) 2 (tests fonctionnels) → Q2 (business, support d'équipe) 3 (tests exploratoires) → Q3 (business, critique de produit) 4 (tests non fonctionnels) → Q4 (technologie, critique de produit) Les tests de ces quadrants se rapportent directement aux niveaux et types de tests indiqués dans le Modèle Marick/Crispin. B. Incorrect – les tests des composants (1) ne sont pas en Q2 ; Ils sont au premier trimestre. Les tests fonctionnels (2) ne sont pas au T1 ; Ils sont au deuxième trimestre. C. Incorrect – les tests exploratoires (3) ne sont pas en Q1 ; Ils sont au troisième trimestre. Les tests non fonctionnels (4) ne sont pas au T2 ; Ils sont au quatrième trimestre. D. Incorrect – les tests des composants (1) ne sont pas au quatrième trimestre ; Ils sont au premier trimestre. Les tests exploratoires (3) ne sont pas en Q2 ; Ils sont au troisième trimestre. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_z9hth9gwh",
+    "chapter": 3,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Dans un projet de développement logiciel, le risque suivant a été identifié : Risque : La documentation utilisateur n'est pas à jour. Probabilité de risque : élevée ; impact du risque : moyen Réponse au risque : une revue approfondie de la documentation est organisée avec l'équipe de développement les utilisateurs sont informés des éventuelles incohérences dans la documentation Quelle est la mesure la plus appropriée pour répondre à ce risque analysé ?",
+    "options": [
+      "Atténuation des risques",
+      "Acceptation du risque",
+      "Transfert de risque",
+      "Élimination des risques"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. C'est exact. L’examen de la documentation permet d’atténuer le risque d’incohérences. B. Ce n’est pas correct. Accepter le risque ne résout pas le problème de la documentation obsolète. C. Ce n’est pas exact. Le risque n’est pas transféré, mais plutôt traité directement. D. Ce n’est pas exact. Ce risque ne peut pas être complètement éliminé, mais des mesures peuvent être prises pour l'atténuer. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_kzxw2m4i9",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lors du suivi des défauts détectés lors des tests, quel est l’avantage de la gestion de la configuration dans ce processus ?",
+    "options": [
+      "Aide à documenter les exigences de test.",
+      "Il permet d'identifier la version du logiciel dans laquelle le défaut a été trouvé.",
+      "Facilite la création de nouveaux cas de test.",
+      "S'assure que tous les défauts sont résolus avant la livraison."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. La gestion de la configuration ne se concentre pas sur les exigences, mais sur la gestion des éléments de test et de leur version. B. C’est exact. La gestion de la configuration permet d'associer les défauts à des versions spécifiques du logiciel, ce qui facilite leur suivi et leur résolution. C. Ce n’est pas exact. La création de nouveaux cas de test fait partie de la conception des tests et n'est pas un avantage direct de la gestion de la configuration. D. Ce n’est pas exact. Bien que la gestion de la configuration P",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_attdk2hjt",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Un analyste de test prépare le rapport de défaut suivant : ID : BUG-00721 ​​​​​​| Titre : Le champ « Date de naissance » accepte les dates futures | Gravité : moyenne | Priorité : Élevée | Rapporté par: A. López | Configuration : application v3.2.1, Chrome 120 | Étapes à reproduire : (1) Ouvrez le formulaire d'inscription, (2) Saisissez la date de naissance '15/08/2030', (3) Cliquez sur 'Enregistrer'. Quelle est l’information la PLUS importante qui manque dans ce rapport ?",
+    "options": [
+      "Le nom du développeur chargé de résoudre le défaut.",
+      "Le résultat réel obtenu et le résultat attendu, pour faciliter la reproduction et la correction.",
+      "Une estimation du temps nécessaire pour corriger le défaut.",
+      "Le nombre d'utilisateurs concernés par le défaut."
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Incorrect. L'attribution du défaut à un développeur est une activité post-gestion et non un élément essentiel du rapport initial. B. Exactement. Selon CTFL Syllabus v4.0 §5.5.1, un rapport de défaut complet doit inclure les résultats réels obtenus et les résultats attendus. Sans ces informations, le développeur ne peut pas confirmer le comportement incorrect ni valider le correctif. C. Incorrect. L'estimation du temps de réparation relève de la responsabilité de l'équipe de développement, et non du rapport de défaut. D. Incorrect. L'impact sur les utilisateurs peut être indiqué dans la priorité/gravité, mais ne constitue pas un champ essentiel du rapport de défaut selon le programme. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_83alrpwtk",
+    "chapter": 5,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lequel des outils de test suivants est généralement utilisé pour automatiser l’exécution des tests ?",
+    "options": [
+      "Outils de gestion des tests",
+      "Outils de test de performances",
+      "Outils d'automatisation des tests",
+      "Outils de gestion des défauts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. Ce n'est pas exact. Les outils de gestion des tests sont utilisés pour planifier, organiser et suivre le processus de test, mais pas pour exécuter les tests de manière automatisée. B. Ce n’est pas correct. Les outils de test de performances sont conçus pour évaluer les performances du système sous charge, et non pour automatiser l'exécution des tests en général. C. C'est exact. Les outils d'automatisation des tests sont spécialement conçus pour exécuter des tests automatiquement, permettant ainsi des tests plus rapides et plus efficaces. D. Ce n’est pas exact. Les outils de gestion des défauts sont utilisés pour suivre et gérer les bogues détectés au cours du processus de test, et non pour automatiser l'exécution des tests. Q",
+    "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch4_7576lzkad",
+    "chapter": 1,
+    "topic": "Desarrollo y Testing",
+    "difficulty": "medium",
+    "question": "Lequel des énoncés suivants décrit un avantage de l’automatisation des tests ?",
+    "options": [
+      "Augmentez la couverture des tests en moins de temps",
+      "Élimine complètement le besoin de tests manuels",
+      "Réduit la complexité du développement de logiciels",
+      "Augmente la possibilité d’erreurs humaines lors de l’exécution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "R. C'est exact. L'automatisation vous permet d'exécuter des tests plus rapidement et plus fréquemment, ce qui peut augmenter la couverture des tests. B. Ce n’est pas correct. Même si l’automatisation peut réduire le besoin de tests manuels, elle ne peut pas l’éliminer complètement dans tous les cas. C. Ce n’est pas exact. L’automatisation ne réduit pas nécessairement la complexité des logiciels ; elle peut en fait introduire sa propre complexité. D. Ce n’est pas exact. L'automatisation, si elle est effectuée correctement, peut réduire le risque d'erreur humaine lors de l'exécution des tests.",
+    "source": "User Provided Batch 4"
   }
 ]
