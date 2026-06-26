@@ -4898,7 +4898,7 @@
       "La gestión de pruebas ayuda a planificar, monitorear y controlar el proceso de pruebas.",
       "La gestión de pruebas es responsabilidad únicamente del equipo de desarrollo."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. Incorrecto. La gestión de pruebas es importante en todos los entornos, incluidos los ágiles. B. Incorrecto. La gestión de pruebas debe ser continua a lo largo de todo el ciclo de vida del desarrollo. C. Correcto. La gestión de pruebas es fundamental para una planificación y control adecuados. D. Incorrecto. La gestión de pruebas es responsabilidad de todo el equipo, no solo del desarrollo.",
     "source": "User Provided Batch 3"
   },
@@ -4914,7 +4914,7 @@
       "Pruebas de integración",
       "Pruebas de componentes"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. Incorrecto. Las pruebas de aceptación se centran en validar si el sistema cumple con los requisitos del cliente, no en la interfaz entre módulos. B. Incorrecto. Las pruebas de sistema evalúan el sistema en su totalidad, pero no se enfocan específicamente en la interacción entre módulos. C. Correcto. Las pruebas de integración se centran en verificar la comunicación y la interacción entre diferentes componentes o módulos del sistema. D. Incorrecto. Las pruebas de componentes se centran en probar un solo módulo en aislamiento, no su interacción con otros.",
     "source": "User Provided Batch 3"
   },
@@ -4946,7 +4946,7 @@
       "TC1 y TC2",
       "Solo TC2"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "explanation": "A. Incorrecto. TC1 y TC3 fallaron en la version anterior, por lo que re-ejecutarlos constituye pruebas de confirmacion (re-testing): se verifica que el defecto haya sido corregido. No son pruebas de regresion. B. Incorrecto. TC2 si es una prueba de regresion, pero TC3 fallo en la version anterior y es por tanto una prueba de confirmacion. La combinacion TC2+TC3 no es correcta. C. Incorrecto. TC2 es una prueba de regresion, pero TC1 fallo en la version anterior y es una prueba de confirmacion, no de regresion. Ademas, esta opcion era identica a la opcion D, lo que constituia un defecto estructural en la pregunta. D. Correcto. TC2 paso en la version anterior. Al re-ejecutarlo despues de las correcciones, se verifica que los cambios no hayan introducido nuevos defectos en funcionalidad que ya funcionaba. Esto es exactamente la definicion de prueba de regresion segun CTFL v4.0 sect. 2.2.3. TC1 y TC3, que fallaron antes, son pruebas de confirmacion.",
     "source": "User Provided Batch 3"
   },
@@ -5202,8 +5202,8 @@
       "Una estimación del tiempo necesario para corregir el defecto.",
       "El número de usuarios afectados por el defecto."
     ],
-    "correctAnswer": 0,
-    "explanation": "A. Incorrecto. La asignación del defecto a un desarrollador es una actividad de gestión posterior, no un componente esencial del informe inicial. B. Correcto. Según el Programa de Estudio CTFL v4.0 §5.5.1, un informe de defecto completo debe incluir los resultados reales obtenidos y los resultados esperados. Sin esta información, el desarrollador no puede confirmar el comportamiento incorrecto ni validar la corrección. C. Incorrecto. La estimación del tiempo de corrección es responsabilidad del equipo de desarrollo, no del informe de defecto. D. Incorrecto. El impacto en usuarios puede indicarse en la prioridad/severidad, pero no es un campo esencial del informe de defecto según el syllabus. P",
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. La asignación del defecto a un desarrollador es una actividad de gestión posterior, no un componente esencial del informe inicial. B. Correcto. Según el Programa de Estudio CTFL v4.0 §5.5.1, un informe de defecto completo debe incluir los resultados reales obtenidos y los resultados esperados. Sin esta información, el desarrollador no puede confirmar el comportamiento incorrecto ni validar la corrección. C. Incorrecto. La estimación del tiempo de corrección es responsabilidad del equipo de desarrollo, no del informe de defecto. D. Incorrecto. El impacto en usuarios puede indicarse en la prioridad/severidad, pero no es un campo esencial del informe de defecto según el syllabus.",
     "source": "User Provided Batch 4"
   },
   {

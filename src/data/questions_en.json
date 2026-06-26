@@ -4846,7 +4846,7 @@
       "Test management helps to plan, monitor and control the testing process.",
       "Test management is the sole responsibility of the development team."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. Incorrect. Test management is important in all environments, including agile ones. B. Incorrect. Test management must be continuous throughout the entire development lifecycle. C. Correct. Test management is essential for proper planning and control. D. Incorrect. Test management is the responsibility of the entire team, not just development.",
     "source": "User Provided Batch 3"
   },
@@ -4862,7 +4862,7 @@
       "Integration tests",
       "Component testing"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. Incorrect. Acceptance testing focuses on validating whether the system meets the customer's requirements, not on the interface between modules. B. Incorrect. System testing evaluates the system as a whole, but does not focus specifically on the interaction between modules. C. Correct. Integration testing focuses on verifying the communication and interaction between different components or modules of the system. D. Incorrect. Component testing focuses on testing a single module in isolation, not its interaction with others.",
     "source": "User Provided Batch 3"
   },
@@ -5134,7 +5134,7 @@
       "An estimate of the time required to correct the defect.",
       "The number of users affected by the defect."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. Incorrect. Assigning the defect to a developer is a post-management activity, not an essential component of the initial report. B. Correct. According to CTFL Syllabus v4.0 §5.5.1, a complete defect report must include the actual results obtained and the expected results. Without this information, the developer cannot confirm the incorrect behavior or validate the fix. C. Incorrect. Estimating fix time is the responsibility of the development team, not the defect report. D. Incorrect. The impact on users may be indicated in the priority/severity, but is not an essential field of the defect report according to the syllabus. Q",
     "source": "User Provided Batch 4"
   },
@@ -5302,7 +5302,7 @@
       "TC1 and TC2",
       "TC2 only"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "explanation": "A. Incorrect. TC1 and TC3 failed in the previous version, so re-running them constitutes confirmation tests (re-testing): it is verified that the defect has been corrected. They are not regression tests. B. Incorrect. TC2 is a regression test, but TC3 failed in the previous version and is therefore a confirmation test. The combination TC2+TC3 is not correct. C. Incorrect. TC2 is a regression test, but TC1 failed in the previous version and is a confirmation test, not a regression test. Furthermore, this option was identical to option D, which constituted a structural defect in the question. D. Correct. TC2 passed in the previous version. By re-running it after the corrections, it is verified that the changes have not introduced new defects in functionality that already worked. This is exactly the definition of regression testing according to CTFL v4.0 sect. 2.2.3. TC1 and TC3, which failed before, are confirmation tests.",
     "source": "User Provided Batch 3"
   },
