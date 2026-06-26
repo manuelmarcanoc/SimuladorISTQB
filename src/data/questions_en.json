@@ -4942,7 +4942,7 @@
       "5",
       "6"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. 3 test cases would not cover the 4 valid partitions identified. B. It is correct. 4 test cases are needed to cover the 4 valid partitions identified: one for Fail (0-59), one for Pass (60-69), one for Good (70-89) and one for Excellent (90-100). According to the syllabus, to achieve 100% coverage with equivalence partitioning, test cases must exercise all identified partitions covering each partition at least once. C. It is not correct. 5 test cases would be more than necessary to cover the minimum valid partitions. D. It is not correct. 6 test cases exceed the minimum number required. Q",
     "source": "User Provided Batch 4"
   },
@@ -4958,7 +4958,7 @@
       "83%",
       "100%"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "explanation": "A. It is not correct. 50% would be 3 of 6 items covered. B. It is not correct. 67% would be 4 of 6 items covered. C. It is not correct. 83% would be 5 of 6 items covered. D. It is correct. In 3-value BVA, for each cutoff value (16 and 65) there are three coverage elements: the cutoff value and its two neighbors. For limit 16: 15, 16, 17. For limit 65: 64, 65, 66. The test suite covers the 6 required elements (15, 16, 17, 64, 65, 66), therefore 6/6 = 100%. Q",
     "source": "User Provided Batch 4"
   },
@@ -4974,7 +4974,7 @@
       "Combine all conditions into a single rule",
       "Create multiple separate small tables"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Removing conditions can leave significant gaps in coverage. B. It is correct. According to the syllabus, 'if there are many conditions, exercising all the decision rules can take a long time, since the number of rules grows exponentially with the number of conditions. In such a case, to reduce the number of rules that must be exercised, a minimized decision table or a risk-based approach can be used.' C. It is not correct. Combining all conditions does not solve the complexity problem. D. It is not correct. Multiple separate tables do not address the problem of exponential joins. Q",
     "source": "User Provided Batch 4"
   },
@@ -4990,7 +4990,7 @@
       "Bug prediction requires testers to perform unit tests on all functions before they can predict bugs.",
       "Bug prediction is a process that only developers can perform, since they know their code best."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Although quantitative metrics are useful, error prediction also considers context and prior experience to be effective. B. It is correct. Bug prediction involves using bug history along with factors such as code complexity to identify problem areas. C. It is not correct. Bug prediction does not depend on performing unit testing, but on analyzing past defect patterns. D. It is not correct. Bug prediction is a task that can also be performed by testers, who can provide a different perspective on risk areas. Q",
     "source": "User Provided Batch 4"
   },
@@ -5006,7 +5006,7 @@
       "Exploratory testing requires a detailed test plan before being performed.",
       "Exploratory testing is not suitable for complex applications."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Exploratory testing can be very effective, especially in environments where requirements are ambiguous or change frequently. B. It is correct. Exploratory testing allows testers to adapt and respond to software changes more flexibly. C. It is not correct. Although there may be a general approach, exploratory testing is characterized by not depending on a rigorous and detailed test plan. D. It is not correct. Exploratory testing can be very useful in complex applications by allowing for more dynamic and creative exploration. Q",
     "source": "User Provided Batch 4"
   },
@@ -5022,7 +5022,7 @@
       "Creating an extensive list of technical requirements that must be met for the delivery of the user story.",
       "Established based on the personal expectations of the team members, without considering the project objectives."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Acceptance criteria should be reviewed and agreed upon by all stakeholders, not just the development team. B. It is correct. A clear and concise format helps all stakeholders understand what is needed to consider the user story complete. C. It is not correct. Although technical requirements may be important, acceptance criteria should focus on user satisfaction conditions, not an exhaustive technical list. D. It is not correct. Acceptance criteria should align with project objectives and user needs, not be based on individual expectations. Q",
     "source": "User Provided Batch 4"
   },
@@ -5038,7 +5038,7 @@
       "Postpone creating test cases until development is complete",
       "Create test cases only for the most likely scenarios"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Creating cases for all interpretations without resolving ambiguities can lead to conflicting or incorrect cases. B. It is correct. According to the syllabus, during the specification workshop 'incompleteness, ambiguities or defects in the user story are resolved during this process' before proceeding to create the test cases. This is critical at ATDD to ensure everyone has the same understanding. Q",
     "source": "User Provided Batch 4"
   },
@@ -5054,7 +5054,7 @@
       "The test team has completed test planning.",
       "The software has passed all unit tests."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Documenting previous test results is good practice, but it is not a specific entry criterion. B. It is correct. Defining requirements acceptance criteria is essential to ensure entry criteria are clear before testing. C. It is not correct. Completing test planning may be a preliminary step, but it is not an entry criterion in itself. D. It is not correct. Passing all unit tests is an exit criterion, as it indicates that a testing phase has completed successfully. Q",
     "source": "User Provided Batch 4"
   },
@@ -5070,7 +5070,7 @@
       "Switch to a different prioritization strategy",
       "Run only high-priority standalone cases"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Ignoring dependencies can cause tests to fail for technical reasons rather than actual defects. B. It is correct. The syllabus states that 'if a test case with a higher priority depends on a test case with a lower priority, the lower priority test case should be executed first' and that 'the test execution order should also take into account resource availability.' C. It is not correct. There is no need to change the prioritization strategy, just adjust the order of execution. D. It is not correct. This would excessively limit test coverage. Q",
     "source": "User Provided Batch 4"
   },
@@ -5118,7 +5118,7 @@
       "Facilitates the creation of new test cases.",
       "Ensures all defects are resolved before delivery."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Configuration management does not focus on requirements, but on the management of test items and their version. B. It is correct. Configuration management allows defects to be associated with specific versions of the software, making them easier to track and resolve. C. It is not correct. Creating new test cases is part of test design, not a direct benefit of configuration management. D. It is not correct. Although P configuration management",
     "source": "User Provided Batch 4"
   },
@@ -5150,7 +5150,7 @@
       "Test automation tools",
       "Defect management tools"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. It is not correct. Test management tools are used to plan, organize, and track the testing process, but not to execute tests in an automated manner. B. It is not correct. Performance testing tools are designed to evaluate system performance under load, not to automate test execution in general. C. It is correct. Test automation tools are specifically designed to run tests automatically, allowing for faster and more efficient testing. D. It is not correct. Defect management tools are used to track and manage bugs found during the testing process, not to automate test execution. Q",
     "source": "User Provided Batch 4"
   },
@@ -5318,7 +5318,7 @@
       "Incident tracking tool",
       "Configuration Management Tool"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. It is not correct. Although test management tools help organize and plan tests, they are not specifically designed to manage issues. B. It is not correct. Test automation tools are focused on running tests automatically, not managing issues. C. It is correct. Issue tracking tools are essential for recording, tracking, and managing defects found during testing. D. It is not correct. Configuration management tools are used to control and maintain software configurations, but are not for incident management.",
     "source": "User Provided Batch 4"
   },
@@ -5334,7 +5334,7 @@
       "Automatically generate test cases from code",
       "Identify errors in code without running tests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Although some tools can help with automation, the main purpose of a test management tool is planning and tracking. B. It is correct. A test management tool allows teams to plan, organize, and track test progress, facilitating coordination and communication. C. It is not correct. Tools that automatically generate test cases are typically analysis tools, not test management tools. D. It is not correct. Identifying bugs in code without running tests is not a function of test management tools; that's more of a function of static analysis tools.",
     "source": "User Provided Batch 4"
   },
@@ -5350,7 +5350,7 @@
       "Test software maintenance cost increases significantly",
       "Requires less time to plan manual tests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. It is not correct. Although automation may require some training, it is not an intrinsic benefit. B. It is correct. Automation allows you to run repetitive tests quickly and consistently, which is a huge benefit. C. It is not correct. Although there may be maintenance costs, the benefit is that efficiency can increase. D. It is not correct. Automation does not necessarily reduce manual test planning time.",
     "source": "User Provided Batch 4"
   },

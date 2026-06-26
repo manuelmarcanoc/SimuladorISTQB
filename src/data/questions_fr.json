@@ -4942,7 +4942,7 @@
       "5",
       "6"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. 3 cas de test ne couvriraient pas les 4 partitions valides identifiées. B. C’est exact. 4 cas de tests sont nécessaires pour couvrir les 4 partitions valides identifiées : une pour Échec (0-59), une pour Réussite (60-69), une pour Bon (70-89) et une pour Excellent (90-100). Selon le programme, pour obtenir une couverture à 100 % avec un partitionnement d'équivalence, les cas de test doivent exercer toutes les partitions identifiées couvrant chaque partition au moins une fois. C. Ce n’est pas exact. 5 cas de tests seraient plus que nécessaires pour couvrir les partitions minimales valides. D. Ce n’est pas exact. 6 cas de test dépassent le nombre minimum requis. Q",
     "source": "User Provided Batch 4"
   },
@@ -4958,7 +4958,7 @@
       "83%",
       "100%"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "explanation": "R. Ce n'est pas exact. 50 % correspondraient à 3 des 6 éléments couverts. B. Ce n’est pas correct. 67 % seraient 4 des 6 éléments couverts. C. Ce n’est pas exact. 83 % seraient 5 des 6 éléments couverts. D. C'est exact. En BVA à 3 valeurs, pour chaque valeur seuil (16 et 65), il existe trois éléments de couverture : la valeur seuil et ses deux voisins. Pour la limite 16 : 15, 16, 17. Pour la limite 65 : 64, 65, 66. La suite de tests couvre les 6 éléments requis (15, 16, 17, 64, 65, 66), donc 6/6 = 100%. Q",
     "source": "User Provided Batch 4"
   },
@@ -4974,7 +4974,7 @@
       "Combinez toutes les conditions en une seule règle",
       "Créez plusieurs petites tables distinctes"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. La suppression de conditions peut laisser des lacunes importantes dans la couverture. B. C’est exact. Selon le programme, « s'il existe de nombreuses conditions, l'application de toutes les règles de décision peut prendre beaucoup de temps, car le nombre de règles augmente de façon exponentielle avec le nombre de conditions. Dans un tel cas, pour réduire le nombre de règles à appliquer, une table de décision minimisée ou une approche basée sur les risques peuvent être utilisées. C. Ce n’est pas exact. La combinaison de toutes les conditions ne résout pas le problème de complexité. D. Ce n’est pas exact. Plusieurs tables distinctes ne résolvent pas le problème des jointures exponentielles. Q",
     "source": "User Provided Batch 4"
   },
@@ -4990,7 +4990,7 @@
       "La prédiction des bogues nécessite que les testeurs effectuent des tests unitaires sur toutes les fonctions avant de pouvoir prédire les bogues.",
       "La prédiction de bogues est un processus que seuls les développeurs peuvent effectuer, car ce sont eux qui connaissent le mieux leur code."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Bien que les mesures quantitatives soient utiles, la prédiction des erreurs prend également en compte le contexte et l’expérience antérieure pour être efficaces. B. C’est exact. La prédiction des bogues implique l'utilisation de l'historique des bogues ainsi que de facteurs tels que la complexité du code pour identifier les zones problématiques. C. Ce n’est pas exact. La prédiction des bogues ne dépend pas de la réalisation de tests unitaires, mais de l'analyse des modèles de défauts passés. D. Ce n’est pas exact. La prédiction des bogues est une tâche qui peut également être effectuée par les testeurs, qui peuvent apporter une perspective différente sur les zones à risque. Q",
     "source": "User Provided Batch 4"
   },
@@ -5006,7 +5006,7 @@
       "Les tests exploratoires nécessitent un plan de test détaillé avant d’être effectués.",
       "Les tests exploratoires ne conviennent pas aux applications complexes."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Les tests exploratoires peuvent être très efficaces, en particulier dans les environnements où les exigences sont ambiguës ou changent fréquemment. B. C’est exact. Les tests exploratoires permettent aux testeurs de s'adapter et de répondre avec plus de flexibilité aux modifications logicielles. C. Ce n’est pas exact. Bien qu'il puisse exister une approche générale, les tests exploratoires se caractérisent par le fait qu'ils ne dépendent pas d'un plan de test rigoureux et détaillé. D. Ce n’est pas exact. Les tests exploratoires peuvent être très utiles dans des applications complexes en permettant une exploration plus dynamique et créative. Q",
     "source": "User Provided Batch 4"
   },
@@ -5022,7 +5022,7 @@
       "Créer une liste complète d'exigences techniques qui doivent être remplies pour la livraison de la user story.",
       "Établi en fonction des attentes personnelles des membres de l'équipe, sans tenir compte des objectifs du projet."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Les critères d'acceptation doivent être examinés et acceptés par toutes les parties prenantes, et pas seulement par l'équipe de développement. B. C’est exact. Un format clair et concis aide toutes les parties prenantes à comprendre ce qui est nécessaire pour considérer la user story comme complète. C. Ce n’est pas exact. Même si les exigences techniques peuvent être importantes, les critères d'acceptation doivent se concentrer sur les conditions de satisfaction des utilisateurs et non sur une liste technique exhaustive. D. Ce n’est pas exact. Les critères d'acceptation doivent s'aligner sur les objectifs du projet et les besoins des utilisateurs, et non être basés sur des attentes individuelles. Q",
     "source": "User Provided Batch 4"
   },
@@ -5038,7 +5038,7 @@
       "Reporter la création de cas de test jusqu'à ce que le développement soit terminé",
       "Créez des cas de test uniquement pour les scénarios les plus probables"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Créer des cas pour toutes les interprétations sans résoudre les ambiguïtés peut conduire à des cas contradictoires ou incorrects. B. C’est exact. Selon le programme, lors de l'atelier de spécification, « les incomplétude, les ambiguïtés ou les défauts de la user story sont résolus au cours de ce processus » avant de procéder à la création des cas de test. Ceci est essentiel chez ATDD pour garantir que tout le monde ait la même compréhension. Q",
     "source": "User Provided Batch 4"
   },
@@ -5054,7 +5054,7 @@
       "L'équipe de test a terminé la planification des tests.",
       "Le logiciel a réussi tous les tests unitaires."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Documenter les résultats des tests antérieurs est une bonne pratique, mais ce n'est pas un critère d'entrée spécifique. B. C’est exact. La définition des critères d’acceptation des exigences est essentielle pour garantir que les critères d’entrée sont clairs avant les tests. C. Ce n’est pas exact. La planification des tests peut être une étape préliminaire, mais ce n'est pas un critère d'entrée en soi. D. Ce n’est pas exact. La réussite de tous les tests unitaires est un critère de sortie, car elle indique qu'une phase de test s'est terminée avec succès. Q",
     "source": "User Provided Batch 4"
   },
@@ -5070,7 +5070,7 @@
       "Passer à une stratégie de priorisation différente",
       "Exécuter uniquement les cas autonomes hautement prioritaires"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Ignorer les dépendances peut entraîner l'échec des tests pour des raisons techniques plutôt que pour des défauts réels. B. C’est exact. Le programme indique que « si un scénario de test avec une priorité plus élevée dépend d'un scénario de test avec une priorité inférieure, le scénario de test de priorité inférieure doit être exécuté en premier » et que « l'ordre d'exécution des tests doit également prendre en compte la disponibilité des ressources ». C. Ce n’est pas exact. Il n'est pas nécessaire de changer la stratégie de priorisation, il suffit d'ajuster l'ordre d'exécution. D. Ce n’est pas exact. Cela limiterait excessivement la couverture des tests. Q",
     "source": "User Provided Batch 4"
   },
@@ -5118,7 +5118,7 @@
       "Facilite la création de nouveaux cas de test.",
       "S'assure que tous les défauts sont résolus avant la livraison."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. La gestion de la configuration ne se concentre pas sur les exigences, mais sur la gestion des éléments de test et de leur version. B. C’est exact. La gestion de la configuration permet d'associer les défauts à des versions spécifiques du logiciel, ce qui facilite leur suivi et leur résolution. C. Ce n’est pas exact. La création de nouveaux cas de test fait partie de la conception des tests et n'est pas un avantage direct de la gestion de la configuration. D. Ce n’est pas exact. Bien que la gestion de la configuration P",
     "source": "User Provided Batch 4"
   },
@@ -5150,7 +5150,7 @@
       "Outils d'automatisation des tests",
       "Outils de gestion des défauts"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "R. Ce n'est pas exact. Les outils de gestion des tests sont utilisés pour planifier, organiser et suivre le processus de test, mais pas pour exécuter les tests de manière automatisée. B. Ce n’est pas correct. Les outils de test de performances sont conçus pour évaluer les performances du système sous charge, et non pour automatiser l'exécution des tests en général. C. C'est exact. Les outils d'automatisation des tests sont spécialement conçus pour exécuter des tests automatiquement, permettant ainsi des tests plus rapides et plus efficaces. D. Ce n’est pas exact. Les outils de gestion des défauts sont utilisés pour suivre et gérer les bogues détectés au cours du processus de test, et non pour automatiser l'exécution des tests. Q",
     "source": "User Provided Batch 4"
   },
@@ -5318,7 +5318,7 @@
       "Outil de suivi des incidents",
       "Outil de gestion des configurations"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "R. Ce n'est pas exact. Bien que les outils de gestion des tests aident à organiser et planifier les tests, ils ne sont pas spécifiquement conçus pour gérer les problèmes. B. Ce n’est pas correct. Les outils d'automatisation des tests se concentrent sur l'exécution automatique des tests et non sur la gestion des problèmes. C. C'est exact. Les outils de suivi des problèmes sont essentiels pour enregistrer, suivre et gérer les défauts détectés lors des tests. D. Ce n’est pas exact. Les outils de gestion de configuration sont utilisés pour contrôler et maintenir les configurations logicielles, mais ne sont pas destinés à la gestion des incidents.",
     "source": "User Provided Batch 4"
   },
@@ -5334,7 +5334,7 @@
       "Générer automatiquement des cas de test à partir du code",
       "Identifiez les erreurs dans le code sans exécuter de tests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Bien que certains outils puissent faciliter l’automatisation, l’objectif principal d’un outil de gestion des tests est la planification et le suivi. B. C’est exact. Un outil de gestion des tests permet aux équipes de planifier, d'organiser et de suivre la progression des tests, facilitant ainsi la coordination et la communication. C. Ce n’est pas exact. Les outils qui génèrent automatiquement des cas de test sont généralement des outils d'analyse et non des outils de gestion de tests. D. Ce n’est pas exact. L'identification des bogues dans le code sans exécuter de tests n'est pas une fonction des outils de gestion des tests ; c'est davantage une fonction des outils d'analyse statique.",
     "source": "User Provided Batch 4"
   },
@@ -5350,7 +5350,7 @@
       "Le coût de maintenance des logiciels de test augmente considérablement",
       "Nécessite moins de temps pour planifier des tests manuels"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "R. Ce n'est pas exact. Même si l’automatisation nécessite une certaine formation, elle ne constitue pas un avantage intrinsèque. B. C’est exact. L'automatisation vous permet d'exécuter des tests répétitifs de manière rapide et cohérente, ce qui constitue un énorme avantage. C. Ce n’est pas exact. Même s’il peut y avoir des coûts de maintenance, l’avantage est que l’efficacité peut augmenter. D. Ce n’est pas exact. L'automatisation ne réduit pas nécessairement le temps de planification manuelle des tests.",
     "source": "User Provided Batch 4"
   },

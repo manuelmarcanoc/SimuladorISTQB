@@ -5010,7 +5010,7 @@
       "5",
       "6"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. 3 casos de prueba no cubrirían las 4 particiones válidas identificadas. B. Es correcto. Se necesitan 4 casos de prueba para cubrir las 4 particiones válidas identificadas: una para Reprobado (0-59), una para Aprobado (60-69), una para Bueno (70-89) y una para Excelente (90-100). Según el syllabus, para lograr 100% de cobertura con partición de equivalencia, los casos de prueba deben ejercer todas las particiones identificadas cubriendo cada partición al menos una vez. C. No es correcto. 5 casos de prueba serían más de los necesarios para cubrir las particiones válidas mínimas. D. No es correcto. 6 casos de prueba exceden el número mínimo requerido. P",
     "source": "User Provided Batch 4"
   },
@@ -5026,7 +5026,7 @@
       "83%",
       "100%"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 3,
     "explanation": "A. No es correcto. 50% sería 3 de 6 elementos cubiertos. B. No es correcto. 67% sería 4 de 6 elementos cubiertos. C. No es correcto. 83% sería 5 de 6 elementos cubiertos. D. Es correcto. En BVA de 3 valores, para cada valor límite (16 y 65) hay tres elementos de cobertura: el valor límite y sus dos vecinos. Para el límite 16: 15, 16, 17. Para el límite 65: 64, 65, 66. El conjunto de pruebas cubre los 6 elementos requeridos (15, 16, 17, 64, 65, 66), por tanto 6/6 = 100%. P",
     "source": "User Provided Batch 4"
   },
@@ -5042,7 +5042,7 @@
       "Combinar todas las condiciones en una sola regla",
       "Crear múltiples tablas pequeñas separadas"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Eliminar condiciones puede dejar lagunas importantes en la cobertura. B. Es correcto. Según el syllabus, 'si hay muchas condiciones, el ejercicio de todas las reglas de decisión puede llevar mucho tiempo, ya que el número de reglas crece exponencialmente con el número de condiciones. En tal caso, para reducir el número de reglas que se deben ejercer, se puede utilizar una tabla de decisiones minimizada o un enfoque basado en el riesgo.' C. No es correcto. Combinar todas las condiciones no resuelve el problema de la complejidad. D. No es correcto. Múltiples tablas separadas no abordan el problema de las combinaciones exponenciales. P",
     "source": "User Provided Batch 4"
   },
@@ -5058,7 +5058,7 @@
       "La predicción de errores requiere que los testers realicen pruebas unitarias en todas las funciones antes de poder predecir errores.",
       "La predicción de errores es un proceso que solo los desarrolladores pueden realizar, ya que ellos conocen mejor su código."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Aunque las métricas cuantitativas son útiles, la predicción de errores también considera el contexto y la experiencia previa para ser efectiva. B. Es correcto. La predicción de errores implica usar el historial de errores junto con factores como la complejidad del código para identificar áreas problemáticas. C. No es correcto. La predicción de errores no depende de realizar pruebas unitarias, sino de analizar patrones de defectos anteriores. D. No es correcto. La predicción de errores es una tarea que también puede realizarse por testers, quienes pueden aportar una perspectiva diferente sobre las áreas de riesgo. P",
     "source": "User Provided Batch 4"
   },
@@ -5074,7 +5074,7 @@
       "Las pruebas exploratorias requieren un plan de pruebas detallado antes de realizarse.",
       "Las pruebas exploratorias no son adecuadas para aplicaciones complejas."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Las pruebas exploratorias pueden ser muy efectivas, especialmente en entornos donde los requisitos son ambiguos o cambian con frecuencia. B. Es correcto. Las pruebas exploratorias permiten a los testers adaptarse y responder a los cambios del software de manera más flexible. C. No es correcto. Aunque puede haber un enfoque general, las pruebas exploratorias se caracterizan por no depender de un plan de pruebas riguroso y detallado. D. No es correcto. Las pruebas exploratorias pueden ser muy útiles en aplicaciones complejas al permitir una exploración más dinámica y creativa. P",
     "source": "User Provided Batch 4"
   },
@@ -5090,7 +5090,7 @@
       "Creando una lista extensa de requerimientos técnicos que deben cumplirse para la entrega de la historia de usuario.",
       "Establecidos en función de las expectativas personales de los miembros del equipo, sin considerar los objetivos del proyecto."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Los criterios de aceptación deben ser revisados y acordados por todos los interesados, no solo por el equipo de desarrollo. B. Es correcto. Un formato claro y conciso ayuda a que todos los interesados comprendan lo que se necesita para considerar que la historia de usuario está completa. C. No es correcto. Aunque los requerimientos técnicos pueden ser importantes, los criterios de aceptación deben centrarse en las condiciones de satisfacción del usuario, no en una lista técnica exhaustiva. D. No es correcto. Los criterios de aceptación deben alinearse con los objetivos del proyecto y las necesidades del usuario, no basarse en expectativas individuales. P",
     "source": "User Provided Batch 4"
   },
@@ -5106,7 +5106,7 @@
       "Postponer la creación de casos de prueba hasta que el desarrollo esté completo",
       "Crear casos de prueba solo para los escenarios más probables"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Crear casos para todas las interpretaciones sin resolver las ambigüedades puede llevar a casos conflictivos o incorrectos. B. Es correcto. Según el syllabus, durante el taller de especificación 'incompletitud, ambigüedades o defectos en la historia del usuario se resuelven durante este proceso' antes de proceder a crear los casos de prueba. Esto es fundamental en ATDD para asegurar que todos tengan la misma comprensión. P",
     "source": "User Provided Batch 4"
   },
@@ -5122,7 +5122,7 @@
       "El equipo de pruebas ha completado la planificación de las pruebas.",
       "El software ha pasado todas las pruebas unitarias."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Documentar resultados de pruebas anteriores es una buena práctica, pero no es un criterio de entrada específico. B. Es correcto. Definir los criterios de aceptación de los requisitos es esencial para asegurar que los criterios de entrada estén claros antes de realizar pruebas. C. No es correcto. Completar la planificación de las pruebas puede ser un paso previo, pero no es un criterio de entrada en sí mismo. D. No es correcto. Pasar todas las pruebas unitarias es un criterio de salida, ya que indica que una fase de pruebas ha finalizado satisfactoriamente. P",
     "source": "User Provided Batch 4"
   },
@@ -5138,7 +5138,7 @@
       "Cambiar a una estrategia de priorización diferente",
       "Ejecutar solo los casos independientes de alta prioridad"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Ignorar dependencias puede hacer que las pruebas fallen por razones técnicas en lugar de defectos reales. B. Es correcto. El syllabus establece que 'si un caso de prueba con una prioridad más alta depende de un caso de prueba con una prioridad más baja, el caso de prueba de prioridad más baja debe ejecutarse primero' y que 'el orden de ejecución de la prueba también debe tener en cuenta la disponibilidad de recursos.' C. No es correcto. No es necesario cambiar la estrategia de priorización, solo ajustar el orden de ejecución. D. No es correcto. Esto limitaría excesivamente la cobertura de pruebas. P",
     "source": "User Provided Batch 4"
   },
@@ -5186,7 +5186,7 @@
       "Facilita la creación de nuevos casos de prueba.",
       "Asegura que todos los defectos se resuelvan antes de la entrega."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. La gestión de configuración no se centra en los requisitos, sino en la gestión de los ítems de prueba y su versión. B. Es correcto. La gestión de configuración permite asociar defectos a versiones específicas del software, facilitando su seguimiento y resolución. C. No es correcto. La creación de nuevos casos de prueba es parte del diseño de pruebas, no un beneficio directo de la gestión de configuración. D. No es correcto. Aunque la gestión de configuración P",
     "source": "User Provided Batch 4"
   },
@@ -5218,7 +5218,7 @@
       "Herramientas de automatización de pruebas",
       "Herramientas de gestión de defectos"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. No es correcto. Las herramientas de gestión de pruebas se utilizan para planificar, organizar y realizar un seguimiento del proceso de prueba, pero no para ejecutar pruebas de forma automatizada. B. No es correcto. Las herramientas de pruebas de rendimiento están diseñadas para evaluar el rendimiento del sistema bajo carga, no para automatizar la ejecución de pruebas en general. C. Es correcto. Las herramientas de automatización de pruebas están diseñadas específicamente para ejecutar pruebas automáticamente, lo que permite realizar pruebas de manera más rápida y eficiente. D. No es correcto. Las herramientas de gestión de defectos se utilizan para rastrear y gestionar errores encontrados durante el proceso de prueba, no para automatizar la ejecución de pruebas. P",
     "source": "User Provided Batch 4"
   },
@@ -5250,7 +5250,7 @@
       "Herramienta de seguimiento de incidencias",
       "Herramienta de gestión de configuraciones"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "A. No es correcto. Aunque las herramientas de gestión de pruebas ayudan a organizar y planificar pruebas, no están específicamente diseñadas para gestionar incidencias. B. No es correcto. Las herramientas de automatización de pruebas están enfocadas en ejecutar pruebas automáticamente, no en gestionar incidencias. C. Es correcto. Las herramientas de seguimiento de incidencias son esenciales para registrar, rastrear y gestionar defectos encontrados durante las pruebas. D. No es correcto. Las herramientas de gestión de configuraciones se utilizan para controlar y mantener configuraciones del software, pero no son para gestión de incidencias.",
     "source": "User Provided Batch 4"
   },
@@ -5266,7 +5266,7 @@
       "Generar automáticamente los casos de prueba a partir del código",
       "Identificar errores en el código sin ejecutar pruebas"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Aunque algunas herramientas pueden ayudar en la automatización, el propósito principal de una herramienta de gestión de pruebas es la planificación y el seguimiento. B. Es correcto. Una herramienta de gestión de pruebas permite a los equipos planificar, organizar y hacer seguimiento del progreso de las pruebas, facilitando la coordinación y la comunicación. C. No es correcto. Las herramientas que generan casos de prueba automáticamente suelen ser herramientas de análisis, no herramientas de gestión de pruebas. D. No es correcto. Identificar errores en el código sin ejecutar pruebas no es una función de las herramientas de gestión de pruebas; esa es más bien una función de herramientas de análisis estático.",
     "source": "User Provided Batch 4"
   },
@@ -5282,7 +5282,7 @@
       "El costo de mantenimiento del software de prueba se incrementa significativamente",
       "Requiere menos tiempo para planear las pruebas manuales"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "A. No es correcto. Aunque la automatización puede requerir cierta capacitación, no es un beneficio intrínseco. B. Es correcto. La automatización permite ejecutar pruebas repetitivas con rapidez y consistencia, lo que es un gran beneficio. C. No es correcto. Aunque puede haber costos de mantenimiento, el beneficio es que la eficiencia puede aumentar. D. No es correcto. La automatización no necesariamente reduce el tiempo de planificación de pruebas manuales.",
     "source": "User Provided Batch 4"
   },
