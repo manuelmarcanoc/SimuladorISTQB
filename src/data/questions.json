@@ -1378,7 +1378,7 @@
       "C) El autor no participa en la planificación de la revisión",
       "D) Los participantes hacen las revisiones de sus propios productos de trabajo"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#17, LO: FL-3.2.4). Justificación: Que los revisores sean expertos en el dominio garantiza que puedan detectar defectos relevantes.",
     "source": "Official Sample Exam C Q#18"
   },
@@ -1393,7 +1393,7 @@
       "C) Las técnicas de caja negra se derivan del código; las técnicas basadas en la experiencia se derivan de la especificación",
       "D) Las técnicas de caja negra incluyen las pruebas exploratorias; las técnicas basadas en la experiencia incluyen las pruebas de partición de equivalencia"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#18, LO: FL-4.1.1). Justificación: Las técnicas de caja negra se basan en la especificación del sistema; las basadas en la experiencia se basan en el conocimiento e intuición del tester.",
     "source": "Official Sample Exam C Q#19"
   },
@@ -1408,7 +1408,7 @@
       "C) 4",
       "D) 5"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#19, LO: FL-4.2.1). Justificación: Hay 3 particiones: longitud menor de 4 (inválida), exactamente 4 dígitos (válida) y más de 4 dígitos (inválida).",
     "source": "Official Sample Exam C Q#20"
   },
@@ -1423,7 +1423,7 @@
       "C) 4",
       "D) 6"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#20, LO: FL-4.2.2). Justificación: Se necesitan 4 casos de prueba para cubrir todas las ramas: un valor ≤0 (ninguna condición), uno en 1-10 (Acción A), uno en 11-20 (Acción B) y uno >20 (Acción C).",
     "source": "Official Sample Exam C Q#21"
   },
@@ -1438,7 +1438,7 @@
       "C) 4",
       "D) 6"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#21, LO: FL-4.2.3). Justificación: Hay 2 condiciones con 2 valores cada una (≥43/no, sin fallo grave/con fallo grave), lo que da 4 combinaciones (reglas).",
     "source": "Official Sample Exam C Q#22"
   },
@@ -1453,7 +1453,7 @@
       "C) 4",
       "D) 5"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#23, LO: FL-4.2.4). Justificación: El número mínimo de casos de prueba para cobertura de transiciones válidas depende del diagrama; en este caso, 3 casos cubren todas las transiciones.",
     "source": "Official Sample Exam C Q#23"
   },
@@ -1468,7 +1468,7 @@
       "C) 3",
       "D) 4"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#25, LO: FL-4.3.2). Justificación: Para el grafo de flujo de control dado se necesitan 2 casos de prueba para cubrir todas las ramas (TRUE y FALSE de cada decisión).",
     "source": "Official Sample Exam C Q#24"
   },
@@ -1483,7 +1483,7 @@
       "C) Pueden usarse para evaluar si la especificación refleja correctamente la lógica de negocio del sistema",
       "D) Pueden usarse para evitar la creación de casos de prueba redundantes con los de caja negra"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#26, LO: FL-4.3.2). Justificación: Las pruebas de caja blanca pueden identificar y cubrir código que los casos de caja negra no ejercitan, complementando así la cobertura.",
     "source": "Official Sample Exam C Q#25"
   },
@@ -1498,7 +1498,7 @@
       "C) Pruebas de transición de estados",
       "D) Pruebas de análisis de valores límite"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#27, LO: FL-4.4.1). Justificación: La partición de equivalencia está específicamente diseñada para detectar estos tipos de defectos al probar valores representativos de cada partición.",
     "source": "Official Sample Exam C Q#26"
   },
@@ -1513,7 +1513,7 @@
       "C) Los checklists permiten al tester cubrir más condiciones de prueba sin necesidad de especificación",
       "D) Los checklists garantizan el 100% de cobertura de ramas del código"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#28, LO: FL-4.4.3). Justificación: Los checklists incorporan experiencia de proyectos pasados, lo que permite detectar defectos que las especificaciones formales no contemplan explícitamente.",
     "source": "Official Sample Exam C Q#27"
   },
@@ -1558,7 +1558,7 @@
       "C) Registrar los defectos encontrados durante la ejecución de las pruebas",
       "D) Documentar los riesgos y los enfoques de mitigación"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#1, LO: FL-5.1.1). Justificación: El registro de defectos es responsabilidad del sistema de gestión de defectos, no del plan de pruebas.",
     "source": "Official Sample Exam C Q#30"
   },
@@ -1573,7 +1573,7 @@
       "C) 62",
       "D) 63"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#2, LO: FL-5.1.4). Justificación: Si históricamente se completa el 80% del estimado, la estimación real sería 50 × 0.80 = 40 personas-día.",
     "source": "Official Sample Exam C Q#31"
   },
@@ -1588,7 +1588,7 @@
       "C) TC3, TC1, TC5, TC2, TC4, TC6, TC7",
       "D) TC1, TC3, TC2, TC5, TC4, TC6, TC7"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#3, LO: FL-5.1.5). Justificación: TC3 tiene la mayor prioridad (p1) y no tiene dependencias, por lo que va primero. Luego TC1 (p3, sin dependencias), después TC5 (depende de TC3), etc.",
     "source": "Official Sample Exam C Q#32"
   },
@@ -1618,7 +1618,7 @@
       "C) Los cuadrantes de prueba ayudan a identificar qué tipos de prueba se aplican a cada nivel; los tipos de prueba pueden abarcar múltiples niveles",
       "D) Los niveles de prueba son subconjuntos de los cuadrantes de prueba; los cuadrantes de prueba son subconjuntos de los tipos de prueba"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#5, LO: FL-5.1.7). Justificación: Los cuadrantes de prueba ayudan a identificar qué tipos de prueba (funcional, no funcional, caja blanca, etc.) son aplicables en cada nivel de prueba.",
     "source": "Official Sample Exam C Q#34"
   },
@@ -1633,7 +1633,7 @@
       "C) Ejecutar primero las pruebas de menor duración para obtener resultados rápidos",
       "D) Concentrar el esfuerzo de pruebas en los componentes desarrollados por testers menos experimentados"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#6, LO: FL-5.2.3). Justificación: El análisis de riesgo dirige el esfuerzo de prueba hacia las áreas de mayor riesgo, aumentando su cobertura.",
     "source": "Official Sample Exam C Q#35"
   },
@@ -1663,7 +1663,7 @@
       "C) Permitir la trazabilidad entre los casos de prueba y los elementos de trabajo que prueban",
       "D) Garantizar que todos los miembros del equipo utilizan la misma versión de los casos de prueba"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#8, LO: FL-5.4.1). Justificación: La generación automática de casos de prueba no es una función de la gestión de la configuración.",
     "source": "Official Sample Exam C Q#37"
   },
@@ -1693,7 +1693,7 @@
       "C) Herramientas de ejecución de pruebas",
       "D) Herramientas de automatización de pruebas"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#10, LO: FL-6.1.1). Justificación: Las herramientas de gestión de pruebas (como Jira, TestRail) organizan y rastrean casos de prueba, defectos y resultados.",
     "source": "Official Sample Exam C Q#39"
   },
@@ -1708,7 +1708,7 @@
       "C) El diseñador cometió un defecto que resultó en un fallo en el diseño",
       "D) El diseñador cometió un error que introdujo un fallo en el diseño"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#1, LO: FL-1.2.2). Justificación: El desconocimiento del diseñador (error humano) da lugar a un defecto en el documento de diseño. Terminología: Error → Defecto → Fallo.",
     "source": "Official Sample Exam D Q#2"
   },
@@ -4498,7 +4498,7 @@
   },
   {
     "id": "q_batch2_3ur6idl31",
-    "topic": "1",
+    "topic": "Fundamentos del Testing",
     "question": "¿Cuál es una razón clave por la que las pruebas son necesarias en el desarrollo de software?",
     "options": [
       "Para garantizar que el software cumpla con los requisitos del cliente.",
@@ -4506,12 +4506,14 @@
       "Para disminuir la satisfacción del usuario final.",
       "Para reducir la colaboración entre los equipos de desarrollo."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Esta opción es correcta porque las pruebas ayudan a verificar que el software funciona según lo esperado y cumple con las necesidades del cliente. B. Incorrecto. Las pruebas están diseñadas para identificar problemas y errores, lo que puede ayudar a reducir el tiempo de desarrollo a largo plazo. C. Incorrecto. Las pruebas están destinadas a mejorar la calidad del software, lo que generalmente aumenta la satisfacción del usuario final. D. Incorrecto. Las pruebas no deben disminuir la colaboración, sino fomentar la comunicación y el trabajo en equipo para lograr un producto de calidad."
+    "correctAnswer": 0,
+    "explanation": "A. Esta opción es correcta porque las pruebas ayudan a verificar que el software funciona según lo esperado y cumple con las necesidades del cliente. B. Incorrecto. Las pruebas están diseñadas para identificar problemas y errores, lo que puede ayudar a reducir el tiempo de desarrollo a largo plazo. C. Incorrecto. Las pruebas están destinadas a mejorar la calidad del software, lo que generalmente aumenta la satisfacción del usuario final. D. Incorrecto. Las pruebas no deben disminuir la colaboración, sino fomentar la comunicación y el trabajo en equipo para lograr un producto de calidad.",
+    "chapter": 1,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_butb18o4u",
-    "topic": "1",
+    "topic": "Fundamentos del Testing",
     "question": "¿Cuál de los siguientes elementos puede modificar el enfoque de las pruebas en un proyecto de software? El número de empleados en el área comercial de la empresa La complejidad del software a probar El presupuesto asignado al proyecto El uso de herramientas automatizadas",
     "options": [
       "i, ii, iii pueden modificar el enfoque de las pruebas",
@@ -4519,12 +4521,14 @@
       "i, iii, iv pueden modificar el enfoque de las pruebas",
       "i, ii, iv pueden modificar el enfoque de las pruebas"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Incorrecto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas según el syllabus CTFL v4.0, sección 1.4.2. ii, iii y iv son verdaderos. Al incluir i, esta opción es incorrecta. B. Correcto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas. ii. Verdadero: la complejidad del software es una característica del producto reconocida como factor del contexto (syllabus 1.4.2). iii. Verdadero: las restricciones de presupuesto son factores operacionales explícitamente listados (syllabus 1.4.2). iv. Verdadero: las herramientas disponibles forman parte de los factores técnicos del contexto (syllabus 1.4.2). C. Incorrecto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas. Al incluir i, esta opción es incorrecta. D. Incorrecto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas. Al incluir i, esta opción es incorrecta."
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas según el syllabus CTFL v4.0, sección 1.4.2. ii, iii y iv son verdaderos. Al incluir i, esta opción es incorrecta. B. Correcto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas. ii. Verdadero: la complejidad del software es una característica del producto reconocida como factor del contexto (syllabus 1.4.2). iii. Verdadero: las restricciones de presupuesto son factores operacionales explícitamente listados (syllabus 1.4.2). iv. Verdadero: las herramientas disponibles forman parte de los factores técnicos del contexto (syllabus 1.4.2). C. Incorrecto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas. Al incluir i, esta opción es incorrecta. D. Incorrecto. i. Falso: el número de empleados del área comercial no es un factor del contexto de pruebas. Al incluir i, esta opción es incorrecta.",
+    "chapter": 1,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_zras116y8",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "¿Cuál de las siguientes afirmaciones describe MEJOR la función de un líder de pruebas en un equipo de pruebas?",
     "options": [
       "Es responsable de la ejecución de todas las pruebas manuales.",
@@ -4532,12 +4536,14 @@
       "Es el contacto principal con el cliente para la entrega de requisitos.",
       "Se encarga de la documentación de los requisitos del software."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. Aunque puede participar en pruebas, no se encarga de ejecutar todas las pruebas manuales. B. Es correcto. El líder de pruebas coordina las actividades y gestiona el equipo. C. No es correcto. Este rol generalmente corresponde al product owner o analista de negocio. D. No es correcto. La documentación de requisitos es típicamente realizada por analistas de negocio o desarrolladores."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Aunque puede participar en pruebas, no se encarga de ejecutar todas las pruebas manuales. B. Es correcto. El líder de pruebas coordina las actividades y gestiona el equipo. C. No es correcto. Este rol generalmente corresponde al product owner o analista de negocio. D. No es correcto. La documentación de requisitos es típicamente realizada por analistas de negocio o desarrolladores.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_1thtnzqjs",
-    "topic": "1",
+    "topic": "Fundamentos del Testing",
     "question": "¿Qué habilidades son esenciales para un probador en el contexto de pruebas de software? Comprender los requisitos del cliente Desarrollar habilidades de programación Realizar pruebas manuales exclusivamente Comunicar claramente los hallazgos de las pruebas",
     "options": [
       "i y iv son esenciales; ii y iii no lo son",
@@ -4545,12 +4551,14 @@
       "i y ii son esenciales; iii y iv no lo son",
       "ii y iv son esenciales; i y iii no lo son"
     ],
-    "correctAnswer": "",
-    "explanation": "A. i. Es verdadero. Comprender los requisitos del cliente es fundamental para asegurar que las pruebas sean efectivas. iv. Es verdadero. Comunicar hallazgos es crucial en el proceso de prueba. ii. Es falso. Aunque desarrollar habilidades de programación puede ser útil, no es esencial para todos los probadores. iii. Es falso. Realizar solo pruebas manuales limita el enfoque del probador y no es la única forma de realizar pruebas. B. ii. Es falso. Desarrollar habilidades de programación no es esencial para todos los probadores. iii. Es falso. Realizar solo pruebas manuales no es suficiente. i. Es verdadero. Comprender los requisitos del cliente es fundamental. iv. Es verdadero. Comunicar hallazgos es crucial. C. i. Es verdadero. Comprender los requisitos es fundamental. ii. Es falso. Desarrollar habilidades de programación no es esencial. iii. Es falso. Las pruebas no deben limitarse a pruebas manuales. iv. Es verdadero. Comunicar hallazgos es crucial. D. ii. Es falso. Desarrollar habilidades de programación no es esencial. iv. Es verdadero. Comunicar hallazgos es crucial. i. Es verdadero. Comprender los requisitos es fundamental. iii. Es falso. Realizar solo pruebas manuales limita el enfoque del probador."
+    "correctAnswer": 0,
+    "explanation": "A. i. Es verdadero. Comprender los requisitos del cliente es fundamental para asegurar que las pruebas sean efectivas. iv. Es verdadero. Comunicar hallazgos es crucial en el proceso de prueba. ii. Es falso. Aunque desarrollar habilidades de programación puede ser útil, no es esencial para todos los probadores. iii. Es falso. Realizar solo pruebas manuales limita el enfoque del probador y no es la única forma de realizar pruebas. B. ii. Es falso. Desarrollar habilidades de programación no es esencial para todos los probadores. iii. Es falso. Realizar solo pruebas manuales no es suficiente. i. Es verdadero. Comprender los requisitos del cliente es fundamental. iv. Es verdadero. Comunicar hallazgos es crucial. C. i. Es verdadero. Comprender los requisitos es fundamental. ii. Es falso. Desarrollar habilidades de programación no es esencial. iii. Es falso. Las pruebas no deben limitarse a pruebas manuales. iv. Es verdadero. Comunicar hallazgos es crucial. D. ii. Es falso. Desarrollar habilidades de programación no es esencial. iv. Es verdadero. Comunicar hallazgos es crucial. i. Es verdadero. Comprender los requisitos es fundamental. iii. Es falso. Realizar solo pruebas manuales limita el enfoque del probador.",
+    "chapter": 1,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_il2jaia8g",
-    "topic": "1",
+    "topic": "Fundamentos del Testing",
     "question": "¿Cuál es una de las ventajas más significativas del enfoque de equipo completo en el proceso de pruebas?",
     "options": [
       "Mejora la comunicación y la colaboración entre todos los miembros del equipo.",
@@ -4558,12 +4566,14 @@
       "Reduce la necesidad de documentación extensa en el proceso de pruebas.",
       "Facilita la asignación de tareas de prueba a diferentes departamentos."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es correcto. El enfoque de equipo completo fomenta la comunicación y colaboración entre probadores, desarrolladores y representantes de negocio, lo que resulta en un proceso de prueba más efectivo. B. No es correcto. El enfoque de equipo completo enfatiza el trabajo en equipo y no el aislamiento. C. No es correcto. Aunque puede reducir la necesidad de documentación, el enfoque de equipo completo no se centra en eliminarla completamente. D. No es correcto. El enfoque de equipo completo promueve la colaboración en lugar de la asignación de tareas por departamentos separados."
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. El enfoque de equipo completo fomenta la comunicación y colaboración entre probadores, desarrolladores y representantes de negocio, lo que resulta en un proceso de prueba más efectivo. B. No es correcto. El enfoque de equipo completo enfatiza el trabajo en equipo y no el aislamiento. C. No es correcto. Aunque puede reducir la necesidad de documentación, el enfoque de equipo completo no se centra en eliminarla completamente. D. No es correcto. El enfoque de equipo completo promueve la colaboración en lugar de la asignación de tareas por departamentos separados.",
+    "chapter": 1,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_4a5g1mcwu",
-    "topic": "2",
+    "topic": "Testing a lo largo del SDLC",
     "question": "¿Cuál de las siguientes afirmaciones describe mejor la importancia de las pruebas durante el ciclo de vida del desarrollo de software?",
     "options": [
       "Las pruebas solo son necesarias al final del ciclo de desarrollo para verificar el producto final.",
@@ -4571,12 +4581,14 @@
       "Las pruebas son útiles principalmente en proyectos de gran tamaño y complejidad.",
       "Las pruebas pueden omitirse si se utilizan metodologías ágiles."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Incorrecto. Las pruebas deben realizarse durante todo el ciclo de vida, no solo al final. B. Correcto. Integrar las pruebas en todas las fases ayuda a identificar errores desde el principio. C. Incorrecto. Las pruebas son importantes en todos los proyectos, independientemente de su tamaño. D. Incorrecto. Aunque las metodologías ágiles fomentan la colaboración, las pruebas son esenciales en cualquier modelo."
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Las pruebas deben realizarse durante todo el ciclo de vida, no solo al final. B. Correcto. Integrar las pruebas en todas las fases ayuda a identificar errores desde el principio. C. Incorrecto. Las pruebas son importantes en todos los proyectos, independientemente de su tamaño. D. Incorrecto. Aunque las metodologías ágiles fomentan la colaboración, las pruebas son esenciales en cualquier modelo.",
+    "chapter": 2,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_ne2ycbfxp",
-    "topic": "2",
+    "topic": "Testing a lo largo del SDLC",
     "question": "¿Cuál de las siguientes afirmaciones describe MEJOR la metodología de desarrollo guiada por pruebas (TDD)?",
     "options": [
       "En TDD, las pruebas se escriben después de que se ha completado el desarrollo del código.",
@@ -4584,29 +4596,14 @@
       "En TDD, solo se desarrollan pruebas de aceptación al final del ciclo de desarrollo.",
       "En TDD, el código y las pruebas se desarrollan de manera completamente independiente."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. En TDD, las pruebas se crean antes de escribir el código para asegurar que cumpla con los requisitos. B. Es correcto. En TDD, se redacta una prueba que inicialmente falla, lo que guía el desarrollo posterior del código. C. No es correcto. Las pruebas en TDD se escriben continuamente durante el desarrollo, no solo al final. D. No es correcto. En TDD, el desarrollo del código y las pruebas están interrelacionados y no son independientes."
-  },
-  {
-    "id": "q_batch2_q2ep4cquq",
-    "topic": "2",
-    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)? Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final.",
-    "options": [
-      "Pruebas de sistema",
-      "Pruebas de componentes",
-      "Pruebas de integración",
-      "Pruebas de aceptación",
-      "1A, 2B, 3C, 4D",
-      "1C, 2A, 3D, 4B",
-      "1D, 2C, 3A, 4B",
-      "1B, 2D, 3A, 4C"
-    ],
-    "correctAnswer": "",
-    "explanation": "A. La afirmación 1 describe correctamente las pruebas de sistema (1A), que validan el sistema en su totalidad. La afirmación 2 se refiere a las pruebas de componentes (2B), donde se verifica la funcionalidad de módulos individuales. La 3 se relaciona con las pruebas de integración (3C), que se centran en la interacción entre módulos. La 4 se corresponde con las pruebas de aceptación (4D), donde se validan los requisitos desde la perspectiva del usuario final. B. La opción B es incorrecta. La afirmación 1 no se asocia con las pruebas de integración (1C), sino con pruebas de sistema. La afirmación 2 describe correctamente las pruebas de componentes, pero la afirmación 3 no se relaciona correctamente con pruebas de aceptación. C. La opción C es incorrecta. La afirmación 1 no describe las pruebas de aceptación (1D), sino que es un enfoque de pruebas de sistema. Las demás descripciones tampoco coinciden con los niveles de prueba correspondientes. D. La opción D es incorrecta. La afirmación 1 no corresponde a pruebas de componentes (1B), sino a pruebas de sistema. Las demás descripciones también son incorrectas respecto a los niveles de prueba."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. En TDD, las pruebas se crean antes de escribir el código para asegurar que cumpla con los requisitos. B. Es correcto. En TDD, se redacta una prueba que inicialmente falla, lo que guía el desarrollo posterior del código. C. No es correcto. Las pruebas en TDD se escriben continuamente durante el desarrollo, no solo al final. D. No es correcto. En TDD, el desarrollo del código y las pruebas están interrelacionados y no son independientes.",
+    "chapter": 2,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_du99np3p4",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "Durante la prueba de un sistema, se reportaron varios errores que fueron corregidos. Después de que se lanzara una nueva versión del software, se decide ejecutar las pruebas nuevamente. ¿Cuáles de las siguientes pruebas se consideran pruebas de confirmación?",
     "options": [
       "Prueba de un nuevo módulo que no había sido probado antes.",
@@ -4614,12 +4611,14 @@
       "Pruebas de carga que se realizan para verificar el rendimiento bajo condiciones extremas.",
       "Pruebas de integración de módulos que se han agregado en la nueva versión."
     ],
-    "correctAnswer": "B",
-    "explanation": "A. Esta opción no se considera una prueba de confirmación, ya que se trata de un nuevo módulo y no se relaciona con la verificación de defectos corregidos. B. Correcto. Las pruebas que se ejecutaron previamente y que fallaron se repiten para confirmar que los defectos han sido corregidos, lo que las clasifica como pruebas de confirmación. C. Las pruebas de carga se centran en el rendimiento y no se relacionan con la verificación de correcciones de defectos, por lo que no son pruebas de confirmación. D. Aunque las pruebas de integración son importantes, no son pruebas de confirmación a menos que se ejecuten especificamente para validar correcciones en pruebas previas."
+    "correctAnswer": 1,
+    "explanation": "A. Esta opción no se considera una prueba de confirmación, ya que se trata de un nuevo módulo y no se relaciona con la verificación de defectos corregidos. B. Correcto. Las pruebas que se ejecutaron previamente y que fallaron se repiten para confirmar que los defectos han sido corregidos, lo que las clasifica como pruebas de confirmación. C. Las pruebas de carga se centran en el rendimiento y no se relacionan con la verificación de correcciones de defectos, por lo que no son pruebas de confirmación. D. Aunque las pruebas de integración son importantes, no son pruebas de confirmación a menos que se ejecuten especificamente para validar correcciones en pruebas previas.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_j6kuaxygc",
-    "topic": "3",
+    "topic": "Pruebas Estáticas",
     "question": "¿Cuál de las siguientes afirmaciones describe mejor una ventaja de las pruebas estáticas?",
     "options": [
       "Las pruebas estáticas son útiles para identificar defectos que se manifiestan solo durante la ejecución del software.",
@@ -4627,12 +4626,14 @@
       "Las pruebas estáticas generalmente requieren más tiempo que las pruebas dinámicas para ser efectivas.",
       "Las pruebas estáticas son menos efectivas en la detección de defectos de diseño en comparación con las pruebas dinámicas."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es incorrecto. Las pruebas estáticas no involucran la ejecución del software, por lo que no pueden identificar defectos que solo se manifiestan en tiempo de ejecución. B. Es correcto. Esta es una de las principales ventajas de las pruebas estáticas, ya que permiten la revisión de documentos y código sin ejecución. C. Es incorrecto. Las pruebas estáticas suelen ser más rápidas que las pruebas dinámicas al no requerir ejecución. D. Es incorrecto. Las pruebas estáticas pueden ser efectiva para detectar defectos de diseño, a diferencia de lo que se sugiere aquí."
+    "correctAnswer": 1,
+    "explanation": "A. Es incorrecto. Las pruebas estáticas no involucran la ejecución del software, por lo que no pueden identificar defectos que solo se manifiestan en tiempo de ejecución. B. Es correcto. Esta es una de las principales ventajas de las pruebas estáticas, ya que permiten la revisión de documentos y código sin ejecución. C. Es incorrecto. Las pruebas estáticas suelen ser más rápidas que las pruebas dinámicas al no requerir ejecución. D. Es incorrecto. Las pruebas estáticas pueden ser efectiva para detectar defectos de diseño, a diferencia de lo que se sugiere aquí.",
+    "chapter": 3,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_7tzjynf4k",
-    "topic": "1",
+    "topic": "Fundamentos del Testing",
     "question": "¿Cuál de los siguientes enunciados describe un beneficio de obtener retroalimentación temprana y frecuente de las partes interesadas?",
     "options": [
       "Permite realizar pruebas más exhaustivas al final del ciclo de desarrollo.",
@@ -4640,12 +4641,14 @@
       "Reduce el número de entregas intermedias al cliente.",
       "Aumenta la complejidad del proceso de desarrollo."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. Obtener retroalimentación temprana no se trata de realizar pruebas exhaustivas al final, sino de abordar problemas antes en el proceso. B. Es correcto. La retroalimentación temprana y frecuente permite identificar problemas a tiempo, lo que facilita ajustes necesarios. C. No es correcto. La retroalimentación frecuente puede, de hecho, aumentar el número de entregas intermedias para asegurar que se están cumpliendo los requisitos. D. No es correcto. La retroalimentación temprana busca simplificar el proceso al aclarar requisitos y expectativas con las partes interesadas."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Obtener retroalimentación temprana no se trata de realizar pruebas exhaustivas al final, sino de abordar problemas antes en el proceso. B. Es correcto. La retroalimentación temprana y frecuente permite identificar problemas a tiempo, lo que facilita ajustes necesarios. C. No es correcto. La retroalimentación frecuente puede, de hecho, aumentar el número de entregas intermedias para asegurar que se están cumpliendo los requisitos. D. No es correcto. La retroalimentación temprana busca simplificar el proceso al aclarar requisitos y expectativas con las partes interesadas.",
+    "chapter": 1,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_n23h74aj8",
-    "topic": "3",
+    "topic": "Pruebas Estáticas",
     "question": "En su organización, se llevan a cabo revisiones con las siguientes características: No se requiere un escriba. El objetivo es detectar anomalías de forma no estructurada. Los participantes son expertos en el área. No hay un moderador designado. ¿Qué tipo de revisión es MÁS probable que se esté realizando?",
     "options": [
       "Revisión informal",
@@ -4653,12 +4656,14 @@
       "Inspección",
       "Revisión guiada"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Correcto. Las revisiones informales son el tipo de revisión descrito. Según el syllabus CTFL v4.0, sección 3.2.4, las revisiones informales no siguen un proceso definido y no requieren una salida formalmente documentada. Su objetivo principal es detectar anomalías. Las características del escenario — sin escriba, sin moderador designado, participantes expertos, objetivo de detección de anomalías de forma no estructurada — son totalmente coherentes con este tipo de revisión. B. Las revisiones técnicas suelen requerir un moderador y un enfoque más estructurado en la calidad del producto, lo que no se menciona en las características dadas. C. Incorrecto. Las inspecciones son el tipo de revisión más formal. Requieren roles específicos (moderador entrenado, escriba, autor), siguen un proceso estructurado y recopilan métricas para la mejora del proceso del SDLC. El escenario no describe ninguno de estos elementos formales. D. Las revisiones guiadas requieren preparación y un moderador, que no se mencionan en la descripción, y su objetivo principal es evaluar la calidad, no mejorar el proceso."
+    "correctAnswer": 0,
+    "explanation": "A. Correcto. Las revisiones informales son el tipo de revisión descrito. Según el syllabus CTFL v4.0, sección 3.2.4, las revisiones informales no siguen un proceso definido y no requieren una salida formalmente documentada. Su objetivo principal es detectar anomalías. Las características del escenario — sin escriba, sin moderador designado, participantes expertos, objetivo de detección de anomalías de forma no estructurada — son totalmente coherentes con este tipo de revisión. B. Las revisiones técnicas suelen requerir un moderador y un enfoque más estructurado en la calidad del producto, lo que no se menciona en las características dadas. C. Incorrecto. Las inspecciones son el tipo de revisión más formal. Requieren roles específicos (moderador entrenado, escriba, autor), siguen un proceso estructurado y recopilan métricas para la mejora del proceso del SDLC. El escenario no describe ninguno de estos elementos formales. D. Las revisiones guiadas requieren preparación y un moderador, que no se mencionan en la descripción, y su objetivo principal es evaluar la calidad, no mejorar el proceso.",
+    "chapter": 3,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_yr0f7ze9n",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "¿Cuál de las siguientes afirmaciones describe mejor las técnicas de prueba de caja negra?",
     "options": [
       "Se centran en la estructura interna del código para diseñar casos de prueba.",
@@ -4666,12 +4671,14 @@
       "Utilizan el conocimiento del probador sobre el código fuente para identificar casos de prueba.",
       "Se enfocan en la ejecución de pruebas en el nivel de unidad de los componentes del software."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. Esta descripción se aplica a las técnicas de prueba de caja blanca, que implican el análisis de la estructura interna del software. B. Es correcto. Las técnicas de prueba de caja negra se centran en verificar que el software funcione conforme a las especificaciones, sin considerar cómo se implementa internamente. C. No es correcto. El uso del conocimiento del código fuente está más alineado con las técnicas de prueba de caja blanca, donde se analizan las estructuras internas del software. D. No es correcto. Esta afirmación describe las pruebas realizadas en el nivel de unidad, que es típicamente parte de las técnicas de prueba de caja blanca."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Esta descripción se aplica a las técnicas de prueba de caja blanca, que implican el análisis de la estructura interna del software. B. Es correcto. Las técnicas de prueba de caja negra se centran en verificar que el software funcione conforme a las especificaciones, sin considerar cómo se implementa internamente. C. No es correcto. El uso del conocimiento del código fuente está más alineado con las técnicas de prueba de caja blanca, donde se analizan las estructuras internas del software. D. No es correcto. Esta afirmación describe las pruebas realizadas en el nivel de unidad, que es típicamente parte de las técnicas de prueba de caja blanca.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_v5j9hx3qq",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "Un formulario de registro web tiene los siguientes campos: Edad: 18-65 años (válido), menos de 18 o más de 65 (inválido) Tipo de membresía: 'Básica', 'Premium', 'VIP' (válidos), cualquier otro valor (inválido) Aplicando partición de equivalencia con el criterio de cobertura de 'Cada Elección', ¿cuántos casos de prueba se necesitan MÍNIMO para cubrir todas las particiones válidas?",
     "options": [
       "2",
@@ -4679,12 +4686,14 @@
       "4",
       "5"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. 2 casos de prueba no cubrirían las 3 particiones del tipo de membresía. B. Es correcto. Con el criterio de cobertura 'Cada Elección', necesitamos cubrir cada partición de cada conjunto al menos una vez. Para el campo Edad tenemos 1 partición válida (18-65), y para Tipo de membresía tenemos 3 particiones válidas ('Básica', 'Premium', 'VIP'). Se necesitan 3 casos de prueba: TC1(edad válida, Básica), TC2(edad válida, Premium), TC3(edad válida, VIP). C. No es correcto. 4 casos de prueba serían más de los necesarios. D. No es correcto. 5 casos de prueba exceden el mínimo requerido."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. 2 casos de prueba no cubrirían las 3 particiones del tipo de membresía. B. Es correcto. Con el criterio de cobertura 'Cada Elección', necesitamos cubrir cada partición de cada conjunto al menos una vez. Para el campo Edad tenemos 1 partición válida (18-65), y para Tipo de membresía tenemos 3 particiones válidas ('Básica', 'Premium', 'VIP'). Se necesitan 3 casos de prueba: TC1(edad válida, Básica), TC2(edad válida, Premium), TC3(edad válida, VIP). C. No es correcto. 4 casos de prueba serían más de los necesarios. D. No es correcto. 5 casos de prueba exceden el mínimo requerido.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_py9kk1zxn",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "¿Cuál de las siguientes situaciones justificaría mejor el uso de Análisis de Valores Límite (AVL) de 3 valores en lugar de AVL de 2 valores?",
     "options": [
       "Cuando se necesita reducir el número de casos de prueba por limitaciones de tiempo",
@@ -4692,12 +4701,14 @@
       "Cuando las particiones no están ordenadas numéricamente",
       "Cuando el código implementa comparaciones simples como 'mayor que' o 'menor que'"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. El AVL de 3 valores requiere más casos de prueba, no menos. B. Es correcto. Según el syllabus, el Análisis de Valores Límte (AVL) de 3 valores es más riguroso que el AVL de 2 valores ya que puede detectar defectos pasados por alto por el AVL de 2 valores. El ejemplo del syllabus muestra cómo si 'if (x ≤ 10)' se implementa incorrectamente como 'if (x = 10)', AVL de 2 valores (x=10, x=11) no detecta el defecto, pero el AVL de 3 valores con x=9 sí lo haría. C. No es correcto. El AVL solo se puede usar para particiones ordenadas, no para particiones no ordenadas. D. No es correcto. El AVL de 2 valores sería suficiente para comparaciones simples bien implementadas."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. El AVL de 3 valores requiere más casos de prueba, no menos. B. Es correcto. Según el syllabus, el Análisis de Valores Límte (AVL) de 3 valores es más riguroso que el AVL de 2 valores ya que puede detectar defectos pasados por alto por el AVL de 2 valores. El ejemplo del syllabus muestra cómo si 'if (x ≤ 10)' se implementa incorrectamente como 'if (x = 10)', AVL de 2 valores (x=10, x=11) no detecta el defecto, pero el AVL de 3 valores con x=9 sí lo haría. C. No es correcto. El AVL solo se puede usar para particiones ordenadas, no para particiones no ordenadas. D. No es correcto. El AVL de 2 valores sería suficiente para comparaciones simples bien implementadas.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_zdybwbzfz",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "Un sistema de descuentos para una tienda online aplica las siguientes reglas: Si el cliente es VIP Y el pedido es > $100: 20% descuento Si el cliente es VIP Y el pedido es ≤ $100: 10% descuento Si el cliente NO es VIP Y el pedido es > $100: 5% descuento Si el cliente NO es VIP Y el pedido es ≤ $100: sin descuento ¿Cuántas reglas de decisión se necesitan en la tabla de decisiones completa?",
     "options": [
       "2",
@@ -4705,12 +4716,14 @@
       "4",
       "8"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. 2 reglas no cubrirían todas las combinaciones posibles de las condiciones. B. No es correcto. 3 reglas dejarían una combinación sin cubrir. C. Es correcto. Hay 2 condiciones (Es VIP: Verdadero/Falso, Pedido > $100: Verdadero/Falso), por lo que matemáticamente hay 2² = 4 combinaciones posibles, y todas son factibles según las reglas de negocio presentadas. La tabla completa necesita 4 reglas de decisión para cubrir todas las combinaciones. D. No es correcto. 8 reglas serían más de las necesarias para dos condiciones booleanas."
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. 2 reglas no cubrirían todas las combinaciones posibles de las condiciones. B. No es correcto. 3 reglas dejarían una combinación sin cubrir. C. Es correcto. Hay 2 condiciones (Es VIP: Verdadero/Falso, Pedido > $100: Verdadero/Falso), por lo que matemáticamente hay 2² = 4 combinaciones posibles, y todas son factibles según las reglas de negocio presentadas. La tabla completa necesita 4 reglas de decisión para cubrir todas las combinaciones. D. No es correcto. 8 reglas serían más de las necesarias para dos condiciones booleanas.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_j594nrl15",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "Un sistema de reproductor de música tiene los siguientes estados: DETENIDO, REPRODUCIENDO, PAUSADO. Las transiciones válidas son: DETENIDO → REPRODUCIENDO (reproducir) REPRODUCIENDO → PAUSADO (pausar) PAUSADO → REPRODUCIENDO (reanudar) REPRODUCIENDO → DETENIDO (detener) PAUSADO → DETENIDO (detener) ¿Cuál es el número MÍNIMO de casos de prueba para lograr 100% de cobertura de transiciones válidas con la restricción de que el caso debe comenzar y terminar en el estado DETENIDO?",
     "options": [
       "2",
@@ -4718,12 +4731,14 @@
       "4",
       "5"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es correcto. Con 2 casos que inician y terminan en DETENIDO se cubren todas las transiciones. Caso 1: D → R → P → D (cubre reproducir, pausar, detener desde P). Caso 2: D → R → P → R → D (cubre reanudar y detener desde R). B. No es correcto. Posible, pero no mínimo. Se pueden cubrir todas las transiciones con 3 casos, pero ya con 2 es suficiente. C. No es correcto. Redundante. Con 4 casos también se logra, pero es más de lo necesario. D. No es correcto. Muy ineficiente. Sería cubrir cada transición por separado, totalmente redundante."
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Con 2 casos que inician y terminan en DETENIDO se cubren todas las transiciones. Caso 1: D → R → P → D (cubre reproducir, pausar, detener desde P). Caso 2: D → R → P → R → D (cubre reanudar y detener desde R). B. No es correcto. Posible, pero no mínimo. Se pueden cubrir todas las transiciones con 3 casos, pero ya con 2 es suficiente. C. No es correcto. Redundante. Con 4 casos también se logra, pero es más de lo necesario. D. No es correcto. Muy ineficiente. Sería cubrir cada transición por separado, totalmente redundante.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_sho8tyfr5",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "¿Cuál de las siguientes afirmaciones sobre la predicción de errores es más precisa?",
     "options": [
       "La predicción de errores se basa en el análisis de las características del sistema y en experiencias previas para anticipar posibles fallos.",
@@ -4731,12 +4746,14 @@
       "La predicción de errores se centra únicamente en las pruebas de regresión y en los cambios recientes del código.",
       "La predicción de errores solo puede ser hecha por desarrolladores con mucha experiencia."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es correcto. La predicción de errores utiliza el conocimiento sobre el sistema y las experiencias pasadas para formular hipótesis sobre dónde es más probable que ocurran errores. B. No es correcto. La predicción de errores se debe hacer antes de ejecutar las pruebas, utilizando el conocimiento previo para anticipar problemas. C. No es correcto. Si bien las pruebas de regresión pueden ser parte del proceso, la predicción de errores no se limita a estas pruebas ni a cambios recientes. D. No es correcto. La predicción de errores puede ser realizada por cualquier tester, no solo por desarrolladores con mucha experiencia. La técnica se basa en patrones de defectos y no en la experiencia individual."
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. La predicción de errores utiliza el conocimiento sobre el sistema y las experiencias pasadas para formular hipótesis sobre dónde es más probable que ocurran errores. B. No es correcto. La predicción de errores se debe hacer antes de ejecutar las pruebas, utilizando el conocimiento previo para anticipar problemas. C. No es correcto. Si bien las pruebas de regresión pueden ser parte del proceso, la predicción de errores no se limita a estas pruebas ni a cambios recientes. D. No es correcto. La predicción de errores puede ser realizada por cualquier tester, no solo por desarrolladores con mucha experiencia. La técnica se basa en patrones de defectos y no en la experiencia individual.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_7kt0gtwqg",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "Un equipo de desarrollo ha implementado un nuevo sistema financiero, pero no se han documentado todos los requisitos. El tiempo para las pruebas es limitado y el equipo necesita obtener información sobre el comportamiento del sistema rápidamente. ¿Qué enfoque de prueba sería el MÁS adecuado en esta situación?",
     "options": [
       "Pruebas de regresión",
@@ -4744,12 +4761,14 @@
       "Pruebas de carga",
       "Pruebas unitarias"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. Las pruebas de regresión requieren entender los cambios realizados en el sistema y normalmente se utilizan cuando hay una base de pruebas establecida. B. Es correcto. Las pruebas exploratorias son ideales cuando hay poco tiempo y poca documentación, permitiendo a los testers usar su creatividad y conocimiento para descubrir defectos. C. No es correcto. Las pruebas de carga se enfocan en el rendimiento del sistema bajo condiciones específicas y requieren un conjunto claro de requisitos de carga. D. No es correcto. Las pruebas unitarias se centran en componentes individuales del código, y no son útiles para validar el comportamiento general del sistema sin requisitos claros."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Las pruebas de regresión requieren entender los cambios realizados en el sistema y normalmente se utilizan cuando hay una base de pruebas establecida. B. Es correcto. Las pruebas exploratorias son ideales cuando hay poco tiempo y poca documentación, permitiendo a los testers usar su creatividad y conocimiento para descubrir defectos. C. No es correcto. Las pruebas de carga se enfocan en el rendimiento del sistema bajo condiciones específicas y requieren un conjunto claro de requisitos de carga. D. No es correcto. Las pruebas unitarias se centran en componentes individuales del código, y no son útiles para validar el comportamiento general del sistema sin requisitos claros.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_3dfvl4agj",
-    "topic": "4",
+    "topic": "Técnicas de Análisis y Diseño de Pruebas",
     "question": "En un proyecto ágil, el equipo está implementando la siguiente historia de usuario: 'Como cliente, quiero buscar productos por categoría para encontrar rápidamente lo que necesito'. Los criterios de aceptación son: El sistema muestra categorías disponibles El usuario puede seleccionar una categoría Se muestran productos de la categoría seleccionada Se muestra mensaje si no hay productos en la categoría ¿Cuál es el MEJOR ejemplo de un caso de prueba ATDD para esta historia?",
     "options": [
       "Verificar que la base de datos contiene al menos 10 categorías",
@@ -4757,12 +4776,14 @@
       "Probar que el tiempo de respuesta es menor a 2 segundos",
       "Verificar que el código cumple con los estándares de codificación"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. Este caso se enfoca en aspectos técnicos de implementación en lugar de comportamiento visible para el usuario. B. Es correcto. Este caso de prueba está basado en criterios de aceptación específicos (seleccionar categoría y mostrar productos), usa el formato típico Given/When/Then, es comprensible para las partes interesadas, y cubre características específicas de la historia de usuario sin ir más allá del alcance. C. No es correcto. Aunque importante, el rendimiento no está cubierto en los criterios de aceptación de esta historia específica. D. No es correcto. Los estándares de codificación son aspectos técnicos internos, no comportamiento observable por el usuario."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Este caso se enfoca en aspectos técnicos de implementación en lugar de comportamiento visible para el usuario. B. Es correcto. Este caso de prueba está basado en criterios de aceptación específicos (seleccionar categoría y mostrar productos), usa el formato típico Given/When/Then, es comprensible para las partes interesadas, y cubre características específicas de la historia de usuario sin ir más allá del alcance. C. No es correcto. Aunque importante, el rendimiento no está cubierto en los criterios de aceptación de esta historia específica. D. No es correcto. Los estándares de codificación son aspectos técnicos internos, no comportamiento observable por el usuario.",
+    "chapter": 4,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_apxr5xluy",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "¿De qué manera pueden los probadores contribuir a la mejora de los procesos en la planificación de la entrega?",
     "options": [
       "Los probadores analizan los resultados de pruebas previas para identificar áreas de mejora en el proceso de desarrollo.",
@@ -4770,12 +4791,14 @@
       "Los probadores se encargan de documentar todos los errores que encuentran, sin participar en discusiones sobre la planificación.",
       "Los probadores no tienen influencia en la planificación de la entrega, ya que su rol es estrictamente técnico."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es correcto. Analizar resultados de pruebas previas permite a los probadores sugerir mejoras en el proceso, lo que agrega valor a la planificación. B. No es correcto. La participación activa de los probadores en la planificación es esencial para el éxito del proyecto. C. No es correcto. Documentar errores es importante, pero los probadores también deben participar en la planificación y discusión de procesos. D. No es correcto. Los probadores tienen un papel crucial en la planificación y entrega, ya que su experiencia puede influir en el proceso."
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Analizar resultados de pruebas previas permite a los probadores sugerir mejoras en el proceso, lo que agrega valor a la planificación. B. No es correcto. La participación activa de los probadores en la planificación es esencial para el éxito del proyecto. C. No es correcto. Documentar errores es importante, pero los probadores también deben participar en la planificación y discusión de procesos. D. No es correcto. Los probadores tienen un papel crucial en la planificación y entrega, ya que su experiencia puede influir en el proceso.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_t5hos07b9",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "Tienes los siguientes casos de prueba para un sistema de banca online: Caso\tRiesgo de Funcionalidad\tProbabilidad del Riesgo\tImpacto del Riesgo\tDependencia TC1\tLogin\t2\t2\tNinguna TC2\tConsultar saldo\t3\t3\tTC1 TC3\tTransferir dinero\t2\t2\tTC1, TC2 TC4\tCambiar PIN\t4\t4\tTC1 Aplicando priorización basada en riesgo, donde el impacto y la probabilidad se mide en una escala del 1 al 5 (1=Muy Alto, 2=Alto, 3=Medio, 4=Bajo, 5=Muy Bajo), ¿cuál sería el orden de ejecución MÁS apropiado?",
     "options": [
       "TC1, TC3, TC2, TC4",
@@ -4783,12 +4806,14 @@
       "TC3, TC1, TC2, TC4",
       "TC1, TC4, TC2, TC3"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Incorrecto. Problema 1: TC3 depende de TC2 (necesita saldo consultado), pero TC3 se ejecuta antes de TC2. Esto rompe la dependencia. Problema 2: TC2 tiene mayor riesgo (9) que TC4 (16), pero TC4 se ejecuta antes que TC2. Prioriza mal el riesgo. B. Correcto. TC1 primero: Es independiente y base para todos los demás casos. TC2 antes que TC3/TC4: TC2 tiene mayor riesgo (9) que TC4 (16), y TC3 depende de TC2. C. Incorrecto. Problema crítico: TC3 depende de TC1 y TC2, pero se ejecuta primero, antes de ambos. Fallará por falta de dependencias. D. Incorrecto. Problema 1: TC2 tiene mayor riesgo (9) que TC4 (16), pero TC4 se ejecuta antes que TC2. Prioriza mal el riesgo. Problema 2: TC3 depende de TC2, pero TC2 se ejecuta después de TC3. Rompe la dependencia."
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Problema 1: TC3 depende de TC2 (necesita saldo consultado), pero TC3 se ejecuta antes de TC2. Esto rompe la dependencia. Problema 2: TC2 tiene mayor riesgo (9) que TC4 (16), pero TC4 se ejecuta antes que TC2. Prioriza mal el riesgo. B. Correcto. TC1 primero: Es independiente y base para todos los demás casos. TC2 antes que TC3/TC4: TC2 tiene mayor riesgo (9) que TC4 (16), y TC3 depende de TC2. C. Incorrecto. Problema crítico: TC3 depende de TC1 y TC2, pero se ejecuta primero, antes de ambos. Fallará por falta de dependencias. D. Incorrecto. Problema 1: TC2 tiene mayor riesgo (9) que TC4 (16), pero TC4 se ejecuta antes que TC2. Prioriza mal el riesgo. Problema 2: TC3 depende de TC2, pero TC2 se ejecuta después de TC3. Rompe la dependencia.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_6ody8pkik",
-    "topic": "2",
+    "topic": "Testing a lo largo del SDLC",
     "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D): Pruebas de aceptación del usuario Pruebas de rendimiento Pruebas de integración de componentes Pruebas de historias de usuario Cuadrante de pruebas ágiles Q1: orientado a la tecnología, apoya al equipo de desarrollo Cuadrante de pruebas ágiles Q2: orientado a los negocios, apoya al equipo de desarrollo Cuadrante de pruebas ágiles Q3: orientado a los negocios, crítica al producto Cuadrante de pruebas ágiles Q4: orientado a la tecnología, crítica al producto ¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes?",
     "options": [
       "1A, 2B, 3C, 4D",
@@ -4796,12 +4821,14 @@
       "1D, 2C, 3B, 4A",
       "1C, 2D, 3A, 4B"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Incorrecto. Las pruebas de aceptación del usuario (1) pertenecen al Q3 (negocios, crítica al producto), no al Q1. Las pruebas de rendimiento (2) pertenecen al Q4, no al Q2. B. Incorrecto. Las pruebas de aceptación del usuario (1) pertenecen al Q3, no al Q2. Las pruebas de integración de componentes (3) pertenecen al Q1, no al Q4. C. Incorrecto. Las pruebas de aceptación del usuario (1) pertenecen al Q3, no al Q4. Las pruebas de historias de usuario (4) pertenecen al Q2, no al Q1. D. Correcto. Las pruebas de aceptación del usuario (1) → Q3 (negocios, crítica al producto). Las pruebas de rendimiento (2) → Q4 (tecnología, crítica al producto). Las pruebas de integración de componentes (3) → Q1 (tecnología, apoya al equipo). Las pruebas de historias de usuario (4) → Q2 (negocios, apoya al equipo)."
+    "correctAnswer": 3,
+    "explanation": "A. Incorrecto. Las pruebas de aceptación del usuario (1) pertenecen al Q3 (negocios, crítica al producto), no al Q1. Las pruebas de rendimiento (2) pertenecen al Q4, no al Q2. B. Incorrecto. Las pruebas de aceptación del usuario (1) pertenecen al Q3, no al Q2. Las pruebas de integración de componentes (3) pertenecen al Q1, no al Q4. C. Incorrecto. Las pruebas de aceptación del usuario (1) pertenecen al Q3, no al Q4. Las pruebas de historias de usuario (4) pertenecen al Q2, no al Q1. D. Correcto. Las pruebas de aceptación del usuario (1) → Q3 (negocios, crítica al producto). Las pruebas de rendimiento (2) → Q4 (tecnología, crítica al producto). Las pruebas de integración de componentes (3) → Q1 (tecnología, apoya al equipo). Las pruebas de historias de usuario (4) → Q2 (negocios, apoya al equipo).",
+    "chapter": 2,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_p48e09xyk",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "Se ha identificado un riesgo durante el análisis de un nuevo software: Riesgo: La aplicación puede no ser compatible con navegadores antiguos. Probabilidad del riesgo: alta; impacto del riesgo: medio Respuesta al riesgo: realizar pruebas de compatibilidad en diversos navegadores antiguos proporcionar documentación sobre los requisitos del sistema ¿Cuál sería la medida más adecuada a implementar frente a este riesgo analizado?",
     "options": [
       "Mitigación del riesgo",
@@ -4809,12 +4836,14 @@
       "Aceptación del riesgo",
       "Eliminación del riesgo"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es correcto. Las pruebas de compatibilidad son una acción de mitigación del riesgo. B. No es correcto. La transferencia del riesgo no es aplicable en este contexto. C. No es correcto. Aceptar el riesgo no implica tomar acciones concretas para manejarlo. D. No es correcto. La eliminación del riesgo no es factible en este caso."
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Las pruebas de compatibilidad son una acción de mitigación del riesgo. B. No es correcto. La transferencia del riesgo no es aplicable en este contexto. C. No es correcto. Aceptar el riesgo no implica tomar acciones concretas para manejarlo. D. No es correcto. La eliminación del riesgo no es factible en este caso.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_j0vlxcr58",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "¿Cuál de los siguientes informes es más adecuado para comunicar el estado actual de las pruebas a las partes interesadas durante el ciclo de vida del desarrollo de software?",
     "options": [
       "Informe de avance de pruebas",
@@ -4822,12 +4851,14 @@
       "Informe de errores abiertos",
       "Informe de incidencias"
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Es correcto. El informe de avance de pruebas proporciona un resumen del estado actual de las pruebas, incluyendo qué pruebas se han completado y cuáles están pendientes. B. No es correcto. El informe de pruebas de regresión se centra en las pruebas realizadas después de cambios en el software, no en el estado general de las pruebas. C. No es correcto. Aunque el informe de errores abiertos muestra problemas existentes, no comunica el estado del progreso de las pruebas en sí. D. No es correcto. El informe de incidencias se refiere a problemas encontrados, pero no proporciona una visión general del estado de las pruebas."
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. El informe de avance de pruebas proporciona un resumen del estado actual de las pruebas, incluyendo qué pruebas se han completado y cuáles están pendientes. B. No es correcto. El informe de pruebas de regresión se centra en las pruebas realizadas después de cambios en el software, no en el estado general de las pruebas. C. No es correcto. Aunque el informe de errores abiertos muestra problemas existentes, no comunica el estado del progreso de las pruebas en sí. D. No es correcto. El informe de incidencias se refiere a problemas encontrados, pero no proporciona una visión general del estado de las pruebas.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_1ksnvb89h",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "¿Cuál de las siguientes afirmaciones describe mejor cómo la gestión de configuración contribuye a una prueba efectiva?",
     "options": [
       "Permite que los testers trabajen con versiones obsoletas de los casos de prueba.",
@@ -4835,12 +4866,14 @@
       "Asegura que todos los defectos sean documentados sin necesidad de versiones.",
       "Elimina la necesidad de mantener registros de cambios en los casos de prueba."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. No es correcto. Trabajar con versiones obsoletas puede causar confusión y errores en las pruebas. B. Es correcto. La gestión de configuración permite controlar y identificar los elementos de prueba a lo largo de su ciclo de vida, facilitando así una prueba efectiva. C. No es correcto. Aunque la gestión de configuración es importante, la documentación de defectos no depende de esta gestión. D. No es correcto. La gestión de configuración sí requiere el mantenimiento de registros de cambios para asegurar la trazabilidad y el control de versiones."
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Trabajar con versiones obsoletas puede causar confusión y errores en las pruebas. B. Es correcto. La gestión de configuración permite controlar y identificar los elementos de prueba a lo largo de su ciclo de vida, facilitando así una prueba efectiva. C. No es correcto. Aunque la gestión de configuración es importante, la documentación de defectos no depende de esta gestión. D. No es correcto. La gestión de configuración sí requiere el mantenimiento de registros de cambios para asegurar la trazabilidad y el control de versiones.",
+    "chapter": 5,
+    "source": "banco-extra"
   },
   {
     "id": "q_batch2_jfwjvhmmc",
-    "topic": "5",
+    "topic": "Gestión de las Actividades de Prueba",
     "question": "Preparaste el siguiente informe de defecto: ID del Defecto: BUG-00456 Fecha: 15-01-2025 Título: El botón \"Enviar Pago\" no responde después de seleccionar método de pago Severidad: Alta Prioridad: Crítica Reportado por: Analista de Pruebas Configuración: Versión de Aplicación 2.15.087, Navegador: Firefox 118.0.2.0 Resultado esperado: El botón \"Enviar Pago\" debería procesar la información de pago y redirigir a la página de confirmación de pago. Adjuntos: Captura de pantalla: [error_boton_pago.png], Grabación de pantalla: [fallo_flujo_pago.mp4] ¿Cuál es la información MÁS importante que falta en este informe de defecto y que un analista de pruebas debería incluir para facilitar una resolución rápida del defecto?",
     "options": [
       "La secuencia detallada de acciones que reprodujeron el fallo.",
@@ -4848,7 +4881,9 @@
       "Las especificaciones del sistema operativo y arquitectura del dispositivo.",
       "Una propuesta de solución técnica para resolver la incidencia."
     ],
-    "correctAnswer": "A",
-    "explanation": "A. Correcta. Sin los pasos de reproducción, los desarrolladores no pueden replicar ni investigar el defecto. B. Incorrecta. La técnica de prueba usada no es necesaria para resolver el defecto. C. Incorrecta. La configuración del entorno ya está parcialmente incluida y no es lo más crítico. D. Incorrecta. Los probadores no deben sugerir soluciones técnicas; esa es responsabilidad de los desarrolladores."
+    "correctAnswer": 0,
+    "explanation": "A. Correcta. Sin los pasos de reproducción, los desarrolladores no pueden replicar ni investigar el defecto. B. Incorrecta. La técnica de prueba usada no es necesaria para resolver el defecto. C. Incorrecta. La configuración del entorno ya está parcialmente incluida y no es lo más crítico. D. Incorrecta. Los probadores no deben sugerir soluciones técnicas; esa es responsabilidad de los desarrolladores.",
+    "chapter": 5,
+    "source": "banco-extra"
   }
 ]
