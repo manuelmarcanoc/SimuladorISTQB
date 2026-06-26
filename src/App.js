@@ -52,7 +52,7 @@ function App() {
   return (
     <div className={`app-container${darkMode ? ' dark-mode' : ''}`}>
       <header className="app-header">
-        <div className="app-title">
+        <div className="app-title" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }} title={t('simulator')}>
           <span className="brand-mark">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>

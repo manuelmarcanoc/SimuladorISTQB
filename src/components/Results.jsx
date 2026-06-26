@@ -121,23 +121,6 @@ const Results = ({ score, totalQuestions, userAnswers, questions, onRestart }) =
           </button>
         )}
       </div>
-
-      {/* Buy Me a Coffee banner */}
-      <div className="bmc-results-banner">
-        <span className="bmc-results-emoji">☕</span>
-        <div className="bmc-results-text">
-          <strong>{isPassing ? '¡Enhorabuena! ¿Te ha sido útil?' : '¡Sigue practicando! ¿La app te está ayudando?'}</strong>
-          <span>Es gratis y siempre lo será. Si quieres apoyar el proyecto, invítame a un café 🙏</span>
-        </div>
-        <a
-          href="https://buymeacoffee.com/manuelmc"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bmc-results-btn"
-        >
-          ☕ Invítame a un café
-        </a>
-      </div>
     </div>
   );
 };
