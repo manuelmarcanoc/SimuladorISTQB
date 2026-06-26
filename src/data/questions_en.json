@@ -1008,7 +1008,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D):\n\n1. Usability testing\n\n2. Component testing\n\n3. Functional testing\n\n4. Reliability testing. Q1: technology/supports team, Q2: business/supports team, Q3: business/critiques product, Q4: technology/critiques product. Which combinations are correct?",
+    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D):\n\n1. Usability testing\n2. Component testing\n3. Functional testing\n4. Reliability testing\n\nA. Q1: technology facing/supports team\nB. Q2: business facing/supports team\nC. Q3: business facing/critiques product\nD. Q4: technology facing/critiques product\n\nWhich combinations are correct?",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -5079,7 +5079,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "How are the following tests classified according to the agile testing quadrants (A-D) and their relationship to testing levels? Component Testing Functional Testing Exploratory Testing Non-Functional Testing Agile Testing Quadrant Q1: Technology Oriented, Supports the Team Agile Testing Quadrant Q2: Business Oriented, Supports the Team Agile Testing Quadrant Q3: Business Oriented, Product Critical Agile Testing Quadrant Q4: Technology Oriented, Product Critical Select ONE option that correctly represents the classification.",
+    "question": "How are the following tests classified according to the agile testing quadrants (A-D) and their relationship to testing levels?\n\n1. Component Testing\n2. Functional Testing\n3. Exploratory Testing\n4. Non-Functional Testing\n\nA. Agile Testing Quadrant Q1: Technology Oriented, Supports the Team\nB. Agile Testing Quadrant Q2: Business Oriented, Supports the Team\nC. Agile Testing Quadrant Q3: Business Oriented, Product Critical\nD. Agile Testing Quadrant Q4: Technology Oriented, Product Critical\n\nSelect ONE option that correctly represents the classification.",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",

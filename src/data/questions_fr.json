@@ -1008,7 +1008,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D) :\n\n1. Tests d'utilisabilité\n\n2. Tests de composants\n\n3. Tests fonctionnels\n\n4. Tests de fiabilité. Q1 : technologie/soutient l'équipe, Q2 : métier/soutient l'équipe, Q3 : métier/critique le produit, Q4 : technologie/critique le produit. Quelles combinaisons sont correctes ?",
+    "question": "Identifiez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA. Q1 : technologie/soutient l'équipe\nB. Q2 : métier/soutient l'équipe\nC. Q3 : métier/critique le produit\nD. Q4 : technologie/critique le produit\n\nQuelles combinaisons sont correctes ?",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -5079,7 +5079,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Comment les tests suivants sont-ils classés selon les quadrants de tests agiles (A-D) et leur relation avec les niveaux de tests ? Tests de composants Tests fonctionnels Tests exploratoires Tests non fonctionnels Tests agiles Quadrant Q1 : Orienté technologie, prend en charge le quadrant Tests agiles en équipe Q2 : Orienté métier, prend en charge le quadrant Tests agiles en équipe Q3 : Orienté métier, critique produit Quadrant Tests agiles Q4 : Orienté technologie, critique produit Sélectionnez UNE option qui représente correctement la classification.",
+    "question": "Comment les tests suivants sont-ils classés selon les quadrants de tests agiles (A-D) et leur relation avec les niveaux de tests ?\n\n1. Tests de composants\n2. Tests fonctionnels\n3. Tests exploratoires\n4. Tests non fonctionnels\n\nA. Quadrant de tests agiles Q1 : orienté vers la technologie, soutient l'équipe\nB. Quadrant de tests agiles Q2 : orienté vers les affaires, soutient l'équipe\nC. Quadrant de tests agiles Q3 : orienté vers les affaires, critique le produit\nD. Quadrant de tests agiles Q4 : orienté vers la technologie, critique le produit\n\nSélectionnez UNE option qui représente correctement la classification.",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",

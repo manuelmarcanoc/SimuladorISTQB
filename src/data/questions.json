@@ -3735,7 +3735,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Cuadrantes Ágiles",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n\n2. Pruebas de componentes\n\n3. Pruebas funcionales\n\n4. Pruebas de fiabilidad. Q1: tecnología/apoya equipo, Q2: negocio/apoya equipo, Q3: negocio/crítica producto, Q4: tecnología/crítica producto. ¿Qué combinaciones son correctas?",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Q1: tecnología/apoya equipo\nB. Q2: negocio/apoya equipo\nC. Q3: negocio/crítica producto\nD. Q4: tecnología/crítica producto\n\n¿Qué combinaciones son correctas?",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -5147,7 +5147,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "¿Cómo se clasifican las siguientes pruebas según los cuadrantes de pruebas ágiles (A-D) y su relación con los niveles de prueba? Pruebas de componentes Pruebas funcionales Pruebas exploratorias Pruebas no funcionales Cuadrante de pruebas ágiles Q1: orientado a la tecnología, apoya al equipo Cuadrante de pruebas ágiles Q2: orientado a los negocios, apoya al equipo Cuadrante de pruebas ágiles Q3: orientado a los negocios, crítica al producto Cuadrante de pruebas ágiles Q4: orientado a la tecnología, crítica al producto Selecciona UNA opción que represente correctamente la clasificación.",
+    "question": "¿Cómo se clasifican las siguientes pruebas según los cuadrantes de pruebas ágiles (A-D) y su relación con los niveles de prueba?\n\n1. Pruebas de componentes\n2. Pruebas funcionales\n3. Pruebas exploratorias\n4. Pruebas no funcionales\n\nA. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, apoya al equipo\nB. Cuadrante de pruebas ágiles Q2: orientado a los negocios, apoya al equipo\nC. Cuadrante de pruebas ágiles Q3: orientado a los negocios, crítica al producto\nD. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, crítica al producto\n\nSelecciona UNA opción que represente correctamente la clasificación.",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
