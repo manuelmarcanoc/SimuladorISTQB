@@ -3,7 +3,21 @@ import notesData from '../data/notes_data';
 import ChapterDiagram from './ChapterDiagram';
 import { t } from '../i18n';
 
-const StudyNotes = ({ language }) => {
+const getLightenedColor = (hex) => {
+  if (!hex) return hex;
+  const darkMap = {
+    '#000080': '#668cff', // Navy -> Light Blue
+    '#006400': '#66cc66', // Dark Green -> Light Green
+    '#8B0000': '#ff6666', // Dark Red -> Light Red
+    '#4B0082': '#b366ff', // Indigo -> Light Purple
+    '#8B4513': '#ffaa66', // Saddle Brown -> Light Orange
+    '#006666': '#4dd2d2', // Dark Cyan -> Light Cyan
+    '#D2691E': '#ffb366', // Chocolate -> Light Orange
+  };
+  return darkMap[hex.toUpperCase()] || darkMap[hex] || hex;
+};
+
+const StudyNotes = ({ language, darkMode }) => {
   const [selectedChapter, setSelectedChapter] = useState(null);
 
   // Fallback to 'es' if language missing from notesData
@@ -11,6 +25,7 @@ const StudyNotes = ({ language }) => {
   const { chapters, examOverview, emptyState, emptyStateSub, examLabel } = currentNotes;
 
   const chapter = chapters.find(c => c.id === selectedChapter);
+  const themeColor = chapter ? (darkMode ? getLightenedColor(chapter.color) : chapter.color) : '#000';
 
   return (
     <div className="notes-content" style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}>
@@ -54,13 +69,13 @@ const StudyNotes = ({ language }) => {
 
         {chapter && (
           <div>
-            <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: chapter.color, borderBottom: `2px solid ${chapter.color}`, paddingBottom: '4px' }}>
+            <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: themeColor, borderBottom: `2px solid ${themeColor}`, paddingBottom: '4px' }}>
               {chapter.title}
             </h2>
-            <ChapterDiagram chapterId={chapter.id} color={chapter.color} language={language} />
+            <ChapterDiagram chapterId={chapter.id} color={themeColor} language={language} />
           {chapter.sections.map((section, si) => (
             <div key={si} style={{ marginBottom: '1.2rem' }}>
-              <h3 className="notes-heading" style={{ borderLeft: `4px solid ${chapter.color}` }}>
+              <h3 className="notes-heading" style={{ borderLeft: `4px solid ${themeColor}` }}>
                 {section.heading}
               </h3>
               <ul className="notes-list">

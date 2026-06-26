@@ -39,7 +39,7 @@ function App() {
       case 'simulador':
         return <Quiz language={lang} />;
       case 'apuntes':
-        return <StudyNotes language={lang} />;
+        return <StudyNotes language={lang} darkMode={darkMode} />;
       case 'conecta':
         return <ConceptMatch language={lang} />;
       case 'stats':
