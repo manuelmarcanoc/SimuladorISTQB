@@ -750,6 +750,22 @@ h1, h2, h3, h4, h5, h6, .app-title {
   text-align: center;
 }
 
+.notes-diagram {
+  margin: 0 0 1.4rem;
+  padding: 0.85rem 1rem;
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+  max-width: 540px;
+}
+
+.notes-diagram svg {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
 .notes-exam-tip {
   background: var(--success-bg);
   border: 1px solid var(--success-border);

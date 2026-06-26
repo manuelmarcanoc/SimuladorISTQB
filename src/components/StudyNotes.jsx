@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import notesData from '../data/notes_data';
+import ChapterDiagram from './ChapterDiagram';
 import { t } from '../i18n';
 
 const StudyNotes = ({ language }) => {
@@ -56,6 +57,7 @@ const StudyNotes = ({ language }) => {
             <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: chapter.color, borderBottom: `2px solid ${chapter.color}`, paddingBottom: '4px' }}>
               {chapter.title}
             </h2>
+            <ChapterDiagram chapterId={chapter.id} color={chapter.color} language={language} />
           {chapter.sections.map((section, si) => (
             <div key={si} style={{ marginBottom: '1.2rem' }}>
               <h3 className="notes-heading" style={{ borderLeft: `4px solid ${chapter.color}` }}>
