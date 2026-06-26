@@ -25,7 +25,6 @@ const CookieBanner = () => {
   return (
     <div className="cookie-banner" role="dialog" aria-label="Aviso de cookies">
       <div className="cookie-banner-content">
-        <span className="cookie-icon">🍪</span>
         <div className="cookie-text">
           <strong>Usamos cookies</strong>
           <span>

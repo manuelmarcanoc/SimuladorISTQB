@@ -149,7 +149,7 @@ function App() {
           </svg>
           Compartir
         </button>
-        <p>Created by <strong>ISTQBeasy</strong> · <a href={BMC_URL} target="_blank" rel="noopener noreferrer" style={{color:'var(--primary)', textDecoration:'none'}}>Apóyanos ☕</a></p>
+        <p>Created by <strong>ISTQBeasy</strong></p>
         
         <div className="footer-links">
           <button className="footer-link-btn" onClick={() => { setLegalTab('sobre'); setShowLegal(true); }}>

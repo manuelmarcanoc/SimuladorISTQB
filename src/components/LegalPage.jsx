@@ -20,13 +20,13 @@ const LegalPage = ({ onClose, initialTab = 'sobre' }) => {
               className={`legal-tab ${tab === 'sobre' ? 'active' : ''}`}
               onClick={() => setTab('sobre')}
             >
-              ℹ️ Sobre el proyecto
+              Sobre el proyecto
             </button>
             <button
               className={`legal-tab ${tab === 'privacidad' ? 'active' : ''}`}
               onClick={() => setTab('privacidad')}
             >
-              🔒 Privacidad
+              Privacidad
             </button>
           </div>
           <button className="legal-close" onClick={onClose} aria-label="Cerrar">✕</button>
@@ -43,14 +43,14 @@ const LegalPage = ({ onClose, initialTab = 'sobre' }) => {
               </p>
 
               <h3>¿Qué incluye?</h3>
-              <ul>
-                <li>📝 <strong>+357 preguntas</strong> tipo test con explicaciones detalladas</li>
-                <li>🌍 Disponible en <strong>Español, Inglés y Francés</strong></li>
-                <li>⏱️ <strong>Modo examen oficial</strong> (40 preguntas, 65 minutos)</li>
-                <li>📚 <strong>Apuntes</strong> de los 6 capítulos del syllabus CTFL v4.0</li>
-                <li>🎮 <strong>Minijuego</strong> de conexión de conceptos</li>
-                <li>📊 <strong>Estadísticas</strong> de tu progreso</li>
-                <li>🌙 Modo oscuro y diseño adaptado a móvil</li>
+              <ul className="legal-features-list">
+                <li><strong>+357 preguntas</strong> tipo test con explicaciones detalladas</li>
+                <li>Disponible en <strong>Español, Inglés y Francés</strong></li>
+                <li><strong>Modo examen oficial</strong> (40 preguntas, 65 minutos)</li>
+                <li><strong>Apuntes</strong> de los 6 capítulos del syllabus CTFL v4.0</li>
+                <li><strong>Minijuego</strong> de conexión de conceptos</li>
+                <li><strong>Estadísticas</strong> de tu progreso</li>
+                <li>Modo oscuro y diseño adaptado a móvil</li>
               </ul>
 
               <h3>¿Por qué es gratis?</h3>
@@ -67,7 +67,7 @@ const LegalPage = ({ onClose, initialTab = 'sobre' }) => {
                 rel="noopener noreferrer"
                 className="legal-bmc-btn"
               >
-                ☕ Buy Me a Coffee
+                Buy Me a Coffee
               </a>
 
               <h3>¿Quién lo ha creado?</h3>
