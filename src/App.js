@@ -20,6 +20,7 @@ function App() {
   });
   const [showLegal, setShowLegal] = useState(false);
   const [legalTab, setLegalTab] = useState('sobre');
+  const [flagFx, setFlagFx] = useState({ lang: null, key: 0 });
 
   const toggleDark = () => {
     const next = !darkMode;
@@ -30,6 +31,7 @@ function App() {
   const handleLanguageChange = (newLang) => {
     setLang(newLang);
     setLanguage(newLang);
+    setFlagFx((f) => ({ lang: newLang, key: f.key + 1 }));
   };
 
   const renderContent = () => {
@@ -87,6 +89,9 @@ function App() {
         </nav>
         <div className="header-actions">
           <div className="lang-selector">
+            {flagFx.lang && (
+              <span key={flagFx.key} className={`flag-sweep flag-${flagFx.lang}`} aria-hidden="true" />
+            )}
             {['es', 'en', 'fr'].map(l => (
               <button
                 key={l}
