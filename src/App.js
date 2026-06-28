@@ -164,8 +164,7 @@ function App() {
           <span className="bmc-ico" aria-hidden="true">☕</span>
           <span className="bmc-txt">Buy me a coffee</span>
         </a>
-        <p>Created by <strong>ISTQBeasy</strong></p>
-        
+
         <div className="footer-links">
           <button className="footer-link-btn" onClick={() => { setLegalTab('sobre'); setShowLegal(true); }}>
             Sobre el proyecto

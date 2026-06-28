@@ -3818,7 +3818,7 @@
       "Herramientas de gestión de requisitos"
     ],
     "correctAnswer": 3,
-    "explanation": "Las herramientas de gestión de requisitos están diseñadas específicamente para facilitar la gestión y trazabilidad de los requisitos a lo largo del ciclo de vida del proyecto.",
+    "explanation": "A. No es correcto. Aunque las herramientas de gestión de pruebas ayudan a planificar y controlar las pruebas, no se enfocan específicamente en la gestión y trazabilidad de los requisitos. B. No es correcto. Las herramientas de automatización de pruebas se utilizan para ejecutar pruebas de manera automática, pero no se centran en la gestión de requisitos. C. No es correcto. Las herramientas de gestión de defectos se utilizan para rastrear errores y problemas, no para gestionar la trazabilidad de los requisitos. D. Es correcto. Las herramientas de gestión de requisitos están diseñadas específicamente para facilitar la gestión y trazabilidad de los requisitos a lo largo del ciclo de vida del proyecto.",
     "source": "Errores Reportados - Set 2"
   },
   {
@@ -5301,5 +5301,37 @@
     "correctAnswer": 0,
     "explanation": "A. Es correcto. La automatización de pruebas permite ejecutar más pruebas en menos tiempo, aumentando así la cobertura. B. No es correcto. La automatización generalmente reduce el tiempo necesario para ejecutar un conjunto de pruebas. C. No es correcto. Aunque la automatización puede crear dependencia de herramientas, esto no es un beneficio. D. No es correcto. La automatización no necesariamente reduce la documentación, a menudo requiere documentación adicional para scripts de prueba.",
     "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch6_1",
+    "chapter": 6,
+    "topic": "Herramientas",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes es un beneficio clave de la automatización de pruebas en el desarrollo de software?",
+    "options": [
+      "Aumenta el tiempo requerido para ejecutar pruebas",
+      "Permite la repetición de pruebas de manera eficiente",
+      "Elimina completamente la necesidad de pruebas manuales",
+      "Aumenta el riesgo de errores en el código"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. La automatización de pruebas busca reducir el tiempo de ejecución, no aumentarlo. B. Es correcto. La automatización permite ejecutar pruebas de manera rápida y repetitiva, lo que es un gran beneficio. C. No es correcto. Aunque la automatización reduce la necesidad de pruebas manuales, no elimina la necesidad de ellas por completo. D. No es correcto. El objetivo es reducir errores, aunque puede haber riesgos si no se gestiona adecuadamente.",
+    "source": "User Provided Batch 5"
+  },
+  {
+    "id": "q_batch6_6",
+    "chapter": 6,
+    "topic": "Herramientas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes herramientas se utiliza principalmente para la automatización de pruebas?",
+    "options": [
+      "Herramientas de gestión de pruebas",
+      "Herramientas de captura de pruebas",
+      "Herramientas de prueba automatizada",
+      "Herramientas de análisis de requisitos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. Las herramientas de gestión de pruebas están diseñadas para planificar, rastrear y organizar las actividades de pruebas, pero no se utilizan para automatizar las pruebas. B. No es correcto. Las herramientas de captura de pruebas se utilizan para grabar la interacción del usuario con la aplicación, pero no automatizan el proceso de prueba en sí misma. C. Es correcto. Las herramientas de prueba automatizada permiten la ejecución de pruebas sin intervención humana, facilitando una ejecución más rápida y repetible. D. No es correcto. Las herramientas de análisis de requisitos se enfocan en la gestión y análisis de los requisitos del software, y no tienen un papel en la automatización de pruebas.",
+    "source": "User Provided Batch 5"
   }
 ]

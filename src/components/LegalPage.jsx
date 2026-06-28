@@ -72,7 +72,7 @@ const LegalPage = ({ onClose, initialTab = 'sobre' }) => {
 
               <h3>¿Quién lo ha creado?</h3>
               <p>
-                ISTQBeasy ha sido desarrollado por <strong>Manuel Marcano Cubillas</strong>, profesional del sector tecnológico
+                ISTQBeasy es un proyecto independiente desarrollado por un profesional del sector tecnológico
                 con experiencia en pruebas de software y certificaciones ISTQB.
               </p>
 
@@ -92,8 +92,9 @@ const LegalPage = ({ onClose, initialTab = 'sobre' }) => {
 
               <h3>1. Responsable del tratamiento</h3>
               <p>
-                El responsable de este sitio web es <strong>Manuel Marcano Cubillas</strong>, titular de
-                <strong> istqbeasy.com</strong>.
+                El responsable de este sitio web es el titular del dominio <strong>istqbeasy.com</strong>.
+                Para cualquier consulta relacionada con la privacidad o para ejercer tus derechos, puedes
+                escribir al correo de contacto del sitio.
               </p>
 
               <h3>2. Datos que recopilamos</h3>

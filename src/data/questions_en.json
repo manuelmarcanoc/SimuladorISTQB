@@ -4635,7 +4635,7 @@
       "Requirements management tools"
     ],
     "correctAnswer": 3,
-    "explanation": "Requirements management tools are specifically designed to facilitate the management and traceability of requirements throughout the project life cycle.",
+    "explanation": "A. Incorrect. Although test management tools help plan and control tests, they are not specifically focused on requirement management and traceability. B. Incorrect. Test automation tools are used to execute tests automatically, but they do not focus on requirement management. C. Incorrect. Defect management tools are used to track errors and problems, not to manage requirement traceability. D. Correct. Requirement management tools are specifically designed to facilitate the management and traceability of requirements throughout the project lifecycle.",
     "source": "Errores Reportados - Set 2"
   },
   {
@@ -5369,5 +5369,37 @@
     "correctAnswer": 0,
     "explanation": "A. That is correct. Test automation allows you to run more tests in less time, thus increasing coverage. B. It is not correct. Automation generally reduces the time needed to run a test suite. C. It is not correct. Although automation can create tool dependency, this is not a benefit. D. It is not correct. Automation does not necessarily reduce documentation, it often requires additional documentation for test scripts.",
     "source": "User Provided Batch 4"
+  },
+  {
+    "id": "q_batch6_1",
+    "chapter": 6,
+    "topic": "Herramientas",
+    "difficulty": "medium",
+    "question": "Which of the following is a key benefit of test automation in software development?",
+    "options": [
+      "Increases the time required to execute tests",
+      "Allows tests to be repeated efficiently",
+      "Completely eliminates the need for manual testing",
+      "Increases the risk of errors in the code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrect. Test automation seeks to reduce execution time, not increase it. B. Correct. Automation allows tests to be executed quickly and repetitively, which is a great benefit. C. Incorrect. Although automation reduces the need for manual testing, it does not completely eliminate the need for them. D. Incorrect. The goal is to reduce errors, although there can be risks if not managed properly.",
+    "source": "User Provided Batch 5"
+  },
+  {
+    "id": "q_batch6_6",
+    "chapter": 6,
+    "topic": "Herramientas",
+    "difficulty": "medium",
+    "question": "Which of the following tools is primarily used for test automation?",
+    "options": [
+      "Test management tools",
+      "Test capture tools",
+      "Automated testing tools",
+      "Requirements analysis tools"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. Incorrect. Test management tools are designed to plan, track and organize testing activities, but are not used to automate tests. B. Incorrect. Test capture tools are used to record user interaction with the application, but they do not automate the testing process itself. C. Correct. Automated testing tools allow tests to be executed without human intervention, facilitating faster and more repeatable execution. D. Incorrect. Requirements analysis tools focus on managing and analyzing software requirements, and do not play a role in test automation.",
+    "source": "User Provided Batch 5"
   }
 ]
