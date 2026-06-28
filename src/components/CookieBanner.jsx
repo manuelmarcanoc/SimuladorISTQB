@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { t } from '../i18n';
 
 const COOKIE_KEY = 'istqb_cookies_accepted';
 
@@ -26,17 +27,17 @@ const CookieBanner = () => {
     <div className="cookie-banner" role="dialog" aria-label="Aviso de cookies">
       <div className="cookie-banner-content">
         <div className="cookie-text">
-          <strong>Usamos cookies</strong>
+          <strong>{t('cookieTitle')}</strong>
           <span>
-            Este sitio usa cookies propias (para guardar tu progreso y preferencias) y de terceros (Google Ads y Analytics).{' '}
+            {t('cookieDesc')}
             <button className="cookie-link-btn" onClick={() => document.dispatchEvent(new CustomEvent('open-privacy'))}>
-              Política de privacidad
+              {t('cookiePrivacy')}
             </button>
           </span>
         </div>
         <div className="cookie-actions">
-          <button className="cookie-btn-reject" onClick={reject}>Solo esenciales</button>
-          <button className="cookie-btn-accept" onClick={accept}>Aceptar todo</button>
+          <button className="cookie-btn-reject" onClick={reject}>{t('cookieEssential')}</button>
+          <button className="cookie-btn-accept" onClick={accept}>{t('cookieAcceptAll')}</button>
         </div>
       </div>
     </div>

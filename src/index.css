@@ -298,6 +298,7 @@ h1, h2, h3, h4, h5, h6, .app-title {
 .flag-es { background: linear-gradient(90deg, #aa151b 0 30%, #f1bf00 30% 70%, #aa151b 70%); }
 .flag-en { background: linear-gradient(90deg, #012169 0 36%, #ffffff 36% 64%, #c8102e 64%); }
 .flag-fr { background: linear-gradient(90deg, #0055a4 0 33%, #ffffff 33% 66%, #ef4135 66%); }
+.flag-pt { background: linear-gradient(90deg, #009c3b 0 38%, #ffdf00 38% 62%, #002776 62%); }
 
 @keyframes flagSweep {
   0%   { opacity: 0;    transform: translateX(-110%); }
@@ -1336,7 +1337,7 @@ h1, h2, h3, h4, h5, h6, .app-title {
 
 .cookie-btn-accept {
   background: var(--primary);
-  color: white;
+  color: var(--surface);
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: var(--radius-sm);
