@@ -33,7 +33,7 @@
     "id": 252,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Se le ha asignado como probador a un equipo que produce un nuevo sistema de forma incremental. Ha notado que no se han realizado cambios en los casos de prueba de regresión existentes durante varias iteraciones y no se identificaron nuevos defectos de regresión. Su gerente está contento, pero usted no. ¿Qué principio de prueba explica su escepticismo?  ",
+    "question": "Se le ha asignado como probador a un equipo que produce un nuevo sistema de forma incremental. Ha notado que no se han realizado cambios en los casos de prueba de regresión existentes durante varias iteraciones y no se identificaron nuevos defectos de regresión. Su gerente está contento, pero usted no.\n\n¿Qué principio de prueba explica su escepticismo?  ",
     "options": [
       "A) Las pruebas se desgastan",
       "B) Falacia de la ausencia de defectos",
@@ -48,7 +48,7 @@
     "id": 253,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Usted trabaja en un equipo que desarrolla una aplicación móvil para pedir comida. En la iteración actual, el equipo decidió implementar la funcionalidad de pago. ¿Cuál de las siguientes actividades forma parte del análisis de prueba?  ",
+    "question": "Usted trabaja en un equipo que desarrolla una aplicación móvil para pedir comida. En la iteración actual, el equipo decidió implementar la funcionalidad de pago.\n\n¿Cuál de las siguientes actividades forma parte del análisis de prueba?  ",
     "options": [
       "A) Estimar que probar la integración con el servicio de pago tomará 8 días-persona",
       "B) Decidir que el equipo debe probar si es posible compartir el pago adecuadamente entre muchos usuarios",
@@ -123,7 +123,7 @@
     "id": 258,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Considere la siguiente regla: \"por cada actividad del SDLC hay una actividad de prueba correspondiente\". ¿En qué modelos del SDLC se cumple esta regla?  ",
+    "question": "Considere la siguiente regla: \"por cada actividad del SDLC hay una actividad de prueba correspondiente\".\n\n¿En qué modelos del SDLC se cumple esta regla?  ",
     "options": [
       "A) Solo en los modelos de desarrollo secuenciales",
       "B) Solo en los modelos de desarrollo iterativos",
@@ -198,7 +198,7 @@
     "id": 263,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Usted está probando una historia de usuario con tres criterios de aceptación: AC1, AC2 y AC3. AC1 está cubierto por el caso de prueba TC1, AC2 por TC2, y AC3 por TC3. El historial de ejecución de pruebas tuvo tres rondas de pruebas en tres versiones consecutivas del software de la siguiente manera:  \n  \n| | Ejecución 1 | Ejecución 2 | Ejecución 3 |  \n|---|---|---|---|  \n| TC1 (1) | Fallido (4) | Pasado (7) | Pasado |  \n| TC2 (2) | Pasado (5) | Fallido (8) | Pasado |  \n| TC3 (3) | Fallido (6) | Fallido (9) | Pasado |  \n  \nLas pruebas se repiten una vez que se le informa que todos los defectos encontrados en la ronda de pruebas están corregidos y hay una nueva versión del software disponible. ¿Cuáles de las pruebas anteriores se ejecutan como pruebas de regresión?  ",
+    "question": "Usted está probando una historia de usuario con tres criterios de aceptación: AC1, AC2 y AC3. AC1 está cubierto por el caso de prueba TC1, AC2 por TC2, y AC3 por TC3. El historial de ejecución de pruebas tuvo tres rondas de pruebas en tres versiones consecutivas del software de la siguiente manera:  \n  \n| | Ejecución 1 | Ejecución 2 | Ejecución 3 |  \n|---|---|---|---|  \n| TC1 (1) | Fallido (4) | Pasado (7) | Pasado |  \n| TC2 (2) | Pasado (5) | Fallido (8) | Pasado |  \n| TC3 (3) | Fallido (6) | Fallido (9) | Pasado |  \n  \nLas pruebas se repiten una vez que se le informa que todos los defectos encontrados en la ronda de pruebas están corregidos y hay una nueva versión del software disponible.\n\n¿Cuáles de las pruebas anteriores se ejecutan como pruebas de regresión?  ",
     "options": [
       "A) Solo 4, 7, 8, 9",
       "B) Solo 5, 7",
@@ -243,7 +243,7 @@
     "id": 266,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Las revisiones que se están utilizando en su organización tienen los siguientes atributos: • Existe el rol de un escriba • El propósito principal es evaluar la calidad • La reunión está dirigida por el autor del producto de trabajo • Hay preparación individual • Se produce un informe de revisión ¿Cuál de los siguientes tipos de revisión es MÁS probable que se esté utilizando?  ",
+    "question": "Las revisiones que se están utilizando en su organización tienen los siguientes atributos: • Existe el rol de un escriba • El propósito principal es evaluar la calidad • La reunión está dirigida por el autor del producto de trabajo • Hay preparación individual • Se produce un informe de revisión\n\n¿Cuál de los siguientes tipos de revisión es MÁS probable que se esté utilizando?  ",
     "options": [
       "A) Revisión informal",
       "B) Walkthrough",
@@ -288,7 +288,7 @@
     "id": 269,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Está probando un formulario de búsqueda de apartamentos simplificado que solo tiene dos criterios de búsqueda: • piso (con tres opciones posibles: planta baja; primer piso; segundo piso o superior) • tipo de jardín (con tres opciones posibles: sin jardín; jardín pequeño; jardín grande) Todos los apartamentos en la planta baja tienen jardín, los apartamentos en los pisos superiores no lo tienen. El formulario tiene un mecanismo de validación incorporado que no le permitirá usar los criterios de búsqueda que violen esta regla. Cada prueba tiene dos valores de entrada: piso y tipo de jardín. Desea aplicar la partición de equivalencia (EP) para cubrir cada piso y cada tipo de jardín en sus pruebas. ¿Cuál es el número mínimo de casos de prueba para lograr una cobertura EP del 100% para las particiones válidas?  ",
+    "question": "Está probando un formulario de búsqueda de apartamentos simplificado que solo tiene dos criterios de búsqueda: • piso (con tres opciones posibles: planta baja; primer piso; segundo piso o superior) • tipo de jardín (con tres opciones posibles: sin jardín; jardín pequeño; jardín grande) Todos los apartamentos en la planta baja tienen jardín, los apartamentos en los pisos superiores no lo tienen. El formulario tiene un mecanismo de validación incorporado que no le permitirá usar los criterios de búsqueda que violen esta regla. Cada prueba tiene dos valores de entrada: piso y tipo de jardín. Desea aplicar la partición de equivalencia (EP) para cubrir cada piso y cada tipo de jardín en sus pruebas.\n\n¿Cuál es el número mínimo de casos de prueba para lograr una cobertura EP del 100% para las particiones válidas?  ",
     "options": [
       "A) 3",
       "B) 4",
@@ -303,7 +303,7 @@
     "id": 270,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Está probando un sistema que calcula la nota final del curso para un estudiante determinado. La nota final se asigna en función del resultado final, de acuerdo con las siguientes reglas:  \n- 0 – 50 puntos: suspenso  \n- 51 – 60 puntos: suficiente  \n- 61 – 70 puntos: satisfactorio  \n- 71 – 80 puntos: bien  \n- 81 – 90 puntos: muy bien  \n- 91 – 100 puntos: excelente  \n  \nHa preparado el siguiente conjunto de casos de prueba:  \n  \n| TC | Resultado final | Nota final |  \n|---|---|---|  \n| TC1 | 91 | excelente |  \n| TC2 | 50 | suspenso |  \n| TC3 | 81 | muy bien |  \n| TC4 | 60 | suficiente |  \n| TC5 | 70 | satisfactorio |  \n| TC6 | 80 | bien |  \n  \n¿Cuál es la cobertura de análisis de valores límite (BVA) de 2 valores para el resultado final que se logra con los casos de prueba existentes?  ",
+    "question": "Está probando un sistema que calcula la nota final del curso para un estudiante determinado. La nota final se asigna en función del resultado final, de acuerdo con las siguientes reglas:  \n- 0 – 50 puntos: suspenso  \n- 51 – 60 puntos: suficiente  \n- 61 – 70 puntos: satisfactorio  \n- 71 – 80 puntos: bien  \n- 81 – 90 puntos: muy bien  \n- 91 – 100 puntos: excelente  \n  \nHa preparado el siguiente conjunto de casos de prueba:  \n  \n| TC | Resultado final | Nota final |  \n|---|---|---|  \n| TC1 | 91 | excelente |  \n| TC2 | 50 | suspenso |  \n| TC3 | 81 | muy bien |  \n| TC4 | 60 | suficiente |  \n| TC5 | 70 | satisfactorio |  \n| TC6 | 80 | bien |\n\n¿Cuál es la cobertura de análisis de valores límite (BVA) de 2 valores para el resultado final que se logra con los casos de prueba existentes?  ",
     "options": [
       "A) 50%",
       "B) 60%",
@@ -333,7 +333,7 @@
     "id": 272,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Prueba un sistema cuyo ciclo de vida está modelado por el diagrama de transición de estado que se muestra a continuación. El sistema comienza en el estado INIT y finaliza su funcionamiento en el estado OFF. ¿Cuál es el número MÍNIMO de casos de prueba para lograr la cobertura de transiciones válidas?  ",
+    "question": "Prueba un sistema cuyo ciclo de vida está modelado por el diagrama de transición de estado que se muestra a continuación. El sistema comienza en el estado INIT y finaliza su funcionamiento en el estado OFF.\n\n¿Cuál es el número MÍNIMO de casos de prueba para lograr la cobertura de transiciones válidas?  ",
     "options": [
       "A) 4",
       "B) 2",
@@ -348,7 +348,7 @@
     "id": 273,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Su suite de pruebas logró una cobertura de sentencias del 100%. ¿Cuál es la consecuencia de este hecho?  ",
+    "question": "Su suite de pruebas logró una cobertura de sentencias del 100%.\n\n¿Cuál es la consecuencia de este hecho?  ",
     "options": [
       "A) Cada instrucción en el código que contiene un defecto se ha ejecutado al menos una vez",
       "B) Cualquier suite de pruebas que contenga más casos de prueba que su suite de pruebas también logrará una cobertura de sentencias del 100%",
@@ -393,7 +393,7 @@
     "id": 276,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Comenzó tarde, pero tiene un conocimiento del dominio muy detallado y buenas habilidades analíticas. La lista completa de requisitos aún no se ha compartido con el equipo, pero la gerencia está pidiendo que se presenten algunos resultados de pruebas. ¿Qué técnica de prueba encaja MEJOR en esta situación?  ",
+    "question": "Comenzó tarde, pero tiene un conocimiento del dominio muy detallado y buenas habilidades analíticas. La lista completa de requisitos aún no se ha compartido con el equipo, pero la gerencia está pidiendo que se presenten algunos resultados de pruebas.\n\n¿Qué técnica de prueba encaja MEJOR en esta situación?  ",
     "options": [
       "A) Pruebas basadas en listas de comprobación",
       "B) Predicción de errores",
@@ -423,7 +423,7 @@
     "id": 278,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Considere la siguiente historia de usuario: Como Editor quiero revisar el contenido antes de que se publique para asegurarme de que la gramática es correcta y sus criterios de aceptación: • El usuario puede iniciar sesión en el sistema de gestión de contenido con el rol de \"Editor\" • El editor puede ver las páginas de contenido existentes • El editor puede editar el contenido de la página • El editor puede agregar comentarios de marcado • El editor puede guardar los cambios • El editor puede reasignar al rol de \"propietario del contenido\" para realizar actualizaciones ¿Cuál de las siguientes es el MEJOR ejemplo de una prueba ATDD para esta historia de usuario?  ",
+    "question": "Considere la siguiente historia de usuario: Como Editor quiero revisar el contenido antes de que se publique para asegurarme de que la gramática es correcta y sus criterios de aceptación: • El usuario puede iniciar sesión en el sistema de gestión de contenido con el rol de \"Editor\" • El editor puede ver las páginas de contenido existentes • El editor puede editar el contenido de la página • El editor puede agregar comentarios de marcado • El editor puede guardar los cambios • El editor puede reasignar al rol de \"propietario del contenido\" para realizar actualizaciones\n\n¿Cuál de las siguientes es el MEJOR ejemplo de una prueba ATDD para esta historia de usuario?  ",
     "options": [
       "A) Probar si el editor puede guardar el documento después de editar el contenido de la página",
       "B) Probar si el propietario del contenido puede iniciar sesión y realizar actualizaciones al contenido",
@@ -453,7 +453,7 @@
     "id": 280,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Su equipo utiliza la técnica de estimación de tres puntos para estimar el esfuerzo de prueba de una nueva característica de alto riesgo. Se realizaron las siguientes estimaciones: • Estimación más optimista: 2 horas-persona • Estimación más probable: 11 horas-persona • Estimación más pesimista: 14 horas-persona ¿Cuál es la estimación final?  ",
+    "question": "Su equipo utiliza la técnica de estimación de tres puntos para estimar el esfuerzo de prueba de una nueva característica de alto riesgo. Se realizaron las siguientes estimaciones: • Estimación más optimista: 2 horas-persona • Estimación más probable: 11 horas-persona • Estimación más pesimista: 14 horas-persona\n\n¿Cuál es la estimación final?  ",
     "options": [
       "A) 9 horas-persona",
       "B) 14 horas-persona",
@@ -468,7 +468,7 @@
     "id": 281,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Está probando una aplicación móvil que permite a los usuarios encontrar un restaurante cercano según el tipo de comida que desean comer. Considere la siguiente lista de casos de prueba, prioridades (es decir, un número menor significa una prioridad mayor) y dependencias: Número de caso de prueba Condición de prueba cubierta Prioridad Dependencia lógica TC 001 Seleccionar tipo de comida 3 ninguna TC 002 Seleccionar restaurante 2 TC 001 TC 003 Obtener indicaciones 1 TC 002 TC 004 Llamar al restaurante 2 TC 002 TC 005 Hacer una reserva 3 TC 002 ¿Cuál de los siguientes casos de prueba debe ejecutarse en tercer lugar?  ",
+    "question": "Está probando una aplicación móvil que permite a los usuarios encontrar un restaurante cercano según el tipo de comida que desean comer. Considere la siguiente lista de casos de prueba, prioridades (es decir, un número menor significa una prioridad mayor) y dependencias: Número de caso de prueba Condición de prueba cubierta Prioridad Dependencia lógica TC 001 Seleccionar tipo de comida 3 ninguna TC 002 Seleccionar restaurante 2 TC 001 TC 003 Obtener indicaciones 1 TC 002 TC 004 Llamar al restaurante 2 TC 002 TC 005 Hacer una reserva 3 TC 002\n\n¿Cuál de los siguientes casos de prueba debe ejecutarse en tercer lugar?  ",
     "options": [
       "A) TC 003",
       "B) TC 005",
@@ -483,7 +483,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D): ¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?\n\n1. Pruebas de usabilidad\n2. Pruebas de componente\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo  \nB. Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo  \nC. Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto  \nD. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto",
+    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?\n\n1. Pruebas de usabilidad\n2. Pruebas de componente\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo  \nB. Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo  \nC. Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto  \nD. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B) 1D, 2A, 3C, 4B",
@@ -498,7 +498,7 @@
     "id": 283,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Durante un análisis de riesgos se identificó y evaluó el siguiente riesgo: • Riesgo: El tiempo de respuesta es demasiado largo para generar un informe • Probabilidad del riesgo: media; impacto del riesgo: alto • Respuesta al riesgo: o Un equipo de pruebas independiente realiza pruebas de eficiencia de rendimiento durante las pruebas de sistema o Una muestra seleccionada de usuarios finales realiza pruebas alfa y pruebas beta antes del lanzamiento ¿Qué medida se propone tomar en respuesta a este riesgo analizado?  ",
+    "question": "Durante un análisis de riesgos se identificó y evaluó el siguiente riesgo: • Riesgo: El tiempo de respuesta es demasiado largo para generar un informe • Probabilidad del riesgo: media; impacto del riesgo: alto • Respuesta al riesgo: o Un equipo de pruebas independiente realiza pruebas de eficiencia de rendimiento durante las pruebas de sistema o Una muestra seleccionada de usuarios finales realiza pruebas alfa y pruebas beta antes del lanzamiento\n\n¿Qué medida se propone tomar en respuesta a este riesgo analizado?  ",
     "options": [
       "A) Aceptación del riesgo",
       "B) Plan de contingencia",
@@ -528,7 +528,7 @@
     "id": 285,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Necesita actualizar uno de los scripts de prueba automatizados para que esté alineado con un nuevo requisito. ¿Qué proceso indica que debe crear una nueva versión del script de prueba en el repositorio de pruebas?  ",
+    "question": "Necesita actualizar uno de los scripts de prueba automatizados para que esté alineado con un nuevo requisito.\n\n¿Qué proceso indica que debe crear una nueva versión del script de prueba en el repositorio de pruebas?  ",
     "options": [
       "A) Gestión de la trazabilidad",
       "B) Pruebas de mantenimiento",
@@ -543,7 +543,7 @@
     "id": 286,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Recibió el siguiente informe de defecto de los desarrolladores indicando que la anomalía descrita en este informe de prueba no es reproducible. La aplicación se congela 2022-May-03 – John Doe – Rechazado La aplicación se congela después de ingresar \"Entrada de prueba: $ä\" en el campo Nombre en la pantalla de creación de nuevo usuario. Intenté cerrar sesión, iniciar sesión con la cuenta test_admin01, el mismo problema. Intenté con otras cuentas de administración de prueba, el mismo problema. No se recibió ningún mensaje de error; el registro (ver adjunto) contiene una notificación de error fatal. Basado en el caso de prueba TC-1305, la aplicación debería aceptar la entrada proporcionada y crear el usuario. Por favor, solucione con alta prioridad, esta característica está relacionada con REQ-0012, que es un nuevo requisito de negocio crítico. ¿Qué información crítica FALTA en este informe de prueba que habría sido útil para los desarrolladores?  ",
+    "question": "Recibió el siguiente informe de defecto de los desarrolladores indicando que la anomalía descrita en este informe de prueba no es reproducible. La aplicación se congela 2022-May-03 – John Doe – Rechazado La aplicación se congela después de ingresar \"Entrada de prueba: $ä\" en el campo Nombre en la pantalla de creación de nuevo usuario. Intenté cerrar sesión, iniciar sesión con la cuenta test_admin01, el mismo problema. Intenté con otras cuentas de administración de prueba, el mismo problema. No se recibió ningún mensaje de error; el registro (ver adjunto) contiene una notificación de error fatal. Basado en el caso de prueba TC-1305, la aplicación debería aceptar la entrada proporcionada y crear el usuario. Por favor, solucione con alta prioridad, esta característica está relacionada con REQ-0012, que es un nuevo requisito de negocio crítico.\n\n¿Qué información crítica FALTA en este informe de prueba que habría sido útil para los desarrolladores?  ",
     "options": [
       "A) Resultado esperado y resultado real",
       "B) Referencias y estado del defecto",
@@ -618,7 +618,7 @@
     "id": 291,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Uno de los 'principios de la prueba' establece que las pruebas exhaustivas son imposibles. ¿Cuál de los siguientes es un ejemplo de cómo abordar este principio en la práctica?  ",
+    "question": "Uno de los 'principios de la prueba' establece que las pruebas exhaustivas son imposibles.\n\n¿Cuál de los siguientes es un ejemplo de cómo abordar este principio en la práctica?  ",
     "options": [
       "A) Crear casos de prueba que cubran cada posible salida especificada",
       "B) Documentar todas las posibles variaciones de entrada de prueba y priorizarlas según su importancia",
@@ -813,7 +813,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dadas las siguientes descripciones de tareas: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?\n\n1. Se seleccionan las características de calidad a evaluar y los criterios de salida\n2. Todos tienen acceso al producto de trabajo\n3. Se identifican anomalías en el producto de trabajo\n4. Se debaten las anomalías\n\nA. Revisión individual  \nB. Inicio de la revisión  \nC. Planificación  \nD. Comunicación y análisis",
+    "question": "Dadas las siguientes descripciones de tareas:\n\n¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?\n\n1. Se seleccionan las características de calidad a evaluar y los criterios de salida\n2. Todos tienen acceso al producto de trabajo\n3. Se identifican anomalías en el producto de trabajo\n4. Se debaten las anomalías\n\nA. Revisión individual  \nB. Inicio de la revisión  \nC. Planificación  \nD. Comunicación y análisis",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -828,7 +828,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes roles en las revisiones: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?\n\n1. Secretario/Escriba\n2. Líder de revisión\n3. Facilitador\n4. Gestor\n\nA. Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro  \nB. Registra la información de la revisión, como decisiones y nuevas anomalías encontradas  \nC. Decide qué se va a revisar y proporciona recursos como personal y tiempo  \nD. Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar",
+    "question": "Dados los siguientes roles en las revisiones:\n\n¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?\n\n1. Secretario/Escriba\n2. Líder de revisión\n3. Facilitador\n4. Gestor\n\nA. Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro  \nB. Registra la información de la revisión, como decisiones y nuevas anomalías encontradas  \nC. Decide qué se va a revisar y proporciona recursos como personal y tiempo  \nD. Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -858,7 +858,7 @@
     "id": 307,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Los clientes de la cadena de lavado de coches TestWash tienen tarjetas con el número de lavados que han comprado. El valor inicial es 0. Al entrar al lavado, el sistema incrementa el número en la tarjeta en uno. Este valor representa el número del lavado actual. Basándose en este número el sistema decide el descuento: cada décimo lavado da un 10% de descuento y cada vigésimo lavado da un 40% adicional (es decir, 50% en total). ¿Cuál de los siguientes conjuntos de datos de entrada (entendidos como los números del lavado actual) logra la mayor cobertura de partición de equivalencia?  ",
+    "question": "Los clientes de la cadena de lavado de coches TestWash tienen tarjetas con el número de lavados que han comprado. El valor inicial es 0. Al entrar al lavado, el sistema incrementa el número en la tarjeta en uno. Este valor representa el número del lavado actual. Basándose en este número el sistema decide el descuento: cada décimo lavado da un 10% de descuento y cada vigésimo lavado da un 40% adicional (es decir, 50% en total).\n\n¿Cuál de los siguientes conjuntos de datos de entrada (entendidos como los números del lavado actual) logra la mayor cobertura de partición de equivalencia?  ",
     "options": [
       "A) 19, 20, 30",
       "B) 11, 12, 20",
@@ -873,7 +873,7 @@
     "id": 308,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás probando un formulario que verifica si la longitud de la contraseña introducida es correcta. El formulario acepta contraseñas con la longitud correcta y rechaza las que son demasiado cortas o largas. La longitud es correcta si tiene entre 6 y 12 caracteres inclusive. El formulario inicialmente está vacío (longitud = 0). Aplicas análisis de valores límite a la variable 'longitud de contraseña'. Tu conjunto de casos de prueba logra cobertura 100% de valores límite de 2 valores. El equipo decide que, por el alto riesgo del componente, hay que añadir casos para alcanzar cobertura 100% de valores límite de 3 valores. ¿Qué longitudes de contraseña adicionales se deben probar?  ",
+    "question": "Estás probando un formulario que verifica si la longitud de la contraseña introducida es correcta. El formulario acepta contraseñas con la longitud correcta y rechaza las que son demasiado cortas o largas. La longitud es correcta si tiene entre 6 y 12 caracteres inclusive. El formulario inicialmente está vacío (longitud = 0). Aplicas análisis de valores límite a la variable 'longitud de contraseña'. Tu conjunto de casos de prueba logra cobertura 100% de valores límite de 2 valores. El equipo decide que, por el alto riesgo del componente, hay que añadir casos para alcanzar cobertura 100% de valores límite de 3 valores.\n\n¿Qué longitudes de contraseña adicionales se deben probar?  ",
     "options": [
       "A) 4, 5, 13, 14",
       "B) 7, 11",
@@ -888,7 +888,7 @@
     "id": 309,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "La siguiente tabla de decisión contiene las reglas para determinar el riesgo de arteriosclerosis.  \n  \n| | Regla 1 | Regla 2 | Regla 3 | Regla 4 | Regla 5 |  \n|---|---|---|---|---|---|  \n| Colesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Presión arterial (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Nivel de riesgo | muy bajo | bajo | medio | alto | muy alto |  \n  \nHas diseñado los siguientes casos de prueba:  \n- TC1: Colesterol=125, PA=141  \n- TC2: Colesterol=200, PA=201  \n- TC3: Colesterol=124, PA=201  \n- TC4: Colesterol=109, PA=200  \n- TC5: Colesterol=201, PA=140  \n  \n¿Qué cobertura de tabla de decisión logran estos casos de prueba?  ",
+    "question": "La siguiente tabla de decisión contiene las reglas para determinar el riesgo de arteriosclerosis.  \n  \n| | Regla 1 | Regla 2 | Regla 3 | Regla 4 | Regla 5 |  \n|---|---|---|---|---|---|  \n| Colesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Presión arterial (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Nivel de riesgo | muy bajo | bajo | medio | alto | muy alto |  \n  \nHas diseñado los siguientes casos de prueba:  \n- TC1: Colesterol=125, PA=141  \n- TC2: Colesterol=200, PA=201  \n- TC3: Colesterol=124, PA=201  \n- TC4: Colesterol=109, PA=200  \n- TC5: Colesterol=201, PA=140\n\n¿Qué cobertura de tabla de decisión logran estos casos de prueba?  ",
     "options": [
       "A) 40%",
       "B) 60%",
@@ -903,7 +903,7 @@
     "id": 310,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Un sistema de almacenamiento puede guardar hasta tres elementos y se modela mediante el siguiente diagrama de transición de estados. La variable N representa el número de elementos almacenados actualmente. ¿Cuál de los siguientes casos de prueba, representados como secuencias de eventos, logra el mayor nivel de cobertura de transiciones válidas?  ",
+    "question": "Un sistema de almacenamiento puede guardar hasta tres elementos y se modela mediante el siguiente diagrama de transición de estados. La variable N representa el número de elementos almacenados actualmente.\n\n¿Cuál de los siguientes casos de prueba, representados como secuencias de eventos, logra el mayor nivel de cobertura de transiciones válidas?  ",
     "options": [
       "A) Añadir, Eliminar, Añadir, Añadir, Añadir",
       "B) Añadir, Añadir, Añadir, Añadir, Eliminar, Eliminar",
@@ -918,7 +918,7 @@
     "id": 311,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Ejecutas dos casos de prueba, T1 y T2, sobre el mismo código. T1 logra un 40% de cobertura de sentencias y T2 logra un 65%. ¿Cuál de las siguientes afirmaciones es necesariamente verdadera?  ",
+    "question": "Ejecutas dos casos de prueba, T1 y T2, sobre el mismo código. T1 logra un 40% de cobertura de sentencias y T2 logra un 65%.\n\n¿Cuál de las siguientes afirmaciones es necesariamente verdadera?  ",
     "options": [
       "A) El conjunto de pruebas T1+T2 logra un 105% de cobertura de sentencias",
       "B) Existe al menos una sentencia que ha sido ejecutada tanto por T1 como por T2",
@@ -933,7 +933,7 @@
     "id": 312,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "La métrica de cobertura de ramas se define como: BCov = (X / Y) × 100%. ¿Qué representan X e Y en esta fórmula?  ",
+    "question": "La métrica de cobertura de ramas se define como: BCov = (X / Y) × 100%.\n\n¿Qué representan X e Y en esta fórmula?  ",
     "options": [
       "A) X = número de resultados de decisión ejercitados por los casos de prueba. Y = número total de resultados de decisión en el código",
       "B) X = número de ramas condicionales ejercitadas por los casos de prueba. Y = número total de ramas en el código",
@@ -978,7 +978,7 @@
     "id": 315,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Considera el siguiente criterio de aceptación para una historia de usuario escrita desde la perspectiva del propietario de una tienda en línea. DADO que el usuario ha iniciado sesión y está en la página de inicio, CUANDO el usuario hace clic en el botón 'Añadir artículo', ENTONCES debe aparecer el formulario 'Crear artículo', Y el usuario debe poder introducir un nombre y un precio para el nuevo artículo. ¿En qué formato está escrito este criterio de aceptación?  ",
+    "question": "Considera el siguiente criterio de aceptación para una historia de usuario escrita desde la perspectiva del propietario de una tienda en línea. DADO que el usuario ha iniciado sesión y está en la página de inicio, CUANDO el usuario hace clic en el botón 'Añadir artículo', ENTONCES debe aparecer el formulario 'Crear artículo', Y el usuario debe poder introducir un nombre y un precio para el nuevo artículo.\n\n¿En qué formato está escrito este criterio de aceptación?  ",
     "options": [
       "A) Orientado a reglas",
       "B) Orientado a escenarios",
@@ -993,7 +993,7 @@
     "id": 316,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Tu equipo analiza la siguiente historia de usuario para definir los criterios de aceptación: 'Como cliente registrado, quiero poder ver mis pedidos anteriores en la web de la empresa, para poder llevar un control de mis compras.' ¿Cuál de los siguientes casos de prueba NO será relevante para esta historia de usuario?  ",
+    "question": "Tu equipo analiza la siguiente historia de usuario para definir los criterios de aceptación: 'Como cliente registrado, quiero poder ver mis pedidos anteriores en la web de la empresa, para poder llevar un control de mis compras.'\n\n¿Cuál de los siguientes casos de prueba NO será relevante para esta historia de usuario?  ",
     "options": [
       "A) Entrada: el cliente inicia sesión y hace clic en 'ver historial de pedidos'. Resultado esperado: el sistema muestra una lista de todos los pedidos anteriores con fecha, número de pedido y coste total",
       "B) Entrada: el cliente hace clic en un pedido de la lista. Resultado esperado: el sistema muestra los artículos individuales comprados con sus precios y cantidades",
@@ -1008,7 +1008,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Tu equipo sigue un proceso que usa el pipeline de entrega de DevOps. Los primeros tres pasos son: (1) Desarrollo de código (2) Enviar el código al sistema de control de versiones y fusionarlo con la rama 'test' (3) Ejecutar pruebas de componente del código enviado. ¿Cuál de las siguientes es la MEJOR opción como criterio de entrada para el paso (2) de este pipeline?  ",
+    "question": "Tu equipo sigue un proceso que usa el pipeline de entrega de DevOps. Los primeros tres pasos son: (1) Desarrollo de código (2) Enviar el código al sistema de control de versiones y fusionarlo con la rama 'test' (3) Ejecutar pruebas de componente del código enviado.\n\n¿Cuál de las siguientes es la MEJOR opción como criterio de entrada para el paso (2) de este pipeline?  ",
     "options": [
       "A) El análisis estático no devuelve advertencias de alta severidad para el código enviado",
       "B) El sistema de control de versiones no reporta conflictos al fusionar el código con la rama 'test'",
@@ -1023,7 +1023,7 @@
     "id": 318,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Quieres estimar el esfuerzo de pruebas para un nuevo proyecto usando estimación basada en ratios. Calculas el ratio esfuerzo de pruebas/esfuerzo de desarrollo usando datos promediados de cuatro proyectos históricos similares. La tabla muestra: P1: Desarrollo $800.000, Pruebas $40.000 | P2: $1.200.000 / $130.000 | P3: $600.000 / $70.000 | P4: $1.000.000 / $120.000. El esfuerzo de desarrollo estimado para el nuevo proyecto es $800.000. ¿Cuál es tu estimación del esfuerzo de pruebas?  ",
+    "question": "Quieres estimar el esfuerzo de pruebas para un nuevo proyecto usando estimación basada en ratios. Calculas el ratio esfuerzo de pruebas/esfuerzo de desarrollo usando datos promediados de cuatro proyectos históricos similares. La tabla muestra: P1: Desarrollo $800.000, Pruebas $40.000 | P2: $1.200.000 / $130.000 | P3: $600.000 / $70.000 | P4: $1.000.000 / $120.000. El esfuerzo de desarrollo estimado para el nuevo proyecto es $800.000.\n\n¿Cuál es tu estimación del esfuerzo de pruebas?  ",
     "options": [
       "A) $40.000",
       "B) $80.000",
@@ -1038,7 +1038,7 @@
     "id": 319,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Estás probando una aplicación web que permite a los usuarios BUSCAR productos, VER detalles, AÑADIR al carrito y realizar un PEDIDO. Tienes 7 casos de prueba con estas prioridades (1=mayor):  \n- TC1: BUSCAR producto A (4)  \n- TC2: BUSCAR producto B (4)  \n- TC3: VER detalles A (3)  \n- TC4: VER detalles B (2)  \n- TC5: AÑADIR producto A (3)  \n- TC6: AÑADIR producto B (1)  \n- TC7: hacer PEDIDO (5)  \n  \nDependencias: BUSCAR debe probarse antes de VER, VER antes de AÑADIR, y AÑADIR antes de PEDIDO. ¿Qué caso de prueba debe ejecutarse en cuarto lugar?  ",
+    "question": "Estás probando una aplicación web que permite a los usuarios BUSCAR productos, VER detalles, AÑADIR al carrito y realizar un PEDIDO. Tienes 7 casos de prueba con estas prioridades (1=mayor):  \n- TC1: BUSCAR producto A (4)  \n- TC2: BUSCAR producto B (4)  \n- TC3: VER detalles A (3)  \n- TC4: VER detalles B (2)  \n- TC5: AÑADIR producto A (3)  \n- TC6: AÑADIR producto B (1)  \n- TC7: hacer PEDIDO (5)  \n  \nDependencias: BUSCAR debe probarse antes de VER, VER antes de AÑADIR, y AÑADIR antes de PEDIDO.\n\n¿Qué caso de prueba debe ejecutarse en cuarto lugar?  ",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -1068,7 +1068,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Dados los siguientes riesgos: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?\n\n1. Una implementación ineficaz de bucles causa respuestas lentas del sistema\n2. Los consumidores cambian sus preferencias\n3. Inundación de la sala de servidores\n4. Pacientes mayores de cierta edad reciben informes incorrectos\n\nA. Aceptación del riesgo  \nB. Pruebas de eficiencia de rendimiento  \nC. Uso de análisis de valores límite como técnica  \nD. Transferencia del riesgo",
+    "question": "Dados los siguientes riesgos:\n\n¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?\n\n1. Una implementación ineficaz de bucles causa respuestas lentas del sistema\n2. Los consumidores cambian sus preferencias\n3. Inundación de la sala de servidores\n4. Pacientes mayores de cierta edad reciben informes incorrectos\n\nA. Aceptación del riesgo  \nB. Pruebas de eficiencia de rendimiento  \nC. Uso de análisis de valores límite como técnica  \nD. Transferencia del riesgo",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -1098,7 +1098,7 @@
     "id": 323,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Eres miembro de un equipo de pruebas ubicado en América del Norte, desarrollando un producto para un cliente en Europa. El equipo es ágil, sigue DevOps y usa un pipeline de CI/CD. ¿Cuál de las siguientes es la forma MENOS efectiva de comunicar el progreso de las pruebas al cliente?  ",
+    "question": "Eres miembro de un equipo de pruebas ubicado en América del Norte, desarrollando un producto para un cliente en Europa. El equipo es ágil, sigue DevOps y usa un pipeline de CI/CD.\n\n¿Cuál de las siguientes es la forma MENOS efectiva de comunicar el progreso de las pruebas al cliente?  ",
     "options": [
       "A) Cara a cara (presencialmente)",
       "B) Paneles de control (Dashboards)",
@@ -1128,7 +1128,7 @@
     "id": 325,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Estás probando una función de ordenación que recibe un conjunto de números y los devuelve ordenados de forma ascendente. El log de ejecución es:  \n  \n- TC1: Entrada: `3`. Salida: `3`. Resultado: pasado  \n- TC2: Entrada: `3 11 6 5`. Salida: `3 5 6 11`. Resultado: pasado  \n- TC3: Entrada: `8 7 3 7 1`. Salida: `1 3 7 8`. Resultado: fallado  \n- TC4: Entrada: `-2 -2 -2 -3 -3`. Salida: `-3 -2`. Resultado: fallado  \n- TC5: Entrada: `0 -2 0 3 4 4`. Salida: `-2 0 3 4`. Resultado: fallado  \n  \n¿Cuál de las siguientes proporciona la MEJOR descripción del fallo para usar en un informe de defecto?  ",
+    "question": "Estás probando una función de ordenación que recibe un conjunto de números y los devuelve ordenados de forma ascendente. El log de ejecución es:  \n  \n- TC1: Entrada: `3`. Salida: `3`. Resultado: pasado  \n- TC2: Entrada: `3 11 6 5`. Salida: `3 5 6 11`. Resultado: pasado  \n- TC3: Entrada: `8 7 3 7 1`. Salida: `1 3 7 8`. Resultado: fallado  \n- TC4: Entrada: `-2 -2 -2 -3 -3`. Salida: `-3 -2`. Resultado: fallado  \n- TC5: Entrada: `0 -2 0 3 4 4`. Salida: `-2 0 3 4`. Resultado: fallado\n\n¿Cuál de las siguientes proporciona la MEJOR descripción del fallo para usar en un informe de defecto?  ",
     "options": [
       "A) El sistema no logra ordenar varios conjuntos de números. Referencia: TC3, TC4, TC5.",
       "B) El sistema parece ignorar los duplicados al ordenar. Referencia: TC3, TC4, TC5.",
@@ -1143,7 +1143,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Dadas las siguientes descripciones: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?\n\n1. Dan soporte al seguimiento del flujo de trabajo\n2. Facilitan la comunicación\n3. Máquinas virtuales\n4. Dan soporte a las revisiones\n\nA. Herramientas de pruebas estáticas  \nB. Herramientas que apoyan la escalabilidad y la estandarización del despliegue  \nC. Herramientas DevOps  \nD. Herramientas de colaboración",
+    "question": "Dadas las siguientes descripciones:\n\n¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?\n\n1. Dan soporte al seguimiento del flujo de trabajo\n2. Facilitan la comunicación\n3. Máquinas virtuales\n4. Dan soporte a las revisiones\n\nA. Herramientas de pruebas estáticas  \nB. Herramientas que apoyan la escalabilidad y la estandarización del despliegue  \nC. Herramientas DevOps  \nD. Herramientas de colaboración",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -1203,7 +1203,7 @@
     "id": 330,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "La 'falacia de ausencia de defectos' es uno de los principios de las pruebas. ¿Cuál de las siguientes es un ejemplo de cómo abordar este principio en la práctica?  ",
+    "question": "La 'falacia de ausencia de defectos' es uno de los principios de las pruebas.\n\n¿Cuál de las siguientes es un ejemplo de cómo abordar este principio en la práctica?  ",
     "options": [
       "A) Explicar que no es posible que las pruebas demuestren la ausencia de defectos",
       "B) Apoyar a los usuarios finales para que realicen pruebas de aceptación",
@@ -1233,7 +1233,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dado el siguiente testware: ¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?\n\n1. Ítems de cobertura\n2. Solicitudes de cambio\n3. Calendario de ejecución de pruebas\n4. Condiciones de prueba priorizadas\n\nA. Análisis de pruebas  \nB. Diseño de pruebas  \nC. Implementación de pruebas  \nD. Finalización de pruebas",
+    "question": "Dado el siguiente testware:\n\n¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?\n\n1. Ítems de cobertura\n2. Solicitudes de cambio\n3. Calendario de ejecución de pruebas\n4. Condiciones de prueba priorizadas\n\nA. Análisis de pruebas  \nB. Diseño de pruebas  \nC. Implementación de pruebas  \nD. Finalización de pruebas",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -1323,7 +1323,7 @@
     "id": 338,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Se ha actualizado el software de un sistema de navegación porque sugería rutas que infringían las normas de tráfico, como conducir en sentido contrario en calles de sentido único. ¿Cuál de las siguientes describe MEJOR las pruebas que se realizarán?  ",
+    "question": "Se ha actualizado el software de un sistema de navegación porque sugería rutas que infringían las normas de tráfico, como conducir en sentido contrario en calles de sentido único.\n\n¿Cuál de las siguientes describe MEJOR las pruebas que se realizarán?  ",
     "options": [
       "A) Solo pruebas de confirmación",
       "B) Pruebas de confirmación y después pruebas de regresión",
@@ -1338,7 +1338,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes ejemplos de defectos:  \n  \ni. Dos partes distintas de la especificación de diseño se contradicen debido a la complejidad del diseño  \n  \nii. Un tiempo de respuesta es demasiado largo y hace perder la paciencia a los usuarios  \n  \niii. Un camino en el código no puede alcanzarse durante la ejecución  \n  \niv. Una variable se declara pero nunca se usa en el programa  \n  \nv. La cantidad de memoria que necesita el programa para generar un informe es excesiva. ¿Cuál de las siguientes identifica MEJOR los defectos que podrían encontrarse mediante pruebas estáticas (en lugar de dinámicas)?  ",
+    "question": "Dados los siguientes ejemplos de defectos:  \n  \ni. Dos partes distintas de la especificación de diseño se contradicen debido a la complejidad del diseño  \n  \nii. Un tiempo de respuesta es demasiado largo y hace perder la paciencia a los usuarios  \n  \niii. Un camino en el código no puede alcanzarse durante la ejecución  \n  \niv. Una variable se declara pero nunca se usa en el programa  \n  \nv. La cantidad de memoria que necesita el programa para generar un informe es excesiva.\n\n¿Cuál de las siguientes identifica MEJOR los defectos que podrían encontrarse mediante pruebas estáticas (en lugar de dinámicas)?  ",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -1353,7 +1353,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes tipos de revisión: ¿Cuál de las siguientes establece la MEJOR correspondencia?\n\n1. Revisión técnica\n2. Revisión informal\n3. Inspección\n4. Walkthrough\n\nA. Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar  \nB. Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos  \nC. El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso  \nD. El objetivo principal es detectar posibles defectos y no genera documentación formal de salida",
+    "question": "Dados los siguientes tipos de revisión:\n\n¿Cuál de las siguientes establece la MEJOR correspondencia?\n\n1. Revisión técnica\n2. Revisión informal\n3. Inspección\n4. Walkthrough\n\nA. Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar  \nB. Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos  \nC. El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso  \nD. El objetivo principal es detectar posibles defectos y no genera documentación formal de salida",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -1398,7 +1398,7 @@
     "id": 343,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás probando un validador de PIN que acepta PINs válidos y rechaza los inválidos. Un PIN es una secuencia de 4 dígitos donde cada dígito está entre 0 y 9. Aplicas partición de equivalencia al campo 'número de dígitos del PIN'. ¿Cuántas particiones hay en total (incluyendo las válidas e inválidas)?  ",
+    "question": "Estás probando un validador de PIN que acepta PINs válidos y rechaza los inválidos. Un PIN es una secuencia de 4 dígitos donde cada dígito está entre 0 y 9. Aplicas partición de equivalencia al campo 'número de dígitos del PIN'.\n\n¿Cuántas particiones hay en total (incluyendo las válidas e inválidas)?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -1413,7 +1413,7 @@
     "id": 344,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Se le pidió a un desarrollador que implementara la siguiente regla de negocio: ENTRADA: valor (número entero). SI (valor > 0) Y (valor ≤ 10) → Acción A. SI (valor > 10) Y (valor ≤ 20) → Acción B. SI (valor > 20) → Acción C. ¿Cuántos casos de prueba se necesitan como mínimo para lograr el 100% de cobertura de ramas (branch coverage)?  ",
+    "question": "Se le pidió a un desarrollador que implementara la siguiente regla de negocio: ENTRADA: valor (número entero). SI (valor > 0) Y (valor ≤ 10) → Acción A. SI (valor > 10) Y (valor ≤ 20) → Acción B. SI (valor > 20) → Acción C.\n\n¿Cuántos casos de prueba se necesitan como mínimo para lograr el 100% de cobertura de ramas (branch coverage)?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -1428,7 +1428,7 @@
     "id": 345,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás trabajando en un proyecto para desarrollar un sistema de análisis de resultados de exámenes de conducción. Se te ha pedido que diseñes casos de prueba usando pruebas de tabla de decisión para la siguiente regla: Un candidato APRUEBA si obtiene al menos 43 de 50 respuestas correctas Y no comete ningún fallo grave. Un candidato SUSPENDE en cualquier otro caso. ¿Cuántas reglas (columnas) tendrá la tabla de decisión completa?  ",
+    "question": "Estás trabajando en un proyecto para desarrollar un sistema de análisis de resultados de exámenes de conducción. Se te ha pedido que diseñes casos de prueba usando pruebas de tabla de decisión para la siguiente regla: Un candidato APRUEBA si obtiene al menos 43 de 50 respuestas correctas Y no comete ningún fallo grave. Un candidato SUSPENDE en cualquier otro caso.\n\n¿Cuántas reglas (columnas) tendrá la tabla de decisión completa?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -1443,7 +1443,7 @@
     "id": 346,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás diseñando casos de prueba basándote en un diagrama de transición de estados. ¿Cuál es el número MÍNIMO de casos de prueba necesarios para lograr cobertura de todas las transiciones válidas (100%)?  ",
+    "question": "Estás diseñando casos de prueba basándote en un diagrama de transición de estados.\n\n¿Cuál es el número MÍNIMO de casos de prueba necesarios para lograr cobertura de todas las transiciones válidas (100%)?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -1458,7 +1458,7 @@
     "id": 347,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Quieres aplicar pruebas de ramas al código representado por el siguiente grafo de flujo de control. ¿Cuántos casos de prueba se necesitan como MÍNIMO para lograr el 100% de cobertura de ramas?  ",
+    "question": "Quieres aplicar pruebas de ramas al código representado por el siguiente grafo de flujo de control.\n\n¿Cuántos casos de prueba se necesitan como MÍNIMO para lograr el 100% de cobertura de ramas?  ",
     "options": [
       "A) 1",
       "B) 2",
@@ -1488,7 +1488,7 @@
     "id": 349,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Considera la siguiente lista de posibles defectos: • Entrada correcta no aceptada • Entrada incorrecta aceptada • Salida incorrecta producida • Funcionalidad omitida. ¿Cuál de las siguientes técnicas de prueba está diseñada ESPECÍFICAMENTE para detectar todos estos tipos de defectos?  ",
+    "question": "Considera la siguiente lista de posibles defectos: • Entrada correcta no aceptada • Entrada incorrecta aceptada • Salida incorrecta producida • Funcionalidad omitida.\n\n¿Cuál de las siguientes técnicas de prueba está diseñada ESPECÍFICAMENTE para detectar todos estos tipos de defectos?  ",
     "options": [
       "A) Pruebas de partición de equivalencia",
       "B) Pruebas de tabla de decisión",
@@ -1533,7 +1533,7 @@
     "id": 352,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás usando desarrollo guiado por pruebas de aceptación (ATDD) y diseñando casos de prueba basados en la siguiente historia de usuario: 'Como usuario registrado, quiero poder cambiar mi contraseña, para mantener mi cuenta segura.' ¿Cuál de los siguientes casos de prueba NO es relevante para esta historia de usuario?  ",
+    "question": "Estás usando desarrollo guiado por pruebas de aceptación (ATDD) y diseñando casos de prueba basados en la siguiente historia de usuario: 'Como usuario registrado, quiero poder cambiar mi contraseña, para mantener mi cuenta segura.'\n\n¿Cuál de los siguientes casos de prueba NO es relevante para esta historia de usuario?  ",
     "options": [
       "A) Verificar que el usuario puede cambiar su contraseña introduciendo la contraseña actual correcta y una nueva contraseña válida",
       "B) Verificar que el sistema rechaza el cambio si la contraseña actual introducida es incorrecta",
@@ -1578,7 +1578,7 @@
     "id": 355,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Estás preparando un calendario de ejecución de pruebas para 7 casos de prueba (TC1-TC7).  \n  \nLas dependencias son:  \n- TC2 depende de TC1  \n- TC4 depende de TC2 y TC3  \n- TC5 depende de TC3  \n- TC6 depende de TC4 y TC5  \n- TC7 depende de TC6  \n  \nLas prioridades (1=mayor) son: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.  \n  \n¿Cuál es el orden correcto de ejecución respetando dependencias y prioridades?  ",
+    "question": "Estás preparando un calendario de ejecución de pruebas para 7 casos de prueba (TC1-TC7).  \n  \nLas dependencias son:  \n- TC2 depende de TC1  \n- TC4 depende de TC2 y TC3  \n- TC5 depende de TC3  \n- TC6 depende de TC4 y TC5  \n- TC7 depende de TC6  \n  \nLas prioridades (1=mayor) son: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\n¿Cuál es el orden correcto de ejecución respetando dependencias y prioridades?  ",
     "options": [
       "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
       "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
@@ -1668,7 +1668,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Considera el siguiente informe de defecto para una aplicación web de compras: Aplicación: WebShop v0.9.1. Módulo: Carrito de compra. Resumen: 'El botón Eliminar del carrito no funciona cuando hay exactamente 1 artículo'. Pasos:  \n  \n1) Iniciar sesión  \n  \n2) Añadir 1 artículo al carrito  \n  \n3) Hacer clic en Eliminar. Resultado esperado: El artículo se elimina y el carrito queda vacío. Resultado real: Nada ocurre. ¿Cuál de los siguientes elementos está AUSENTE en este informe de defecto?  ",
+    "question": "Considera el siguiente informe de defecto para una aplicación web de compras: Aplicación: WebShop v0.9.1. Módulo: Carrito de compra. Resumen: 'El botón Eliminar del carrito no funciona cuando hay exactamente 1 artículo'. Pasos:  \n  \n1) Iniciar sesión  \n  \n2) Añadir 1 artículo al carrito  \n  \n3) Hacer clic en Eliminar. Resultado esperado: El artículo se elimina y el carrito queda vacío. Resultado real: Nada ocurre.\n\n¿Cuál de los siguientes elementos está AUSENTE en este informe de defecto?  ",
     "options": [
       "A) El identificador del caso de prueba que reveló el defecto",
       "B) Los datos de entorno/configuración del sistema",
@@ -1698,7 +1698,7 @@
     "id": 363,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Un diseñador documenta un diseño para una interfaz de usuario que no atiende adecuadamente a usuarios con discapacidad visual porque el diseñador no era consciente de los requisitos de accesibilidad. ¿Cómo se clasifica esto según la terminología ISTQB?  ",
+    "question": "Un diseñador documenta un diseño para una interfaz de usuario que no atiende adecuadamente a usuarios con discapacidad visual porque el diseñador no era consciente de los requisitos de accesibilidad.\n\n¿Cómo se clasifica esto según la terminología ISTQB?  ",
     "options": [
       "A) El diseñador cometió un fallo que introdujo un error en el diseño",
       "B) El diseñador cometió un error que introdujo un defecto en el diseño",
@@ -1713,7 +1713,7 @@
     "id": 364,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Los testers usan condiciones de prueba para generar casos de prueba y ejecutar pruebas. Aunque las condiciones de prueba permanecen iguales, los casos de prueba varían en cada ocasión. ¿Cuál de los 'principios de las pruebas' se está aplicando mediante la variación de los casos de prueba?  ",
+    "question": "Los testers usan condiciones de prueba para generar casos de prueba y ejecutar pruebas. Aunque las condiciones de prueba permanecen iguales, los casos de prueba varían en cada ocasión.\n\n¿Cuál de los 'principios de las pruebas' se está aplicando mediante la variación de los casos de prueba?  ",
     "options": [
       "A) Las pruebas se desgastan (paradoja del pesticida)",
       "B) La falacia de ausencia de defectos",
@@ -1728,7 +1728,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dado el siguiente testware:  \n  \ni. Informe de finalización de pruebas  \n  \nii. Datos en una base de datos usados como entradas y resultados esperados  \n  \niii. Lista de elementos necesarios para construir el entorno de prueba  \n  \niv. Secuencias documentadas de casos de prueba en orden de ejecución  \n  \nv. Casos de prueba. ¿Cuál de las siguientes muestra MEJOR el testware producido como resultado de realizar la implementación de pruebas?  ",
+    "question": "Dado el siguiente testware:  \n  \ni. Informe de finalización de pruebas  \n  \nii. Datos en una base de datos usados como entradas y resultados esperados  \n  \niii. Lista de elementos necesarios para construir el entorno de prueba  \n  \niv. Secuencias documentadas de casos de prueba en orden de ejecución  \n  \nv. Casos de prueba.\n\n¿Cuál de las siguientes muestra MEJOR el testware producido como resultado de realizar la implementación de pruebas?  ",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -1773,7 +1773,7 @@
     "id": 368,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dados los siguientes beneficios e inconvenientes de la independencia de las pruebas:  \n  \ni. Los testers trabajan en un lugar distinto al de los desarrolladores  \n  \nii. Los testers cuestionan los supuestos que los programadores hacen al escribir código  \n  \niii. Se ha establecido una dinámica de confrontación entre testers y desarrolladores  \n  \niv. Los desarrolladores se han convencido de que los testers son los principales responsables de la calidad  \n  \nv. Los testers tienen sesgos diferentes a los de los desarrolladores. ¿Cuáles son MÁS PROBABLEMENTE considerados beneficios?  ",
+    "question": "Dados los siguientes beneficios e inconvenientes de la independencia de las pruebas:  \n  \ni. Los testers trabajan en un lugar distinto al de los desarrolladores  \n  \nii. Los testers cuestionan los supuestos que los programadores hacen al escribir código  \n  \niii. Se ha establecido una dinámica de confrontación entre testers y desarrolladores  \n  \niv. Los desarrolladores se han convencido de que los testers son los principales responsables de la calidad  \n  \nv. Los testers tienen sesgos diferentes a los de los desarrolladores.\n\n¿Cuáles son MÁS PROBABLEMENTE considerados beneficios?  ",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -1878,7 +1878,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dadas las siguientes descripciones de actividades de revisión:  \n  \n1. Las anomalías detectadas se debaten y se toman decisiones sobre su estado, propietario y pasos siguientes  \n  \n2. Los defectos se registran y las actualizaciones necesarias se abordan antes de la aceptación del producto de trabajo  \n  \n3. Los revisores emplean técnicas para generar sugerencias y preguntas sobre el producto de trabajo e identificar anomalías  \n  \n4. El objetivo de la revisión y su calendario se establecen para garantizar una revisión enfocada y eficiente  \n  \n5. Los participantes reciben acceso al elemento a revisar. ¿Cuál es la secuencia CORRECTA de actividades del proceso de revisión?  ",
+    "question": "Dadas las siguientes descripciones de actividades de revisión:  \n  \n1. Las anomalías detectadas se debaten y se toman decisiones sobre su estado, propietario y pasos siguientes  \n  \n2. Los defectos se registran y las actualizaciones necesarias se abordan antes de la aceptación del producto de trabajo  \n  \n3. Los revisores emplean técnicas para generar sugerencias y preguntas sobre el producto de trabajo e identificar anomalías  \n  \n4. El objetivo de la revisión y su calendario se establecen para garantizar una revisión enfocada y eficiente  \n  \n5. Los participantes reciben acceso al elemento a revisar.\n\n¿Cuál es la secuencia CORRECTA de actividades del proceso de revisión?  ",
     "options": [
       "A) 4 – 3 – 5 – 2 – 1",
       "B) 4 – 5 – 3 – 1 – 2",
@@ -1908,7 +1908,7 @@
     "id": 377,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Realizas pruebas de sistema de una aplicación web de comercio electrónico y se te proporciona el siguiente requisito: REQ 05-017. Si el costo total de las compras supera los $100, el cliente obtiene un 5% de descuento en compras posteriores. De lo contrario, el cliente no recibe ningún descuento. ¿Qué técnicas de prueba serán MÁS útiles para diseñar casos de prueba basados en este requisito?  ",
+    "question": "Realizas pruebas de sistema de una aplicación web de comercio electrónico y se te proporciona el siguiente requisito: REQ 05-017. Si el costo total de las compras supera los $100, el cliente obtiene un 5% de descuento en compras posteriores. De lo contrario, el cliente no recibe ningún descuento.\n\n¿Qué técnicas de prueba serán MÁS útiles para diseñar casos de prueba basados en este requisito?  ",
     "options": [
       "A) Técnicas de prueba de caja blanca",
       "B) Técnicas de prueba de caja negra",
@@ -1923,7 +1923,7 @@
     "id": 378,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "El sistema de venta de entradas de cine calcula el tipo de descuento basado en el año de nacimiento (AN) del cliente y en el año actual (AA) de la siguiente manera: Sea D la diferencia entre AA y AN, es decir, D = AA – AN. • Si D < 0, muestra el error 'el año de nacimiento no puede ser mayor que el año actual'. • Si 0 ≤ D < 18, aplica el descuento de estudiante. • Si 18 ≤ D < 65, no aplica ningún descuento. • Si D ≥ 65, aplica el descuento de jubilado. Tu conjunto de pruebas ya contiene dos casos: • AN = 1990, AA = 2020, resultado esperado: ningún descuento. • AN = 2030, AA = 2029, resultado esperado: mostrar error. ¿Cuál de los siguientes conjuntos de datos de prueba debería añadirse para lograr una cobertura completa de partición de equivalencia válida para el tipo de descuento?  ",
+    "question": "El sistema de venta de entradas de cine calcula el tipo de descuento basado en el año de nacimiento (AN) del cliente y en el año actual (AA) de la siguiente manera: Sea D la diferencia entre AA y AN, es decir, D = AA – AN. • Si D < 0, muestra el error 'el año de nacimiento no puede ser mayor que el año actual'. • Si 0 ≤ D < 18, aplica el descuento de estudiante. • Si 18 ≤ D < 65, no aplica ningún descuento. • Si D ≥ 65, aplica el descuento de jubilado. Tu conjunto de pruebas ya contiene dos casos: • AN = 1990, AA = 2020, resultado esperado: ningún descuento. • AN = 2030, AA = 2029, resultado esperado: mostrar error.\n\n¿Cuál de los siguientes conjuntos de datos de prueba debería añadirse para lograr una cobertura completa de partición de equivalencia válida para el tipo de descuento?  ",
     "options": [
       "A) AN = 2001, AA = 2065",
       "B) AN = 1900, AA = 1965",
@@ -1953,7 +1953,7 @@
     "id": 380,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás diseñando casos de prueba basados en una tabla de decisión de edades y experiencia. Hasta ahora has diseñado 4 casos de prueba. ¿Cuál de los siguientes casos de prueba, al añadirse al conjunto existente, aumentará la cobertura de la tabla de decisión?  ",
+    "question": "Estás diseñando casos de prueba basados en una tabla de decisión de edades y experiencia. Hasta ahora has diseñado 4 casos de prueba.\n\n¿Cuál de los siguientes casos de prueba, al añadirse al conjunto existente, aumentará la cobertura de la tabla de decisión?  ",
     "options": [
       "A) Hombre de 66 años, no registrado, sin experiencia; resultado esperado: categoría B",
       "B) Mujer de 55 años, no registrada, con 2 años de experiencia; resultado esperado: categoría A",
@@ -1983,7 +1983,7 @@
     "id": 382,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Tu conjunto de pruebas S para un programa P logra el 100% de cobertura de sentencias. Consta de tres casos de prueba, cada uno de los cuales logra el 50% de cobertura de sentencias. ¿Cuál de las siguientes afirmaciones es CORRECTA?  ",
+    "question": "Tu conjunto de pruebas S para un programa P logra el 100% de cobertura de sentencias. Consta de tres casos de prueba, cada uno de los cuales logra el 50% de cobertura de sentencias.\n\n¿Cuál de las siguientes afirmaciones es CORRECTA?  ",
     "options": [
       "A) Ejecutar S causará todas las fallas posibles en P",
       "B) S logra el 100% de cobertura de ramas para P",
@@ -2058,7 +2058,7 @@
     "id": 387,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás diseñando casos de prueba para una historia de usuario donde el cliente quiere filtrar productos por rango de precio. Precondición: solo hay dos productos disponibles, A ($100) y B ($110). ¿Cuál es el MEJOR ejemplo de caso de prueba para esta historia de usuario?  ",
+    "question": "Estás diseñando casos de prueba para una historia de usuario donde el cliente quiere filtrar productos por rango de precio. Precondición: solo hay dos productos disponibles, A ($100) y B ($110).\n\n¿Cuál es el MEJOR ejemplo de caso de prueba para esta historia de usuario?  ",
     "options": [
       "A) Entrar a la web y fijar filtro entre $90 y $100. Resultado: solo muestra A. Cambiar máximo a $110. Resultado: muestra A y B.",
       "B) Entrar a la web. Añadir producto C con precio $120. Actualizar página. Resultado: el precio máximo predeterminado cambia a $120.",
@@ -2133,7 +2133,7 @@
     "id": 392,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Para un riesgo dado, el nivel de riesgo es de $1,000 y su probabilidad se estima en un 50%. ¿Cuál es el impacto del riesgo?  ",
+    "question": "Para un riesgo dado, el nivel de riesgo es de $1,000 y su probabilidad se estima en un 50%.\n\n¿Cuál es el impacto del riesgo?  ",
     "options": [
       "A) $500",
       "B) $2,000",
@@ -2178,7 +2178,7 @@
     "id": 395,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Un usuario reportó una falla. Soporte le pidió la versión del software. Con esa versión, el equipo reconstruyó los archivos del lanzamiento, lo que permitió al desarrollador analizar y corregir el defecto. ¿Qué proceso permitió realizar esta actividad?  ",
+    "question": "Un usuario reportó una falla. Soporte le pidió la versión del software. Con esa versión, el equipo reconstruyó los archivos del lanzamiento, lo que permitió al desarrollador analizar y corregir el defecto.\n\n¿Qué proceso permitió realizar esta actividad?  ",
     "options": [
       "A) Gestión de riesgos",
       "B) Monitorización y control de pruebas",
@@ -2193,7 +2193,7 @@
     "id": 396,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Considera un informe de defecto de un Sistema de Préstamo de Libros. ¿Cuál de las siguientes acciones ayudaría MÁS al desarrollador a reproducir la falla rápidamente?  ",
+    "question": "Considera un informe de defecto de un Sistema de Préstamo de Libros.\n\n¿Cuál de las siguientes acciones ayudaría MÁS al desarrollador a reproducir la falla rápidamente?  ",
     "options": [
       "A) Añadir información sobre qué usuarios y qué libros se ven afectados en la sección de 'Descripción'",
       "B) Llenar el valor faltante del campo 'Prioridad'",
@@ -2208,7 +2208,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Dadas las categorías de herramientas de prueba (i. Colaboración,  \n  \nii. DevOps,  \n  \niii. Gestión,  \n  \niv. No funcionales,  \n  \nv. Diseño/Implementación). ¿Herramientas de cuáles categorías son MÁS propensas a facilitar la ejecución de pruebas?  ",
+    "question": "Dadas las categorías de herramientas de prueba (i. Colaboración,  \n  \nii. DevOps,  \n  \niii. Gestión,  \n  \niv. No funcionales,  \n  \nv. Diseño/Implementación).\n\n¿Herramientas de cuáles categorías son MÁS propensas a facilitar la ejecución de pruebas?  ",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -2238,7 +2238,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dadas las siguientes tareas de prueba: ¿Cuál es el MEJOR emparejamiento?\n\n1. Derivar casos de prueba desde condiciones\n2. Identificar testware reutilizable\n3. Organizar casos en procedimientos\n4. Evaluar la base de prueba\n\nA. Análisis  \nB. Diseño  \nC. Implementación  \nD. Finalización",
+    "question": "Dadas las siguientes tareas de prueba:\n\n¿Cuál es el MEJOR emparejamiento?\n\n1. Derivar casos de prueba desde condiciones\n2. Identificar testware reutilizable\n3. Organizar casos en procedimientos\n4. Evaluar la base de prueba\n\nA. Análisis  \nB. Diseño  \nC. Implementación  \nD. Finalización",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -2280,7 +2280,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás diseñando una tabla de decisión para un sistema de préstamos con 3 condiciones booleanas (ingresos suficientes, historial crediticio bueno, garantía aportada). ¿Cuántas columnas de reglas tendrá la tabla completa?  ",
+    "question": "Estás diseñando una tabla de decisión para un sistema de préstamos con 3 condiciones booleanas (ingresos suficientes, historial crediticio bueno, garantía aportada).\n\n¿Cuántas columnas de reglas tendrá la tabla completa?  ",
     "options": [
       "A) 3",
       "B) 6",
@@ -2294,7 +2294,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Un cajero automático tiene estados: Inactivo, Esperando PIN, Verificando, Dispensando, Bloqueado. Si introduces 3 PINs incorrectos consecutivos, la transición va a 'Bloqueado'. ¿Qué técnica de diseño de pruebas es MÁS adecuada para modelar y verificar este comportamiento?  ",
+    "question": "Un cajero automático tiene estados: Inactivo, Esperando PIN, Verificando, Dispensando, Bloqueado. Si introduces 3 PINs incorrectos consecutivos, la transición va a 'Bloqueado'.\n\n¿Qué técnica de diseño de pruebas es MÁS adecuada para modelar y verificar este comportamiento?  ",
     "options": [
       "A) Partición de equivalencia",
       "B) Valores límite",
@@ -2322,7 +2322,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Trabajas en una app de reserva de vuelos. Estás aplicando el método de 'casos de uso' para diseñar pruebas. ¿Qué flujo DEBES probar para encontrar los defectos más críticos en el flujo de reserva?  ",
+    "question": "Trabajas en una app de reserva de vuelos. Estás aplicando el método de 'casos de uso' para diseñar pruebas.\n\n¿Qué flujo DEBES probar para encontrar los defectos más críticos en el flujo de reserva?  ",
     "options": [
       "A) Solo el flujo básico (camino feliz)",
       "B) Solo los flujos alternativos de error",
@@ -2378,7 +2378,7 @@
   {
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "En un proyecto con modelo en V, el equipo recibe los requisitos del sistema el día 1. ¿En qué momento deberían comenzar a diseñarse las pruebas de sistema?  ",
+    "question": "En un proyecto con modelo en V, el equipo recibe los requisitos del sistema el día 1.\n\n¿En qué momento deberían comenzar a diseñarse las pruebas de sistema?  ",
     "options": [
       "A) Cuando el código del sistema esté completamente desarrollado",
       "B) Después de completar las pruebas de integración",
@@ -2392,7 +2392,7 @@
   {
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Tu equipo trabaja en Scrum con sprints de 2 semanas. Al inicio del sprint, el equipo tiene 8 historias de usuario. ¿Cuándo deberían los testers comenzar a trabajar en esas historias?  ",
+    "question": "Tu equipo trabaja en Scrum con sprints de 2 semanas. Al inicio del sprint, el equipo tiene 8 historias de usuario.\n\n¿Cuándo deberían los testers comenzar a trabajar en esas historias?  ",
     "options": [
       "A) En el último día del sprint, durante la demo",
       "B) Desde el primer día, colaborando en la definición de criterios de aceptación y casos de prueba",
@@ -2406,7 +2406,7 @@
   {
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Durante una inspección de requisitos, el moderador encuentra la frase: 'El sistema deberá ser rápido'. ¿Qué tipo de defecto de requisito representa esta afirmación?  ",
+    "question": "Durante una inspección de requisitos, el moderador encuentra la frase: 'El sistema deberá ser rápido'.\n\n¿Qué tipo de defecto de requisito representa esta afirmación?  ",
     "options": [
       "A) Requisito duplicado",
       "B) Requisito ambiguo y no verificable",
@@ -2420,7 +2420,7 @@
   {
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Una herramienta de análisis estático reporta: 'Variable x declarada pero nunca utilizada en la función calcularTotal()'. ¿Cómo se clasifica este hallazgo en terminología ISTQB?  ",
+    "question": "Una herramienta de análisis estático reporta: 'Variable x declarada pero nunca utilizada en la función calcularTotal()'.\n\n¿Cómo se clasifica este hallazgo en terminología ISTQB?  ",
     "options": [
       "A) Failure (falla)",
       "B) Error (mistake)",
@@ -2434,7 +2434,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Eres test manager y debes estimar el esfuerzo de prueba para un nuevo proyecto. Tienes datos históricos de 5 proyectos similares. ¿Qué enfoque de estimación usarías PRINCIPALMENTE?  ",
+    "question": "Eres test manager y debes estimar el esfuerzo de prueba para un nuevo proyecto. Tienes datos históricos de 5 proyectos similares.\n\n¿Qué enfoque de estimación usarías PRINCIPALMENTE?  ",
     "options": [
       "A) Wideband Delphi exclusivamente",
       "B) Estimación basada en métricas usando datos históricos de proyectos similares",
@@ -2448,7 +2448,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Tu plan de pruebas indica 200 casos de prueba planificados para la semana. Al final de la semana, ejecutaste 140 y encontraste 25 defectos, de los cuales 8 son críticos aún sin corregir. ¿Qué información es la MÁS relevante para decidir si se libera el software?  ",
+    "question": "Tu plan de pruebas indica 200 casos de prueba planificados para la semana. Al final de la semana, ejecutaste 140 y encontraste 25 defectos, de los cuales 8 son críticos aún sin corregir.\n\n¿Qué información es la MÁS relevante para decidir si se libera el software?  ",
     "options": [
       "A) Solo el porcentaje de ejecución (70%)",
       "B) Solo el número total de defectos (25)",
@@ -2462,7 +2462,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Un defecto tiene severidad 'crítica' (el sistema se cae) pero prioridad 'baja' asignada por el product owner. ¿Cuál es la explicación MÁS probable?  ",
+    "question": "Un defecto tiene severidad 'crítica' (el sistema se cae) pero prioridad 'baja' asignada por el product owner.\n\n¿Cuál es la explicación MÁS probable?  ",
     "options": [
       "A) Es un error; severidad y prioridad siempre deben coincidir",
       "B) El defecto afecta una funcionalidad raramente usada o no crítica para el negocio en este momento",
@@ -2476,7 +2476,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Trabajas en un proyecto con riesgo de producto identificado: 'El módulo de pagos podría fallar bajo carga alta'. ¿Qué tipo de prueba deberías priorizar para mitigar este riesgo?  ",
+    "question": "Trabajas en un proyecto con riesgo de producto identificado: 'El módulo de pagos podría fallar bajo carga alta'.\n\n¿Qué tipo de prueba deberías priorizar para mitigar este riesgo?  ",
     "options": [
       "A) Pruebas de regresión del módulo de pagos",
       "B) Pruebas de rendimiento/carga en el módulo de pagos",
@@ -2490,7 +2490,7 @@
   {
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Tu organización quiere implementar una herramienta de automatización de pruebas de GUI. ¿Cuál de los siguientes factores representa el MAYOR riesgo a largo plazo?  ",
+    "question": "Tu organización quiere implementar una herramienta de automatización de pruebas de GUI.\n\n¿Cuál de los siguientes factores representa el MAYOR riesgo a largo plazo?  ",
     "options": [
       "A) El costo inicial de la licencia de la herramienta",
       "B) La fragilidad de los scripts cuando la interfaz de usuario cambia frecuentemente",
@@ -2588,7 +2588,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Analiza el siguiente diagrama de flujo: START → A → IF X THEN B ELSE C → IF Y THEN D ELSE E → END. ¿Cuántos casos de prueba son necesarios para lograr 100% de cobertura de sentencias?  ",
+    "question": "Analiza el siguiente diagrama de flujo: START → A → IF X THEN B ELSE C → IF Y THEN D ELSE E → END.\n\n¿Cuántos casos de prueba son necesarios para lograr 100% de cobertura de sentencias?  ",
     "options": [
       "A) 1",
       "B) 2",
@@ -2616,7 +2616,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Un sistema de semáforo tiene estados: Rojo, Ámbar_a_Verde, Verde, Ámbar_a_Rojo. La transición Rojo→Ámbar_a_Verde ocurre tras 60 segundos. ¿Cuántas transiciones válidas tiene el diagrama completo del semáforo?  ",
+    "question": "Un sistema de semáforo tiene estados: Rojo, Ámbar_a_Verde, Verde, Ámbar_a_Rojo. La transición Rojo→Ámbar_a_Verde ocurre tras 60 segundos.\n\n¿Cuántas transiciones válidas tiene el diagrama completo del semáforo?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -2630,7 +2630,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Estás probando una función de búsqueda. Según tu experiencia, sabes que las búsquedas con caracteres especiales (%, _, *) suelen causar inyección SQL. ¿Qué técnica basada en experiencia estás usando?  ",
+    "question": "Estás probando una función de búsqueda. Según tu experiencia, sabes que las búsquedas con caracteres especiales (%, _, *) suelen causar inyección SQL.\n\n¿Qué técnica basada en experiencia estás usando?  ",
     "options": [
       "A) Exploración estructurada",
       "B) Error guessing (predicción de errores)",
@@ -2658,7 +2658,7 @@
   {
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Tu empresa desarrolla software de control de vuelos. El costo de fallar es catastrófico. ¿Cuál de los siguientes principios ISTQB justifica invertir más en pruebas que en proyectos de bajo riesgo?  ",
+    "question": "Tu empresa desarrolla software de control de vuelos. El costo de fallar es catastrófico.\n\n¿Cuál de los siguientes principios ISTQB justifica invertir más en pruebas que en proyectos de bajo riesgo?  ",
     "options": [
       "A) Las pruebas exhaustivas son posibles con suficientes recursos",
       "B) Las pruebas dependen del contexto: el nivel de rigor debe adecuarse al riesgo y consecuencias del fallo",
@@ -2672,7 +2672,7 @@
   {
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Durante las pruebas de sistema, se encuentra un defecto en el módulo de facturación. El desarrollador lo corrige. Después, el tester descubre que la corrección introdujo un nuevo error en el módulo de inventario. ¿Cómo se llama este tipo de defecto introducido?  ",
+    "question": "Durante las pruebas de sistema, se encuentra un defecto en el módulo de facturación. El desarrollador lo corrige. Después, el tester descubre que la corrección introdujo un nuevo error en el módulo de inventario.\n\n¿Cómo se llama este tipo de defecto introducido?  ",
     "options": [
       "A) Defecto de regresión",
       "B) Defecto de integración",
@@ -2714,7 +2714,7 @@
   {
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Un equipo DevOps implementa CI/CD. Las pruebas se ejecutan automáticamente en cada commit. ¿Qué tipo de pruebas son MÁS apropiadas para ejecutar en cada build del pipeline de CI?  ",
+    "question": "Un equipo DevOps implementa CI/CD. Las pruebas se ejecutan automáticamente en cada commit.\n\n¿Qué tipo de pruebas son MÁS apropiadas para ejecutar en cada build del pipeline de CI?  ",
     "options": [
       "A) Pruebas de aceptación del usuario completas",
       "B) Pruebas exploratorias manuales",
@@ -2728,7 +2728,7 @@
   {
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Una organización realiza una revisión donde: existe un moderador independiente, los revisores preparan individualmente, se registran métricas de defectos, y se produce un informe formal. ¿Qué tipo de revisión es?  ",
+    "question": "Una organización realiza una revisión donde: existe un moderador independiente, los revisores preparan individualmente, se registran métricas de defectos, y se produce un informe formal.\n\n¿Qué tipo de revisión es?  ",
     "options": [
       "A) Revisión informal",
       "B) Walkthrough",
@@ -2756,7 +2756,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Eres test manager. El proyecto tiene 2 semanas de retraso. El director pide reducir el tiempo de pruebas a la mitad. ¿Cuál es la respuesta MÁS profesional?  ",
+    "question": "Eres test manager. El proyecto tiene 2 semanas de retraso. El director pide reducir el tiempo de pruebas a la mitad.\n\n¿Cuál es la respuesta MÁS profesional?  ",
     "options": [
       "A) Aceptar y ejecutar todas las pruebas más rápido",
       "B) Eliminar al azar la mitad de los casos de prueba",
@@ -2798,7 +2798,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Se aplica 'pairwise testing' (testing por pares) a un sistema con 5 parámetros, cada uno con 3 valores posibles. Si se probaran todas las combinaciones sería 3⁵=243 casos. ¿Para qué sirve pairwise?  ",
+    "question": "Se aplica 'pairwise testing' (testing por pares) a un sistema con 5 parámetros, cada uno con 3 valores posibles. Si se probaran todas las combinaciones sería 3⁵=243 casos.\n\n¿Para qué sirve pairwise?  ",
     "options": [
       "A) Para probar todas las combinaciones posibles sistemáticamente",
       "B) Para reducir el número de casos de prueba asegurando que cada par de valores aparezca al menos una vez",
@@ -2938,7 +2938,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "CASO PRÁCTICO: Sistema de votación online. Condiciones de voto: (1) Ciudadano registrado, (2) Mayor de 18 años, (3) No ha votado ya. Solo puede votar si cumple las 3. Diseña la tabla de decisión mínima. ¿Cuántas reglas distintas de comportamiento (no reglas imposibles) existen?  ",
+    "question": "CASO PRÁCTICO: Sistema de votación online. Condiciones de voto: (1) Ciudadano registrado, (2) Mayor de 18 años, (3) No ha votado ya. Solo puede votar si cumple las 3. Diseña la tabla de decisión mínima.\n\n¿Cuántas reglas distintas de comportamiento (no reglas imposibles) existen?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -2952,7 +2952,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "CASO PRÁCTICO: Pruebas de un semáforo peatonal. Estados: ROJO_PEATÓN, VERDE_PEATÓN, PARPADEO. Transiciones: ROJO→VERDE (tras 60s), VERDE→PARPADEO (tras 25s), PARPADEO→ROJO (tras 5s). ¿Qué cobertura de 0-switches (todas las transiciones) requiere como mínimo?  ",
+    "question": "CASO PRÁCTICO: Pruebas de un semáforo peatonal. Estados: ROJO_PEATÓN, VERDE_PEATÓN, PARPADEO. Transiciones: ROJO→VERDE (tras 60s), VERDE→PARPADEO (tras 25s), PARPADEO→ROJO (tras 5s).\n\n¿Qué cobertura de 0-switches (todas las transiciones) requiere como mínimo?  ",
     "options": [
       "A) 1 caso de prueba",
       "B) 2 casos de prueba",
@@ -2966,7 +2966,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "CASO PRÁCTICO: Tienes 100 casos de prueba para ejecutar en 5 días. Tras 3 días has ejecutado 50 casos, encontrado 15 defectos (5 críticos), y el equipo de desarrollo ha corregido 8. Los criterios de salida requieren: 90% de ejecución, 0 defectos críticos abiertos. ¿Cuál es tu situación?  ",
+    "question": "CASO PRÁCTICO: Tienes 100 casos de prueba para ejecutar en 5 días. Tras 3 días has ejecutado 50 casos, encontrado 15 defectos (5 críticos), y el equipo de desarrollo ha corregido 8. Los criterios de salida requieren: 90% de ejecución, 0 defectos críticos abiertos.\n\n¿Cuál es tu situación?  ",
     "options": [
       "A) Puedes liberar: has cumplido los criterios de salida",
       "B) No puedes liberar: faltan casos de prueba y tienes defectos críticos abiertos",
@@ -2994,7 +2994,7 @@
   {
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "CASO PRÁCTICO: En una revisión de especificación de requisitos encuentras: 'El sistema deberá procesar las transacciones rápidamente y la interfaz deberá ser amigable'. ¿Qué tipos de defectos de requisitos hay?  ",
+    "question": "CASO PRÁCTICO: En una revisión de especificación de requisitos encuentras: 'El sistema deberá procesar las transacciones rápidamente y la interfaz deberá ser amigable'.\n\n¿Qué tipos de defectos de requisitos hay?  ",
     "options": [
       "A) Solo ambigüedad",
       "B) Ambigüedad ('rápidamente', 'amigable') y falta de verificabilidad: no son medibles ni testeables",
@@ -3008,7 +3008,7 @@
   {
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "CASO PRÁCTICO: El equipo ha ejecutado 500 pruebas y encontrado 0 defectos. El product owner quiere liberar el software afirmando que 'está libre de bugs'. ¿Cuál es tu respuesta basada en principios ISTQB?  ",
+    "question": "CASO PRÁCTICO: El equipo ha ejecutado 500 pruebas y encontrado 0 defectos. El product owner quiere liberar el software afirmando que 'está libre de bugs'.\n\n¿Cuál es tu respuesta basada en principios ISTQB?  ",
     "options": [
       "A) Estás de acuerdo, 500 pruebas sin defectos es suficiente evidencia",
       "B) Las pruebas solo muestran que no se encontraron defectos con ese conjunto de pruebas; no pueden demostrar su ausencia total (Principio 1). Liberar tiene riesgo residual",
@@ -3022,7 +3022,7 @@
   {
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "CASO PRÁCTICO: Un sistema de e-commerce tiene 3 niveles: Frontend (React), Backend API (Java), Base de datos (PostgreSQL). Al probar la función 'añadir al carrito', falla. El backend devuelve error 500. ¿Qué tipo de prueba de integración necesitas?  ",
+    "question": "CASO PRÁCTICO: Un sistema de e-commerce tiene 3 niveles: Frontend (React), Backend API (Java), Base de datos (PostgreSQL). Al probar la función 'añadir al carrito', falla. El backend devuelve error 500.\n\n¿Qué tipo de prueba de integración necesitas?  ",
     "options": [
       "A) Prueba de componente del frontend",
       "B) Prueba de integración entre frontend y backend API para verificar el contrato de la interfaz",
@@ -3036,7 +3036,7 @@
   {
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "CASO PRÁCTICO: Tu empresa quiere adoptar una herramienta de automatización de pruebas de API. El equipo evalúa: costo, curva de aprendizaje, integración con CI/CD, soporte de protocolos REST/SOAP, y mantenibilidad. ¿Cuál es el factor MÁS crítico para garantizar el éxito a largo plazo?  ",
+    "question": "CASO PRÁCTICO: Tu empresa quiere adoptar una herramienta de automatización de pruebas de API. El equipo evalúa: costo, curva de aprendizaje, integración con CI/CD, soporte de protocolos REST/SOAP, y mantenibilidad.\n\n¿Cuál es el factor MÁS crítico para garantizar el éxito a largo plazo?  ",
     "options": [
       "A) El menor costo de licencia",
       "B) La facilidad de mantenimiento y la integración con el pipeline CI/CD existente",
@@ -3064,7 +3064,7 @@
   {
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "CASO PRÁCTICO: Tu organización implementa revisiones de código obligatorias. El equipo de desarrollo se queja de que ralentizan el proceso. ¿Cuál es el argumento MÁS sólido para justificar las revisiones?  ",
+    "question": "CASO PRÁCTICO: Tu organización implementa revisiones de código obligatorias. El equipo de desarrollo se queja de que ralentizan el proceso.\n\n¿Cuál es el argumento MÁS sólido para justificar las revisiones?  ",
     "options": [
       "A) Son obligatorias por normativa, no hay alternativa",
       "B) El costo de corregir defectos encontrados en revisión es significativamente menor que corregirlos en producción",
@@ -3078,7 +3078,7 @@
   {
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "CASO PRÁCTICO: Estás gestionando pruebas de una app móvil. A 3 días de la release, tu equipo encuentra un defecto grave en el flujo de pago. El fix del desarrollador tomará 2 días. ¿Cuál es el proceso correcto según ISTQB?  ",
+    "question": "CASO PRÁCTICO: Estás gestionando pruebas de una app móvil. A 3 días de la release, tu equipo encuentra un defecto grave en el flujo de pago. El fix del desarrollador tomará 2 días.\n\n¿Cuál es el proceso correcto según ISTQB?  ",
     "options": [
       "A) Cancelar la release automáticamente",
       "B) Registrar el defecto, evaluar el impacto y riesgo, escalar para decisión de negocio sobre retrasar o liberar con workaround documentado",
@@ -3120,7 +3120,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Una especificación dice: 'Si el usuario es premium Y lleva más de 1 año, aplica 20% descuento'. ¿Qué técnica de diseño de pruebas es MÁS directamente aplicable a esta regla de negocio?  ",
+    "question": "Una especificación dice: 'Si el usuario es premium Y lleva más de 1 año, aplica 20% descuento'.\n\n¿Qué técnica de diseño de pruebas es MÁS directamente aplicable a esta regla de negocio?  ",
     "options": [
       "A) Análisis de valores límite",
       "B) Tablas de decisión",
@@ -3220,7 +3220,7 @@
     "id": 1002,
     "chapter": 1,
     "topic": "Fundamentos de Pruebas",
-    "question": "Una empresa de software desarrolla aplicaciones para el sector financiero. El equipo de dirección pregunta al jefe de pruebas por qué las pruebas son esenciales en su contexto, más allá de encontrar defectos. ¿Cuál de las siguientes razones describe MEJOR por qué las pruebas son necesarias en este contexto?  ",
+    "question": "Una empresa de software desarrolla aplicaciones para el sector financiero. El equipo de dirección pregunta al jefe de pruebas por qué las pruebas son esenciales en su contexto, más allá de encontrar defectos.\n\n¿Cuál de las siguientes razones describe MEJOR por qué las pruebas son necesarias en este contexto?  ",
     "options": [
       "Para demostrar que el software no tiene ningún defecto antes de su entrega.",
       "Para proporcionar confianza sobre el nivel de calidad del software y cumplir con los requisitos regulatorios del sector.",
@@ -3235,7 +3235,7 @@
     "id": 1003,
     "chapter": 1,
     "topic": "Principios de Prueba",
-    "question": "Estás evaluando la calidad de las pruebas realizadas en un software antes de su lanzamiento. Observas que aunque se han ejecutado muchas pruebas, aún persisten defectos significativos. ¿Cuál de los siete principios de prueba se refleja en esta situación?  ",
+    "question": "Estás evaluando la calidad de las pruebas realizadas en un software antes de su lanzamiento. Observas que aunque se han ejecutado muchas pruebas, aún persisten defectos significativos.\n\n¿Cuál de los siete principios de prueba se refleja en esta situación?  ",
     "options": [
       "Las pruebas exhaustivas son imposibles",
       "Los defectos se agrupan",
@@ -3250,7 +3250,7 @@
     "id": 1004,
     "chapter": 5,
     "topic": "Planificación de Pruebas",
-    "question": "Estás participando en un proyecto de software que desarrolla una plataforma de e-learning. El equipo ha decidido llevar a cabo pruebas de regresión en la versión actual del sistema. ¿Cuál de las siguientes actividades se realiza durante la fase de planificación de pruebas?  ",
+    "question": "Estás participando en un proyecto de software que desarrolla una plataforma de e-learning. El equipo ha decidido llevar a cabo pruebas de regresión en la versión actual del sistema.\n\n¿Cuál de las siguientes actividades se realiza durante la fase de planificación de pruebas?  ",
     "options": [
       "Definir qué funcionalidades se probarán en la próxima iteración.",
       "Ejecutar casos de prueba para verificar que la funcionalidad de la plataforma de e-learning funcione.",
@@ -3385,7 +3385,7 @@
     "id": 1014,
     "chapter": 2,
     "topic": "Regresión vs Confirmación",
-    "question": "Se ejecutaron los casos de prueba:  \n- TC1 Falló  \n- TC2 Pasó  \n- TC3 Falló  \n  \nDespués de las correcciones, se ejecutan nuevamente TC1, TC2 y TC3. ¿Cuáles de estas ejecuciones se consideran pruebas de regresión?  ",
+    "question": "Se ejecutaron los casos de prueba:  \n- TC1 Falló  \n- TC2 Pasó  \n- TC3 Falló  \n  \nDespués de las correcciones, se ejecutan nuevamente TC1, TC2 y TC3.\n\n¿Cuáles de estas ejecuciones se consideran pruebas de regresión?  ",
     "options": [
       "TC1",
       "TC2",
@@ -3430,7 +3430,7 @@
     "id": 1017,
     "chapter": 3,
     "topic": "Revisiones",
-    "question": "En su organización: No hay rol de moderador. El objetivo es encontrar defectos y mejorar. Se discute abiertamente. No se requiere documentación formal al final. ¿Qué tipo de revisión es?  ",
+    "question": "En su organización: No hay rol de moderador. El objetivo es encontrar defectos y mejorar. Se discute abiertamente. No se requiere documentación formal al final.\n\n¿Qué tipo de revisión es?  ",
     "options": [
       "Revisión informal",
       "Revisión técnica",
@@ -3490,7 +3490,7 @@
     "id": 1021,
     "chapter": 4,
     "topic": "Análisis de Valores Límite",
-    "question": "Campo 'Edad' acepta 16 a 65 años. Tu conjunto incluye: 15, 16, 17, 64, 65, 66. ¿Qué porcentaje de cobertura de Análisis de Valores Límite (AVL) de 3 valores logras?  ",
+    "question": "Campo 'Edad' acepta 16 a 65 años. Tu conjunto incluye: 15, 16, 17, 64, 65, 66.\n\n¿Qué porcentaje de cobertura de Análisis de Valores Límite (AVL) de 3 valores logras?  ",
     "options": [
       "50%",
       "67%",
@@ -3580,7 +3580,7 @@
     "id": 1027,
     "chapter": 4,
     "topic": "Pruebas Exploratorias",
-    "question": "Un equipo está creando una app móvil innovadora, y se usará pruebas exploratorias debido a falta de documentación. ¿Cuál de las siguientes afirmaciones sobre las pruebas exploratorias es CORRECTA?  ",
+    "question": "Un equipo está creando una app móvil innovadora, y se usará pruebas exploratorias debido a falta de documentación.\n\n¿Cuál de las siguientes afirmaciones sobre las pruebas exploratorias es CORRECTA?  ",
     "options": [
       "Las pruebas exploratorias son siempre menos efectivas que las pruebas basadas en requisitos.",
       "Las pruebas exploratorias permiten a los testers adaptarse rápidamente a cambios en el software.",
@@ -3610,7 +3610,7 @@
     "id": 1029,
     "chapter": 4,
     "topic": "ATDD",
-    "question": "Un equipo ágil usa ATDD. ¿Cuándo se crean los casos de prueba de aceptación en el enfoque ATDD?  ",
+    "question": "Un equipo ágil usa ATDD.\n\n¿Cuándo se crean los casos de prueba de aceptación en el enfoque ATDD?  ",
     "options": [
       "Después de que el desarrollador ha terminado de implementar la historia de usuario.",
       "Durante el taller de especificación, antes de que comience el desarrollo.",
@@ -3730,7 +3730,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Cuadrantes Ágiles",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D). ¿Qué combinaciones son correctas?\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA (Q1). Tecnología / apoya al equipo  \nB (Q2). Negocio / apoya al equipo  \nC (Q3). Negocio / crítica al producto  \nD (Q4). Tecnología / crítica al producto",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D).\n\n¿Qué combinaciones son correctas?\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA (Q1). Tecnología / apoya al equipo  \nB (Q2). Negocio / apoya al equipo  \nC (Q3). Negocio / crítica al producto  \nD (Q4). Tecnología / crítica al producto",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -3745,7 +3745,7 @@
     "id": 1038,
     "chapter": 1,
     "topic": "Principios de Prueba",
-    "question": "Estás evaluando la calidad de las pruebas realizadas en un software antes de su lanzamiento. Observas que aunque se han ejecutado muchas pruebas, aún persisten defectos significativos. ¿Cuál de los siete principios de prueba se refleja en esta situación?  ",
+    "question": "Estás evaluando la calidad de las pruebas realizadas en un software antes de su lanzamiento. Observas que aunque se han ejecutado muchas pruebas, aún persisten defectos significativos.\n\n¿Cuál de los siete principios de prueba se refleja en esta situación?  ",
     "options": [
       "Las pruebas exhaustivas son imposibles",
       "Los defectos se agrupan",
@@ -3820,7 +3820,7 @@
     "id": 1043,
     "chapter": 1,
     "topic": "Principios de Prueba",
-    "question": "Estás revisando el progreso de un proyecto de software y notas que se han corregido defectos, pero no se han realizado nuevas pruebas. El gerente del proyecto está satisfecho con los resultados, pero te preocupa la calidad. ¿Qué principio de prueba podría justificar tu preocupación?  ",
+    "question": "Estás revisando el progreso de un proyecto de software y notas que se han corregido defectos, pero no se han realizado nuevas pruebas. El gerente del proyecto está satisfecho con los resultados, pero te preocupa la calidad.\n\n¿Qué principio de prueba podría justificar tu preocupación?  ",
     "options": [
       "Las pruebas se desgastan",
       "Falacia de la ausencia de defectos",
@@ -3835,7 +3835,7 @@
     "id": 1044,
     "chapter": 3,
     "topic": "Revisiones",
-    "question": "El autor de un documento de diseño lidera una sesión de revisión. Un escriba registra los defectos encontrados. Los participantes pueden hacer preguntas libremente y el autor explica su diseño. No se utilizan criterios de entrada ni de salida formales. ¿Qué tipo de revisión describe este escenario?  ",
+    "question": "El autor de un documento de diseño lidera una sesión de revisión. Un escriba registra los defectos encontrados. Los participantes pueden hacer preguntas libremente y el autor explica su diseño. No se utilizan criterios de entrada ni de salida formales.\n\n¿Qué tipo de revisión describe este escenario?  ",
     "options": [
       "Inspección",
       "Revisión técnica",
@@ -3850,7 +3850,7 @@
     "id": 1045,
     "chapter": 4,
     "topic": "Técnicas",
-    "question": "Estás a cargo de un proyecto de software donde se han identificado varios riesgos, pero el tiempo para pruebas es limitado. El equipo de desarrollo ha entregado la aplicación sin una documentación detallada. ¿Cuál sería la mejor técnica de prueba a utilizar en esta situación?  ",
+    "question": "Estás a cargo de un proyecto de software donde se han identificado varios riesgos, pero el tiempo para pruebas es limitado. El equipo de desarrollo ha entregado la aplicación sin una documentación detallada.\n\n¿Cuál sería la mejor técnica de prueba a utilizar en esta situación?  ",
     "options": [
       "Pruebas basadas en riesgos",
       "Pruebas exploratorias",
@@ -3895,7 +3895,7 @@
     "id": 1048,
     "chapter": 2,
     "topic": "Cuadrantes Ágiles",
-    "question": "Durante el desarrollo de un sprint, el equipo ejecuta pruebas exploratorias y pruebas de usabilidad para evaluar el sistema desde la perspectiva del usuario real. ¿En qué cuadrante ágil se ubican estas pruebas?  ",
+    "question": "Durante el desarrollo de un sprint, el equipo ejecuta pruebas exploratorias y pruebas de usabilidad para evaluar el sistema desde la perspectiva del usuario real.\n\n¿En qué cuadrante ágil se ubican estas pruebas?  ",
     "options": [
       "Q1 (Apoyo tecnológico, orientadas a la tecnología)",
       "Q2 (Apoyo al negocio, orientadas al negocio)",
@@ -3910,7 +3910,7 @@
     "id": 1049,
     "chapter": 4,
     "topic": "Métricas de Cobertura",
-    "question": "Tienes un bloque de código con 120 sentencias ejecutables. Tras ejecutar tu conjunto de pruebas, los reportes indican que se han ejercitado exactamente 90 sentencias. ¿Cuál es el nivel de cobertura de sentencias (statement coverage) alcanzado?  ",
+    "question": "Tienes un bloque de código con 120 sentencias ejecutables. Tras ejecutar tu conjunto de pruebas, los reportes indican que se han ejercitado exactamente 90 sentencias.\n\n¿Cuál es el nivel de cobertura de sentencias (statement coverage) alcanzado?  ",
     "options": [
       "25%",
       "90%",
@@ -3925,7 +3925,7 @@
     "id": 1050,
     "chapter": 4,
     "topic": "Métricas de Cobertura",
-    "question": "Un probador de software quiere calcular la cobertura lograda por sus pruebas. El componente bajo prueba tiene 50 sentencias ejecutables y 12 ramas posibles. Durante las pruebas, se han ejecutado 45 sentencias y 9 ramas. ¿Cuál es la métrica de cobertura de RAMAS alcanzada?  ",
+    "question": "Un probador de software quiere calcular la cobertura lograda por sus pruebas. El componente bajo prueba tiene 50 sentencias ejecutables y 12 ramas posibles. Durante las pruebas, se han ejecutado 45 sentencias y 9 ramas.\n\n¿Cuál es la métrica de cobertura de RAMAS alcanzada?  ",
     "options": [
       "90%",
       "75%",
@@ -3940,7 +3940,7 @@
     "id": 1051,
     "chapter": 4,
     "topic": "Cobertura en Transiciones de Estado",
-    "question": "Un conjunto de pruebas cubre 8 de las 10 transiciones válidas totales de un diagrama de estados. ¿Qué porcentaje de cobertura de transiciones válidas se ha alcanzado y qué se puede afirmar con total seguridad sobre la cobertura de los estados?  ",
+    "question": "Un conjunto de pruebas cubre 8 de las 10 transiciones válidas totales de un diagrama de estados.\n\n¿Qué porcentaje de cobertura de transiciones válidas se ha alcanzado y qué se puede afirmar con total seguridad sobre la cobertura de los estados?  ",
     "options": [
       "80%; Se garantiza que todos los estados han sido visitados (100% cobertura de estados).",
       "80%; No necesariamente se han visitado todos los estados.",
@@ -3955,7 +3955,7 @@
     "id": 1052,
     "chapter": 5,
     "topic": "Estimación de Pruebas",
-    "question": "El equipo utiliza la técnica de estimación de tres puntos para una nueva funcionalidad. Las estimaciones en días son: Optimista = 10, Más Probable = 15, Pesimista = 26. ¿Cuál es la estimación final redondeada utilizando la fórmula ponderada E = (o + 4m + p) / 6?  ",
+    "question": "El equipo utiliza la técnica de estimación de tres puntos para una nueva funcionalidad. Las estimaciones en días son: Optimista = 10, Más Probable = 15, Pesimista = 26.\n\n¿Cuál es la estimación final redondeada utilizando la fórmula ponderada E = (o + 4m + p) / 6?  ",
     "options": [
       "15 días",
       "16 días",
@@ -3985,7 +3985,7 @@
     "id": 1054,
     "chapter": 5,
     "topic": "Técnicas de Estimación",
-    "question": "El equipo de pruebas necesita estimar el esfuerzo para un nuevo proyecto. Deciden basar su estimación en la métrica 'Número de Casos de Uso'. Históricamente, probar un caso de uso completo toma 3 días. Si el nuevo proyecto tiene 12 casos de uso, estiman 36 días. ¿Qué técnica se ha utilizado?  ",
+    "question": "El equipo de pruebas necesita estimar el esfuerzo para un nuevo proyecto. Deciden basar su estimación en la métrica 'Número de Casos de Uso'. Históricamente, probar un caso de uso completo toma 3 días. Si el nuevo proyecto tiene 12 casos de uso, estiman 36 días.\n\n¿Qué técnica se ha utilizado?  ",
     "options": [
       "Estimación basada en consenso (Planning Poker)",
       "Estimación de tres puntos",
@@ -4105,7 +4105,7 @@
     "id": 1062,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Un equipo ha corregido varios defectos y lanzado una nueva versión. Antes de la corrección, algunos casos de prueba fallaron. El equipo necesita verificar que los defectos se han corregido y que los cambios no han afectado otras partes del sistema. ¿Cuál de las siguientes descripciones se ajusta mejor a las pruebas que se llevarán a cabo?  ",
+    "question": "Un equipo ha corregido varios defectos y lanzado una nueva versión. Antes de la corrección, algunos casos de prueba fallaron. El equipo necesita verificar que los defectos se han corregido y que los cambios no han afectado otras partes del sistema.\n\n¿Cuál de las siguientes descripciones se ajusta mejor a las pruebas que se llevarán a cabo?  ",
     "options": [
       "Las pruebas de confirmación se centran únicamente en los casos de prueba que fallaron anteriormente.",
       "Las pruebas de regresión aseguran que las funcionalidades que no fueron modificadas sigan funcionando correctamente.",
@@ -4120,7 +4120,7 @@
     "id": 1063,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Has encontrado defectos en una nueva característica del software y, tras su corrección, ejecutas pruebas nuevamente. ¿Qué tipo de pruebas estás realizando si estás validando que los defectos han sido corregidos?  ",
+    "question": "Has encontrado defectos en una nueva característica del software y, tras su corrección, ejecutas pruebas nuevamente.\n\n¿Qué tipo de pruebas estás realizando si estás validando que los defectos han sido corregidos?  ",
     "options": [
       "Pruebas de regresión",
       "Pruebas de confirmación",
@@ -4255,7 +4255,7 @@
     "id": 1072,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Durante una revisión de las pruebas, notas que se están utilizando pruebas similares en diferentes proyectos sin ninguna adaptación. Esto ha resultado en alta tasa de éxito pero muchos defectos pasados por alto. ¿Cuál principio de prueba podría explicar esta situación?  ",
+    "question": "Durante una revisión de las pruebas, notas que se están utilizando pruebas similares en diferentes proyectos sin ninguna adaptación. Esto ha resultado en alta tasa de éxito pero muchos defectos pasados por alto.\n\n¿Cuál principio de prueba podría explicar esta situación?  ",
     "options": [
       "Las pruebas exhaustivas son imposibles",
       "Las pruebas se desgastan",
@@ -4270,7 +4270,7 @@
     "id": 1073,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Durante un proyecto, el equipo cree que su software es perfecto porque no han recibido informes de errores en semanas. Como probador, sabes que esto no garantiza la calidad. ¿Qué principio de prueba refleja esta situación?  ",
+    "question": "Durante un proyecto, el equipo cree que su software es perfecto porque no han recibido informes de errores en semanas. Como probador, sabes que esto no garantiza la calidad.\n\n¿Qué principio de prueba refleja esta situación?  ",
     "options": [
       "La falacia de la ausencia de defectos",
       "Las pruebas se desgastan",
@@ -4315,7 +4315,7 @@
     "id": 1076,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "En un proyecto de desarrollo de software, el equipo está revisando el enfoque de pruebas para una nueva funcionalidad de gestión de usuarios. ¿Cuál de las siguientes actividades es parte del diseño de pruebas?  ",
+    "question": "En un proyecto de desarrollo de software, el equipo está revisando el enfoque de pruebas para una nueva funcionalidad de gestión de usuarios.\n\n¿Cuál de las siguientes actividades es parte del diseño de pruebas?  ",
     "options": [
       "Describir los criterios de aceptación para la funcionalidad de gestión de usuarios.",
       "Revisar los requisitos del sistema para identificar posibles condiciones de prueba.",
@@ -4330,7 +4330,7 @@
     "id": 1077,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Estás participando en un proyecto de software que desarrolla una plataforma de e-learning. El equipo ha decidido llevar a cabo pruebas de regresión. ¿Cuál de las siguientes actividades se realiza durante la fase de planificación de pruebas?  ",
+    "question": "Estás participando en un proyecto de software que desarrolla una plataforma de e-learning. El equipo ha decidido llevar a cabo pruebas de regresión.\n\n¿Cuál de las siguientes actividades se realiza durante la fase de planificación de pruebas?  ",
     "options": [
       "Definir qué funcionalidades se probarán en la próxima iteración.",
       "Ejecutar casos de prueba para verificar que la funcionalidad de la plataforma funcione.",
@@ -4464,7 +4464,7 @@
   {
     "chapter": 2,
     "topic": "Pruebas durante el SDLC",
-    "question": "Imagina que has realizado pruebas en una nueva característica del software y has encontrado algunos defectos. Después de corregir esos defectos, ejecutas una serie de pruebas nuevamente. ¿Qué tipo de pruebas estás realizando si estás validando que los defectos han sido corregidos?  ",
+    "question": "Imagina que has realizado pruebas en una nueva característica del software y has encontrado algunos defectos. Después de corregir esos defectos, ejecutas una serie de pruebas nuevamente.\n\n¿Qué tipo de pruebas estás realizando si estás validando que los defectos han sido corregidos?  ",
     "options": [
       "A) Pruebas de regresión",
       "B) Pruebas de confirmación",
@@ -4479,7 +4479,7 @@
   {
     "chapter": 2,
     "topic": "Pruebas durante el SDLC",
-    "question": "Un equipo de pruebas ha ejecutado un conjunto de pruebas sobre una nueva funcionalidad en una aplicación. En la primera ejecución, se encontraron defectos y se realizaron correcciones. En la segunda ejecución de pruebas, algunas de las pruebas se repitieron. ¿Cuál de las siguientes afirmaciones describe correctamente las pruebas realizadas?  ",
+    "question": "Un equipo de pruebas ha ejecutado un conjunto de pruebas sobre una nueva funcionalidad en una aplicación. En la primera ejecución, se encontraron defectos y se realizaron correcciones. En la segunda ejecución de pruebas, algunas de las pruebas se repitieron.\n\n¿Cuál de las siguientes afirmaciones describe correctamente las pruebas realizadas?  ",
     "options": [
       "A) Las pruebas que se repitieron son pruebas de confirmación, mientras que las pruebas de la nueva funcionalidad son pruebas de regresión.",
       "B) Las pruebas de la nueva funcionalidad se consideran pruebas de confirmación y las pruebas repetidas son pruebas de regresión.",
@@ -4599,7 +4599,7 @@
   {
     "id": "q_batch2_du99np3p4",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Durante la prueba de un sistema, se reportaron varios errores que fueron corregidos. Después de que se lanzara una nueva versión del software, se decide ejecutar las pruebas nuevamente. ¿Cuáles de las siguientes pruebas se consideran pruebas de confirmación?  ",
+    "question": "Durante la prueba de un sistema, se reportaron varios errores que fueron corregidos. Después de que se lanzara una nueva versión del software, se decide ejecutar las pruebas nuevamente.\n\n¿Cuáles de las siguientes pruebas se consideran pruebas de confirmación?  ",
     "options": [
       "Prueba de un nuevo módulo que no había sido probado antes.",
       "Pruebas que se ejecutaron previamente y que fallaron, ahora se realizan para verificar la corrección.",
@@ -4644,7 +4644,7 @@
   {
     "id": "q_batch2_n23h74aj8",
     "topic": "Pruebas Estáticas",
-    "question": "En su organización, se llevan a cabo revisiones con las siguientes características: No se requiere un escriba. El objetivo es detectar anomalías de forma no estructurada. Los participantes son expertos en el área. No hay un moderador designado. ¿Qué tipo de revisión es MÁS probable que se esté realizando?  ",
+    "question": "En su organización, se llevan a cabo revisiones con las siguientes características: No se requiere un escriba. El objetivo es detectar anomalías de forma no estructurada. Los participantes son expertos en el área. No hay un moderador designado.\n\n¿Qué tipo de revisión es MÁS probable que se esté realizando?  ",
     "options": [
       "Revisión informal",
       "Revisión técnica",
@@ -4704,7 +4704,7 @@
   {
     "id": "q_batch2_zdybwbzfz",
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Un sistema de descuentos para una tienda online aplica las siguientes reglas: Si el cliente es VIP Y el pedido es > $100: 20% descuento Si el cliente es VIP Y el pedido es ≤ $100: 10% descuento Si el cliente NO es VIP Y el pedido es > $100: 5% descuento Si el cliente NO es VIP Y el pedido es ≤ $100: sin descuento ¿Cuántas reglas de decisión se necesitan en la tabla de decisiones completa?  ",
+    "question": "Un sistema de descuentos para una tienda online aplica las siguientes reglas: Si el cliente es VIP Y el pedido es > $100: 20% descuento Si el cliente es VIP Y el pedido es ≤ $100: 10% descuento Si el cliente NO es VIP Y el pedido es > $100: 5% descuento Si el cliente NO es VIP Y el pedido es ≤ $100: sin descuento\n\n¿Cuántas reglas de decisión se necesitan en la tabla de decisiones completa?  ",
     "options": [
       "2",
       "3",
@@ -4719,7 +4719,7 @@
   {
     "id": "q_batch2_j594nrl15",
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Un sistema de reproductor de música tiene los siguientes estados: DETENIDO, REPRODUCIENDO, PAUSADO. Las transiciones válidas son: DETENIDO → REPRODUCIENDO (reproducir) REPRODUCIENDO → PAUSADO (pausar) PAUSADO → REPRODUCIENDO (reanudar) REPRODUCIENDO → DETENIDO (detener) PAUSADO → DETENIDO (detener) ¿Cuál es el número MÍNIMO de casos de prueba para lograr 100% de cobertura de transiciones válidas con la restricción de que el caso debe comenzar y terminar en el estado DETENIDO?  ",
+    "question": "Un sistema de reproductor de música tiene los siguientes estados: DETENIDO, REPRODUCIENDO, PAUSADO. Las transiciones válidas son: DETENIDO → REPRODUCIENDO (reproducir) REPRODUCIENDO → PAUSADO (pausar) PAUSADO → REPRODUCIENDO (reanudar) REPRODUCIENDO → DETENIDO (detener) PAUSADO → DETENIDO (detener)\n\n¿Cuál es el número MÍNIMO de casos de prueba para lograr 100% de cobertura de transiciones válidas con la restricción de que el caso debe comenzar y terminar en el estado DETENIDO?  ",
     "options": [
       "2",
       "3",
@@ -4749,7 +4749,7 @@
   {
     "id": "q_batch2_7kt0gtwqg",
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Un equipo de desarrollo ha implementado un nuevo sistema financiero, pero no se han documentado todos los requisitos. El tiempo para las pruebas es limitado y el equipo necesita obtener información sobre el comportamiento del sistema rápidamente. ¿Qué enfoque de prueba sería el MÁS adecuado en esta situación?  ",
+    "question": "Un equipo de desarrollo ha implementado un nuevo sistema financiero, pero no se han documentado todos los requisitos. El tiempo para las pruebas es limitado y el equipo necesita obtener información sobre el comportamiento del sistema rápidamente.\n\n¿Qué enfoque de prueba sería el MÁS adecuado en esta situación?  ",
     "options": [
       "Pruebas de regresión",
       "Pruebas exploratorias",
@@ -4764,7 +4764,7 @@
   {
     "id": "q_batch2_3dfvl4agj",
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "En un proyecto ágil, el equipo está implementando la siguiente historia de usuario: 'Como cliente, quiero buscar productos por categoría para encontrar rápidamente lo que necesito'. Los criterios de aceptación son: El sistema muestra categorías disponibles El usuario puede seleccionar una categoría Se muestran productos de la categoría seleccionada Se muestra mensaje si no hay productos en la categoría ¿Cuál es el MEJOR ejemplo de un caso de prueba ATDD para esta historia?  ",
+    "question": "En un proyecto ágil, el equipo está implementando la siguiente historia de usuario: 'Como cliente, quiero buscar productos por categoría para encontrar rápidamente lo que necesito'. Los criterios de aceptación son: El sistema muestra categorías disponibles El usuario puede seleccionar una categoría Se muestran productos de la categoría seleccionada Se muestra mensaje si no hay productos en la categoría\n\n¿Cuál es el MEJOR ejemplo de un caso de prueba ATDD para esta historia?  ",
     "options": [
       "Verificar que la base de datos contiene al menos 10 categorías",
       "Dado que hay productos en 'Electrónicos', cuando selecciono 'Electrónicos', entonces veo la lista de productos electrónicos",
@@ -4809,7 +4809,7 @@
   {
     "id": "q_batch2_6ody8pkik",
     "topic": "Testing a lo largo del SDLC",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D). ¿Qué combinaciones son correctas?\n\n1. Pruebas de aceptación del usuario\n2. Pruebas de rendimiento\n3. Pruebas de integración de componentes\n4. Pruebas de historias de usuario\n\nA (Q1). Orientado a la tecnología, apoya al equipo de desarrollo  \nB (Q2). Orientado al negocio, apoya al equipo de desarrollo  \nC (Q3). Orientado al negocio, crítica al producto  \nD (Q4). Orientado a la tecnología, crítica al producto",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D).\n\n¿Qué combinaciones son correctas?\n\n1. Pruebas de aceptación del usuario\n2. Pruebas de rendimiento\n3. Pruebas de integración de componentes\n4. Pruebas de historias de usuario\n\nA (Q1). Orientado a la tecnología, apoya al equipo de desarrollo  \nB (Q2). Orientado al negocio, apoya al equipo de desarrollo  \nC (Q3). Orientado al negocio, crítica al producto  \nD (Q4). Orientado a la tecnología, crítica al producto",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
@@ -4824,7 +4824,7 @@
   {
     "id": "q_batch2_p48e09xyk",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Se ha identificado un riesgo durante el análisis de un nuevo software: Riesgo: La aplicación puede no ser compatible con navegadores antiguos. Probabilidad del riesgo: alta; impacto del riesgo: medio Respuesta al riesgo: realizar pruebas de compatibilidad en diversos navegadores antiguos proporcionar documentación sobre los requisitos del sistema ¿Cuál sería la medida más adecuada a implementar frente a este riesgo analizado?  ",
+    "question": "Se ha identificado un riesgo durante el análisis de un nuevo software: Riesgo: La aplicación puede no ser compatible con navegadores antiguos. Probabilidad del riesgo: alta; impacto del riesgo: medio Respuesta al riesgo: realizar pruebas de compatibilidad en diversos navegadores antiguos proporcionar documentación sobre los requisitos del sistema\n\n¿Cuál sería la medida más adecuada a implementar frente a este riesgo analizado?  ",
     "options": [
       "Mitigación del riesgo",
       "Transferencia del riesgo",
@@ -4869,7 +4869,7 @@
   {
     "id": "q_batch2_jfwjvhmmc",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Preparaste el siguiente informe de defecto: ID del Defecto: BUG-00456 Fecha: 15-01-2025 Título: El botón \"Enviar Pago\" no responde después de seleccionar método de pago Severidad: Alta Prioridad: Crítica Reportado por: Analista de Pruebas Configuración: Versión de Aplicación 2.15.087, Navegador: Firefox 118.0.2.0 Resultado esperado: El botón \"Enviar Pago\" debería procesar la información de pago y redirigir a la página de confirmación de pago. Adjuntos: Captura de pantalla: [error_boton_pago.png], Grabación de pantalla: [fallo_flujo_pago.mp4] ¿Cuál es la información MÁS importante que falta en este informe de defecto y que un analista de pruebas debería incluir para facilitar una resolución rápida del defecto?  ",
+    "question": "Preparaste el siguiente informe de defecto: ID del Defecto: BUG-00456 Fecha: 15-01-2025 Título: El botón \"Enviar Pago\" no responde después de seleccionar método de pago Severidad: Alta Prioridad: Crítica Reportado por: Analista de Pruebas Configuración: Versión de Aplicación 2.15.087, Navegador: Firefox 118.0.2.0 Resultado esperado: El botón \"Enviar Pago\" debería procesar la información de pago y redirigir a la página de confirmación de pago. Adjuntos: Captura de pantalla: [error_boton_pago.png], Grabación de pantalla: [fallo_flujo_pago.mp4]\n\n¿Cuál es la información MÁS importante que falta en este informe de defecto y que un analista de pruebas debería incluir para facilitar una resolución rápida del defecto?  ",
     "options": [
       "La secuencia detallada de acciones que reprodujeron el fallo.",
       "El método de análisis utilizado para identificar el problema.",
@@ -4934,7 +4934,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Un equipo de desarrollo ha corregido varios defectos en una nueva versión de la aplicación. Se ejecutaron los siguientes casos de prueba en la versión anterior:  \n  \n| Prueba | Resultado en la versión anterior |  \n|---|---|  \n| TC1 | Falló |  \n| TC2 | Pasó |  \n| TC3 | Falló |  \n  \nDespués de las correcciones, el equipo ejecuta nuevamente los casos de prueba TC1, TC2 y TC3. ¿Cuáles de estas ejecuciones se consideran pruebas de regresión?  ",
+    "question": "Un equipo de desarrollo ha corregido varios defectos en una nueva versión de la aplicación. Se ejecutaron los siguientes casos de prueba en la versión anterior:  \n  \n| Prueba | Resultado en la versión anterior |  \n|---|---|  \n| TC1 | Falló |  \n| TC2 | Pasó |  \n| TC3 | Falló |  \n  \nDespués de las correcciones, el equipo ejecuta nuevamente los casos de prueba TC1, TC2 y TC3.\n\n¿Cuáles de estas ejecuciones se consideran pruebas de regresión?  ",
     "options": [
       "TC1 y TC3",
       "TC2 y TC3",
@@ -4982,7 +4982,7 @@
     "chapter": 3,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "En su organización, se llevan a cabo revisiones que tienen las siguientes características: No hay un rol específico asignado para el moderador. El objetivo es encontrar defectos y mejorar el producto. Los participantes discuten abiertamente sus opiniones. No se requiere documentación formal al final. ¿Qué tipo de revisión se está llevando a cabo?  ",
+    "question": "En su organización, se llevan a cabo revisiones que tienen las siguientes características: No hay un rol específico asignado para el moderador. El objetivo es encontrar defectos y mejorar el producto. Los participantes discuten abiertamente sus opiniones. No se requiere documentación formal al final.\n\n¿Qué tipo de revisión se está llevando a cabo?  ",
     "options": [
       "Revisión informal",
       "Revisión técnica",
@@ -5014,7 +5014,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Para un campo 'Edad' que acepta valores de 16 a 65 años, tu conjunto de pruebas incluye los siguientes valores: 15, 16, 17, 64, 65, 66. ¿Qué porcentaje de cobertura de Análisis de Valores Límite (AVL) de 3 valores logras?  ",
+    "question": "Para un campo 'Edad' que acepta valores de 16 a 65 años, tu conjunto de pruebas incluye los siguientes valores: 15, 16, 17, 64, 65, 66.\n\n¿Qué porcentaje de cobertura de Análisis de Valores Límite (AVL) de 3 valores logras?  ",
     "options": [
       "50%",
       "67%",
@@ -5062,7 +5062,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Un equipo de desarrollo está creando una aplicación móvil innovadora, y se ha decidido utilizar pruebas exploratorias debido a la falta de documentación. ¿Cuál de las siguientes afirmaciones sobre las pruebas exploratorias es CORRECTA?  ",
+    "question": "Un equipo de desarrollo está creando una aplicación móvil innovadora, y se ha decidido utilizar pruebas exploratorias debido a la falta de documentación.\n\n¿Cuál de las siguientes afirmaciones sobre las pruebas exploratorias es CORRECTA?  ",
     "options": [
       "Las pruebas exploratorias son siempre menos efectivas que las pruebas basadas en requisitos.",
       "Las pruebas exploratorias permiten a los testers adaptarse rápidamente a cambios en el software.",
@@ -5094,7 +5094,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Durante un taller de especificación ATDD, el equipo identifica ambigüedades en una historia de usuario sobre procesamiento de pagos. ¿Cuál es la acción MÁS apropiada según el enfoque ATDD?  ",
+    "question": "Durante un taller de especificación ATDD, el equipo identifica ambigüedades en una historia de usuario sobre procesamiento de pagos.\n\n¿Cuál es la acción MÁS apropiada según el enfoque ATDD?  ",
     "options": [
       "El probador debe crear casos de prueba que cubran todas las interpretaciones posibles",
       "Resolver las ambigüedades durante el taller antes de crear los casos de prueba",
@@ -5126,7 +5126,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "En tu plan de pruebas, has priorizado los casos de prueba basándote en los requisitos. Sin embargo, te das cuenta de que algunos casos de alta prioridad no pueden ejecutarse en el orden ideal debido a dependencias y disponibilidad de recursos. ¿Cuál es la acción MÁS apropiada según el syllabus?  ",
+    "question": "En tu plan de pruebas, has priorizado los casos de prueba basándote en los requisitos. Sin embargo, te das cuenta de que algunos casos de alta prioridad no pueden ejecutarse en el orden ideal debido a dependencias y disponibilidad de recursos.\n\n¿Cuál es la acción MÁS apropiada según el syllabus?  ",
     "options": [
       "Mantener el orden basado en prioridad de requisitos ignorando las dependencias",
       "Ajustar el orden considerando dependencias y disponibilidad de recursos",
@@ -5158,7 +5158,7 @@
     "chapter": 3,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "En un proyecto de desarrollo de software, se identificó el siguiente riesgo: Riesgo: La documentación del usuario no está actualizada. Probabilidad del riesgo: alta; impacto del riesgo: medio Respuesta al riesgo: se organiza una revisión exhaustiva de la documentación con el equipo de desarrollo se informa a los usuarios sobre las posibles inconsistencias en la documentación ¿Cuál es la medida más adecuada para responder a este riesgo analizado?  ",
+    "question": "En un proyecto de desarrollo de software, se identificó el siguiente riesgo: Riesgo: La documentación del usuario no está actualizada. Probabilidad del riesgo: alta; impacto del riesgo: medio Respuesta al riesgo: se organiza una revisión exhaustiva de la documentación con el equipo de desarrollo se informa a los usuarios sobre las posibles inconsistencias en la documentación\n\n¿Cuál es la medida más adecuada para responder a este riesgo analizado?  ",
     "options": [
       "Mitigación del riesgo",
       "Aceptación del riesgo",
@@ -5190,7 +5190,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Un analista de pruebas prepara el siguiente informe de defecto: ID: BUG-00721 | Título: El campo 'Fecha de nacimiento' acepta fechas futuras | Severidad: Media | Prioridad: Alta | Reportado por: A. López | Configuración: App v3.2.1, Chrome 120 | Pasos para reproducir: (1) Abrir formulario de registro, (2) Ingresar fecha de nacimiento '15/08/2030', (3) Hacer clic en 'Guardar'. ¿Cuál es la información MÁS importante que falta en este informe?  ",
+    "question": "Un analista de pruebas prepara el siguiente informe de defecto: ID: BUG-00721 | Título: El campo 'Fecha de nacimiento' acepta fechas futuras | Severidad: Media | Prioridad: Alta | Reportado por: A. López | Configuración: App v3.2.1, Chrome 120 | Pasos para reproducir: (1) Abrir formulario de registro, (2) Ingresar fecha de nacimiento '15/08/2030', (3) Hacer clic en 'Guardar'.\n\n¿Cuál es la información MÁS importante que falta en este informe?  ",
     "options": [
       "El nombre del desarrollador asignado para resolver el defecto.",
       "El resultado real obtenido y el resultado esperado, para facilitar la reproducción y corrección.",
@@ -5365,7 +5365,7 @@
     "chapter": 1,
     "topic": "Principios",
     "difficulty": "medium",
-    "question": "Eres el líder de un equipo de pruebas y notas que, a pesar de realizar pruebas exhaustivas en la fase de desarrollo, el software sigue presentando defectos en producción. ¿Qué principio de prueba podría explicar esta situación?",
+    "question": "Eres el líder de un equipo de pruebas y notas que, a pesar de realizar pruebas exhaustivas en la fase de desarrollo, el software sigue presentando defectos en producción.\n\n¿Qué principio de prueba podría explicar esta situación?",
     "options": [
       "Los defectos se agrupan",
       "Las pruebas exhaustivas son imposibles",
@@ -5381,7 +5381,7 @@
     "chapter": 1,
     "topic": "Proceso de Prueba",
     "difficulty": "medium",
-    "question": "En un proyecto de desarrollo de software, el equipo está preparando la fase de pruebas después de completar la fase de desarrollo. ¿Cuál de las siguientes actividades es parte de la planificación de pruebas?",
+    "question": "En un proyecto de desarrollo de software, el equipo está preparando la fase de pruebas después de completar la fase de desarrollo.\n\n¿Cuál de las siguientes actividades es parte de la planificación de pruebas?",
     "options": [
       "Definir los criterios de aceptación para evaluar si la funcionalidad desarrollada cumple con los requisitos.",
       "Ejecutar las pruebas de regresión para asegurar que las nuevas funcionalidades no rompan las existentes.",
@@ -5493,7 +5493,7 @@
     "chapter": 2,
     "topic": "Tipos de Prueba",
     "difficulty": "medium",
-    "question": "Un equipo de desarrollo ha corregido varios defectos en la aplicación y ha lanzado una nueva versión. Antes de la corrección, se ejecutaron ciertos casos de prueba, de los cuales algunos fallaron. Ahora el equipo necesita verificar que los defectos se han corregido y también que los cambios no han afectado otras partes del sistema. ¿Cuál de las siguientes descripciones se ajusta mejor a las pruebas que se llevarán a cabo?",
+    "question": "Un equipo de desarrollo ha corregido varios defectos en la aplicación y ha lanzado una nueva versión. Antes de la corrección, se ejecutaron ciertos casos de prueba, de los cuales algunos fallaron. Ahora el equipo necesita verificar que los defectos se han corregido y también que los cambios no han afectado otras partes del sistema.\n\n¿Cuál de las siguientes descripciones se ajusta mejor a las pruebas que se llevarán a cabo?",
     "options": [
       "Las pruebas de confirmación se centran únicamente en los casos de prueba que fallaron anteriormente.",
       "Las pruebas de regresión aseguran que las funcionalidades que no fueron modificadas sigan funcionando correctamente.",
@@ -5637,7 +5637,7 @@
     "chapter": 4,
     "topic": "Basadas en Experiencia",
     "difficulty": "medium",
-    "question": "Tu equipo de desarrollo ha implementado una nueva funcionalidad en el software, pero no se ha documentado adecuadamente. Tienes poco tiempo para realizar pruebas antes del lanzamiento. ¿Cuál es la mejor estrategia de prueba que puedes utilizar en esta situación?",
+    "question": "Tu equipo de desarrollo ha implementado una nueva funcionalidad en el software, pero no se ha documentado adecuadamente. Tienes poco tiempo para realizar pruebas antes del lanzamiento.\n\n¿Cuál es la mejor estrategia de prueba que puedes utilizar en esta situación?",
     "options": [
       "Pruebas automatizadas",
       "Pruebas exploratorias",
@@ -5765,7 +5765,7 @@
     "chapter": 5,
     "topic": "Gestión de Defectos",
     "difficulty": "medium",
-    "question": "Has encontrado un defecto durante las pruebas de un módulo de facturación. El sistema calcula incorrectamente el impuesto cuando se aplica un descuento. ¿Cuál de los siguientes informes de defecto está MEJOR estructurado?",
+    "question": "Has encontrado un defecto durante las pruebas de un módulo de facturación. El sistema calcula incorrectamente el impuesto cuando se aplica un descuento.\n\n¿Cuál de los siguientes informes de defecto está MEJOR estructurado?",
     "options": [
       "\"El impuesto está mal calculado con descuentos\"",
       "\"Error en cálculo de impuestos con descuentos. Resultado esperado: 21%, resultado actual: 18%. Pasos: aplicar descuento 10% a factura de $100, calcular impuesto.\"",

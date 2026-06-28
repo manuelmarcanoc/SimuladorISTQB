@@ -18,7 +18,7 @@
     "id": 1002,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "A software company develops applications for the financial sector. The management team asks the test manager why testing is essential in their context, beyond finding defects. Which of the following reasons BEST describes why testing is necessary in this context?  ",
+    "question": "A software company develops applications for the financial sector. The management team asks the test manager\n\nwhy testing is essential in their context, beyond finding defects. Which of the following reasons BEST describes why testing is necessary in this context?",
     "options": [
       "To demonstrate that the software has no defects before delivery.",
       "To provide confidence about the software quality level and comply with the sector's regulatory requirements.",
@@ -33,7 +33,7 @@
     "id": 1003,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "You are evaluating the quality of the testing performed on a software before its release. You observe that although many tests have been run, significant defects still persist. Which of the seven testing principles is reflected in this situation?  ",
+    "question": "You are evaluating the quality of the testing performed on a software before its release. You observe that although many tests have been run, significant defects still persist.\n\nWhich of the seven testing principles is reflected in this situation?",
     "options": [
       "Exhaustive testing is impossible",
       "Defects cluster together",
@@ -48,7 +48,7 @@
     "id": 1007,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following skills is essential for a tester when evaluating the quality of a software product?  \n  \ni. Effective communication  \n  \nii. Technical knowledge  \n  \niii. Analytical ability  \n  \niv. Time management  ",
+    "question": "Which of the following skills is essential for a tester\n\nwhen evaluating the quality of a software product?  \n  \ni. Effective communication  \n  \nii. Technical knowledge  \n  \niii. Analytical ability  \n  \niv. Time management",
     "options": [
       "i and ii are essential; iii and iv are not",
       "iii and iv are essential; i and ii are not",
@@ -78,7 +78,7 @@
     "id": 1038,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "You are evaluating the quality of the testing performed on a software before its release. You observe that although many tests have been run, significant defects still persist. Which of the seven testing principles is reflected in this situation?  ",
+    "question": "You are evaluating the quality of the testing performed on a software before its release. You observe that although many tests have been run, significant defects still persist.\n\nWhich of the seven testing principles is reflected in this situation?",
     "options": [
       "Exhaustive testing is impossible",
       "Defects cluster together",
@@ -108,7 +108,7 @@
     "id": 1043,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "You are reviewing the progress of a software project and notice that defects have been fixed, but no new tests have been performed. The project manager is satisfied with the results, but you are concerned about quality. Which testing principle could justify your concern?  ",
+    "question": "You are reviewing the progress of a software project and notice that defects have been fixed, but no new tests have been performed. The project manager is satisfied with the results, but you are concerned about quality.\n\nWhich testing principle could justify your concern?",
     "options": [
       "Tests wear out",
       "Absence-of-defects fallacy",
@@ -123,7 +123,7 @@
     "id": 1068,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following options best describes why testing is necessary in software development?  ",
+    "question": "Which of the following options best describes\n\nwhy testing is necessary in software development?",
     "options": [
       "Testing helps identify errors before the software is delivered to users.",
       "Testing is only a requirement to comply with quality regulations.",
@@ -183,7 +183,7 @@
     "id": 1072,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "During a test review, you notice that similar tests are being used in different projects without any adaptation. This has resulted in a high success rate but many overlooked defects. Which testing principle could explain this situation?  ",
+    "question": "During a test review, you notice that similar tests are being used in different projects without any adaptation. This has resulted in a high success rate but many overlooked defects.\n\nWhich testing principle could explain this situation?",
     "options": [
       "Exhaustive testing is impossible",
       "Tests wear out",
@@ -198,7 +198,7 @@
     "id": 1073,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "During a project, the team believes their software is perfect because they have not received error reports in weeks. As a tester, you know this does not guarantee quality. Which testing principle reflects this situation?  ",
+    "question": "During a project, the team believes their software is perfect because they have not received error reports in weeks. As a tester, you know this does not guarantee quality.\n\nWhich testing principle reflects this situation?",
     "options": [
       "The absence-of-defects fallacy",
       "Tests wear out",
@@ -213,7 +213,7 @@
     "id": 1074,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which skills are essential for a tester when working in an agile team?\n\ni. Active listening,\n\nii. Deep technical knowledge,\n\niii. Effective communication,\n\niv. Ability to work under pressure.  ",
+    "question": "Which skills are essential for a tester\n\nwhen working in an agile team?\n\ni. Active listening,\n\nii. Deep technical knowledge,\n\niii. Effective communication,\n\niv. Ability to work under pressure.",
     "options": [
       "i and iii are essential; ii and iv are not",
       "i, ii and iv are essential; iii is not",
@@ -243,7 +243,7 @@
     "id": 1076,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "In a software development project, the team is reviewing the test approach for a new user management feature. Which of the following activities is part of test design?  ",
+    "question": "In a software development project, the team is reviewing the test approach for a new user management feature.\n\nWhich of the following activities is part of test design?",
     "options": [
       "Describe the acceptance criteria for the user management feature.",
       "Review the system requirements to identify possible test conditions.",
@@ -288,7 +288,7 @@
     "id": 252,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "You have been assigned as a tester to a team that produces a new system incrementally. You have noticed that no changes have been made to existing regression test cases for several iterations and no new regression defects have been identified. Your manager is happy, but you are not. What principle of proof explains your skepticism?  ",
+    "question": "You have been assigned as a tester to a team that produces a new system incrementally. You have noticed that no changes have been made to existing regression test cases for several iterations and no new regression defects have been identified. Your manager is happy, but you are not.\n\nWhat principle of proof explains your skepticism?",
     "options": [
       "A) Tests wear out",
       "B) Fallacy of the absence of defects",
@@ -303,7 +303,7 @@
     "id": 253,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "You work on a team that develops a mobile app for ordering food. In the current iteration, the team decided to implement payment functionality. Which of the following activities is part of test analysis?  ",
+    "question": "You work on a team that develops a mobile app for ordering food. In the current iteration, the team decided to implement payment functionality.\n\nWhich of the following activities is part of test analysis?",
     "options": [
       "A) Estimate that testing the integration with the payment service will take 8 person-days",
       "B) Decide that the team should test whether it is possible to share the payment appropriately among many users",
@@ -378,7 +378,7 @@
     "id": 289,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following is an example of why testing is necessary?  ",
+    "question": "Which of the following is an example of\n\nwhy testing is necessary?",
     "options": [
       "A) Dynamic testing increases quality by making test objects fail in ways that users could never achieve",
       "B) Static tests are used by developers to identify bugs in their code earlier than can be achieved through dynamic testing",
@@ -408,7 +408,7 @@
     "id": 291,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "One of the 'testing principles' states that exhaustive testing is impossible. Which of the following is an example of how to address this principle in practice?  ",
+    "question": "One of the 'testing principles' states that exhaustive testing is impossible.\n\nWhich of the following is an example of how to address this principle in practice?",
     "options": [
       "A) Create test cases that cover every possible specified output",
       "B) Document all possible test input variations and prioritize them by importance",
@@ -438,7 +438,7 @@
     "id": 293,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following is MOST likely to impact how testing is performed for a given test object?  ",
+    "question": "Which of the following is MOST likely to impact\n\nhow testing is performed for a given test object?",
     "options": [
       "A) The average experience level of the organization's marketing team",
       "B) Users' knowledge that a new system is being developed for them",
@@ -468,7 +468,7 @@
     "id": 295,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following is MOST likely an example of a tester using a generic skill when testing?  ",
+    "question": "Which of the following is MOST likely an example of a tester using a generic skill\n\nwhen testing?",
     "options": [
       "A) The tester's deep knowledge of a variety of computer games meant they got along with one of the developers who was also a gamer",
       "B) The tester was a former pilot and was better able to understand the acceptance criteria for the helicopter control system",
@@ -528,7 +528,7 @@
     "id": 330,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "The 'absence-of-defects fallacy' is one of the testing principles. Which of the following is an example of how to address this principle in practice?  ",
+    "question": "The 'absence-of-defects fallacy' is one of the testing principles.\n\nWhich of the following is an example of how to address this principle in practice?",
     "options": [
       "A) Explain that it is not possible for testing to prove the absence of defects",
       "B) Support end users in performing acceptance testing",
@@ -558,7 +558,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Given the following testware: Which of the following BEST shows the testware produced by each activity?\n\n1. Coverage items\n2. Change requests\n3. Test execution schedule\n4. Prioritized test conditions\n\nA. Test analysis  \nB. Test design  \nC. Test implementation  \nD. Test completion",
+    "question": "Given the following testware:\n\nWhich of the following BEST shows the testware produced by each activity?\n\n1. Coverage items\n2. Change requests\n3. Test execution schedule\n4. Prioritized test conditions\n\nA. Test analysis  \nB. Test design  \nC. Test implementation  \nD. Test completion",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -603,7 +603,7 @@
     "id": 363,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "A designer documents a design for a user interface that does not adequately serve visually impaired users because the designer was unaware of the accessibility requirements. How is this classified according to ISTQB terminology?  ",
+    "question": "A designer documents a design for a user interface that does not adequately serve visually impaired users because the designer was unaware of the accessibility requirements.\n\nHow is this classified according to ISTQB terminology?",
     "options": [
       "A) The designer made a failure that introduced an error in the design",
       "B) The designer made an error (mistake) that introduced a defect in the design",
@@ -618,7 +618,7 @@
     "id": 364,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Testers use test conditions to generate test cases and run tests. Although the test conditions remain the same, the test cases vary each time. Which of the 'testing principles' is being applied by varying the test cases?  ",
+    "question": "Testers use test conditions to generate test cases and run tests. Although the test conditions remain the same, the test cases vary each time.\n\nWhich of the 'testing principles' is being applied by varying the test cases?",
     "options": [
       "A) Tests wear out (pesticide paradox)",
       "B) The absence-of-defects fallacy",
@@ -633,7 +633,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Given the following testware:  \n  \ni. Test completion report  \n  \nii. Data in a database used as inputs and expected results  \n  \niii. List of items needed to build the test environment  \n  \niv. Documented sequences of test cases in execution order  \n  \nv. Test cases. Which of the following BEST shows the testware produced as a result of performing test implementation?  ",
+    "question": "Given the following testware:  \n  \ni. Test completion report  \n  \nii. Data in a database used as inputs and expected results  \n  \niii. List of items needed to build the test environment  \n  \niv. Documented sequences of test cases in execution order  \n  \nv. Test cases.\n\nWhich of the following BEST shows the testware produced as a result of performing test implementation?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -678,7 +678,7 @@
     "id": 368,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Given the following benefits and drawbacks of test independence:  \n  \ni. Testers work in a different location from the developers  \n  \nii. Testers question the assumptions programmers make when writing code  \n  \niii. A confrontational dynamic has been established between testers and developers  \n  \niv. Developers have become convinced that testers are mainly responsible for quality  \n  \nv. Testers have different biases from the developers. Which are MOST LIKELY considered benefits?  ",
+    "question": "Given the following benefits and drawbacks of test independence:  \n  \ni. Testers work in a different location from the developers  \n  \nii. Testers question the assumptions programmers make\n\nwhen writing code  \n  \niii. A confrontational dynamic has been established between testers and developers  \n  \niv. Developers have become convinced that testers are mainly responsible for quality  \n  \nv. Testers have different biases from the developers. Which are MOST LIKELY considered benefits?",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -693,7 +693,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Given the following test tasks: What is the BEST match?\n\n1. Derive test cases from conditions\n2. Identify reusable testware\n3. Organize test cases into procedures\n4. Evaluate the test basis\n\nA. Analysis  \nB. Design  \nC. Implementation  \nD. Completion",
+    "question": "Given the following test tasks:\n\nWhat is the BEST match?\n\n1. Derive test cases from conditions\n2. Identify reusable testware\n3. Organize test cases into procedures\n4. Evaluate the test basis\n\nA. Analysis  \nB. Design  \nC. Implementation  \nD. Completion",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -708,7 +708,7 @@
     "id": 407,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Your team detected 45 defects in module A (5,000 lines of code) and 12 defects in module B (8,000 lines). According to the 'defect clustering' principle, which conclusion is the MOST correct?  ",
+    "question": "Your team detected 45 defects in module A (5,000 lines of code) and 12 defects in module B (8,000 lines). According to the 'defect clustering' principle,\n\nwhich conclusion is the MOST correct?",
     "options": [
       "A) Module B is riskier because it has more code",
       "B) Module A has a higher defect density and should receive more testing effort",
@@ -723,7 +723,7 @@
     "id": 408,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "A tester runs the same set of regression tests for 6 consecutive sprints without modifications. According to ISTQB principles, what problem arises and what is the solution?  ",
+    "question": "A tester runs the same set of regression tests for 6 consecutive sprints without modifications. According to ISTQB principles,\n\nwhat problem arises and what is the solution?",
     "options": [
       "A) There is no problem; regression tests should be stable",
       "B) Pesticide paradox: the tests stop finding new defects; review and update the test set",
@@ -753,7 +753,7 @@
     "id": 429,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Your company develops flight control software. The cost of failure is catastrophic. Which of the following ISTQB principles justifies investing more in testing than in low-risk projects?  ",
+    "question": "Your company develops flight control software. The cost of failure is catastrophic.\n\nWhich of the following ISTQB principles justifies investing more in testing than in low-risk projects?",
     "options": [
       "A) Exhaustive testing is possible with enough resources",
       "B) Testing is context dependent: the level of rigor must match the risk and consequences of failure",
@@ -768,7 +768,7 @@
     "id": 430,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "During system testing, a defect is found in the billing module. The developer fixes it. Afterward, the tester discovers that the fix introduced a new error in the inventory module. What is this type of introduced defect called?  ",
+    "question": "During system testing, a defect is found in the billing module. The developer fixes it. Afterward, the tester discovers that the fix introduced a new error in the inventory module.\n\nWhat is this type of introduced defect called?",
     "options": [
       "A) Regression defect",
       "B) Integration defect",
@@ -798,7 +798,7 @@
     "id": 446,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "According to ISTQB CTFL v4.0, what are the 7 testing principles?  ",
+    "question": "According to ISTQB CTFL v4.0,\n\nwhat are the 7 testing principles?",
     "options": [
       "A) Testing shows the presence of defects; exhaustive testing is impossible; early testing; defect clustering; pesticide paradox; testing is context dependent; the absence-of-defects fallacy",
       "B) Testing removes all defects; exhaustive testing is possible; testing at the end; uniform defects; testing is not context dependent",
@@ -813,7 +813,7 @@
     "id": 454,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "PRACTICAL CASE: The team has run 500 tests and found 0 defects. The product owner wants to release the software claiming it 'is bug-free'. What is your response based on ISTQB principles?  ",
+    "question": "PRACTICAL CASE: The team has run 500 tests and found 0 defects. The product owner wants to release the software claiming it 'is bug-free'.\n\nWhat is your response based on ISTQB principles?",
     "options": [
       "A) You agree, 500 tests with no defects is enough evidence",
       "B) Tests only show that no defects were found with that test set; they cannot prove their total absence (Principle 1). Releasing has residual risk",
@@ -873,7 +873,7 @@
     "id": "q_batch2_3ur6idl31",
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "What is a key reason why testing is necessary in software development?  ",
+    "question": "What is a key reason\n\nwhy testing is necessary in software development?",
     "options": [
       "To ensure that the software meets the customer's requirements.",
       "To increase the project's development time.",
@@ -963,7 +963,7 @@
     "id": 1011,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Which of the following statements best describes how the 'shift-left' approach can improve software quality?  ",
+    "question": "Which of the following statements best describes\n\nhow the 'shift-left' approach can improve software quality?",
     "options": [
       "It allows defects to be detected and fixed in later stages of the development life cycle.",
       "It facilitates continuous integration and early delivery of value to the client by finding errors early.",
@@ -1008,7 +1008,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D). Which combinations are correct?\n\n1. Usability testing\n2. Component testing\n3. Functional testing\n4. Reliability testing\n\nA (Q1). Technology / supports the team  \nB (Q2). Business / supports the team  \nC (Q3). Business / critiques the product  \nD (Q4). Technology / critiques the product",
+    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D).\n\nWhich combinations are correct?\n\n1. Usability testing\n2. Component testing\n3. Functional testing\n4. Reliability testing\n\nA (Q1). Technology / supports the team  \nB (Q2). Business / supports the team  \nC (Q3). Business / critiques the product  \nD (Q4). Technology / critiques the product",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -1038,7 +1038,7 @@
     "id": 1047,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "To which agile quadrant do performance, security, and reliability tests belong, and what is their main objective?  ",
+    "question": "To\n\nwhich agile quadrant do performance, security, and reliability tests belong, and what is their main objective?",
     "options": [
       "Quadrant Q1; technology-oriented to support the team.",
       "Quadrant Q3; business-oriented to critique the product.",
@@ -1053,7 +1053,7 @@
     "id": 1048,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "During the development of a sprint, the team performs exploratory testing and usability testing to evaluate the system from the real user's perspective. In which agile quadrant are these tests located?  ",
+    "question": "During the development of a sprint, the team performs exploratory testing and usability testing to evaluate the system from the real user's perspective. In\n\nwhich agile quadrant are these tests located?",
     "options": [
       "Q1 (Technology support, technology-oriented)",
       "Q2 (Business support, business-oriented)",
@@ -1143,7 +1143,7 @@
     "id": 1062,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "A team has fixed several defects and released a new version. Before the fix, some test cases failed. The team needs to verify that the defects have been fixed and that the changes have not affected other parts of the system. Which of the following descriptions best fits the testing that will be carried out?  ",
+    "question": "A team has fixed several defects and released a new version. Before the fix, some test cases failed. The team needs to verify that the defects have been fixed and that the changes have not affected other parts of the system.\n\nWhich of the following descriptions best fits the testing that will be carried out?",
     "options": [
       "Confirmation tests focus only on the test cases that previously failed.",
       "Regression tests ensure that the functionalities that were not modified still work correctly.",
@@ -1158,7 +1158,7 @@
     "id": 1063,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "You have found defects in a new software feature and, after fixing them, you run tests again. What type of testing are you performing if you are validating that the defects have been fixed?  ",
+    "question": "You have found defects in a new software feature and, after fixing them, you run tests again.\n\nWhat type of testing are you performing if you are validating that the defects have been fixed?",
     "options": [
       "Regression testing",
       "Confirmation testing",
@@ -1218,7 +1218,7 @@
     "id": 1067,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Which of the following statements best describes how the 'shift-left' approach can improve software quality?  ",
+    "question": "Which of the following statements best describes\n\nhow the 'shift-left' approach can improve software quality?",
     "options": [
       "It allows defects to be detected and fixed in later stages of the development life cycle.",
       "It facilitates continuous integration and early delivery of value to the client.",
@@ -1323,7 +1323,7 @@
     "id": 1086,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Imagine you have tested a new software feature and found some defects. After fixing those defects, you run a series of tests again. What type of testing are you performing if you are validating that the defects have been fixed?  ",
+    "question": "Imagine you have tested a new software feature and found some defects. After fixing those defects, you run a series of tests again.\n\nWhat type of testing are you performing if you are validating that the defects have been fixed?",
     "options": [
       "A) Regression testing",
       "B) Confirmation testing",
@@ -1338,7 +1338,7 @@
     "id": 1087,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "A test team has run a set of tests on a new feature in an application. In the first run, defects were found and corrections were made. In the second test run, some of the tests were repeated. Which of the following statements correctly describes the tests performed?  ",
+    "question": "A test team has run a set of tests on a new feature in an application. In the first run, defects were found and corrections were made. In the second test run, some of the tests were repeated.\n\nWhich of the following statements correctly describes the tests performed?",
     "options": [
       "A) The repeated tests are confirmation tests, while the tests of the new feature are regression tests.",
       "B) The tests of the new feature are considered confirmation tests and the repeated tests are regression tests.",
@@ -1353,7 +1353,7 @@
     "id": 258,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Consider the following rule: \"for every SDLC activity there is a corresponding test activity.\" In which SDLC models does this rule apply?  ",
+    "question": "Consider the following rule: \"for every SDLC activity there is a corresponding test activity.\" In\n\nwhich SDLC models does this rule apply?",
     "options": [
       "A) Only in sequential development models",
       "B) Only in iterative development models",
@@ -1413,7 +1413,7 @@
     "id": 262,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Which fault types (1-4) BEST fit which test levels (A-D)?\n\n1. Failures in system behavior by deviating from the user's business needs\n2. Failures in communication between components\n3. Failures in logic in the code\n4. Failures due to incorrectly implemented business rules\n\nA. Component testing  \nB. Component integration testing  \nC. System testing  \nD. Acceptance testing",
+    "question": "Which fault types (1-4) BEST fit\n\nwhich test levels (A-D)?\n\n1. Failures in system behavior by deviating from the user's business needs\n2. Failures in communication between components\n3. Failures in logic in the code\n4. Failures due to incorrectly implemented business rules\n\nA. Component testing  \nB. Component integration testing  \nC. System testing  \nD. Acceptance testing",
     "options": [
       "A) 1D, 2B, 3A, 4C",
       "B) 1D, 2B, 3C, 4A",
@@ -1548,7 +1548,7 @@
     "id": 338,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "The software of a navigation system has been updated because it suggested routes that violated traffic rules, such as driving the wrong way on one-way streets. Which of the following BEST describes the testing to be performed?  ",
+    "question": "The software of a navigation system has been updated because it suggested routes that violated traffic rules, such as driving the wrong way on one-way streets.\n\nWhich of the following BEST describes the testing to be performed?",
     "options": [
       "A) Only confirmation testing",
       "B) Confirmation testing and then regression testing",
@@ -1563,7 +1563,7 @@
     "id": 369,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Which of the following is MOST LIKELY a challenge when implementing DevOps?  ",
+    "question": "Which of the following is MOST LIKELY a challenge\n\nwhen implementing DevOps?",
     "options": [
       "A) Ensuring that non-functional quality characteristics are not overlooked",
       "B) Managing test environments that change continuously",
@@ -1623,7 +1623,7 @@
     "id": 409,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "In a project with a V-model, the team receives the system requirements on day 1. At what point should system tests start being designed?  ",
+    "question": "In a project with a V-model, the team receives the system requirements on day 1. At\n\nwhat point should system tests start being designed?",
     "options": [
       "A) When the system code is fully developed",
       "B) After integration testing is completed",
@@ -1638,7 +1638,7 @@
     "id": 410,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Your team works in Scrum with 2-week sprints. At the start of the sprint, the team has 8 user stories. When should testers start working on those stories?  ",
+    "question": "Your team works in Scrum with 2-week sprints. At the start of the sprint, the team has 8 user stories.\n\nWhen should testers start working on those stories?",
     "options": [
       "A) On the last day of the sprint, during the demo",
       "B) From day one, collaborating on the definition of acceptance criteria and test cases",
@@ -1668,7 +1668,7 @@
     "id": 431,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "In TDD (Test Driven Development), what is the correct order of the cycle?  ",
+    "question": "In TDD (Test Driven Development),\n\nwhat is the correct order of the cycle?",
     "options": [
       "A) Write code -> Write test -> Refactor",
       "B) Write test (that fails) -> Write minimal code to pass the test -> Refactor",
@@ -1698,7 +1698,7 @@
     "id": 433,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "A DevOps team implements CI/CD. Tests run automatically on every commit. What type of tests are MOST appropriate to run on each pipeline build in CI?  ",
+    "question": "A DevOps team implements CI/CD. Tests run automatically on every commit.\n\nWhat type of tests are MOST appropriate to run on each pipeline build in CI?",
     "options": [
       "A) Complete user acceptance tests",
       "B) Manual exploratory tests",
@@ -1743,7 +1743,7 @@
     "id": 455,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "PRACTICAL CASE: An e-commerce system has 3 tiers: Frontend (React), Backend API (Java), Database (PostgreSQL). When testing the 'add to cart' function, it fails. The backend returns error 500. What type of integration test do you need?  ",
+    "question": "PRACTICAL CASE: An e-commerce system has 3 tiers: Frontend (React), Backend API (Java), Database (PostgreSQL).\n\nWhen testing the 'add to cart' function, it fails. The backend returns error 500. What type of integration test do you need?",
     "options": [
       "A) Component test of the frontend",
       "B) Integration test between the frontend and backend API to verify the interface contract",
@@ -1788,7 +1788,7 @@
     "id": "q_batch2_6ody8pkik",
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D). Which combinations are correct?\n\n1. User acceptance testing\n2. Performance testing\n3. Component integration testing\n4. User story testing\n\nA (Q1). Technology-oriented, supports the development team  \nB (Q2). Business-oriented, supports the development team  \nC (Q3). Business-oriented, critiques the product  \nD (Q4). Technology-oriented, critiques the product",
+    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D).\n\nWhich combinations are correct?\n\n1. User acceptance testing\n2. Performance testing\n3. Component integration testing\n4. User story testing\n\nA (Q1). Technology-oriented, supports the development team  \nB (Q2). Business-oriented, supports the development team  \nC (Q3). Business-oriented, critiques the product  \nD (Q4). Technology-oriented, critiques the product",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
@@ -1848,7 +1848,7 @@
     "id": 1017,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "In your organization: There is no moderator role. The objective is to find defects and improve. There is open discussion. No formal documentation is required at the end. What type of review is it?  ",
+    "question": "In your organization: There is no moderator role. The objective is to find defects and improve. There is open discussion. No formal documentation is required at the end.\n\nWhat type of review is it?",
     "options": [
       "Informal review",
       "Technical review",
@@ -1893,7 +1893,7 @@
     "id": 1044,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "The author of a design document leads a review session. A scribe records the defects found. Participants can ask questions freely and the author explains their design. No formal entry or exit criteria are used. What type of review does this scenario describe?  ",
+    "question": "The author of a design document leads a review session. A scribe records the defects found. Participants can ask questions freely and the author explains their design. No formal entry or exit criteria are used.\n\nWhat type of review does this scenario describe?",
     "options": [
       "Inspection",
       "Technical review",
@@ -1938,7 +1938,7 @@
     "id": 266,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "The reviews that are being used in your organization have the following attributes: • There is a role of a scribe • The primary purpose is to assess quality • The meeting is led by the author of the work product • There is individual preparation • A review report is produced Which of the following types of review is MOST likely being used?  ",
+    "question": "The reviews that are being used in your organization have the following attributes: • There is a role of a scribe • The primary purpose is to assess quality • The meeting is led by the author of the work product • There is individual preparation • A review report is produced\n\nWhich of the following types of review is MOST likely being used?",
     "options": [
       "A) Informal review",
       "B) Walkthrough",
@@ -1998,7 +1998,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following task descriptions: Which of the following options gives the BEST match between the task descriptions and the activities?\n\n1. The quality characteristics to be evaluated and the exit criteria are selected\n2. Everyone has access to the work product\n3. Anomalies in the work product are identified\n4. Anomalies are discussed\n\nA. Individual review  \nB. Review initiation  \nC. Planning  \nD. Communication and analysis",
+    "question": "Given the following task descriptions:\n\nWhich of the following options gives the BEST match between the task descriptions and the activities?\n\n1. The quality characteristics to be evaluated and the exit criteria are selected\n2. Everyone has access to the work product\n3. Anomalies in the work product are identified\n4. Anomalies are discussed\n\nA. Individual review  \nB. Review initiation  \nC. Planning  \nD. Communication and analysis",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -2013,7 +2013,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following review roles: Which of the following options gives the BEST match between the roles and the responsibilities?\n\n1. Secretary/Scribe\n2. Review leader\n3. Facilitator\n4. Manager\n\nA. Ensures the effective running of review meetings and establishes a safe environment  \nB. Records review information, such as decisions and new anomalies found  \nC. Decides what will be reviewed and provides resources such as staff and time  \nD. Takes overall responsibility for the review: when and where it will take place",
+    "question": "Given the following review roles:\n\nWhich of the following options gives the BEST match between the roles and the responsibilities?\n\n1. Secretary/Scribe\n2. Review leader\n3. Facilitator\n4. Manager\n\nA. Ensures the effective running of review meetings and establishes a safe environment  \nB. Records review information, such as decisions and new anomalies found  \nC. Decides what will be reviewed and provides resources such as staff and time  \nD. Takes overall responsibility for the review: when and where it will take place",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -2028,7 +2028,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following examples of defects:  \n  \ni. Two different parts of the design specification contradict each other due to the complexity of the design  \n  \nii. A response time is too long and makes users lose patience  \n  \niii. A path in the code cannot be reached during execution  \n  \niv. A variable is declared but never used in the program  \n  \nv. The amount of memory the program needs to generate a report is excessive. Which of the following BEST identifies the defects that could be found through static testing (rather than dynamic)?  ",
+    "question": "Given the following examples of defects:  \n  \ni. Two different parts of the design specification contradict each other due to the complexity of the design  \n  \nii. A response time is too long and makes users lose patience  \n  \niii. A path in the code cannot be reached during execution  \n  \niv. A variable is declared but never used in the program  \n  \nv. The amount of memory the program needs to generate a report is excessive.\n\nWhich of the following BEST identifies the defects that could be found through static testing (rather than dynamic)?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -2043,7 +2043,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following review types: Which of the following gives the BEST match?\n\n1. Technical review\n2. Informal review\n3. Inspection\n4. Walkthrough\n\nA. Includes objectives such as reaching consensus, generating new ideas, and motivating authors to improve  \nB. Includes objectives such as training reviewers, reaching consensus, generating new ideas, and detecting potential defects  \nC. The main objective is to detect potential defects and requires the collection of metrics for process improvement  \nD. The main objective is to detect potential defects and does not generate formal output documentation",
+    "question": "Given the following review types:\n\nWhich of the following gives the BEST match?\n\n1. Technical review\n2. Informal review\n3. Inspection\n4. Walkthrough\n\nA. Includes objectives such as reaching consensus, generating new ideas, and motivating authors to improve  \nB. Includes objectives such as training reviewers, reaching consensus, generating new ideas, and detecting potential defects  \nC. The main objective is to detect potential defects and requires the collection of metrics for process improvement  \nD. The main objective is to detect potential defects and does not generate formal output documentation",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -2103,7 +2103,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following descriptions of review activities:  \n  \n1. Detected anomalies are discussed and decisions are made about their status, owner, and next steps  \n  \n2. Defects are recorded and the necessary updates are addressed before the work product is accepted  \n  \n3. Reviewers use techniques to generate suggestions and questions about the work product and identify anomalies  \n  \n4. The objective of the review and its schedule are set to ensure a focused and efficient review  \n  \n5. Participants are given access to the item to be reviewed. What is the CORRECT sequence of review process activities?  ",
+    "question": "Given the following descriptions of review activities:  \n  \n1. Detected anomalies are discussed and decisions are made about their status, owner, and next steps  \n  \n2. Defects are recorded and the necessary updates are addressed before the work product is accepted  \n  \n3. Reviewers use techniques to generate suggestions and questions about the work product and identify anomalies  \n  \n4. The objective of the review and its schedule are set to ensure a focused and efficient review  \n  \n5. Participants are given access to the item to be reviewed.\n\nWhat is the CORRECT sequence of review process activities?",
     "options": [
       "A) 4 - 3 - 5 - 2 - 1",
       "B) 4 - 5 - 3 - 1 - 2",
@@ -2133,7 +2133,7 @@
     "id": 411,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "During a requirements inspection, the moderator finds the sentence: 'The system shall be fast'. What type of requirement defect does this statement represent?  ",
+    "question": "During a requirements inspection, the moderator finds the sentence: 'The system shall be fast'.\n\nWhat type of requirement defect does this statement represent?",
     "options": [
       "A) Duplicate requirement",
       "B) Ambiguous and non-verifiable requirement",
@@ -2148,7 +2148,7 @@
     "id": 412,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "A static analysis tool reports: 'Variable x declared but never used in the function calculateTotal()'. How is this finding classified in ISTQB terminology?  ",
+    "question": "A static analysis tool reports: 'Variable x declared but never used in the function calculateTotal()'.\n\nHow is this finding classified in ISTQB terminology?",
     "options": [
       "A) Failure",
       "B) Error (mistake)",
@@ -2178,7 +2178,7 @@
     "id": 434,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "An organization conducts a review where: there is an independent moderator, reviewers prepare individually, defect metrics are recorded, and a formal report is produced. What type of review is it?  ",
+    "question": "An organization conducts a review\n\nwhere: there is an independent moderator, reviewers prepare individually, defect metrics are recorded, and a formal report is produced. What type of review is it?",
     "options": [
       "A) Informal review",
       "B) Walkthrough",
@@ -2223,7 +2223,7 @@
     "id": 453,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "PRACTICAL CASE: In a requirements specification review you find: 'The system shall process transactions quickly and the interface shall be friendly'. What types of requirement defects are present?  ",
+    "question": "PRACTICAL CASE: In a requirements specification review you find: 'The system shall process transactions quickly and the interface shall be friendly'.\n\nWhat types of requirement defects are present?",
     "options": [
       "A) Only ambiguity",
       "B) Ambiguity ('quickly', 'friendly') and lack of verifiability: they are neither measurable nor testable",
@@ -2238,7 +2238,7 @@
     "id": 458,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "PRACTICAL CASE: Your organization implements mandatory code reviews. The development team complains that they slow down the process. What is the STRONGEST argument to justify the reviews?  ",
+    "question": "PRACTICAL CASE: Your organization implements mandatory code reviews. The development team complains that they slow down the process.\n\nWhat is the STRONGEST argument to justify the reviews?",
     "options": [
       "A) They are mandatory by regulation, there is no alternative",
       "B) The cost of fixing defects found in review is significantly lower than fixing them in production",
@@ -2283,7 +2283,7 @@
     "id": "q_batch2_n23h74aj8",
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "In your organization, reviews are conducted with the following characteristics: No scribe is required. The objective is to detect anomalies in an unstructured way. The participants are experts in the area. There is no designated moderator. What type of review is MOST likely being conducted?  ",
+    "question": "In your organization, reviews are conducted with the following characteristics: No scribe is required. The objective is to detect anomalies in an unstructured way. The participants are experts in the area. There is no designated moderator.\n\nWhat type of review is MOST likely being conducted?",
     "options": [
       "Informal review",
       "Technical review",
@@ -2313,7 +2313,7 @@
     "id": 1020,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A grading system accepts scores 0-100. Fail: 0-59, Pass: 60-69, Good: 70-89, Excellent: 90-100. Using equivalence partitioning, what is the MINIMUM number of test cases to achieve 100% coverage of the VALID partitions?  ",
+    "question": "A grading system accepts scores 0-100. Fail: 0-59, Pass: 60-69, Good: 70-89, Excellent: 90-100. Using equivalence partitioning,\n\nwhat is the MINIMUM number of test cases to achieve 100% coverage of the VALID partitions?",
     "options": [
       "3",
       "4",
@@ -2328,7 +2328,7 @@
     "id": 1021,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "The 'Age' field accepts 16 to 65 years. Your set includes: 15, 16, 17, 64, 65, 66. What percentage of 3-value Boundary Value Analysis (BVA) coverage do you achieve?  ",
+    "question": "The 'Age' field accepts 16 to 65 years. Your set includes: 15, 16, 17, 64, 65, 66.\n\nWhat percentage of 3-value Boundary Value Analysis (BVA) coverage do you achieve?",
     "options": [
       "50%",
       "67%",
@@ -2343,7 +2343,7 @@
     "id": 1022,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "In a decision table for loans you have 4 conditions. If you wanted to minimize the table due to the large number of combinations, what would be the best strategy?  ",
+    "question": "In a decision table for loans you have 4 conditions. If you wanted to minimize the table due to the large number of combinations,\n\nwhat would be the best strategy?",
     "options": [
       "Remove all the least important conditions",
       "Use a risk-based approach to reduce the rules to be tested",
@@ -2418,7 +2418,7 @@
     "id": 1027,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A team is creating an innovative mobile app, and exploratory testing will be used due to lack of documentation. Which of the following statements about exploratory testing is CORRECT?  ",
+    "question": "A team is creating an innovative mobile app, and exploratory testing will be used due to lack of documentation.\n\nWhich of the following statements about exploratory testing is CORRECT?",
     "options": [
       "Exploratory testing is always less effective than requirements-based testing.",
       "Exploratory testing allows testers to adapt quickly to changes in the software.",
@@ -2448,7 +2448,7 @@
     "id": 1029,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "An agile team uses ATDD. When are the acceptance test cases created in the ATDD approach?  ",
+    "question": "An agile team uses ATDD.\n\nWhen are the acceptance test cases created in the ATDD approach?",
     "options": [
       "After the developer has finished implementing the user story.",
       "During the specification workshop, before development begins.",
@@ -2508,7 +2508,7 @@
     "id": 1034,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Which of the following statements most appropriately describes how acceptance criteria can be defined for a user story?  ",
+    "question": "Which of the following statements most appropriately describes\n\nhow acceptance criteria can be defined for a user story?",
     "options": [
       "By specifying only the functional requirements without details about validation.",
       "By describing the expected results using a clear and concise format that includes concrete examples.",
@@ -2523,7 +2523,7 @@
     "id": 1045,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are in charge of a software project where several risks have been identified, but the time for testing is limited. The development team has delivered the application without detailed documentation. What would be the best testing technique to use in this situation?  ",
+    "question": "You are in charge of a software project\n\nwhere several risks have been identified, but the time for testing is limited. The development team has delivered the application without detailed documentation. What would be the best testing technique to use in this situation?",
     "options": [
       "Risk-based testing",
       "Exploratory testing",
@@ -2538,7 +2538,7 @@
     "id": 1049,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You have a block of code with 120 executable statements. After running your test set, the reports indicate that exactly 90 statements have been exercised. What level of statement coverage has been achieved?  ",
+    "question": "You have a block of code with 120 executable statements. After running your test set, the reports indicate that exactly 90 statements have been exercised.\n\nWhat level of statement coverage has been achieved?",
     "options": [
       "25%",
       "90%",
@@ -2553,7 +2553,7 @@
     "id": 1050,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A software tester wants to calculate the coverage achieved by their tests. The component under test has 50 executable statements and 12 possible branches. During testing, 45 statements and 9 branches were executed. What is the achieved BRANCH coverage metric?  ",
+    "question": "A software tester wants to calculate the coverage achieved by their tests. The component under test has 50 executable statements and 12 possible branches. During testing, 45 statements and 9 branches were executed.\n\nWhat is the achieved BRANCH coverage metric?",
     "options": [
       "90%",
       "75%",
@@ -2568,7 +2568,7 @@
     "id": 1051,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A test set covers 8 of the 10 total valid transitions of a state diagram. What percentage of valid transition coverage has been achieved, and what can be stated with full certainty about state coverage?  ",
+    "question": "A test set covers 8 of the 10 total valid transitions of a state diagram.\n\nWhat percentage of valid transition coverage has been achieved, and what can be stated with full certainty about state coverage?",
     "options": [
       "80%; It is guaranteed that all states have been visited (100% state coverage).",
       "80%; Not necessarily all states have been visited.",
@@ -2598,7 +2598,7 @@
     "id": 269,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are testing a simplified apartment search form that only has two search criteria: • floor (with three possible options: ground floor; first floor; second floor or higher) • garden type (with three possible options: no garden; small garden; large garden) All apartments on the ground floor have a garden, apartments on the upper floors do not. The form has a built-in validation mechanism that will not allow you to use search criteria that violate this rule. Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each type of garden in your tests. What is the minimum number of test cases to achieve 100% EP coverage for valid partitions?  ",
+    "question": "You are testing a simplified apartment search form that only has two search criteria: • floor (with three possible options: ground floor; first floor; second floor or higher) • garden type (with three possible options: no garden; small garden; large garden) All apartments on the ground floor have a garden, apartments on the upper floors do not. The form has a built-in validation mechanism that will not allow you to use search criteria that violate this rule. Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each type of garden in your tests.\n\nWhat is the minimum number of test cases to achieve 100% EP coverage for valid partitions?",
     "options": [
       "A) 3",
       "B) 4",
@@ -2628,7 +2628,7 @@
     "id": 272,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Test a system whose life cycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state. What is the MINIMUM number of test cases to achieve valid transition coverage?  ",
+    "question": "Test a system whose life cycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state.\n\nWhat is the MINIMUM number of test cases to achieve valid transition coverage?",
     "options": [
       "A) 4",
       "B) 2",
@@ -2643,7 +2643,7 @@
     "id": 273,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Their test suite achieved 100% sentence coverage. What is the consequence of this fact?  ",
+    "question": "Their test suite achieved 100% sentence coverage.\n\nWhat is the consequence of this fact?",
     "options": [
       "A) Every statement in the code that contains a defect has been executed at least once",
       "B) Any test suite that contains more test cases than your test suite will also achieve 100% statement coverage",
@@ -2688,7 +2688,7 @@
     "id": 276,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Started late but has very detailed domain knowledge and good analytical skills. The full list of requirements has not yet been shared with the team, but management is asking for some test results to be submitted. Which testing technique BEST fits this situation?  ",
+    "question": "Started late but has very detailed domain knowledge and good analytical skills. The full list of requirements has not yet been shared with the team, but management is asking for some test results to be submitted.\n\nWhich testing technique BEST fits this situation?",
     "options": [
       "A) Tests based on checklists",
       "B) Error prediction",
@@ -2703,7 +2703,7 @@
     "id": 277,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Which of the following BEST describes how acceptance criteria can be documented?  ",
+    "question": "Which of the following BEST describes\n\nhow acceptance criteria can be documented?",
     "options": [
       "A) Conducting retrospectives to determine the real needs of stakeholders regarding a given user story",
       "B) Using the given/when/then format to describe an example test condition related to a given user story",
@@ -2718,7 +2718,7 @@
     "id": 278,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Consider the following user story: As an Editor I want to review the content before it is published to ensure that the grammar is correct and its acceptance criteria: • The user can log in to the content management system with the role of \"Editor\" • The editor can view existing content pages • The editor can edit the content of the page • The editor can add markup comments • The editor can save changes • The editor can reassign to the \"content owner\" role to make updates Which of the following is the BEST example of an ATDD test for this user story?  ",
+    "question": "Consider the following user story: As an Editor I want to review the content before it is published to ensure that the grammar is correct and its acceptance criteria: • The user can log in to the content management system with the role of \"Editor\" • The editor can view existing content pages • The editor can edit the content of the page • The editor can add markup comments • The editor can save changes • The editor can reassign to the \"content owner\" role to make updates\n\nWhich of the following is the BEST example of an ATDD test for this user story?",
     "options": [
       "A) Test if the editor can save the document after editing the page content",
       "B) Test if the content owner can log in and make updates to the content",
@@ -2748,7 +2748,7 @@
     "id": 307,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Customers of the TestWash car wash chain have cards with the number of washes they have purchased. The initial value is 0. On entering the wash, the system increments the number on the card by one. This value represents the current wash number. Based on this number the system decides the discount: every tenth wash gives a 10% discount and every twentieth wash gives an additional 40% (i.e., 50% in total). Which of the following sets of input data (the current wash numbers) achieves the highest equivalence partition coverage?  ",
+    "question": "Customers of the TestWash car wash chain have cards with the number of washes they have purchased. The initial value is 0. On entering the wash, the system increments the number on the card by one. This value represents the current wash number. Based on this number the system decides the discount: every tenth wash gives a 10% discount and every twentieth wash gives an additional 40% (i.e., 50% in total).\n\nWhich of the following sets of input data (the current wash numbers) achieves the highest equivalence partition coverage?",
     "options": [
       "A) 19, 20, 30",
       "B) 11, 12, 20",
@@ -2763,7 +2763,7 @@
     "id": 308,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are testing a form that checks whether the length of the entered password is correct. The form accepts passwords of the correct length and rejects those that are too short or too long. The length is correct if it is between 6 and 12 characters inclusive. The form is initially empty (length = 0). You apply boundary value analysis to the 'password length' variable. Your test case set achieves 100% 2-value boundary coverage. The team decides that, due to the high risk of the component, cases must be added to reach 100% 3-value boundary coverage. Which additional password lengths should be tested?  ",
+    "question": "You are testing a form that checks whether the length of the entered password is correct. The form accepts passwords of the correct length and rejects those that are too short or too long. The length is correct if it is between 6 and 12 characters inclusive. The form is initially empty (length = 0). You apply boundary value analysis to the 'password length' variable. Your test case set achieves 100% 2-value boundary coverage. The team decides that, due to the high risk of the component, cases must be added to reach 100% 3-value boundary coverage.\n\nWhich additional password lengths should be tested?",
     "options": [
       "A) 4, 5, 13, 14",
       "B) 7, 11",
@@ -2778,7 +2778,7 @@
     "id": 310,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A storage system can hold up to three elements and is modeled by the following state transition diagram. The variable N represents the number of elements currently stored. Which of the following test cases, represented as event sequences, achieves the highest level of valid transition coverage?  ",
+    "question": "A storage system can hold up to three elements and is modeled by the following state transition diagram. The variable N represents the number of elements currently stored.\n\nWhich of the following test cases, represented as event sequences, achieves the highest level of valid transition coverage?",
     "options": [
       "A) Add, Remove, Add, Add, Add",
       "B) Add, Add, Add, Add, Remove, Remove",
@@ -2793,7 +2793,7 @@
     "id": 311,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You execute two test cases, T1 and T2, on the same code. T1 achieves 40% statement coverage and T2 achieves 65%. Which of the following statements is necessarily true?  ",
+    "question": "You execute two test cases, T1 and T2, on the same code. T1 achieves 40% statement coverage and T2 achieves 65%.\n\nWhich of the following statements is necessarily true?",
     "options": [
       "A) The test set T1+T2 achieves 105% statement coverage",
       "B) There is at least one statement that has been executed by both T1 and T2",
@@ -2808,7 +2808,7 @@
     "id": 312,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "The branch coverage metric is defined as: BCov = (X / Y) x 100%. What do X and Y represent in this formula?  ",
+    "question": "The branch coverage metric is defined as: BCov = (X / Y) x 100%.\n\nWhat do X and Y represent in this formula?",
     "options": [
       "A) X = number of decision outcomes exercised by the test cases. Y = total number of decision outcomes in the code",
       "B) X = number of conditional branches exercised by the test cases. Y = total number of branches in the code",
@@ -2853,7 +2853,7 @@
     "id": 315,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Consider the following acceptance criterion for a user story written from the perspective of an online store owner. GIVEN the user is logged in and is on the home page, WHEN the user clicks the 'Add item' button, THEN the 'Create item' form should appear, AND the user should be able to enter a name and a price for the new item. In which format is this acceptance criterion written?  ",
+    "question": "Consider the following acceptance criterion for a user story written from the perspective of an online store owner. GIVEN the user is logged in and is on the home page,\n\nWHEN the user clicks the 'Add item' button, THEN the 'Create item' form should appear, AND the user should be able to enter a name and a price for the new item. In which format is this acceptance criterion written?",
     "options": [
       "A) Rule-oriented",
       "B) Scenario-oriented",
@@ -2868,7 +2868,7 @@
     "id": 316,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Your team analyzes the following user story to define the acceptance criteria: 'As a registered customer, I want to be able to view my previous orders on the company website, so that I can keep track of my purchases.' Which of the following test cases will NOT be relevant for this user story?  ",
+    "question": "Your team analyzes the following user story to define the acceptance criteria: 'As a registered customer, I want to be able to view my previous orders on the company website, so that I can keep track of my purchases.'\n\nWhich of the following test cases will NOT be relevant for this user story?",
     "options": [
       "A) Input: the customer logs in and clicks 'view order history'. Expected result: the system shows a list of all previous orders with date, order number, and total cost",
       "B) Input: the customer clicks an order in the list. Expected result: the system shows the individual items purchased with their prices and quantities",
@@ -2898,7 +2898,7 @@
     "id": 343,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are testing a PIN validator that accepts valid PINs and rejects invalid ones. A PIN is a sequence of 4 digits where each digit is between 0 and 9. You apply equivalence partitioning to the 'number of PIN digits' field. How many partitions are there in total (including valid and invalid)?  ",
+    "question": "You are testing a PIN validator that accepts valid PINs and rejects invalid ones. A PIN is a sequence of 4 digits\n\nwhere each digit is between 0 and 9. You apply equivalence partitioning to the 'number of PIN digits' field. How many partitions are there in total (including valid and invalid)?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2913,7 +2913,7 @@
     "id": 344,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A developer was asked to implement the following business rule: INPUT: value (integer). IF (value > 0) AND (value <= 10) -> Action A. IF (value > 10) AND (value <= 20) -> Action B. IF (value > 20) -> Action C. How many test cases are needed at minimum to achieve 100% branch coverage?  ",
+    "question": "A developer was asked to implement the following business rule: INPUT: value (integer). IF (value > 0) AND (value <= 10) -> Action A. IF (value > 10) AND (value <= 20) -> Action B. IF (value > 20) -> Action C.\n\nHow many test cases are needed at minimum to achieve 100% branch coverage?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2928,7 +2928,7 @@
     "id": 345,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are working on a project to develop a driving test results analysis system. You have been asked to design test cases using decision table testing for the following rule: A candidate PASSES if they get at least 43 of 50 answers correct AND make no serious mistake. A candidate FAILS in any other case. How many rules (columns) will the complete decision table have?  ",
+    "question": "You are working on a project to develop a driving test results analysis system. You have been asked to design test cases using decision table testing for the following rule: A candidate PASSES if they get at least 43 of 50 answers correct AND make no serious mistake. A candidate FAILS in any other case.\n\nHow many rules (columns) will the complete decision table have?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2943,7 +2943,7 @@
     "id": 346,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are designing test cases based on a state transition diagram. What is the MINIMUM number of test cases needed to achieve coverage of all valid transitions (100%)?  ",
+    "question": "You are designing test cases based on a state transition diagram.\n\nWhat is the MINIMUM number of test cases needed to achieve coverage of all valid transitions (100%)?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2958,7 +2958,7 @@
     "id": 347,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You want to apply branch testing to the code represented by the following control flow graph. How many test cases are needed at MINIMUM to achieve 100% branch coverage?  ",
+    "question": "You want to apply branch testing to the code represented by the following control flow graph.\n\nHow many test cases are needed at MINIMUM to achieve 100% branch coverage?",
     "options": [
       "A) 1",
       "B) 2",
@@ -2988,7 +2988,7 @@
     "id": 349,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Consider the following list of possible defects: - Correct input not accepted - Incorrect input accepted - Incorrect output produced - Omitted functionality. Which of the following test techniques is SPECIFICALLY designed to detect all these types of defects?  ",
+    "question": "Consider the following list of possible defects: - Correct input not accepted - Incorrect input accepted - Incorrect output produced - Omitted functionality.\n\nWhich of the following test techniques is SPECIFICALLY designed to detect all these types of defects?",
     "options": [
       "A) Equivalence partition testing",
       "B) Decision table testing",
@@ -3003,7 +3003,7 @@
     "id": 350,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Which of the following BEST describes how the use of checklist-based testing can result in greater coverage compared to specification-based testing without a checklist?  ",
+    "question": "Which of the following BEST describes\n\nhow the use of checklist-based testing can result in greater coverage compared to specification-based testing without a checklist?",
     "options": [
       "A) Checklists include items based on experience of past defects, which helps detect more defects",
       "B) Checklists are formal documents automatically generated by static analysis tools",
@@ -3033,7 +3033,7 @@
     "id": 352,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are using acceptance test-driven development (ATDD) and designing test cases based on the following user story: 'As a registered user, I want to be able to change my password, to keep my account secure.' Which of the following test cases is NOT relevant for this user story?  ",
+    "question": "You are using acceptance test-driven development (ATDD) and designing test cases based on the following user story: 'As a registered user, I want to be able to change my password, to keep my account secure.'\n\nWhich of the following test cases is NOT relevant for this user story?",
     "options": [
       "A) Verify that the user can change their password by entering the correct current password and a valid new password",
       "B) Verify that the system rejects the change if the entered current password is incorrect",
@@ -3048,7 +3048,7 @@
     "id": 377,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are performing system testing of an e-commerce web application and are given the following requirement: REQ 05-017. If the total cost of purchases exceeds $100, the customer gets a 5% discount on subsequent purchases. Otherwise, the customer receives no discount. Which test techniques will be MOST useful for designing test cases based on this requirement?  ",
+    "question": "You are performing system testing of an e-commerce web application and are given the following requirement: REQ 05-017. If the total cost of purchases exceeds $100, the customer gets a 5% discount on subsequent purchases. Otherwise, the customer receives no discount.\n\nWhich test techniques will be MOST useful for designing test cases based on this requirement?",
     "options": [
       "A) White-box test techniques",
       "B) Black-box test techniques",
@@ -3063,7 +3063,7 @@
     "id": 378,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "The cinema ticket sales system calculates the discount type based on the customer's year of birth (YB) and the current year (CY) as follows: Let D be the difference between CY and YB, i.e., D = CY - YB. - If D < 0, show the error 'the year of birth cannot be greater than the current year'. - If 0 <= D < 18, apply the student discount. - If 18 <= D < 65, apply no discount. - If D >= 65, apply the retiree discount. Your test set already contains two cases: - YB = 1990, CY = 2020, expected result: no discount. - YB = 2030, CY = 2029, expected result: show error. Which of the following test data sets should be added to achieve full valid equivalence partition coverage for the discount type?  ",
+    "question": "The cinema ticket sales system calculates the discount type based on the customer's year of birth (YB) and the current year (CY) as follows: Let D be the difference between CY and YB, i.e., D = CY - YB. - If D < 0, show the error 'the year of birth cannot be greater than the current year'. - If 0 <= D < 18, apply the student discount. - If 18 <= D < 65, apply no discount. - If D >= 65, apply the retiree discount. Your test set already contains two cases: - YB = 1990, CY = 2020, expected result: no discount. - YB = 2030, CY = 2029, expected result: show error.\n\nWhich of the following test data sets should be added to achieve full valid equivalence partition coverage for the discount type?",
     "options": [
       "A) AN = 2001, AA = 2065",
       "B) AN = 1900, AA = 1965",
@@ -3078,7 +3078,7 @@
     "id": 379,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are testing a temperature control system for a cold storage facility. The system receives the temperature (in whole Celsius degrees) as input. If the temperature is between 0 and 2 degrees inclusive, it shows 'temperature OK'. For lower temperatures, it shows 'temperature too low', and for higher ones 'temperature too high'. Using 2-value boundary value analysis, which of the following sets provides the highest level of boundary value coverage?  ",
+    "question": "You are testing a temperature control system for a cold storage facility. The system receives the temperature (in whole Celsius degrees) as input. If the temperature is between 0 and 2 degrees inclusive, it shows 'temperature OK'. For lower temperatures, it shows 'temperature too low', and for higher ones 'temperature too high'. Using 2-value boundary value analysis,\n\nwhich of the following sets provides the highest level of boundary value coverage?",
     "options": [
       "A) -1, 3",
       "B) 0, 2",
@@ -3093,7 +3093,7 @@
     "id": 380,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are designing test cases based on a decision table of ages and experience. So far you have designed 4 test cases. Which of the following test cases, when added to the existing set, will increase the decision table coverage?  ",
+    "question": "You are designing test cases based on a decision table of ages and experience. So far you have designed 4 test cases.\n\nWhich of the following test cases, when added to the existing set, will increase the decision table coverage?",
     "options": [
       "A) Man aged 66, unregistered, no experience; expected result: category B",
       "B) Woman aged 55, unregistered, with 2 years of experience; expected result: category A",
@@ -3108,7 +3108,7 @@
     "id": 381,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are applying state transition testing to a hotel room booking system. Assuming that all test cases start in the 'Requesting' state, which of the following test cases, represented as event sequences, achieves the highest valid transition coverage?  ",
+    "question": "You are applying state transition testing to a hotel room booking system. Assuming that all test cases start in the 'Requesting' state,\n\nwhich of the following test cases, represented as event sequences, achieves the highest valid transition coverage?",
     "options": [
       "A) NotAvailable, Available, ChangeRoom, NotAvailable, Cancel",
       "B) Available, ChangeRoom, NotAvailable, Available, Pay",
@@ -3123,7 +3123,7 @@
     "id": 382,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Your test set S for a program P achieves 100% statement coverage. It consists of three test cases, each of which achieves 50% statement coverage. Which of the following statements is CORRECT?  ",
+    "question": "Your test set S for a program P achieves 100% statement coverage. It consists of three test cases, each of\n\nwhich achieves 50% statement coverage. Which of the following statements is CORRECT?",
     "options": [
       "A) Running S will cause all possible failures in P",
       "B) S achieves 100% branch coverage for P",
@@ -3138,7 +3138,7 @@
     "id": 383,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Why does white-box testing facilitate defect detection even when the software specification is vague, outdated, or incomplete?  ",
+    "question": "Why does white-box testing facilitate defect detection even\n\nwhen the software specification is vague, outdated, or incomplete?",
     "options": [
       "A) Test cases are designed based on the structure of the test object instead of the specification",
       "B) For each white-box technique, coverage can be well defined and easily measured",
@@ -3153,7 +3153,7 @@
     "id": 384,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Which of the following situations is NOT anticipated by the tester when applying the error guessing technique?  ",
+    "question": "Which of the following situations is NOT anticipated by the tester\n\nwhen applying the error guessing technique?",
     "options": [
       "A) The developer misunderstood the formula in the user story for calculating interest",
       "B) The developer wrote 'FA = A*(1+IR^N)' instead of 'FA = A*(1+IR)^N' in the code",
@@ -3183,7 +3183,7 @@
     "id": 386,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Which collaborative practice for writing user stories allows the team to achieve a collective understanding of what needs to be delivered?  ",
+    "question": "Which collaborative practice for writing user stories allows the team to achieve a collective understanding of\n\nwhat needs to be delivered?",
     "options": [
       "A) Planning poker, to reach a consensus on the effort",
       "B) Reviews, to detect inconsistencies and contradictions",
@@ -3198,7 +3198,7 @@
     "id": 387,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are designing test cases for a user story where the customer wants to filter products by price range. Precondition: only two products are available, A ($100) and B ($110). What is the BEST example of a test case for this user story?  ",
+    "question": "You are designing test cases for a user story\n\nwhere the customer wants to filter products by price range. Precondition: only two products are available, A ($100) and B ($110). What is the BEST example of a test case for this user story?",
     "options": [
       "A) Go to the website and set the filter between $90 and $100. Result: shows only A. Change the maximum to $110. Result: shows A and B.",
       "B) Go to the website. Add product C priced at $120. Refresh the page. Result: the default maximum price changes to $120.",
@@ -3213,7 +3213,7 @@
     "id": 400,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are a tester of a banking system. The 'transfer amount' field accepts values between 1 euro and 10,000 euros. Applying 3-value BVA per boundary, which set of test values is correct?  ",
+    "question": "You are a tester of a banking system. The 'transfer amount' field accepts values between 1 euro and 10,000 euros. Applying 3-value BVA per boundary,\n\nwhich set of test values is correct?",
     "options": [
       "A) 0, 1, 2, 9999, 10000, 10001",
       "B) 1, 10000",
@@ -3228,7 +3228,7 @@
     "id": 401,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A discount system applies: 0% if purchase < 100 euros, 5% if 100 euros <= purchase < 500 euros, 10% if 500 euros <= purchase < 1000 euros, 15% if purchase >= 1000 euros. Using equivalence partitioning, how many valid equivalence classes are there?  ",
+    "question": "A discount system applies: 0% if purchase < 100 euros, 5% if 100 euros <= purchase < 500 euros, 10% if 500 euros <= purchase < 1000 euros, 15% if purchase >= 1000 euros. Using equivalence partitioning,\n\nhow many valid equivalence classes are there?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3243,7 +3243,7 @@
     "id": 402,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are designing a decision table for a loan system with 3 boolean conditions (sufficient income, good credit history, collateral provided). How many rule columns will the complete table have?  ",
+    "question": "You are designing a decision table for a loan system with 3 boolean conditions (sufficient income, good credit history, collateral provided).\n\nHow many rule columns will the complete table have?",
     "options": [
       "A) 3",
       "B) 6",
@@ -3258,7 +3258,7 @@
     "id": 403,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "An ATM has states: Idle, Waiting for PIN, Verifying, Dispensing, Blocked. If you enter 3 incorrect PINs in a row, the transition goes to 'Blocked'. Which test design technique is MOST suitable for modeling and verifying this behavior?  ",
+    "question": "An ATM has states: Idle, Waiting for PIN, Verifying, Dispensing, Blocked. If you enter 3 incorrect PINs in a row, the transition goes to 'Blocked'.\n\nWhich test design technique is MOST suitable for modeling and verifying this behavior?",
     "options": [
       "A) Equivalence partitioning",
       "B) Boundary values",
@@ -3273,7 +3273,7 @@
     "id": 404,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You have the following code: IF (a > 0 AND b > 0) THEN result = a + b ELSE result = 0. To achieve 100% decision coverage, how many test cases are needed at minimum?  ",
+    "question": "You have the following code: IF (a > 0 AND b > 0) THEN result = a + b ELSE result = 0. To achieve 100% decision coverage,\n\nhow many test cases are needed at minimum?",
     "options": [
       "A) 1",
       "B) 2",
@@ -3288,7 +3288,7 @@
     "id": 405,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You work on a flight booking app. You are applying the 'use cases' method to design tests. Which flow MUST you test to find the most critical defects in the booking flow?  ",
+    "question": "You work on a flight booking app. You are applying the 'use cases' method to design tests.\n\nWhich flow MUST you test to find the most critical defects in the booking flow?",
     "options": [
       "A) Only the basic flow (happy path)",
       "B) Only the alternative error flows",
@@ -3303,7 +3303,7 @@
     "id": 406,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "For a module with 5 independent conditions in a decision table, how many rules would the complete table have, and how many would result from 'collapsing' by removing irrelevant conditions if there are only 3 distinct actions?  ",
+    "question": "For a module with 5 independent conditions in a decision table,\n\nhow many rules would the complete table have, and how many would result from 'collapsing' by removing irrelevant conditions if there are only 3 distinct actions?",
     "options": [
       "A) 32 complete; 3 collapsed",
       "B) 10 complete; 3 collapsed",
@@ -3318,7 +3318,7 @@
     "id": 422,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A form field accepts age values between 18 and 65 years. Using equivalence partitioning, how many classes are identified (valid + invalid)?  ",
+    "question": "A form field accepts age values between 18 and 65 years. Using equivalence partitioning,\n\nhow many classes are identified (valid + invalid)?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3333,7 +3333,7 @@
     "id": 424,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Analyze the following flowchart: START -> A -> IF X THEN B ELSE C -> IF Y THEN D ELSE E -> END. How many test cases are needed to achieve 100% statement coverage?  ",
+    "question": "Analyze the following flowchart: START -> A -> IF X THEN B ELSE C -> IF Y THEN D ELSE E -> END.\n\nHow many test cases are needed to achieve 100% statement coverage?",
     "options": [
       "A) 1",
       "B) 2",
@@ -3348,7 +3348,7 @@
     "id": 425,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You have a function with 4 independent conditions in an AND expression: (A AND B AND C AND D). To achieve 100% modified condition/decision coverage (MC/DC), how many test cases are needed at minimum?  ",
+    "question": "You have a function with 4 independent conditions in an AND expression: (A AND B AND C AND D). To achieve 100% modified condition/decision coverage (MC/DC),\n\nhow many test cases are needed at minimum?",
     "options": [
       "A) 2",
       "B) 4",
@@ -3363,7 +3363,7 @@
     "id": 426,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A traffic light system has states: Red, Amber_to_Green, Green, Amber_to_Red. The transition Red->Amber_to_Green occurs after 60 seconds. How many valid transitions does the complete traffic light diagram have?  ",
+    "question": "A traffic light system has states: Red, Amber_to_Green, Green, Amber_to_Red. The transition Red->Amber_to_Green occurs after 60 seconds.\n\nHow many valid transitions does the complete traffic light diagram have?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3378,7 +3378,7 @@
     "id": 427,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "You are testing a search function. From your experience, you know that searches with special characters (%, _, *) often cause SQL injection. Which experience-based technique are you using?  ",
+    "question": "You are testing a search function. From your experience, you know that searches with special characters (%, _, *) often cause SQL injection.\n\nWhich experience-based technique are you using?",
     "options": [
       "A) Structured exploration",
       "B) Error guessing",
@@ -3393,7 +3393,7 @@
     "id": 428,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "For the following code IF (age >= 18 AND country == 'ES') THEN access = true ELSE access = false, how many test cases do you need for 100% decision coverage?  ",
+    "question": "For the following code IF (age >= 18 AND country == 'ES') THEN access = true ELSE access = false,\n\nhow many test cases do you need for 100% decision coverage?",
     "options": [
       "A) 1",
       "B) 2",
@@ -3408,7 +3408,7 @@
     "id": 439,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Pairwise testing is applied to a system with 5 parameters, each with 3 possible values. If all combinations were tested it would be 3^5=243 cases. What is pairwise for?  ",
+    "question": "Pairwise testing is applied to a system with 5 parameters, each with 3 possible values. If all combinations were tested it would be 3^5=243 cases.\n\nWhat is pairwise for?",
     "options": [
       "A) To test all possible combinations systematically",
       "B) To reduce the number of test cases by ensuring each pair of values appears at least once",
@@ -3438,7 +3438,7 @@
     "id": 448,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "PRACTICAL CASE: You are testing a hotel booking system. Prices vary by season: Low (January-March, Oct-Nov): 80 euros/night; Mid (April-June, Sep): 120 euros/night; High (July-August, Dec): 200 euros/night. Using EP, how many valid equivalence classes are there for the price per night?  ",
+    "question": "PRACTICAL CASE: You are testing a hotel booking system. Prices vary by season: Low (January-March, Oct-Nov): 80 euros/night; Mid (April-June, Sep): 120 euros/night; High (July-August, Dec): 200 euros/night. Using EP,\n\nhow many valid equivalence classes are there for the price per night?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3453,7 +3453,7 @@
     "id": 449,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "PRACTICAL CASE: Online voting system. Voting conditions: (1) Registered citizen, (2) Over 18 years old, (3) Has not already voted. They can only vote if they meet all 3. Design the minimal decision table. How many distinct behavior rules (not impossible rules) are there?  ",
+    "question": "PRACTICAL CASE: Online voting system. Voting conditions: (1) Registered citizen, (2) Over 18 years old, (3) Has not already voted. They can only vote if they meet all 3. Design the minimal decision table.\n\nHow many distinct behavior rules (not impossible rules) are there?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3468,7 +3468,7 @@
     "id": 450,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "PRACTICAL CASE: Testing a pedestrian traffic light. States: RED_PEDESTRIAN, GREEN_PEDESTRIAN, FLASHING. Transitions: RED->GREEN (after 60s), GREEN->FLASHING (after 25s), FLASHING->RED (after 5s). What 0-switch coverage (all transitions) does it require at minimum?  ",
+    "question": "PRACTICAL CASE: Testing a pedestrian traffic light. States: RED_PEDESTRIAN, GREEN_PEDESTRIAN, FLASHING. Transitions: RED->GREEN (after 60s), GREEN->FLASHING (after 25s), FLASHING->RED (after 5s).\n\nWhat 0-switch coverage (all transitions) does it require at minimum?",
     "options": [
       "A) 1 test case",
       "B) 2 test cases",
@@ -3483,7 +3483,7 @@
     "id": 457,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "PRACTICAL CASE: Testing a registration form. Fields: name (required), email (valid format), password (8-20 chars, at least 1 uppercase). Using EP, how many equivalence classes are there ONLY for the password field?  ",
+    "question": "PRACTICAL CASE: Testing a registration form. Fields: name (required), email (valid format), password (8-20 chars, at least 1 uppercase). Using EP,\n\nhow many equivalence classes are there ONLY for the password field?",
     "options": [
       "A) 2 (valid and invalid)",
       "B) 4 (valid; invalid due to short length; invalid due to long length; invalid due to no uppercase)",
@@ -3498,7 +3498,7 @@
     "id": 462,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A specification says: 'If the user is premium AND has been a member for more than 1 year, apply a 20% discount'. Which test design technique is MOST directly applicable to this business rule?  ",
+    "question": "A specification says: 'If the user is premium AND has been a member for more than 1 year, apply a 20% discount'.\n\nWhich test design technique is MOST directly applicable to this business rule?",
     "options": [
       "A) Boundary value analysis",
       "B) Decision tables",
@@ -3528,7 +3528,7 @@
     "id": "q_batch2_3dfvl4agj",
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "In an agile project, the team is implementing the following user story: 'As a customer, I want to search for products by category to quickly find what I need'. The acceptance criteria are: The system shows available categories; the user can select a category; products from the selected category are shown; a message is shown if there are no products in the category. What is the BEST example of an ATDD test case for this story?  ",
+    "question": "In an agile project, the team is implementing the following user story: 'As a customer, I want to search for products by category to quickly find\n\nwhat I need'. The acceptance criteria are: The system shows available categories; the user can select a category; products from the selected category are shown; a message is shown if there are no products in the category. What is the BEST example of an ATDD test case for this story?",
     "options": [
       "Verify that the database contains at least 10 categories",
       "Given there are products in 'Electronics', when I select 'Electronics', then I see the list of electronic products",
@@ -3543,7 +3543,7 @@
     "id": "q_batch2_7kt0gtwqg",
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A development team has implemented a new financial system, but not all requirements have been documented. The time for testing is limited and the team needs to obtain information about the system's behavior quickly. Which testing approach would be the MOST suitable in this situation?  ",
+    "question": "A development team has implemented a new financial system, but not all requirements have been documented. The time for testing is limited and the team needs to obtain information about the system's behavior quickly.\n\nWhich testing approach would be the MOST suitable in this situation?",
     "options": [
       "Regression testing",
       "Exploratory testing",
@@ -3558,7 +3558,7 @@
     "id": "q_batch2_j594nrl15",
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A music player system has the following states: STOPPED, PLAYING, PAUSED. The valid transitions are: STOPPED -> PLAYING (play), PLAYING -> PAUSED (pause), PAUSED -> PLAYING (resume), PLAYING -> STOPPED (stop), PAUSED -> STOPPED (stop). What is the MINIMUM number of test cases to achieve 100% valid transition coverage with the constraint that the case must start and end in the STOPPED state?  ",
+    "question": "A music player system has the following states: STOPPED, PLAYING, PAUSED. The valid transitions are: STOPPED -> PLAYING (play), PLAYING -> PAUSED (pause), PAUSED -> PLAYING (resume), PLAYING -> STOPPED (stop), PAUSED -> STOPPED (stop).\n\nWhat is the MINIMUM number of test cases to achieve 100% valid transition coverage with the constraint that the case must start and end in the STOPPED state?",
     "options": [
       "2",
       "3",
@@ -3588,7 +3588,7 @@
     "id": "q_batch2_v5j9hx3qq",
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A web registration form has the following fields: Age: 18-65 years (valid), under 18 or over 65 (invalid). Membership type: 'Basic', 'Premium', 'VIP' (valid), any other value (invalid). Applying equivalence partitioning with the 'Each Choice' coverage criterion, how many test cases are needed at MINIMUM to cover all the valid partitions?  ",
+    "question": "A web registration form has the following fields: Age: 18-65 years (valid), under 18 or over 65 (invalid). Membership type: 'Basic', 'Premium', 'VIP' (valid), any other value (invalid). Applying equivalence partitioning with the 'Each Choice' coverage criterion,\n\nhow many test cases are needed at MINIMUM to cover all the valid partitions?",
     "options": [
       "2",
       "3",
@@ -3618,7 +3618,7 @@
     "id": "q_batch2_zdybwbzfz",
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A discount system for an online store applies the following rules: If the customer is VIP AND the order is > $100: 20% discount. If the customer is VIP AND the order is <= $100: 10% discount. If the customer is NOT VIP AND the order is > $100: 5% discount. If the customer is NOT VIP AND the order is <= $100: no discount. How many decision rules are needed in the complete decision table?  ",
+    "question": "A discount system for an online store applies the following rules: If the customer is VIP AND the order is > $100: 20% discount. If the customer is VIP AND the order is <= $100: 10% discount. If the customer is NOT VIP AND the order is > $100: 5% discount. If the customer is NOT VIP AND the order is <= $100: no discount.\n\nHow many decision rules are needed in the complete decision table?",
     "options": [
       "2",
       "3",
@@ -3633,7 +3633,7 @@
     "id": 1004,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You are participating in a software project developing an e-learning platform. The team has decided to perform regression testing on the current version of the system. Which of the following activities is performed during the test planning phase?  ",
+    "question": "You are participating in a software project developing an e-learning platform. The team has decided to perform regression testing on the current version of the system.\n\nWhich of the following activities is performed during the test planning phase?",
     "options": [
       "Define which features will be tested in the next iteration.",
       "Execute test cases to verify that the e-learning platform's functionality works.",
@@ -3663,7 +3663,7 @@
     "id": 1030,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "In your previous project, the ratio between development effort and testing effort was 5:3. The current project estimates 800 person-days of development. Using ratio-based estimation, what would the testing effort estimate be?  ",
+    "question": "In your previous project, the ratio between development effort and testing effort was 5:3. The current project estimates 800 person-days of development. Using ratio-based estimation,\n\nwhat would the testing effort estimate be?",
     "options": [
       "400 person-days",
       "480 person-days",
@@ -3693,7 +3693,7 @@
     "id": 1036,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Your team is in the third iteration of an agile project. The test efforts of the previous iterations were: Iteration 1: 45 person-days, Iteration 2: 52 person-days. Using extrapolation, what would be the most appropriate estimate for Iteration 3?  ",
+    "question": "Your team is in the third iteration of an agile project. The test efforts of the previous iterations were: Iteration 1: 45 person-days, Iteration 2: 52 person-days. Using extrapolation,\n\nwhat would be the most appropriate estimate for Iteration 3?",
     "options": [
       "45 person-days (the historical minimum)",
       "48.5 person-days (average of the two iterations)",
@@ -3723,7 +3723,7 @@
     "id": 1052,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "The team uses the three-point estimation technique for a new feature. The estimates in days are: Optimistic = 10, Most Likely = 15, Pessimistic = 26. What is the final rounded estimate using the weighted formula E = (o + 4m + p) / 6?  ",
+    "question": "The team uses the three-point estimation technique for a new feature. The estimates in days are: Optimistic = 10, Most Likely = 15, Pessimistic = 26.\n\nWhat is the final rounded estimate using the weighted formula E = (o + 4m + p) / 6?",
     "options": [
       "15 days",
       "16 days",
@@ -3738,7 +3738,7 @@
     "id": 1053,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "To plan the test effort for the next Sprint, the manager proposes an optimistic scenario where everything works on the first try (5 days), a pessimistic scenario with multiple blockers (15 days), and a most likely scenario based on recent experience (7 days). Using the three-point technique, what is the estimated effort?  ",
+    "question": "To plan the test effort for the next Sprint, the manager proposes an optimistic scenario\n\nwhere everything works on the first try (5 days), a pessimistic scenario with multiple blockers (15 days), and a most likely scenario based on recent experience (7 days). Using the three-point technique, what is the estimated effort?",
     "options": [
       "8 days",
       "9 days",
@@ -3753,7 +3753,7 @@
     "id": 1054,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "The test team needs to estimate the effort for a new project. They decide to base their estimate on the 'Number of Use Cases' metric. Historically, testing a complete use case takes 3 days. If the new project has 12 use cases, they estimate 36 days. Which technique has been used?  ",
+    "question": "The test team needs to estimate the effort for a new project. They decide to base their estimate on the 'Number of Use Cases' metric. Historically, testing a complete use case takes 3 days. If the new project has 12 use cases, they estimate 36 days.\n\nWhich technique has been used?",
     "options": [
       "Consensus-based estimation (Planning Poker)",
       "Three-point estimation",
@@ -3783,7 +3783,7 @@
     "id": 1057,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "In the context of software testing, which of the following statements best describes the objective of test planning?  ",
+    "question": "In the context of software testing,\n\nwhich of the following statements best describes the objective of test planning?",
     "options": [
       "Identify all possible defects in the software.",
       "Define the resources, scope, and approach of the testing to be performed.",
@@ -3798,7 +3798,7 @@
     "id": 1077,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You are participating in a software project developing an e-learning platform. The team has decided to perform regression testing. Which of the following activities is performed during the test planning phase?  ",
+    "question": "You are participating in a software project developing an e-learning platform. The team has decided to perform regression testing.\n\nWhich of the following activities is performed during the test planning phase?",
     "options": [
       "Define which features will be tested in the next iteration.",
       "Execute test cases to verify that the platform's functionality works.",
@@ -3858,7 +3858,7 @@
     "id": 280,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "His team uses the three-point estimation technique to estimate the testing effort for a new high-risk feature. The following estimates were made: • Most optimistic estimate: 2 person-hours • Most probable estimate: 11 person-hours • Most pessimistic estimate: 14 person-hours What is the final estimate?  ",
+    "question": "His team uses the three-point estimation technique to estimate the testing effort for a new high-risk feature. The following estimates were made: • Most optimistic estimate: 2 person-hours • Most probable estimate: 11 person-hours • Most pessimistic estimate: 14 person-hours\n\nWhat is the final estimate?",
     "options": [
       "A) 9 person-hours",
       "B) 14 person-hours",
@@ -3873,7 +3873,7 @@
     "id": 281,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "It is testing a mobile app that allows users to find a nearby restaurant based on the type of food they want to eat. Consider the following list of test cases, priorities (i.e., a lower number means a higher priority), and dependencies: Test Case Number Test Condition Covered Priority Logical Dependency TC 001 Select Food Type 3 none TC 002 Select Restaurant 2 TC 001 TC 003 Get Directions 1 TC 002 TC 004 Call Restaurant 2 TC 002 TC 005 Make a Reservation 3 TC 002 Which Of the following test cases should be executed thirdly?  ",
+    "question": "It is testing a mobile app that allows users to find a nearby restaurant based on the type of food they want to eat. Consider the following list of test cases, priorities (i.e., a lower number means a higher priority), and dependencies: Test Case Number Test Condition Covered Priority Logical Dependency TC 001 Select Food Type 3 none TC 002 Select Restaurant 2 TC 001 TC 003 Get Directions 1 TC 002 TC 004 Call Restaurant 2 TC 002 TC 005 Make a Reservation 3 TC 002\n\nWhich Of the following test cases should be executed thirdly?",
     "options": [
       "A) TC 003",
       "B) TC 005",
@@ -3888,7 +3888,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Consider the following test categories (1-4) and Agile Testing Quadrants (A-D): How do the following test categories map to the agile testing quadrants?\n\n1. Usability Testing\n2. Component Testing\n3. Functional Testing\n4. Reliability Testing\n\nA. Agile Testing Quadrant Q1: Technology-oriented, supporting the development team  \nB. Agile Testing Quadrant Q2: Business-oriented, supporting the development team  \nC. Agile Testing Quadrant Q3: Business-oriented, Product Critique  \nD. Agile Testing Quadrant Q4: Technology Oriented, Product Critique",
+    "question": "Consider the following test categories (1-4) and Agile Testing Quadrants (A-D):\n\nHow do the following test categories map to the agile testing quadrants?\n\n1. Usability Testing\n2. Component Testing\n3. Functional Testing\n4. Reliability Testing\n\nA. Agile Testing Quadrant Q1: Technology-oriented, supporting the development team  \nB. Agile Testing Quadrant Q2: Business-oriented, supporting the development team  \nC. Agile Testing Quadrant Q3: Business-oriented, Product Critique  \nD. Agile Testing Quadrant Q4: Technology Oriented, Product Critique",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B) 1D, 2A, 3C, 4B",
@@ -3903,7 +3903,7 @@
     "id": 283,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "During a risk analysis the following risk was identified and evaluated: • Risk: Response time is too long to generate a report • Risk probability: medium; risk impact: high • Risk response: o An independent testing team performs performance efficiency testing during system testing o A selected sample of end users performs alpha testing and beta testing prior to release What action do you propose to take in response to this analyzed risk?  ",
+    "question": "During a risk analysis the following risk was identified and evaluated: • Risk: Response time is too long to generate a report • Risk probability: medium; risk impact: high • Risk response: o An independent testing team performs performance efficiency testing during system testing o A selected sample of end users performs alpha testing and beta testing prior to release\n\nWhat action do you propose to take in response to this analyzed risk?",
     "options": [
       "A) Acceptance of risk",
       "B) Contingency plan",
@@ -3933,7 +3933,7 @@
     "id": 285,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You need to update one of the automated test scripts to be aligned with a new requirement. Which process indicates that you should create a new version of the test script in the test repository?  ",
+    "question": "You need to update one of the automated test scripts to be aligned with a new requirement.\n\nWhich process indicates that you should create a new version of the test script in the test repository?",
     "options": [
       "A) Traceability management",
       "B) Maintenance tests",
@@ -3948,7 +3948,7 @@
     "id": 286,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Received the following defect report from the developers stating that the anomaly described in this test report is not reproducible. Application freezes 2022-May-03 – John Doe – Rejected Application freezes after entering “Test Input: $ä” in the Name field on the new user creation screen. Tried logging out, logging in with test_admin01 account, same issue. Tried with other test admin accounts, same issue. No error message received; The log (see attached) contains a fatal error notification. Based on test case TC-1305, the application should accept the provided input and create the user. Please fix with high priority, this feature is related to REQ-0012 which is a new critical business requirement. What critical information is MISSING from this test report that would have been helpful to the developers?  ",
+    "question": "Received the following defect report from the developers stating that the anomaly described in this test report is not reproducible. Application freezes 2022-May-03 – John Doe – Rejected Application freezes after entering “Test Input: $ä” in the Name field on the new user creation screen. Tried logging out, logging in with test_admin01 account, same issue. Tried with other test admin accounts, same issue. No error message received; The log (see attached) contains a fatal error notification. Based on test case TC-1305, the application should accept the provided input and create the user. Please fix with high priority, this feature is related to REQ-0012\n\nwhich is a new critical business requirement. What critical information is MISSING from this test report that would have been helpful to the developers?",
     "options": [
       "A) Expected result and actual result",
       "B) References and status of the defect",
@@ -3963,7 +3963,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Your team follows a process that uses the DevOps delivery pipeline. The first three steps are: (1) Code development (2) Push the code to the version control system and merge it with the 'test' branch (3) Run component tests of the pushed code. Which of the following is the BEST option as an entry criterion for step (2) of this pipeline?  ",
+    "question": "Your team follows a process that uses the DevOps delivery pipeline. The first three steps are: (1) Code development (2) Push the code to the version control system and merge it with the 'test' branch (3) Run component tests of the pushed code.\n\nWhich of the following is the BEST option as an entry criterion for step (2) of this pipeline?",
     "options": [
       "A) Static analysis returns no high-severity warnings for the pushed code",
       "B) The version control system reports no conflicts when merging the code with the 'test' branch",
@@ -3978,7 +3978,7 @@
     "id": 318,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You want to estimate the testing effort for a new project using ratio-based estimation. You calculate the testing effort/development effort ratio using averaged data from four similar historical projects. The table shows: P1: Development $800,000, Testing $40,000 | P2: $1,200,000 / $130,000 | P3: $600,000 / $70,000 | P4: $1,000,000 / $120,000. The estimated development effort for the new project is $800,000. What is your estimate of the testing effort?  ",
+    "question": "You want to estimate the testing effort for a new project using ratio-based estimation. You calculate the testing effort/development effort ratio using averaged data from four similar historical projects. The table shows: P1: Development $800,000, Testing $40,000 | P2: $1,200,000 / $130,000 | P3: $600,000 / $70,000 | P4: $1,000,000 / $120,000. The estimated development effort for the new project is $800,000.\n\nWhat is your estimate of the testing effort?",
     "options": [
       "A) $40,000",
       "B) $80,000",
@@ -3993,7 +3993,7 @@
     "id": 320,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "According to the testing quadrants model, which of the following falls in quadrant Q1 ('technology-oriented' and 'supports the team')?  ",
+    "question": "According to the testing quadrants model,\n\nwhich of the following falls in quadrant Q1 ('technology-oriented' and 'supports the team')?",
     "options": [
       "A) Usability testing",
       "B) Functional testing",
@@ -4008,7 +4008,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Given the following risks: Which of the following gives the BEST match between risks and mitigation activities?\n\n1. An inefficient loop implementation causes slow system responses\n2. Consumers change their preferences\n3. Flooding of the server room\n4. Patients over a certain age receive incorrect reports\n\nA. Risk acceptance  \nB. Performance efficiency testing  \nC. Use of boundary value analysis as a technique  \nD. Risk transfer",
+    "question": "Given the following risks:\n\nWhich of the following gives the BEST match between risks and mitigation activities?\n\n1. An inefficient loop implementation causes slow system responses\n2. Consumers change their preferences\n3. Flooding of the server room\n4. Patients over a certain age receive incorrect reports\n\nA. Risk acceptance  \nB. Performance efficiency testing  \nC. Use of boundary value analysis as a technique  \nD. Risk transfer",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -4038,7 +4038,7 @@
     "id": 323,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You are a member of a test team located in North America, developing a product for a customer in Europe. The team is agile, follows DevOps, and uses a CI/CD pipeline. Which of the following is the LEAST effective way to communicate test progress to the customer?  ",
+    "question": "You are a member of a test team located in North America, developing a product for a customer in Europe. The team is agile, follows DevOps, and uses a CI/CD pipeline.\n\nWhich of the following is the LEAST effective way to communicate test progress to the customer?",
     "options": [
       "A) Face to face (in person)",
       "B) Dashboards",
@@ -4053,7 +4053,7 @@
     "id": 324,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Which of the following options BEST describes an example of how configuration management (CM) supports testing?  ",
+    "question": "Which of the following options BEST describes an example of\n\nhow configuration management (CM) supports testing?",
     "options": [
       "A) With the environment version number, the CM tool can retrieve the version numbers of the libraries, stubs, and drivers used in that environment",
       "B) With a record of input values, the CM tool can run the test cases for those configurations and calculate coverage",
@@ -4083,7 +4083,7 @@
     "id": 354,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "At the start of each iteration, the team estimates the amount of work (in person-days) it can complete during that iteration. At the end of the iteration, the actual work completed is measured. Over time, the historical data shows that the team completes on average 80% of the estimated work. If in the next iteration the team estimates 50 person-days of work, how many person-days should the test manager plan as actual effort?  ",
+    "question": "At the start of each iteration, the team estimates the amount of work (in person-days) it can complete during that iteration. At the end of the iteration, the actual work completed is measured. Over time, the historical data shows that the team completes on average 80% of the estimated work. If in the next iteration the team estimates 50 person-days of work,\n\nhow many person-days should the test manager plan as actual effort?",
     "options": [
       "A) 40",
       "B) 50",
@@ -4128,7 +4128,7 @@
     "id": 358,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Which of the following is an example of how product risk analysis can influence the thoroughness and approach of testing?  ",
+    "question": "Which of the following is an example of\n\nhow product risk analysis can influence the thoroughness and approach of testing?",
     "options": [
       "A) Increase the test coverage of the highest-risk features",
       "B) Prioritize testing of recently implemented features over older ones",
@@ -4158,7 +4158,7 @@
     "id": 360,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Which of the following is NOT an example of how configuration management (CM) supports testing?  ",
+    "question": "Which of the following is NOT an example of\n\nhow configuration management (CM) supports testing?",
     "options": [
       "A) Maintaining a record of the configuration items that make up the test environment",
       "B) Automatically generating additional test cases when defects are detected in the software",
@@ -4173,7 +4173,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Consider the following defect report for a shopping web application: Application: WebShop v0.9.1. Module: Shopping cart. Summary: 'The cart Delete button does not work when there is exactly 1 item'. Steps:  \n  \n1) Log in  \n  \n2) Add 1 item to the cart  \n  \n3) Click Delete. Expected result: The item is removed and the cart is empty. Actual result: Nothing happens. Which of the following elements is MISSING from this defect report?  ",
+    "question": "Consider the following defect report for a shopping web application: Application: WebShop v0.9.1. Module: Shopping cart. Summary: 'The cart Delete button does not work\n\nwhen there is exactly 1 item'. Steps:  \n  \n1) Log in  \n  \n2) Add 1 item to the cart  \n  \n3) Click Delete. Expected result: The item is removed and the cart is empty. Actual result: Nothing happens. Which of the following elements is MISSING from this defect report?",
     "options": [
       "A) The identifier of the test case that revealed the defect",
       "B) The system environment/configuration data",
@@ -4203,7 +4203,7 @@
     "id": 389,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "The team wants to estimate the time to execute four test cases. The measures for one case are: Best case: 1h, Worst case: 8h, Most likely: 3h. Using the three-point estimation technique, what is the final estimate for the FOUR test cases?  ",
+    "question": "The team wants to estimate the time to execute four test cases. The measures for one case are: Best case: 1h, Worst case: 8h, Most likely: 3h. Using the three-point estimation technique,\n\nwhat is the final estimate for the FOUR test cases?",
     "options": [
       "A) 14 hours",
       "B) 3.5 hours",
@@ -4218,7 +4218,7 @@
     "id": 390,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You have a traceability matrix and you want to prioritize the test cases following the additional coverage prioritization technique. You will execute four test cases. According to standard techniques, which test case should be executed LAST?  ",
+    "question": "You have a traceability matrix and you want to prioritize the test cases following the additional coverage prioritization technique. You will execute four test cases. According to standard techniques,\n\nwhich test case should be executed LAST?",
     "options": [
       "A) TC1",
       "B) TC2",
@@ -4248,7 +4248,7 @@
     "id": 392,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "For a given risk, the risk level is $1,000 and its probability is estimated at 50%. What is the risk impact?  ",
+    "question": "For a given risk, the risk level is $1,000 and its probability is estimated at 50%.\n\nWhat is the risk impact?",
     "options": [
       "A) $500",
       "B) $2,000",
@@ -4293,7 +4293,7 @@
     "id": 395,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "A user reported a failure. Support asked them for the software version. With that version, the team rebuilt the release files, which allowed the developer to analyze and fix the defect. What process made this activity possible?  ",
+    "question": "A user reported a failure. Support asked them for the software version. With that version, the team rebuilt the release files,\n\nwhich allowed the developer to analyze and fix the defect. What process made this activity possible?",
     "options": [
       "A) Risk management",
       "B) Test monitoring and control",
@@ -4308,7 +4308,7 @@
     "id": 396,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Consider a defect report for a Book Lending System. Which of the following actions would MOST help the developer reproduce the failure quickly?  ",
+    "question": "Consider a defect report for a Book Lending System.\n\nWhich of the following actions would MOST help the developer reproduce the failure quickly?",
     "options": [
       "A) Add information about which users and which books are affected in the 'Description' section",
       "B) Fill in the missing value of the 'Priority' field",
@@ -4323,7 +4323,7 @@
     "id": 413,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You are a test manager and you need to estimate the test effort for a new project. You have historical data from 5 similar projects. Which estimation approach would you use PRIMARILY?  ",
+    "question": "You are a test manager and you need to estimate the test effort for a new project. You have historical data from 5 similar projects.\n\nWhich estimation approach would you use PRIMARILY?",
     "options": [
       "A) Wideband Delphi exclusively",
       "B) Metrics-based estimation using historical data from similar projects",
@@ -4338,7 +4338,7 @@
     "id": 414,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Your test plan indicates 200 planned test cases for the week. At the end of the week, you executed 140 and found 25 defects, of which 8 are critical and still unfixed. What information is MOST relevant for deciding whether to release the software?  ",
+    "question": "Your test plan indicates 200 planned test cases for the week. At the end of the week, you executed 140 and found 25 defects, of\n\nwhich 8 are critical and still unfixed. What information is MOST relevant for deciding whether to release the software?",
     "options": [
       "A) Only the execution percentage (70%)",
       "B) Only the total number of defects (25)",
@@ -4353,7 +4353,7 @@
     "id": 415,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "A defect has 'critical' severity (the system crashes) but 'low' priority assigned by the product owner. What is the MOST likely explanation?  ",
+    "question": "A defect has 'critical' severity (the system crashes) but 'low' priority assigned by the product owner.\n\nWhat is the MOST likely explanation?",
     "options": [
       "A) It is an error; severity and priority should always match",
       "B) The defect affects a rarely used feature or one that is not critical for the business at this time",
@@ -4368,7 +4368,7 @@
     "id": 416,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You work on a project with an identified product risk: 'The payment module could fail under high load'. What type of testing should you prioritize to mitigate this risk?  ",
+    "question": "You work on a project with an identified product risk: 'The payment module could fail under high load'.\n\nWhat type of testing should you prioritize to mitigate this risk?",
     "options": [
       "A) Regression testing of the payment module",
       "B) Performance/load testing of the payment module",
@@ -4398,7 +4398,7 @@
     "id": 436,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You are a test manager. The project is 2 weeks behind schedule. The director asks to cut the testing time in half. What is the MOST professional response?  ",
+    "question": "You are a test manager. The project is 2 weeks behind schedule. The director asks to cut the testing time in half.\n\nWhat is the MOST professional response?",
     "options": [
       "A) Accept and run all the tests faster",
       "B) Randomly remove half of the test cases",
@@ -4443,7 +4443,7 @@
     "id": 451,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "PRACTICAL CASE: You have 100 test cases to execute in 5 days. After 3 days you have executed 50 cases, found 15 defects (5 critical), and the development team has fixed 8. The exit criteria require: 90% execution, 0 open critical defects. What is your situation?  ",
+    "question": "PRACTICAL CASE: You have 100 test cases to execute in 5 days. After 3 days you have executed 50 cases, found 15 defects (5 critical), and the development team has fixed 8. The exit criteria require: 90% execution, 0 open critical defects.\n\nWhat is your situation?",
     "options": [
       "A) You can release: you have met the exit criteria",
       "B) You cannot release: test cases are missing and you have open critical defects",
@@ -4458,7 +4458,7 @@
     "id": 452,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "PRACTICAL CASE: Your team identified the following product risks: R1(prob=High, impact=High), R2(prob=Low, impact=High), R3(prob=High, impact=Low), R4(prob=Low, impact=Low). Using risk-based testing, in what order do you prioritize the tests?  ",
+    "question": "PRACTICAL CASE: Your team identified the following product risks: R1(prob=High, impact=High), R2(prob=Low, impact=High), R3(prob=High, impact=Low), R4(prob=Low, impact=Low). Using risk-based testing, in\n\nwhat order do you prioritize the tests?",
     "options": [
       "A) R4, R3, R2, R1",
       "B) R1, R2, R3, R4",
@@ -4473,7 +4473,7 @@
     "id": 459,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "PRACTICAL CASE: You are managing testing of a mobile app. 3 days before release, your team finds a serious defect in the payment flow. The developer's fix will take 2 days. What is the correct process according to ISTQB?  ",
+    "question": "PRACTICAL CASE: You are managing testing of a mobile app. 3 days before release, your team finds a serious defect in the payment flow. The developer's fix will take 2 days.\n\nWhat is the correct process according to ISTQB?",
     "options": [
       "A) Automatically cancel the release",
       "B) Record the defect, assess the impact and risk, escalate for a business decision on delaying or releasing with a documented workaround",
@@ -4503,7 +4503,7 @@
     "id": "q_batch2_1ksnvb89h",
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Which of the following statements best describes how configuration management contributes to effective testing?  ",
+    "question": "Which of the following statements best describes\n\nhow configuration management contributes to effective testing?",
     "options": [
       "It allows testers to work with obsolete versions of the test cases.",
       "It facilitates the identification and control of the test items and their versions.",
@@ -4518,7 +4518,7 @@
     "id": "q_batch2_apxr5xluy",
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "In what way can testers contribute to process improvement in release planning?  ",
+    "question": "In\n\nwhat way can testers contribute to process improvement in release planning?",
     "options": [
       "Testers analyze the results of previous tests to identify areas for improvement in the development process.",
       "Testers only execute test cases without getting involved in planning.",
@@ -4533,7 +4533,7 @@
     "id": "q_batch2_du99np3p4",
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "During the testing of a system, several errors were reported and fixed. After a new version of the software was released, it is decided to run the tests again. Which of the following tests are considered confirmation tests?  ",
+    "question": "During the testing of a system, several errors were reported and fixed. After a new version of the software was released, it is decided to run the tests again.\n\nWhich of the following tests are considered confirmation tests?",
     "options": [
       "Testing a new module that had not been tested before.",
       "Tests that were previously run and failed, now performed to verify the fix.",
@@ -4563,7 +4563,7 @@
     "id": "q_batch2_jfwjvhmmc",
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "You prepared the following defect report: Defect ID: BUG-00456. Date: 15-01-2025. Title: The 'Submit Payment' button does not respond after selecting a payment method. Severity: High. Priority: Critical. Reported by: Test Analyst. Configuration: Application version 2.15.087, Browser: Firefox 118.0.2.0. Expected result: The 'Submit Payment' button should process the payment information and redirect to the payment confirmation page. Attachments: Screenshot, Screen recording. What is the MOST important information missing from this defect report that a test analyst should include to facilitate a quick resolution?  ",
+    "question": "You prepared the following defect report: Defect ID: BUG-00456. Date: 15-01-2025. Title: The 'Submit Payment' button does not respond after selecting a payment method. Severity: High. Priority: Critical. Reported by: Test Analyst. Configuration: Application version 2.15.087, Browser: Firefox 118.0.2.0. Expected result: The 'Submit Payment' button should process the payment information and redirect to the payment confirmation page. Attachments: Screenshot, Screen recording.\n\nWhat is the MOST important information missing from this defect report that a test analyst should include to facilitate a quick resolution?",
     "options": [
       "The detailed sequence of actions that reproduced the failure.",
       "The analysis method used to identify the problem.",
@@ -4578,7 +4578,7 @@
     "id": "q_batch2_p48e09xyk",
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "A risk has been identified during the analysis of a new software: Risk: The application may not be compatible with old browsers. Risk probability: high; risk impact: medium. Risk response: perform compatibility testing on various old browsers, provide documentation about the system requirements. What would be the most appropriate measure to implement for this analyzed risk?  ",
+    "question": "A risk has been identified during the analysis of a new software: Risk: The application may not be compatible with old browsers. Risk probability: high; risk impact: medium. Risk response: perform compatibility testing on various old browsers, provide documentation about the system requirements.\n\nWhat would be the most appropriate measure to implement for this analyzed risk?",
     "options": [
       "Risk mitigation",
       "Risk transfer",
@@ -4668,7 +4668,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "Given the following descriptions: Which of the following options gives the BEST match between the descriptions and the categories?\n\n1. Support workflow tracking\n2. Facilitate communication\n3. Virtual machines\n4. Support reviews\n\nA. Static testing tools  \nB. Tools that support scalability and standardization of deployment  \nC. DevOps tools  \nD. Collaboration tools",
+    "question": "Given the following descriptions:\n\nWhich of the following options gives the BEST match between the descriptions and the categories?\n\n1. Support workflow tracking\n2. Facilitate communication\n3. Virtual machines\n4. Support reviews\n\nA. Static testing tools  \nB. Tools that support scalability and standardization of deployment  \nC. DevOps tools  \nD. Collaboration tools",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -4698,7 +4698,7 @@
     "id": 362,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "Tools in which category help organize test cases, detected defects, and test results?  ",
+    "question": "Tools in\n\nwhich category help organize test cases, detected defects, and test results?",
     "options": [
       "A) Test management tools",
       "B) Static analysis tools",
@@ -4713,7 +4713,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "Given the test tool categories (i. Collaboration,  \n  \nii. DevOps,  \n  \niii. Management,  \n  \niv. Non-functional,  \n  \nv. Design/Implementation). Tools of which categories are MOST likely to support test execution?  ",
+    "question": "Given the test tool categories (i. Collaboration,  \n  \nii. DevOps,  \n  \niii. Management,  \n  \niv. Non-functional,  \n  \nv. Design/Implementation). Tools of\n\nwhich categories are MOST likely to support test execution?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -4743,7 +4743,7 @@
     "id": 417,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "Your organization wants to implement a GUI test automation tool. Which of the following factors represents the GREATEST long-term risk?  ",
+    "question": "Your organization wants to implement a GUI test automation tool.\n\nWhich of the following factors represents the GREATEST long-term risk?",
     "options": [
       "A) The initial cost of the tool license",
       "B) The fragility of scripts when the user interface changes frequently",
@@ -4773,7 +4773,7 @@
     "id": 438,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "A company is evaluating the ROI of automating its regression suite (500 manual cases, 2h per manual run). If automating costs 200 hours and each automated run takes 15 min, how many runs are needed to recoup the investment?  ",
+    "question": "A company is evaluating the ROI of automating its regression suite (500 manual cases, 2h per manual run). If automating costs 200 hours and each automated run takes 15 min,\n\nhow many runs are needed to recoup the investment?",
     "options": [
       "A) 10 runs",
       "B) 50 runs",
@@ -4803,7 +4803,7 @@
     "id": 456,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "PRACTICAL CASE: Your company wants to adopt an API test automation tool. The team evaluates: cost, learning curve, CI/CD integration, REST/SOAP protocol support, and maintainability. Which is the MOST critical factor to ensure long-term success?  ",
+    "question": "PRACTICAL CASE: Your company wants to adopt an API test automation tool. The team evaluates: cost, learning curve, CI/CD integration, REST/SOAP protocol support, and maintainability.\n\nWhich is the MOST critical factor to ensure long-term success?",
     "options": [
       "A) The lowest license cost",
       "B) Ease of maintenance and integration with the existing CI/CD pipeline",
@@ -4898,7 +4898,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Which of the following skills is essential for a tester when evaluating the quality of a software product? Effective communication Technical knowledge Analytical skills Time management  ",
+    "question": "Which of the following skills is essential for a tester\n\nwhen evaluating the quality of a software product? Effective communication Technical knowledge Analytical skills Time management",
     "options": [
       "i and ii are essential; iii and iv are not",
       "iii and iv are essential; i and ii are not",
@@ -4914,7 +4914,7 @@
     "chapter": 3,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "In your organization, reviews are conducted that have the following characteristics: There is no specific role assigned for the moderator. The goal is to find defects and improve the product. Participants openly discuss their opinions. No formal documentation required at the end. What type of review is being carried out?  ",
+    "question": "In your organization, reviews are conducted that have the following characteristics: There is no specific role assigned for the moderator. The goal is to find defects and improve the product. Participants openly discuss their opinions. No formal documentation required at the end.\n\nWhat type of review is being carried out?",
     "options": [
       "Informal review",
       "Technical review",
@@ -4930,7 +4930,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "You are testing a grading system that accepts scores on a scale of 0-100. The system ranks the scores as follows: 0-59: Fail 60-69: Pass 70-89: Good 90-100: Excellent Using equivalence partitioning, what is the MINIMUM number of test cases needed to achieve 100% coverage of valid partitions?  ",
+    "question": "You are testing a grading system that accepts scores on a scale of 0-100. The system ranks the scores as follows: 0-59: Fail 60-69: Pass 70-89: Good 90-100: Excellent Using equivalence partitioning,\n\nwhat is the MINIMUM number of test cases needed to achieve 100% coverage of valid partitions?",
     "options": [
       "3",
       "4",
@@ -4946,7 +4946,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "For an 'Age' field that accepts values ​​from 16 to 65 years, your test suite includes the following values: 15, 16, 17, 64, 65, 66. What percentage of 3-value Limit Value Analysis (LVA) coverage do you achieve?  ",
+    "question": "For an 'Age' field that accepts values ​​from 16 to 65 years, your test suite includes the following values: 15, 16, 17, 64, 65, 66.\n\nWhat percentage of 3-value Limit Value Analysis (LVA) coverage do you achieve?",
     "options": [
       "50%",
       "67%",
@@ -4962,7 +4962,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "In a decision table for a loan approval system, you have the following conditions: Age ≥ 18 years Income ≥ $30,000 Good credit history Employed for ≥ 2 years If you wanted to minimize the table due to the large number of combinations, what would be the best strategy?  ",
+    "question": "In a decision table for a loan approval system, you have the following conditions: Age ≥ 18 years Income ≥ $30,000 Good credit history Employed for ≥ 2 years If you wanted to minimize the table due to the large number of combinations,\n\nwhat would be the best strategy?",
     "options": [
       "Remove all less important conditions",
       "Use a risk-based approach to narrow down the rules to test",
@@ -4994,7 +4994,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "A development team is creating an innovative mobile application, and has decided to use exploratory testing due to a lack of documentation. Which of the following statements about exploratory testing is CORRECT?  ",
+    "question": "A development team is creating an innovative mobile application, and has decided to use exploratory testing due to a lack of documentation.\n\nWhich of the following statements about exploratory testing is CORRECT?",
     "options": [
       "Exploratory testing is always less effective than requirements-based testing.",
       "Exploratory testing allows testers to quickly adapt to changes in the software.",
@@ -5010,7 +5010,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Which of the following statements BEST describes how acceptance criteria can be structured in a user story?  ",
+    "question": "Which of the following statements BEST describes\n\nhow acceptance criteria can be structured in a user story?",
     "options": [
       "Defined solely by the development team, without the need for review by stakeholders.",
       "Written in a clear and concise format that facilitates understanding by all interested parties involved.",
@@ -5026,7 +5026,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "During an ATDD specification workshop, the team identifies ambiguities in a user story about payment processing. What is the MOST appropriate action according to the ATDD approach?  ",
+    "question": "During an ATDD specification workshop, the team identifies ambiguities in a user story about payment processing.\n\nWhat is the MOST appropriate action according to the ATDD approach?",
     "options": [
       "The tester must create test cases that cover all possible interpretations",
       "Resolve ambiguities during the workshop before creating test cases",
@@ -5058,7 +5058,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "In your test plan, you have prioritized test cases based on requirements. However, you realize that some high-priority cases cannot be executed in the ideal order due to dependencies and resource availability. What is the MOST appropriate action according to the syllabus?  ",
+    "question": "In your test plan, you have prioritized test cases based on requirements. However, you realize that some high-priority cases cannot be executed in the ideal order due to dependencies and resource availability.\n\nWhat is the MOST appropriate action according to the syllabus?",
     "options": [
       "Maintain order based on priority of requirements ignoring dependencies",
       "Adjust the order considering dependencies and resource availability",
@@ -5090,7 +5090,7 @@
     "chapter": 3,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "In a software development project, the following risk was identified: Risk: User documentation is not up to date. Risk probability: high; risk impact: medium Risk response: a thorough review of the documentation is organized with the development team users are informed about possible inconsistencies in the documentation What is the most appropriate measure to respond to this analyzed risk?  ",
+    "question": "In a software development project, the following risk was identified: Risk: User documentation is not up to date. Risk probability: high; risk impact: medium Risk response: a thorough review of the documentation is organized with the development team users are informed about possible inconsistencies in the documentation\n\nWhat is the most appropriate measure to respond to this analyzed risk?",
     "options": [
       "Risk mitigation",
       "Risk acceptance",
@@ -5106,7 +5106,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "When tracking defects found during testing, what is the benefit of configuration management in this process?  ",
+    "question": "When tracking defects found during testing,\n\nwhat is the benefit of configuration management in this process?",
     "options": [
       "Helps document testing requirements.",
       "It allows you to identify the version of the software in which the defect was found.",
@@ -5122,7 +5122,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "A test analyst prepares the following defect report: ID: BUG-00721 ​​| Title: 'Date of Birth' field accepts future dates | Severity: Medium | Priority: High | Reported by: A. López | Configuration: App v3.2.1, Chrome 120 | Steps to reproduce: (1) Open registration form, (2) Enter date of birth '08/15/2030', (3) Click 'Save'. What is the MOST important information missing from this report?  ",
+    "question": "A test analyst prepares the following defect report: ID: BUG-00721 ​​| Title: 'Date of Birth' field accepts future dates | Severity: Medium | Priority: High | Reported by: A. López | Configuration: App v3.2.1, Chrome 120 | Steps to reproduce: (1) Open registration form, (2) Enter date of birth '08/15/2030', (3) Click 'Save'.\n\nWhat is the MOST important information missing from this report?",
     "options": [
       "The name of the developer assigned to resolve the defect.",
       "The actual result obtained and the expected result, to facilitate reproduction and correction.",
@@ -5169,7 +5169,7 @@
     "id": 263,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three rounds of testing on three consecutive versions of the software as follows:  \n  \n| | Execution 1 | Execution 2 | Execution 3 |  \n|---|---|---|---|  \n| TC1 (1) | Failed (4) | Past (7) | Past |  \n| TC2 (2) | Past (5) | Failed (8) | Past |  \n| TC3 (3) | Failed (6) | Failed (9) | Past |  \n  \nTesting is repeated once you are informed that all defects found in the round of testing are fixed and a new version of the software is available. Which of the above tests are run as regression tests?  ",
+    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three rounds of testing on three consecutive versions of the software as follows:  \n  \n| | Execution 1 | Execution 2 | Execution 3 |  \n|---|---|---|---|  \n| TC1 (1) | Failed (4) | Past (7) | Past |  \n| TC2 (2) | Past (5) | Failed (8) | Past |  \n| TC3 (3) | Failed (6) | Failed (9) | Past |  \n  \nTesting is repeated once you are informed that all defects found in the round of testing are fixed and a new version of the software is available.\n\nWhich of the above tests are run as regression tests?",
     "options": [
       "A) Only 4, 7, 8, 9",
       "B) Only 5, 7",
@@ -5184,7 +5184,7 @@
     "id": 270,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules:  \n- 0 – 50 points: fail  \n- 51 – 60 points: sufficient  \n- 61 – 70 points: satisfactory  \n- 71 – 80 points: good  \n- 81 – 90 points: very good  \n- 91 – 100 points: excellent  \n  \nYou have prepared the following set of test cases:  \n  \n| TC | Final result | Final note |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | very good |  \n| TC4 | 60 | enough |  \n| TC5 | 70 | satisfactory |  \n| TC6 | 80 | good |  \n  \nWhat is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?  ",
+    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules:  \n- 0 – 50 points: fail  \n- 51 – 60 points: sufficient  \n- 61 – 70 points: satisfactory  \n- 71 – 80 points: good  \n- 81 – 90 points: very good  \n- 91 – 100 points: excellent  \n  \nYou have prepared the following set of test cases:  \n  \n| TC | Final result | Final note |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | very good |  \n| TC4 | 60 | enough |  \n| TC5 | 70 | satisfactory |  \n| TC6 | 80 | good |\n\nWhat is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?",
     "options": [
       "A) 50%",
       "B) 60%",
@@ -5199,7 +5199,7 @@
     "id": 309,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "The following decision table contains the rules for determining the risk of arteriosclerosis.  \n  \n| | Rule 1 | Rule 2 | Rule 3 | Rule 4 | Rule 5 |  \n|---|---|---|---|---|---|  \n| Cholesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Blood pressure (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Risk level | very low | low | medium | high | very high |  \n  \nYou have designed the following test cases:  \n- TC1: Cholesterol=125, BP=141  \n- TC2: Cholesterol=200, BP=201  \n- TC3: Cholesterol=124, BP=201  \n- TC4: Cholesterol=109, BP=200  \n- TC5: Cholesterol=201, BP=140  \n  \nWhat decision table coverage do these test cases achieve?  ",
+    "question": "The following decision table contains the rules for determining the risk of arteriosclerosis.  \n  \n| | Rule 1 | Rule 2 | Rule 3 | Rule 4 | Rule 5 |  \n|---|---|---|---|---|---|  \n| Cholesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Blood pressure (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Risk level | very low | low | medium | high | very high |  \n  \nYou have designed the following test cases:  \n- TC1: Cholesterol=125, BP=141  \n- TC2: Cholesterol=200, BP=201  \n- TC3: Cholesterol=124, BP=201  \n- TC4: Cholesterol=109, BP=200  \n- TC5: Cholesterol=201, BP=140\n\nWhat decision table coverage do these test cases achieve?",
     "options": [
       "A) 40%",
       "B) 60%",
@@ -5214,7 +5214,7 @@
     "id": 319,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You are testing a web application that allows users to SEARCH products, VIEW details, ADD to cart, and place an ORDER. You have 7 test cases with these priorities (1=highest):  \n- TC1: SEARCH product A (4)  \n- TC2: SEARCH product B (4)  \n- TC3: SEE details A (3)  \n- TC4: SEE details B (2)  \n- TC5: ADD product TO (3)  \n- TC6: ADD product B (1)  \n- TC7: place ORDER (5)  \n  \nDependencies: LOOKUP must be tested before VIEW, VIEW before ADD, and ADD before ORDER. Which test case should be executed fourth?  ",
+    "question": "You are testing a web application that allows users to SEARCH products, VIEW details, ADD to cart, and place an ORDER. You have 7 test cases with these priorities (1=highest):  \n- TC1: SEARCH product A (4)  \n- TC2: SEARCH product B (4)  \n- TC3: SEE details A (3)  \n- TC4: SEE details B (2)  \n- TC5: ADD product TO (3)  \n- TC6: ADD product B (1)  \n- TC7: place ORDER (5)  \n  \nDependencies: LOOKUP must be tested before VIEW, VIEW before ADD, and ADD before ORDER.\n\nWhich test case should be executed fourth?",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -5229,7 +5229,7 @@
     "id": 325,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You are testing a sort function that takes a set of numbers and returns them sorted in ascending order. The execution log is:  \n  \n- TC1: Input: `3`. Output: `3`. Result: passed  \n- TC2: Input: `3 11 6 5`. Output: `3 5 6 11`. Result: passed  \n- TC3: Input: `8 7 3 7 1`. Output: `1 3 7 8`. Result: failed  \n- TC4: Input: `-2 -2 -2 -3 -3`. Output: `-3 -2`. Result: failed  \n- TC5: Input: `0 -2 0 3 4 4`. Output: `-2 0 3 4`. Result: failed  \n  \nWhich of the following provides the BEST description of the bug to use in a defect report?  ",
+    "question": "You are testing a sort function that takes a set of numbers and returns them sorted in ascending order. The execution log is:  \n  \n- TC1: Input: `3`. Output: `3`. Result: passed  \n- TC2: Input: `3 11 6 5`. Output: `3 5 6 11`. Result: passed  \n- TC3: Input: `8 7 3 7 1`. Output: `1 3 7 8`. Result: failed  \n- TC4: Input: `-2 -2 -2 -3 -3`. Output: `-3 -2`. Result: failed  \n- TC5: Input: `0 -2 0 3 4 4`. Output: `-2 0 3 4`. Result: failed\n\nWhich of the following provides the BEST description of the bug to use in a defect report?",
     "options": [
       "A) The system fails to sort several sets of numbers. Reference: TC3, TC4, TC5.",
       "B) The system seems to ignore duplicates when sorting. Reference: TC3, TC4, TC5.",
@@ -5244,7 +5244,7 @@
     "id": 355,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You are preparing a test execution schedule for 7 test cases (TC1-TC7).  \n  \nThe dependencies are:  \n- TC2 depends on TC1  \n- TC4 depends on TC2 and TC3  \n- TC5 depends on TC3  \n- TC6 depends on TC4 and TC5  \n- TC7 depends on TC6  \n  \nThe priorities (1=highest) are: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.  \n  \nWhat is the correct order of execution respecting dependencies and priorities?  ",
+    "question": "You are preparing a test execution schedule for 7 test cases (TC1-TC7).  \n  \nThe dependencies are:  \n- TC2 depends on TC1  \n- TC4 depends on TC2 and TC3  \n- TC5 depends on TC3  \n- TC6 depends on TC4 and TC5  \n- TC7 depends on TC6  \n  \nThe priorities (1=highest) are: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nWhat is the correct order of execution respecting dependencies and priorities?",
     "options": [
       "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
       "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
@@ -5259,7 +5259,7 @@
     "id": 1014,
     "chapter": 2,
     "topic": "Regresión vs Confirmación",
-    "question": "The test cases were executed:  \n- TC1 Failed  \n- SS2 Passed  \n- SS3 Failed  \n  \nAfter corrections, TC1, TC2 and TC3 are executed again. Which of these runs are considered regression testing?  ",
+    "question": "The test cases were executed:  \n- TC1 Failed  \n- SS2 Passed  \n- SS3 Failed  \n  \nAfter corrections, TC1, TC2 and TC3 are executed again.\n\nWhich of these runs are considered regression testing?",
     "options": [
       "TC1",
       "TC2",
@@ -5273,7 +5273,7 @@
   {
     "id": "q_batch2_t5hos07b9",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You have the following test cases for an online banking system:  \n  \n| Case | Functionality Risk | Risk Probability | Risk Impact | Dependency |  \n|---|---|---|---|---|  \n| TC1 | Login | 2 | 2 | None |  \n| TC2 | Check balance | 3 | 3 | TC1 |  \n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |  \n| TC4 | Change PIN | 4 | 4 | TC1 |  \n  \nApplying risk-based prioritization, where impact and probability is measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?  ",
+    "question": "You have the following test cases for an online banking system:  \n  \n| Case | Functionality Risk | Risk Probability | Risk Impact | Dependency |  \n|---|---|---|---|---|  \n| TC1 | Login | 2 | 2 | None |  \n| TC2 | Check balance | 3 | 3 | TC1 |  \n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |  \n| TC4 | Change PIN | 4 | 4 | TC1 |  \n  \nApplying risk-based prioritization,\n\nwhere impact and probability is measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
     "options": [
       "TC1, TC3, TC2, TC4",
       "TC1, TC2, TC3, TC4",
@@ -5290,7 +5290,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version:  \n  \n| Test | Result in previous version |  \n|---|---|  \n| TC1 | Failed |  \n| TC2 | Passed |  \n| TC3 | Failed |  \n  \nAfter corrections, the team runs test cases TC1, TC2, and TC3 again. Which of these runs are considered regression testing?  ",
+    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version:  \n  \n| Test | Result in previous version |  \n|---|---|  \n| TC1 | Failed |  \n| TC2 | Passed |  \n| TC3 | Failed |  \n  \nAfter corrections, the team runs test cases TC1, TC2, and TC3 again.\n\nWhich of these runs are considered regression testing?",
     "options": [
       "TC1 and TC3",
       "TC2 and TC3",
@@ -5417,7 +5417,7 @@
     "chapter": 1,
     "topic": "Fundamentos",
     "difficulty": "medium",
-    "question": "A software company develops applications for the financial sector. The management team asks the test manager why testing is essential in their context, beyond finding defects.\n\nWhich of the following reasons BEST describes why testing is necessary in this context?",
+    "question": "A software company develops applications for the financial sector. The management team asks the test manager\n\nwhy testing is essential in their context, beyond finding defects.\n\nWhich of the following reasons BEST describes why testing is necessary in this context?",
     "options": [
       "To prove that the software has no defects prior to delivery.",
       "To provide confidence about the level of software quality and comply with the regulatory requirements of the sector.",
@@ -5433,7 +5433,7 @@
     "chapter": 1,
     "topic": "Principios",
     "difficulty": "medium",
-    "question": "You are the leader of a testing team and you notice that, despite performing exhaustive testing in the development phase, the software still presents defects in production. Which testing principle could explain this situation?",
+    "question": "You are the leader of a testing team and you notice that, despite performing exhaustive testing in the development phase, the software still presents defects in production.\n\nWhich testing principle could explain this situation?",
     "options": [
       "Defects cluster together",
       "Exhaustive testing is impossible",
@@ -5449,7 +5449,7 @@
     "chapter": 1,
     "topic": "Proceso de Prueba",
     "difficulty": "medium",
-    "question": "In a software development project, the team is preparing the testing phase after completing the development phase. Which of the following activities is part of test planning?",
+    "question": "In a software development project, the team is preparing the testing phase after completing the development phase.\n\nWhich of the following activities is part of test planning?",
     "options": [
       "Defining the acceptance criteria to evaluate if the developed functionality meets the requirements.",
       "Executing regression tests to ensure that the new functionalities do not break the existing ones.",
@@ -5561,7 +5561,7 @@
     "chapter": 2,
     "topic": "Tipos de Prueba",
     "difficulty": "medium",
-    "question": "A development team has fixed several defects in the application and released a new version. Before the fix, certain test cases were executed, some of which failed. Now the team needs to verify that the defects have been fixed and also that the changes have not affected other parts of the system. Which of the following descriptions best fits the tests that will be carried out?",
+    "question": "A development team has fixed several defects in the application and released a new version. Before the fix, certain test cases were executed, some of\n\nwhich failed. Now the team needs to verify that the defects have been fixed and also that the changes have not affected other parts of the system. Which of the following descriptions best fits the tests that will be carried out?",
     "options": [
       "Confirmation testing focuses solely on the test cases that failed previously.",
       "Regression testing ensures that the functionalities that were not modified continue to work correctly.",
@@ -5641,7 +5641,7 @@
     "chapter": 4,
     "topic": "Partición de Equivalencia",
     "difficulty": "hard",
-    "question": "A climate control system validates the room temperature. Acceptable values are between 16°C and 30°C inclusive. Temperatures outside that range generate an alert.\n\nUsing equivalence partitioning, what is the MINIMUM number of test cases needed to cover ALL partitions (valid and invalid)?",
+    "question": "A climate control system validates the room temperature. Acceptable values are between 16°C and 30°C inclusive. Temperatures outside that range generate an alert.\n\nUsing equivalence partitioning,\n\nwhat is the MINIMUM number of test cases needed to cover ALL partitions (valid and invalid)?",
     "options": [
       "2",
       "3",
@@ -5657,7 +5657,7 @@
     "chapter": 4,
     "topic": "Partición de Equivalencia",
     "difficulty": "medium",
-    "question": "A user registration system validates the user's age. The requirement states: 'Age must be between 18 and 65 years inclusive to be valid'. Applying the equivalence partitioning technique, what is the MINIMUM set of test cases that covers all equivalence partitions?",
+    "question": "A user registration system validates the user's age. The requirement states: 'Age must be between 18 and 65 years inclusive to be valid'. Applying the equivalence partitioning technique,\n\nwhat is the MINIMUM set of test cases that covers all equivalence partitions?",
     "options": [
       "Age = 18, Age = 40, Age = 66",
       "Age = 18, Age = 65",
@@ -5673,7 +5673,7 @@
     "chapter": 4,
     "topic": "Tabla de Decisiones",
     "difficulty": "medium",
-    "question": "In a decision table for a loan approval system, you have the following conditions:\n\n- Age ≥ 18 years\n- Income ≥ $30,000\n- Good credit history\n- Employed for ≥ 2 years\n\nIf you wanted to minimize the table due to the large number of combinations, what would be the best strategy?",
+    "question": "In a decision table for a loan approval system, you have the following conditions:\n\n- Age ≥ 18 years\n- Income ≥ $30,000\n- Good credit history\n- Employed for ≥ 2 years\n\nIf you wanted to minimize the table due to the large number of combinations,\n\nwhat would be the best strategy?",
     "options": [
       "Eliminate all less important conditions",
       "Use a risk-based approach to reduce the rules to test",
@@ -5689,7 +5689,7 @@
     "chapter": 4,
     "topic": "Basadas en Experiencia",
     "difficulty": "medium",
-    "question": "Which of the following statements BEST describes how error guessing is used in software testing?",
+    "question": "Which of the following statements BEST describes\n\nhow error guessing is used in software testing?",
     "options": [
       "Error guessing is based on identifying the areas of the software where defects are most likely to occur, using historical data and past error patterns.",
       "Error guessing focuses solely on reviewing requirements to detect potential flaws before development begins.",
@@ -5705,7 +5705,7 @@
     "chapter": 4,
     "topic": "Basadas en Experiencia",
     "difficulty": "medium",
-    "question": "Your development team has implemented a new functionality in the software, but it has not been properly documented. You have little time to run tests before the release. What is the best test strategy you can use in this situation?",
+    "question": "Your development team has implemented a new functionality in the software, but it has not been properly documented. You have little time to run tests before the release.\n\nWhat is the best test strategy you can use in this situation?",
     "options": [
       "Automated testing",
       "Exploratory testing",
@@ -5721,7 +5721,7 @@
     "chapter": 4,
     "topic": "ATDD/BDD",
     "difficulty": "medium",
-    "question": "An agile team is starting the implementation of ATDD for their next sprint. The Scrum Master wants to know who should participate in the ATDD specification workshop.\n\nWhich of the following statements BEST describes participation in an ATDD specification workshop?",
+    "question": "An agile team is starting the implementation of ATDD for their next sprint. The Scrum Master wants to know\n\nwho should participate in the ATDD specification workshop.\n\nWhich of the following statements BEST describes participation in an ATDD specification workshop?",
     "options": [
       "Only testers, as they are responsible for defining the acceptance criteria.",
       "Only developers, because they are the ones who will implement the automated tests.",
@@ -5753,7 +5753,7 @@
     "chapter": 5,
     "topic": "Estimación",
     "difficulty": "medium",
-    "question": "Your team is in the third iteration of an agile project. The test efforts of the previous iterations were:\n\n- Iteration 1: 45 person-days\n- Iteration 2: 52 person-days\n\nUsing extrapolation, what would be the most appropriate estimate for Iteration 3?",
+    "question": "Your team is in the third iteration of an agile project. The test efforts of the previous iterations were:\n\n- Iteration 1: 45 person-days\n- Iteration 2: 52 person-days\n\nUsing extrapolation,\n\nwhat would be the most appropriate estimate for Iteration 3?",
     "options": [
       "45 person-days (the historical minimum)",
       "48.5 person-days (average of the two iterations)",
@@ -5769,7 +5769,7 @@
     "chapter": 5,
     "topic": "Riesgos",
     "difficulty": "hard",
-    "question": "You have the following test cases for an online banking system:\n\n| Case | Functionality Risk | Risk Likelihood | Risk Impact | Dependency |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | None |\n| TC2 | Check balance | 3 | 3 | TC1 |\n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |\n| TC4 | Change PIN | 4 | 4 | TC1 |\n\nApplying risk-based prioritization, where impact and likelihood are measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
+    "question": "You have the following test cases for an online banking system:\n\n| Case | Functionality Risk | Risk Likelihood | Risk Impact | Dependency |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | None |\n| TC2 | Check balance | 3 | 3 | TC1 |\n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |\n| TC4 | Change PIN | 4 | 4 | TC1 |\n\nApplying risk-based prioritization,\n\nwhere impact and likelihood are measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
     "options": [
       "TC1, TC3, TC2, TC4",
       "TC1, TC2, TC3, TC4",
@@ -5833,7 +5833,7 @@
     "chapter": 5,
     "topic": "Gestión de Defectos",
     "difficulty": "medium",
-    "question": "You have found a defect during testing of a billing module. The system calculates the tax incorrectly when a discount is applied. Which of the following defect reports is BEST structured?",
+    "question": "You have found a defect during testing of a billing module. The system calculates the tax incorrectly\n\nwhen a discount is applied. Which of the following defect reports is BEST structured?",
     "options": [
       "\"The tax is calculated incorrectly with discounts\"",
       "\"Error in tax calculation with discounts. Expected result: 21%, actual result: 18%. Steps: apply 10% discount to $100 invoice, calculate tax.\"",

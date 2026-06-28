@@ -18,7 +18,7 @@
     "id": 1002,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Une entreprise de logiciels développe des applications pour le secteur financier. L'équipe de direction demande au responsable des tests pourquoi les tests sont essentiels dans leur contexte, au-delà de la détection des défauts. Laquelle des raisons suivantes décrit le MIEUX pourquoi les tests sont nécessaires dans ce contexte ?  ",
+    "question": "Une entreprise de logiciels développe des applications pour le secteur financier. L'équipe de direction demande au responsable des tests pourquoi les tests sont essentiels dans leur contexte, au-delà de la détection des défauts.\n\nLaquelle des raisons suivantes décrit le MIEUX pourquoi les tests sont nécessaires dans ce contexte ?",
     "options": [
       "Pour démontrer que le logiciel n'a aucun défaut avant sa livraison.",
       "Pour fournir de la confiance sur le niveau de qualité du logiciel et respecter les exigences réglementaires du secteur.",
@@ -33,7 +33,7 @@
     "id": 1003,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Vous évaluez la qualité des tests réalisés sur un logiciel avant sa mise en production. Vous observez que, bien que de nombreux tests aient été exécutés, des défauts importants persistent. Lequel des sept principes des tests se reflète dans cette situation ?  ",
+    "question": "Vous évaluez la qualité des tests réalisés sur un logiciel avant sa mise en production. Vous observez que, bien que de nombreux tests aient été exécutés, des défauts importants persistent.\n\nLequel des sept principes des tests se reflète dans cette situation ?",
     "options": [
       "Les tests exhaustifs sont impossibles",
       "Les défauts se regroupent",
@@ -78,7 +78,7 @@
     "id": 1038,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Vous évaluez la qualité des tests réalisés sur un logiciel avant sa mise en production. Vous observez que, bien que de nombreux tests aient été exécutés, des défauts importants persistent. Lequel des sept principes des tests se reflète dans cette situation ?  ",
+    "question": "Vous évaluez la qualité des tests réalisés sur un logiciel avant sa mise en production. Vous observez que, bien que de nombreux tests aient été exécutés, des défauts importants persistent.\n\nLequel des sept principes des tests se reflète dans cette situation ?",
     "options": [
       "Les tests exhaustifs sont impossibles",
       "Les défauts se regroupent",
@@ -108,7 +108,7 @@
     "id": 1043,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Vous examinez l'avancement d'un projet logiciel et remarquez que des défauts ont été corrigés, mais qu'aucun nouveau test n'a été effectué. Le chef de projet est satisfait des résultats, mais vous êtes préoccupé par la qualité. Quel principe des tests pourrait justifier votre préoccupation ?  ",
+    "question": "Vous examinez l'avancement d'un projet logiciel et remarquez que des défauts ont été corrigés, mais qu'aucun nouveau test n'a été effectué. Le chef de projet est satisfait des résultats, mais vous êtes préoccupé par la qualité.\n\nQuel principe des tests pourrait justifier votre préoccupation ?",
     "options": [
       "Les tests s'usent",
       "L'erreur de l'absence de défauts",
@@ -183,7 +183,7 @@
     "id": 1072,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Lors d'une revue de tests, vous remarquez que des tests similaires sont utilisés dans différents projets sans aucune adaptation. Cela a entraîné un taux de réussite élevé mais de nombreux défauts passés inaperçus. Quel principe des tests pourrait expliquer cette situation ?  ",
+    "question": "Lors d'une revue de tests, vous remarquez que des tests similaires sont utilisés dans différents projets sans aucune adaptation. Cela a entraîné un taux de réussite élevé mais de nombreux défauts passés inaperçus.\n\nQuel principe des tests pourrait expliquer cette situation ?",
     "options": [
       "Les tests exhaustifs sont impossibles",
       "Les tests s'usent",
@@ -198,7 +198,7 @@
     "id": 1073,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Au cours d'un projet, l'équipe croit que son logiciel est parfait parce qu'elle n'a pas reçu de rapports d'erreurs depuis des semaines. En tant que testeur, vous savez que cela ne garantit pas la qualité. Quel principe des tests reflète cette situation ?  ",
+    "question": "Au cours d'un projet, l'équipe croit que son logiciel est parfait parce qu'elle n'a pas reçu de rapports d'erreurs depuis des semaines. En tant que testeur, vous savez que cela ne garantit pas la qualité.\n\nQuel principe des tests reflète cette situation ?",
     "options": [
       "L'erreur de l'absence de défauts",
       "Les tests s'usent",
@@ -243,7 +243,7 @@
     "id": 1076,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Dans un projet de développement logiciel, l'équipe examine l'approche de test pour une nouvelle fonctionnalité de gestion des utilisateurs. Laquelle des activités suivantes fait partie de la conception des tests ?  ",
+    "question": "Dans un projet de développement logiciel, l'équipe examine l'approche de test pour une nouvelle fonctionnalité de gestion des utilisateurs.\n\nLaquelle des activités suivantes fait partie de la conception des tests ?",
     "options": [
       "Décrire les critères d'acceptation pour la fonctionnalité de gestion des utilisateurs.",
       "Examiner les exigences du système pour identifier les conditions de test possibles.",
@@ -288,7 +288,7 @@
     "id": 252,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Vous avez été affecté en tant que testeur à une équipe qui produit progressivement un nouveau système. Vous avez remarqué qu'aucune modification n'a été apportée aux cas de test de régression existants depuis plusieurs itérations et qu'aucun nouveau défaut de régression n'a été identifié. Votre manager est content, mais vous ne l'êtes pas. Quel principe de preuve explique votre scepticisme ?  ",
+    "question": "Vous avez été affecté en tant que testeur à une équipe qui produit progressivement un nouveau système. Vous avez remarqué qu'aucune modification n'a été apportée aux cas de test de régression existants depuis plusieurs itérations et qu'aucun nouveau défaut de régression n'a été identifié. Votre manager est content, mais vous ne l'êtes pas.\n\nQuel principe de preuve explique votre scepticisme ?",
     "options": [
       "A) Les tests s'usent",
       "B) Erreur d'absence de défauts",
@@ -303,7 +303,7 @@
     "id": 253,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Vous travaillez dans une équipe qui développe une application mobile pour commander de la nourriture. Dans l'itération actuelle, l'équipe a décidé d'implémenter une fonctionnalité de paiement. Laquelle des activités suivantes fait partie de l’analyse des tests ?  ",
+    "question": "Vous travaillez dans une équipe qui développe une application mobile pour commander de la nourriture. Dans l'itération actuelle, l'équipe a décidé d'implémenter une fonctionnalité de paiement.\n\nLaquelle des activités suivantes fait partie de l’analyse des tests ?",
     "options": [
       "A) Estimez que le test de l'intégration avec le service de paiement prendra 8 jours-personnes",
       "B) Décidez que l'équipe doit tester s'il est possible de partager le paiement de manière appropriée entre de nombreux utilisateurs.",
@@ -408,7 +408,7 @@
     "id": 291,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "L'un des « principes des tests » énonce que les tests exhaustifs sont impossibles. Lequel des éléments suivants est un exemple de la manière d'aborder ce principe en pratique ?  ",
+    "question": "L'un des « principes des tests » énonce que les tests exhaustifs sont impossibles.\n\nLequel des éléments suivants est un exemple de la manière d'aborder ce principe en pratique ?",
     "options": [
       "A) Créer des cas de test couvrant chaque sortie spécifiée possible",
       "B) Documenter toutes les variations d'entrée de test possibles et les prioriser selon leur importance",
@@ -528,7 +528,7 @@
     "id": 330,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "L'« erreur de l'absence de défauts » (absence-of-defects fallacy) est l'un des principes des tests. Lequel des éléments suivants est un exemple de la manière d'aborder ce principe en pratique ?  ",
+    "question": "L'« erreur de l'absence de défauts » (absence-of-defects fallacy) est l'un des principes des tests.\n\nLequel des éléments suivants est un exemple de la manière d'aborder ce principe en pratique ?",
     "options": [
       "A) Expliquer qu'il n'est pas possible pour les tests de prouver l'absence de défauts",
       "B) Aider les utilisateurs finaux à réaliser des tests d'acceptation",
@@ -558,7 +558,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donné le testware suivant : Laquelle des options suivantes montre le MIEUX le testware produit par chaque activité ?\n\n1. Éléments de couverture\n2. Demandes de changement\n3. Calendrier d'exécution des tests\n4. Conditions de test priorisées\n\nA. Analyse des tests  \nB. Conception des tests  \nC. Implémentation des tests  \nD. Clôture des tests",
+    "question": "Étant donné le testware suivant :\n\nLaquelle des options suivantes montre le MIEUX le testware produit par chaque activité ?\n\n1. Éléments de couverture\n2. Demandes de changement\n3. Calendrier d'exécution des tests\n4. Conditions de test priorisées\n\nA. Analyse des tests  \nB. Conception des tests  \nC. Implémentation des tests  \nD. Clôture des tests",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -603,7 +603,7 @@
     "id": 363,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Un concepteur documente une conception d'interface utilisateur qui ne sert pas correctement les utilisateurs malvoyants parce que le concepteur n'était pas au courant des exigences d'accessibilité. Comment cela est-il classé selon la terminologie ISTQB ?  ",
+    "question": "Un concepteur documente une conception d'interface utilisateur qui ne sert pas correctement les utilisateurs malvoyants parce que le concepteur n'était pas au courant des exigences d'accessibilité.\n\nComment cela est-il classé selon la terminologie ISTQB ?",
     "options": [
       "A) Le concepteur a commis une défaillance qui a introduit une erreur dans la conception",
       "B) Le concepteur a commis une erreur (mistake) qui a introduit un défaut dans la conception",
@@ -618,7 +618,7 @@
     "id": 364,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Les testeurs utilisent des conditions de test pour générer des cas de test et exécuter des tests. Bien que les conditions de test restent les mêmes, les cas de test varient à chaque fois. Lequel des « principes des tests » est appliqué en faisant varier les cas de test ?  ",
+    "question": "Les testeurs utilisent des conditions de test pour générer des cas de test et exécuter des tests. Bien que les conditions de test restent les mêmes, les cas de test varient à chaque fois.\n\nLequel des « principes des tests » est appliqué en faisant varier les cas de test ?",
     "options": [
       "A) Les tests s'usent (paradoxe du pesticide)",
       "B) L'erreur de l'absence de défauts",
@@ -633,7 +633,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donné le testware suivant :  \n  \ni. Rapport de clôture des tests  \n  \nii. Données dans une base de données utilisées comme entrées et résultats attendus  \n  \niii. Liste des éléments nécessaires pour construire l'environnement de test  \n  \niv. Séquences documentées de cas de test dans l'ordre d'exécution  \n  \nv. Cas de test. Laquelle des options suivantes montre le MIEUX le testware produit à la suite de l'implémentation des tests ?  ",
+    "question": "Étant donné le testware suivant :  \n  \ni. Rapport de clôture des tests  \n  \nii. Données dans une base de données utilisées comme entrées et résultats attendus  \n  \niii. Liste des éléments nécessaires pour construire l'environnement de test  \n  \niv. Séquences documentées de cas de test dans l'ordre d'exécution  \n  \nv. Cas de test.\n\nLaquelle des options suivantes montre le MIEUX le testware produit à la suite de l'implémentation des tests ?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -693,7 +693,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant données les tâches de test suivantes : Quelle est la MEILLEURE correspondance ?\n\n1. Dériver les cas de test à partir des conditions\n2. Identifier le testware réutilisable\n3. Organiser les cas de test en procédures\n4. Évaluer la base de test ; et les activités :\n\nA. Analyse  \nB. Conception  \nC. Implémentation  \nD. Clôture",
+    "question": "Étant données les tâches de test suivantes :\n\nQuelle est la MEILLEURE correspondance ?\n\n1. Dériver les cas de test à partir des conditions\n2. Identifier le testware réutilisable\n3. Organiser les cas de test en procédures\n4. Évaluer la base de test ; et les activités :\n\nA. Analyse  \nB. Conception  \nC. Implémentation  \nD. Clôture",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -708,7 +708,7 @@
     "id": 407,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Votre équipe a détecté 45 défauts dans le module A (5 000 lignes de code) et 12 défauts dans le module B (8 000 lignes). Selon le principe du « regroupement des défauts », quelle conclusion est la PLUS correcte ?  ",
+    "question": "Votre équipe a détecté 45 défauts dans le module A (5 000 lignes de code) et 12 défauts dans le module B (8 000 lignes). Selon le principe du « regroupement des défauts »,\n\nquelle conclusion est la PLUS correcte ?",
     "options": [
       "A) Le module B présente plus de risque car il a plus de code",
       "B) Le module A a une densité de défauts plus élevée et devrait recevoir plus d'effort de test",
@@ -723,7 +723,7 @@
     "id": 408,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Un testeur exécute le même ensemble de tests de régression pendant 6 sprints consécutifs sans modifications. Selon les principes ISTQB, quel problème survient et quelle est la solution ?  ",
+    "question": "Un testeur exécute le même ensemble de tests de régression pendant 6 sprints consécutifs sans modifications. Selon les principes ISTQB,\n\nquel problème survient et quelle est la solution ?",
     "options": [
       "A) Il n'y a aucun problème ; les tests de régression doivent être stables",
       "B) Paradoxe du pesticide : les tests cessent de trouver de nouveaux défauts ; revoir et mettre à jour l'ensemble de tests",
@@ -753,7 +753,7 @@
     "id": 429,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Votre entreprise développe un logiciel de contrôle de vol. Le coût d'une défaillance est catastrophique. Lequel des principes ISTQB suivants justifie d'investir davantage dans les tests que dans des projets à faible risque ?  ",
+    "question": "Votre entreprise développe un logiciel de contrôle de vol. Le coût d'une défaillance est catastrophique.\n\nLequel des principes ISTQB suivants justifie d'investir davantage dans les tests que dans des projets à faible risque ?",
     "options": [
       "A) Les tests exhaustifs sont possibles avec suffisamment de ressources",
       "B) Les tests dépendent du contexte : le niveau de rigueur doit être adapté au risque et aux conséquences de la défaillance",
@@ -768,7 +768,7 @@
     "id": 430,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Lors des tests système, un défaut est trouvé dans le module de facturation. Le développeur le corrige. Ensuite, le testeur découvre que la correction a introduit une nouvelle erreur dans le module d'inventaire. Comment appelle-t-on ce type de défaut introduit ?  ",
+    "question": "Lors des tests système, un défaut est trouvé dans le module de facturation. Le développeur le corrige. Ensuite, le testeur découvre que la correction a introduit une nouvelle erreur dans le module d'inventaire.\n\nComment appelle-t-on ce type de défaut introduit ?",
     "options": [
       "A) Défaut de régression",
       "B) Défaut d'intégration",
@@ -813,7 +813,7 @@
     "id": 454,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "CAS PRATIQUE : L'équipe a exécuté 500 tests et trouvé 0 défaut. Le product owner veut livrer le logiciel en affirmant qu'il « est exempt de bugs ». Quelle est votre réponse basée sur les principes ISTQB ?  ",
+    "question": "CAS PRATIQUE : L'équipe a exécuté 500 tests et trouvé 0 défaut. Le product owner veut livrer le logiciel en affirmant qu'il « est exempt de bugs ».\n\nQuelle est votre réponse basée sur les principes ISTQB ?",
     "options": [
       "A) Vous êtes d'accord, 500 tests sans défaut est une preuve suffisante",
       "B) Les tests montrent seulement qu'aucun défaut n'a été trouvé avec cet ensemble de tests ; ils ne peuvent pas prouver leur absence totale (Principe 1). Livrer comporte un risque résiduel",
@@ -873,7 +873,7 @@
     "id": "q_batch2_3ur6idl31",
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Quelle est une raison clé pour laquelle les tests sont nécessaires dans le développement logiciel ?  ",
+    "question": "Quelle est une raison clé pour\n\nlaquelle les tests sont nécessaires dans le développement logiciel ?",
     "options": [
       "Pour garantir que le logiciel répond aux exigences du client.",
       "Pour augmenter le temps de développement du projet.",
@@ -963,7 +963,7 @@
     "id": 1011,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Laquelle des affirmations suivantes décrit le mieux comment l'approche « décalage vers la gauche » (shift-left) peut améliorer la qualité du logiciel ?  ",
+    "question": "Laquelle des affirmations suivantes décrit le mieux\n\ncomment l'approche « décalage vers la gauche » (shift-left) peut améliorer la qualité du logiciel ?",
     "options": [
       "Elle permet de détecter et corriger les défauts dans les étapes ultérieures du cycle de vie du développement.",
       "Elle facilite l'intégration continue et la livraison précoce de valeur au client en trouvant les erreurs tôt.",
@@ -1008,7 +1008,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D). Quelles combinaisons sont correctes ?\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA (Q1). Technologie / soutient l'équipe  \nB (Q2). Métier / soutient l'équipe  \nC (Q3). Métier / critique le produit  \nD (Q4). Technologie / critique le produit",
+    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D).\n\nQuelles combinaisons sont correctes ?\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA (Q1). Technologie / soutient l'équipe  \nB (Q2). Métier / soutient l'équipe  \nC (Q3). Métier / critique le produit  \nD (Q4). Technologie / critique le produit",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -1038,7 +1038,7 @@
     "id": 1047,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "À quel quadrant agile appartiennent les tests de performance, de sécurité et de fiabilité, et quel est leur objectif principal ?  ",
+    "question": "À\n\nquel quadrant agile appartiennent les tests de performance, de sécurité et de fiabilité, et quel est leur objectif principal ?",
     "options": [
       "Quadrant Q1 ; orientés technologie pour soutenir l'équipe.",
       "Quadrant Q3 ; orientés métier pour critiquer le produit.",
@@ -1053,7 +1053,7 @@
     "id": 1048,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Pendant le développement d'un sprint, l'équipe réalise des tests exploratoires et des tests d'utilisabilité pour évaluer le système du point de vue de l'utilisateur réel. Dans quel quadrant agile ces tests se situent-ils ?  ",
+    "question": "Pendant le développement d'un sprint, l'équipe réalise des tests exploratoires et des tests d'utilisabilité pour évaluer le système du point de vue de l'utilisateur réel. Dans\n\nquel quadrant agile ces tests se situent-ils ?",
     "options": [
       "Q1 (Support technologique, orientés technologie)",
       "Q2 (Support métier, orientés métier)",
@@ -1143,7 +1143,7 @@
     "id": 1062,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Une équipe a corrigé plusieurs défauts et publié une nouvelle version. Avant la correction, certains cas de test avaient échoué. L'équipe doit vérifier que les défauts ont été corrigés et que les changements n'ont pas affecté d'autres parties du système. Laquelle des descriptions suivantes correspond le mieux aux tests qui seront réalisés ?  ",
+    "question": "Une équipe a corrigé plusieurs défauts et publié une nouvelle version. Avant la correction, certains cas de test avaient échoué. L'équipe doit vérifier que les défauts ont été corrigés et que les changements n'ont pas affecté d'autres parties du système.\n\nLaquelle des descriptions suivantes correspond le mieux aux tests qui seront réalisés ?",
     "options": [
       "Les tests de confirmation se concentrent uniquement sur les cas de test qui avaient échoué auparavant.",
       "Les tests de régression garantissent que les fonctionnalités qui n'ont pas été modifiées continuent de fonctionner correctement.",
@@ -1158,7 +1158,7 @@
     "id": 1063,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Vous avez trouvé des défauts dans une nouvelle fonctionnalité du logiciel et, après les avoir corrigés, vous exécutez à nouveau des tests. Quel type de tests réalisez-vous si vous validez que les défauts ont été corrigés ?  ",
+    "question": "Vous avez trouvé des défauts dans une nouvelle fonctionnalité du logiciel et, après les avoir corrigés, vous exécutez à nouveau des tests.\n\nQuel type de tests réalisez-vous si vous validez que les défauts ont été corrigés ?",
     "options": [
       "Tests de régression",
       "Tests de confirmation",
@@ -1218,7 +1218,7 @@
     "id": 1067,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Laquelle des affirmations suivantes décrit le mieux comment l'approche « décalage vers la gauche » peut améliorer la qualité du logiciel ?  ",
+    "question": "Laquelle des affirmations suivantes décrit le mieux\n\ncomment l'approche « décalage vers la gauche » peut améliorer la qualité du logiciel ?",
     "options": [
       "Elle permet de détecter et corriger les défauts dans les étapes ultérieures du cycle de vie du développement.",
       "Elle facilite l'intégration continue et la livraison précoce de valeur au client.",
@@ -1323,7 +1323,7 @@
     "id": 1086,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Imaginez que vous avez testé une nouvelle fonctionnalité du logiciel et trouvé quelques défauts. Après avoir corrigé ces défauts, vous exécutez à nouveau une série de tests. Quel type de tests réalisez-vous si vous validez que les défauts ont été corrigés ?  ",
+    "question": "Imaginez que vous avez testé une nouvelle fonctionnalité du logiciel et trouvé quelques défauts. Après avoir corrigé ces défauts, vous exécutez à nouveau une série de tests.\n\nQuel type de tests réalisez-vous si vous validez que les défauts ont été corrigés ?",
     "options": [
       "A) Tests de régression",
       "B) Tests de confirmation",
@@ -1338,7 +1338,7 @@
     "id": 1087,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Une équipe de test a exécuté un ensemble de tests sur une nouvelle fonctionnalité d'une application. Lors de la première exécution, des défauts ont été trouvés et des corrections ont été apportées. Lors de la deuxième exécution des tests, certains tests ont été répétés. Laquelle des affirmations suivantes décrit correctement les tests réalisés ?  ",
+    "question": "Une équipe de test a exécuté un ensemble de tests sur une nouvelle fonctionnalité d'une application. Lors de la première exécution, des défauts ont été trouvés et des corrections ont été apportées. Lors de la deuxième exécution des tests, certains tests ont été répétés.\n\nLaquelle des affirmations suivantes décrit correctement les tests réalisés ?",
     "options": [
       "A) Les tests répétés sont des tests de confirmation, tandis que les tests de la nouvelle fonctionnalité sont des tests de régression.",
       "B) Les tests de la nouvelle fonctionnalité sont considérés comme des tests de confirmation et les tests répétés sont des tests de régression.",
@@ -1548,7 +1548,7 @@
     "id": 338,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Le logiciel d'un système de navigation a été mis à jour parce qu'il suggérait des itinéraires enfreignant le code de la route, comme rouler à contresens dans des rues à sens unique. Laquelle des options suivantes décrit le MIEUX les tests à réaliser ?  ",
+    "question": "Le logiciel d'un système de navigation a été mis à jour parce qu'il suggérait des itinéraires enfreignant le code de la route, comme rouler à contresens dans des rues à sens unique.\n\nLaquelle des options suivantes décrit le MIEUX les tests à réaliser ?",
     "options": [
       "A) Uniquement des tests de confirmation",
       "B) Tests de confirmation puis tests de régression",
@@ -1623,7 +1623,7 @@
     "id": 409,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Dans un projet avec modèle en V, l'équipe reçoit les exigences du système le jour 1. À quel moment la conception des tests système devrait-elle commencer ?  ",
+    "question": "Dans un projet avec modèle en V, l'équipe reçoit les exigences du système le jour 1. À\n\nquel moment la conception des tests système devrait-elle commencer ?",
     "options": [
       "A) Lorsque le code du système est entièrement développé",
       "B) Après l'achèvement des tests d'intégration",
@@ -1668,7 +1668,7 @@
     "id": 431,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Dans le TDD (Test Driven Development), quel est l'ordre correct du cycle ?  ",
+    "question": "Dans le TDD (Test Driven Development),\n\nquel est l'ordre correct du cycle ?",
     "options": [
       "A) Écrire le code -> Écrire le test -> Refactoriser",
       "B) Écrire le test (qui échoue) -> Écrire le code minimal pour passer le test -> Refactoriser",
@@ -1698,7 +1698,7 @@
     "id": 433,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Une équipe DevOps met en œuvre CI/CD. Les tests s'exécutent automatiquement à chaque commit. Quel type de tests est le PLUS approprié à exécuter à chaque build du pipeline de CI ?  ",
+    "question": "Une équipe DevOps met en œuvre CI/CD. Les tests s'exécutent automatiquement à chaque commit.\n\nQuel type de tests est le PLUS approprié à exécuter à chaque build du pipeline de CI ?",
     "options": [
       "A) Tests d'acceptation utilisateur complets",
       "B) Tests exploratoires manuels",
@@ -1743,7 +1743,7 @@
     "id": 455,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "CAS PRATIQUE : Un système d'e-commerce comporte 3 niveaux : Frontend (React), API Backend (Java), Base de données (PostgreSQL). Lors du test de la fonction « ajouter au panier », elle échoue. Le backend renvoie une erreur 500. Quel type de test d'intégration vous faut-il ?  ",
+    "question": "CAS PRATIQUE : Un système d'e-commerce comporte 3 niveaux : Frontend (React), API Backend (Java), Base de données (PostgreSQL). Lors du test de la fonction « ajouter au panier », elle échoue. Le backend renvoie une erreur 500.\n\nQuel type de test d'intégration vous faut-il ?",
     "options": [
       "A) Test de composant du frontend",
       "B) Test d'intégration entre le frontend et l'API backend pour vérifier le contrat de l'interface",
@@ -1788,7 +1788,7 @@
     "id": "q_batch2_6ody8pkik",
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D). Quelles combinaisons sont correctes ?\n\n1. Tests d'acceptation utilisateur\n2. Tests de performance\n3. Tests d'intégration de composants\n4. Tests de user stories\n\nA (Q1). Orienté technologie, soutient l'équipe de développement  \nB (Q2). Orienté métier, soutient l'équipe de développement  \nC (Q3). Orienté métier, critique le produit  \nD (Q4). Orienté technologie, critique le produit",
+    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D).\n\nQuelles combinaisons sont correctes ?\n\n1. Tests d'acceptation utilisateur\n2. Tests de performance\n3. Tests d'intégration de composants\n4. Tests de user stories\n\nA (Q1). Orienté technologie, soutient l'équipe de développement  \nB (Q2). Orienté métier, soutient l'équipe de développement  \nC (Q3). Orienté métier, critique le produit  \nD (Q4). Orienté technologie, critique le produit",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
@@ -1848,7 +1848,7 @@
     "id": 1017,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Dans votre organisation : Il n'y a pas de rôle de modérateur. L'objectif est de trouver des défauts et de s'améliorer. La discussion est ouverte. Aucune documentation formelle n'est requise à la fin. De quel type de revue s'agit-il ?  ",
+    "question": "Dans votre organisation : Il n'y a pas de rôle de modérateur. L'objectif est de trouver des défauts et de s'améliorer. La discussion est ouverte. Aucune documentation formelle n'est requise à la fin. De\n\nquel type de revue s'agit-il ?",
     "options": [
       "Revue informelle",
       "Revue technique",
@@ -1893,7 +1893,7 @@
     "id": 1044,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "L'auteur d'un document de conception dirige une session de revue. Un scribe consigne les défauts trouvés. Les participants peuvent poser des questions librement et l'auteur explique sa conception. Aucun critère d'entrée ou de sortie formel n'est utilisé. Quel type de revue ce scénario décrit-il ?  ",
+    "question": "L'auteur d'un document de conception dirige une session de revue. Un scribe consigne les défauts trouvés. Les participants peuvent poser des questions librement et l'auteur explique sa conception. Aucun critère d'entrée ou de sortie formel n'est utilisé.\n\nQuel type de revue ce scénario décrit-il ?",
     "options": [
       "Inspection",
       "Revue technique",
@@ -1938,7 +1938,7 @@
     "id": 266,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Les évaluations utilisées dans votre organisation ont les attributs suivants : • Il y a un rôle de scribe. • L'objectif principal est d'évaluer la qualité. • La réunion est dirigée par l'auteur du produit du travail. • Il y a une préparation individuelle. • Un rapport d'évaluation est produit. Lequel des types d'évaluation suivants est le PLUS susceptible d'être utilisé ?  ",
+    "question": "Les évaluations utilisées dans votre organisation ont les attributs suivants : • Il y a un rôle de scribe. • L'objectif principal est d'évaluer la qualité. • La réunion est dirigée par l'auteur du produit du travail. • Il y a une préparation individuelle. • Un rapport d'évaluation est produit.\n\nLequel des types d'évaluation suivants est le PLUS susceptible d'être utilisé ?",
     "options": [
       "A) Examen informel",
       "B) Procédure pas à pas",
@@ -1998,7 +1998,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant données les descriptions de tâches suivantes : Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions de tâches et les activités ?\n\n1. On sélectionne les caractéristiques de qualité à évaluer et les critères de sortie\n2. Tout le monde a accès au produit de travail\n3. On identifie des anomalies dans le produit de travail\n4. On discute des anomalies\n\nA. Revue individuelle  \nB. Lancement de la revue  \nC. Planification  \nD. Communication et analyse",
+    "question": "Étant données les descriptions de tâches suivantes :\n\nLaquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions de tâches et les activités ?\n\n1. On sélectionne les caractéristiques de qualité à évaluer et les critères de sortie\n2. Tout le monde a accès au produit de travail\n3. On identifie des anomalies dans le produit de travail\n4. On discute des anomalies\n\nA. Revue individuelle  \nB. Lancement de la revue  \nC. Planification  \nD. Communication et analyse",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -2013,7 +2013,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les rôles de revue suivants : Laquelle des options suivantes établit la MEILLEURE correspondance entre les rôles et les responsabilités ?\n\n1. Secrétaire/Scribe\n2. Responsable de la revue\n3. Facilitateur\n4. Manager\n\nA. Garantit le déroulement efficace des réunions de revue et établit un environnement sûr  \nB. Consigne les informations de la revue, comme les décisions et les nouvelles anomalies trouvées  \nC. Décide de ce qui sera revu et fournit des ressources comme du personnel et du temps  \nD. Assume la responsabilité globale de la revue : quand et où elle aura lieu",
+    "question": "Étant donnés les rôles de revue suivants :\n\nLaquelle des options suivantes établit la MEILLEURE correspondance entre les rôles et les responsabilités ?\n\n1. Secrétaire/Scribe\n2. Responsable de la revue\n3. Facilitateur\n4. Manager\n\nA. Garantit le déroulement efficace des réunions de revue et établit un environnement sûr  \nB. Consigne les informations de la revue, comme les décisions et les nouvelles anomalies trouvées  \nC. Décide de ce qui sera revu et fournit des ressources comme du personnel et du temps  \nD. Assume la responsabilité globale de la revue : quand et où elle aura lieu",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -2028,7 +2028,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les exemples de défauts suivants :  \n  \ni. Deux parties différentes de la spécification de conception se contredisent en raison de la complexité de la conception  \n  \nii. Un temps de réponse est trop long et fait perdre patience aux utilisateurs  \n  \niii. Un chemin dans le code ne peut pas être atteint pendant l'exécution  \n  \niv. Une variable est déclarée mais jamais utilisée dans le programme  \n  \nv. La quantité de mémoire dont le programme a besoin pour générer un rapport est excessive. Laquelle des options suivantes identifie le MIEUX les défauts qui pourraient être trouvés par les tests statiques (plutôt que dynamiques) ?  ",
+    "question": "Étant donnés les exemples de défauts suivants :  \n  \ni. Deux parties différentes de la spécification de conception se contredisent en raison de la complexité de la conception  \n  \nii. Un temps de réponse est trop long et fait perdre patience aux utilisateurs  \n  \niii. Un chemin dans le code ne peut pas être atteint pendant l'exécution  \n  \niv. Une variable est déclarée mais jamais utilisée dans le programme  \n  \nv. La quantité de mémoire dont le programme a besoin pour générer un rapport est excessive.\n\nLaquelle des options suivantes identifie le MIEUX les défauts qui pourraient être trouvés par les tests statiques (plutôt que dynamiques) ?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -2043,7 +2043,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les types de revue suivants : Laquelle des options suivantes établit la MEILLEURE correspondance ?\n\n1. Revue technique\n2. Revue informelle\n3. Inspection\n4. Walkthrough\n\nA. Inclut des objectifs comme atteindre un consensus, générer de nouvelles idées et motiver les auteurs à s'améliorer  \nB. Inclut des objectifs comme former les relecteurs, atteindre un consensus, générer de nouvelles idées et détecter des défauts potentiels  \nC. L'objectif principal est de détecter des défauts potentiels et nécessite la collecte de métriques pour l'amélioration du processus  \nD. L'objectif principal est de détecter des défauts potentiels et ne génère pas de documentation de sortie formelle",
+    "question": "Étant donnés les types de revue suivants :\n\nLaquelle des options suivantes établit la MEILLEURE correspondance ?\n\n1. Revue technique\n2. Revue informelle\n3. Inspection\n4. Walkthrough\n\nA. Inclut des objectifs comme atteindre un consensus, générer de nouvelles idées et motiver les auteurs à s'améliorer  \nB. Inclut des objectifs comme former les relecteurs, atteindre un consensus, générer de nouvelles idées et détecter des défauts potentiels  \nC. L'objectif principal est de détecter des défauts potentiels et nécessite la collecte de métriques pour l'amélioration du processus  \nD. L'objectif principal est de détecter des défauts potentiels et ne génère pas de documentation de sortie formelle",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -2103,7 +2103,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant données les descriptions suivantes d'activités de revue :  \n  \n1. Les anomalies détectées sont discutées et des décisions sont prises sur leur statut, leur propriétaire et les étapes suivantes  \n  \n2. Les défauts sont consignés et les mises à jour nécessaires sont traitées avant l'acceptation du produit de travail  \n  \n3. Les relecteurs emploient des techniques pour générer des suggestions et des questions sur le produit de travail et identifier des anomalies  \n  \n4. L'objectif de la revue et son calendrier sont établis pour garantir une revue ciblée et efficace  \n  \n5. Les participants reçoivent l'accès à l'élément à revoir. Quelle est la séquence CORRECTE des activités du processus de revue ?  ",
+    "question": "Étant données les descriptions suivantes d'activités de revue :  \n  \n1. Les anomalies détectées sont discutées et des décisions sont prises sur leur statut, leur propriétaire et les étapes suivantes  \n  \n2. Les défauts sont consignés et les mises à jour nécessaires sont traitées avant l'acceptation du produit de travail  \n  \n3. Les relecteurs emploient des techniques pour générer des suggestions et des questions sur le produit de travail et identifier des anomalies  \n  \n4. L'objectif de la revue et son calendrier sont établis pour garantir une revue ciblée et efficace  \n  \n5. Les participants reçoivent l'accès à l'élément à revoir.\n\nQuelle est la séquence CORRECTE des activités du processus de revue ?",
     "options": [
       "A) 4 - 3 - 5 - 2 - 1",
       "B) 4 - 5 - 3 - 1 - 2",
@@ -2133,7 +2133,7 @@
     "id": 411,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Lors d'une inspection des exigences, le modérateur trouve la phrase : « Le système devra être rapide ». Quel type de défaut d'exigence cette affirmation représente-t-elle ?  ",
+    "question": "Lors d'une inspection des exigences, le modérateur trouve la phrase : « Le système devra être rapide ».\n\nQuel type de défaut d'exigence cette affirmation représente-t-elle ?",
     "options": [
       "A) Exigence dupliquée",
       "B) Exigence ambiguë et non vérifiable",
@@ -2148,7 +2148,7 @@
     "id": 412,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Un outil d'analyse statique signale : « Variable x déclarée mais jamais utilisée dans la fonction calculerTotal() ». Comment cette constatation est-elle classée dans la terminologie ISTQB ?  ",
+    "question": "Un outil d'analyse statique signale : « Variable x déclarée mais jamais utilisée dans la fonction calculerTotal() ».\n\nComment cette constatation est-elle classée dans la terminologie ISTQB ?",
     "options": [
       "A) Défaillance (failure)",
       "B) Erreur (mistake)",
@@ -2178,7 +2178,7 @@
     "id": 434,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Une organisation réalise une revue où : il y a un modérateur indépendant, les relecteurs se préparent individuellement, des métriques de défauts sont enregistrées et un rapport formel est produit. De quel type de revue s'agit-il ?  ",
+    "question": "Une organisation réalise une revue où : il y a un modérateur indépendant, les relecteurs se préparent individuellement, des métriques de défauts sont enregistrées et un rapport formel est produit. De\n\nquel type de revue s'agit-il ?",
     "options": [
       "A) Revue informelle",
       "B) Walkthrough",
@@ -2238,7 +2238,7 @@
     "id": 458,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "CAS PRATIQUE : Votre organisation met en place des revues de code obligatoires. L'équipe de développement se plaint qu'elles ralentissent le processus. Quel est l'argument le PLUS solide pour justifier les revues ?  ",
+    "question": "CAS PRATIQUE : Votre organisation met en place des revues de code obligatoires. L'équipe de développement se plaint qu'elles ralentissent le processus.\n\nQuel est l'argument le PLUS solide pour justifier les revues ?",
     "options": [
       "A) Elles sont obligatoires par réglementation, il n'y a pas d'alternative",
       "B) Le coût de correction des défauts trouvés en revue est nettement inférieur à celui de leur correction en production",
@@ -2283,7 +2283,7 @@
     "id": "q_batch2_n23h74aj8",
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Dans votre organisation, des revues sont menées avec les caractéristiques suivantes : Aucun scribe n'est requis. L'objectif est de détecter des anomalies de manière non structurée. Les participants sont des experts du domaine. Il n'y a pas de modérateur désigné. Quel type de revue est le PLUS probablement mené ?  ",
+    "question": "Dans votre organisation, des revues sont menées avec les caractéristiques suivantes : Aucun scribe n'est requis. L'objectif est de détecter des anomalies de manière non structurée. Les participants sont des experts du domaine. Il n'y a pas de modérateur désigné.\n\nQuel type de revue est le PLUS probablement mené ?",
     "options": [
       "Revue informelle",
       "Revue technique",
@@ -2313,7 +2313,7 @@
     "id": 1020,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de notation accepte des scores 0-100. Échec : 0-59, Réussi : 60-69, Bien : 70-89, Excellent : 90-100. En utilisant le partitionnement d'équivalence, quel est le nombre MINIMUM de cas de test pour atteindre 100 % de couverture des partitions VALIDES ?  ",
+    "question": "Un système de notation accepte des scores 0-100. Échec : 0-59, Réussi : 60-69, Bien : 70-89, Excellent : 90-100. En utilisant le partitionnement d'équivalence,\n\nquel est le nombre MINIMUM de cas de test pour atteindre 100 % de couverture des partitions VALIDES ?",
     "options": [
       "3",
       "4",
@@ -2328,7 +2328,7 @@
     "id": 1021,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Le champ « Âge » accepte de 16 à 65 ans. Votre ensemble inclut : 15, 16, 17, 64, 65, 66. Quel pourcentage de couverture de l'analyse des valeurs limites (AVL) à 3 valeurs atteignez-vous ?  ",
+    "question": "Le champ « Âge » accepte de 16 à 65 ans. Votre ensemble inclut : 15, 16, 17, 64, 65, 66.\n\nQuel pourcentage de couverture de l'analyse des valeurs limites (AVL) à 3 valeurs atteignez-vous ?",
     "options": [
       "50 %",
       "67 %",
@@ -2343,7 +2343,7 @@
     "id": 1022,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Dans une table de décision pour des prêts, vous avez 4 conditions. Si vous vouliez minimiser la table en raison du grand nombre de combinaisons, quelle serait la meilleure stratégie ?  ",
+    "question": "Dans une table de décision pour des prêts, vous avez 4 conditions. Si vous vouliez minimiser la table en raison du grand nombre de combinaisons,\n\nquelle serait la meilleure stratégie ?",
     "options": [
       "Supprimer toutes les conditions les moins importantes",
       "Utiliser une approche basée sur les risques pour réduire les règles à tester",
@@ -2418,7 +2418,7 @@
     "id": 1027,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Une équipe crée une application mobile innovante, et les tests exploratoires seront utilisés en raison du manque de documentation. Laquelle des affirmations suivantes sur les tests exploratoires est CORRECTE ?  ",
+    "question": "Une équipe crée une application mobile innovante, et les tests exploratoires seront utilisés en raison du manque de documentation.\n\nLaquelle des affirmations suivantes sur les tests exploratoires est CORRECTE ?",
     "options": [
       "Les tests exploratoires sont toujours moins efficaces que les tests basés sur les exigences.",
       "Les tests exploratoires permettent aux testeurs de s'adapter rapidement aux changements du logiciel.",
@@ -2508,7 +2508,7 @@
     "id": 1034,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Laquelle des affirmations suivantes décrit le plus adéquatement comment les critères d'acceptation peuvent être définis pour une user story ?  ",
+    "question": "Laquelle des affirmations suivantes décrit le plus adéquatement\n\ncomment les critères d'acceptation peuvent être définis pour une user story ?",
     "options": [
       "En spécifiant uniquement les exigences fonctionnelles sans détails sur la validation.",
       "En décrivant les résultats attendus à l'aide d'un format clair et concis incluant des exemples concrets.",
@@ -2523,7 +2523,7 @@
     "id": 1045,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous êtes responsable d'un projet logiciel où plusieurs risques ont été identifiés, mais le temps pour les tests est limité. L'équipe de développement a livré l'application sans documentation détaillée. Quelle serait la meilleure technique de test à utiliser dans cette situation ?  ",
+    "question": "Vous êtes responsable d'un projet logiciel où plusieurs risques ont été identifiés, mais le temps pour les tests est limité. L'équipe de développement a livré l'application sans documentation détaillée.\n\nQuelle serait la meilleure technique de test à utiliser dans cette situation ?",
     "options": [
       "Tests basés sur les risques",
       "Tests exploratoires",
@@ -2538,7 +2538,7 @@
     "id": 1049,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous avez un bloc de code avec 120 instructions exécutables. Après l'exécution de votre ensemble de tests, les rapports indiquent que exactement 90 instructions ont été exercées. Quel niveau de couverture des instructions a été atteint ?  ",
+    "question": "Vous avez un bloc de code avec 120 instructions exécutables. Après l'exécution de votre ensemble de tests, les rapports indiquent que exactement 90 instructions ont été exercées.\n\nQuel niveau de couverture des instructions a été atteint ?",
     "options": [
       "25 %",
       "90 %",
@@ -2553,7 +2553,7 @@
     "id": 1050,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un testeur logiciel veut calculer la couverture atteinte par ses tests. Le composant testé a 50 instructions exécutables et 12 branches possibles. Pendant les tests, 45 instructions et 9 branches ont été exécutées. Quelle est la métrique de couverture des BRANCHES atteinte ?  ",
+    "question": "Un testeur logiciel veut calculer la couverture atteinte par ses tests. Le composant testé a 50 instructions exécutables et 12 branches possibles. Pendant les tests, 45 instructions et 9 branches ont été exécutées.\n\nQuelle est la métrique de couverture des BRANCHES atteinte ?",
     "options": [
       "90 %",
       "75 %",
@@ -2568,7 +2568,7 @@
     "id": 1051,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un ensemble de tests couvre 8 des 10 transitions valides totales d'un diagramme d'états. Quel pourcentage de couverture des transitions valides a été atteint, et que peut-on affirmer avec une certitude totale sur la couverture des états ?  ",
+    "question": "Un ensemble de tests couvre 8 des 10 transitions valides totales d'un diagramme d'états.\n\nQuel pourcentage de couverture des transitions valides a été atteint, et que peut-on affirmer avec une certitude totale sur la couverture des états ?",
     "options": [
       "80 % ; Il est garanti que tous les états ont été visités (100 % de couverture des états).",
       "80 % ; Pas nécessairement tous les états ont été visités.",
@@ -2598,7 +2598,7 @@
     "id": 269,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous testez un formulaire de recherche d'appartement simplifié qui ne comporte que deux critères de recherche : • étage (avec trois options possibles : rez-de-chaussée ; premier étage ; deuxième étage ou supérieur) • type de jardin (avec trois options possibles : pas de jardin ; petit jardin ; grand jardin) Tous les appartements du rez-de-chaussée ont un jardin, les appartements des étages n'en ont pas. Le formulaire dispose d'un mécanisme de validation intégré qui ne vous permettra pas d'utiliser des critères de recherche qui enfreignent cette règle. Chaque test comporte deux valeurs d'entrée : le type de sol et le type de jardin. Vous souhaitez appliquer un cloisonnement d'équivalence (EP) pour couvrir chaque étage et chaque type de jardin dans vos tests. Quel est le nombre minimum de cas de test pour obtenir une couverture EP à 100 % pour les partitions valides ?  ",
+    "question": "Vous testez un formulaire de recherche d'appartement simplifié qui ne comporte que deux critères de recherche : • étage (avec trois options possibles : rez-de-chaussée ; premier étage ; deuxième étage ou supérieur) • type de jardin (avec trois options possibles : pas de jardin ; petit jardin ; grand jardin) Tous les appartements du rez-de-chaussée ont un jardin, les appartements des étages n'en ont pas. Le formulaire dispose d'un mécanisme de validation intégré qui ne vous permettra pas d'utiliser des critères de recherche qui enfreignent cette règle. Chaque test comporte deux valeurs d'entrée : le type de sol et le type de jardin. Vous souhaitez appliquer un cloisonnement d'équivalence (EP) pour couvrir chaque étage et chaque type de jardin dans vos tests.\n\nQuel est le nombre minimum de cas de test pour obtenir une couverture EP à 100 % pour les partitions valides ?",
     "options": [
       "A)3",
       "B)4",
@@ -2628,7 +2628,7 @@
     "id": 272,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Testez un système dont le cycle de vie est modélisé par le diagramme de transition d'état présenté ci-dessous. Le système démarre à l'état INIT et termine son fonctionnement à l'état OFF. Quel est le nombre MINIMUM de cas de test pour obtenir une couverture de transition valide ?  ",
+    "question": "Testez un système dont le cycle de vie est modélisé par le diagramme de transition d'état présenté ci-dessous. Le système démarre à l'état INIT et termine son fonctionnement à l'état OFF.\n\nQuel est le nombre MINIMUM de cas de test pour obtenir une couverture de transition valide ?",
     "options": [
       "A)4",
       "B)2",
@@ -2643,7 +2643,7 @@
     "id": 273,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Leur suite de tests a atteint une couverture de phrases à 100 %. Quelle est la conséquence de ce fait ?  ",
+    "question": "Leur suite de tests a atteint une couverture de phrases à 100 %.\n\nQuelle est la conséquence de ce fait ?",
     "options": [
       "A) Chaque instruction du code contenant un défaut a été exécutée au moins une fois",
       "B) Toute suite de tests contenant plus de cas de test que votre suite de tests atteindra également une couverture des déclarations à 100 %",
@@ -2688,7 +2688,7 @@
     "id": 276,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "A commencé tardivement mais possède une connaissance très détaillée du domaine et de bonnes compétences analytiques. La liste complète des exigences n'a pas encore été partagée avec l'équipe, mais la direction demande que certains résultats de tests soient soumis. Quelle technique de test convient le mieux à cette situation ?  ",
+    "question": "A commencé tardivement mais possède une connaissance très détaillée du domaine et de bonnes compétences analytiques. La liste complète des exigences n'a pas encore été partagée avec l'équipe, mais la direction demande que certains résultats de tests soient soumis.\n\nQuelle technique de test convient le mieux à cette situation ?",
     "options": [
       "A) Tests basés sur des listes de contrôle",
       "B) Prédiction des erreurs",
@@ -2703,7 +2703,7 @@
     "id": 277,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Lequel des énoncés suivants décrit le MIEUX comment les critères d’acceptation peuvent être documentés ?  ",
+    "question": "Lequel des énoncés suivants décrit le MIEUX\n\ncomment les critères d’acceptation peuvent être documentés ?",
     "options": [
       "A) Réaliser des rétrospectives pour déterminer les besoins réels des parties prenantes concernant une user story donnée",
       "B) Utiliser le format donné/quand/alors pour décrire un exemple de condition de test liée à une user story donnée",
@@ -2718,7 +2718,7 @@
     "id": 278,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Considérez l'histoire d'utilisateur suivante : En tant qu'éditeur, je souhaite vérifier le contenu avant sa publication pour m'assurer que la grammaire est correcte et ses critères d'acceptation : • L'utilisateur peut se connecter au système de gestion de contenu avec le rôle d'« Éditeur » • L'éditeur peut afficher les pages de contenu existantes • L'éditeur peut modifier le contenu de la page • L'éditeur peut ajouter des commentaires de balisage • L'éditeur peut enregistrer les modifications • L'éditeur peut réaffecter le rôle de « propriétaire de contenu » pour effectuer des mises à jour. Lequel des éléments suivants est le MEILLEUR exemple de test ATDD pour cela histoire d'utilisateur ?  ",
+    "question": "Considérez l'histoire d'utilisateur suivante : En tant qu'éditeur, je souhaite vérifier le contenu avant sa publication pour m'assurer que la grammaire est correcte et ses critères d'acceptation : • L'utilisateur peut se connecter au système de gestion de contenu avec le rôle d'« Éditeur » • L'éditeur peut afficher les pages de contenu existantes • L'éditeur peut modifier le contenu de la page • L'éditeur peut ajouter des commentaires de balisage • L'éditeur peut enregistrer les modifications • L'éditeur peut réaffecter le rôle de « propriétaire de contenu » pour effectuer des mises à jour.\n\nLequel des éléments suivants est le MEILLEUR exemple de test ATDD pour cela histoire d'utilisateur ?",
     "options": [
       "A) Testez si l'éditeur peut enregistrer le document après avoir modifié le contenu de la page",
       "B) Testez si le propriétaire du contenu peut se connecter et effectuer des mises à jour du contenu",
@@ -2748,7 +2748,7 @@
     "id": 307,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Les clients de la chaîne de lavage de voitures TestWash ont des cartes avec le nombre de lavages achetés. La valeur initiale est 0. En entrant dans le lavage, le système incrémente le numéro sur la carte de un. Cette valeur représente le numéro du lavage actuel. À partir de ce numéro, le système décide la remise : chaque dixième lavage donne 10 % de remise et chaque vingtième lavage donne 40 % supplémentaires (soit 50 % au total). Lequel des ensembles de données d'entrée suivants (les numéros du lavage actuel) atteint la plus grande couverture de partitions d'équivalence ?  ",
+    "question": "Les clients de la chaîne de lavage de voitures TestWash ont des cartes avec le nombre de lavages achetés. La valeur initiale est 0. En entrant dans le lavage, le système incrémente le numéro sur la carte de un. Cette valeur représente le numéro du lavage actuel. À partir de ce numéro, le système décide la remise : chaque dixième lavage donne 10 % de remise et chaque vingtième lavage donne 40 % supplémentaires (soit 50 % au total).\n\nLequel des ensembles de données d'entrée suivants (les numéros du lavage actuel) atteint la plus grande couverture de partitions d'équivalence ?",
     "options": [
       "A) 19, 20, 30",
       "B) 11, 12, 20",
@@ -2763,7 +2763,7 @@
     "id": 308,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous testez un formulaire qui vérifie si la longueur du mot de passe saisi est correcte. Le formulaire accepte les mots de passe de longueur correcte et rejette ceux qui sont trop courts ou trop longs. La longueur est correcte si elle est comprise entre 6 et 12 caractères inclus. Le formulaire est initialement vide (longueur = 0). Vous appliquez l'analyse des valeurs limites à la variable 'longueur du mot de passe'. Votre ensemble de cas de test atteint 100 % de couverture des valeurs limites à 2 valeurs. L'équipe décide que, en raison du risque élevé du composant, il faut ajouter des cas pour atteindre 100 % de couverture des valeurs limites à 3 valeurs. Quelles longueurs de mot de passe supplémentaires faut-il tester ?  ",
+    "question": "Vous testez un formulaire qui vérifie si la longueur du mot de passe saisi est correcte. Le formulaire accepte les mots de passe de longueur correcte et rejette ceux qui sont trop courts ou trop longs. La longueur est correcte si elle est comprise entre 6 et 12 caractères inclus. Le formulaire est initialement vide (longueur = 0). Vous appliquez l'analyse des valeurs limites à la variable 'longueur du mot de passe'. Votre ensemble de cas de test atteint 100 % de couverture des valeurs limites à 2 valeurs. L'équipe décide que, en raison du risque élevé du composant, il faut ajouter des cas pour atteindre 100 % de couverture des valeurs limites à 3 valeurs.\n\nQuelles longueurs de mot de passe supplémentaires faut-il tester ?",
     "options": [
       "A) 4, 5, 13, 14",
       "B) 7, 11",
@@ -2778,7 +2778,7 @@
     "id": 310,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de stockage peut contenir jusqu'à trois éléments et est modélisé par le diagramme de transition d'états suivant. La variable N représente le nombre d'éléments actuellement stockés. Lequel des cas de test suivants, représentés comme des séquences d'événements, atteint le plus haut niveau de couverture des transitions valides ?  ",
+    "question": "Un système de stockage peut contenir jusqu'à trois éléments et est modélisé par le diagramme de transition d'états suivant. La variable N représente le nombre d'éléments actuellement stockés.\n\nLequel des cas de test suivants, représentés comme des séquences d'événements, atteint le plus haut niveau de couverture des transitions valides ?",
     "options": [
       "A) Ajouter, Supprimer, Ajouter, Ajouter, Ajouter",
       "B) Ajouter, Ajouter, Ajouter, Ajouter, Supprimer, Supprimer",
@@ -2793,7 +2793,7 @@
     "id": 311,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous exécutez deux cas de test, T1 et T2, sur le même code. T1 atteint 40 % de couverture des instructions et T2 atteint 65 %. Laquelle des affirmations suivantes est nécessairement vraie ?  ",
+    "question": "Vous exécutez deux cas de test, T1 et T2, sur le même code. T1 atteint 40 % de couverture des instructions et T2 atteint 65 %.\n\nLaquelle des affirmations suivantes est nécessairement vraie ?",
     "options": [
       "A) L'ensemble de tests T1+T2 atteint 105 % de couverture des instructions",
       "B) Il existe au moins une instruction qui a été exécutée à la fois par T1 et T2",
@@ -2853,7 +2853,7 @@
     "id": 315,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Considérez le critère d'acceptation suivant pour une user story écrite du point de vue du propriétaire d'une boutique en ligne. ÉTANT DONNÉ que l'utilisateur est connecté et se trouve sur la page d'accueil, QUAND l'utilisateur clique sur le bouton 'Ajouter un article', ALORS le formulaire 'Créer un article' doit apparaître, ET l'utilisateur doit pouvoir saisir un nom et un prix pour le nouvel article. Dans quel format ce critère d'acceptation est-il écrit ?  ",
+    "question": "Considérez le critère d'acceptation suivant pour une user story écrite du point de vue du propriétaire d'une boutique en ligne. ÉTANT DONNÉ que l'utilisateur est connecté et se trouve sur la page d'accueil, QUAND l'utilisateur clique sur le bouton 'Ajouter un article', ALORS le formulaire 'Créer un article' doit apparaître, ET l'utilisateur doit pouvoir saisir un nom et un prix pour le nouvel article. Dans\n\nquel format ce critère d'acceptation est-il écrit ?",
     "options": [
       "A) Orienté règles",
       "B) Orienté scénarios",
@@ -2868,7 +2868,7 @@
     "id": 316,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Votre équipe analyse la user story suivante pour définir les critères d'acceptation : « En tant que client enregistré, je veux pouvoir voir mes commandes précédentes sur le site de l'entreprise, afin de pouvoir suivre mes achats. » Lequel des cas de test suivants ne sera PAS pertinent pour cette user story ?  ",
+    "question": "Votre équipe analyse la user story suivante pour définir les critères d'acceptation : « En tant que client enregistré, je veux pouvoir voir mes commandes précédentes sur le site de l'entreprise, afin de pouvoir suivre mes achats. »\n\nLequel des cas de test suivants ne sera PAS pertinent pour cette user story ?",
     "options": [
       "A) Entrée : le client se connecte et clique sur 'voir l'historique des commandes'. Résultat attendu : le système affiche une liste de toutes les commandes précédentes avec la date, le numéro de commande et le coût total",
       "B) Entrée : le client clique sur une commande de la liste. Résultat attendu : le système affiche les articles individuels achetés avec leurs prix et quantités",
@@ -2898,7 +2898,7 @@
     "id": 343,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous testez un validateur de PIN qui accepte les PIN valides et rejette les invalides. Un PIN est une séquence de 4 chiffres où chaque chiffre est entre 0 et 9. Vous appliquez le partitionnement d'équivalence au champ 'nombre de chiffres du PIN'. Combien y a-t-il de partitions au total (y compris valides et invalides) ?  ",
+    "question": "Vous testez un validateur de PIN qui accepte les PIN valides et rejette les invalides. Un PIN est une séquence de 4 chiffres où chaque chiffre est entre 0 et 9. Vous appliquez le partitionnement d'équivalence au champ 'nombre de chiffres du PIN'.\n\nCombien y a-t-il de partitions au total (y compris valides et invalides) ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2913,7 +2913,7 @@
     "id": 344,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "On a demandé à un développeur d'implémenter la règle métier suivante : ENTRÉE : valeur (entier). SI (valeur > 0) ET (valeur <= 10) -> Action A. SI (valeur > 10) ET (valeur <= 20) -> Action B. SI (valeur > 20) -> Action C. Combien de cas de test sont nécessaires au minimum pour atteindre 100 % de couverture des branches ?  ",
+    "question": "On a demandé à un développeur d'implémenter la règle métier suivante : ENTRÉE : valeur (entier). SI (valeur > 0) ET (valeur <= 10) -> Action A. SI (valeur > 10) ET (valeur <= 20) -> Action B. SI (valeur > 20) -> Action C.\n\nCombien de cas de test sont nécessaires au minimum pour atteindre 100 % de couverture des branches ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2928,7 +2928,7 @@
     "id": 345,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous travaillez sur un projet de développement d'un système d'analyse des résultats d'examens de conduite. On vous a demandé de concevoir des cas de test en utilisant les tests par table de décision pour la règle suivante : Un candidat RÉUSSIT s'il obtient au moins 43 réponses correctes sur 50 ET ne commet aucune faute grave. Un candidat ÉCHOUE dans tout autre cas. Combien de règles (colonnes) la table de décision complète aura-t-elle ?  ",
+    "question": "Vous travaillez sur un projet de développement d'un système d'analyse des résultats d'examens de conduite. On vous a demandé de concevoir des cas de test en utilisant les tests par table de décision pour la règle suivante : Un candidat RÉUSSIT s'il obtient au moins 43 réponses correctes sur 50 ET ne commet aucune faute grave. Un candidat ÉCHOUE dans tout autre cas.\n\nCombien de règles (colonnes) la table de décision complète aura-t-elle ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2943,7 +2943,7 @@
     "id": 346,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous concevez des cas de test à partir d'un diagramme de transition d'états. Quel est le nombre MINIMUM de cas de test nécessaires pour atteindre la couverture de toutes les transitions valides (100 %) ?  ",
+    "question": "Vous concevez des cas de test à partir d'un diagramme de transition d'états.\n\nQuel est le nombre MINIMUM de cas de test nécessaires pour atteindre la couverture de toutes les transitions valides (100 %) ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -2958,7 +2958,7 @@
     "id": 347,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous voulez appliquer les tests des branches au code représenté par le graphe de flux de contrôle suivant. Combien de cas de test sont nécessaires au MINIMUM pour atteindre 100 % de couverture des branches ?  ",
+    "question": "Vous voulez appliquer les tests des branches au code représenté par le graphe de flux de contrôle suivant.\n\nCombien de cas de test sont nécessaires au MINIMUM pour atteindre 100 % de couverture des branches ?",
     "options": [
       "A) 1",
       "B) 2",
@@ -2988,7 +2988,7 @@
     "id": 349,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Considérez la liste suivante de défauts possibles : - Entrée correcte non acceptée - Entrée incorrecte acceptée - Sortie incorrecte produite - Fonctionnalité omise. Laquelle des techniques de test suivantes est SPÉCIFIQUEMENT conçue pour détecter tous ces types de défauts ?  ",
+    "question": "Considérez la liste suivante de défauts possibles : - Entrée correcte non acceptée - Entrée incorrecte acceptée - Sortie incorrecte produite - Fonctionnalité omise.\n\nLaquelle des techniques de test suivantes est SPÉCIFIQUEMENT conçue pour détecter tous ces types de défauts ?",
     "options": [
       "A) Partitionnement d'équivalence",
       "B) Tests par table de décision",
@@ -3003,7 +3003,7 @@
     "id": 350,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Laquelle des options suivantes décrit le MIEUX comment l'utilisation des tests basés sur une checklist peut aboutir à une plus grande couverture par rapport aux tests basés sur la spécification sans checklist ?  ",
+    "question": "Laquelle des options suivantes décrit le MIEUX\n\ncomment l'utilisation des tests basés sur une checklist peut aboutir à une plus grande couverture par rapport aux tests basés sur la spécification sans checklist ?",
     "options": [
       "A) Les checklists incluent des éléments basés sur l'expérience des défauts passés, ce qui aide à détecter plus de défauts",
       "B) Les checklists sont des documents formels générés automatiquement par des outils d'analyse statique",
@@ -3033,7 +3033,7 @@
     "id": 352,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous utilisez le développement piloté par les tests d'acceptation (ATDD) et concevez des cas de test à partir de la user story suivante : « En tant qu'utilisateur enregistré, je veux pouvoir changer mon mot de passe, pour garder mon compte sécurisé. » Lequel des cas de test suivants n'est PAS pertinent pour cette user story ?  ",
+    "question": "Vous utilisez le développement piloté par les tests d'acceptation (ATDD) et concevez des cas de test à partir de la user story suivante : « En tant qu'utilisateur enregistré, je veux pouvoir changer mon mot de passe, pour garder mon compte sécurisé. »\n\nLequel des cas de test suivants n'est PAS pertinent pour cette user story ?",
     "options": [
       "A) Vérifier que l'utilisateur peut changer son mot de passe en saisissant le mot de passe actuel correct et un nouveau mot de passe valide",
       "B) Vérifier que le système rejette le changement si le mot de passe actuel saisi est incorrect",
@@ -3048,7 +3048,7 @@
     "id": 377,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous réalisez des tests système d'une application web d'e-commerce et on vous fournit l'exigence suivante : REQ 05-017. Si le coût total des achats dépasse 100 $, le client obtient une remise de 5 % sur les achats suivants. Sinon, le client ne reçoit aucune remise. Quelles techniques de test seront les PLUS utiles pour concevoir des cas de test à partir de cette exigence ?  ",
+    "question": "Vous réalisez des tests système d'une application web d'e-commerce et on vous fournit l'exigence suivante : REQ 05-017. Si le coût total des achats dépasse 100 $, le client obtient une remise de 5 % sur les achats suivants. Sinon, le client ne reçoit aucune remise.\n\nQuelles techniques de test seront les PLUS utiles pour concevoir des cas de test à partir de cette exigence ?",
     "options": [
       "A) Techniques de test en boîte blanche",
       "B) Techniques de test en boîte noire",
@@ -3063,7 +3063,7 @@
     "id": 378,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Le système de vente de billets de cinéma calcule le type de remise à partir de l'année de naissance (AN) du client et de l'année actuelle (AA) comme suit : Soit D la différence entre AA et AN, c'est-à-dire D = AA - AN. - Si D < 0, afficher l'erreur « l'année de naissance ne peut pas être supérieure à l'année actuelle ». - Si 0 <= D < 18, appliquer la remise étudiant. - Si 18 <= D < 65, n'appliquer aucune remise. - Si D >= 65, appliquer la remise retraité. Votre ensemble de tests contient déjà deux cas : - AN = 1990, AA = 2020, résultat attendu : aucune remise. - AN = 2030, AA = 2029, résultat attendu : afficher l'erreur. Lequel des ensembles de données de test suivants faut-il ajouter pour atteindre une couverture complète des partitions d'équivalence valides pour le type de remise ?  ",
+    "question": "Le système de vente de billets de cinéma calcule le type de remise à partir de l'année de naissance (AN) du client et de l'année actuelle (AA) comme suit : Soit D la différence entre AA et AN, c'est-à-dire D = AA - AN. - Si D < 0, afficher l'erreur « l'année de naissance ne peut pas être supérieure à l'année actuelle ». - Si 0 <= D < 18, appliquer la remise étudiant. - Si 18 <= D < 65, n'appliquer aucune remise. - Si D >= 65, appliquer la remise retraité. Votre ensemble de tests contient déjà deux cas : - AN = 1990, AA = 2020, résultat attendu : aucune remise. - AN = 2030, AA = 2029, résultat attendu : afficher l'erreur.\n\nLequel des ensembles de données de test suivants faut-il ajouter pour atteindre une couverture complète des partitions d'équivalence valides pour le type de remise ?",
     "options": [
       "A) AN = 2001, AA = 2065",
       "B) AN = 1900, AA = 1965",
@@ -3078,7 +3078,7 @@
     "id": 379,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous testez un système de contrôle de température pour une installation de stockage frigorifique. Le système reçoit la température (en degrés Celsius entiers) en entrée. Si la température est entre 0 et 2 degrés inclus, il affiche « température OK ». Pour des températures plus basses, il affiche « température trop basse », et pour des plus hautes « température trop élevée ». En utilisant l'analyse des valeurs limites à 2 valeurs, lequel des ensembles suivants fournit le plus haut niveau de couverture des valeurs limites ?  ",
+    "question": "Vous testez un système de contrôle de température pour une installation de stockage frigorifique. Le système reçoit la température (en degrés Celsius entiers) en entrée. Si la température est entre 0 et 2 degrés inclus, il affiche « température OK ». Pour des températures plus basses, il affiche « température trop basse », et pour des plus hautes « température trop élevée ». En utilisant l'analyse des valeurs limites à 2 valeurs,\n\nlequel des ensembles suivants fournit le plus haut niveau de couverture des valeurs limites ?",
     "options": [
       "A) -1, 3",
       "B) 0, 2",
@@ -3093,7 +3093,7 @@
     "id": 380,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous concevez des cas de test à partir d'une table de décision d'âges et d'expérience. Jusqu'à présent vous avez conçu 4 cas de test. Lequel des cas de test suivants, ajouté à l'ensemble existant, augmentera la couverture de la table de décision ?  ",
+    "question": "Vous concevez des cas de test à partir d'une table de décision d'âges et d'expérience. Jusqu'à présent vous avez conçu 4 cas de test.\n\nLequel des cas de test suivants, ajouté à l'ensemble existant, augmentera la couverture de la table de décision ?",
     "options": [
       "A) Homme de 66 ans, non enregistré, sans expérience ; résultat attendu : catégorie B",
       "B) Femme de 55 ans, non enregistrée, avec 2 ans d'expérience ; résultat attendu : catégorie A",
@@ -3108,7 +3108,7 @@
     "id": 381,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous appliquez les tests de transition d'états à un système de réservation de chambres d'hôtel. En supposant que tous les cas de test commencent dans l'état « Demande en cours » (Requesting), lequel des cas de test suivants, représentés comme des séquences d'événements, atteint la plus grande couverture des transitions valides ?  ",
+    "question": "Vous appliquez les tests de transition d'états à un système de réservation de chambres d'hôtel. En supposant que tous les cas de test commencent dans l'état « Demande en cours » (Requesting),\n\nlequel des cas de test suivants, représentés comme des séquences d'événements, atteint la plus grande couverture des transitions valides ?",
     "options": [
       "A) NotAvailable, Available, ChangeRoom, NotAvailable, Cancel",
       "B) Available, ChangeRoom, NotAvailable, Available, Pay",
@@ -3123,7 +3123,7 @@
     "id": 382,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Votre ensemble de tests S pour un programme P atteint 100 % de couverture des instructions. Il est composé de trois cas de test, chacun atteignant 50 % de couverture des instructions. Laquelle des affirmations suivantes est CORRECTE ?  ",
+    "question": "Votre ensemble de tests S pour un programme P atteint 100 % de couverture des instructions. Il est composé de trois cas de test, chacun atteignant 50 % de couverture des instructions.\n\nLaquelle des affirmations suivantes est CORRECTE ?",
     "options": [
       "A) Exécuter S provoquera toutes les défaillances possibles dans P",
       "B) S atteint 100 % de couverture des branches pour P",
@@ -3198,7 +3198,7 @@
     "id": 387,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous concevez des cas de test pour une user story où le client veut filtrer les produits par plage de prix. Précondition : seuls deux produits sont disponibles, A (100 $) et B (110 $). Quel est le MEILLEUR exemple de cas de test pour cette user story ?  ",
+    "question": "Vous concevez des cas de test pour une user story où le client veut filtrer les produits par plage de prix. Précondition : seuls deux produits sont disponibles, A (100 $) et B (110 $).\n\nQuel est le MEILLEUR exemple de cas de test pour cette user story ?",
     "options": [
       "A) Aller sur le site et fixer le filtre entre 90 $ et 100 $. Résultat : affiche seulement A. Changer le maximum à 110 $. Résultat : affiche A et B.",
       "B) Aller sur le site. Ajouter le produit C au prix de 120 $. Actualiser la page. Résultat : le prix maximum par défaut passe à 120 $.",
@@ -3213,7 +3213,7 @@
     "id": 400,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous êtes testeur d'un système bancaire. Le champ « montant du virement » accepte des valeurs entre 1 euro et 10 000 euros. En appliquant l'AVL à 3 valeurs par limite, quel ensemble de valeurs de test est correct ?  ",
+    "question": "Vous êtes testeur d'un système bancaire. Le champ « montant du virement » accepte des valeurs entre 1 euro et 10 000 euros. En appliquant l'AVL à 3 valeurs par limite,\n\nquel ensemble de valeurs de test est correct ?",
     "options": [
       "A) 0, 1, 2, 9999, 10000, 10001",
       "B) 1, 10000",
@@ -3228,7 +3228,7 @@
     "id": 401,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de remises applique : 0 % si l'achat < 100 euros, 5 % si 100 euros <= achat < 500 euros, 10 % si 500 euros <= achat < 1000 euros, 15 % si achat >= 1000 euros. En utilisant le partitionnement d'équivalence, combien de classes d'équivalence valides existe-t-il ?  ",
+    "question": "Un système de remises applique : 0 % si l'achat < 100 euros, 5 % si 100 euros <= achat < 500 euros, 10 % si 500 euros <= achat < 1000 euros, 15 % si achat >= 1000 euros. En utilisant le partitionnement d'équivalence,\n\ncombien de classes d'équivalence valides existe-t-il ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3243,7 +3243,7 @@
     "id": 402,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous concevez une table de décision pour un système de prêts avec 3 conditions booléennes (revenus suffisants, bon historique de crédit, garantie fournie). Combien de colonnes de règles la table complète aura-t-elle ?  ",
+    "question": "Vous concevez une table de décision pour un système de prêts avec 3 conditions booléennes (revenus suffisants, bon historique de crédit, garantie fournie).\n\nCombien de colonnes de règles la table complète aura-t-elle ?",
     "options": [
       "A) 3",
       "B) 6",
@@ -3258,7 +3258,7 @@
     "id": 403,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un distributeur automatique a des états : Inactif, En attente du PIN, Vérification, Distribution, Bloqué. Si vous saisissez 3 PIN incorrects consécutifs, la transition va vers « Bloqué ». Quelle technique de conception de tests est la PLUS appropriée pour modéliser et vérifier ce comportement ?  ",
+    "question": "Un distributeur automatique a des états : Inactif, En attente du PIN, Vérification, Distribution, Bloqué. Si vous saisissez 3 PIN incorrects consécutifs, la transition va vers « Bloqué ».\n\nQuelle technique de conception de tests est la PLUS appropriée pour modéliser et vérifier ce comportement ?",
     "options": [
       "A) Partitionnement d'équivalence",
       "B) Valeurs limites",
@@ -3273,7 +3273,7 @@
     "id": 404,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous avez le code suivant : IF (a > 0 AND b > 0) THEN result = a + b ELSE result = 0. Pour atteindre 100 % de couverture des décisions, combien de cas de test sont nécessaires au minimum ?  ",
+    "question": "Vous avez le code suivant : IF (a > 0 AND b > 0) THEN result = a + b ELSE result = 0. Pour atteindre 100 % de couverture des décisions,\n\ncombien de cas de test sont nécessaires au minimum ?",
     "options": [
       "A) 1",
       "B) 2",
@@ -3288,7 +3288,7 @@
     "id": 405,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous travaillez sur une application de réservation de vols. Vous appliquez la méthode des « cas d'utilisation » pour concevoir des tests. Quel flux DEVEZ-vous tester pour trouver les défauts les plus critiques dans le flux de réservation ?  ",
+    "question": "Vous travaillez sur une application de réservation de vols. Vous appliquez la méthode des « cas d'utilisation » pour concevoir des tests.\n\nQuel flux DEVEZ-vous tester pour trouver les défauts les plus critiques dans le flux de réservation ?",
     "options": [
       "A) Uniquement le flux de base (chemin heureux)",
       "B) Uniquement les flux alternatifs d'erreur",
@@ -3303,7 +3303,7 @@
     "id": 406,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Pour un module avec 5 conditions indépendantes dans une table de décision, combien de règles la table complète aurait-elle, et combien en résulteraient d'un « regroupement » (collapse) en supprimant les conditions non pertinentes s'il n'y a que 3 actions distinctes ?  ",
+    "question": "Pour un module avec 5 conditions indépendantes dans une table de décision,\n\ncombien de règles la table complète aurait-elle, et combien en résulteraient d'un « regroupement » (collapse) en supprimant les conditions non pertinentes s'il n'y a que 3 actions distinctes ?",
     "options": [
       "A) 32 complète ; 3 regroupée",
       "B) 10 complète ; 3 regroupée",
@@ -3318,7 +3318,7 @@
     "id": 422,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un champ de formulaire accepte des valeurs d'âge entre 18 et 65 ans. En utilisant le partitionnement d'équivalence, combien de classes sont identifiées (valides + invalides) ?  ",
+    "question": "Un champ de formulaire accepte des valeurs d'âge entre 18 et 65 ans. En utilisant le partitionnement d'équivalence,\n\ncombien de classes sont identifiées (valides + invalides) ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3333,7 +3333,7 @@
     "id": 424,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Analysez l'organigramme suivant : START -> A -> IF X THEN B ELSE C -> IF Y THEN D ELSE E -> END. Combien de cas de test sont nécessaires pour atteindre 100 % de couverture des instructions ?  ",
+    "question": "Analysez l'organigramme suivant : START -> A -> IF X THEN B ELSE C -> IF Y THEN D ELSE E -> END.\n\nCombien de cas de test sont nécessaires pour atteindre 100 % de couverture des instructions ?",
     "options": [
       "A) 1",
       "B) 2",
@@ -3348,7 +3348,7 @@
     "id": 425,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous avez une fonction avec 4 conditions indépendantes dans une expression AND : (A AND B AND C AND D). Pour atteindre 100 % de couverture des conditions modifiées/décisions (MC/DC), combien de cas de test sont nécessaires au minimum ?  ",
+    "question": "Vous avez une fonction avec 4 conditions indépendantes dans une expression AND : (A AND B AND C AND D). Pour atteindre 100 % de couverture des conditions modifiées/décisions (MC/DC),\n\ncombien de cas de test sont nécessaires au minimum ?",
     "options": [
       "A) 2",
       "B) 4",
@@ -3363,7 +3363,7 @@
     "id": 426,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de feux de circulation a des états : Rouge, Orange_vers_Vert, Vert, Orange_vers_Rouge. La transition Rouge->Orange_vers_Vert se produit après 60 secondes. Combien de transitions valides le diagramme complet du feu a-t-il ?  ",
+    "question": "Un système de feux de circulation a des états : Rouge, Orange_vers_Vert, Vert, Orange_vers_Rouge. La transition Rouge->Orange_vers_Vert se produit après 60 secondes.\n\nCombien de transitions valides le diagramme complet du feu a-t-il ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3378,7 +3378,7 @@
     "id": 427,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Vous testez une fonction de recherche. D'après votre expérience, vous savez que les recherches avec des caractères spéciaux (%, _, *) provoquent souvent des injections SQL. Quelle technique basée sur l'expérience utilisez-vous ?  ",
+    "question": "Vous testez une fonction de recherche. D'après votre expérience, vous savez que les recherches avec des caractères spéciaux (%, _, *) provoquent souvent des injections SQL.\n\nQuelle technique basée sur l'expérience utilisez-vous ?",
     "options": [
       "A) Exploration structurée",
       "B) Prédiction d'erreurs (error guessing)",
@@ -3393,7 +3393,7 @@
     "id": 428,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Pour le code suivant IF (age >= 18 AND pays == 'ES') THEN acces = true ELSE acces = false, combien de cas de test vous faut-il pour 100 % de couverture des décisions ?  ",
+    "question": "Pour le code suivant IF (age >= 18 AND pays == 'ES') THEN acces = true ELSE acces = false,\n\ncombien de cas de test vous faut-il pour 100 % de couverture des décisions ?",
     "options": [
       "A) 1",
       "B) 2",
@@ -3438,7 +3438,7 @@
     "id": 448,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "CAS PRATIQUE : Vous testez un système de réservation d'hôtel. Les prix varient selon la saison : Basse (janvier-mars, oct-nov) : 80 euros/nuit ; Moyenne (avril-juin, sep) : 120 euros/nuit ; Haute (juillet-août, déc) : 200 euros/nuit. En utilisant l'EP, combien de classes d'équivalence valides existe-t-il pour le prix par nuit ?  ",
+    "question": "CAS PRATIQUE : Vous testez un système de réservation d'hôtel. Les prix varient selon la saison : Basse (janvier-mars, oct-nov) : 80 euros/nuit ; Moyenne (avril-juin, sep) : 120 euros/nuit ; Haute (juillet-août, déc) : 200 euros/nuit. En utilisant l'EP,\n\ncombien de classes d'équivalence valides existe-t-il pour le prix par nuit ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3453,7 +3453,7 @@
     "id": 449,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "CAS PRATIQUE : Système de vote en ligne. Conditions de vote : (1) Citoyen enregistré, (2) Âgé de plus de 18 ans, (3) N'a pas déjà voté. Il ne peut voter que s'il remplit les 3. Concevez la table de décision minimale. Combien de règles de comportement distinctes (pas de règles impossibles) existe-t-il ?  ",
+    "question": "CAS PRATIQUE : Système de vote en ligne. Conditions de vote : (1) Citoyen enregistré, (2) Âgé de plus de 18 ans, (3) N'a pas déjà voté. Il ne peut voter que s'il remplit les 3. Concevez la table de décision minimale.\n\nCombien de règles de comportement distinctes (pas de règles impossibles) existe-t-il ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3468,7 +3468,7 @@
     "id": 450,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "CAS PRATIQUE : Tests d'un feu piéton. États : ROUGE_PIÉTON, VERT_PIÉTON, CLIGNOTANT. Transitions : ROUGE->VERT (après 60s), VERT->CLIGNOTANT (après 25s), CLIGNOTANT->ROUGE (après 5s). Quelle couverture 0-switch (toutes les transitions) nécessite-t-elle au minimum ?  ",
+    "question": "CAS PRATIQUE : Tests d'un feu piéton. États : ROUGE_PIÉTON, VERT_PIÉTON, CLIGNOTANT. Transitions : ROUGE->VERT (après 60s), VERT->CLIGNOTANT (après 25s), CLIGNOTANT->ROUGE (après 5s).\n\nQuelle couverture 0-switch (toutes les transitions) nécessite-t-elle au minimum ?",
     "options": [
       "A) 1 cas de test",
       "B) 2 cas de test",
@@ -3483,7 +3483,7 @@
     "id": 457,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "CAS PRATIQUE : Tests d'un formulaire d'inscription. Champs : nom (obligatoire), email (format valide), mot de passe (8-20 caractères, au moins 1 majuscule). En utilisant l'EP, combien de classes d'équivalence existe-t-il UNIQUEMENT pour le champ mot de passe ?  ",
+    "question": "CAS PRATIQUE : Tests d'un formulaire d'inscription. Champs : nom (obligatoire), email (format valide), mot de passe (8-20 caractères, au moins 1 majuscule). En utilisant l'EP,\n\ncombien de classes d'équivalence existe-t-il UNIQUEMENT pour le champ mot de passe ?",
     "options": [
       "A) 2 (valide et invalide)",
       "B) 4 (valide ; invalide par longueur courte ; invalide par longueur longue ; invalide par absence de majuscule)",
@@ -3498,7 +3498,7 @@
     "id": 462,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Une spécification dit : « Si l'utilisateur est premium ET est membre depuis plus d'un an, appliquer une remise de 20 % ». Quelle technique de conception de tests est la PLUS directement applicable à cette règle métier ?  ",
+    "question": "Une spécification dit : « Si l'utilisateur est premium ET est membre depuis plus d'un an, appliquer une remise de 20 % ».\n\nQuelle technique de conception de tests est la PLUS directement applicable à cette règle métier ?",
     "options": [
       "A) Analyse des valeurs limites",
       "B) Tables de décision",
@@ -3528,7 +3528,7 @@
     "id": "q_batch2_3dfvl4agj",
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Dans un projet agile, l'équipe implémente la user story suivante : « En tant que client, je veux rechercher des produits par catégorie pour trouver rapidement ce dont j'ai besoin ». Les critères d'acceptation sont : Le système affiche les catégories disponibles ; l'utilisateur peut sélectionner une catégorie ; les produits de la catégorie sélectionnée sont affichés ; un message est affiché s'il n'y a pas de produits dans la catégorie. Quel est le MEILLEUR exemple de cas de test ATDD pour cette story ?  ",
+    "question": "Dans un projet agile, l'équipe implémente la user story suivante : « En tant que client, je veux rechercher des produits par catégorie pour trouver rapidement ce dont j'ai besoin ». Les critères d'acceptation sont : Le système affiche les catégories disponibles ; l'utilisateur peut sélectionner une catégorie ; les produits de la catégorie sélectionnée sont affichés ; un message est affiché s'il n'y a pas de produits dans la catégorie.\n\nQuel est le MEILLEUR exemple de cas de test ATDD pour cette story ?",
     "options": [
       "Vérifier que la base de données contient au moins 10 catégories",
       "Étant donné qu'il y a des produits dans 'Électronique', quand je sélectionne 'Électronique', alors je vois la liste des produits électroniques",
@@ -3543,7 +3543,7 @@
     "id": "q_batch2_7kt0gtwqg",
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Une équipe de développement a implémenté un nouveau système financier, mais toutes les exigences n'ont pas été documentées. Le temps pour les tests est limité et l'équipe a besoin d'obtenir rapidement des informations sur le comportement du système. Quelle approche de test serait la PLUS appropriée dans cette situation ?  ",
+    "question": "Une équipe de développement a implémenté un nouveau système financier, mais toutes les exigences n'ont pas été documentées. Le temps pour les tests est limité et l'équipe a besoin d'obtenir rapidement des informations sur le comportement du système.\n\nQuelle approche de test serait la PLUS appropriée dans cette situation ?",
     "options": [
       "Tests de régression",
       "Tests exploratoires",
@@ -3558,7 +3558,7 @@
     "id": "q_batch2_j594nrl15",
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de lecteur de musique a les états suivants : ARRÊTÉ, EN LECTURE, EN PAUSE. Les transitions valides sont : ARRÊTÉ -> EN LECTURE (lire), EN LECTURE -> EN PAUSE (mettre en pause), EN PAUSE -> EN LECTURE (reprendre), EN LECTURE -> ARRÊTÉ (arrêter), EN PAUSE -> ARRÊTÉ (arrêter). Quel est le nombre MINIMUM de cas de test pour atteindre 100 % de couverture des transitions valides avec la contrainte que le cas doit commencer et finir dans l'état ARRÊTÉ ?  ",
+    "question": "Un système de lecteur de musique a les états suivants : ARRÊTÉ, EN LECTURE, EN PAUSE. Les transitions valides sont : ARRÊTÉ -> EN LECTURE (lire), EN LECTURE -> EN PAUSE (mettre en pause), EN PAUSE -> EN LECTURE (reprendre), EN LECTURE -> ARRÊTÉ (arrêter), EN PAUSE -> ARRÊTÉ (arrêter).\n\nQuel est le nombre MINIMUM de cas de test pour atteindre 100 % de couverture des transitions valides avec la contrainte que le cas doit commencer et finir dans l'état ARRÊTÉ ?",
     "options": [
       "2",
       "3",
@@ -3588,7 +3588,7 @@
     "id": "q_batch2_v5j9hx3qq",
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un formulaire d'inscription web a les champs suivants : Âge : 18-65 ans (valide), moins de 18 ou plus de 65 (invalide). Type d'adhésion : 'Basique', 'Premium', 'VIP' (valides), toute autre valeur (invalide). En appliquant le partitionnement d'équivalence avec le critère de couverture « Chaque Choix », combien de cas de test sont nécessaires au MINIMUM pour couvrir toutes les partitions valides ?  ",
+    "question": "Un formulaire d'inscription web a les champs suivants : Âge : 18-65 ans (valide), moins de 18 ou plus de 65 (invalide). Type d'adhésion : 'Basique', 'Premium', 'VIP' (valides), toute autre valeur (invalide). En appliquant le partitionnement d'équivalence avec le critère de couverture « Chaque Choix »,\n\ncombien de cas de test sont nécessaires au MINIMUM pour couvrir toutes les partitions valides ?",
     "options": [
       "2",
       "3",
@@ -3618,7 +3618,7 @@
     "id": "q_batch2_zdybwbzfz",
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de remises pour une boutique en ligne applique les règles suivantes : Si le client est VIP ET la commande est > 100 $ : 20 % de remise. Si le client est VIP ET la commande est <= 100 $ : 10 % de remise. Si le client n'est PAS VIP ET la commande est > 100 $ : 5 % de remise. Si le client n'est PAS VIP ET la commande est <= 100 $ : aucune remise. Combien de règles de décision sont nécessaires dans la table de décision complète ?  ",
+    "question": "Un système de remises pour une boutique en ligne applique les règles suivantes : Si le client est VIP ET la commande est > 100 $ : 20 % de remise. Si le client est VIP ET la commande est <= 100 $ : 10 % de remise. Si le client n'est PAS VIP ET la commande est > 100 $ : 5 % de remise. Si le client n'est PAS VIP ET la commande est <= 100 $ : aucune remise.\n\nCombien de règles de décision sont nécessaires dans la table de décision complète ?",
     "options": [
       "2",
       "3",
@@ -3633,7 +3633,7 @@
     "id": 1004,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous participez à un projet logiciel développant une plateforme d'e-learning. L'équipe a décidé de réaliser des tests de régression sur la version actuelle du système. Laquelle des activités suivantes est réalisée pendant la phase de planification des tests ?  ",
+    "question": "Vous participez à un projet logiciel développant une plateforme d'e-learning. L'équipe a décidé de réaliser des tests de régression sur la version actuelle du système.\n\nLaquelle des activités suivantes est réalisée pendant la phase de planification des tests ?",
     "options": [
       "Définir quelles fonctionnalités seront testées lors de la prochaine itération.",
       "Exécuter des cas de test pour vérifier que la fonctionnalité de la plateforme d'e-learning fonctionne.",
@@ -3663,7 +3663,7 @@
     "id": 1030,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Dans votre projet précédent, le ratio entre l'effort de développement et l'effort de test était de 5:3. Le projet actuel estime 800 personnes-jours de développement. En utilisant l'estimation basée sur les ratios, quelle serait l'estimation de l'effort de test ?  ",
+    "question": "Dans votre projet précédent, le ratio entre l'effort de développement et l'effort de test était de 5:3. Le projet actuel estime 800 personnes-jours de développement. En utilisant l'estimation basée sur les ratios,\n\nquelle serait l'estimation de l'effort de test ?",
     "options": [
       "400 personnes-jours",
       "480 personnes-jours",
@@ -3693,7 +3693,7 @@
     "id": 1036,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Votre équipe en est à la troisième itération d'un projet agile. Les efforts de test des itérations précédentes étaient : Itération 1 : 45 personnes-jours, Itération 2 : 52 personnes-jours. En utilisant l'extrapolation, quelle serait l'estimation la plus appropriée pour l'Itération 3 ?  ",
+    "question": "Votre équipe en est à la troisième itération d'un projet agile. Les efforts de test des itérations précédentes étaient : Itération 1 : 45 personnes-jours, Itération 2 : 52 personnes-jours. En utilisant l'extrapolation,\n\nquelle serait l'estimation la plus appropriée pour l'Itération 3 ?",
     "options": [
       "45 personnes-jours (le minimum historique)",
       "48,5 personnes-jours (moyenne des deux itérations)",
@@ -3723,7 +3723,7 @@
     "id": 1052,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "L'équipe utilise la technique d'estimation à trois points pour une nouvelle fonctionnalité. Les estimations en jours sont : Optimiste = 10, Plus probable = 15, Pessimiste = 26. Quelle est l'estimation finale arrondie en utilisant la formule pondérée E = (o + 4m + p) / 6 ?  ",
+    "question": "L'équipe utilise la technique d'estimation à trois points pour une nouvelle fonctionnalité. Les estimations en jours sont : Optimiste = 10, Plus probable = 15, Pessimiste = 26.\n\nQuelle est l'estimation finale arrondie en utilisant la formule pondérée E = (o + 4m + p) / 6 ?",
     "options": [
       "15 jours",
       "16 jours",
@@ -3738,7 +3738,7 @@
     "id": 1053,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Pour planifier l'effort de test du prochain Sprint, le responsable propose un scénario optimiste où tout fonctionne du premier coup (5 jours), un scénario pessimiste avec de multiples blocages (15 jours) et un scénario plus probable basé sur l'expérience récente (7 jours). En utilisant la technique à trois points, quel est l'effort estimé ?  ",
+    "question": "Pour planifier l'effort de test du prochain Sprint, le responsable propose un scénario optimiste où tout fonctionne du premier coup (5 jours), un scénario pessimiste avec de multiples blocages (15 jours) et un scénario plus probable basé sur l'expérience récente (7 jours). En utilisant la technique à trois points,\n\nquel est l'effort estimé ?",
     "options": [
       "8 jours",
       "9 jours",
@@ -3753,7 +3753,7 @@
     "id": 1054,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "L'équipe de test doit estimer l'effort pour un nouveau projet. Elle décide de baser son estimation sur la métrique 'Nombre de cas d'utilisation'. Historiquement, tester un cas d'utilisation complet prend 3 jours. Si le nouveau projet a 12 cas d'utilisation, elle estime 36 jours. Quelle technique a été utilisée ?  ",
+    "question": "L'équipe de test doit estimer l'effort pour un nouveau projet. Elle décide de baser son estimation sur la métrique 'Nombre de cas d'utilisation'. Historiquement, tester un cas d'utilisation complet prend 3 jours. Si le nouveau projet a 12 cas d'utilisation, elle estime 36 jours.\n\nQuelle technique a été utilisée ?",
     "options": [
       "Estimation basée sur le consensus (Planning Poker)",
       "Estimation à trois points",
@@ -3783,7 +3783,7 @@
     "id": 1057,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Dans le contexte des tests logiciels, laquelle des affirmations suivantes décrit le mieux l'objectif de la planification des tests ?  ",
+    "question": "Dans le contexte des tests logiciels,\n\nlaquelle des affirmations suivantes décrit le mieux l'objectif de la planification des tests ?",
     "options": [
       "Identifier tous les défauts possibles dans le logiciel.",
       "Définir les ressources, le périmètre et l'approche des tests à réaliser.",
@@ -3798,7 +3798,7 @@
     "id": 1077,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous participez à un projet logiciel développant une plateforme d'e-learning. L'équipe a décidé de réaliser des tests de régression. Laquelle des activités suivantes est réalisée pendant la phase de planification des tests ?  ",
+    "question": "Vous participez à un projet logiciel développant une plateforme d'e-learning. L'équipe a décidé de réaliser des tests de régression.\n\nLaquelle des activités suivantes est réalisée pendant la phase de planification des tests ?",
     "options": [
       "Définir quelles fonctionnalités seront testées lors de la prochaine itération.",
       "Exécuter des cas de test pour vérifier que la fonctionnalité de la plateforme fonctionne.",
@@ -3858,7 +3858,7 @@
     "id": 280,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Son équipe utilise la technique d'estimation en trois points pour estimer l'effort de test d'une nouvelle fonctionnalité à haut risque. Les estimations suivantes ont été faites : • Estimation la plus optimiste : 2 heures-personnes • Estimation la plus probable : 11 heures-personnes • Estimation la plus pessimiste : 14 heures-personnes Quelle est l'estimation finale ?  ",
+    "question": "Son équipe utilise la technique d'estimation en trois points pour estimer l'effort de test d'une nouvelle fonctionnalité à haut risque. Les estimations suivantes ont été faites : • Estimation la plus optimiste : 2 heures-personnes • Estimation la plus probable : 11 heures-personnes • Estimation la plus pessimiste : 14 heures-personnes\n\nQuelle est l'estimation finale ?",
     "options": [
       "A) 9 heures-personnes",
       "B) 14 heures-personnes",
@@ -3873,7 +3873,7 @@
     "id": 281,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Elle teste une application mobile qui permet aux utilisateurs de trouver un restaurant à proximité en fonction du type de nourriture qu'ils souhaitent manger. Considérez la liste suivante de cas de test, de priorités (c'est-à-dire qu'un nombre inférieur signifie une priorité plus élevée) et de dépendances : Numéro de cas de test Condition de test couverte Priorité Dépendance logique TC 001 Sélectionner le type de nourriture 3 aucun TC 002 Sélectionner le restaurant 2 TC 001 TC 003 Obtenir un itinéraire 1 TC 002 TC 004 Appeler le restaurant 2 TC 002 TC 005 Faire une réservation 3 TC 002 Lequel des éléments suivants les cas de test doivent être exécutés en troisième lieu ?  ",
+    "question": "Elle teste une application mobile qui permet aux utilisateurs de trouver un restaurant à proximité en fonction du type de nourriture qu'ils souhaitent manger. Considérez la liste suivante de cas de test, de priorités (c'est-à-dire qu'un nombre inférieur signifie une priorité plus élevée) et de dépendances : Numéro de cas de test Condition de test couverte Priorité Dépendance logique TC 001 Sélectionner le type de nourriture 3 aucun TC 002 Sélectionner le restaurant 2 TC 001 TC 003 Obtenir un itinéraire 1 TC 002 TC 004 Appeler le restaurant 2 TC 002 TC 005 Faire une réservation 3 TC 002\n\nLequel des éléments suivants les cas de test doivent être exécutés en troisième lieu ?",
     "options": [
       "A) TC 003",
       "B) TC 005",
@@ -3888,7 +3888,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) : Comment les catégories de tests suivantes correspondent-elles aux quadrants des tests agiles ?\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA. Quadrant de tests agiles Q1 : orienté technologie, soutenant l'équipe de développement  \nB. Quadrant de tests agiles Q2 : orienté commercial, soutenant l'équipe de développement  \nC. Quadrant de tests agiles Q3 : orienté commercial, critique produit  \nD. Quadrant de tests agiles Q4 : Orienté technologie, critique produit",
+    "question": "Considérez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :\n\nComment les catégories de tests suivantes correspondent-elles aux quadrants des tests agiles ?\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA. Quadrant de tests agiles Q1 : orienté technologie, soutenant l'équipe de développement  \nB. Quadrant de tests agiles Q2 : orienté commercial, soutenant l'équipe de développement  \nC. Quadrant de tests agiles Q3 : orienté commercial, critique produit  \nD. Quadrant de tests agiles Q4 : Orienté technologie, critique produit",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B)1D, 2A, 3C, 4B",
@@ -3903,7 +3903,7 @@
     "id": 283,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Lors d'une analyse des risques, le risque suivant a été identifié et évalué : • Risque : le temps de réponse est trop long pour générer un rapport • Probabilité du risque : moyenne ; impact du risque : élevé • Réponse au risque : o Une équipe de test indépendante effectue des tests d'efficacité des performances pendant les tests du système o Un échantillon sélectionné d'utilisateurs finaux effectue des tests alpha et bêta avant la sortie. Quelle action proposez-vous de prendre en réponse à ce risque analysé ?  ",
+    "question": "Lors d'une analyse des risques, le risque suivant a été identifié et évalué : • Risque : le temps de réponse est trop long pour générer un rapport • Probabilité du risque : moyenne ; impact du risque : élevé • Réponse au risque : o Une équipe de test indépendante effectue des tests d'efficacité des performances pendant les tests du système o Un échantillon sélectionné d'utilisateurs finaux effectue des tests alpha et bêta avant la sortie.\n\nQuelle action proposez-vous de prendre en réponse à ce risque analysé ?",
     "options": [
       "A) Acceptation du risque",
       "B) Plan d'urgence",
@@ -3933,7 +3933,7 @@
     "id": 285,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous devez mettre à jour l'un des scripts de test automatisés pour l'aligner sur une nouvelle exigence. Quel processus indique que vous devez créer une nouvelle version du script de test dans le référentiel de test ?  ",
+    "question": "Vous devez mettre à jour l'un des scripts de test automatisés pour l'aligner sur une nouvelle exigence.\n\nQuel processus indique que vous devez créer une nouvelle version du script de test dans le référentiel de test ?",
     "options": [
       "A) Gestion de la traçabilité",
       "B) Essais d'entretien",
@@ -3948,7 +3948,7 @@
     "id": 286,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Reçu le rapport de défaut suivant des développeurs indiquant que l'anomalie décrite dans ce rapport de test n'est pas reproductible. L'application se bloque 03 mai 2022 – John Doe – L'application rejetée se bloque après avoir entré « Test d'entrée : $ä » dans le champ Nom de l'écran de création d'un nouvel utilisateur. J'ai essayé de me déconnecter, de me connecter avec le compte test_admin01, même problème. Essayé avec d'autres comptes d'administrateur de test, même problème. Aucun message d'erreur reçu ; Le journal (voir ci-joint) contient une notification d'erreur fatale. Sur la base du scénario de test TC-1305, l'application doit accepter l'entrée fournie et créer l'utilisateur. Veuillez corriger avec une priorité élevée, cette fonctionnalité est liée à REQ-0012 qui est une nouvelle exigence commerciale critique. Quelles informations critiques MANQUENT dans ce rapport de test qui auraient été utiles aux développeurs ?  ",
+    "question": "Reçu le rapport de défaut suivant des développeurs indiquant que l'anomalie décrite dans ce rapport de test n'est pas reproductible. L'application se bloque 03 mai 2022 – John Doe – L'application rejetée se bloque après avoir entré « Test d'entrée : $ä » dans le champ Nom de l'écran de création d'un nouvel utilisateur. J'ai essayé de me déconnecter, de me connecter avec le compte test_admin01, même problème. Essayé avec d'autres comptes d'administrateur de test, même problème. Aucun message d'erreur reçu ; Le journal (voir ci-joint) contient une notification d'erreur fatale. Sur la base du scénario de test TC-1305, l'application doit accepter l'entrée fournie et créer l'utilisateur. Veuillez corriger avec une priorité élevée, cette fonctionnalité est liée à REQ-0012 qui est une nouvelle exigence commerciale critique.\n\nQuelles informations critiques MANQUENT dans ce rapport de test qui auraient été utiles aux développeurs ?",
     "options": [
       "A) Résultat attendu et résultat réel",
       "B) Références et statut du défaut",
@@ -3963,7 +3963,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Votre équipe suit un processus utilisant le pipeline de livraison DevOps. Les trois premières étapes sont : (1) Développement du code (2) Pousser le code vers le système de contrôle de version et le fusionner avec la branche 'test' (3) Exécuter les tests de composants du code poussé. Lequel des éléments suivants est la MEILLEURE option comme critère d'entrée pour l'étape (2) de ce pipeline ?  ",
+    "question": "Votre équipe suit un processus utilisant le pipeline de livraison DevOps. Les trois premières étapes sont : (1) Développement du code (2) Pousser le code vers le système de contrôle de version et le fusionner avec la branche 'test' (3) Exécuter les tests de composants du code poussé.\n\nLequel des éléments suivants est la MEILLEURE option comme critère d'entrée pour l'étape (2) de ce pipeline ?",
     "options": [
       "A) L'analyse statique ne renvoie aucun avertissement de sévérité élevée pour le code poussé",
       "B) Le système de contrôle de version ne signale aucun conflit lors de la fusion du code avec la branche 'test'",
@@ -3978,7 +3978,7 @@
     "id": 318,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous voulez estimer l'effort de test pour un nouveau projet à l'aide de l'estimation basée sur les ratios. Vous calculez le ratio effort de test/effort de développement à partir de données moyennées de quatre projets historiques similaires. Le tableau montre : P1 : Développement 800 000 $, Test 40 000 $ | P2 : 1 200 000 $ / 130 000 $ | P3 : 600 000 $ / 70 000 $ | P4 : 1 000 000 $ / 120 000 $. L'effort de développement estimé pour le nouveau projet est de 800 000 $. Quelle est votre estimation de l'effort de test ?  ",
+    "question": "Vous voulez estimer l'effort de test pour un nouveau projet à l'aide de l'estimation basée sur les ratios. Vous calculez le ratio effort de test/effort de développement à partir de données moyennées de quatre projets historiques similaires. Le tableau montre : P1 : Développement 800 000 $, Test 40 000 $ | P2 : 1 200 000 $ / 130 000 $ | P3 : 600 000 $ / 70 000 $ | P4 : 1 000 000 $ / 120 000 $. L'effort de développement estimé pour le nouveau projet est de 800 000 $.\n\nQuelle est votre estimation de l'effort de test ?",
     "options": [
       "A) 40 000 $",
       "B) 80 000 $",
@@ -3993,7 +3993,7 @@
     "id": 320,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Selon le modèle des quadrants de test, lequel des éléments suivants se situe dans le quadrant Q1 ('orienté technologie' et 'soutient l'équipe') ?  ",
+    "question": "Selon le modèle des quadrants de test,\n\nlequel des éléments suivants se situe dans le quadrant Q1 ('orienté technologie' et 'soutient l'équipe') ?",
     "options": [
       "A) Tests d'utilisabilité",
       "B) Tests fonctionnels",
@@ -4008,7 +4008,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Étant donnés les risques suivants : Laquelle des options suivantes établit la MEILLEURE correspondance entre les risques et les activités d'atténuation ?\n\n1. Une implémentation inefficace des boucles provoque des réponses lentes du système\n2. Les consommateurs changent leurs préférences\n3. Inondation de la salle des serveurs\n4. Les patients au-delà d'un certain âge reçoivent des rapports incorrects\n\nA. Acceptation du risque  \nB. Tests d'efficacité de performance  \nC. Utilisation de l'analyse des valeurs limites comme technique  \nD. Transfert du risque",
+    "question": "Étant donnés les risques suivants :\n\nLaquelle des options suivantes établit la MEILLEURE correspondance entre les risques et les activités d'atténuation ?\n\n1. Une implémentation inefficace des boucles provoque des réponses lentes du système\n2. Les consommateurs changent leurs préférences\n3. Inondation de la salle des serveurs\n4. Les patients au-delà d'un certain âge reçoivent des rapports incorrects\n\nA. Acceptation du risque  \nB. Tests d'efficacité de performance  \nC. Utilisation de l'analyse des valeurs limites comme technique  \nD. Transfert du risque",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -4038,7 +4038,7 @@
     "id": 323,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous êtes membre d'une équipe de test située en Amérique du Nord, développant un produit pour un client en Europe. L'équipe est agile, suit DevOps et utilise un pipeline CI/CD. Laquelle des options suivantes est la MOINS efficace pour communiquer l'avancement des tests au client ?  ",
+    "question": "Vous êtes membre d'une équipe de test située en Amérique du Nord, développant un produit pour un client en Europe. L'équipe est agile, suit DevOps et utilise un pipeline CI/CD.\n\nLaquelle des options suivantes est la MOINS efficace pour communiquer l'avancement des tests au client ?",
     "options": [
       "A) En face à face (en personne)",
       "B) Tableaux de bord (Dashboards)",
@@ -4083,7 +4083,7 @@
     "id": 354,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Au début de chaque itération, l'équipe estime la quantité de travail (en personnes-jours) qu'elle peut réaliser pendant cette itération. À la fin de l'itération, le travail réellement réalisé est mesuré. Au fil du temps, les données historiques montrent que l'équipe réalise en moyenne 80 % du travail estimé. Si lors de la prochaine itération l'équipe estime 50 personnes-jours de travail, combien de personnes-jours le responsable des tests devrait-il planifier comme effort réel ?  ",
+    "question": "Au début de chaque itération, l'équipe estime la quantité de travail (en personnes-jours) qu'elle peut réaliser pendant cette itération. À la fin de l'itération, le travail réellement réalisé est mesuré. Au fil du temps, les données historiques montrent que l'équipe réalise en moyenne 80 % du travail estimé. Si lors de la prochaine itération l'équipe estime 50 personnes-jours de travail,\n\ncombien de personnes-jours le responsable des tests devrait-il planifier comme effort réel ?",
     "options": [
       "A) 40",
       "B) 50",
@@ -4173,7 +4173,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez le rapport de défaut suivant pour une application web d'achat : Application : WebShop v0.9.1. Module : Panier. Résumé : 'Le bouton Supprimer du panier ne fonctionne pas lorsqu'il y a exactement 1 article'. Étapes :  \n  \n1) Se connecter  \n  \n2) Ajouter 1 article au panier  \n  \n3) Cliquer sur Supprimer. Résultat attendu : L'article est supprimé et le panier est vide. Résultat réel : Rien ne se passe. Lequel des éléments suivants est ABSENT de ce rapport de défaut ?  ",
+    "question": "Considérez le rapport de défaut suivant pour une application web d'achat : Application : WebShop v0.9.1. Module : Panier. Résumé : 'Le bouton Supprimer du panier ne fonctionne pas lorsqu'il y a exactement 1 article'. Étapes :  \n  \n1) Se connecter  \n  \n2) Ajouter 1 article au panier  \n  \n3) Cliquer sur Supprimer. Résultat attendu : L'article est supprimé et le panier est vide. Résultat réel : Rien ne se passe.\n\nLequel des éléments suivants est ABSENT de ce rapport de défaut ?",
     "options": [
       "A) L'identifiant du cas de test qui a révélé le défaut",
       "B) Les données d'environnement/configuration du système",
@@ -4203,7 +4203,7 @@
     "id": 389,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "L'équipe veut estimer le temps pour exécuter quatre cas de test. Les mesures pour un cas sont : Meilleur scénario : 1 h, Pire scénario : 8 h, Plus probable : 3 h. En utilisant la technique d'estimation à trois points, quelle est l'estimation finale pour les QUATRE cas de test ?  ",
+    "question": "L'équipe veut estimer le temps pour exécuter quatre cas de test. Les mesures pour un cas sont : Meilleur scénario : 1 h, Pire scénario : 8 h, Plus probable : 3 h. En utilisant la technique d'estimation à trois points,\n\nquelle est l'estimation finale pour les QUATRE cas de test ?",
     "options": [
       "A) 14 heures",
       "B) 3,5 heures",
@@ -4218,7 +4218,7 @@
     "id": 390,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous disposez d'une matrice de traçabilité et vous souhaitez prioriser les cas de test selon la technique de priorisation par couverture additionnelle. Vous exécuterez quatre cas de test. Selon les techniques standard, quel cas de test devrait être exécuté en DERNIER ?  ",
+    "question": "Vous disposez d'une matrice de traçabilité et vous souhaitez prioriser les cas de test selon la technique de priorisation par couverture additionnelle. Vous exécuterez quatre cas de test. Selon les techniques standard,\n\nquel cas de test devrait être exécuté en DERNIER ?",
     "options": [
       "A) TC1",
       "B) TC2",
@@ -4248,7 +4248,7 @@
     "id": 392,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Pour un risque donné, le niveau de risque est de 1 000 $ et sa probabilité est estimée à 50 %. Quel est l'impact du risque ?  ",
+    "question": "Pour un risque donné, le niveau de risque est de 1 000 $ et sa probabilité est estimée à 50 %.\n\nQuel est l'impact du risque ?",
     "options": [
       "A) 500 $",
       "B) 2 000 $",
@@ -4293,7 +4293,7 @@
     "id": 395,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Un utilisateur a signalé une défaillance. Le support lui a demandé la version du logiciel. Avec cette version, l'équipe a reconstruit les fichiers de la version, ce qui a permis au développeur d'analyser et de corriger le défaut. Quel processus a rendu cette activité possible ?  ",
+    "question": "Un utilisateur a signalé une défaillance. Le support lui a demandé la version du logiciel. Avec cette version, l'équipe a reconstruit les fichiers de la version, ce qui a permis au développeur d'analyser et de corriger le défaut.\n\nQuel processus a rendu cette activité possible ?",
     "options": [
       "A) Gestion des risques",
       "B) Surveillance et contrôle des tests",
@@ -4308,7 +4308,7 @@
     "id": 396,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez un rapport de défaut d'un système de prêt de livres. Laquelle des actions suivantes aiderait le PLUS le développeur à reproduire rapidement la défaillance ?  ",
+    "question": "Considérez un rapport de défaut d'un système de prêt de livres.\n\nLaquelle des actions suivantes aiderait le PLUS le développeur à reproduire rapidement la défaillance ?",
     "options": [
       "A) Ajouter des informations sur les utilisateurs et les livres concernés dans la section 'Description'",
       "B) Remplir la valeur manquante du champ 'Priorité'",
@@ -4323,7 +4323,7 @@
     "id": 413,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous êtes responsable des tests et devez estimer l'effort de test pour un nouveau projet. Vous disposez de données historiques de 5 projets similaires. Quelle approche d'estimation utiliseriez-vous PRINCIPALEMENT ?  ",
+    "question": "Vous êtes responsable des tests et devez estimer l'effort de test pour un nouveau projet. Vous disposez de données historiques de 5 projets similaires.\n\nQuelle approche d'estimation utiliseriez-vous PRINCIPALEMENT ?",
     "options": [
       "A) Wideband Delphi exclusivement",
       "B) Estimation basée sur les métriques à partir de données historiques de projets similaires",
@@ -4338,7 +4338,7 @@
     "id": 414,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Votre plan de test indique 200 cas de test planifiés pour la semaine. À la fin de la semaine, vous en avez exécuté 140 et trouvé 25 défauts, dont 8 sont critiques et toujours non corrigés. Quelle information est la PLUS pertinente pour décider de livrer ou non le logiciel ?  ",
+    "question": "Votre plan de test indique 200 cas de test planifiés pour la semaine. À la fin de la semaine, vous en avez exécuté 140 et trouvé 25 défauts, dont 8 sont critiques et toujours non corrigés.\n\nQuelle information est la PLUS pertinente pour décider de livrer ou non le logiciel ?",
     "options": [
       "A) Uniquement le pourcentage d'exécution (70 %)",
       "B) Uniquement le nombre total de défauts (25)",
@@ -4353,7 +4353,7 @@
     "id": 415,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Un défaut a une sévérité 'critique' (le système plante) mais une priorité 'basse' attribuée par le product owner. Quelle est l'explication la PLUS probable ?  ",
+    "question": "Un défaut a une sévérité 'critique' (le système plante) mais une priorité 'basse' attribuée par le product owner.\n\nQuelle est l'explication la PLUS probable ?",
     "options": [
       "A) C'est une erreur ; la sévérité et la priorité doivent toujours coïncider",
       "B) Le défaut affecte une fonctionnalité rarement utilisée ou non critique pour le métier en ce moment",
@@ -4368,7 +4368,7 @@
     "id": 416,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous travaillez sur un projet avec un risque produit identifié : 'Le module de paiement pourrait échouer sous forte charge'. Quel type de test devriez-vous prioriser pour atténuer ce risque ?  ",
+    "question": "Vous travaillez sur un projet avec un risque produit identifié : 'Le module de paiement pourrait échouer sous forte charge'.\n\nQuel type de test devriez-vous prioriser pour atténuer ce risque ?",
     "options": [
       "A) Tests de régression du module de paiement",
       "B) Tests de performance/charge du module de paiement",
@@ -4398,7 +4398,7 @@
     "id": 436,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous êtes responsable des tests. Le projet a 2 semaines de retard. Le directeur demande de réduire de moitié le temps de test. Quelle est la réponse la PLUS professionnelle ?  ",
+    "question": "Vous êtes responsable des tests. Le projet a 2 semaines de retard. Le directeur demande de réduire de moitié le temps de test.\n\nQuelle est la réponse la PLUS professionnelle ?",
     "options": [
       "A) Accepter et exécuter tous les tests plus rapidement",
       "B) Supprimer au hasard la moitié des cas de test",
@@ -4443,7 +4443,7 @@
     "id": 451,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "CAS PRATIQUE : Vous avez 100 cas de test à exécuter en 5 jours. Après 3 jours, vous avez exécuté 50 cas, trouvé 15 défauts (5 critiques), et l'équipe de développement en a corrigé 8. Les critères de sortie exigent : 90 % d'exécution, 0 défaut critique ouvert. Quelle est votre situation ?  ",
+    "question": "CAS PRATIQUE : Vous avez 100 cas de test à exécuter en 5 jours. Après 3 jours, vous avez exécuté 50 cas, trouvé 15 défauts (5 critiques), et l'équipe de développement en a corrigé 8. Les critères de sortie exigent : 90 % d'exécution, 0 défaut critique ouvert.\n\nQuelle est votre situation ?",
     "options": [
       "A) Vous pouvez livrer : vous avez satisfait les critères de sortie",
       "B) Vous ne pouvez pas livrer : il manque des cas de test et vous avez des défauts critiques ouverts",
@@ -4458,7 +4458,7 @@
     "id": 452,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "CAS PRATIQUE : Votre équipe a identifié les risques produit suivants : R1(prob=Élevée, impact=Élevé), R2(prob=Faible, impact=Élevé), R3(prob=Élevée, impact=Faible), R4(prob=Faible, impact=Faible). En utilisant les tests basés sur les risques, dans quel ordre priorisez-vous les tests ?  ",
+    "question": "CAS PRATIQUE : Votre équipe a identifié les risques produit suivants : R1(prob=Élevée, impact=Élevé), R2(prob=Faible, impact=Élevé), R3(prob=Élevée, impact=Faible), R4(prob=Faible, impact=Faible). En utilisant les tests basés sur les risques, dans\n\nquel ordre priorisez-vous les tests ?",
     "options": [
       "A) R4, R3, R2, R1",
       "B) R1, R2, R3, R4",
@@ -4473,7 +4473,7 @@
     "id": 459,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "CAS PRATIQUE : Vous gérez les tests d'une application mobile. 3 jours avant la mise en production, votre équipe trouve un défaut grave dans le flux de paiement. La correction du développeur prendra 2 jours. Quel est le processus correct selon l'ISTQB ?  ",
+    "question": "CAS PRATIQUE : Vous gérez les tests d'une application mobile. 3 jours avant la mise en production, votre équipe trouve un défaut grave dans le flux de paiement. La correction du développeur prendra 2 jours.\n\nQuel est le processus correct selon l'ISTQB ?",
     "options": [
       "A) Annuler automatiquement la mise en production",
       "B) Enregistrer le défaut, évaluer l'impact et le risque, escalader pour une décision métier sur le report ou la livraison avec un contournement documenté",
@@ -4503,7 +4503,7 @@
     "id": "q_batch2_1ksnvb89h",
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Laquelle des affirmations suivantes décrit le mieux comment la gestion de la configuration contribue à des tests efficaces ?  ",
+    "question": "Laquelle des affirmations suivantes décrit le mieux\n\ncomment la gestion de la configuration contribue à des tests efficaces ?",
     "options": [
       "Elle permet aux testeurs de travailler avec des versions obsolètes des cas de test.",
       "Elle facilite l'identification et le contrôle des éléments de test et de leurs versions.",
@@ -4518,7 +4518,7 @@
     "id": "q_batch2_apxr5xluy",
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "De quelle manière les testeurs peuvent-ils contribuer à l'amélioration des processus dans la planification de la livraison ?  ",
+    "question": "De\n\nquelle manière les testeurs peuvent-ils contribuer à l'amélioration des processus dans la planification de la livraison ?",
     "options": [
       "Les testeurs analysent les résultats des tests précédents pour identifier des axes d'amélioration dans le processus de développement.",
       "Les testeurs ne font qu'exécuter des cas de test sans s'impliquer dans la planification.",
@@ -4563,7 +4563,7 @@
     "id": "q_batch2_jfwjvhmmc",
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Vous avez préparé le rapport de défaut suivant : ID du défaut : BUG-00456. Date : 15-01-2025. Titre : Le bouton 'Envoyer le paiement' ne répond pas après la sélection d'une méthode de paiement. Sévérité : Élevée. Priorité : Critique. Signalé par : Analyste de tests. Configuration : Version de l'application 2.15.087, Navigateur : Firefox 118.0.2.0. Résultat attendu : Le bouton 'Envoyer le paiement' devrait traiter les informations de paiement et rediriger vers la page de confirmation. Pièces jointes : Capture d'écran, Enregistrement d'écran. Quelle est l'information la PLUS importante manquante dans ce rapport de défaut qu'un analyste de tests devrait inclure pour faciliter une résolution rapide ?  ",
+    "question": "Vous avez préparé le rapport de défaut suivant : ID du défaut : BUG-00456. Date : 15-01-2025. Titre : Le bouton 'Envoyer le paiement' ne répond pas après la sélection d'une méthode de paiement. Sévérité : Élevée. Priorité : Critique. Signalé par : Analyste de tests. Configuration : Version de l'application 2.15.087, Navigateur : Firefox 118.0.2.0. Résultat attendu : Le bouton 'Envoyer le paiement' devrait traiter les informations de paiement et rediriger vers la page de confirmation. Pièces jointes : Capture d'écran, Enregistrement d'écran.\n\nQuelle est l'information la PLUS importante manquante dans ce rapport de défaut qu'un analyste de tests devrait inclure pour faciliter une résolution rapide ?",
     "options": [
       "La séquence détaillée des actions qui ont reproduit la défaillance.",
       "La méthode d'analyse utilisée pour identifier le problème.",
@@ -4578,7 +4578,7 @@
     "id": "q_batch2_p48e09xyk",
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Un risque a été identifié lors de l'analyse d'un nouveau logiciel : Risque : L'application peut ne pas être compatible avec les anciens navigateurs. Probabilité du risque : élevée ; impact du risque : moyen. Réponse au risque : réaliser des tests de compatibilité sur divers anciens navigateurs, fournir de la documentation sur les exigences du système. Quelle serait la mesure la plus appropriée à mettre en œuvre face à ce risque analysé ?  ",
+    "question": "Un risque a été identifié lors de l'analyse d'un nouveau logiciel : Risque : L'application peut ne pas être compatible avec les anciens navigateurs. Probabilité du risque : élevée ; impact du risque : moyen. Réponse au risque : réaliser des tests de compatibilité sur divers anciens navigateurs, fournir de la documentation sur les exigences du système.\n\nQuelle serait la mesure la plus appropriée à mettre en œuvre face à ce risque analysé ?",
     "options": [
       "Atténuation du risque",
       "Transfert du risque",
@@ -4668,7 +4668,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Étant données les descriptions suivantes : Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions et les catégories ?\n\n1. Prennent en charge le suivi du flux de travail\n2. Facilitent la communication\n3. Machines virtuelles\n4. Prennent en charge les revues\n\nA. Outils de test statique  \nB. Outils qui soutiennent l'évolutivité et la standardisation du déploiement  \nC. Outils DevOps  \nD. Outils de collaboration",
+    "question": "Étant données les descriptions suivantes :\n\nLaquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions et les catégories ?\n\n1. Prennent en charge le suivi du flux de travail\n2. Facilitent la communication\n3. Machines virtuelles\n4. Prennent en charge les revues\n\nA. Outils de test statique  \nB. Outils qui soutiennent l'évolutivité et la standardisation du déploiement  \nC. Outils DevOps  \nD. Outils de collaboration",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -4698,7 +4698,7 @@
     "id": 362,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Les outils de quelle catégorie aident à organiser les cas de test, les défauts détectés et les résultats des tests ?  ",
+    "question": "Les outils de\n\nquelle catégorie aident à organiser les cas de test, les défauts détectés et les résultats des tests ?",
     "options": [
       "A) Outils de gestion des tests",
       "B) Outils d'analyse statique",
@@ -4713,7 +4713,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Étant données les catégories d'outils de test (i. Collaboration,  \n  \nii. DevOps,  \n  \niii. Gestion,  \n  \niv. Non fonctionnels,  \n  \nv. Conception/Implémentation). Les outils de quelles catégories sont les PLUS susceptibles de faciliter l'exécution des tests ?  ",
+    "question": "Étant données les catégories d'outils de test (i. Collaboration,  \n  \nii. DevOps,  \n  \niii. Gestion,  \n  \niv. Non fonctionnels,  \n  \nv. Conception/Implémentation). Les outils de\n\nquelles catégories sont les PLUS susceptibles de faciliter l'exécution des tests ?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -4743,7 +4743,7 @@
     "id": 417,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Votre organisation souhaite mettre en place un outil d'automatisation des tests d'IHM (GUI). Lequel des facteurs suivants représente le PLUS GRAND risque à long terme ?  ",
+    "question": "Votre organisation souhaite mettre en place un outil d'automatisation des tests d'IHM (GUI).\n\nLequel des facteurs suivants représente le PLUS GRAND risque à long terme ?",
     "options": [
       "A) Le coût initial de la licence de l'outil",
       "B) La fragilité des scripts lorsque l'interface utilisateur change fréquemment",
@@ -4773,7 +4773,7 @@
     "id": 438,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Une entreprise évalue le ROI de l'automatisation de sa suite de régression (500 cas manuels, 2 h par exécution manuelle). Si l'automatisation coûte 200 heures et que chaque exécution automatisée prend 15 min, combien d'exécutions sont nécessaires pour rentabiliser l'investissement ?  ",
+    "question": "Une entreprise évalue le ROI de l'automatisation de sa suite de régression (500 cas manuels, 2 h par exécution manuelle). Si l'automatisation coûte 200 heures et que chaque exécution automatisée prend 15 min,\n\ncombien d'exécutions sont nécessaires pour rentabiliser l'investissement ?",
     "options": [
       "A) 10 exécutions",
       "B) 50 exécutions",
@@ -4803,7 +4803,7 @@
     "id": 456,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "CAS PRATIQUE : Votre entreprise souhaite adopter un outil d'automatisation des tests d'API. L'équipe évalue : le coût, la courbe d'apprentissage, l'intégration CI/CD, la prise en charge des protocoles REST/SOAP et la maintenabilité. Quel est le facteur le PLUS critique pour garantir le succès à long terme ?  ",
+    "question": "CAS PRATIQUE : Votre entreprise souhaite adopter un outil d'automatisation des tests d'API. L'équipe évalue : le coût, la courbe d'apprentissage, l'intégration CI/CD, la prise en charge des protocoles REST/SOAP et la maintenabilité.\n\nQuel est le facteur le PLUS critique pour garantir le succès à long terme ?",
     "options": [
       "A) Le coût de licence le plus bas",
       "B) La facilité de maintenance et l'intégration avec le pipeline CI/CD existant",
@@ -4834,7 +4834,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Parmi les affirmations suivantes concernant la gestion des tests, laquelle est correcte ?  ",
+    "question": "Parmi les affirmations suivantes concernant la gestion des tests,\n\nlaquelle est correcte ?",
     "options": [
       "La gestion des tests n'est pas nécessaire si le développement est effectué dans un environnement agile.",
       "La gestion des tests ne doit être appliquée que dans les étapes finales du développement.",
@@ -4914,7 +4914,7 @@
     "chapter": 3,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Dans votre organisation, les révisions effectuées présentent les caractéristiques suivantes : Aucun rôle spécifique n'est attribué au modérateur. Le but est de trouver des défauts et d’améliorer le produit. Les participants discutent ouvertement de leurs opinions. Aucune documentation formelle requise à la fin. Quel type de révision est effectué ?  ",
+    "question": "Dans votre organisation, les révisions effectuées présentent les caractéristiques suivantes : Aucun rôle spécifique n'est attribué au modérateur. Le but est de trouver des défauts et d’améliorer le produit. Les participants discutent ouvertement de leurs opinions. Aucune documentation formelle requise à la fin.\n\nQuel type de révision est effectué ?",
     "options": [
       "Examen informel",
       "Examen technique",
@@ -4930,7 +4930,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Vous testez un système de notation qui accepte des scores sur une échelle de 0 à 100. Le système classe les scores comme suit : 0-59 : Échec 60-69 : Réussite 70-89 : Bon 90-100 : Excellent En utilisant le partitionnement d'équivalence, quel est le nombre MINIMUM de cas de test nécessaire pour obtenir une couverture à 100 % des partitions valides ?  ",
+    "question": "Vous testez un système de notation qui accepte des scores sur une échelle de 0 à 100. Le système classe les scores comme suit : 0-59 : Échec 60-69 : Réussite 70-89 : Bon 90-100 : Excellent En utilisant le partitionnement d'équivalence,\n\nquel est le nombre MINIMUM de cas de test nécessaire pour obtenir une couverture à 100 % des partitions valides ?",
     "options": [
       "3",
       "4",
@@ -4946,7 +4946,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Pour un champ « Âge » qui accepte des valeurs de 16 à 65 ans, votre suite de tests comprend les valeurs suivantes : 15, 16, 17, 64, 65, 66. Quel pourcentage de couverture d'analyse des valeurs limites (LVA) à 3 valeurs obtenez-vous ?  ",
+    "question": "Pour un champ « Âge » qui accepte des valeurs de 16 à 65 ans, votre suite de tests comprend les valeurs suivantes : 15, 16, 17, 64, 65, 66.\n\nQuel pourcentage de couverture d'analyse des valeurs limites (LVA) à 3 valeurs obtenez-vous ?",
     "options": [
       "50%",
       "67%",
@@ -4962,7 +4962,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Dans une table de décision pour un système d'approbation de prêt, vous avez les conditions suivantes : Âge ≥ 18 ans Revenu ≥ 30 000 $ Bon historique de crédit Employé depuis ≥ 2 ans Si vous vouliez minimiser la table en raison du grand nombre de combinaisons, quelle serait la meilleure stratégie ?  ",
+    "question": "Dans une table de décision pour un système d'approbation de prêt, vous avez les conditions suivantes : Âge ≥ 18 ans Revenu ≥ 30 000 $ Bon historique de crédit Employé depuis ≥ 2 ans Si vous vouliez minimiser la table en raison du grand nombre de combinaisons,\n\nquelle serait la meilleure stratégie ?",
     "options": [
       "Supprimez toutes les conditions moins importantes",
       "Utiliser une approche basée sur les risques pour affiner les règles à tester",
@@ -4994,7 +4994,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Une équipe de développement crée une application mobile innovante et a décidé de recourir à des tests exploratoires en raison d'un manque de documentation. Parmi les affirmations suivantes concernant les tests exploratoires, laquelle est CORRECT ?  ",
+    "question": "Une équipe de développement crée une application mobile innovante et a décidé de recourir à des tests exploratoires en raison d'un manque de documentation. Parmi les affirmations suivantes concernant les tests exploratoires,\n\nlaquelle est CORRECT ?",
     "options": [
       "Les tests exploratoires sont toujours moins efficaces que les tests basés sur les exigences.",
       "Les tests exploratoires permettent aux testeurs de s'adapter rapidement aux modifications apportées au logiciel.",
@@ -5010,7 +5010,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Laquelle des affirmations suivantes décrit le MIEUX comment les critères d’acceptation peuvent être structurés dans une user story ?  ",
+    "question": "Laquelle des affirmations suivantes décrit le MIEUX\n\ncomment les critères d’acceptation peuvent être structurés dans une user story ?",
     "options": [
       "Défini uniquement par l'équipe de développement, sans nécessiter d'examen par les parties prenantes.",
       "Rédigé dans un format clair et concis qui facilite la compréhension par toutes les parties intéressées impliquées.",
@@ -5026,7 +5026,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Lors d'un atelier de spécification ATDD, l'équipe identifie les ambiguïtés dans une user story concernant le traitement des paiements. Quelle est l’action LA PLUS appropriée selon l’approche ATDD ?  ",
+    "question": "Lors d'un atelier de spécification ATDD, l'équipe identifie les ambiguïtés dans une user story concernant le traitement des paiements.\n\nQuelle est l’action LA PLUS appropriée selon l’approche ATDD ?",
     "options": [
       "Le testeur doit créer des cas de tests qui couvrent toutes les interprétations possibles",
       "Résoudre les ambiguïtés pendant l'atelier avant de créer des cas de test",
@@ -5058,7 +5058,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Dans votre plan de test, vous avez hiérarchisé les cas de test en fonction des exigences. Cependant, vous réalisez que certains cas hautement prioritaires ne peuvent pas être exécutés dans l’ordre idéal en raison des dépendances et de la disponibilité des ressources. Quelle est l’action LA PLUS appropriée selon le programme ?  ",
+    "question": "Dans votre plan de test, vous avez hiérarchisé les cas de test en fonction des exigences. Cependant, vous réalisez que certains cas hautement prioritaires ne peuvent pas être exécutés dans l’ordre idéal en raison des dépendances et de la disponibilité des ressources.\n\nQuelle est l’action LA PLUS appropriée selon le programme ?",
     "options": [
       "Maintenir l'ordre en fonction de la priorité des exigences en ignorant les dépendances",
       "Ajustez l'ordre en tenant compte des dépendances et de la disponibilité des ressources",
@@ -5090,7 +5090,7 @@
     "chapter": 3,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Dans un projet de développement logiciel, le risque suivant a été identifié : Risque : La documentation utilisateur n'est pas à jour. Probabilité de risque : élevée ; impact du risque : moyen Réponse au risque : une revue approfondie de la documentation est organisée avec l'équipe de développement les utilisateurs sont informés des éventuelles incohérences dans la documentation Quelle est la mesure la plus appropriée pour répondre à ce risque analysé ?  ",
+    "question": "Dans un projet de développement logiciel, le risque suivant a été identifié : Risque : La documentation utilisateur n'est pas à jour. Probabilité de risque : élevée ; impact du risque : moyen Réponse au risque : une revue approfondie de la documentation est organisée avec l'équipe de développement les utilisateurs sont informés des éventuelles incohérences dans la documentation\n\nQuelle est la mesure la plus appropriée pour répondre à ce risque analysé ?",
     "options": [
       "Atténuation des risques",
       "Acceptation du risque",
@@ -5106,7 +5106,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Lors du suivi des défauts détectés lors des tests, quel est l’avantage de la gestion de la configuration dans ce processus ?  ",
+    "question": "Lors du suivi des défauts détectés lors des tests,\n\nquel est l’avantage de la gestion de la configuration dans ce processus ?",
     "options": [
       "Aide à documenter les exigences de test.",
       "Il permet d'identifier la version du logiciel dans laquelle le défaut a été trouvé.",
@@ -5122,7 +5122,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Un analyste de test prépare le rapport de défaut suivant : ID : BUG-00721 ​​​​​​| Titre : Le champ « Date de naissance » accepte les dates futures | Gravité : moyenne | Priorité : Élevée | Rapporté par: A. López | Configuration : application v3.2.1, Chrome 120 | Étapes à reproduire : (1) Ouvrez le formulaire d'inscription, (2) Saisissez la date de naissance '15/08/2030', (3) Cliquez sur 'Enregistrer'. Quelle est l’information la PLUS importante qui manque dans ce rapport ?  ",
+    "question": "Un analyste de test prépare le rapport de défaut suivant : ID : BUG-00721 ​​​​​​| Titre : Le champ « Date de naissance » accepte les dates futures | Gravité : moyenne | Priorité : Élevée | Rapporté par: A. López | Configuration : application v3.2.1, Chrome 120 | Étapes à reproduire : (1) Ouvrez le formulaire d'inscription, (2) Saisissez la date de naissance '15/08/2030', (3) Cliquez sur 'Enregistrer'.\n\nQuelle est l’information la PLUS importante qui manque dans ce rapport ?",
     "options": [
       "Le nom du développeur chargé de résoudre le défaut.",
       "Le résultat réel obtenu et le résultat attendu, pour faciliter la reproduction et la correction.",
@@ -5184,7 +5184,7 @@
     "id": 270,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Vous testez un système qui calcule la note finale du cours pour un étudiant donné. La note finale est attribuée en fonction du résultat final, selon les règles suivantes :  \n- 0 – 50 points : échec  \n- 51 – 60 points : suffisant  \n- 61 – 70 points : satisfaisant  \n- 71 – 80 points : bien  \n- 81 – 90 points : très bien  \n- 91 – 100 points : excellent  \n  \nVous avez préparé l'ensemble de scénarios de test suivant :  \n  \n| TC | Résultat final | Note finale |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | très bien |  \n| TC4 | 60 | assez |  \n| TC5 | 70 | satisfaisant |  \n| TC6 | 80 | bon |  \n  \nQuelle est la couverture de l'analyse des valeurs limites (BVA) à 2 valeurs pour le résultat final obtenu avec les cas de test existants ?  ",
+    "question": "Vous testez un système qui calcule la note finale du cours pour un étudiant donné. La note finale est attribuée en fonction du résultat final, selon les règles suivantes :  \n- 0 – 50 points : échec  \n- 51 – 60 points : suffisant  \n- 61 – 70 points : satisfaisant  \n- 71 – 80 points : bien  \n- 81 – 90 points : très bien  \n- 91 – 100 points : excellent  \n  \nVous avez préparé l'ensemble de scénarios de test suivant :  \n  \n| TC | Résultat final | Note finale |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | très bien |  \n| TC4 | 60 | assez |  \n| TC5 | 70 | satisfaisant |  \n| TC6 | 80 | bon |\n\nQuelle est la couverture de l'analyse des valeurs limites (BVA) à 2 valeurs pour le résultat final obtenu avec les cas de test existants ?",
     "options": [
       "A) 50 %",
       "B) 60 %",
@@ -5199,7 +5199,7 @@
     "id": 309,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Le tableau de décision suivant contient les règles permettant de déterminer le risque d’artériosclérose.  \n  \n| | Règle 1 | Règle 2 | Règle 3 | Règle 4 | Règle 5 |  \n|---|---|---|---|---|---|  \n| Cholestérol (mg/dl) | ≤124 | ≤124 | 125-200 | 125-200 | ≥201 |  \n| Pression artérielle (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Niveau de risque | très faible | faible | moyen | élevé | très élevé |  \n  \nVous avez conçu les cas de tests suivants :  \n- TC1 : Cholestérol=125, TA=141  \n- TC2 : Cholestérol=200, TA=201  \n- TC3 : Cholestérol=124, TA=201  \n- TC4 : Cholestérol=109, TA=200  \n- TC5 : Cholestérol=201, TA=140  \n  \nQuelle couverture de table de décision ces cas de test atteignent-ils ?  ",
+    "question": "Le tableau de décision suivant contient les règles permettant de déterminer le risque d’artériosclérose.  \n  \n| | Règle 1 | Règle 2 | Règle 3 | Règle 4 | Règle 5 |  \n|---|---|---|---|---|---|  \n| Cholestérol (mg/dl) | ≤124 | ≤124 | 125-200 | 125-200 | ≥201 |  \n| Pression artérielle (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Niveau de risque | très faible | faible | moyen | élevé | très élevé |  \n  \nVous avez conçu les cas de tests suivants :  \n- TC1 : Cholestérol=125, TA=141  \n- TC2 : Cholestérol=200, TA=201  \n- TC3 : Cholestérol=124, TA=201  \n- TC4 : Cholestérol=109, TA=200  \n- TC5 : Cholestérol=201, TA=140\n\nQuelle couverture de table de décision ces cas de test atteignent-ils ?",
     "options": [
       "A) 40 %",
       "B) 60 %",
@@ -5214,7 +5214,7 @@
     "id": 319,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous testez une application Web qui permet aux utilisateurs de RECHERCHER des produits, d'AFFICHER les détails, d'AJOUTER au panier et de passer une COMMANDE. Vous disposez de 7 cas de test avec ces priorités (1 = la plus élevée) :  \n- TC1 : RECHERCHE produit A (4)  \n- TC2 : RECHERCHE produit B (4)  \n- TC3 : VOIR détails A (3)  \n- TC4 : VOIR détails B (2)  \n- TC5 : AJOUTER le produit À (3)  \n- TC6 : AJOUTER le produit B (1)  \n- TC7 : passer la COMMANDE (5)  \n  \nDépendances : LOOKUP doit être testé avant VIEW, VIEW avant ADD et ADD avant ORDER. Quel scénario de test doit être exécuté en quatrième ?  ",
+    "question": "Vous testez une application Web qui permet aux utilisateurs de RECHERCHER des produits, d'AFFICHER les détails, d'AJOUTER au panier et de passer une COMMANDE. Vous disposez de 7 cas de test avec ces priorités (1 = la plus élevée) :  \n- TC1 : RECHERCHE produit A (4)  \n- TC2 : RECHERCHE produit B (4)  \n- TC3 : VOIR détails A (3)  \n- TC4 : VOIR détails B (2)  \n- TC5 : AJOUTER le produit À (3)  \n- TC6 : AJOUTER le produit B (1)  \n- TC7 : passer la COMMANDE (5)  \n  \nDépendances : LOOKUP doit être testé avant VIEW, VIEW avant ADD et ADD avant ORDER.\n\nQuel scénario de test doit être exécuté en quatrième ?",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -5229,7 +5229,7 @@
     "id": 325,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous testez une fonction de tri qui prend un ensemble de nombres et les renvoie triés par ordre croissant. Le journal d'exécution est :  \n  \n- TC1 : Entrée : '3'. Sortie : « 3 ». Résultat : réussi  \n- TC2 : Entrée : `3 11 6 5`. Sortie : « 3 5 6 11 ». Résultat : réussi  \n- TC3 : Entrée : `8 7 3 7 1`. Sortie : `1 3 7 8`. Résultat : échec  \n- TC4 : Entrée : `-2 -2 -2 -3 -3`. Sortie : `-3 -2`. Résultat : échec  \n- TC5 : Entrée : `0 -2 0 3 4 4`. Sortie : `-2 0 3 4`. Résultat : échec  \n  \nLequel des éléments suivants fournit la MEILLEURE description du bogue à utiliser dans un rapport de défaut ?  ",
+    "question": "Vous testez une fonction de tri qui prend un ensemble de nombres et les renvoie triés par ordre croissant. Le journal d'exécution est :  \n  \n- TC1 : Entrée : '3'. Sortie : « 3 ». Résultat : réussi  \n- TC2 : Entrée : `3 11 6 5`. Sortie : « 3 5 6 11 ». Résultat : réussi  \n- TC3 : Entrée : `8 7 3 7 1`. Sortie : `1 3 7 8`. Résultat : échec  \n- TC4 : Entrée : `-2 -2 -2 -3 -3`. Sortie : `-3 -2`. Résultat : échec  \n- TC5 : Entrée : `0 -2 0 3 4 4`. Sortie : `-2 0 3 4`. Résultat : échec\n\nLequel des éléments suivants fournit la MEILLEURE description du bogue à utiliser dans un rapport de défaut ?",
     "options": [
       "A) Le système ne parvient pas à trier plusieurs ensembles de nombres. Référence : TC3, TC4, TC5.",
       "B) Le système semble ignorer les doublons lors du tri. Référence : TC3, TC4, TC5.",
@@ -5244,7 +5244,7 @@
     "id": 355,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous préparez un planning d'exécution de tests pour 7 cas de tests (TC1-TC7).  \n  \nLes dépendances sont :  \n- TC2 dépend de TC1  \n- TC4 dépend de TC2 et TC3  \n- TC5 dépend du TC3  \n- TC6 dépend de TC4 et TC5  \n- TC7 dépend du TC6  \n  \nLes priorités (1=la plus élevée) sont : TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.  \n  \nQuel est le bon ordre d’exécution en respectant les dépendances et les priorités ?  ",
+    "question": "Vous préparez un planning d'exécution de tests pour 7 cas de tests (TC1-TC7).  \n  \nLes dépendances sont :  \n- TC2 dépend de TC1  \n- TC4 dépend de TC2 et TC3  \n- TC5 dépend du TC3  \n- TC6 dépend de TC4 et TC5  \n- TC7 dépend du TC6  \n  \nLes priorités (1=la plus élevée) sont : TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nQuel est le bon ordre d’exécution en respectant les dépendances et les priorités ?",
     "options": [
       "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
       "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
@@ -5273,7 +5273,7 @@
   {
     "id": "q_batch2_t5hos07b9",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :  \n  \n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |  \n|---|---|---|---|---|  \n| TC1 | Connexion | 2 | 2 | Aucun |  \n| TC2 | Vérifier le solde | 3 | 3 | TC1 |  \n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |  \n| TC4 | Changer le code PIN | 4 | 4 | TC1 |  \n  \nEn appliquant une priorisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très faible), quel serait l'ordre d'exécution LE PLUS approprié ?  ",
+    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :  \n  \n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |  \n|---|---|---|---|---|  \n| TC1 | Connexion | 2 | 2 | Aucun |  \n| TC2 | Vérifier le solde | 3 | 3 | TC1 |  \n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |  \n| TC4 | Changer le code PIN | 4 | 4 | TC1 |  \n  \nEn appliquant une priorisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très faible),\n\nquel serait l'ordre d'exécution LE PLUS approprié ?",
     "options": [
       "TC1, TC3, TC2, TC4",
       "TC1, TC2, TC3, TC4",
@@ -5354,7 +5354,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Parmi les éléments suivants, lequel constitue un avantage de l’automatisation des tests ?  ",
+    "question": "Parmi les éléments suivants,\n\nlequel constitue un avantage de l’automatisation des tests ?",
     "options": [
       "Augmentation de la couverture des tests",
       "Augmentation du temps requis pour exécuter les tests",
@@ -5433,7 +5433,7 @@
     "chapter": 1,
     "topic": "Principios",
     "difficulty": "medium",
-    "question": "Vous êtes le chef d'une équipe de test et vous remarquez que, malgré des tests exhaustifs lors de la phase de développement, le logiciel présente toujours des défauts en production. Quel principe de test pourrait expliquer cette situation ?",
+    "question": "Vous êtes le chef d'une équipe de test et vous remarquez que, malgré des tests exhaustifs lors de la phase de développement, le logiciel présente toujours des défauts en production.\n\nQuel principe de test pourrait expliquer cette situation ?",
     "options": [
       "Les défauts se regroupent",
       "Les tests exhaustifs sont impossibles",
@@ -5449,7 +5449,7 @@
     "chapter": 1,
     "topic": "Proceso de Prueba",
     "difficulty": "medium",
-    "question": "Dans un projet de développement logiciel, l'équipe prépare la phase de test après avoir terminé la phase de développement. Laquelle des activités suivantes fait partie de la planification des tests ?",
+    "question": "Dans un projet de développement logiciel, l'équipe prépare la phase de test après avoir terminé la phase de développement.\n\nLaquelle des activités suivantes fait partie de la planification des tests ?",
     "options": [
       "Définir les critères d'acceptation pour évaluer si la fonctionnalité développée répond aux exigences.",
       "Exécuter des tests de régression pour s'assurer que les nouvelles fonctionnalités ne cassent pas les existantes.",
@@ -5561,7 +5561,7 @@
     "chapter": 2,
     "topic": "Tipos de Prueba",
     "difficulty": "medium",
-    "question": "Une équipe de développement a corrigé plusieurs défauts dans l'application et a publié une nouvelle version. Avant la correction, certains cas de test ont été exécutés, dont certains ont échoué. L'équipe doit maintenant vérifier que les défauts ont été corrigés et que les modifications n'ont pas affecté d'autres parties du système. Laquelle des descriptions suivantes correspond le mieux aux tests qui seront effectués ?",
+    "question": "Une équipe de développement a corrigé plusieurs défauts dans l'application et a publié une nouvelle version. Avant la correction, certains cas de test ont été exécutés, dont certains ont échoué. L'équipe doit maintenant vérifier que les défauts ont été corrigés et que les modifications n'ont pas affecté d'autres parties du système.\n\nLaquelle des descriptions suivantes correspond le mieux aux tests qui seront effectués ?",
     "options": [
       "Les tests de confirmation se concentrent uniquement sur les cas de test qui ont échoué précédemment.",
       "Les tests de régression garantissent que les fonctionnalités qui n'ont pas été modifiées continuent de fonctionner correctement.",
@@ -5641,7 +5641,7 @@
     "chapter": 4,
     "topic": "Partición de Equivalencia",
     "difficulty": "hard",
-    "question": "Un système de contrôle climatique valide la température ambiante. Les valeurs acceptables sont comprises entre 16°C et 30°C inclus. Les températures en dehors de cette plage génèrent une alerte.\n\nEn utilisant les partitions d'équivalence, quel est le nombre MINIMUM de cas de test nécessaires pour couvrir TOUTES les partitions (valides et invalides) ?",
+    "question": "Un système de contrôle climatique valide la température ambiante. Les valeurs acceptables sont comprises entre 16°C et 30°C inclus. Les températures en dehors de cette plage génèrent une alerte.\n\nEn utilisant les partitions d'équivalence,\n\nquel est le nombre MINIMUM de cas de test nécessaires pour couvrir TOUTES les partitions (valides et invalides) ?",
     "options": [
       "2",
       "3",
@@ -5657,7 +5657,7 @@
     "chapter": 4,
     "topic": "Partición de Equivalencia",
     "difficulty": "medium",
-    "question": "Un système d'inscription des utilisateurs valide l'âge de l'utilisateur. L'exigence stipule : « L'âge doit être compris entre 18 et 65 ans inclus pour être valide ». En appliquant la technique des partitions d'équivalence, quel est l'ensemble MINIMUM de cas de test qui couvre toutes les partitions d'équivalence ?",
+    "question": "Un système d'inscription des utilisateurs valide l'âge de l'utilisateur. L'exigence stipule : « L'âge doit être compris entre 18 et 65 ans inclus pour être valide ». En appliquant la technique des partitions d'équivalence,\n\nquel est l'ensemble MINIMUM de cas de test qui couvre toutes les partitions d'équivalence ?",
     "options": [
       "Âge = 18, Âge = 40, Âge = 66",
       "Âge = 18, Âge = 65",
@@ -5673,7 +5673,7 @@
     "chapter": 4,
     "topic": "Tabla de Decisiones",
     "difficulty": "medium",
-    "question": "Dans une table de décision pour un système d'approbation de prêt, vous avez les conditions suivantes :\n\n- Âge ≥ 18 ans\n- Revenu ≥ 30 000 $\n- Bon historique de crédit\n- Employé depuis ≥ 2 ans\n\nSi vous vouliez minimiser la table en raison du grand nombre de combinaisons, quelle serait la meilleure stratégie ?",
+    "question": "Dans une table de décision pour un système d'approbation de prêt, vous avez les conditions suivantes :\n\n- Âge ≥ 18 ans\n- Revenu ≥ 30 000 $\n- Bon historique de crédit\n- Employé depuis ≥ 2 ans\n\nSi vous vouliez minimiser la table en raison du grand nombre de combinaisons,\n\nquelle serait la meilleure stratégie ?",
     "options": [
       "Éliminer toutes les conditions moins importantes",
       "Utiliser une approche basée sur les risques pour réduire les règles à tester",
@@ -5705,7 +5705,7 @@
     "chapter": 4,
     "topic": "Basadas en Experiencia",
     "difficulty": "medium",
-    "question": "Votre équipe de développement a implémenté une nouvelle fonctionnalité dans le logiciel, mais elle n'a pas été correctement documentée. Vous avez peu de temps pour effectuer les tests avant la publication. Quelle est la meilleure stratégie de test que vous pouvez utiliser dans cette situation ?",
+    "question": "Votre équipe de développement a implémenté une nouvelle fonctionnalité dans le logiciel, mais elle n'a pas été correctement documentée. Vous avez peu de temps pour effectuer les tests avant la publication.\n\nQuelle est la meilleure stratégie de test que vous pouvez utiliser dans cette situation ?",
     "options": [
       "Tests automatisés",
       "Tests exploratoires",
@@ -5737,7 +5737,7 @@
     "chapter": 5,
     "topic": "Planificación de Pruebas",
     "difficulty": "medium",
-    "question": "De quelle manière les testeurs peuvent-ils contribuer à une meilleure planification de la livraison du logiciel ?",
+    "question": "De\n\nquelle manière les testeurs peuvent-ils contribuer à une meilleure planification de la livraison du logiciel ?",
     "options": [
       "Les testeurs examinent les spécifications et fournissent des retours sur la faisabilité du projet.",
       "Les testeurs produisent la documentation utilisateur sans être impliqués dans le développement du produit.",
@@ -5753,7 +5753,7 @@
     "chapter": 5,
     "topic": "Estimación",
     "difficulty": "medium",
-    "question": "Votre équipe en est à la troisième itération d'un projet agile. Les efforts de test des itérations précédentes étaient :\n\n- Itération 1 : 45 jours-personne\n- Itération 2 : 52 jours-personne\n\nEn utilisant l'extrapolation, quelle serait l'estimation la plus appropriée pour l'itération 3 ?",
+    "question": "Votre équipe en est à la troisième itération d'un projet agile. Les efforts de test des itérations précédentes étaient :\n\n- Itération 1 : 45 jours-personne\n- Itération 2 : 52 jours-personne\n\nEn utilisant l'extrapolation,\n\nquelle serait l'estimation la plus appropriée pour l'itération 3 ?",
     "options": [
       "45 jours-personne (le minimum historique)",
       "48,5 jours-personne (moyenne des deux itérations)",
@@ -5769,7 +5769,7 @@
     "chapter": 5,
     "topic": "Riesgos",
     "difficulty": "hard",
-    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :\n\n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |\n|---|---|---|---|---|\n| TC1 | Connexion | 2 | 2 | Aucune |\n| TC2 | Consulter le solde | 3 | 3 | TC1 |\n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |\n| TC4 | Changer le code PIN | 4 | 4 | TC1 |\n\nEn appliquant la hiérarchisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très Élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très Faible), quel serait l'ordre d'exécution LE PLUS approprié ?",
+    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :\n\n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |\n|---|---|---|---|---|\n| TC1 | Connexion | 2 | 2 | Aucune |\n| TC2 | Consulter le solde | 3 | 3 | TC1 |\n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |\n| TC4 | Changer le code PIN | 4 | 4 | TC1 |\n\nEn appliquant la hiérarchisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très Élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très Faible),\n\nquel serait l'ordre d'exécution LE PLUS approprié ?",
     "options": [
       "TC1, TC3, TC2, TC4",
       "TC1, TC2, TC3, TC4",
@@ -5833,7 +5833,7 @@
     "chapter": 5,
     "topic": "Gestión de Defectos",
     "difficulty": "medium",
-    "question": "Vous avez trouvé un défaut lors des tests d'un module de facturation. Le système calcule incorrectement la taxe lorsqu'une remise est appliquée. Lequel des rapports de défaut suivants est LE MIEUX structuré ?",
+    "question": "Vous avez trouvé un défaut lors des tests d'un module de facturation. Le système calcule incorrectement la taxe lorsqu'une remise est appliquée.\n\nLequel des rapports de défaut suivants est LE MIEUX structuré ?",
     "options": [
       "« La taxe est mal calculée avec les remises »",
       "« Erreur dans le calcul de la taxe avec remises. Résultat attendu : 21%, résultat actuel : 18%. Étapes : appliquer une remise de 10% sur une facture de 100 $, calculer la taxe. »",
