@@ -260,9 +260,10 @@
     "topic": "Fundamentals of Testing",
     "question": "Which of the following statements describes a valid test objective?  ",
     "options": [
-      "A) Demonstrate that there are no uncorrected defects in the system under test",
-      "B) Demonstrate that there will be no failures after the system is implemented in production",
-      "C) Reduce the risk level of the test object and build confidence in the quality level D) Verify that there are no untested combinations of inputs"
+      "A) Prove no defects exist",
+      "B) Prove no failures will happen",
+      "C) Reduce risk level and build confidence",
+      "D) Verify all combinations are tested"
     ],
     "correctAnswer": 2,
     "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#1, LO: FL-1.1.1). Rationale: Reduce the risk level of the test object and build confidence in the quality level D) Verify that there are no untested combinations of inputs",
@@ -274,9 +275,10 @@
     "topic": "Fundamentals of Testing",
     "question": "Which of the following shows an example of testing activities that contribute to success?  ",
     "options": [
-      "A) Involving testers during various software development life cycle (SDLC) activities will help detect defects in work products",
-      "B) Testers try not to disturb developers while programming, so that developers write better code",
-      "C) Testers collaborating with end users help improve the quality of defect reporting during component integration testing and system testing"
+      "A) Involve testers during various activities",
+      "B) Do not bother developers",
+      "C) Collaborate with end users",
+      "D) Test all system code with tools"
     ],
     "correctAnswer": 0,
     "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#2, LO: FL-1.2.1). Rationale: Involving testers during various software development life cycle (SDLC) activities will help detect defects in work products",
@@ -331,13 +333,12 @@
     "id": 255,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which TWO of the following tasks MAINLY belong to a testing role?  ",
+    "question": "Which of the following tasks PRIMARILY belong to a testing role?",
     "options": [
-      "A) Set up test environments",
-      "B) Maintain the product backlog",
-      "C) Design solutions to new requirements",
-      "D) Create the test plan",
-      "E) Analyze the evidence base"
+      "A) Set up environments and Analyze test basis",
+      "B) Maintain backlog and Design solutions",
+      "C) Design solutions and Create test plan",
+      "D) Maintain backlog and Set up environments"
     ],
     "correctAnswer": 0,
     "explanation": "Option A) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#6, LO: FL-1.4.5). Rationale: Set up test environments",
@@ -547,8 +548,7 @@
       "A) Test implementation",
       "B) Test design",
       "C) Test execution",
-      "D) Test monitoring",
-      "E) Test analysis"
+      "D) Test monitoring"
     ],
     "correctAnswer": 1,
     "explanation": "Option B) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample C, Q#4, LO: FL-1.4.1). Rationale: Test design techniques such as boundary value analysis and equivalence partitioning are applied during test design.",
@@ -2823,13 +2823,12 @@
     "id": 313,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "Which TWO of the following statements provide the BEST justification for using exploratory testing?  ",
+    "question": "What BEST justifies the use of exploratory testing?",
     "options": [
-      "A) Testers do not have enough time for test design and execution",
-      "B) The existing test strategy requires testers to use formal black-box techniques",
-      "C) The specification is written in a formal language that can be processed by a tool",
-      "D) Testers are members of an agile team and have good programming skills",
-      "E) Testers have business domain experience and good analytical skills"
+      "A) Little time for design and experienced testers",
+      "B) Required use of formal black-box techniques",
+      "C) Formal language specification",
+      "D) Testers with good programming skills"
     ],
     "correctAnswer": 0,
     "explanation": "Options A) and E) are the correct answers according to the Official ISTQB CTFL v4.0 Exam (Sample B, Q#26, LO: FL-4.4.2). Rationale: Exploratory testing is ideal when there is little time for formal design (A) and when the tester has domain experience (E).",
@@ -3066,11 +3065,10 @@
     "topic": "Test Analysis and Design Techniques",
     "question": "The cinema ticket sales system calculates the discount type based on the customer's year of birth (YB) and the current year (CY) as follows: Let D be the difference between CY and YB, i.e., D = CY - YB. - If D < 0, show the error 'the year of birth cannot be greater than the current year'. - If 0 <= D < 18, apply the student discount. - If 18 <= D < 65, apply no discount. - If D >= 65, apply the retiree discount. Your test set already contains two cases: - YB = 1990, CY = 2020, expected result: no discount. - YB = 2030, CY = 2029, expected result: show error. Which of the following test data sets should be added to achieve full valid equivalence partition coverage for the discount type?  ",
     "options": [
-      "A) YB = 2001, CY = 2065",
-      "B) YB = 1900, CY = 1965",
-      "C) YB = 1965, CY = 1900",
-      "D) YB = 2011, CY = 2029",
-      "E) YB = 2000, CY = 2000"
+      "A) AN = 2001, AA = 2065",
+      "B) AN = 1900, AA = 1965",
+      "C) AN = 1965, AA = 1900",
+      "D) AN = 2011, AA = 2029"
     ],
     "correctAnswer": 1,
     "explanation": "Option B) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample D, Q#20, LO: FL-4.2.1). Rationale: YB = 1900, CY = 1965 gives D = 65, covering the retiree discount partition (D >= 65), which was missing.",
@@ -3845,13 +3843,12 @@
     "id": 279,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Which TWO of the following are the exit criteria for testing a system?  ",
+    "question": "Which of the following is a typical exit criteria for system testing?",
     "options": [
-      "A) Preparation of the test environment",
-      "B) The ability to log into the test object by the tester",
-      "C) The estimated defect density is reached",
-      "D) Requirements are translated into given/when/then format",
-      "E) Regression testing is automated"
+      "A) Test environment readiness",
+      "B) Ability to log in",
+      "C) Estimated defect density is reached",
+      "D) Requirements translated to given/when/then"
     ],
     "correctAnswer": 2,
     "explanation": "Option C) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#31, LO: FL-5.1.3). Justification: Estimated defect density is reached",
@@ -4271,8 +4268,7 @@
       "A) Scope creep",
       "B) Poor architecture",
       "C) Cost cutting",
-      "D) Lack of tool support",
-      "E) Response time too long"
+      "D) Lack of tool support"
     ],
     "correctAnswer": 1,
     "explanation": "Option B) is the correct answer according to the Official ISTQB CTFL v4.0 Exam (Sample D, Q#35, LO: FL-5.2.2). Rationale: Poor architecture.",
@@ -4659,11 +4655,10 @@
     "topic": "Test Tools",
     "question": "Which element correctly identifies a potential risk of performing test automation?  ",
     "options": [
-      "A) Impediments to testing",
+      "A) Test impediments",
       "B) Branch coverage achieved",
-      "C) Testing progress",
-      "D) New risks within the testing cycle",
-      "E) Time required to repair a defect Question #A26 (1 Point) Which of the following pieces of information contained in a test progress report is the LEAST useful to business representatives?"
+      "C) Test progress",
+      "D) New risks within the test cycle"
     ],
     "correctAnswer": 1,
     "explanation": "Option B) is the correct answer according to the ISTQB CTFL Official Exam v4.0 (Sample A, Q#40, LO: FL-6.2.1). Rationale: Branch coverage achieved",
@@ -5377,13 +5372,13 @@
     "difficulty": "medium",
     "question": "Which of the following is a key benefit of test automation in software development?",
     "options": [
-      "Increases the time required to execute tests",
-      "Allows tests to be repeated efficiently",
-      "Completely eliminates the need for manual testing",
-      "Increases the risk of errors in the code"
+      "It increases the time required to execute tests.",
+      "It allows the efficient repetition of tests.",
+      "It completely eliminates the need for manual testing.",
+      "It increases the risk of defects in the code."
     ],
     "correctAnswer": 1,
-    "explanation": "A. Incorrect. Test automation seeks to reduce execution time, not increase it. B. Correct. Automation allows tests to be executed quickly and repetitively, which is a great benefit. C. Incorrect. Although automation reduces the need for manual testing, it does not completely eliminate the need for them. D. Incorrect. The goal is to reduce errors, although there can be risks if not managed properly.",
+    "explanation": "A. Incorrect. Test automation aims to reduce execution time, not increase it. B. Correct. Automation allows tests to be executed quickly and repetitively, which is a great benefit. C. Incorrect. Although automation reduces the need for manual testing, it does not eliminate the need for it entirely. D. Incorrect. The goal is to reduce defects, although there can be risks if not managed properly.",
     "source": "User Provided Batch 5"
   },
   {
@@ -5399,7 +5394,7 @@
       "Requirements analysis tools"
     ],
     "correctAnswer": 2,
-    "explanation": "A. Incorrect. Test management tools are designed to plan, track and organize testing activities, but are not used to automate tests. B. Incorrect. Test capture tools are used to record user interaction with the application, but they do not automate the testing process itself. C. Correct. Automated testing tools allow tests to be executed without human intervention, facilitating faster and more repeatable execution. D. Incorrect. Requirements analysis tools focus on managing and analyzing software requirements, and do not play a role in test automation.",
+    "explanation": "A. Incorrect. Test management tools are designed to plan, track, and organize testing activities, but they are not used to automate tests. B. Incorrect. Test capture tools are used to record user interaction with the application, but do not automate the testing process itself. C. Correct. Automated testing tools allow the execution of tests without human intervention, facilitating faster and more repeatable execution. D. Incorrect. Requirements analysis tools focus on the management and analysis of software requirements and do not play a role in test automation.",
     "source": "User Provided Batch 5"
   },
   {
@@ -5408,13 +5403,13 @@
     "difficulty": "easy",
     "question": "Which of the following statements represents an appropriate test objective?",
     "options": [
-      "Ensure the system is completely defect-free.",
-      "Identify defects and ensure requirements are adequately met.",
-      "Demonstrate the system will work under all possible conditions.",
-      "Verify users do not report complaints about system performance."
+      "To ensure that the system is completely free of defects.",
+      "To identify defects and ensure that the requirements are adequately met.",
+      "To prove that the system will work under all possible conditions.",
+      "To verify that users do not report complaints about system performance."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. It cannot be guaranteed that a system is completely free of defects. See testing principle 1. B. Correct. One of the main objectives of testing is to identify defects and confirm that the requirements have been correctly implemented. C. Incorrect. It is impossible to test all possible conditions, which relates to testing principle 2. D. Incorrect. While user satisfaction is important, testing should focus on identifying defects and not on the absence of complaints.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_1"
   },
@@ -5422,15 +5417,15 @@
     "chapter": 1,
     "topic": "Fundamentos",
     "difficulty": "medium",
-    "question": "A software company develops applications for the financial sector. Management asks the test manager why testing is essential in their context, beyond finding defects.\n\nWhich of the following reasons BEST describes why testing is necessary in this context?",
+    "question": "A software company develops applications for the financial sector. The management team asks the test manager why testing is essential in their context, beyond finding defects.\n\nWhich of the following reasons BEST describes why testing is necessary in this context?",
     "options": [
-      "To prove the software has no defects before delivery.",
-      "To provide confidence about the software quality level and meet regulatory requirements.",
+      "To prove that the software has no defects prior to delivery.",
+      "To provide confidence about the level of software quality and comply with the regulatory requirements of the sector.",
       "To replace the requirements review process and reduce documentation.",
-      "To ensure all developers know the full system code."
+      "To ensure that all developers are familiar with the complete system code."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Principle 1 of CTFL v4.0 states that testing shows the presence of defects, not their absence. It is impossible to guarantee that there are no defects. B. Correct. The CTFL v4.0 Syllabus §1.2.1 indicates that testing is necessary to provide an assessment of software quality and to comply with contractual or regulatory requirements, which is especially relevant in the financial sector. C. Incorrect. Testing complements reviews; it does not replace them or reduce the need for documentation. D. Incorrect. The purpose of testing is not the training of the development team.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_2"
   },
@@ -5438,15 +5433,15 @@
     "chapter": 1,
     "topic": "Principios",
     "difficulty": "medium",
-    "question": "You lead a test team and notice that despite exhaustive testing during development, the software still has defects in production. Which testing principle could explain this?",
+    "question": "You are the leader of a testing team and you notice that, despite performing exhaustive testing in the development phase, the software still presents defects in production. Which testing principle could explain this situation?",
     "options": [
       "Defects cluster together",
       "Exhaustive testing is impossible",
       "Tests wear out",
-      "Absence of errors fallacy"
+      "Absence-of-defects fallacy"
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. This principle refers to the fact that a small number of modules usually contain most of the defects, but it does not explain the appearance of defects in production after exhaustive testing. B. Correct. This principle indicates that testing all combinations of inputs and preconditions is impossible, which can lead to defects that were not identified during testing. C. Incorrect. This principle indicates that repeated tests lose effectiveness (pesticide paradox), but not directly the reason why defects appear in production. D. Incorrect. This principle refers to the mistaken belief that finding and fixing a large number of defects will ensure the success of a system, but does not relate to the fact that defects continue to appear.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_3"
   },
@@ -5454,15 +5449,15 @@
     "chapter": 1,
     "topic": "Proceso de Prueba",
     "difficulty": "medium",
-    "question": "In a software project, the team is preparing the testing phase after development. Which of the following activities is part of test planning?",
+    "question": "In a software development project, the team is preparing the testing phase after completing the development phase. Which of the following activities is part of test planning?",
     "options": [
-      "Defining acceptance criteria to evaluate if the functionality meets requirements.",
-      "Executing regression tests to ensure new features do not break existing ones.",
-      "Identifying risks associated with the new functionality and planning mitigation.",
-      "Logging defects found during execution and communicating them to developers."
+      "Defining the acceptance criteria to evaluate if the developed functionality meets the requirements.",
+      "Executing regression tests to ensure that the new functionalities do not break the existing ones.",
+      "Identifying the risks associated with the new functionality and planning how to mitigate them.",
+      "Logging the defects found during test execution and communicating them to the development team."
     ],
     "correctAnswer": 2,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Defining acceptance criteria is part of the requirements analysis phase, not test planning. B. Incorrect. Test execution is an activity that occurs after planning. C. Correct. Identifying risks and planning their mitigation is an essential part of test planning. D. Incorrect. Logging defects is part of test execution, not planning.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_4"
   },
@@ -5470,15 +5465,15 @@
     "chapter": 1,
     "topic": "Contexto de las Pruebas",
     "difficulty": "medium",
-    "question": "What factors can affect the scope and depth of testing in a project?\n\n1. Complexity of the system\n2. Experience of the test team\n3. Allocated budget\n4. Type of data used in tests",
+    "question": "What factors can affect the scope and depth of testing in a project?\n\n1. The complexity of the system to be tested\n2. The experience of the testing team\n3. The budget allocated to the project\n4. The type of data used in the tests",
     "options": [
-      "1, 2, 3 affect scope and depth",
-      "2, 3, 4 affect scope and depth",
-      "1, 3, 4 affect scope and depth",
-      "1, 2, 4 affect scope and depth"
+      "1, 2, 3 affect the scope and depth",
+      "2, 3, 4 affect the scope and depth",
+      "1, 3, 4 affect the scope and depth",
+      "1, 2, 4 affect the scope and depth"
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. 1. Is true. System complexity is a technical factor that influences the approach and depth of testing. 2. Is true. Team experience is a human factor that determines the effectiveness and detail of testing activities. 3. Is true. The budget is a project constraint that defines the possible scope of testing. According to section 1.4.2 of the syllabus, these are key contextual factors, while the type of data (4) is considered a product of test design (testware) and not a primary context factor. Therefore, the correct answer is A. B. See explanation/justification for answer A. C. See explanation/justification for answer A. D. See explanation/justification for answer A.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_5"
   },
@@ -5486,15 +5481,15 @@
     "chapter": 1,
     "topic": "Roles en las Pruebas",
     "difficulty": "medium",
-    "question": "Which of the following activities PRIMARILY corresponds to the role of the tester and NOT the test manager?",
+    "question": "Which of the following activities PRIMARILY corresponds to the role of the tester and NOT to the test manager, according to the CTFL v4.0 Syllabus?",
     "options": [
       "Planning the test effort and negotiating deadlines with project management.",
-      "Analyzing, designing, and implementing test cases for assigned functionalities.",
-      "Managing the test project budget.",
+      "Analyzing, designing, and implementing the test cases for the assigned functionalities.",
+      "Managing the budget of the test project.",
       "Selecting and acquiring testing tools for the team."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Planning the test effort and negotiating with management is the responsibility of the test manager. B. Correct. The CTFL v4.0 Syllabus §1.4.5 states that the tester is responsible for analyzing requirements, designing test cases, implementing and executing tests. These are technical activities at the test level. C. Incorrect. Managing the budget is the responsibility of the test manager. D. Incorrect. Tool selection is a management decision that corresponds to the test manager.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_6"
   },
@@ -5502,15 +5497,15 @@
     "chapter": 1,
     "topic": "Habilidades Esenciales",
     "difficulty": "medium",
-    "question": "What skills are essential for a tester working in an agile team?\n\n1. Active listening\n2. Deep technical knowledge\n3. Effective communication\n4. Ability to work under pressure",
+    "question": "Which skills are essential for a tester working in an agile team?\n\n1. Active listening\n2. Deep technical knowledge\n3. Effective communication\n4. Ability to work under pressure",
     "options": [
       "1 and 3 are essential; 2 and 4 are not",
-      "1, 2 and 4 are essential; 3 is not",
+      "1, 2, and 4 are essential; 3 is not",
       "3 and 4 are essential; 1 and 2 are not",
-      "1, 3 and 2 are essential; 4 is not"
+      "1, 3, and 2 are essential; 4 is not"
     ],
     "correctAnswer": 3,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Active listening (1) and effective communication (3) are important skills, but they are not the only necessary ones. It is incorrect to state that 2 and 4 are not relevant at all, but specifically 2 is very valuable. B. Technical knowledge (2) is relevant, but not as crucial as the combination of effective communication and active listening in an agile environment without 3. C. While 3 and 4 are important, the lack of active listening and technical knowledge can limit the tester's effectiveness. D. Active listening (1) and effective communication (3) are fundamental skills in an agile team, while deep technical knowledge (2) is also valuable, but working under pressure (4) is considered less of an essential generic skill in this specific syllabus context compared to the others. Thus, this is the correct answer.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_7"
   },
@@ -5518,15 +5513,15 @@
     "chapter": 2,
     "topic": "Pruebas en SDLC",
     "difficulty": "medium",
-    "question": "Which statement best describes the importance of testing in every phase of the software development lifecycle?",
+    "question": "Which of the following statements best describes the importance of testing in each phase of the software development life cycle?",
     "options": [
-      "Testing is only necessary at the end of the lifecycle.",
-      "Testing in every phase helps identify defects early, reducing time and costs.",
-      "Testing should focus only on the development phase.",
-      "Testing is irrelevant in early phases."
+      "Testing is only necessary at the end of the life cycle to ensure that the software works.",
+      "Performing tests in each phase helps identify defects as early as possible, reducing costs and time.",
+      "Testing should focus solely on the development phase and not on the analysis or design phases.",
+      "Testing is irrelevant in the early phases since significant changes are made to the software."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Testing should be performed in all phases to find and fix defects early. B. Correct. Performing tests in each phase allows detecting problems earlier, which can reduce costs and time. C. Incorrect. Testing is necessary in all phases, not just in development, to ensure quality. D. Incorrect. Testing in early phases is crucial to prevent problems in later stages.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_9"
   },
@@ -5536,13 +5531,13 @@
     "difficulty": "medium",
     "question": "Which of the following activities best represents the \"shift-left\" philosophy in software development?",
     "options": [
-      "Running regression tests after development.",
-      "Starting design reviews before code is written.",
-      "Creating user documentation after launch.",
-      "Executing acceptance tests in production."
+      "Performing regression tests after completing software development.",
+      "Initiating the design review before the code is written.",
+      "Creating user documentation after the product is ready for release.",
+      "Executing acceptance tests in a production environment."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Regression testing performed at the end is not an example of the shift-left approach, which promotes testing earlier in the life cycle. B. Correct. Initiating design review before coding is a clear example of the shift-left approach, as it aims to detect defects early. C. Incorrect. User documentation should be created before launch to facilitate software adoption, not after. D. Incorrect. Executing acceptance tests in production is not part of the shift-left approach, which focuses on early problem detection.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_11"
   },
@@ -5550,7 +5545,7 @@
     "chapter": 2,
     "topic": "Niveles de Prueba",
     "difficulty": "hard",
-    "question": "A team works on a flight reservation system. Match each test activity (1-4) to the test level (A-D):\n\n1. Verify the fare calculation module works in isolation.\n2. Verify the reservation module communicates with the payment module.\n3. Execute end-to-end flight purchase scenarios.\n4. End users validate the system meets operational needs.\n\nA. Acceptance testing\nB. Integration testing\nC. System testing\nD. Component testing",
+    "question": "A development team is working on a flight reservation system. Match each testing activity (1-4) with the corresponding test level (A-D):\n\n1. The team verifies that the fare calculation module produces correct results in isolation.\n2. The team verifies that the reservation module communicates correctly with the payment module.\n3. The team executes complete end-to-end flight purchase scenarios.\n4. The airline's end users validate that the system meets their operational needs.\n\nA. Acceptance testing\nB. Integration testing\nC. System testing\nD. Component testing",
     "options": [
       "1D, 2B, 3C, 4A",
       "1C, 2A, 3D, 4B",
@@ -5558,7 +5553,7 @@
       "1B, 2D, 3A, 4C"
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Correct. (1) Verifying an isolated module = Component testing (D). (2) Verifying communication between modules = Integration testing (B). (3) Complete end-to-end scenarios = System testing (C). (4) End users validating their needs = Acceptance testing (A). B. Incorrect. This combination confuses test levels; system tests do not verify isolated modules. C. Incorrect. Acceptance tests are not for verifying individual modules. D. Incorrect. Integration tests are not limited to isolated components.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_13"
   },
@@ -5566,15 +5561,15 @@
     "chapter": 2,
     "topic": "Tipos de Prueba",
     "difficulty": "medium",
-    "question": "A development team has fixed several defects and released a new version. Which description best fits the tests that will be performed now?",
+    "question": "A development team has fixed several defects in the application and released a new version. Before the fix, certain test cases were executed, some of which failed. Now the team needs to verify that the defects have been fixed and also that the changes have not affected other parts of the system. Which of the following descriptions best fits the tests that will be carried out?",
     "options": [
-      "Confirmation testing focuses only on previously failed cases.",
-      "Regression testing ensures unmodified functionalities still work.",
-      "Confirmation testing includes cases executed for the first time.",
-      "Regression testing only applies to new defects."
+      "Confirmation testing focuses solely on the test cases that failed previously.",
+      "Regression testing ensures that the functionalities that were not modified continue to work correctly.",
+      "Confirmation testing includes the test cases that failed in previous versions and those executed for the first time.",
+      "Regression testing only applies to new defects discovered in the new version."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Confirmation testing focuses on verifying that the fixed defects now work, but the scenario also requires checking unaffected parts (regression). B. Correct. Regression tests are necessary to verify that modifications have not affected existing functionalities, which meets the team's need to check unaffected parts. C. Incorrect. Confirmation testing only relates to the corrected defects, not to cases executed for the first time. D. Incorrect. Regression testing applies to all existing functionalities, not just new defects.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_14"
   },
@@ -5582,15 +5577,15 @@
     "chapter": 3,
     "topic": "Pruebas Estáticas",
     "difficulty": "medium",
-    "question": "Which statement best describes a benefit of static testing?",
+    "question": "Which of the following statements best describes a benefit of static testing in software development?",
     "options": [
-      "It helps ensure code meets specifications before execution.",
-      "It is more effective than dynamic testing at finding runtime errors.",
-      "It allows testing in non-executable environments.",
-      "It eliminates the need for dynamic testing."
+      "Static testing helps ensure that the code meets specifications before it is executed.",
+      "Static testing is more effective than dynamic testing in identifying runtime execution defects.",
+      "Static testing allows testing in environments where the software cannot be executed.",
+      "Static testing eliminates the need for dynamic testing on the software."
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Correct. Static testing allows reviewing the code and documents prior to execution, helping to ensure compliance with specifications. B. Incorrect. Static testing does not identify runtime errors, since the software is not executed. C. Incorrect. Although static testing can be done without an execution environment, its main purpose is not to facilitate testing in non-executable environments. D. Incorrect. Static testing does not completely replace the need for dynamic testing, as both serve complementary purposes.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_15"
   },
@@ -5598,15 +5593,15 @@
     "chapter": 3,
     "topic": "Retroalimentación",
     "difficulty": "easy",
-    "question": "What is a key benefit of early and frequent feedback from stakeholders?",
+    "question": "What is a key benefit of obtaining early and frequent feedback from stakeholders?",
     "options": [
-      "It helps identify test performance issues.",
-      "It allows development to adapt to changing stakeholder needs.",
-      "It increases total project time.",
-      "It reinforces customer data confidentiality."
+      "It helps identify performance issues in the tests.",
+      "It allows adapting development to the changing needs of the stakeholders.",
+      "It increases the total time of the project.",
+      "It reinforces the confidentiality of customer data."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. While feedback can help identify problems, it does not specifically focus on test performance. B. Correct. Early and frequent feedback allows adjusting development to meet changing stakeholder needs. C. Incorrect. Effective feedback usually helps reduce total project time by addressing issues early. D. Incorrect. Feedback is not related to data confidentiality, but to improving the development process.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_16"
   },
@@ -5614,7 +5609,7 @@
     "chapter": 3,
     "topic": "Revisiones",
     "difficulty": "medium",
-    "question": "The author of a design document leads a review session. A scribe logs defects. No formal entry/exit criteria are used. What type of review is this?",
+    "question": "The author of a design document leads a review session. A scribe logs the defects found. Participants can freely ask questions and the author explains their design. No formal entry or exit criteria are used.\n\nWhat type of review does this scenario describe?",
     "options": [
       "Inspection",
       "Technical review",
@@ -5622,7 +5617,7 @@
       "Informal review"
     ],
     "correctAnswer": 2,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. In an inspection, the leader is a trained moderator (not the author), and formal entry/exit criteria are used. B. Incorrect. In a technical review, the results are formally documented, and it is not necessarily led by the author. C. Correct. The CTFL v4.0 Syllabus §3.2.4 defines a walkthrough as a review led by the author where a scribe logs defects, participants can ask questions, and the author explains the work. It has no formal entry/exit criteria. D. Incorrect. An informal review does not have a scribe or a defined structure; it is completely ad hoc.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_17"
   },
@@ -5630,15 +5625,15 @@
     "chapter": 3,
     "topic": "Revisiones",
     "difficulty": "medium",
-    "question": "A team introduces formal reviews, but reviewers get no time and management ignores results. What success factor is MISSING?",
+    "question": "A team introduces formal reviews into their process. However, reviewers are not given enough time to review the documents and management does not consider the review results in project decisions.\n\nWhich success factor for reviews is MISSING?",
     "options": [
-      "Use of standard checklists.",
-      "Management support allocating time and valuing results.",
-      "Presence of a security expert.",
-      "Limiting reviews to requirement documents."
+      "The use of standardized checklists.",
+      "Management support that allocates time and values the review results.",
+      "The presence of a security expert in each review session.",
+      "Limiting reviews to requirements documents only."
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Checklists are useful, but they are not the main missing factor here. B. Correct. The CTFL v4.0 Syllabus §3.2.5 identifies management support as a key success factor: management must allocate enough time for preparation and value the results, otherwise reviews become a worthless formality. C. Incorrect. The involvement of specialists is useful in specific contexts, but it is not the universal success factor. D. Incorrect. Reviews can be applied to any work product (requirements, design, code, test cases), not just requirements.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_18"
   },
@@ -5646,7 +5641,7 @@
     "chapter": 4,
     "topic": "Partición de Equivalencia",
     "difficulty": "hard",
-    "question": "A climate control system validates ambient temperature between 16°C and 30°C inclusive. Using equivalence partitioning, what is the MINIMUM number of test cases to cover ALL partitions?",
+    "question": "A climate control system validates the room temperature. Acceptable values are between 16°C and 30°C inclusive. Temperatures outside that range generate an alert.\n\nUsing equivalence partitioning, what is the MINIMUM number of test cases needed to cover ALL partitions (valid and invalid)?",
     "options": [
       "2",
       "3",
@@ -5654,7 +5649,7 @@
       "6"
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. With 2 test cases only 2 of the 3 partitions identified by EP are covered. B. Correct. EP divides the domain into 3 partitions: (1) temperature < 16°C (invalid), (2) 16°C–30°C (valid), (3) temperature > 30°C (invalid). The 'Each Choice' coverage criterion requires at least 1 case per partition, that is, 3 cases in total. C. Incorrect. 4 test cases exceed the minimum needed to satisfy the EP coverage criterion. D. Incorrect. 6 cases correspond to the Boundary Value Analysis technique with 2 values (BVA-2), not to EP.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_20"
   },
@@ -5662,15 +5657,15 @@
     "chapter": 4,
     "topic": "Partición de Equivalencia",
     "difficulty": "medium",
-    "question": "Un sistema de registro de usuarios valida la edad del usuario. El requisito indica: 'La edad debe estar entre 18 y 65 años inclusive para ser válido'. Aplicando la técnica de partición de equivalencia, ¿cuál es el conjunto MÍNIMO de casos de prueba que cubre todas las particiones de equivalencia? (EN translated)",
+    "question": "A user registration system validates the user's age. The requirement states: 'Age must be between 18 and 65 years inclusive to be valid'. Applying the equivalence partitioning technique, what is the MINIMUM set of test cases that covers all equivalence partitions?",
     "options": [
-      "Edad = 18, Edad = 40, Edad = 66 (EN)",
-      "Edad = 18, Edad = 65 (EN)",
-      "Edad = 17, Edad = 40, Edad = 66 (EN)",
-      "Edad = 0, Edad = 17, Edad = 40, Edad = 66 (EN)"
+      "Age = 18, Age = 40, Age = 66",
+      "Age = 18, Age = 65",
+      "Age = 17, Age = 40, Age = 66",
+      "Age = 0, Age = 17, Age = 40, Age = 66"
     ],
     "correctAnswer": 2,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Although it has 3 test cases, it does not cover the lower invalid partition (age < 18) and presents redundancy by including two values from the valid partition (18 and 40). B. Incorrect. It only covers the valid partition with 2 redundant cases, leaving the invalid partitions (lower and upper) uncovered. C. Correct. 3 test cases are needed to cover the 3 identified equivalence partitions: one for the lower invalid partition (age < 18), one for the valid partition (18 ≤ age ≤ 65), and one for the upper invalid partition (age > 65). According to the equivalence partitioning technique, to achieve 100% coverage, test cases must exercise all identified partitions, covering each partition at least once. D. Incorrect. 4 test cases exceed the minimum number required, as it includes redundancy in the lower invalid partition (age = 0 and age = 17).",
     "source": "User Provided Batch 8",
     "id": "q_batch8_21"
   },
@@ -5678,15 +5673,15 @@
     "chapter": 4,
     "topic": "Tabla de Decisiones",
     "difficulty": "medium",
-    "question": "En una tabla de decisiones para un sistema de aprobación de préstamos, tienes las siguientes condiciones:\n\n- Edad ≥ 18 años\n- Ingresos ≥ $30,000\n- Historial crediticio bueno\n- Empleado por ≥ 2 años\n\nSi quisieras minimizar la tabla debido a la gran cantidad de combinaciones, ¿cuál sería la mejor estrategia? (EN translated)",
+    "question": "In a decision table for a loan approval system, you have the following conditions:\n\n- Age ≥ 18 years\n- Income ≥ $30,000\n- Good credit history\n- Employed for ≥ 2 years\n\nIf you wanted to minimize the table due to the large number of combinations, what would be the best strategy?",
     "options": [
-      "Eliminar todas las condiciones menos importantes (EN)",
-      "Usar un enfoque basado en riesgo para reducir las reglas a probar (EN)",
-      "Combinar todas las condiciones en una sola regla (EN)",
-      "Crear múltiples tablas pequeñas separadas (EN)"
+      "Eliminate all less important conditions",
+      "Use a risk-based approach to reduce the rules to test",
+      "Combine all conditions into a single rule",
+      "Create multiple separate small tables"
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Eliminating conditions can leave significant gaps in coverage. B. Correct. According to the syllabus, 'if there are many conditions, exercising all decision rules can be very time-consuming, as the number of rules grows exponentially with the number of conditions. In such a case, to reduce the number of rules that must be exercised, a minimized decision table or a risk-based approach can be used.' C. Incorrect. Combining all conditions does not solve the complexity problem. D. Incorrect. Multiple separate tables do not address the problem of exponential combinations effectively without risk analysis.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_22"
   },
@@ -5694,15 +5689,15 @@
     "chapter": 4,
     "topic": "Basadas en Experiencia",
     "difficulty": "medium",
-    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR cómo se utiliza la predicción de errores en pruebas de software? (EN translated)",
+    "question": "Which of the following statements BEST describes how error guessing is used in software testing?",
     "options": [
-      "La predicción de errores se basa en identificar las áreas del software donde es más probable que ocurran defectos, utilizando datos históricos y patrones de errores pasados. (EN)",
-      "La predicción de errores se centra únicamente en la revisión de requisitos para detectar posibles faltas antes de que el desarrollo comience. (EN)",
-      "La predicción de errores implica adivinar aleatoriamente los errores en el software sin ninguna base en la experiencia previa. (EN)",
-      "La predicción de errores requiere que el probador evalúe constantemente el rendimiento del software durante su ejecución. (EN)"
+      "Error guessing is based on identifying the areas of the software where defects are most likely to occur, using historical data and past error patterns.",
+      "Error guessing focuses solely on reviewing requirements to detect potential flaws before development begins.",
+      "Error guessing involves randomly guessing errors in the software without any basis in prior experience.",
+      "Error guessing requires the tester to constantly evaluate the performance of the software during its execution."
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Correct. Error guessing focuses on identifying risk areas in the software that are most likely to contain defects, based on past experience and historical data. B. Incorrect. Although reviewing requirements is important, error guessing is based more on experience and defect patterns in already developed software. C. Incorrect. Random guessing is not an effective way to predict errors; predicting should be grounded in data and prior experiences. D. Incorrect. Evaluating software performance is a different activity; error guessing focuses on identifying and anticipating defects before testing the software.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_26"
   },
@@ -5710,15 +5705,15 @@
     "chapter": 4,
     "topic": "Basadas en Experiencia",
     "difficulty": "medium",
-    "question": "Tu equipo de desarrollo ha implementado una nueva funcionalidad en el software, pero no se ha documentado adecuadamente. Tienes poco tiempo para realizar pruebas antes del lanzamiento. ¿Cuál es la mejor estrategia de prueba que puedes utilizar en esta situación? (EN translated)",
+    "question": "Your development team has implemented a new functionality in the software, but it has not been properly documented. You have little time to run tests before the release. What is the best test strategy you can use in this situation?",
     "options": [
-      "Pruebas automatizadas (EN)",
-      "Pruebas exploratorias (EN)",
-      "Pruebas de regresión (EN)",
-      "Pruebas basadas en requisitos (EN)"
+      "Automated testing",
+      "Exploratory testing",
+      "Regression testing",
+      "Requirements-based testing"
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Automated testing requires time to be designed and configured, which is not viable with little time available. B. Correct. Exploratory testing allows a quick evaluation of the new functionality without the need for detailed documentation. C. Incorrect. Regression testing is useful, but requires a clear understanding of previous functionalities that are not documented. D. Incorrect. Requirements-based testing is not effective here, since the lack of documentation limits the ability to design tests based on requirements.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_27"
   },
@@ -5726,15 +5721,15 @@
     "chapter": 4,
     "topic": "ATDD/BDD",
     "difficulty": "medium",
-    "question": "Un equipo ágil está iniciando la implementación de ATDD para su próximo sprint. El Scrum Master quiere saber quién debe participar en el taller de especificación ATDD.\n\n¿Cuál de las siguientes afirmaciones describe MEJOR la participación en un taller de especificación ATDD? (EN translated)",
+    "question": "An agile team is starting the implementation of ATDD for their next sprint. The Scrum Master wants to know who should participate in the ATDD specification workshop.\n\nWhich of the following statements BEST describes participation in an ATDD specification workshop?",
     "options": [
-      "Solo los probadores, ya que son responsables de definir los criterios de aceptación. (EN)",
-      "Solo los desarrolladores, porque son quienes implementarán las pruebas automatizadas. (EN)",
-      "Representantes de negocio, desarrolladores y probadores colaboran conjuntamente. (EN)",
-      "Solo los representantes de negocio, porque los criterios de aceptación son requisitos del cliente. (EN)"
+      "Only testers, as they are responsible for defining the acceptance criteria.",
+      "Only developers, because they are the ones who will implement the automated tests.",
+      "Business representatives, developers, and testers collaborate together.",
+      "Only business representatives, because the acceptance criteria are customer requirements."
     ],
     "correctAnswer": 2,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Testers participate, but ATDD requires the collaboration of the entire team, not just testers. B. Incorrect. Developers participate, but without the business and testing perspective, the acceptance criteria would be incomplete. C. Correct. The CTFL v4.0 Syllabus §4.5.3 states that the ATDD specification workshop involves business representatives, developers, and testers to collaborate in defining concrete examples. D. Incorrect. Although business representatives bring the customer's vision, developers and testers are needed to define testable examples.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_29"
   },
@@ -5742,15 +5737,15 @@
     "chapter": 5,
     "topic": "Planificación de Pruebas",
     "difficulty": "medium",
-    "question": "¿De qué manera pueden los probadores contribuir a una mejor planificación de la entrega de software? (EN translated)",
+    "question": "How can testers contribute to better planning of the software release?",
     "options": [
-      "Los probadores revisan las especificaciones y ofrecen retroalimentación sobre la viabilidad del proyecto. (EN)",
-      "Los probadores elaboran la documentación del usuario sin involucrarse en el desarrollo del producto. (EN)",
-      "Los probadores son responsables de establecer los plazos de entrega del proyecto. (EN)",
-      "Los probadores se enfocan en realizar pruebas al final del ciclo de desarrollo para asegurar la calidad. (EN)"
+      "Testers review the specifications and provide feedback on project feasibility.",
+      "Testers produce user documentation without being involved in product development.",
+      "Testers are responsible for establishing project delivery deadlines.",
+      "Testers focus on testing at the end of the development cycle to ensure quality."
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Correct. Testers review the specifications and can identify feasibility issues, which aids in planning. B. Incorrect. Although testers may contribute to documentation, their main function is to assure quality during development. C. Incorrect. Establishing deadlines is generally the responsibility of the project manager or the management team. D. Incorrect. Waiting until the end to perform testing is not helpful and can compromise the quality of the product.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_30"
   },
@@ -5758,15 +5753,15 @@
     "chapter": 5,
     "topic": "Estimación",
     "difficulty": "medium",
-    "question": "Tu equipo está en la tercera iteración de un proyecto ágil. Los esfuerzos de prueba de las iteraciones anteriores fueron:\n\n- Iteración 1: 45 días-persona\n- Iteración 2: 52 días-persona\n\nUsando extrapolación, ¿cuál sería la estimación más apropiada para la Iteración 3? (EN translated)",
+    "question": "Your team is in the third iteration of an agile project. The test efforts of the previous iterations were:\n\n- Iteration 1: 45 person-days\n- Iteration 2: 52 person-days\n\nUsing extrapolation, what would be the most appropriate estimate for Iteration 3?",
     "options": [
-      "45 días-persona (el mínimo histórico) (EN)",
-      "48.5 días-persona (promedio de las dos iteraciones) (EN)",
-      "52 días-persona (tendencia creciente) (EN)",
-      "59 días-persona (extrapolación de la tendencia) (EN)"
+      "45 person-days (the historical minimum)",
+      "48.5 person-days (average of the two iterations)",
+      "52 person-days (increasing trend)",
+      "59 person-days (extrapolation of the trend)"
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Using only the minimum does not consider the trend or variability. B. Correct. According to the syllabus, in extrapolation 'the team can extrapolate the test effort for the next iteration as the averaged effort of the last three iterations.' With only two iterations available, the average would be (45 + 52) ÷ 2 = 48.5 person-days. C. Incorrect. Using only the last value does not apply the concept of history-based extrapolation. D. Incorrect. Although it could be a trend extrapolation, the syllabus specifically mentions using the average.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_32"
   },
@@ -5774,15 +5769,15 @@
     "chapter": 5,
     "topic": "Riesgos",
     "difficulty": "hard",
-    "question": "Tienes los siguientes casos de prueba para un sistema de banca online:\n\n| Caso | Riesgo de Funcionalidad | Probabilidad del Riesgo | Impacto del Riesgo | Dependencia |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | Ninguna |\n| TC2 | Consultar saldo | 3 | 3 | TC1 |\n| TC3 | Transferir dinero | 2 | 2 | TC1, TC2 |\n| TC4 | Cambiar PIN | 4 | 4 | TC1 |\n\nAplicando priorización basada en riesgo, donde el impacto y la probabilidad se mide en una escala del 1 al 5 (1=Muy Alto, 2=Alto, 3=Medio, 4=Bajo, 5=Muy Bajo), ¿cuál sería el orden de ejecución MÁS apropiado? (EN translated)",
+    "question": "You have the following test cases for an online banking system:\n\n| Case | Functionality Risk | Risk Likelihood | Risk Impact | Dependency |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | None |\n| TC2 | Check balance | 3 | 3 | TC1 |\n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |\n| TC4 | Change PIN | 4 | 4 | TC1 |\n\nApplying risk-based prioritization, where impact and likelihood are measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
     "options": [
-      "TC1, TC3, TC2, TC4 (EN)",
-      "TC1, TC2, TC3, TC4 (EN)",
-      "TC3, TC1, TC2, TC4 (EN)",
-      "TC1, TC4, TC2, TC3 (EN)"
+      "TC1, TC3, TC2, TC4",
+      "TC1, TC2, TC3, TC4",
+      "TC3, TC1, TC2, TC4",
+      "TC1, TC4, TC2, TC3"
     ],
     "correctAnswer": 1,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Problem 1: TC3 depends on TC2 (needs checked balance), but TC3 runs before TC2. This breaks the dependency. Problem 2: TC2 has a higher risk rating (3x3=9) than TC4 (4x4=16) since lower number is higher risk. Oh wait! Scale: 1=Very High, 5=Very Low. So lower number means HIGHER risk. Risk level = Likelihood x Impact. TC1: 2x2=4. TC3: 2x2=4. TC2: 3x3=9. TC4: 4x4=16. Priority is TC1 and TC3 (highest risk), then TC2, then TC4. But TC3 depends on TC2, which depends on TC1. Thus, TC1 must go first, then TC2, then TC3, then TC4. Wait, B executes TC2 before TC3. This satisfies dependency, though delays higher risk TC3. B is the only logically viable sequence. B. Correct. TC1 first: Independent and baseline for all others. TC2 before TC3/TC4: Even though TC3 has higher risk, it strictly depends on TC2. C. Incorrect. Critical problem: TC3 depends on TC1 and TC2, but is executed first, before both. It will fail due to lack of dependencies. D. Incorrect. Problem 1: TC2 has higher risk (9) than TC4 (16), but TC4 is executed before TC2. Prioritizes risk incorrectly. Problem 2: TC3 depends on TC2, but TC2 is executed after TC3. Breaks dependency.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_33"
   },
@@ -5790,15 +5785,15 @@
     "chapter": 2,
     "topic": "Cuadrantes Ágiles",
     "difficulty": "medium",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Cuadrante Q1: orientado a la tecnología, apoya al equipo de desarrollo\nB. Cuadrante Q2: orientado a los negocios, apoya al equipo de desarrollo\nC. Cuadrante Q3: orientado a los negocios, crítica al producto\nD. Cuadrante Q4: orientado a la tecnología, crítica al producto\n\n¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes? (EN translated)",
+    "question": "Identify the following test categories (1-4) and the agile testing quadrants (A-D):\n\n1. Usability testing\n2. Component testing\n3. Functional testing\n4. Reliability testing\n\nA. Quadrant Q1: technology-facing, supports the development team\nB. Quadrant Q2: business-facing, supports the development team\nC. Quadrant Q3: business-facing, critiques the product\nD. Quadrant Q4: technology-facing, critiques the product\n\nWhich combinations are correct for these test categories and quadrants?",
     "options": [
-      "1C, 2A, 3B, 4D (EN)",
-      "1D, 2A, 3C, 4B (EN)",
-      "1C, 2B, 3D, 4A (EN)",
-      "1D, 2B, 3C, 4A (EN)"
+      "1C, 2A, 3B, 4D",
+      "1D, 2A, 3C, 4B",
+      "1C, 2B, 3D, 4A",
+      "1D, 2B, 3C, 4A"
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Usability testing relates to Quadrant Q3 (1-C), component testing to Quadrant Q1 (2-A), functional testing to Quadrant Q2 (3-B), and reliability testing (as non-functional testing) to Quadrant Q4 (4-D). This aligns exactly with section 5.1.7 of the syllabus. Therefore, this option is correct. B. Functional tests would be assigned to Q3 (3-C), which is not correct according to the description of Q2. C. Reliability tests would be assigned to Q1 (4-A), which is not correct (they belong to Q4). D. Usability tests would be assigned to Q4 (1-D), which is not correct (they belong to Q3).",
     "source": "User Provided Batch 8",
     "id": "q_batch8_34"
   },
@@ -5806,15 +5801,15 @@
     "chapter": 5,
     "topic": "Gestión de Riesgos",
     "difficulty": "medium",
-    "question": "Durante una revisión de riesgo, se identificó el siguiente problema:\n\nRiesgo: Incompatibilidad entre módulos del software.\nProbabilidad del riesgo: alta; impacto del riesgo: medio\n\nRespuesta al riesgo:\n- realizar pruebas de integración tempranas para identificar incompatibilidades\n- documentar las incompatibilidades y comunicarlas al equipo de desarrollo\n\n¿Cuál es la medida más adecuada a tomar en respuesta a este riesgo analizado? (EN translated)",
+    "question": "During a risk review, the following problem was identified:\n\nRisk: Incompatibility between software modules.\nRisk Likelihood: high; Risk Impact: medium\n\nRisk response:\n- perform early integration testing to identify incompatibilities\n- document incompatibilities and communicate them to the development team\n\nWhat is the most appropriate action to take in response to this analyzed risk?",
     "options": [
-      "Mitigación del riesgo (EN)",
-      "Transferencia del riesgo (EN)",
-      "Aceptación del riesgo (EN)",
-      "Plan de contingencia (EN)"
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk acceptance",
+      "Contingency plan"
     ],
     "correctAnswer": 0,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Correct. Early integration tests are a mitigation strategy that helps identify and resolve problems before they become bigger. B. Incorrect. Risk transfer involves passing the risk to another party, which is not mentioned here. C. Incorrect. Accepting the risk is not appropriate, as actions are being proposed to solve it. D. Incorrect. Although contingency plans can be developed, the main action here is mitigation through testing.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_35"
   },
@@ -5822,15 +5817,15 @@
     "chapter": 5,
     "topic": "Métricas e Informes",
     "difficulty": "medium",
-    "question": "¿Cuál de los siguientes elementos es más adecuado para proporcionar una visión general del progreso de las pruebas a las partes interesadas de un proyecto? (EN translated)",
+    "question": "Which of the following elements is most appropriate to provide an overview of testing progress to project stakeholders?",
     "options": [
-      "Registro de incidencias (EN)",
-      "Informe de prueba mensual (EN)",
-      "Informe de estado de prueba (EN)",
-      "Plan de pruebas (EN)"
+      "Defect log",
+      "Monthly test report",
+      "Test status report",
+      "Test plan"
     ],
     "correctAnswer": 2,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. The defect log details the defects found but does not provide a summary of testing status. B. Incorrect. While a monthly test report can offer information on progress, it is not the most suitable for an immediate overview. C. Correct. A test status report summarizes progress, results, and relevant metrics regarding the testing status, being useful for stakeholders. D. Incorrect. The test plan establishes the strategy and approach, but does not communicate the current testing status.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_36"
   },
@@ -5838,15 +5833,15 @@
     "chapter": 5,
     "topic": "Gestión de Defectos",
     "difficulty": "medium",
-    "question": "Has encontrado un defecto durante las pruebas de un módulo de facturación. El sistema calcula incorrectamente el impuesto cuando se aplica un descuento. ¿Cuál de los siguientes informes de defecto está MEJOR estructurado? (EN translated)",
+    "question": "You have found a defect during testing of a billing module. The system calculates the tax incorrectly when a discount is applied. Which of the following defect reports is BEST structured?",
     "options": [
-      "\"El impuesto está mal calculado con descuentos\" (EN)",
-      "\"Error en cálculo de impuestos con descuentos. Resultado esperado: 21%, resultado actual: 18%. Pasos: aplicar descuento 10% a factura de $100, calcular impuesto.\" (EN)",
-      "\"ID: DEF-2024-001, Título: Cálculo incorrecto de impuesto con descuentos, Entorno: Test v2.1, Pasos: 1)Crear factura $100, 2)Aplicar descuento 10%, 3)Calcular impuesto, Esperado: $19.53, Actual: $16.20, Severidad: Alta, Estado: Nuevo\" (EN)",
-      "\"Hay un problema con los impuestos cuando hay descuentos aplicados en el sistema\" (EN)"
+      "\"The tax is calculated incorrectly with discounts\"",
+      "\"Error in tax calculation with discounts. Expected result: 21%, actual result: 18%. Steps: apply 10% discount to $100 invoice, calculate tax.\"",
+      "\"ID: DEF-2024-001, Title: Incorrect tax calculation with discounts, Environment: Test v2.1, Steps: 1)Create $100 invoice, 2)Apply 10% discount, 3)Calculate tax, Expected: $19.53, Actual: $16.20, Severity: High, Status: New\"",
+      "\"There is a problem with taxes when there are discounts applied in the system\""
     ],
     "correctAnswer": 2,
-    "explanation": "Explanation generated in English.",
+    "explanation": "A. Incorrect. Too vague, lacks critical information to reproduce and resolve the defect. B. Incorrect. Although better than (A), it lacks important structural elements such as ID, environment, severity, status. C. Correct. This report includes all essential elements according to the syllabus: unique identifier, descriptive title, identification of the test environment, clear description for reproduction, expected vs actual results, severity, and status. It allows effective reproduction and resolution. D. Incorrect. Very general description without specific details to reproduce or understand the problem.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_38"
   }

@@ -5,9 +5,10 @@
     "topic": "Fundamentos del Testing",
     "question": "¿Cuál de las siguientes afirmaciones describe un objetivo de prueba válido?  ",
     "options": [
-      "A) Demostrar que no hay defectos sin corregir en el sistema bajo prueba",
-      "B) Demostrar que no habrá fallos después de la implementación del sistema en producción",
-      "C) Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad D) Verificar que no hay combinaciones de entradas sin probar"
+      "A) Demostrar que no hay defectos",
+      "B) Demostrar que no habrá fallos en producción",
+      "C) Reducir el nivel de riesgo y generar confianza",
+      "D) Verificar que no hay combinaciones sin probar"
     ],
     "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#1, LO: FL-1.1.1). Justificación: Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad D) Verificar que no hay combinaciones de entradas sin probar",
@@ -19,9 +20,10 @@
     "topic": "Fundamentos del Testing",
     "question": "¿Cuál de las siguientes opciones muestra un ejemplo de actividades de prueba que contribuyen al éxito?  ",
     "options": [
-      "A) Involucrar a los probadores durante diversas actividades del ciclo de vida del desarrollo de software (SDLC) ayudará a detectar defectos en los productos de trabajo",
-      "B) Los probadores intentan no molestar a los desarrolladores mientras programan, para que los desarrolladores escriban mejor código",
-      "C) Los probadores colaborando con los usuarios finales ayudan a mejorar la calidad de los informes de defectos durante las pruebas de integración de componente y las pruebas de sistema"
+      "A) Involucrar a los probadores durante diversas actividades",
+      "B) No molestar a los desarrolladores",
+      "C) Colaborar con usuarios finales",
+      "D) Probar todo el código del sistema con herramientas"
     ],
     "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#2, LO: FL-1.2.1). Justificación: Involucrar a los probadores durante diversas actividades del ciclo de vida del desarrollo de software (SDLC) ayudará a detectar defectos en los productos de trabajo",
@@ -76,13 +78,12 @@
     "id": 255,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Cuáles DOS de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de pruebas?  ",
+    "question": "¿Cuáles de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de pruebas?",
     "options": [
-      "A) Configurar entornos de prueba",
-      "B) Mantener el backlog del producto",
-      "C) Diseñar soluciones a nuevos requisitos",
-      "D) Crear el plan de prueba",
-      "E) Analizar la base de prueba"
+      "A) Configurar entornos y Analizar la base de prueba",
+      "B) Mantener el backlog y Diseñar soluciones",
+      "C) Diseñar soluciones y Crear el plan de prueba",
+      "D) Mantener el backlog y Configurar entornos"
     ],
     "correctAnswer": 0,
     "explanation": "La opción A) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#6, LO: FL-1.4.5). Justificación: Configurar entornos de prueba",
@@ -437,13 +438,12 @@
     "id": 279,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "¿Cuáles DOS de las siguientes opciones son los criterios de salida para probar un sistema?  ",
+    "question": "¿Cuál de las siguientes opciones es un criterio de salida típico para probar un sistema?",
     "options": [
       "A) Preparación del entorno de prueba",
-      "B) La capacidad de iniciar sesión en el objeto de prueba por parte del probador",
+      "B) Capacidad de iniciar sesión",
       "C) Se alcanza la densidad de defectos estimada",
-      "D) Los requisitos se traducen al formato dado/cuando/entonces (given/when/then)",
-      "E) Las pruebas de regresión están automatizadas"
+      "D) Requisitos traducidos al formato given/when/then"
     ],
     "correctAnswer": 2,
     "explanation": "La opción C) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#31, LO: FL-5.1.3). Justificación: Se alcanza la densidad de defectos estimada",
@@ -578,8 +578,7 @@
       "A) Impedimentos para las pruebas",
       "B) Cobertura de rama lograda",
       "C) Progreso de las pruebas",
-      "D) Nuevos riesgos dentro del ciclo de prueba",
-      "E) Tiempo necesario para reparar un defecto Pregunta #A26 (1 Punto) ¿Cuál de las siguientes piezas de información contenida en un informe de progreso de prueba es la MENOS útil para los representantes del negocio?"
+      "D) Nuevos riesgos dentro del ciclo de prueba"
     ],
     "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra A, Q#40, LO: FL-6.2.1). Justificación: Cobertura de rama lograda",
@@ -949,13 +948,12 @@
     "id": 313,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "¿Cuáles DOS de las siguientes afirmaciones proporcionan la MEJOR justificación para usar pruebas exploratorias?  ",
+    "question": "¿Qué justifica MEJOR el uso de pruebas exploratorias?",
     "options": [
-      "A) Los testers no disponen de suficiente tiempo para el diseño y la ejecución de pruebas",
-      "B) La estrategia de pruebas existente requiere que los testers usen técnicas formales de caja negra",
-      "C) La especificación está escrita en un lenguaje formal que puede ser procesado por una herramienta",
-      "D) Los testers son miembros de un equipo ágil y tienen buenas habilidades de programación",
-      "E) Los testers tienen experiencia en el dominio de negocio y buenas habilidades analíticas"
+      "A) Poco tiempo para diseño y testers con experiencia",
+      "B) Uso de técnicas formales de caja negra requeridas",
+      "C) Especificación en lenguaje formal",
+      "D) Testers con buenas habilidades de programación"
     ],
     "correctAnswer": 0,
     "explanation": "La opción A) y E) son las respuestas correctas según el Examen Oficial ISTQB CTFL v4.0 (Muestra B, Q#26, LO: FL-4.4.2). Justificación: Las pruebas exploratorias son ideales cuando hay poco tiempo para diseño formal (A) y cuando el tester tiene experiencia en el dominio (E).",
@@ -1225,8 +1223,7 @@
       "A) Implementación de pruebas",
       "B) Diseño de pruebas",
       "C) Ejecución de pruebas",
-      "D) Monitorización de pruebas",
-      "E) Análisis de pruebas"
+      "D) Monitorización de pruebas"
     ],
     "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra C, Q#4, LO: FL-1.4.1). Justificación: Las técnicas de diseño de pruebas como el análisis de valores límite y la partición de equivalencia se aplican durante el diseño de pruebas.",
@@ -1931,8 +1928,7 @@
       "A) AN = 2001, AA = 2065",
       "B) AN = 1900, AA = 1965",
       "C) AN = 1965, AA = 1900",
-      "D) AN = 2011, AA = 2029",
-      "E) AN = 2000, AA = 2000"
+      "D) AN = 2011, AA = 2029"
     ],
     "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#20, LO: FL-4.2.1). Justificación: AN = 1900, AA = 1965",
@@ -2154,11 +2150,10 @@
     "topic": "Gestión de las Actividades de Prueba",
     "question": "¿Cuál de los siguientes es un riesgo de producto?  ",
     "options": [
-      "A) Corrupción del alcance (Scope creep)",
-      "B) Arquitectura deficiente (Poor architecture)",
+      "A) Corrupción del alcance",
+      "B) Arquitectura deficiente",
       "C) Recorte de costos",
-      "D) Falta de soporte de herramientas",
-      "E) Tiempo de respuesta demasiado largo"
+      "D) Falta de soporte de herramientas"
     ],
     "correctAnswer": 1,
     "explanation": "La opción B) es la respuesta correcta según el Examen Oficial ISTQB CTFL v4.0 (Muestra D, Q#35, LO: FL-5.2.2). Justificación: Arquitectura deficiente (Poor architecture)",
