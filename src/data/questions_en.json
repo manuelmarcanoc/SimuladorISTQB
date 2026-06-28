@@ -5844,5 +5844,117 @@
     "explanation": "A. Incorrect. Too vague, lacks critical information to reproduce and resolve the defect. B. Incorrect. Although better than (A), it lacks important structural elements such as ID, environment, severity, status. C. Correct. This report includes all essential elements according to the syllabus: unique identifier, descriptive title, identification of the test environment, clear description for reproduction, expected vs actual results, severity, and status. It allows effective reproduction and resolution. D. Incorrect. Very general description without specific details to reproduce or understand the problem.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_38"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "medium",
+    "question": "What is a benefit of early and frequent feedback from stakeholders in a project?",
+    "options": [
+      "Accelerates the implementation of new technological tools.",
+      "Facilitates the early identification of problems in development.",
+      "Reduces the need for training in the test team.",
+      "Increases the duration of the project lifecycle."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrect. Feedback is not directly related to implementing technological tools.\nB. Correct. Early and frequent feedback helps identify problems earlier in the development cycle.\nC. Incorrect. Feedback does not eliminate the need for training.\nD. Incorrect. Early and frequent feedback tends to optimize the project lifecycle, not increase it.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_1"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "medium",
+    "question": "What advantage does frequent feedback from stakeholders provide in a project?",
+    "options": [
+      "Facilitates the identification of errors in early stages.",
+      "Minimizes communication between teams.",
+      "Reduces development time by avoiding reviews.",
+      "Increases the amount of documentation required."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. Frequent feedback allows errors and misunderstandings to be detected in time, facilitating their correction before advancing.\nB. Incorrect. Frequent feedback encourages communication between teams and stakeholders.\nC. Incorrect. Although it may help avoid reviews, feedback does not necessarily reduce development time.\nD. Incorrect. Early feedback tends to simplify documentation by clarifying requirements from the start.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_2"
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "Which of the following statements best describes a benefit of static testing?",
+    "options": [
+      "Static testing allows defects to be found in early stages, reducing the cost of correcting them.",
+      "Static testing requires more time than dynamic testing to be carried out.",
+      "Static testing is useful mainly for validating software functionality.",
+      "Static testing cannot be automated."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. This is a key benefit of static testing, as identifying defects early can be less costly than correcting them in later stages.\nB. Incorrect. Generally, static testing requires less time than dynamic testing to detect defects.\nC. Incorrect. Static testing does not validate functionality, but reviews code quality, documentation, etc.\nD. Incorrect. Static testing can be automated using code analysis tools.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_3"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "Which of the following elements is essential to ensure the effectiveness of a review?",
+    "options": [
+      "Active participation of all members in the review process.",
+      "Conducting the review without a structured approach to foster creativity.",
+      "Limiting the review time to less than 15 minutes to maintain participant energy.",
+      "Allowing only the team leader to share observations to avoid confusion."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. Active participation of all members is crucial to identifying more defects and improving quality.\nB. Incorrect. A structured approach is fundamental to guide the review and ensure all relevant aspects are covered.\nC. Incorrect. Limiting review time can lead to overlooking important defects.\nD. Incorrect. Allowing only the leader to share observations can restrict the diversity of opinions and findings.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_5"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "Which of the following elements is essential to achieve an effective review?",
+    "options": [
+      "Having a moderator to control the discussion.",
+      "Allowing all participants to be reviewers without prior preparation.",
+      "It is not necessary to document the problems identified during the review.",
+      "Conducting the review informally and without structure."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. A moderator helps maintain focus and productivity during the review.\nB. Incorrect. Preparation by reviewers is crucial for a successful review.\nC. Incorrect. Documenting problems is fundamental for tracking and improvement.\nD. Incorrect. A lack of structure can lead to confusion and ineffective results.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_6"
+  },
+  {
+    "chapter": 3,
+    "topic": "Tipos de Revisión",
+    "difficulty": "medium",
+    "question": "In your company, reviews are conducted with the following characteristics:\n\n- There is no defined role for a moderator.\n- The main objective is to identify defects.\n- An informal discussion is held among participants.\n- No prior preparation of documents is required.\n\nWhat type of review is being described?",
+    "options": [
+      "Informal review",
+      "Walkthrough",
+      "Technical review",
+      "Inspection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. It is an informal review, as it requires no moderator and focuses on identifying defects through open discussion.\nB. Incorrect. Walkthroughs require a author as a leader and a more structured approach, which is not mentioned here.\nC. Incorrect. Technical reviews usually follow a more formal process, with defined roles and prior preparation.\nD. Incorrect. Inspections are formal processes involving specific roles and a clear objective of finding defects, which does not apply here.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_7"
+  },
+  {
+    "chapter": 3,
+    "topic": "Tipos de Revisión",
+    "difficulty": "medium",
+    "question": "In your organization, the following activities take place in a review:\n\n- No moderator is required.\n- Participants review the work informally.\n- No formal report is generated upon conclusion.\n- Suggestions for improvement are discussed.\n\nWhich of the following types of review is MOST likely taking place?",
+    "options": [
+      "Informal review",
+      "Technical review",
+      "Inspection",
+      "Walkthrough"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. Informal reviews do not require a moderator, do not produce formal reports, and allow open discussions, fitting the characteristics mentioned.\nB. Incorrect. Technical reviews usually require a structured approach, which does not align with the given description.\nC. Incorrect. Inspections are very formal and require specific documentation, contradicting the lack of a formal report in this case.\nD. Incorrect. Walkthroughs are structured with the author leading, which is not present in the described situation.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_8"
   }
 ]

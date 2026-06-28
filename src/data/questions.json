@@ -5776,5 +5776,117 @@
     "explanation": "A. No es correcto. Demasiado vago, falta información crítica para reproducir y resolver el defecto.\nB. No es correcto. Aunque mejor que (a), carece de elementos estructurales importantes como ID, entorno, severidad, estado.\nC. Es correcto. Este informe incluye todos los elementos esenciales según el syllabus: identificador único, título descriptivo, identificación del entorno de prueba, descripción clara para reproducción, resultados esperados vs actuales, severidad, y estado. Permite reproducción y resolución efectiva.\nD. No es correcto. Descripción muy general sin detalles específicos para reproducir o entender el problema.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_38"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "medium",
+    "question": "¿Qué ventaja ofrece la retroalimentación temprana y frecuente de los interesados en un proyecto?",
+    "options": [
+      "Acelera la implementación de nuevas herramientas tecnológicas.",
+      "Facilita la identificación temprana de problemas en el desarrollo.",
+      "Reduce la necesidad de capacitación en el equipo de pruebas.",
+      "Aumenta la duración del ciclo de vida del proyecto."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. La retroalimentación no se relaciona directamente con la implementación de herramientas tecnológicas.\nB. Es correcto. La retroalimentación temprana y frecuente ayuda a identificar problemas antes en el ciclo de desarrollo.\nC. No es correcto. La retroalimentación no elimina la necesidad de capacitación.\nD. No es correcto. La retroalimentación temprana y frecuente tiende a optimizar el ciclo de vida del proyecto, no a aumentarlo.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_1"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "medium",
+    "question": "¿Qué ventaja proporciona la retroalimentación frecuente de las partes interesadas en un proyecto?",
+    "options": [
+      "Facilita la identificación de errores en etapas tempranas.",
+      "Minimiza la comunicación entre los equipos.",
+      "Reduce el tiempo de desarrollo al evitar revisiones.",
+      "Aumenta la cantidad de documentación requerida."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. La retroalimentación frecuente permite detectar errores y malentendidos a tiempo, lo que facilita su corrección antes de avanzar.\nB. No es correcto. La retroalimentación frecuente fomenta la comunicación entre los equipos y las partes interesadas.\nC. No es correcto. Aunque puede ayudar a evitar revisiones, la retroalimentación no necesariamente reduce el tiempo de desarrollo.\nD. No es correcto. La retroalimentación temprana tiende a simplificar la documentación al aclarar requisitos desde el inicio.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_2"
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor un beneficio de las pruebas estáticas?",
+    "options": [
+      "Las pruebas estáticas permiten encontrar defectos en etapas tempranas, reduciendo el costo de su corrección.",
+      "Las pruebas estáticas requieren más tiempo que las pruebas dinámicas para llevarse a cabo.",
+      "Las pruebas estáticas son útiles principalmente para validar la funcionalidad del software.",
+      "Las pruebas estáticas no pueden ser automatizadas."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Este es un beneficio clave de las pruebas estáticas, ya que identificar defectos tempranamente puede ser menos costoso que corregirlos en etapas posteriores.\nB. No es correcto. Generalmente, las pruebas estáticas requieren menos tiempo que las pruebas dinámicas para detectar defectos.\nC. No es correcto. Las pruebas estáticas no validan la funcionalidad, sino que revisan la calidad del código, la documentación, etc.\nD. No es correcto. Las pruebas estáticas pueden ser automatizadas mediante herramientas de análisis de código.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_3"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes elementos es esencial para asegurar la eficacia de una revisión?",
+    "options": [
+      "La participación activa de todos los miembros en el proceso de revisión.",
+      "Realizar la revisión sin un enfoque estructurado para fomentar la creatividad.",
+      "Limitar el tiempo de revisión a menos de 15 minutos para mantener la energía de los participantes.",
+      "Permitir que solo el líder del equipo comparta sus observaciones para evitar confusiones."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. La participación activa de todos los miembros es crucial para que se identifiquen más defectos y se mejore la calidad.\nB. No es correcto. Un enfoque estructurado es fundamental para guiar la revisión y asegurar que se cubran todos los aspectos relevantes.\nC. No es correcto. Limitar el tiempo de revisión puede conducir a pasar por alto defectos importantes.\nD. No es correcto. Permitir que solo el líder comparta observaciones puede restringir la diversidad de opiniones y hallazgos.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_5"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes elementos es esencial para lograr una revisión efectiva?",
+    "options": [
+      "Tener un moderador que controle la discusión.",
+      "Permitir que todos los participantes sean evaluadores sin preparación previa.",
+      "No es necesario documentar los problemas identificados durante la revisión.",
+      "Conducir la revisión de manera informal y sin estructura."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Un moderador ayuda a mantener el enfoque y la productividad durante la revisión.\nB. No es correcto. La preparación de los evaluadores es crucial para una revisión exitosa.\nC. No es correcto. Documentar los problemas es fundamental para el seguimiento y la mejora.\nD. No es correcto. La falta de estructura puede llevar a confusión y resultados ineficaces.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_6"
+  },
+  {
+    "chapter": 3,
+    "topic": "Tipos de Revisión",
+    "difficulty": "medium",
+    "question": "En su empresa, se llevan a cabo revisiones con las siguientes características:\n\n- No existe un rol definido para un moderador.\n- El objetivo principal es identificar defectos.\n- Se realiza una discusión informal entre los participantes.\n- No se requiere preparación previa de los documentos.\n\n¿Qué tipo de revisión es la que se está describiendo?",
+    "options": [
+      "Revisión informal",
+      "Revisión guiada",
+      "Revisión técnica",
+      "Inspección"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. La imagen es de una revisión informal, ya que no requiere un moderador y se centra en identificar defectos a través de una discusión abierta.\nB. Las revisiones guiadas requieren un moderador y un enfoque más estructurado, lo que no se menciona aquí.\nC. Las revisiones técnicas suelen seguir un proceso más formal, con roles definidos y preparación previa.\nD. Las inspecciones son procesos formales que involucran roles específicos y un objetivo claro de encontrar defectos, lo cual no se aplica en este caso.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_7"
+  },
+  {
+    "chapter": 3,
+    "topic": "Tipos de Revisión",
+    "difficulty": "medium",
+    "question": "En su organización, se llevan a cabo las siguientes actividades en una revisión:\n\n- No se requiere un moderador.\n- Los participantes revisan el trabajo de manera informal.\n- No se genera un informe formal al concluir.\n- Se discuten las sugerencias de mejora.\n\n¿Cuál de los siguientes tipos de revisión es MÁS probable que se esté llevando a cabo?",
+    "options": [
+      "Revisión informal",
+      "Revisión técnica",
+      "Inspección",
+      "Revisión guiada"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Las revisiones informales no requieren un moderador, no producen informes formales y permiten discusiones abiertas, lo cual encaja con las características mencionadas.\nB. Las revisiones técnicas suelen requerir un moderador y un enfoque más estructurado, lo que no se alinea con la descripción dada.\nC. Las inspecciones son muy formales y requieren documentación específica, lo que contradice la falta de un informe formal en este caso.\nD. Las revisiones guiadas se estructuran con un moderador y un objetivo claro de evaluación, lo cual no está presente en la situación descrita.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_8"
   }
 ]

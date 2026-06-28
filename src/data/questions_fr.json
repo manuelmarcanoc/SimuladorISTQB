@@ -5844,5 +5844,117 @@
     "explanation": "A. Incorrect. Trop vague, il manque des informations essentielles pour reproduire et résoudre le défaut. B. Incorrect. Bien que meilleur que (A), il manque d'importants éléments structurels tels que l'ID, l'environnement, la sévérité, le statut. C. Correct. Ce rapport comprend tous les éléments essentiels selon le syllabus : identifiant unique, titre descriptif, identification de l'environnement de test, description claire pour la reproduction, résultats attendus vs actuels, sévérité, et statut. Il permet une reproduction et une résolution efficaces. D. Incorrect. Description très générale sans détails spécifiques pour reproduire ou comprendre le problème.",
     "source": "User Provided Batch 8",
     "id": "q_batch8_38"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "medium",
+    "question": "Quel est l'avantage d'un retour d'information précoce et fréquent de la part des parties prenantes d'un projet ?",
+    "options": [
+      "Accélère la mise en œuvre de nouveaux outils technologiques.",
+      "Facilite l'identification précoce des problèmes de développement.",
+      "Réduit le besoin de formation de l'équipe de test.",
+      "Augmente la durée du cycle de vie du projet."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrect. Le retour d'information n'est pas directement lié à la mise en œuvre d'outils technologiques.\nB. Correct. Un retour d'information précoce et fréquent aide à identifier les problèmes plus tôt dans le cycle de développement.\nC. Incorrect. Le retour d'information n'élimine pas le besoin de formation.\nD. Incorrect. Un retour d'information précoce et fréquent a tendance à optimiser le cycle de vie du projet, et non à l'augmenter.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_1"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "medium",
+    "question": "Quel avantage les retours fréquents des parties prenantes procurent-ils dans un projet ?",
+    "options": [
+      "Facilite l'identification des erreurs à des stades précoces.",
+      "Minimise la communication entre les équipes.",
+      "Réduit le temps de développement en évitant les révisions.",
+      "Augmente la quantité de documentation requise."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. Les retours fréquents permettent de détecter à temps les erreurs et les malentendus, facilitant leur correction avant d'avancer.\nB. Incorrect. Les retours fréquents encouragent la communication entre les équipes et les parties prenantes.\nC. Incorrect. Bien qu'il puisse aider à éviter les révisions, le retour d'information ne réduit pas nécessairement le temps de développement.\nD. Incorrect. Les retours précoces ont tendance à simplifier la documentation en clarifiant les exigences dès le départ.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_2"
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "Laquelle des affirmations suivantes décrit le mieux un avantage des tests statiques ?",
+    "options": [
+      "Les tests statiques permettent de trouver des défauts à des stades précoces, réduisant le coût de leur correction.",
+      "Les tests statiques nécessitent plus de temps que les tests dynamiques pour être effectués.",
+      "Les tests statiques sont principalement utiles pour valider la fonctionnalité du logiciel.",
+      "Les tests statiques ne peuvent pas être automatisés."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. C'est un avantage clé des tests statiques, car identifier les défauts tôt peut être moins coûteux que de les corriger à des stades ultérieurs.\nB. Incorrect. Généralement, les tests statiques nécessitent moins de temps que les tests dynamiques pour détecter des défauts.\nC. Incorrect. Les tests statiques ne valident pas la fonctionnalité, mais examinent la qualité du code, la documentation, etc.\nD. Incorrect. Les tests statiques peuvent être automatisés à l'aide d'outils d'analyse de code.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_3"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "Lequel des éléments suivants est essentiel pour assurer l'efficacité d'une revue ?",
+    "options": [
+      "La participation active de tous les membres au processus de revue.",
+      "Mener la revue sans approche structurée pour favoriser la créativité.",
+      "Limiter le temps de revue à moins de 15 minutes pour maintenir l'énergie des participants.",
+      "Autoriser uniquement le chef d'équipe à partager ses observations pour éviter la confusion."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. La participation active de tous les membres est cruciale pour identifier plus de défauts et améliorer la qualité.\nB. Incorrect. Une approche structurée est fondamentale pour guider la revue et s'assurer que tous les aspects pertinents sont couverts.\nC. Incorrect. Limiter le temps de revue peut amener à négliger des défauts importants.\nD. Incorrect. N'autoriser que le chef à partager ses observations peut restreindre la diversité des opinions et des découvertes.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_5"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "Lequel des éléments suivants est essentiel pour réaliser une revue efficace ?",
+    "options": [
+      "Avoir un modérateur pour contrôler la discussion.",
+      "Permettre à tous les participants d'être des évaluateurs sans préparation préalable.",
+      "Il n'est pas nécessaire de documenter les problèmes identifiés pendant la revue.",
+      "Conduire la revue de manière informelle et sans structure."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. Un modérateur aide à maintenir la concentration et la productivité pendant la revue.\nB. Incorrect. La préparation par les évaluateurs est cruciale pour une revue réussie.\nC. Incorrect. La documentation des problèmes est fondamentale pour le suivi et l'amélioration.\nD. Incorrect. Un manque de structure peut entraîner de la confusion et des résultats inefficaces.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_6"
+  },
+  {
+    "chapter": 3,
+    "topic": "Tipos de Revisión",
+    "difficulty": "medium",
+    "question": "Dans votre entreprise, les revues sont menées avec les caractéristiques suivantes :\n\n- Il n'y a pas de rôle défini pour un modérateur.\n- L'objectif principal est d'identifier les défauts.\n- Une discussion informelle a lieu entre les participants.\n- Aucune préparation préalable des documents n'est requise.\n\nQuel type de revue est décrit ici ?",
+    "options": [
+      "Revue informelle",
+      "Revue technique (Walkthrough)",
+      "Revue technique",
+      "Inspection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. C'est une revue informelle, car elle ne nécessite pas de modérateur et se concentre sur l'identification des défauts par une discussion ouverte.\nB. Incorrect. Les revues de type \"Walkthrough\" nécessitent que l'auteur dirige et une approche plus structurée, ce qui n'est pas mentionné ici.\nC. Incorrect. Les revues techniques suivent généralement un processus plus formel, avec des rôles définis et une préparation préalable.\nD. Incorrect. Les inspections sont des processus formels impliquant des rôles spécifiques et un objectif clair de trouver des défauts, ce qui ne s'applique pas ici.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_7"
+  },
+  {
+    "chapter": 3,
+    "topic": "Tipos de Revisión",
+    "difficulty": "medium",
+    "question": "Dans votre organisation, les activités suivantes ont lieu lors d'une revue :\n\n- Aucun modérateur n'est requis.\n- Les participants examinent le travail de manière informelle.\n- Aucun rapport formel n'est généré à la fin.\n- Les suggestions d'amélioration sont discutées.\n\nLequel des types de revue suivants a le PLUS de chances de se dérouler ?",
+    "options": [
+      "Revue informelle",
+      "Revue technique",
+      "Inspection",
+      "Revue guidée (Walkthrough)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Correct. Les revues informelles ne nécessitent pas de modérateur, ne produisent pas de rapports formels et permettent des discussions ouvertes, ce qui correspond aux caractéristiques mentionnées.\nB. Incorrect. Les revues techniques nécessitent généralement une approche structurée, ce qui ne correspond pas à la description donnée.\nC. Incorrect. Les inspections sont très formelles et nécessitent une documentation spécifique, ce qui contredit l'absence de rapport formel dans ce cas.\nD. Incorrect. Les \"Walkthroughs\" sont structurés avec l'auteur qui dirige, ce qui n'est pas présent dans la situation décrite.",
+    "source": "User Provided Batch 9",
+    "id": "q_batch9_8"
   }
 ]
