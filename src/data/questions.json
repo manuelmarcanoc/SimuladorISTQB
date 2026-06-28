@@ -4966,7 +4966,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "¿Cuál de las siguientes habilidades es esencial para un probador al evaluar la calidad de un producto de software? Comunicación efectiva Conocimiento técnico Capacidad de análisis Gestión del tiempo  ",
+    "question": "¿Cuál de las siguientes habilidades es esencial para un probador al evaluar la calidad de un producto de software?\n\ni. Comunicación efectiva\nii. Conocimiento técnico\niii. Capacidad de análisis\niv. Gestión del tiempo",
     "options": [
       "i y ii son esenciales; iii y iv no lo son",
       "iii y iv son esenciales; i y ii no lo son",

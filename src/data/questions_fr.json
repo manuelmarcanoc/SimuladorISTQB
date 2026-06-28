@@ -4898,7 +4898,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lors de l'évaluation de la qualité d'un produit logiciel ? Communication efficace Connaissances techniques Compétences analytiques Gestion du temps  ",
+    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lors de l'évaluation de la qualité d'un produit logiciel ?\n\ni. Communication efficace\nii. Connaissances techniques\niii. Compétences analytiques\niv. Gestion du temps",
     "options": [
       "i et ii sont essentiels ; iii et iv ne sont pas",
       "iii et iv sont essentiels ; moi et ii ne le sommes pas",

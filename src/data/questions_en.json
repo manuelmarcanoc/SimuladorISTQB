@@ -4898,7 +4898,7 @@
     "chapter": 1,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Which of the following skills is essential for a tester\n\nwhen evaluating the quality of a software product? Effective communication Technical knowledge Analytical skills Time management",
+    "question": "Which of the following skills is essential for a tester when evaluating the quality of a software product?\n\ni. Effective communication\nii. Technical knowledge\niii. Analytical skills\niv. Time management",
     "options": [
       "i and ii are essential; iii and iv are not",
       "iii and iv are essential; i and ii are not",
