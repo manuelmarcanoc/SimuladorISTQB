@@ -4225,7 +4225,7 @@
     "id": 1070,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Cuáles de los siguientes contextos podría modificar el enfoque del proceso de pruebas en un proyecto de software? (i) El tipo de cliente y sus expectativas, (ii) La experiencia del equipo de desarrollo, (iii) La duración del proyecto, (iv) La metodología de desarrollo utilizada.  ",
+    "question": "¿Cuáles de los siguientes contextos podría modificar el enfoque del proceso de pruebas en un proyecto de software?\n\ni. El tipo de cliente y sus expectativas,\n\nii. La experiencia del equipo de desarrollo,\n\niii. La duración del proyecto,\n\niv. La metodología de desarrollo utilizada.  ",
     "options": [
       "i y ii son contextos que modifican el enfoque de pruebas",
       "ii y iii son contextos que modifican el enfoque de pruebas",
@@ -4240,7 +4240,7 @@
     "id": 1071,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Qué elementos del contexto pueden alterar la estrategia de pruebas en un proyecto? (i) La experiencia del equipo de pruebas, (ii) El presupuesto disponible para pruebas, (iii) Las herramientas de automatización utilizadas, (iv) La cultura organizacional del equipo.  ",
+    "question": "¿Qué elementos del contexto pueden alterar la estrategia de pruebas en un proyecto?\n\ni. La experiencia del equipo de pruebas,\n\nii. El presupuesto disponible para pruebas,\n\niii. Las herramientas de automatización utilizadas,\n\niv. La cultura organizacional del equipo.  ",
     "options": [
       "i, ii, iii alteran la estrategia de pruebas",
       "ii, iii, iv alteran la estrategia de pruebas",
@@ -4285,7 +4285,7 @@
     "id": 1074,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Qué habilidades son esenciales para un probador al trabajar en un equipo ágil? (i) Escucha activa, (ii) Conocimientos técnicos profundos, (iii) Comunicación efectiva, (iv) Capacidad para trabajar bajo presión.  ",
+    "question": "¿Qué habilidades son esenciales para un probador al trabajar en un equipo ágil?\n\ni. Escucha activa,\n\nii. Conocimientos técnicos profundos,\n\niii. Comunicación efectiva,\n\niv. Capacidad para trabajar bajo presión.  ",
     "options": [
       "i y iii son esenciales; ii y iv no lo son",
       "i, ii y iv son esenciales; iii no lo es",
@@ -4300,7 +4300,7 @@
     "id": 1075,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "¿Cuál de las siguientes habilidades (i-v) es ESENCIAL para un probador? (i) Análisis de riesgos, (ii) Comunicación efectiva, (iii) Conocimientos técnicos sobre programación, (iv) Creatividad, (v) Gestión del tiempo.  ",
+    "question": "¿Cuál de las siguientes habilidades (i-v) es ESENCIAL para un probador?\n\ni. Análisis de riesgos,\n\nii. Comunicación efectiva,\n\niii. Conocimientos técnicos sobre programación,\n\niv. Creatividad,\n\nv. Gestión del tiempo.  ",
     "options": [
       "i y ii son esenciales; iii, iv y v no lo son",
       "iii y iv son esenciales; i, ii y v no lo son",
@@ -4509,7 +4509,7 @@
   {
     "id": "q_batch2_butb18o4u",
     "topic": "Fundamentos del Testing",
-    "question": "¿Cuál de los siguientes elementos puede modificar el enfoque de las pruebas en un proyecto de software? El número de empleados en el área comercial de la empresa La complejidad del software a probar El presupuesto asignado al proyecto El uso de herramientas automatizadas  ",
+    "question": "¿Cuál de los siguientes elementos puede modificar el enfoque de las pruebas en un proyecto de software?\n\ni. El número de empleados en el área comercial de la empresa\nii. La complejidad del software a probar\niii. El presupuesto asignado al proyecto\niv. El uso de herramientas automatizadas",
     "options": [
       "i, ii, iii pueden modificar el enfoque de las pruebas",
       "ii, iii, iv pueden modificar el enfoque de las pruebas",
@@ -4950,7 +4950,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "¿Cuáles de los siguientes elementos son factores que pueden afectar la estrategia de pruebas en un proyecto de software? El perfil del equipo de pruebas La complejidad del sistema a probar La disponibilidad de recursos de hardware Las técnicas de gestión de proyectos utilizadas  ",
+    "question": "¿Cuáles de los siguientes elementos son factores que pueden afectar la estrategia de pruebas en un proyecto de software?\n\ni. El perfil del equipo de pruebas\nii. La complejidad del sistema a probar\niii. La disponibilidad de recursos de hardware\niv. Las técnicas de gestión de proyectos utilizadas",
     "options": [
       "i, ii y iii son factores que afectan la estrategia de pruebas",
       "ii, iii y iv son factores que afectan la estrategia de pruebas",

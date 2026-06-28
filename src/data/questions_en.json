@@ -153,7 +153,7 @@
     "id": 1070,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following contexts could modify the approach of the testing process in a software project? (i) The type of client and their expectations, (ii) The experience of the development team, (iii) The duration of the project, (iv) The development methodology used.  ",
+    "question": "Which of the following contexts could modify the approach of the testing process in a software project?\n\ni. The type of client and their expectations,\n\nii. The experience of the development team,\n\niii. The duration of the project,\n\niv. The development methodology used.  ",
     "options": [
       "i and ii are contexts that modify the testing approach",
       "ii and iii are contexts that modify the testing approach",
@@ -168,7 +168,7 @@
     "id": 1071,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which context elements can alter the test strategy in a project? (i) The experience of the test team, (ii) The budget available for testing, (iii) The automation tools used, (iv) The team's organizational culture.  ",
+    "question": "Which context elements can alter the test strategy in a project?\n\ni. The experience of the test team,\n\nii. The budget available for testing,\n\niii. The automation tools used,\n\niv. The team's organizational culture.  ",
     "options": [
       "i, ii, iii alter the test strategy",
       "ii, iii, iv alter the test strategy",
@@ -213,7 +213,7 @@
     "id": 1074,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which skills are essential for a tester when working in an agile team? (i) Active listening, (ii) Deep technical knowledge, (iii) Effective communication, (iv) Ability to work under pressure.  ",
+    "question": "Which skills are essential for a tester when working in an agile team?\n\ni. Active listening,\n\nii. Deep technical knowledge,\n\niii. Effective communication,\n\niv. Ability to work under pressure.  ",
     "options": [
       "i and iii are essential; ii and iv are not",
       "i, ii and iv are essential; iii is not",
@@ -228,7 +228,7 @@
     "id": 1075,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following skills (i-v) is ESSENTIAL for a tester? (i) Risk analysis, (ii) Effective communication, (iii) Technical programming knowledge, (iv) Creativity, (v) Time management.  ",
+    "question": "Which of the following skills (i-v) is ESSENTIAL for a tester?\n\ni. Risk analysis,\n\nii. Effective communication,\n\niii. Technical programming knowledge,\n\niv. Creativity,\n\nv. Time management.  ",
     "options": [
       "i and ii are essential; iii, iv and v are not",
       "iii and iv are essential; i, ii and v are not",
@@ -903,7 +903,7 @@
     "id": "q_batch2_butb18o4u",
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following elements can modify the test approach in a software project? The number of employees in the company's commercial area The complexity of the software to be tested The budget allocated to the project The use of automated tools  ",
+    "question": "Which of the following elements can modify the test approach in a software project?\n\ni. The number of employees in the company's commercial area\nii. The complexity of the software to be tested\niii. The budget assigned to the project\niv. The use of automated tools",
     "options": [
       "i, ii, iii can modify the test approach",
       "ii, iii, iv can modify the test approach",
@@ -4882,7 +4882,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Which of the following elements are factors that can affect the testing strategy in a software project? The profile of the test team The complexity of the system to be tested The availability of hardware resources The project management techniques used  ",
+    "question": "Which of the following elements are factors that can affect the test strategy in a software project?\n\ni. The profile of the test team\nii. The complexity of the system to be tested\niii. The availability of hardware resources\niv. The project management techniques used",
     "options": [
       "i, ii and iii are factors that affect the testing strategy",
       "ii, iii and iv are factors that affect the testing strategy",

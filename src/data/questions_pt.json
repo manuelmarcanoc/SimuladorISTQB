@@ -4225,7 +4225,7 @@
     "id": 1070,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Quais dos seguintes contextos poderiam modificar a abordagem do processo de testes em um projeto de software? (i) O tipo de cliente e suas expectativas, (ii) A experiência da equipe de desenvolvimento, (iii) A duração do projeto, (iv) A metodologia de desenvolvimento utilizada.",
+    "question": "Quais dos seguintes contextos poderiam modificar a abordagem do processo de testes em um projeto de software?\n\ni. O tipo de cliente e suas expectativas,\n\nii. A experiência da equipe de desenvolvimento,\n\niii. A duração do projeto,\n\niv. A metodologia de desenvolvimento utilizada.",
     "options": [
       "i e ii são contextos que modificam a abordagem de testes",
       "ii e iii são contextos que modificam a abordagem de testes",
@@ -4240,7 +4240,7 @@
     "id": 1071,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Quais elementos do contexto podem alterar a estratégia de testes em um projeto? (i) A experiência da equipe de testes, (ii) O orçamento disponível para testes, (iii) As ferramentas de automação utilizadas, (iv) A cultura organizacional da equipe.",
+    "question": "Quais elementos do contexto podem alterar a estratégia de testes em um projeto?\n\ni. A experiência da equipe de testes,\n\nii. O orçamento disponível para testes,\n\niii. As ferramentas de automação utilizadas,\n\niv. A cultura organizacional da equipe.",
     "options": [
       "i, ii, iii alteram a estratégia de testes",
       "ii, iii, iv alteram a estratégia de testes",
@@ -4285,7 +4285,7 @@
     "id": 1074,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Quais habilidades são essenciais para um testador ao trabalhar em uma equipe ágil? (i) Escuta ativa, (ii) Conhecimentos técnicos profundos, (iii) Comunicação eficaz, (iv) Capacidade para trabalhar sob pressão.",
+    "question": "Quais habilidades são essenciais para um testador ao trabalhar em uma equipe ágil?\n\ni. Escuta ativa,\n\nii. Conhecimentos técnicos profundos,\n\niii. Comunicação eficaz,\n\niv. Capacidade para trabalhar sob pressão.",
     "options": [
       "i e iii são essenciais; ii e iv não o são",
       "i, ii e iv são essenciais; iii não o é",
@@ -4300,7 +4300,7 @@
     "id": 1075,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Qual das seguintes habilidades (i-v) é ESSENCIAL para um testador? (i) Análise de riscos, (ii) Comunicação eficaz, (iii) Conhecimentos técnicos sobre programação, (iv) Criatividade, (v) Gestão do tempo.",
+    "question": "Qual das seguintes habilidades (i-v) é ESSENCIAL para um testador?\n\ni. Análise de riscos,\n\nii. Comunicação eficaz,\n\niii. Conhecimentos técnicos sobre programação,\n\niv. Criatividade,\n\nv. Gestão do tempo.",
     "options": [
       "i e ii são essenciais; iii, iv e v não o são",
       "iii e iv são essenciais; i, ii e v não o são",
@@ -4509,7 +4509,7 @@
   {
     "id": "q_batch2_butb18o4u",
     "topic": "Fundamentos del Testing",
-    "question": "Qual dos seguintes elementos pode modificar a abordagem dos testes em um projeto de software? O número de funcionários na área comercial da empresa A complexidade do software a ser testado O orçamento atribuído ao projeto O uso de ferramentas automatizadas",
+    "question": "Qual dos seguintes elementos pode modificar a abordagem de teste em um projeto de software?\n\ni. O número de funcionários na área comercial da empresa\nii. A complexidade do software a ser testado\niii. O orçamento atribuído ao projeto\niv. O uso de ferramentas automatizadas",
     "options": [
       "i, ii, iii podem modificar a abordagem dos testes",
       "ii, iii, iv podem modificar a abordagem dos testes",
@@ -4950,7 +4950,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Quais dos seguintes elementos são fatores que podem afetar a estratégia de teste em um projeto de software?\n\ni. O perfil da equipe de teste\nii. A complexidade do sistema a ser testado\niii. A disponibilidade de recursos de hardware\niv. As técnicas de gerenciamento de projetos utilizadas",
+    "question": "Quais dos seguintes elementos são fatores que podem afetar a estratégia de testes em um projeto de software?\n\ni. O perfil da equipe de testes\nii. A complexidade do sistema a ser testado\niii. A disponibilidade de recursos de hardware\niv. As técnicas de gerenciamento de projetos utilizadas",
     "options": [
       "i, ii e iii são fatores que afetam a estratégia de teste",
       "ii, iii e iv são fatores que afetam a estratégia de teste",

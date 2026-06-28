@@ -153,7 +153,7 @@
     "id": 1070,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Lesquels des contextes suivants pourraient modifier l'approche du processus de test dans un projet logiciel ? (i) Le type de client et ses attentes, (ii) L'expérience de l'équipe de développement, (iii) La durée du projet, (iv) La méthodologie de développement utilisée.  ",
+    "question": "Lesquels des contextes suivants pourraient modifier l'approche du processus de test dans un projet logiciel ?\n\ni. Le type de client et ses attentes,\n\nii. L'expérience de l'équipe de développement,\n\niii. La durée du projet,\n\niv. La méthodologie de développement utilisée.  ",
     "options": [
       "i et ii sont des contextes qui modifient l'approche de test",
       "ii et iii sont des contextes qui modifient l'approche de test",
@@ -168,7 +168,7 @@
     "id": 1071,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Quels éléments du contexte peuvent modifier la stratégie de test dans un projet ? (i) L'expérience de l'équipe de test, (ii) Le budget disponible pour les tests, (iii) Les outils d'automatisation utilisés, (iv) La culture organisationnelle de l'équipe.  ",
+    "question": "Quels éléments du contexte peuvent modifier la stratégie de test dans un projet ?\n\ni. L'expérience de l'équipe de test,\n\nii. Le budget disponible pour les tests,\n\niii. Les outils d'automatisation utilisés,\n\niv. La culture organisationnelle de l'équipe.  ",
     "options": [
       "i, ii, iii modifient la stratégie de test",
       "ii, iii, iv modifient la stratégie de test",
@@ -213,7 +213,7 @@
     "id": 1074,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Quelles compétences sont essentielles pour un testeur travaillant dans une équipe agile ? (i) Écoute active, (ii) Connaissances techniques approfondies, (iii) Communication efficace, (iv) Capacité à travailler sous pression.  ",
+    "question": "Quelles compétences sont essentielles pour un testeur travaillant dans une équipe agile ?\n\ni. Écoute active,\n\nii. Connaissances techniques approfondies,\n\niii. Communication efficace,\n\niv. Capacité à travailler sous pression.  ",
     "options": [
       "i et iii sont essentielles ; ii et iv ne le sont pas",
       "i, ii et iv sont essentielles ; iii ne l'est pas",
@@ -228,7 +228,7 @@
     "id": 1075,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Laquelle des compétences suivantes (i-v) est ESSENTIELLE pour un testeur ? (i) Analyse des risques, (ii) Communication efficace, (iii) Connaissances techniques en programmation, (iv) Créativité, (v) Gestion du temps.  ",
+    "question": "Laquelle des compétences suivantes (i-v) est ESSENTIELLE pour un testeur ?\n\ni. Analyse des risques,\n\nii. Communication efficace,\n\niii. Connaissances techniques en programmation,\n\niv. Créativité,\n\nv. Gestion du temps.  ",
     "options": [
       "i et ii sont essentielles ; iii, iv et v ne le sont pas",
       "iii et iv sont essentielles ; i, ii et v ne le sont pas",
@@ -903,7 +903,7 @@
     "id": "q_batch2_butb18o4u",
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Lequel des éléments suivants peut modifier l'approche de test dans un projet logiciel ? Le nombre d'employés dans le service commercial de l'entreprise La complexité du logiciel à tester Le budget alloué au projet L'utilisation d'outils automatisés  ",
+    "question": "Lequel des éléments suivants peut modifier l'approche de test dans un projet logiciel ?\n\ni. Le nombre d'employés dans la zone commerciale de l'entreprise\nii. La complexité du logiciel à tester\niii. Le budget alloué au projet\niv. L'utilisation d'outils automatisés",
     "options": [
       "i, ii, iii peuvent modifier l'approche de test",
       "ii, iii, iv peuvent modifier l'approche de test",
@@ -4882,7 +4882,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Parmi les éléments suivants, lesquels sont des facteurs pouvant affecter la stratégie de test dans un projet logiciel ? Le profil de l'équipe de test La complexité du système à tester La disponibilité des ressources matérielles Les techniques de gestion de projet utilisées  ",
+    "question": "Lequel des éléments suivants sont des facteurs pouvant affecter la stratégie de test dans un projet logiciel ?\n\ni. Le profil de l'équipe de test\nii. La complexité du système à tester\niii. La disponibilité des ressources matérielles\niv. Les techniques de gestion de projet utilisées",
     "options": [
       "i, ii et iii sont des facteurs qui affectent la stratégie de test",
       "ii, iii et iv sont des facteurs qui affectent la stratégie de test",
