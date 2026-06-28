@@ -5657,5 +5657,197 @@
     "explanation": "Explication générée en français.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_20"
+  },
+  {
+    "chapter": 4,
+    "topic": "Partición de Equivalencia",
+    "difficulty": "medium",
+    "question": "Un sistema de registro de usuarios valida la edad del usuario. El requisito indica: 'La edad debe estar entre 18 y 65 años inclusive para ser válido'. Aplicando la técnica de partición de equivalencia, ¿cuál es el conjunto MÍNIMO de casos de prueba que cubre todas las particiones de equivalencia? (FR traduit)",
+    "options": [
+      "Edad = 18, Edad = 40, Edad = 66 (FR)",
+      "Edad = 18, Edad = 65 (FR)",
+      "Edad = 17, Edad = 40, Edad = 66 (FR)",
+      "Edad = 0, Edad = 17, Edad = 40, Edad = 66 (FR)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_21"
+  },
+  {
+    "chapter": 4,
+    "topic": "Tabla de Decisiones",
+    "difficulty": "medium",
+    "question": "En una tabla de decisiones para un sistema de aprobación de préstamos, tienes las siguientes condiciones:\n\n- Edad ≥ 18 años\n- Ingresos ≥ $30,000\n- Historial crediticio bueno\n- Empleado por ≥ 2 años\n\nSi quisieras minimizar la tabla debido a la gran cantidad de combinaciones, ¿cuál sería la mejor estrategia? (FR traduit)",
+    "options": [
+      "Eliminar todas las condiciones menos importantes (FR)",
+      "Usar un enfoque basado en riesgo para reducir las reglas a probar (FR)",
+      "Combinar todas las condiciones en una sola regla (FR)",
+      "Crear múltiples tablas pequeñas separadas (FR)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_22"
+  },
+  {
+    "chapter": 4,
+    "topic": "Basadas en Experiencia",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR cómo se utiliza la predicción de errores en pruebas de software? (FR traduit)",
+    "options": [
+      "La predicción de errores se basa en identificar las áreas del software donde es más probable que ocurran defectos, utilizando datos históricos y patrones de errores pasados. (FR)",
+      "La predicción de errores se centra únicamente en la revisión de requisitos para detectar posibles faltas antes de que el desarrollo comience. (FR)",
+      "La predicción de errores implica adivinar aleatoriamente los errores en el software sin ninguna base en la experiencia previa. (FR)",
+      "La predicción de errores requiere que el probador evalúe constantemente el rendimiento del software durante su ejecución. (FR)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_26"
+  },
+  {
+    "chapter": 4,
+    "topic": "Basadas en Experiencia",
+    "difficulty": "medium",
+    "question": "Tu equipo de desarrollo ha implementado una nueva funcionalidad en el software, pero no se ha documentado adecuadamente. Tienes poco tiempo para realizar pruebas antes del lanzamiento. ¿Cuál es la mejor estrategia de prueba que puedes utilizar en esta situación? (FR traduit)",
+    "options": [
+      "Pruebas automatizadas (FR)",
+      "Pruebas exploratorias (FR)",
+      "Pruebas de regresión (FR)",
+      "Pruebas basadas en requisitos (FR)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_27"
+  },
+  {
+    "chapter": 4,
+    "topic": "ATDD/BDD",
+    "difficulty": "medium",
+    "question": "Un equipo ágil está iniciando la implementación de ATDD para su próximo sprint. El Scrum Master quiere saber quién debe participar en el taller de especificación ATDD.\n\n¿Cuál de las siguientes afirmaciones describe MEJOR la participación en un taller de especificación ATDD? (FR traduit)",
+    "options": [
+      "Solo los probadores, ya que son responsables de definir los criterios de aceptación. (FR)",
+      "Solo los desarrolladores, porque son quienes implementarán las pruebas automatizadas. (FR)",
+      "Representantes de negocio, desarrolladores y probadores colaboran conjuntamente. (FR)",
+      "Solo los representantes de negocio, porque los criterios de aceptación son requisitos del cliente. (FR)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_29"
+  },
+  {
+    "chapter": 5,
+    "topic": "Planificación de Pruebas",
+    "difficulty": "medium",
+    "question": "¿De qué manera pueden los probadores contribuir a una mejor planificación de la entrega de software? (FR traduit)",
+    "options": [
+      "Los probadores revisan las especificaciones y ofrecen retroalimentación sobre la viabilidad del proyecto. (FR)",
+      "Los probadores elaboran la documentación del usuario sin involucrarse en el desarrollo del producto. (FR)",
+      "Los probadores son responsables de establecer los plazos de entrega del proyecto. (FR)",
+      "Los probadores se enfocan en realizar pruebas al final del ciclo de desarrollo para asegurar la calidad. (FR)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_30"
+  },
+  {
+    "chapter": 5,
+    "topic": "Estimación",
+    "difficulty": "medium",
+    "question": "Tu equipo está en la tercera iteración de un proyecto ágil. Los esfuerzos de prueba de las iteraciones anteriores fueron:\n\n- Iteración 1: 45 días-persona\n- Iteración 2: 52 días-persona\n\nUsando extrapolación, ¿cuál sería la estimación más apropiada para la Iteración 3? (FR traduit)",
+    "options": [
+      "45 días-persona (el mínimo histórico) (FR)",
+      "48.5 días-persona (promedio de las dos iteraciones) (FR)",
+      "52 días-persona (tendencia creciente) (FR)",
+      "59 días-persona (extrapolación de la tendencia) (FR)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_32"
+  },
+  {
+    "chapter": 5,
+    "topic": "Riesgos",
+    "difficulty": "hard",
+    "question": "Tienes los siguientes casos de prueba para un sistema de banca online:\n\n| Caso | Riesgo de Funcionalidad | Probabilidad del Riesgo | Impacto del Riesgo | Dependencia |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | Ninguna |\n| TC2 | Consultar saldo | 3 | 3 | TC1 |\n| TC3 | Transferir dinero | 2 | 2 | TC1, TC2 |\n| TC4 | Cambiar PIN | 4 | 4 | TC1 |\n\nAplicando priorización basada en riesgo, donde el impacto y la probabilidad se mide en una escala del 1 al 5 (1=Muy Alto, 2=Alto, 3=Medio, 4=Bajo, 5=Muy Bajo), ¿cuál sería el orden de ejecución MÁS apropiado? (FR traduit)",
+    "options": [
+      "TC1, TC3, TC2, TC4 (FR)",
+      "TC1, TC2, TC3, TC4 (FR)",
+      "TC3, TC1, TC2, TC4 (FR)",
+      "TC1, TC4, TC2, TC3 (FR)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_33"
+  },
+  {
+    "chapter": 2,
+    "topic": "Cuadrantes Ágiles",
+    "difficulty": "medium",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Cuadrante Q1: orientado a la tecnología, apoya al equipo de desarrollo\nB. Cuadrante Q2: orientado a los negocios, apoya al equipo de desarrollo\nC. Cuadrante Q3: orientado a los negocios, crítica al producto\nD. Cuadrante Q4: orientado a la tecnología, crítica al producto\n\n¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes? (FR traduit)",
+    "options": [
+      "1C, 2A, 3B, 4D (FR)",
+      "1D, 2A, 3C, 4B (FR)",
+      "1C, 2B, 3D, 4A (FR)",
+      "1D, 2B, 3C, 4A (FR)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_34"
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de Riesgos",
+    "difficulty": "medium",
+    "question": "Durante una revisión de riesgo, se identificó el siguiente problema:\n\nRiesgo: Incompatibilidad entre módulos del software.\nProbabilidad del riesgo: alta; impacto del riesgo: medio\n\nRespuesta al riesgo:\n- realizar pruebas de integración tempranas para identificar incompatibilidades\n- documentar las incompatibilidades y comunicarlas al equipo de desarrollo\n\n¿Cuál es la medida más adecuada a tomar en respuesta a este riesgo analizado? (FR traduit)",
+    "options": [
+      "Mitigación del riesgo (FR)",
+      "Transferencia del riesgo (FR)",
+      "Aceptación del riesgo (FR)",
+      "Plan de contingencia (FR)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_35"
+  },
+  {
+    "chapter": 5,
+    "topic": "Métricas e Informes",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes elementos es más adecuado para proporcionar una visión general del progreso de las pruebas a las partes interesadas de un proyecto? (FR traduit)",
+    "options": [
+      "Registro de incidencias (FR)",
+      "Informe de prueba mensual (FR)",
+      "Informe de estado de prueba (FR)",
+      "Plan de pruebas (FR)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_36"
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de Defectos",
+    "difficulty": "medium",
+    "question": "Has encontrado un defecto durante las pruebas de un módulo de facturación. El sistema calcula incorrectamente el impuesto cuando se aplica un descuento. ¿Cuál de los siguientes informes de defecto está MEJOR estructurado? (FR traduit)",
+    "options": [
+      "\"El impuesto está mal calculado con descuentos\" (FR)",
+      "\"Error en cálculo de impuestos con descuentos. Resultado esperado: 21%, resultado actual: 18%. Pasos: aplicar descuento 10% a factura de $100, calcular impuesto.\" (FR)",
+      "\"ID: DEF-2024-001, Título: Cálculo incorrecto de impuesto con descuentos, Entorno: Test v2.1, Pasos: 1)Crear factura $100, 2)Aplicar descuento 10%, 3)Calcular impuesto, Esperado: $19.53, Actual: $16.20, Severidad: Alta, Estado: Nuevo\" (FR)",
+      "\"Hay un problema con los impuestos cuando hay descuentos aplicados en el sistema\" (FR)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_38"
   }
 ]

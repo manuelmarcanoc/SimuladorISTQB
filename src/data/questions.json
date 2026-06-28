@@ -5589,5 +5589,197 @@
     "explanation": "A. Incorrecto. Con 2 casos de prueba sólo se cubren 2 de las 3 particiones identificadas por EP. B. Correcto. EP divide el dominio en 3 particiones: (1) temperatura < 16°C (inválida), (2) 16°C–30°C (válida), (3) temperatura > 30°C (inválida). El criterio de cobertura 'Cada Elección' exige al menos 1 caso por partición, es decir, 3 casos en total. C. Incorrecto. 4 casos de prueba superan el mínimo necesario para satisfacer el criterio de cobertura EP. D. Incorrecto. 6 casos corresponden a la técnica de análisis de valores límite con 2 valores (BVA-2), no a EP.",
     "source": "User Provided Batch 7",
     "id": "q_batch7_20"
+  },
+  {
+    "chapter": 4,
+    "topic": "Partición de Equivalencia",
+    "difficulty": "medium",
+    "question": "Un sistema de registro de usuarios valida la edad del usuario. El requisito indica: 'La edad debe estar entre 18 y 65 años inclusive para ser válido'. Aplicando la técnica de partición de equivalencia, ¿cuál es el conjunto MÍNIMO de casos de prueba que cubre todas las particiones de equivalencia?",
+    "options": [
+      "Edad = 18, Edad = 40, Edad = 66",
+      "Edad = 18, Edad = 65",
+      "Edad = 17, Edad = 40, Edad = 66",
+      "Edad = 0, Edad = 17, Edad = 40, Edad = 66"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. Aunque tiene 3 casos de prueba, no cubre la partición inválida inferior (edad < 18) y presenta redundancia al incluir dos valores de la partición válida (18 y 40).\nB. No es correcto. Solo cubre la partición válida con 2 casos redundantes, dejando sin cubrir las particiones inválidas (inferior y superior).\nC. Es correcto. Se necesitan 3 casos de prueba para cubrir las 3 particiones de equivalencia identificadas: una para la partición inválida inferior (edad < 18), una para la partición válida (18 ≤ edad ≤ 65) y una para la partición inválida superior (edad > 65). Según la técnica de partición de equivalencia, para lograr 100% de cobertura, los casos de prueba deben ejercer todas las particiones identificadas cubriendo cada partición al menos una vez.\nD. No es correcto. 4 casos de prueba exceden el número mínimo requerido, ya que incluye redundancia en la partición inválida inferior (edad = 0 y edad = 17).",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_21"
+  },
+  {
+    "chapter": 4,
+    "topic": "Tabla de Decisiones",
+    "difficulty": "medium",
+    "question": "En una tabla de decisiones para un sistema de aprobación de préstamos, tienes las siguientes condiciones:\n\n- Edad ≥ 18 años\n- Ingresos ≥ $30,000\n- Historial crediticio bueno\n- Empleado por ≥ 2 años\n\nSi quisieras minimizar la tabla debido a la gran cantidad de combinaciones, ¿cuál sería la mejor estrategia?",
+    "options": [
+      "Eliminar todas las condiciones menos importantes",
+      "Usar un enfoque basado en riesgo para reducir las reglas a probar",
+      "Combinar todas las condiciones en una sola regla",
+      "Crear múltiples tablas pequeñas separadas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Eliminar condiciones puede dejar lagunas importantes en la cobertura.\nB. Es correcto. Según el syllabus, 'si hay muchas condiciones, el ejercicio de todas las reglas de decisión puede llevar mucho tiempo, ya que el número de reglas crece exponencialmente con el número de condiciones. En tal caso, para reducir el número de reglas que se deben ejercer, se puede utilizar una tabla de decisiones minimizada o un enfoque basado en el riesgo.'\nC. No es correcto. Combinar todas las condiciones no resuelve el problema de la complejidad.\nD. No es correcto. Múltiples tablas separadas no abordan el problema de las combinaciones exponenciales.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_22"
+  },
+  {
+    "chapter": 4,
+    "topic": "Basadas en Experiencia",
+    "difficulty": "medium",
+    "question": "¿Cuál de las siguientes afirmaciones describe MEJOR cómo se utiliza la predicción de errores en pruebas de software?",
+    "options": [
+      "La predicción de errores se basa en identificar las áreas del software donde es más probable que ocurran defectos, utilizando datos históricos y patrones de errores pasados.",
+      "La predicción de errores se centra únicamente en la revisión de requisitos para detectar posibles faltas antes de que el desarrollo comience.",
+      "La predicción de errores implica adivinar aleatoriamente los errores en el software sin ninguna base en la experiencia previa.",
+      "La predicción de errores requiere que el probador evalúe constantemente el rendimiento del software durante su ejecución."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. La predicción de errores se enfoca en identificar áreas de riesgo en el software que tienen más probabilidades de contener defectos, basándose en la experiencia pasada y datos históricos.\nB. No es correcto. Aunque revisar requisitos es importante, la predicción de errores se basa más en la experiencia y patrones de defectos en el software ya desarrollado.\nC. No es correcto. Adivinar aleatoriamente no es una forma efectiva de predecir errores; la predicción debe estar fundamentada en datos y experiencias previas.\nD. No es correcto. La evaluación del rendimiento del software es una actividad diferente; la predicción de errores se centra en identificar y anticipar defectos antes de probar el software.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_26"
+  },
+  {
+    "chapter": 4,
+    "topic": "Basadas en Experiencia",
+    "difficulty": "medium",
+    "question": "Tu equipo de desarrollo ha implementado una nueva funcionalidad en el software, pero no se ha documentado adecuadamente. Tienes poco tiempo para realizar pruebas antes del lanzamiento. ¿Cuál es la mejor estrategia de prueba que puedes utilizar en esta situación?",
+    "options": [
+      "Pruebas automatizadas",
+      "Pruebas exploratorias",
+      "Pruebas de regresión",
+      "Pruebas basadas en requisitos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Las pruebas automatizadas requieren tiempo para ser diseñadas y configuradas, lo que no es viable con poco tiempo disponible.\nB. Es correcto. Las pruebas exploratorias permiten una evaluación rápida de la nueva funcionalidad sin necesidad de documentación detallada.\nC. No es correcto. Las pruebas de regresión son útiles, pero requieren una comprensión clara de las funcionalidades anteriores que no están documentadas.\nD. No es correcto. Las pruebas basadas en requisitos no son efectivas aquí, ya que la falta de documentación limita la capacidad de diseñar pruebas basadas en requisitos.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_27"
+  },
+  {
+    "chapter": 4,
+    "topic": "ATDD/BDD",
+    "difficulty": "medium",
+    "question": "Un equipo ágil está iniciando la implementación de ATDD para su próximo sprint. El Scrum Master quiere saber quién debe participar en el taller de especificación ATDD.\n\n¿Cuál de las siguientes afirmaciones describe MEJOR la participación en un taller de especificación ATDD?",
+    "options": [
+      "Solo los probadores, ya que son responsables de definir los criterios de aceptación.",
+      "Solo los desarrolladores, porque son quienes implementarán las pruebas automatizadas.",
+      "Representantes de negocio, desarrolladores y probadores colaboran conjuntamente.",
+      "Solo los representantes de negocio, porque los criterios de aceptación son requisitos del cliente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. Incorrecto. Los probadores participan, pero ATDD requiere la colaboración de todo el equipo, no solo probadores.\nB. Incorrecto. Los desarrolladores participan, pero sin la perspectiva de negocio y de pruebas, los criterios de aceptación serían incompletos.\nC. Correcto. El Programa de Estudio CTFL v4.0 §4.5.3 establece que el taller de especificación ATDD involucra a representantes de negocio, desarrolladores y probadores para colaborar en la definición de ejemplos concretos.\nD. Incorrecto. Aunque los representantes de negocio aportan la visión del cliente, se necesita a desarrolladores y probadores para definir ejemplos comprobables.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_29"
+  },
+  {
+    "chapter": 5,
+    "topic": "Planificación de Pruebas",
+    "difficulty": "medium",
+    "question": "¿De qué manera pueden los probadores contribuir a una mejor planificación de la entrega de software?",
+    "options": [
+      "Los probadores revisan las especificaciones y ofrecen retroalimentación sobre la viabilidad del proyecto.",
+      "Los probadores elaboran la documentación del usuario sin involucrarse en el desarrollo del producto.",
+      "Los probadores son responsables de establecer los plazos de entrega del proyecto.",
+      "Los probadores se enfocan en realizar pruebas al final del ciclo de desarrollo para asegurar la calidad."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Los probadores revisan las especificaciones y pueden identificar problemas de viabilidad, lo que ayuda en la planificación.\nB. No es correcto. Aunque los probadores pueden contribuir a la documentación, su principal función es asegurar la calidad durante el desarrollo.\nC. No es correcto. El establecimiento de plazos es generalmente responsabilidad del gerente de proyecto o del equipo de gestión.\nD. No es correcto. Esperar hasta el final para realizar pruebas no es útil y puede comprometer la calidad del producto.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_30"
+  },
+  {
+    "chapter": 5,
+    "topic": "Estimación",
+    "difficulty": "medium",
+    "question": "Tu equipo está en la tercera iteración de un proyecto ágil. Los esfuerzos de prueba de las iteraciones anteriores fueron:\n\n- Iteración 1: 45 días-persona\n- Iteración 2: 52 días-persona\n\nUsando extrapolación, ¿cuál sería la estimación más apropiada para la Iteración 3?",
+    "options": [
+      "45 días-persona (el mínimo histórico)",
+      "48.5 días-persona (promedio de las dos iteraciones)",
+      "52 días-persona (tendencia creciente)",
+      "59 días-persona (extrapolación de la tendencia)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. No es correcto. Usar solo el mínimo no considera la tendencia o variabilidad.\nB. Es correcto. Según el syllabus, en extrapolación 'el equipo puede extrapolar el esfuerzo de prueba en la próxima iteración como el esfuerzo promediado de las últimas tres iteraciones.' Con solo dos iteraciones disponibles, el promedio sería (45 + 52) ÷ 2 = 48.5 días-persona.\nC. No es correcto. Usar solo el último valor no aplica el concepto de extrapolación basada en histórico.\nD. No es correcto. Aunque podría ser una extrapolación de tendencia, el syllabus específicamente menciona usar el promedio.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_32"
+  },
+  {
+    "chapter": 5,
+    "topic": "Riesgos",
+    "difficulty": "hard",
+    "question": "Tienes los siguientes casos de prueba para un sistema de banca online:\n\n| Caso | Riesgo de Funcionalidad | Probabilidad del Riesgo | Impacto del Riesgo | Dependencia |\n|---|---|---|---|---|\n| TC1 | Login | 2 | 2 | Ninguna |\n| TC2 | Consultar saldo | 3 | 3 | TC1 |\n| TC3 | Transferir dinero | 2 | 2 | TC1, TC2 |\n| TC4 | Cambiar PIN | 4 | 4 | TC1 |\n\nAplicando priorización basada en riesgo, donde el impacto y la probabilidad se mide en una escala del 1 al 5 (1=Muy Alto, 2=Alto, 3=Medio, 4=Bajo, 5=Muy Bajo), ¿cuál sería el orden de ejecución MÁS apropiado?",
+    "options": [
+      "TC1, TC3, TC2, TC4",
+      "TC1, TC2, TC3, TC4",
+      "TC3, TC1, TC2, TC4",
+      "TC1, TC4, TC2, TC3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A. Incorrecto. Problema 1: TC3 depende de TC2 (necesita saldo consultado), pero TC3 se ejecuta antes de TC2. Esto rompe la dependencia. Problema 2: TC2 tiene mayor riesgo (9) que TC4 (16), pero TC4 se ejecuta antes que TC2. Prioriza mal el riesgo.\nB. Correcto. TC1 primero: Es independiente y base para todos los demás casos. TC2 antes que TC3/TC4: TC2 tiene mayor riesgo (9) que TC4 (16), y TC3 depende de TC2.\nC. Incorrecto. Problema crítico: TC3 depende de TC1 y TC2, pero se ejecuta primero, antes de ambos. Fallará por falta de dependencias.\nD. Incorrecto. Problema 1: TC2 tiene mayor riesgo (9) que TC4 (16), pero TC4 se ejecuta antes que TC2. Prioriza mal el riesgo. Problema 2: TC3 depende de TC2, pero TC2 se ejecuta después de TC3. Rompe la dependencia.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_33"
+  },
+  {
+    "chapter": 2,
+    "topic": "Cuadrantes Ágiles",
+    "difficulty": "medium",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Cuadrante Q1: orientado a la tecnología, apoya al equipo de desarrollo\nB. Cuadrante Q2: orientado a los negocios, apoya al equipo de desarrollo\nC. Cuadrante Q3: orientado a los negocios, crítica al producto\nD. Cuadrante Q4: orientado a la tecnología, crítica al producto\n\n¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes?",
+    "options": [
+      "1C, 2A, 3B, 4D",
+      "1D, 2A, 3C, 4B",
+      "1C, 2B, 3D, 4A",
+      "1D, 2B, 3C, 4A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Las pruebas de usabilidad se relacionan con el Cuadrante Q3 (1-C), las pruebas de componentes con el Cuadrante Q1 (2-A), las pruebas funcionales con el Cuadrante Q2 (3-B) y las pruebas de fiabilidad (como pruebas no funcionales) con el Cuadrante Q4 (4-D). Esto se alinea exactamente con la sección 5.1.7 del syllabus. Por lo tanto, esta opción es correcta.\nB. Las pruebas funcionales estarían asignadas a Q3 (3-C), lo cual no es correcto según la descripción de Q2 (de cara al negocio, apoyo al equipo).\nC. Las pruebas de fiabilidad estarían asignadas a Q1 (4-A), lo cual no es correcto (pertenecen a Q4).\nD. Las pruebas de usabilidad estarían asignadas a Q4 (1-D), lo cual no es correcto (pertenecen a Q3).",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_34"
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de Riesgos",
+    "difficulty": "medium",
+    "question": "Durante una revisión de riesgo, se identificó el siguiente problema:\n\nRiesgo: Incompatibilidad entre módulos del software.\nProbabilidad del riesgo: alta; impacto del riesgo: medio\n\nRespuesta al riesgo:\n- realizar pruebas de integración tempranas para identificar incompatibilidades\n- documentar las incompatibilidades y comunicarlas al equipo de desarrollo\n\n¿Cuál es la medida más adecuada a tomar en respuesta a este riesgo analizado?",
+    "options": [
+      "Mitigación del riesgo",
+      "Transferencia del riesgo",
+      "Aceptación del riesgo",
+      "Plan de contingencia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A. Es correcto. Las pruebas de integración tempranas son una estrategia de mitigación que ayuda a identificar y resolver problemas antes de que se conviertan en mayores.\nB. No es correcto. La transferencia del riesgo implica pasar el riesgo a otra parte, lo cual no se menciona aquí.\nC. No es correcto. Aceptar el riesgo no es adecuado, ya que se están proponiendo acciones para solucionarlo.\nD. No es correcto. Aunque se pueden elaborar planes de contingencia, la medida principal aquí es la mitigación mediante pruebas.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_35"
+  },
+  {
+    "chapter": 5,
+    "topic": "Métricas e Informes",
+    "difficulty": "medium",
+    "question": "¿Cuál de los siguientes elementos es más adecuado para proporcionar una visión general del progreso de las pruebas a las partes interesadas de un proyecto?",
+    "options": [
+      "Registro de incidencias",
+      "Informe de prueba mensual",
+      "Informe de estado de prueba",
+      "Plan de pruebas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. El registro de incidencias detalla los defectos encontrados pero no proporciona un resumen del estado de las pruebas.\nB. No es correcto. Aunque un informe de prueba mensual puede ofrecer información sobre el progreso, no es lo más adecuado para una visión general inmediata.\nC. Es correcto. Un informe de estado de prueba resume el progreso, los resultados y las métricas relevantes sobre el estado de las pruebas, siendo útil para las partes interesadas.\nD. No es correcto. El plan de pruebas establece la estrategia y el enfoque, pero no comunica el estado actual de las pruebas.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_36"
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión de Defectos",
+    "difficulty": "medium",
+    "question": "Has encontrado un defecto durante las pruebas de un módulo de facturación. El sistema calcula incorrectamente el impuesto cuando se aplica un descuento. ¿Cuál de los siguientes informes de defecto está MEJOR estructurado?",
+    "options": [
+      "\"El impuesto está mal calculado con descuentos\"",
+      "\"Error en cálculo de impuestos con descuentos. Resultado esperado: 21%, resultado actual: 18%. Pasos: aplicar descuento 10% a factura de $100, calcular impuesto.\"",
+      "\"ID: DEF-2024-001, Título: Cálculo incorrecto de impuesto con descuentos, Entorno: Test v2.1, Pasos: 1)Crear factura $100, 2)Aplicar descuento 10%, 3)Calcular impuesto, Esperado: $19.53, Actual: $16.20, Severidad: Alta, Estado: Nuevo\"",
+      "\"Hay un problema con los impuestos cuando hay descuentos aplicados en el sistema\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "A. No es correcto. Demasiado vago, falta información crítica para reproducir y resolver el defecto.\nB. No es correcto. Aunque mejor que (a), carece de elementos estructurales importantes como ID, entorno, severidad, estado.\nC. Es correcto. Este informe incluye todos los elementos esenciales según el syllabus: identificador único, título descriptivo, identificación del entorno de prueba, descripción clara para reproducción, resultados esperados vs actuales, severidad, y estado. Permite reproducción y resolución efectiva.\nD. No es correcto. Descripción muy general sin detalles específicos para reproducir o entender el problema.",
+    "source": "User Provided Batch 8",
+    "id": "q_batch8_38"
   }
 ]
