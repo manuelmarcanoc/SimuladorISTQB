@@ -5401,5 +5401,261 @@
     "correctAnswer": 2,
     "explanation": "A. Incorrect. Test management tools are designed to plan, track and organize testing activities, but are not used to automate tests. B. Incorrect. Test capture tools are used to record user interaction with the application, but they do not automate the testing process itself. C. Correct. Automated testing tools allow tests to be executed without human intervention, facilitating faster and more repeatable execution. D. Incorrect. Requirements analysis tools focus on managing and analyzing software requirements, and do not play a role in test automation.",
     "source": "User Provided Batch 5"
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos",
+    "difficulty": "easy",
+    "question": "Which of the following statements represents an appropriate test objective?",
+    "options": [
+      "Ensure the system is completely defect-free.",
+      "Identify defects and ensure requirements are adequately met.",
+      "Demonstrate the system will work under all possible conditions.",
+      "Verify users do not report complaints about system performance."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_1"
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos",
+    "difficulty": "medium",
+    "question": "A software company develops applications for the financial sector. Management asks the test manager why testing is essential in their context, beyond finding defects.\n\nWhich of the following reasons BEST describes why testing is necessary in this context?",
+    "options": [
+      "To prove the software has no defects before delivery.",
+      "To provide confidence about the software quality level and meet regulatory requirements.",
+      "To replace the requirements review process and reduce documentation.",
+      "To ensure all developers know the full system code."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_2"
+  },
+  {
+    "chapter": 1,
+    "topic": "Principios",
+    "difficulty": "medium",
+    "question": "You lead a test team and notice that despite exhaustive testing during development, the software still has defects in production. Which testing principle could explain this?",
+    "options": [
+      "Defects cluster together",
+      "Exhaustive testing is impossible",
+      "Tests wear out",
+      "Absence of errors fallacy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_3"
+  },
+  {
+    "chapter": 1,
+    "topic": "Proceso de Prueba",
+    "difficulty": "medium",
+    "question": "In a software project, the team is preparing the testing phase after development. Which of the following activities is part of test planning?",
+    "options": [
+      "Defining acceptance criteria to evaluate if the functionality meets requirements.",
+      "Executing regression tests to ensure new features do not break existing ones.",
+      "Identifying risks associated with the new functionality and planning mitigation.",
+      "Logging defects found during execution and communicating them to developers."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_4"
+  },
+  {
+    "chapter": 1,
+    "topic": "Contexto de las Pruebas",
+    "difficulty": "medium",
+    "question": "What factors can affect the scope and depth of testing in a project?\n\n1. Complexity of the system\n2. Experience of the test team\n3. Allocated budget\n4. Type of data used in tests",
+    "options": [
+      "1, 2, 3 affect scope and depth",
+      "2, 3, 4 affect scope and depth",
+      "1, 3, 4 affect scope and depth",
+      "1, 2, 4 affect scope and depth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_5"
+  },
+  {
+    "chapter": 1,
+    "topic": "Roles en las Pruebas",
+    "difficulty": "medium",
+    "question": "Which of the following activities PRIMARILY corresponds to the role of the tester and NOT the test manager?",
+    "options": [
+      "Planning the test effort and negotiating deadlines with project management.",
+      "Analyzing, designing, and implementing test cases for assigned functionalities.",
+      "Managing the test project budget.",
+      "Selecting and acquiring testing tools for the team."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_6"
+  },
+  {
+    "chapter": 1,
+    "topic": "Habilidades Esenciales",
+    "difficulty": "medium",
+    "question": "What skills are essential for a tester working in an agile team?\n\n1. Active listening\n2. Deep technical knowledge\n3. Effective communication\n4. Ability to work under pressure",
+    "options": [
+      "1 and 3 are essential; 2 and 4 are not",
+      "1, 2 and 4 are essential; 3 is not",
+      "3 and 4 are essential; 1 and 2 are not",
+      "1, 3 and 2 are essential; 4 is not"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_7"
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas en SDLC",
+    "difficulty": "medium",
+    "question": "Which statement best describes the importance of testing in every phase of the software development lifecycle?",
+    "options": [
+      "Testing is only necessary at the end of the lifecycle.",
+      "Testing in every phase helps identify defects early, reducing time and costs.",
+      "Testing should focus only on the development phase.",
+      "Testing is irrelevant in early phases."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_9"
+  },
+  {
+    "chapter": 2,
+    "topic": "Shift Left",
+    "difficulty": "medium",
+    "question": "Which of the following activities best represents the \"shift-left\" philosophy in software development?",
+    "options": [
+      "Running regression tests after development.",
+      "Starting design reviews before code is written.",
+      "Creating user documentation after launch.",
+      "Executing acceptance tests in production."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_11"
+  },
+  {
+    "chapter": 2,
+    "topic": "Niveles de Prueba",
+    "difficulty": "hard",
+    "question": "A team works on a flight reservation system. Match each test activity (1-4) to the test level (A-D):\n\n1. Verify the fare calculation module works in isolation.\n2. Verify the reservation module communicates with the payment module.\n3. Execute end-to-end flight purchase scenarios.\n4. End users validate the system meets operational needs.\n\nA. Acceptance testing\nB. Integration testing\nC. System testing\nD. Component testing",
+    "options": [
+      "1D, 2B, 3C, 4A",
+      "1C, 2A, 3D, 4B",
+      "1A, 2C, 3B, 4D",
+      "1B, 2D, 3A, 4C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_13"
+  },
+  {
+    "chapter": 2,
+    "topic": "Tipos de Prueba",
+    "difficulty": "medium",
+    "question": "A development team has fixed several defects and released a new version. Which description best fits the tests that will be performed now?",
+    "options": [
+      "Confirmation testing focuses only on previously failed cases.",
+      "Regression testing ensures unmodified functionalities still work.",
+      "Confirmation testing includes cases executed for the first time.",
+      "Regression testing only applies to new defects."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_14"
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "Which statement best describes a benefit of static testing?",
+    "options": [
+      "It helps ensure code meets specifications before execution.",
+      "It is more effective than dynamic testing at finding runtime errors.",
+      "It allows testing in non-executable environments.",
+      "It eliminates the need for dynamic testing."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_15"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "easy",
+    "question": "What is a key benefit of early and frequent feedback from stakeholders?",
+    "options": [
+      "It helps identify test performance issues.",
+      "It allows development to adapt to changing stakeholder needs.",
+      "It increases total project time.",
+      "It reinforces customer data confidentiality."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_16"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "The author of a design document leads a review session. A scribe logs defects. No formal entry/exit criteria are used. What type of review is this?",
+    "options": [
+      "Inspection",
+      "Technical review",
+      "Walkthrough",
+      "Informal review"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_17"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "A team introduces formal reviews, but reviewers get no time and management ignores results. What success factor is MISSING?",
+    "options": [
+      "Use of standard checklists.",
+      "Management support allocating time and valuing results.",
+      "Presence of a security expert.",
+      "Limiting reviews to requirement documents."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_18"
+  },
+  {
+    "chapter": 4,
+    "topic": "Partición de Equivalencia",
+    "difficulty": "hard",
+    "question": "A climate control system validates ambient temperature between 16°C and 30°C inclusive. Using equivalence partitioning, what is the MINIMUM number of test cases to cover ALL partitions?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explanation generated in English.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_20"
   }
 ]

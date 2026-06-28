@@ -5401,5 +5401,261 @@
     "correctAnswer": 2,
     "explanation": "A. Incorrect. Test management tools are designed to plan, track and organize testing activities, but are not used to automate tests. B. Incorrect. Test capture tools are used to record user interaction with the application, but they do not automate the testing process itself. C. Correct. Automated testing tools allow tests to be executed without human intervention, facilitating faster and more repeatable execution. D. Incorrect. Requirements analysis tools focus on managing and analyzing software requirements, and do not play a role in test automation.",
     "source": "User Provided Batch 5"
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos",
+    "difficulty": "easy",
+    "question": "Lequel des énoncés suivants représente un objectif de test approprié ?",
+    "options": [
+      "Assurer que le système est totalement exempt de défauts.",
+      "Identifier les défauts et s'assurer que les exigences sont respectées.",
+      "Démontrer que le système fonctionnera dans toutes les conditions.",
+      "Vérifier que les utilisateurs ne se plaignent pas des performances."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_1"
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos",
+    "difficulty": "medium",
+    "question": "Une entreprise développe des applications financières. Pourquoi les tests sont-ils essentiels ici, au-delà de trouver des défauts ?",
+    "options": [
+      "Pour prouver l'absence de défauts.",
+      "Pour donner confiance dans la qualité et répondre aux exigences réglementaires.",
+      "Pour remplacer la révision des exigences.",
+      "Pour s'assurer que les développeurs connaissent le code."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_2"
+  },
+  {
+    "chapter": 1,
+    "topic": "Principios",
+    "difficulty": "medium",
+    "question": "Quel principe de test explique la présence de défauts en production malgré des tests exhaustifs ?",
+    "options": [
+      "Les défauts se regroupent",
+      "Les tests exhaustifs sont impossibles",
+      "L'usure des tests",
+      "Le sophisme de l'absence de défauts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_3"
+  },
+  {
+    "chapter": 1,
+    "topic": "Proceso de Prueba",
+    "difficulty": "medium",
+    "question": "Laquelle de ces activités fait partie de la planification des tests ?",
+    "options": [
+      "Définir les critères d'acceptation.",
+      "Exécuter des tests de régression.",
+      "Identifier les risques et planifier leur atténuation.",
+      "Enregistrer les défauts."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_4"
+  },
+  {
+    "chapter": 1,
+    "topic": "Contexto de las Pruebas",
+    "difficulty": "medium",
+    "question": "Quels facteurs peuvent affecter la portée et la profondeur des tests ?\n\n1. Complexité du système\n2. Expérience de l'équipe\n3. Budget alloué\n4. Type de données de test",
+    "options": [
+      "1, 2, 3",
+      "2, 3, 4",
+      "1, 3, 4",
+      "1, 2, 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_5"
+  },
+  {
+    "chapter": 1,
+    "topic": "Roles en las Pruebas",
+    "difficulty": "medium",
+    "question": "Quelle activité correspond PRINCIPALEMENT au rôle de testeur ?",
+    "options": [
+      "Planifier l'effort de test.",
+      "Analyser, concevoir et implémenter les cas de test.",
+      "Gérer le budget.",
+      "Sélectionner les outils."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_6"
+  },
+  {
+    "chapter": 1,
+    "topic": "Habilidades Esenciales",
+    "difficulty": "medium",
+    "question": "Quelles compétences sont essentielles pour un testeur agile ?\n\n1. Écoute active\n2. Connaissances techniques\n3. Communication efficace\n4. Travail sous pression",
+    "options": [
+      "1 et 3",
+      "1, 2 et 4",
+      "3 et 4",
+      "1, 3 et 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_7"
+  },
+  {
+    "chapter": 2,
+    "topic": "Pruebas en SDLC",
+    "difficulty": "medium",
+    "question": "Pourquoi est-il important de tester à chaque phase du SDLC ?",
+    "options": [
+      "Les tests ne sont nécessaires qu'à la fin.",
+      "Tester à chaque phase identifie les défauts tôt, réduisant coûts et temps.",
+      "Les tests doivent se concentrer sur le développement.",
+      "Les tests sont inutiles au début."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_9"
+  },
+  {
+    "chapter": 2,
+    "topic": "Shift Left",
+    "difficulty": "medium",
+    "question": "Quelle activité représente le mieux l'approche \"shift-left\" ?",
+    "options": [
+      "Tests de régression à la fin.",
+      "Commencer la révision de conception avant de coder.",
+      "Créer la documentation après le lancement.",
+      "Tests d'acceptation en production."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_11"
+  },
+  {
+    "chapter": 2,
+    "topic": "Niveles de Prueba",
+    "difficulty": "hard",
+    "question": "Associez chaque activité (1-4) au niveau de test (A-D) :\n\n1. Calcul tarifaire isolé.\n2. Communication réservation-paiement.\n3. Scénarios d'achat de bout en bout.\n4. Utilisateurs valident le système.\n\nA. Acceptation\nB. Intégration\nC. Système\nD. Composant",
+    "options": [
+      "1D, 2B, 3C, 4A",
+      "1C, 2A, 3D, 4B",
+      "1A, 2C, 3B, 4D",
+      "1B, 2D, 3A, 4C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_13"
+  },
+  {
+    "chapter": 2,
+    "topic": "Tipos de Prueba",
+    "difficulty": "medium",
+    "question": "Quelle description correspond le mieux aux tests à effectuer après correction de défauts ?",
+    "options": [
+      "Les tests de confirmation ciblent uniquement les anciens échecs.",
+      "Les tests de régression assurent que l'existant fonctionne toujours.",
+      "Les tests de confirmation incluent de nouveaux cas.",
+      "Les tests de régression ciblent les nouveaux défauts."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_14"
+  },
+  {
+    "chapter": 3,
+    "topic": "Pruebas Estáticas",
+    "difficulty": "medium",
+    "question": "Quel est un avantage des tests statiques ?",
+    "options": [
+      "Assurer que le code respecte les spécifications avant exécution.",
+      "Plus efficace que les tests dynamiques pour les erreurs d'exécution.",
+      "Permet de tester dans des environnements non exécutables.",
+      "Élimine le besoin de tests dynamiques."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_15"
+  },
+  {
+    "chapter": 3,
+    "topic": "Retroalimentación",
+    "difficulty": "easy",
+    "question": "Quel est un avantage clé du feedback précoce ?",
+    "options": [
+      "Identifie les problèmes de performance.",
+      "Permet d'adapter le développement aux besoins changeants.",
+      "Augmente le temps du projet.",
+      "Renforce la confidentialité."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_16"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "L'auteur d'un document dirige une revue. Un scribe note les défauts. Pas de critères formels. Quel type de revue ?",
+    "options": [
+      "Inspection",
+      "Revue technique",
+      "Revue de type Walkthrough",
+      "Revue informelle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_17"
+  },
+  {
+    "chapter": 3,
+    "topic": "Revisiones",
+    "difficulty": "medium",
+    "question": "Quel facteur de succès manque si les réviseurs n'ont pas de temps et la direction ignore les résultats ?",
+    "options": [
+      "Check-lists.",
+      "Soutien de la direction.",
+      "Expert en sécurité.",
+      "Limitation aux exigences."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_18"
+  },
+  {
+    "chapter": 4,
+    "topic": "Partición de Equivalencia",
+    "difficulty": "hard",
+    "question": "Températures valides : 16°C à 30°C inclus. En utilisant le partitionnement en classes d'équivalence, quel est le nombre MINIMAL de cas de test ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Explication générée en français.",
+    "source": "User Provided Batch 7",
+    "id": "q_batch7_20"
   }
 ]
