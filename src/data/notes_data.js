@@ -1171,6 +1171,395 @@ const notesData = {
       },
     ],
   },
+
+  // ─────────────────────────────────────────────────────────────
+  //  PORTUGUÊS (BR)
+  // ─────────────────────────────────────────────────────────────
+  pt: {
+    examOverview: [
+      '40 questões de múltipla escolha, 65 minutos, nota mínima de 65% (26 acertos).',
+      'Não há penalidade por errar: responda todas as questões.',
+      'Leia o enunciado completo antes de olhar as opções; muitas pegadinhas estão no detalhe.',
+      'Se ficar em dúvida entre duas opções, descarte primeiro as claramente incorretas.',
+      'Os capítulos 1, 4 e 5 costumam concentrar mais questões: priorize-os na revisão.',
+    ],
+    emptyState: 'Selecione um capítulo para ver as anotações-chave do programa.',
+    emptyStateSub: 'Cada seção inclui conceitos essenciais e um bloco "No exame" com o que mais costuma ser avaliado.',
+    examLabel: 'No exame:',
+    chapters: [
+      {
+        id: 1,
+        title: 'Cap. 1 — Fundamentos de Testes',
+        color: '#000080',
+        sections: [
+          {
+            heading: 'O que é Teste?',
+            items: [
+              'O teste avalia a qualidade e reduz o risco — NÃO garante ausência de defeitos.',
+              'Erro (engano humano) → Defeito (bug no código) → Falha (comportamento incorreto na execução).',
+              'Teste estático (revisões, análise sem executar) vs. Dinâmico (execução do software).',
+              'Diferença-chave: QA (Garantia da Qualidade) foca no PROCESSO para prevenir defeitos. QC (Controle da Qualidade / Teste) foca no PRODUTO para detectar defeitos.',
+            ],
+          },
+          {
+            heading: '7 Princípios — O MAIS COBRADO',
+            items: [
+              '1. O teste mostra a presença de defeitos, não a ausência.',
+              '2. Teste exaustivo é impossível → use riscos e prioridades para decidir o que testar.',
+              '3. Testar cedo economiza tempo e dinheiro (Shift-left).',
+              '4. Agrupamento de defeitos: 80% costuma estar em 20% do código (Princípio de Pareto).',
+              '5. Paradoxo do pesticida: os mesmos testes deixam de encontrar bugs → varie, modifique e revise os testes.',
+              '6. O teste depende do contexto (software médico ≠ app de jogos).',
+              '7. Ilusão da ausência de defeitos: um software sem bugs pode ser inútil se não atende às necessidades do usuário.',
+            ],
+            exam: 'Vão te dar uma situação (ex.: "Encontramos quase todos os bugs no módulo de pagamentos") e você deve escolher o princípio (Agrupamento de defeitos).',
+          },
+          {
+            heading: 'Atividades de Teste',
+            items: [
+              '1. Planejamento: Define objetivos e abordagem.',
+              '2. Monitoramento e Controle: Comparar o progresso real vs. o planejado.',
+              '3. Análise: "O QUE" testar. Revisa-se a base de teste para definir as Condições de Teste.',
+              '4. Modelagem (Design): "COMO" testar. Criar casos de teste de alto nível.',
+              '5. Implementação: Criar scripts, preparar ambiente e dados, agrupar em Procedimentos de Teste.',
+              '6. Execução: Rodar os testes manual/automaticamente e reportar defeitos.',
+              '7. Conclusão: Arquivar o testware, lições aprendidas.',
+              'Rastreabilidade: vincular requisitos a casos de teste (permite avaliar a cobertura e a análise de impacto).',
+            ],
+            exam: 'Diferenciar claramente entre Análise (Condições) e Modelagem (Casos de teste).',
+          },
+          {
+            heading: 'Papéis e Psicologia',
+            items: [
+              'Testador: Modela, executa testes, reporta defeitos, automatiza.',
+              'Gerente de Testes (Test Manager): Planeja, gerencia recursos, reporta progresso e métricas ao negócio.',
+              'Independência: Do autor (baixa independência) até testadores externos ou terceirizados (alta independência). Mais independência = vieses diferentes.',
+              'Viés de confirmação: Tendência a confirmar as próprias crenças em vez de procurar falhas.',
+              'Abordagem Whole-team: Toda a célula ágil é responsável pela qualidade, não só o testador.',
+            ],
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Cap. 2 — Testes ao Longo do SDLC',
+        color: '#006400',
+        sections: [
+          {
+            heading: 'Modelos de Desenvolvimento e Teste',
+            items: [
+              'Sequencial (Cascata/Modelo V): Fases separadas. O teste costuma vir no fim. Muito caro corrigir bugs tardios. O Modelo V associa níveis de teste a fases de desenvolvimento.',
+              'Iterativo/Incremental (Ágil): Teste contínuo em sprints curtos. Feedback rápido.',
+              'Regra de ouro: Seja qual for o modelo, SEMPRE há uma atividade de teste correspondente a cada atividade de desenvolvimento.',
+            ],
+            exam: 'Costumam perguntar características de integração contínua ou em qual modelo o defeito é encontrado mais tarde.',
+          },
+          {
+            heading: 'Níveis de Teste',
+            items: [
+              'Testes de Componente (Unitários): Avaliam funções/classes individuais. Usa stubs/mocks. Normalmente feitos por devs.',
+              'Integração de Componentes: Avaliam interfaces e interações entre módulos.',
+              'Integração de Sistemas: Avaliam interfaces com sistemas externos (ex.: gateways de pagamento, APIs).',
+              'Testes de Sistema: Avaliam o comportamento integral em relação aos requisitos ou histórias de usuário.',
+              'Testes de Aceitação (UAT): Validam que o sistema atende às necessidades do negócio/usuário. Feitos pelo cliente/usuário final.',
+              'Aceitação Operacional (OAT): Backup, restauração, instalação, segurança. Feito por Admins/Ops.',
+            ],
+            exam: 'Saber identificar quem costuma fazer a UAT (usuários de negócio) e o que a OAT valida.',
+          },
+          {
+            heading: 'Tipos de Teste',
+            items: [
+              'Funcional: Avalia O QUE o sistema faz (comportamento, regras de negócio).',
+              'Não Funcional: Avalia COMO ele faz (desempenho, segurança, usabilidade, confiabilidade).',
+              'Caixa-Preta: Testes baseados na especificação, sem ver o código interno.',
+              'Caixa-Branca: Testes baseados na arquitetura ou estrutura do código.',
+              'Teste de Confirmação (Re-teste): Reexecutar o teste que falhou após corrigir o defeito para verificar a correção.',
+              'Teste de Regressão: Reexecutar testes anteriores para garantir que uma mudança não quebrou partes que já funcionavam.',
+            ],
+            exam: 'Vão pedir para classificar um teste. Ex.: "Testar a velocidade de carregamento de um site" -> Não Funcional.',
+          },
+          {
+            heading: 'Abordagens Test-First',
+            items: [
+              'TDD (Test-Driven Development): Escrevem-se testes unitários ANTES de programar a funcionalidade.',
+              'BDD (Behaviour-Driven Development): Testes escritos em linguagem natural (Given/When/Then) para melhorar a comunicação (Gherkin).',
+              'ATDD (Acceptance Test-Driven Development): Criar testes de aceitação junto ao cliente ANTES do desenvolvimento para definir o que deve ser construído.',
+            ],
+          },
+          {
+            heading: 'Testes de Manutenção',
+            items: [
+              'Realizados após implantar o software por: modificações (melhorias), migração ou desativação do sistema.',
+              'Análise de Impacto: Avaliar como uma mudança afetará o sistema existente para decidir quanto teste de regressão é necessário.',
+            ],
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Cap. 3 — Testes Estáticos',
+        color: '#8B0000',
+        sections: [
+          {
+            heading: 'Teste Estático vs. Análise Estática',
+            items: [
+              'Teste Estático (Revisões): Exame manual de requisitos, projetos, histórias de usuário ou código SEM executar.',
+              'Análise Estática: Exame automatizado do código-fonte por ferramentas (linters) para detectar código morto, variáveis não usadas ou vulnerabilidades.',
+              'Vantagens comuns: Encontram defeitos (não falhas), são baratos por se aplicarem muito cedo (shift-left).',
+              'Limitações: Não encontram problemas dinâmicos como vazamentos de memória ou gargalos de desempenho em execução.',
+            ],
+            exam: 'Saber distinguir o que a análise estática NÃO pode encontrar (ex.: tempos de resposta reais).',
+          },
+          {
+            heading: 'Tipos de Revisão',
+            items: [
+              'Informal: Sem processo, não exige documentação. (Ex.: Pair programming).',
+              'Walkthrough (Revisão Guiada): O AUTOR conduz a reunião. Fomenta o aprendizado e o consenso. Pode haver um Escriba.',
+              'Revisão Técnica: Conduzida por um moderador ou especialista técnico. Busca defeitos e avalia alternativas. Participam pares técnicos.',
+              'Inspeção: A mais formal. Dirigida por um Moderador treinado (não o autor). Usam-se checklists, métricas e análise de causa raiz. Regras rígidas de entrada/saída.',
+            ],
+            exam: 'Vão te dar um cenário e você deve identificar o tipo. Se o Autor conduz -> Walkthrough. Se há um Moderador oficial e métricas rígidas -> Inspeção.',
+          },
+          {
+            heading: 'Papéis em uma Revisão Formal',
+            items: [
+              'Autor: Cria o produto e corrige os defeitos encontrados.',
+              'Moderador (Líder da Revisão): Planeja, conduz a reunião, garante um ambiente seguro.',
+              'Gerente (Manager): Decide o que se revisa e provê tempo/recursos. Geralmente não participa da reunião.',
+              'Revisores: Analisam o produto e detectam defeitos.',
+              'Escriba (Recorder): Anota os defeitos descobertos durante a reunião.',
+            ],
+          },
+          {
+            heading: 'Fatores de Sucesso',
+            items: [
+              'Ter objetivos claros, usar listas de verificação (checklists).',
+              'Preparação INDIVIDUAL antes da reunião.',
+              'Ambiente de confiança: critica-se o produto, não o autor. A revisão não deve ser usada para avaliar o desempenho profissional da pessoa.',
+            ],
+          },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Cap. 4 — Análise e Modelagem de Testes',
+        color: '#4B0082',
+        sections: [
+          {
+            heading: 'Partição de Equivalência (EP)',
+            items: [
+              'Divide entradas/saídas em classes VÁLIDAS e INVÁLIDAS onde o software se comportará igual.',
+              'Regra: Um único valor de teste é suficiente para cobrir toda a partição.',
+              'Exemplo: Senha de 5 a 10 caracteres. Inválida1 < 5, Válida 5-10, Inválida2 > 10. Cobertura total = 3 casos.',
+            ],
+            exam: 'Dada uma regra, calcular quantas partições existem (somando válidas e inválidas).',
+          },
+          {
+            heading: 'Análise de Valor Limite (BVA)',
+            items: [
+              'Baseia-se no fato de que os erros costumam ocorrer nos extremos das partições de equivalência.',
+              'BVA de 2 valores: Avalia o limite exato e o valor adjacente mais próximo da outra partição.',
+              'BVA de 3 valores: Avalia o limite, logo antes do limite e logo depois do limite.',
+              'Exemplo BVA 2 val (faixa 10-20): 9, 10, 20, 21.',
+            ],
+            exam: 'Cálculo de valores BVA. Lembre-se de verificar bem se pedem 2 ou 3 valores.',
+          },
+          {
+            heading: 'Tabelas de Decisão',
+            items: [
+              'Ideais para regras de negócio complexas e combinações lógicas de condições booleanas (V/F).',
+              'Ajudam a detectar combinações que os requisitos não especificaram.',
+              'Regra colapsada / Regra Impossível: Se uma condição de entrada é logicamente impossível dada outra condição (ex.: ter menos de 18 anos e estar aposentado).',
+            ],
+            exam: 'Vão te dar uma tabela e um cenário real; você deverá deduzir em qual "Regra" (Coluna) o usuário se encaixa e qual Ação (Linha inferior) se aplica.',
+          },
+          {
+            heading: 'Transição de Estado',
+            items: [
+              'Modela sistemas que dependem do histórico de eventos (ex.: bloqueio após 3 PINs incorretos).',
+              'Estados (nós), Transições (setas), Eventos (causa), Ações (efeito).',
+              'Cobertura de todos os estados: Visitar cada nó pelo menos uma vez.',
+              'Cobertura de transições válidas (0-switch): Percorrer todas as setas permitidas.',
+            ],
+            exam: 'Ver um diagrama e responder qual é o número mínimo de testes para cobrir todos os estados, ou identificar uma transição inválida.',
+          },
+          {
+            heading: 'Técnicas de Caixa-Branca (Estrutura)',
+            items: [
+              'Cobertura de Instruções: % de linhas/instruções executáveis que rodaram em teste. A métrica mais fraca.',
+              'Cobertura de Decisão (Ramos): % de resultados booleanos avaliados como True e False (os caminhos if/else).',
+              'Importante: 100% de cobertura de decisão GARANTE 100% de cobertura de instruções. O inverso não é verdadeiro.',
+            ],
+            exam: 'Vão te dar um código if-else simples. Você terá que calcular quantos testes são necessários para 100% de instruções vs. 100% de decisão.',
+          },
+          {
+            heading: 'Técnicas Baseadas na Experiência',
+            items: [
+              'Suposição de Erros (Error Guessing): O testador usa sua intuição e experiência prévia para adivinhar onde programaram errado.',
+              'Teste Exploratório: Modelagem, execução, análise e aprendizado simultâneos usando time-boxes. Muito útil se os requisitos são pobres ou o tempo é escasso.',
+              'Baseado em Listas de Verificação (Checklists): Lista de validações de alto nível sem passos detalhados a seguir.',
+            ],
+            exam: 'Reconhecer que o teste exploratório e a suposição de erros complementam (NÃO substituem) os testes de caixa-preta/branca.',
+          },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Cap. 5 — Gestão das Atividades de Teste',
+        color: '#8B4513',
+        sections: [
+          {
+            heading: 'Planejamento de Testes',
+            items: [
+              'O Plano de Testes é dinâmico e deve ser atualizado. Documenta escopo, recursos, orçamento, riscos, estratégia.',
+              'Estratégias de teste: Analítica (baseada em risco), Metódica (listas padrão), Reativa (exploratória), Consultiva (perguntar a especialistas), Baseada em modelos.',
+              'Critérios de Entrada (Entry Criteria): Quando podemos começar? (Ex.: ambiente disponível, código compilado).',
+              'Critérios de Saída (Exit Criteria): Quando terminamos? (Ex.: 100% dos riscos cobertos, orçamento esgotado, sem bugs graves em aberto).',
+            ],
+            exam: 'Diferenciar a estratégia Analítica (riscos) vs. Reativa (teste exploratório/dinâmico).',
+          },
+          {
+            heading: 'Estimativa e Priorização',
+            items: [
+              'Estimativa baseada em métricas: Dados históricos de projetos anteriores ou métricas como Pontos de Função.',
+              'Estimativa baseada em especialistas: Planning Poker em equipes ágeis ou Delphi de banda larga.',
+              'Priorização de testes: O que executar primeiro? Conforme risco, valor de negócio ou dependências lógicas. No Ágil, priorizam-se as histórias de usuário de maior valor.',
+            ],
+          },
+          {
+            heading: 'Pirâmide de Testes',
+            items: [
+              'Modelo que promove ter muitíssimos testes unitários na base (rápidos, baratos, isolados).',
+              'Menos testes na camada intermediária de integração/API.',
+              'Pouquíssimos testes de UI (Interface do Usuário) no topo, por serem frágeis, lentos e caros de manter.',
+            ],
+            exam: 'Se uma equipe tem testes de interface gráfica demais, o conselho ISTQB é descer a lógica para a base da pirâmide (unitários/API).',
+          },
+          {
+            heading: 'Gestão de Riscos',
+            items: [
+              'Nível de Risco = Probabilidade × Impacto.',
+              'Risco de Produto (Qualidade): Funções que falham, vulnerabilidades de segurança, o app trava, desempenho ruim.',
+              'Risco de Projeto (Processo): Falta de orçamento, testadores doentes, atrasos do ambiente, problemas de ferramentas.',
+              'O Teste é uma forma primordial de mitigar os riscos de PRODUTO.',
+            ],
+            exam: 'Você deve conseguir classificar exemplos como risco de produto (um bug possível) vs. risco de projeto (um fornecedor atrasa a entrega).',
+          },
+          {
+            heading: 'Relatórios e Informação de Defeitos',
+            items: [
+              'Tipos de relatório: Progresso (durante a iteração) e Resumo (no fim).',
+              'Métricas comuns: Cobertura de requisitos, progresso de execução, tempo médio de correção.',
+              'Um relatório de defeito deve incluir: ID, título, severidade/prioridade, passos detalhados para reproduzir, resultado esperado vs. real, e logs/capturas.',
+              'Severidade (impacto técnico) ≠ Prioridade (importância de negócio). Um defeito cosmético no logo pode ter Severidade Baixa mas Prioridade Alta.',
+            ],
+            exam: 'Identificar quais campos são vitais para ajudar um dev a corrigir uma falha (passos para reproduzir, ambiente exato).',
+          },
+          {
+            heading: 'Gestão da Configuração',
+            items: [
+              'Garante a rastreabilidade e a integridade de todos os artefatos.',
+              'Assegura que testemos a versão 1.2 do software com o banco de dados 1.2 e o plano de testes v2.',
+              'Sem gestão de configuração, os testadores poderiam testar versões antigas do código por engano.',
+            ],
+          },
+        ],
+      },
+      {
+        id: 6,
+        title: 'Cap. 6 — Ferramentas de Teste',
+        color: '#006666',
+        sections: [
+          {
+            heading: 'Propósito e Benefícios',
+            items: [
+              'Melhoram a eficiência (automatizando a repetição).',
+              'Melhoram a confiabilidade (sem falhas humanas em tarefas tediosas).',
+              'Fornecem métricas objetivas (ex.: % de cobertura de ramos).',
+            ],
+          },
+          {
+            heading: 'Riscos das Ferramentas',
+            items: [
+              'Expectativas irreais (achar que a ferramenta resolverá tudo magicamente).',
+              'Subestimar o esforço de adoção inicial, treinamento e manutenção dos scripts de teste.',
+              'Dependência da ferramenta ou do suporte do fornecedor (vendor lock-in).',
+            ],
+            exam: 'Diferenciar benefícios de riscos. "Alta manutenção" = Risco. "Consistência" = Benefício.',
+          },
+          {
+            heading: 'Classificação de Ferramentas',
+            items: [
+              'Gestão de testes: Rastreabilidade, ALM, JIRA.',
+              'Análise Estática: SonarQube, linters. Apoiam os desenvolvedores antes de compilar.',
+              'Execução / Automação: Selenium, Cypress. Executam testes de regressão.',
+              'Ferramentas de Desempenho / Carga: JMeter. Simulam tráfego ou volume massivo que não daria para testar manualmente.',
+              'Ferramentas de Preparação de Dados: Extraem, anonimizam e carregam dados massivos para testes. Apoiam a fase de Implementação/Execução.',
+            ],
+            exam: 'Pergunta clássica: "Queremos testar se o sistema suporta 1000 usuários ao mesmo tempo. Que ferramenta usamos?" -> Desempenho.',
+          },
+          {
+            heading: 'Introdução de uma Ferramenta na Organização',
+            items: [
+              'Passo 1: Avaliar a maturidade da organização.',
+              'Passo 2: Avaliação e Seleção de opções no mercado.',
+              'Passo 3: Realizar uma Prova de Conceito (PoC) para validar a compatibilidade técnica.',
+              'Passo 4: Projeto piloto para estabelecer padrões, medir o ROI e obter lições.',
+              'Passo 5: Implantação progressiva para o restante da equipe com guias e treinamento.',
+            ],
+            exam: 'Identificar qual é o propósito de um Projeto Piloto ou Prova de Conceito.',
+          },
+        ],
+      },
+      {
+        id: 7,
+        title: 'Cap. 7 — Fórmulas e Cálculos (Cheat Sheet)',
+        color: '#D2691E',
+        sections: [
+          {
+            heading: 'Cobertura de Instruções',
+            items: [
+              'Fórmula: (Instruções executadas / Total de instruções) * 100',
+              'Exemplo: O código tem 50 instruções. Os testes cobrem 45. Cobertura = (45 / 50) * 100 = 90%.',
+            ],
+            exam: 'Pergunta direta de cálculo de porcentagens.',
+          },
+          {
+            heading: 'Cobertura de Ramos',
+            items: [
+              'Fórmula: (Ramos executados / Total de ramos) * 100',
+              'Importante: Se te derem o total de instruções executadas e o total de ramos executados para calcular a cobertura de RAMOS, ignore completamente as instruções.',
+              'Exemplo: 100 instruções, 12 ramos. Você executou 90 instruções e 9 ramos. Cobertura de ramos = (9 / 12) * 100 = 75%.',
+            ],
+            exam: 'Vão te dar instruções para te despistar; concentre-se só nos ramos.',
+          },
+          {
+            heading: 'Estimativa de Três Pontos (PERT)',
+            items: [
+              'Fórmula: E = (Otimista + 4 * Mais Provável + Pessimista) / 6',
+              'Exemplo: Otimista = 5, Provável = 7, Pessimista = 15. E = (5 + 28 + 15) / 6 = 48 / 6 = 8 dias.',
+            ],
+          },
+          {
+            heading: 'Extrapolação',
+            items: [
+              'Regra: Calcula-se usando a média das iterações passadas.',
+              'Exemplo: Sprint 1 (45 dias), Sprint 2 (52 dias). Sprint 3 estimado = (45 + 52) / 2 = 48,5 dias.',
+            ],
+          },
+          {
+            heading: 'Cobertura de Transições de Estado',
+            items: [
+              'Fórmula: (Transições executadas / Total de transições válidas) * 100',
+              '100% das transições válidas GARANTE 100% dos estados.',
+              'Menos de 100% das transições NÃO garante 100% dos estados (pode ser que sim ou que não).',
+            ],
+            exam: 'Leia bem se pedem garantia. Só 100% das transições assegura 100% dos estados.',
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default notesData;

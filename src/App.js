@@ -92,7 +92,7 @@ function App() {
             {flagFx.lang && (
               <span key={flagFx.key} className={`flag-sweep flag-${flagFx.lang}`} aria-hidden="true" />
             )}
-            {['es', 'en', 'fr'].map(l => (
+            {['es', 'en', 'fr', 'pt'].map(l => (
               <button
                 key={l}
                 className={`lang-btn ${lang === l ? 'active' : ''}`}

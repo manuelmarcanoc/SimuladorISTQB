@@ -109,6 +109,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
 
   const startQuiz = useCallback((config) => {
     import(`../data/questions${language === 'es' ? '' : '_' + language}.json`)
+      .catch(() => import('../data/questions.json'))
       .then((module) => {
         const questionsData = module.default || module;
         let filtered = config.questions
@@ -163,6 +164,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
     if (isSetupPhase || questions.length === 0) return;
     
     import(`../data/questions${language === 'es' ? '' : '_' + language}.json`)
+      .catch(() => import('../data/questions.json'))
       .then((module) => {
         const questionsData = module.default || module;
         setQuestions(prevQs => prevQs.map(prevQ => {

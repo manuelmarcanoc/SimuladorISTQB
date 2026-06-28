@@ -28,6 +28,14 @@ const LBL = {
     c5: { top: 'Système / E2E', mid: 'Intégration', base: 'Composant / unitaire', fast: 'rapides · peu coûteux · nombreux', slow: 'lents · coûteux · peu nombreux' },
     c6: { commit: 'Code', build: 'Build', test: 'Tests auto.', deploy: 'Déploiement', cap: 'CI/CD : outils de gestion, statiques, exécution & DevOps' },
   },
+  pt: {
+    c1: { error: 'Erro', errorSub: '(engano humano)', defect: 'Defeito', defectSub: '(no código)', failure: 'Falha', failureSub: '(em execução)', cap: 'Uma pessoa comete um erro → introduz um defeito → pode provocar uma falha' },
+    c2: { req: 'Requisitos', design: 'Projeto', code: 'Código', comp: 'Testes de componente', integ: 'Testes de integração', sys: 'Testes de sistema', acc: 'Testes de aceitação', dev: 'Desenvolvimento', test: 'Testes', cap: 'Cada nível de teste (direita) valida sua fase de desenvolvimento (esquerda)' },
+    c3: { title: 'Formalidade das revisões', informal: 'Informal', walk: 'Walkthrough', tech: 'Técnica', insp: 'Inspeção', less: '– formal', more: '+ formal' },
+    c4: { title: 'Partição de equivalência + valores limite (idade 18–65)', inv: 'Inválida', val: 'Válida', cap: '1 valor por partição + os limites (17·18 / 65·66)' },
+    c5: { top: 'Sistema / E2E', mid: 'Integração', base: 'Componente / unitários', fast: 'rápidos · baratos · muitos', slow: 'lentos · caros · poucos' },
+    c6: { commit: 'Código', build: 'Build', test: 'Testes auto.', deploy: 'Implantação', cap: 'CI/CD: ferramentas de gestão, estáticas, execução e DevOps' },
+  },
 };
 
 const svgStyle = { width: '100%', height: 'auto', display: 'block' };
