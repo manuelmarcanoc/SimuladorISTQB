@@ -154,6 +154,16 @@ function App() {
           </svg>
           Compartir
         </button>
+        <a
+          href={BMC_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bmc-official"
+          aria-label="Buy me a coffee"
+        >
+          <span className="bmc-ico" aria-hidden="true">☕</span>
+          <span className="bmc-txt">Buy me a coffee</span>
+        </a>
         <p>Created by <strong>ISTQBeasy</strong></p>
         
         <div className="footer-links">

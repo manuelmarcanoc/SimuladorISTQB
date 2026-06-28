@@ -5,6 +5,10 @@ import { t } from '../i18n';
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
+// Strip a leading option-letter prefix ("A)", "A.", "B) ", ...) so it doesn't
+// duplicate the letter the card already prepends.
+const stripPrefix = (o) => (o || '').replace(/^\s*[A-Ea-e][).]\s+/, '');
+
 
 const QuestionCard = ({
   questionData,
@@ -58,12 +62,12 @@ const QuestionCard = ({
               className={className}
               onClick={() => handleOptionSelect(index)}
               disabled={isAnswered}
-              aria-label={`${OPTION_LETTERS[index]}: ${option}`}
+              aria-label={`${OPTION_LETTERS[index]}: ${stripPrefix(option)}`}
             >
               <span style={{ fontWeight: 'bold', marginRight: '8px', minWidth: '18px', flexShrink: 0 }}>
                 {OPTION_LETTERS[index]})
               </span>
-              <span className="flex-1">{option}</span>
+              <span className="flex-1">{stripPrefix(option)}</span>
               {icon}
             </button>
           );

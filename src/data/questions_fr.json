@@ -558,7 +558,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donné le testware suivant :  \n  \n1. Éléments de couverture  \n  \n2. Demandes de changement  \n  \n3. Calendrier d'exécution des tests  \n  \n4. Conditions de test priorisées. Et les activités de test suivantes :  \n  \n- **A.** Analyse des tests  \n  \n- **B.** Conception des tests  \n  \n- **C.** Implémentation des tests  \n  \n- **D.** Clôture des tests. Laquelle des options suivantes montre le MIEUX le testware produit par chaque activité ?  ",
+    "question": "Étant donné le testware suivant : Laquelle des options suivantes montre le MIEUX le testware produit par chaque activité ?\n\n1. Éléments de couverture\n2. Demandes de changement\n3. Calendrier d'exécution des tests\n4. Conditions de test priorisées\n\nA. Analyse des tests  \nB. Conception des tests  \nC. Implémentation des tests  \nD. Clôture des tests",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -693,7 +693,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant données les tâches de test suivantes :  \n  \n1) Dériver les cas de test à partir des conditions,  \n  \n2) Identifier le testware réutilisable,  \n  \n3) Organiser les cas de test en procédures,  \n  \n4) Évaluer la base de test ; et les activités :  \n  \nA) Analyse,  \n  \nB) Conception,  \n  \nC) Implémentation,  \n  \nD) Clôture. Quelle est la MEILLEURE correspondance ?  ",
+    "question": "Étant données les tâches de test suivantes : Quelle est la MEILLEURE correspondance ?\n\n1. Dériver les cas de test à partir des conditions\n2. Identifier le testware réutilisable\n3. Organiser les cas de test en procédures\n4. Évaluer la base de test ; et les activités :\n\nA. Analyse  \nB. Conception  \nC. Implémentation  \nD. Clôture",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -993,7 +993,7 @@
     "id": 1013,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Lesquelles des affirmations suivantes décrivent correctement les niveaux de test et leurs approches ?  \n  \n1. Valide la fonctionnalité complète dans un environnement de production simulé.  \n  \n2. Vérifie que les modules individuels fonctionnent.  \n  \n3. Garantit que les modules s'intègrent ensemble.  \n  \n4. Valide les exigences du point de vue de l'utilisateur final.  \n  \n- **A.** Tests système,  \n  \n- **B.** Tests de composants,  \n  \n- **C.** Tests d'intégration,  \n  \n- **D.** Tests d'acceptation  ",
+    "question": "Lesquelles des affirmations suivantes décrivent correctement les niveaux de test et leurs approches ?\n\n1. Valide la fonctionnalité complète dans un environnement de production simulé\n2. Vérifie que les modules individuels fonctionnent\n3. Garantit que les modules s'intègrent ensemble\n4. Valide les exigences du point de vue de l'utilisateur final\n\nA. Tests système  \nB. Tests de composants  \nC. Tests d'intégration  \nD. Tests d'acceptation",
     "options": [
       "1A, 2B, 3C, 4D",
       "1C, 2A, 3D, 4B",
@@ -1008,7 +1008,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :  \n  \n1. Tests d'utilisabilité  \n2. Tests de composants  \n3. Tests fonctionnels  \n4. Tests de fiabilité  \n  \n- **A.** Q1 : technologie/soutient l'équipe  \n- **B.** Q2 : métier/soutient l'équipe  \n- **C.** Q3 : métier/critique le produit  \n- **D.** Q4 : technologie/critique le produit  \n  \nQuelles combinaisons sont correctes ?  ",
+    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D). Quelles combinaisons sont correctes ?\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA (Q1). Technologie / soutient l'équipe  \nB (Q2). Métier / soutient l'équipe  \nC (Q3). Métier / critique le produit  \nD (Q4). Technologie / critique le produit",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -1278,7 +1278,7 @@
     "id": 1083,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Lesquelles des affirmations suivantes décrivent correctement les niveaux de test (1-4) et leurs approches spécifiques (A-D) ?  \n  \n1. Tests réalisés pour valider la fonctionnalité complète du système dans un environnement de production simulé.  \n2. Tests axés sur la vérification du bon fonctionnement des modules individuels.  \n3. Tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble.  \n4. Tests impliquant la validation des exigences du point de vue de l'utilisateur final.  \n  \n- **A.** Tests système  \n- **B.** Tests de composants  \n- **C.** Tests d'intégration  \n- **D.** Tests d'acceptation  ",
+    "question": "Lesquelles des affirmations suivantes décrivent correctement les niveaux de test (1-4) et leurs approches spécifiques (A-D) ?\n\n1. Tests réalisés pour valider la fonctionnalité complète du système dans un environnement de production simulé\n2. Tests axés sur la vérification du bon fonctionnement des modules individuels\n3. Tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble\n4. Tests impliquant la validation des exigences du point de vue de l'utilisateur final\n\nA. Tests système  \nB. Tests de composants  \nC. Tests d'intégration  \nD. Tests d'acceptation",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1C, 2A, 3D, 4B",
@@ -1413,7 +1413,7 @@
     "id": 262,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Quels types de défauts (1-4) correspondent le MIEUX à quels niveaux de test (A-D) ?  \n  \n1. Défaillances dans le comportement du système en s'écartant des besoins professionnels de l'utilisateur  \n  \n2. Défaillances dans la communication entre les composants  \n  \n3. Défaillances dans la logique du code  \n  \n4. Défaillances dues à des règles métier mal mises en œuvre  \n  \n- **A.** Tests de composants  \n  \n- **B.** Tests d'intégration de composants  \n  \n- **C.** Tests du système  \n  \n- **D.** Tests d'acceptation  ",
+    "question": "Quels types de défauts (1-4) correspondent le MIEUX à quels niveaux de test (A-D) ?\n\n1. Défaillances dans le comportement du système en s'écartant des besoins professionnels de l'utilisateur\n2. Défaillances dans la communication entre les composants\n3. Défaillances dans la logique du code\n4. Défaillances dues à des règles métier mal mises en œuvre\n\nA. Tests de composants  \nB. Tests d'intégration de composants  \nC. Tests du système  \nD. Tests d'acceptation",
     "options": [
       "A)1D, 2B, 3A, 4C",
       "B)1D, 2B, 3C, 4A",
@@ -1788,7 +1788,7 @@
     "id": "q_batch2_6ody8pkik",
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Identifiez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :  \n  \n1. Tests d'acceptation par les utilisateurs  \n2. Tests de performances  \n3. Tests d'intégration de composants  \n4. Tests de user stories  \n  \n- **A.** Quadrant Q1 : orienté vers la technologie, soutient l'équipe de développement  \n- **B.** Quadrant Q2 : orienté vers les affaires, soutient l'équipe de développement  \n- **C.** Quadrant Q3 : orienté vers les affaires, critique le produit  \n- **D.** Quadrant Q4 : orienté vers la technologie, critique le produit  \n  \nQuelles sont les combinaisons correctes pour ces catégories et quadrants de tests ?  ",
+    "question": "Identifiez les catégories de test suivantes (1-4) et les quadrants de tests agiles (A-D). Quelles combinaisons sont correctes ?\n\n1. Tests d'acceptation utilisateur\n2. Tests de performance\n3. Tests d'intégration de composants\n4. Tests de user stories\n\nA (Q1). Orienté technologie, soutient l'équipe de développement  \nB (Q2). Orienté métier, soutient l'équipe de développement  \nC (Q3). Orienté métier, critique le produit  \nD (Q4). Orienté technologie, critique le produit",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
@@ -1998,7 +1998,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant données les descriptions de tâches suivantes :  \n  \n1. On sélectionne les caractéristiques de qualité à évaluer et les critères de sortie  \n  \n2. Tout le monde a accès au produit de travail  \n  \n3. On identifie des anomalies dans le produit de travail  \n  \n4. On discute des anomalies. Et les activités de revue suivantes :  \n  \n- **A.** Revue individuelle  \n  \n- **B.** Lancement de la revue  \n  \n- **C.** Planification  \n  \n- **D.** Communication et analyse. Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions de tâches et les activités ?  ",
+    "question": "Étant données les descriptions de tâches suivantes : Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions de tâches et les activités ?\n\n1. On sélectionne les caractéristiques de qualité à évaluer et les critères de sortie\n2. Tout le monde a accès au produit de travail\n3. On identifie des anomalies dans le produit de travail\n4. On discute des anomalies\n\nA. Revue individuelle  \nB. Lancement de la revue  \nC. Planification  \nD. Communication et analyse",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -2013,7 +2013,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les rôles de revue suivants :  \n  \n1. Secrétaire/Scribe  \n  \n2. Responsable de la revue  \n  \n3. Facilitateur  \n  \n4. Manager. Et les responsabilités suivantes :  \n  \n- **A.** Garantit le déroulement efficace des réunions de revue et établit un environnement sûr  \n  \n- **B.** Consigne les informations de la revue, comme les décisions et les nouvelles anomalies trouvées  \n  \n- **C.** Décide de ce qui sera revu et fournit des ressources comme du personnel et du temps  \n  \n- **D.** Assume la responsabilité globale de la revue : quand et où elle aura lieu. Laquelle des options suivantes établit la MEILLEURE correspondance entre les rôles et les responsabilités ?  ",
+    "question": "Étant donnés les rôles de revue suivants : Laquelle des options suivantes établit la MEILLEURE correspondance entre les rôles et les responsabilités ?\n\n1. Secrétaire/Scribe\n2. Responsable de la revue\n3. Facilitateur\n4. Manager\n\nA. Garantit le déroulement efficace des réunions de revue et établit un environnement sûr  \nB. Consigne les informations de la revue, comme les décisions et les nouvelles anomalies trouvées  \nC. Décide de ce qui sera revu et fournit des ressources comme du personnel et du temps  \nD. Assume la responsabilité globale de la revue : quand et où elle aura lieu",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -2043,7 +2043,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les types de revue suivants :  \n  \n1. Revue technique  \n  \n2. Revue informelle  \n  \n3. Inspection  \n  \n4. Walkthrough. Et les descriptions suivantes :  \n  \n- **A.** Inclut des objectifs comme atteindre un consensus, générer de nouvelles idées et motiver les auteurs à s'améliorer  \n  \n- **B.** Inclut des objectifs comme former les relecteurs, atteindre un consensus, générer de nouvelles idées et détecter des défauts potentiels  \n  \n- **C.** L'objectif principal est de détecter des défauts potentiels et nécessite la collecte de métriques pour l'amélioration du processus  \n  \n- **D.** L'objectif principal est de détecter des défauts potentiels et ne génère pas de documentation de sortie formelle. Laquelle des options suivantes établit la MEILLEURE correspondance ?  ",
+    "question": "Étant donnés les types de revue suivants : Laquelle des options suivantes établit la MEILLEURE correspondance ?\n\n1. Revue technique\n2. Revue informelle\n3. Inspection\n4. Walkthrough\n\nA. Inclut des objectifs comme atteindre un consensus, générer de nouvelles idées et motiver les auteurs à s'améliorer  \nB. Inclut des objectifs comme former les relecteurs, atteindre un consensus, générer de nouvelles idées et détecter des défauts potentiels  \nC. L'objectif principal est de détecter des défauts potentiels et nécessite la collecte de métriques pour l'amélioration du processus  \nD. L'objectif principal est de détecter des défauts potentiels et ne génère pas de documentation de sortie formelle",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -3891,7 +3891,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) :  \n  \n1. Tests d'utilisabilité  \n  \n2. Tests de composants  \n  \n3. Tests fonctionnels  \n  \n4. Tests de fiabilité  \n  \n- **A.** Quadrant de tests agiles Q1 : orienté technologie, soutenant l'équipe de développement  \n  \n- **B.** Quadrant de tests agiles Q2 : orienté commercial, soutenant l'équipe de développement  \n  \n- **C.** Quadrant de tests agiles Q3 : orienté commercial, critique produit  \n  \n- **D.** Quadrant de tests agiles Q4 : Orienté technologie, critique produit Comment les catégories de tests suivantes correspondent-elles aux quadrants des tests agiles ?  ",
+    "question": "Considérez les catégories de tests suivantes (1-4) et les quadrants de tests agiles (A-D) : Comment les catégories de tests suivantes correspondent-elles aux quadrants des tests agiles ?\n\n1. Tests d'utilisabilité\n2. Tests de composants\n3. Tests fonctionnels\n4. Tests de fiabilité\n\nA. Quadrant de tests agiles Q1 : orienté technologie, soutenant l'équipe de développement  \nB. Quadrant de tests agiles Q2 : orienté commercial, soutenant l'équipe de développement  \nC. Quadrant de tests agiles Q3 : orienté commercial, critique produit  \nD. Quadrant de tests agiles Q4 : Orienté technologie, critique produit",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B)1D, 2A, 3C, 4B",
@@ -4011,7 +4011,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Étant donnés les risques suivants :  \n  \n1. Une implémentation inefficace des boucles provoque des réponses lentes du système  \n  \n2. Les consommateurs changent leurs préférences  \n  \n3. Inondation de la salle des serveurs  \n  \n4. Les patients au-delà d'un certain âge reçoivent des rapports incorrects. Et les activités d'atténuation suivantes :  \n  \n- **A.** Acceptation du risque  \n  \n- **B.** Tests d'efficacité de performance  \n  \n- **C.** Utilisation de l'analyse des valeurs limites comme technique  \n  \n- **D.** Transfert du risque. Laquelle des options suivantes établit la MEILLEURE correspondance entre les risques et les activités d'atténuation ?  ",
+    "question": "Étant donnés les risques suivants : Laquelle des options suivantes établit la MEILLEURE correspondance entre les risques et les activités d'atténuation ?\n\n1. Une implémentation inefficace des boucles provoque des réponses lentes du système\n2. Les consommateurs changent leurs préférences\n3. Inondation de la salle des serveurs\n4. Les patients au-delà d'un certain âge reçoivent des rapports incorrects\n\nA. Acceptation du risque  \nB. Tests d'efficacité de performance  \nC. Utilisation de l'analyse des valeurs limites comme technique  \nD. Transfert du risque",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -4673,7 +4673,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Étant données les descriptions suivantes :  \n  \n1. Prennent en charge le suivi du flux de travail  \n  \n2. Facilitent la communication  \n  \n3. Machines virtuelles  \n  \n4. Prennent en charge les revues. Et les catégories d'outils de test suivantes :  \n  \n- **A.** Outils de test statique  \n  \n- **B.** Outils qui soutiennent l'évolutivité et la standardisation du déploiement  \n  \n- **C.** Outils DevOps  \n  \n- **D.** Outils de collaboration. Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions et les catégories ?  ",
+    "question": "Étant données les descriptions suivantes : Laquelle des options suivantes établit la MEILLEURE correspondance entre les descriptions et les catégories ?\n\n1. Prennent en charge le suivi du flux de travail\n2. Facilitent la communication\n3. Machines virtuelles\n4. Prennent en charge les revues\n\nA. Outils de test statique  \nB. Outils qui soutiennent l'évolutivité et la standardisation du déploiement  \nC. Outils DevOps  \nD. Outils de collaboration",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -4871,7 +4871,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Lequel des énoncés suivants décrit de manière adéquate les niveaux de tests (1-4) et leurs approches spécifiques (A-D) ?  \n  \n**Approches:**  \n1. Tests effectués pour valider la fonctionnalité complète du système dans un environnement de production simulé.  \n2. Tests qui visent à vérifier que les modules individuels fonctionnent correctement.  \n3. Des tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble.  \n4. Tests qui impliquent la validation des exigences du point de vue de l'utilisateur final.  \n  \n**Niveaux de tests:**  \n- **A.** Tests du système  \n- **B.** Tests des composants  \n- **C.** Tests d'intégration  \n- **D.** Tests d'acceptation  ",
+    "question": "Lequel des énoncés suivants décrit de manière adéquate les niveaux de tests (1-4) et leurs approches spécifiques (A-D) ?\n\n1. Tests effectués pour valider la fonctionnalité complète du système dans un environnement de production simulé.\n2. Tests qui visent à vérifier que les modules individuels fonctionnent correctement.\n3. Tests qui garantissent que les différents modules s'intègrent et fonctionnent ensemble.\n4. Tests qui impliquent la validation des exigences du point de vue de l'utilisateur final.\n\nA. Tests du système  \nB. Tests des composants  \nC. Tests d'intégration  \nD. Tests d'acceptation",
     "options": [
       "A. 1A, 2B, 3C, 4D",
       "B.1C, 2A, 3D, 4B",
@@ -5079,7 +5079,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Comment les tests suivants sont-ils classés selon les quadrants de tests agiles (A-D) et leur relation avec les niveaux de tests ?  \n  \n1. Tests de composants  \n2. Tests fonctionnels  \n3. Tests exploratoires  \n4. Tests non fonctionnels  \n  \n- **A.** Quadrant de tests agiles Q1 : orienté vers la technologie, soutient l'équipe  \n- **B.** Quadrant de tests agiles Q2 : orienté vers les affaires, soutient l'équipe  \n- **C.** Quadrant de tests agiles Q3 : orienté vers les affaires, critique le produit  \n- **D.** Quadrant de tests agiles Q4 : orienté vers la technologie, critique le produit  \n  \nSélectionnez UNE option qui représente correctement la classification.  ",
+    "question": "Comment les tests suivants sont-ils classés selon les quadrants de tests agiles (A-D) ? Sélectionnez la bonne option.\n\n1. Tests de composants\n2. Tests fonctionnels\n3. Tests exploratoires\n4. Tests non fonctionnels\n\nA (Q1). Orienté technologie, soutient l'équipe  \nB (Q2). Orienté métier, soutient l'équipe  \nC (Q3). Orienté métier, critique le produit  \nD (Q4). Orienté technologie, critique le produit",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",

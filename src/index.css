@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600;700&display=swap');
 
 :root {
   /* Warm paper / ink palette — intentional, editorial, QA-flavored */
@@ -731,6 +731,13 @@ h1, h2, h3, h4, h5, h6, .app-title {
   color: var(--text-main);
 }
 
+/* Preserve line breaks of reformatted (matching/list) questions in the
+   modes that render the question as plain text (exam mode, fails review). */
+.exam-question-text,
+.fails-q-text {
+  white-space: pre-line;
+}
+
 .explanation-box {
   background: var(--accent-light);
   padding: 1.5rem;
@@ -1107,6 +1114,47 @@ h1, h2, h3, h4, h5, h6, .app-title {
 
 .bmc-float:active {
   transform: scale(0.97);
+}
+
+/* Official-style Buy Me a Coffee button (faithful replica of the BMC widget) */
+.bmc-official {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFDD00;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 6px 18px;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.bmc-official:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bmc-official:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.bmc-official .bmc-ico {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.bmc-official .bmc-txt {
+  font-family: 'Cookie', cursive;
+  font-size: 1.55rem;
+  font-weight: 400;
+  color: #000000;
+  position: relative;
+  top: 1px;
 }
 
 /* Share button in footer */

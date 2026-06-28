@@ -182,7 +182,7 @@
     "id": 262,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "¿Qué tipos de fallos (1-4) se ajustan MEJOR a qué niveles de prueba (A-D)?  \n  \n1. Fallos en el comportamiento del sistema al desviarse de las necesidades de negocio del usuario  \n  \n2. Fallos en la comunicación entre componentes  \n  \n3. Fallos en la lógica en el código  \n  \n4. Fallos por reglas de negocio implementadas incorrectamente  \n  \n- **A.** Pruebas de componente  \n  \n- **B.** Pruebas de integración de componente  \n  \n- **C.** Pruebas de sistema  \n  \n- **D.** Pruebas de aceptación  ",
+    "question": "¿Qué tipos de fallos (1-4) se ajustan MEJOR a qué niveles de prueba (A-D)?\n\n1. Fallos en el comportamiento del sistema al desviarse de las necesidades de negocio del usuario\n2. Fallos en la comunicación entre componentes\n3. Fallos en la lógica en el código\n4. Fallos por reglas de negocio implementadas incorrectamente\n\nA. Pruebas de componente  \nB. Pruebas de integración de componente  \nC. Pruebas de sistema  \nD. Pruebas de aceptación",
     "options": [
       "A) 1D, 2B, 3A, 4C",
       "B) 1D, 2B, 3C, 4A",
@@ -483,7 +483,7 @@
     "id": 282,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D):  \n  \n1. Pruebas de usabilidad  \n  \n2. Pruebas de componente  \n  \n3. Pruebas funcionales  \n  \n4. Pruebas de fiabilidad  \n  \n- **A.** Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo  \n  \n- **B.** Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo  \n  \n- **C.** Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto  \n  \n- **D.** Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto ¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?  ",
+    "question": "Considere las siguientes categorías de prueba (1-4) y los cuadrantes de pruebas ágiles (A-D): ¿Cómo se mapean las siguientes categorías de prueba en los cuadrantes de pruebas ágiles?\n\n1. Pruebas de usabilidad\n2. Pruebas de componente\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA. Cuadrante de pruebas ágiles Q1: orientado a la tecnología, de apoyo al equipo de desarrollo  \nB. Cuadrante de pruebas ágiles Q2: orientado al negocio, de apoyo al equipo de desarrollo  \nC. Cuadrante de pruebas ágiles Q3: orientado al negocio, de crítica al producto  \nD. Cuadrante de pruebas ágiles Q4: orientado a la tecnología, de crítica al producto",
     "options": [
       "A) 1C, 2A, 3B, 4D",
       "B) 1D, 2A, 3C, 4B",
@@ -814,7 +814,7 @@
     "id": 304,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dadas las siguientes descripciones de tareas:  \n  \n1. Se seleccionan las características de calidad a evaluar y los criterios de salida  \n  \n2. Todos tienen acceso al producto de trabajo  \n  \n3. Se identifican anomalías en el producto de trabajo  \n  \n4. Se debaten las anomalías Y las siguientes actividades de revisión:  \n  \n- **A.** Revisión individual  \n  \n- **B.** Inicio de la revisión  \n  \n- **C.** Planificación  \n  \n- **D.** Comunicación y análisis ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?  ",
+    "question": "Dadas las siguientes descripciones de tareas: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones de tareas y las actividades?\n\n1. Se seleccionan las características de calidad a evaluar y los criterios de salida\n2. Todos tienen acceso al producto de trabajo\n3. Se identifican anomalías en el producto de trabajo\n4. Se debaten las anomalías\n\nA. Revisión individual  \nB. Inicio de la revisión  \nC. Planificación  \nD. Comunicación y análisis",
     "options": [
       "A) 1B, 2C, 3D, 4A",
       "B) 1B, 2D, 3C, 4A",
@@ -829,7 +829,7 @@
     "id": 305,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes roles en las revisiones:  \n  \n1. Secretario/Escriba  \n  \n2. Líder de revisión  \n  \n3. Facilitador  \n  \n4. Gestor Y las siguientes responsabilidades:  \n  \n- **A.** Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro  \n  \n- **B.** Registra la información de la revisión, como decisiones y nuevas anomalías encontradas  \n  \n- **C.** Decide qué se va a revisar y proporciona recursos como personal y tiempo  \n  \n- **D.** Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?  ",
+    "question": "Dados los siguientes roles en las revisiones: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre los roles y las responsabilidades?\n\n1. Secretario/Escriba\n2. Líder de revisión\n3. Facilitador\n4. Gestor\n\nA. Garantiza el funcionamiento eficaz de las reuniones de revisión y establece un entorno seguro  \nB. Registra la información de la revisión, como decisiones y nuevas anomalías encontradas  \nC. Decide qué se va a revisar y proporciona recursos como personal y tiempo  \nD. Asume la responsabilidad general de la revisión: cuándo y dónde tendrá lugar",
     "options": [
       "A) 1A, 2B, 3D, 4C",
       "B) 1A, 2C, 3B, 4D",
@@ -1070,7 +1070,7 @@
     "id": 321,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Dados los siguientes riesgos:  \n  \n1. Una implementación ineficaz de bucles causa respuestas lentas del sistema  \n  \n2. Los consumidores cambian sus preferencias  \n  \n3. Inundación de la sala de servidores  \n  \n4. Pacientes mayores de cierta edad reciben informes incorrectos. Y las siguientes actividades de mitigación:  \n  \n- **A.** Aceptación del riesgo  \n  \n- **B.** Pruebas de eficiencia de rendimiento  \n  \n- **C.** Uso de análisis de valores límite como técnica  \n  \n- **D.** Transferencia del riesgo. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?  ",
+    "question": "Dados los siguientes riesgos: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre riesgos y actividades de mitigación?\n\n1. Una implementación ineficaz de bucles causa respuestas lentas del sistema\n2. Los consumidores cambian sus preferencias\n3. Inundación de la sala de servidores\n4. Pacientes mayores de cierta edad reciben informes incorrectos\n\nA. Aceptación del riesgo  \nB. Pruebas de eficiencia de rendimiento  \nC. Uso de análisis de valores límite como técnica  \nD. Transferencia del riesgo",
     "options": [
       "A) 1C, 2D, 3A, 4B",
       "B) 1B, 2D, 3A, 4C",
@@ -1145,7 +1145,7 @@
     "id": 326,
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Dadas las siguientes descripciones:  \n  \n1. Dan soporte al seguimiento del flujo de trabajo  \n  \n2. Facilitan la comunicación  \n  \n3. Máquinas virtuales  \n  \n4. Dan soporte a las revisiones. Y las siguientes categorías de herramientas de prueba:  \n  \n- **A.** Herramientas de pruebas estáticas  \n  \n- **B.** Herramientas que apoyan la escalabilidad y la estandarización del despliegue  \n  \n- **C.** Herramientas DevOps  \n  \n- **D.** Herramientas de colaboración. ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?  ",
+    "question": "Dadas las siguientes descripciones: ¿Cuál de las siguientes opciones establece la MEJOR correspondencia entre las descripciones y las categorías?\n\n1. Dan soporte al seguimiento del flujo de trabajo\n2. Facilitan la comunicación\n3. Máquinas virtuales\n4. Dan soporte a las revisiones\n\nA. Herramientas de pruebas estáticas  \nB. Herramientas que apoyan la escalabilidad y la estandarización del despliegue  \nC. Herramientas DevOps  \nD. Herramientas de colaboración",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1B, 2D, 3C, 4A",
@@ -1236,7 +1236,7 @@
     "id": 332,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dado el siguiente testware:  \n  \n1. Ítems de cobertura  \n  \n2. Solicitudes de cambio  \n  \n3. Calendario de ejecución de pruebas  \n  \n4. Condiciones de prueba priorizadas. Y las siguientes actividades de prueba:  \n  \n- **A.** Análisis de pruebas  \n  \n- **B.** Diseño de pruebas  \n  \n- **C.** Implementación de pruebas  \n  \n- **D.** Finalización de pruebas. ¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?  ",
+    "question": "Dado el siguiente testware: ¿Cuál de las siguientes muestra MEJOR el testware producido por cada actividad?\n\n1. Ítems de cobertura\n2. Solicitudes de cambio\n3. Calendario de ejecución de pruebas\n4. Condiciones de prueba priorizadas\n\nA. Análisis de pruebas  \nB. Diseño de pruebas  \nC. Implementación de pruebas  \nD. Finalización de pruebas",
     "options": [
       "A) 1B, 2D, 3C, 4A",
       "B) 1B, 2D, 3A, 4C",
@@ -1356,7 +1356,7 @@
     "id": 340,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dados los siguientes tipos de revisión:  \n  \n1. Revisión técnica  \n  \n2. Revisión informal  \n  \n3. Inspección  \n  \n4. Walkthrough. Y las siguientes descripciones:  \n  \n- **A.** Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar  \n  \n- **B.** Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos  \n  \n- **C.** El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso  \n  \n- **D.** El objetivo principal es detectar posibles defectos y no genera documentación formal de salida. ¿Cuál de las siguientes establece la MEJOR correspondencia?  ",
+    "question": "Dados los siguientes tipos de revisión: ¿Cuál de las siguientes establece la MEJOR correspondencia?\n\n1. Revisión técnica\n2. Revisión informal\n3. Inspección\n4. Walkthrough\n\nA. Incluye objetivos como alcanzar consenso, generar nuevas ideas y motivar a los autores a mejorar  \nB. Incluye objetivos como formar a los revisores, alcanzar consenso, generar nuevas ideas y detectar posibles defectos  \nC. El objetivo principal es detectar posibles defectos y requiere recopilación de métricas para la mejora del proceso  \nD. El objetivo principal es detectar posibles defectos y no genera documentación formal de salida",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1A, 2D, 3C, 4B",
@@ -2243,7 +2243,7 @@
     "id": 399,
     "chapter": 1,
     "topic": "Fundamentos del Testing",
-    "question": "Dadas las siguientes tareas de prueba:  \n  \n1) Derivar casos de prueba desde condiciones,  \n  \n2) Identificar testware reutilizable,  \n  \n3) Organizar casos en procedimientos,  \n  \n4) Evaluar la base de prueba; y actividades:  \n  \nA) Análisis,  \n  \nB) Diseño,  \n  \nC) Implementación,  \n  \nD) Finalización. ¿Cuál es el MEJOR emparejamiento?  ",
+    "question": "Dadas las siguientes tareas de prueba: ¿Cuál es el MEJOR emparejamiento?\n\n1. Derivar casos de prueba desde condiciones\n2. Identificar testware reutilizable\n3. Organizar casos en procedimientos\n4. Evaluar la base de prueba\n\nA. Análisis  \nB. Diseño  \nC. Implementación  \nD. Finalización",
     "options": [
       "A) 1B, 2A, 3D, 4C",
       "B) 1B, 2D, 3C, 4A",
@@ -3375,7 +3375,7 @@
     "id": 1013,
     "chapter": 2,
     "topic": "Niveles de Prueba",
-    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba y sus enfoques?  \n  \n1. Valida la funcionalidad completa en producción simulada.  \n  \n2. Verifica que módulos individuales funcionen.  \n  \n3. Asegura que módulos se integren juntos.  \n  \n4. Valida requisitos desde la perspectiva del usuario final.  \n  \n- **A.** Pruebas de sistema,  \n  \n- **B.** Pruebas de componentes,  \n  \n- **C.** Pruebas de integración,  \n  \n- **D.** Pruebas de aceptación  ",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba y sus enfoques?\n\n1. Valida la funcionalidad completa en producción simulada\n2. Verifica que módulos individuales funcionen\n3. Asegura que módulos se integren juntos\n4. Valida requisitos desde la perspectiva del usuario final\n\nA. Pruebas de sistema  \nB. Pruebas de componentes  \nC. Pruebas de integración  \nD. Pruebas de aceptación",
     "options": [
       "1A, 2B, 3C, 4D",
       "1C, 2A, 3D, 4B",
@@ -3735,7 +3735,7 @@
     "id": 1037,
     "chapter": 2,
     "topic": "Cuadrantes Ágiles",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):  \n  \n1. Pruebas de usabilidad  \n2. Pruebas de componentes  \n3. Pruebas funcionales  \n4. Pruebas de fiabilidad  \n  \n- **A.** Q1: tecnología/apoya equipo  \n- **B.** Q2: negocio/apoya equipo  \n- **C.** Q3: negocio/crítica producto  \n- **D.** Q4: tecnología/crítica producto  \n  \n¿Qué combinaciones son correctas?  ",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D). ¿Qué combinaciones son correctas?\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de fiabilidad\n\nA (Q1). Tecnología / apoya al equipo  \nB (Q2). Negocio / apoya al equipo  \nC (Q3). Negocio / crítica al producto  \nD (Q4). Tecnología / crítica al producto",
     "options": [
       "1C, 2A, 3B, 4D",
       "1D, 2A, 3C, 4B",
@@ -4424,7 +4424,7 @@
   {
     "chapter": 2,
     "topic": "Pruebas durante el SDLC",
-    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)?  \n  \n1. Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado.  \n2. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente.  \n3. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos.  \n4. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final.  \n  \n- **A.** Pruebas de sistema  \n- **B.** Pruebas de componentes  \n- **C.** Pruebas de integración  \n- **D.** Pruebas de aceptación  ",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)?\n\n1. Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado\n2. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente\n3. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos\n4. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final\n\nA. Pruebas de sistema  \nB. Pruebas de componentes  \nC. Pruebas de integración  \nD. Pruebas de aceptación",
     "options": [
       "A) 1A, 2B, 3C, 4D",
       "B) 1C, 2A, 3D, 4B",
@@ -4814,7 +4814,7 @@
   {
     "id": "q_batch2_6ody8pkik",
     "topic": "Testing a lo largo del SDLC",
-    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D):  \n  \n1. Pruebas de aceptación del usuario  \n2. Pruebas de rendimiento  \n3. Pruebas de integración de componentes  \n4. Pruebas de historias de usuario  \n  \n- **A.** Cuadrante Q1: orientado a la tecnología, apoya al equipo de desarrollo  \n- **B.** Cuadrante Q2: orientado a los negocios, apoya al equipo de desarrollo  \n- **C.** Cuadrante Q3: orientado a los negocios, crítica al producto  \n- **D.** Cuadrante Q4: orientado a la tecnología, crítica al producto  \n  \n¿Qué combinaciones son correctas para estas categorías de pruebas y los cuadrantes?  ",
+    "question": "Identifica las siguientes categorías de pruebas (1-4) y los cuadrantes de pruebas ágiles (A-D). ¿Qué combinaciones son correctas?\n\n1. Pruebas de aceptación del usuario\n2. Pruebas de rendimiento\n3. Pruebas de integración de componentes\n4. Pruebas de historias de usuario\n\nA (Q1). Orientado a la tecnología, apoya al equipo de desarrollo  \nB (Q2). Orientado al negocio, apoya al equipo de desarrollo  \nC (Q3). Orientado al negocio, crítica al producto  \nD (Q4). Orientado a la tecnología, crítica al producto",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
@@ -4923,7 +4923,7 @@
     "chapter": 2,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)?  \n  \n**Enfoques:**  \n1. Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado.  \n2. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente.  \n3. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos.  \n4. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final.  \n  \n**Niveles de prueba:**  \n- **A.** Pruebas de sistema  \n- **B.** Pruebas de componentes  \n- **C.** Pruebas de integración  \n- **D.** Pruebas de aceptación  ",
+    "question": "¿Cuáles de las siguientes afirmaciones describen adecuadamente los niveles de prueba (1-4) y sus enfoques específicos (A-D)?\n\n1. Pruebas realizadas para validar la funcionalidad completa del sistema en un entorno de producción simulado.\n2. Pruebas que se centran en verificar que los módulos individuales funcionen correctamente.\n3. Pruebas que aseguran que los diferentes módulos se integren y funcionen juntos.\n4. Pruebas que involucran la validación de requisitos desde la perspectiva del usuario final.\n\nA. Pruebas de sistema  \nB. Pruebas de componentes  \nC. Pruebas de integración  \nD. Pruebas de aceptación",
     "options": [
       "A. 1A, 2B, 3C, 4D",
       "B. 1C, 2A, 3D, 4B",
@@ -5147,7 +5147,7 @@
     "chapter": 4,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "¿Cómo se clasifican las siguientes pruebas según los cuadrantes de pruebas ágiles (A-D) y su relación con los niveles de prueba?  \n  \n1. Pruebas de componentes  \n2. Pruebas funcionales  \n3. Pruebas exploratorias  \n4. Pruebas no funcionales  \n  \n- **A.** Cuadrante de pruebas ágiles Q1: orientado a la tecnología, apoya al equipo  \n- **B.** Cuadrante de pruebas ágiles Q2: orientado a los negocios, apoya al equipo  \n- **C.** Cuadrante de pruebas ágiles Q3: orientado a los negocios, crítica al producto  \n- **D.** Cuadrante de pruebas ágiles Q4: orientado a la tecnología, crítica al producto  \n  \nSelecciona UNA opción que represente correctamente la clasificación.  ",
+    "question": "¿Cómo se clasifican las siguientes pruebas según los cuadrantes de pruebas ágiles (A-D)? Selecciona la opción correcta.\n\n1. Pruebas de componentes\n2. Pruebas funcionales\n3. Pruebas exploratorias\n4. Pruebas no funcionales\n\nA (Q1). Orientado a la tecnología, apoya al equipo  \nB (Q2). Orientado al negocio, apoya al equipo  \nC (Q3). Orientado al negocio, crítica al producto  \nD (Q4). Orientado a la tecnología, crítica al producto",
     "options": [
       "1A, 2B, 3C, 4D",
       "1B, 2A, 3D, 4C",
