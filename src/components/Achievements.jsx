@@ -1,74 +1,75 @@
 import React, { useState, useEffect } from 'react';
+import { t } from '../i18n';
 
 const ACHIEVEMENTS_CONFIG = [
   {
     id: 'first_answer',
     icon: '🎯',
-    title: 'Primera Respuesta',
-    description: 'Respondiste tu primera pregunta.',
+    get title() { return t('ach_first_title'); },
+    get description() { return t('ach_first_desc'); },
     check: (stats) => stats.totalAnswered >= 1,
   },
   {
     id: 'first_pass',
     icon: '✅',
-    title: '¡Aprobado!',
-    description: 'Superaste el 65% por primera vez.',
+    get title() { return t('ach_pass_title'); },
+    get description() { return t('ach_pass_desc'); },
     check: (stats) => stats.passedExams >= 1,
   },
   {
     id: 'streak_5',
     icon: '🔥',
-    title: 'Racha de 5',
-    description: 'Acertaste 5 preguntas seguidas.',
+    get title() { return t('ach_streak5_title'); },
+    get description() { return t('ach_streak5_desc'); },
     check: (stats) => stats.bestStreak >= 5,
   },
   {
     id: 'streak_10',
     icon: '⚡',
-    title: 'Racha de 10',
-    description: 'Acertaste 10 preguntas seguidas. ¡Imparable!',
+    get title() { return t('ach_streak10_title'); },
+    get description() { return t('ach_streak10_desc'); },
     check: (stats) => stats.bestStreak >= 10,
   },
   {
     id: 'hundred',
     icon: '💯',
-    title: '100 Preguntas',
-    description: 'Respondiste 100 preguntas en total.',
+    get title() { return t('ach_100_title'); },
+    get description() { return t('ach_100_desc'); },
     check: (stats) => stats.totalAnswered >= 100,
   },
   {
     id: 'five_hundred',
     icon: '🚀',
-    title: '500 Preguntas',
-    description: 'Respondiste 500 preguntas. ¡Eres un experto!',
+    get title() { return t('ach_500_title'); },
+    get description() { return t('ach_500_desc'); },
     check: (stats) => stats.totalAnswered >= 500,
   },
   {
     id: 'perfect',
     icon: '🏆',
-    title: 'Perfección',
-    description: 'Obtuviste el 100% en un examen.',
+    get title() { return t('ach_perfect_title'); },
+    get description() { return t('ach_perfect_desc'); },
     check: (stats) => stats.perfectExams >= 1,
   },
   {
     id: 'flashmaster',
     icon: '🃏',
-    title: 'Flash Master',
-    description: 'Completaste un mazo de Flashcards.',
+    get title() { return t('ach_flash_title'); },
+    get description() { return t('ach_flash_desc'); },
     check: (stats) => stats.flashcardsCompleted >= 1,
   },
   {
     id: 'consistent',
     icon: '📅',
-    title: 'Constante',
-    description: 'Estudiaste durante 3 días seguidos.',
+    get title() { return t('ach_const_title'); },
+    get description() { return t('ach_const_desc'); },
     check: (stats) => stats.studyStreak >= 3,
   },
   {
     id: 'examinator',
     icon: '🎓',
-    title: 'Examinador',
-    description: 'Completaste 10 simulaciones.',
+    get title() { return t('ach_exam_title'); },
+    get description() { return t('ach_exam_desc'); },
     check: (stats) => stats.totalExams >= 10,
   },
 ];
@@ -142,7 +143,7 @@ const Achievements = ({ onClose }) => {
   return (
     <div className="retro-window" style={{ display: 'flex', flexDirection: 'column', maxHeight: '100%' }}>
       <div className="title-bar">
-        <div className="title-bar-text">🏆 Logros — Simulador ISTQB</div>
+        <div className="title-bar-text">{t('achTitle')}</div>
         <div className="title-bar-controls">
           <button className="title-bar-btn">_</button>
           <button className="title-bar-btn">□</button>
@@ -151,9 +152,9 @@ const Achievements = ({ onClose }) => {
       </div>
       <div className="window-body" style={{ overflowY: 'auto', flex: 1 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-          <h2 className="question-text" style={{ margin: 0 }}>Mis Logros</h2>
+          <h2 className="question-text" style={{ margin: 0 }}>{t('myAchievements')}</h2>
           <span style={{ fontSize: '1rem', color: '#555' }}>
-            {unlocked.length}/{ACHIEVEMENTS_CONFIG.length} desbloqueados
+            {unlocked.length}/{ACHIEVEMENTS_CONFIG.length} {t('unlocked')}
           </span>
         </div>
 
@@ -173,19 +174,19 @@ const Achievements = ({ onClose }) => {
         </div>
 
         <div style={{ marginTop: '1.5rem', borderTop: '1px solid #aaa', paddingTop: '1rem' }}>
-          <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', fontSize: '1rem' }}>Estadísticas Globales:</p>
+          <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', fontSize: '1rem' }}>{t('globalStats')}</p>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px', fontSize: '0.95rem' }}>
-            <span>Total respondidas:</span><span><strong>{stats.totalAnswered}</strong></span>
-            <span>Total correctas:</span><span><strong>{stats.totalCorrect}</strong></span>
-            <span>Simulaciones:</span><span><strong>{stats.totalExams}</strong></span>
-            <span>Aprobadas:</span><span><strong>{stats.passedExams}</strong></span>
-            <span>Perfectas (100%):</span><span><strong>{stats.perfectExams}</strong></span>
-            <span>Mejor racha:</span><span><strong>{stats.bestStreak} ⚡</strong></span>
-            <span>Tarjetas completadas:</span><span><strong>{stats.flashcardsCompleted}</strong></span>
+            <span>{t('totalAnswered')}</span><span><strong>{stats.totalAnswered}</strong></span>
+            <span>{t('totalCorrect')}</span><span><strong>{stats.totalCorrect}</strong></span>
+            <span>{t('simulations')}</span><span><strong>{stats.totalExams}</strong></span>
+            <span>{t('passed')}</span><span><strong>{stats.passedExams}</strong></span>
+            <span>{t('perfects')}</span><span><strong>{stats.perfectExams}</strong></span>
+            <span>{t('bestStreak')}</span><span><strong>{stats.bestStreak} ⚡</strong></span>
+            <span>{t('flashcardsCompleted')}</span><span><strong>{stats.flashcardsCompleted}</strong></span>
           </div>
         </div>
 
-        <button className="btn" style={{ marginTop: '1rem' }} onClick={onClose}>[ Cerrar ]</button>
+        <button className="btn" style={{ marginTop: '1rem' }} onClick={onClose}>{t('closeBtn')}</button>
       </div>
     </div>
   );
@@ -220,7 +221,7 @@ export const AchievementPopup = ({ achievements, onDismiss }) => {
     }}>
       <div className="achievement-popup-icon">{ach.icon}</div>
       <div className="achievement-popup-text">
-        <div className="achievement-popup-title">¡Logro Desbloqueado!</div>
+        <div className="achievement-popup-title">{t('achievementUnlocked')}</div>
         <div className="achievement-popup-name">{ach.title}</div>
         <div className="achievement-popup-desc">{ach.description}</div>
       </div>
