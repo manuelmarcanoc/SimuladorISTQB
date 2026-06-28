@@ -58,9 +58,11 @@ const Results = ({ score, totalQuestions, userAnswers, questions, onRestart }) =
 
   return (
     <div className="results-card animate-in">
-      <div style={{ fontSize: '72px', margin: '0 auto', color: isPassing ? 'var(--success)' : 'var(--error)' }}>
-        {isPassing ? '🎓' : '📚'}
-      </div>
+      {isPassing && (
+        <div style={{ fontSize: '72px', margin: '0 auto', color: 'var(--success)' }}>
+          🎓
+        </div>
+      )}
 
       <h2 className="card-title" style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>
         {isPassing ? t('congratsPassed') : t('notPassed')}
