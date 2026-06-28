@@ -48,7 +48,7 @@
     "id": 1007,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lorsqu'il évalue la qualité d'un produit logiciel ?  \n  \ni. Communication efficace  \n  \nii. Connaissances techniques  \n  \niii. Capacité d'analyse  \n  \niv. Gestion du temps  ",
+    "question": "Laquelle des compétences suivantes est essentielle pour un testeur lorsqu'il évalue la qualité d'un produit logiciel ?\n\ni. Communication efficace\n\nii. Connaissances techniques\n\niii. Capacité d'analyse\n\niv. Gestion du temps  ",
     "options": [
       "i et ii sont essentielles ; iii et iv ne le sont pas",
       "iii et iv sont essentielles ; i et ii ne le sont pas",
@@ -93,7 +93,7 @@
     "id": 1039,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Lesquelles des compétences suivantes (i-v) sont essentielles pour un testeur dans son travail quotidien ?  \n  \ni. Capacité à rédiger des rapports clairs  \n  \nii. Connaissance des langages de programmation  \n  \niii. Capacité d'analyse des risques  \n  \niv. Être un bon communicant  \n  \nv. Connaître les outils d'automatisation  ",
+    "question": "Lesquelles des compétences suivantes (i-v) sont essentielles pour un testeur dans son travail quotidien ?\n\ni. Capacité à rédiger des rapports clairs\n\nii. Connaissance des langages de programmation\n\niii. Capacité d'analyse des risques\n\niv. Être un bon communicant\n\nv. Connaître les outils d'automatisation  ",
     "options": [
       "i, iii et iv sont essentielles ; ii et v ne le sont pas",
       "ii, iii et v sont essentielles ; i et iv ne le sont pas",
@@ -318,7 +318,7 @@
     "id": 254,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Parmi les facteurs suivants, lesquels ont une influence SIGNIFICATIVE sur l'approche de test ? Yo. Le SDLC  \n  \nii. Le nombre de défauts détectés dans les projets précédents  \n  \niii. Les risques liés aux produits identifiés  \n  \niv. Nouvelles exigences réglementaires exigeant des tests formels en boîte blanche  \n  \nv. Mise en place de l'environnement de test  ",
+    "question": "Parmi les facteurs suivants, lesquels ont une influence SIGNIFICATIVE sur l'approche de test ? Yo. Le SDLC\n\nii. Le nombre de défauts détectés dans les projets précédents\n\niii. Les risques liés aux produits identifiés\n\niv. Nouvelles exigences réglementaires exigeant des tests formels en boîte blanche\n\nv. Mise en place de l'environnement de test  ",
     "options": [
       "A) i, ii ont une influence significative",
       "B) i, iii, iv ont une influence significative",
@@ -348,7 +348,7 @@
     "id": 256,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Parmi les compétences suivantes (i-v), lesquelles sont les PLUS importantes pour un testeur ? Yo. Avoir une connaissance du domaine  \n  \nii. Créer une vision du produit  \n  \niii. Être un bon joueur d'équipe  \n  \niv. Planifier et organiser le travail de l'équipe  \n  \nv. Pensée critique  ",
+    "question": "Parmi les compétences suivantes (i-v), lesquelles sont les PLUS importantes pour un testeur ? Yo. Avoir une connaissance du domaine\n\nii. Créer une vision du produit\n\niii. Être un bon joueur d'équipe\n\niv. Planifier et organiser le travail de l'équipe\n\nv. Pensée critique  ",
     "options": [
       "A) ii et iv sont importants",
       "B) i, iii et v sont importants",
@@ -633,7 +633,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donné le testware suivant :  \n  \ni. Rapport de clôture des tests  \n  \nii. Données dans une base de données utilisées comme entrées et résultats attendus  \n  \niii. Liste des éléments nécessaires pour construire l'environnement de test  \n  \niv. Séquences documentées de cas de test dans l'ordre d'exécution  \n  \nv. Cas de test.\n\nLaquelle des options suivantes montre le MIEUX le testware produit à la suite de l'implémentation des tests ?",
+    "question": "Étant donné le testware suivant :\n\ni. Rapport de clôture des tests\n\nii. Données dans une base de données utilisées comme entrées et résultats attendus\n\niii. Liste des éléments nécessaires pour construire l'environnement de test\n\niv. Séquences documentées de cas de test dans l'ordre d'exécution\n\nv. Cas de test.\n\nLaquelle des options suivantes montre le MIEUX le testware produit à la suite de l'implémentation des tests ?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -678,7 +678,7 @@
     "id": 368,
     "chapter": 1,
     "topic": "Fondamentaux des tests",
-    "question": "Étant donnés les avantages et inconvénients suivants de l'indépendance des tests :  \n  \ni. Les testeurs travaillent dans un lieu différent de celui des développeurs  \n  \nii. Les testeurs remettent en question les hypothèses que les programmeurs font en écrivant le code  \n  \niii. Une dynamique de confrontation s'est établie entre testeurs et développeurs  \n  \niv. Les développeurs se sont convaincus que les testeurs sont les principaux responsables de la qualité  \n  \nv. Les testeurs ont des biais différents de ceux des développeurs. Lesquels sont le PLUS PROBABLEMENT considérés comme des avantages ?  ",
+    "question": "Étant donnés les avantages et inconvénients suivants de l'indépendance des tests :\n\ni. Les testeurs travaillent dans un lieu différent de celui des développeurs\n\nii. Les testeurs remettent en question les hypothèses que les programmeurs font en écrivant le code\n\niii. Une dynamique de confrontation s'est établie entre testeurs et développeurs\n\niv. Les développeurs se sont convaincus que les testeurs sont les principaux responsables de la qualité\n\nv. Les testeurs ont des biais différents de ceux des développeurs. Lesquels sont le PLUS PROBABLEMENT considérés comme des avantages ?  ",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -2028,7 +2028,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant donnés les exemples de défauts suivants :  \n  \ni. Deux parties différentes de la spécification de conception se contredisent en raison de la complexité de la conception  \n  \nii. Un temps de réponse est trop long et fait perdre patience aux utilisateurs  \n  \niii. Un chemin dans le code ne peut pas être atteint pendant l'exécution  \n  \niv. Une variable est déclarée mais jamais utilisée dans le programme  \n  \nv. La quantité de mémoire dont le programme a besoin pour générer un rapport est excessive.\n\nLaquelle des options suivantes identifie le MIEUX les défauts qui pourraient être trouvés par les tests statiques (plutôt que dynamiques) ?",
+    "question": "Étant donnés les exemples de défauts suivants :\n\ni. Deux parties différentes de la spécification de conception se contredisent en raison de la complexité de la conception\n\nii. Un temps de réponse est trop long et fait perdre patience aux utilisateurs\n\niii. Un chemin dans le code ne peut pas être atteint pendant l'exécution\n\niv. Une variable est déclarée mais jamais utilisée dans le programme\n\nv. La quantité de mémoire dont le programme a besoin pour générer un rapport est excessive.\n\nLaquelle des options suivantes identifie le MIEUX les défauts qui pourraient être trouvés par les tests statiques (plutôt que dynamiques) ?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -2103,7 +2103,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Tests statiques",
-    "question": "Étant données les descriptions suivantes d'activités de revue :  \n  \n1. Les anomalies détectées sont discutées et des décisions sont prises sur leur statut, leur propriétaire et les étapes suivantes  \n  \n2. Les défauts sont consignés et les mises à jour nécessaires sont traitées avant l'acceptation du produit de travail  \n  \n3. Les relecteurs emploient des techniques pour générer des suggestions et des questions sur le produit de travail et identifier des anomalies  \n  \n4. L'objectif de la revue et son calendrier sont établis pour garantir une revue ciblée et efficace  \n  \n5. Les participants reçoivent l'accès à l'élément à revoir.\n\nQuelle est la séquence CORRECTE des activités du processus de revue ?",
+    "question": "Étant données les descriptions suivantes d'activités de revue :\n\n1. Les anomalies détectées sont discutées et des décisions sont prises sur leur statut, leur propriétaire et les étapes suivantes\n\n2. Les défauts sont consignés et les mises à jour nécessaires sont traitées avant l'acceptation du produit de travail\n\n3. Les relecteurs emploient des techniques pour générer des suggestions et des questions sur le produit de travail et identifier des anomalies\n\n4. L'objectif de la revue et son calendrier sont établis pour garantir une revue ciblée et efficace\n\n5. Les participants reçoivent l'accès à l'élément à revoir.\n\nQuelle est la séquence CORRECTE des activités du processus de revue ?",
     "options": [
       "A) 4 - 3 - 5 - 2 - 1",
       "B) 4 - 5 - 3 - 1 - 2",
@@ -3618,7 +3618,7 @@
     "id": "q_batch2_zdybwbzfz",
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "Un système de remises pour une boutique en ligne applique les règles suivantes : Si le client est VIP ET la commande est > 100 $ : 20 % de remise. Si le client est VIP ET la commande est <= 100 $ : 10 % de remise. Si le client n'est PAS VIP ET la commande est > 100 $ : 5 % de remise. Si le client n'est PAS VIP ET la commande est <= 100 $ : aucune remise.\n\nCombien de règles de décision sont nécessaires dans la table de décision complète ?",
+    "question": "Un système de remises pour une boutique en ligne applique les règles suivantes :\n\n- Si le client est VIP ET la commande est > 100 $ : 20 % de remise\n- Si le client est VIP ET la commande est <= 100 $ : 10 % de remise\n- Si le client n'est PAS VIP ET la commande est > 100 $ : 5 % de remise\n- Si le client n'est PAS VIP ET la commande est <= 100 $ : aucune remise\n\nCombien de règles de décision sont nécessaires dans la table de décision complète ?",
     "options": [
       "2",
       "3",
@@ -4173,7 +4173,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Considérez le rapport de défaut suivant pour une application web d'achat : Application : WebShop v0.9.1. Module : Panier. Résumé : 'Le bouton Supprimer du panier ne fonctionne pas lorsqu'il y a exactement 1 article'. Étapes :  \n  \n1) Se connecter  \n  \n2) Ajouter 1 article au panier  \n  \n3) Cliquer sur Supprimer. Résultat attendu : L'article est supprimé et le panier est vide. Résultat réel : Rien ne se passe.\n\nLequel des éléments suivants est ABSENT de ce rapport de défaut ?",
+    "question": "Considérez le rapport de défaut suivant pour une application web d'achat : Application : WebShop v0.9.1. Module : Panier. Résumé : 'Le bouton Supprimer du panier ne fonctionne pas lorsqu'il y a exactement 1 article'. Étapes :\n\n1) Se connecter\n\n2) Ajouter 1 article au panier\n\n3) Cliquer sur Supprimer. Résultat attendu : L'article est supprimé et le panier est vide. Résultat réel : Rien ne se passe.\n\nLequel des éléments suivants est ABSENT de ce rapport de défaut ?",
     "options": [
       "A) L'identifiant du cas de test qui a révélé le défaut",
       "B) Les données d'environnement/configuration du système",
@@ -4713,7 +4713,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Outils de test",
-    "question": "Étant données les catégories d'outils de test (i. Collaboration,  \n  \nii. DevOps,  \n  \niii. Gestion,  \n  \niv. Non fonctionnels,  \n  \nv. Conception/Implémentation). Les outils de\n\nquelles catégories sont les PLUS susceptibles de faciliter l'exécution des tests ?",
+    "question": "Étant données les catégories d'outils de test (i. Collaboration,\n\nii. DevOps,\n\niii. Gestion,\n\niv. Non fonctionnels,\n\nv. Conception/Implémentation). Les outils de\n\nquelles catégories sont les PLUS susceptibles de faciliter l'exécution des tests ?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -5169,7 +5169,7 @@
     "id": 263,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Vous testez une user story avec trois critères d’acceptation : AC1, AC2 et AC3. AC1 est couvert par le scénario de test TC1, AC2 par TC2 et AC3 par TC3. L'historique d'exécution des tests comprenait trois séries de tests sur trois versions consécutives du logiciel, comme suit :  \n  \n| | Exécution 1 | Exécution 2 | Exécution 3 |  \n|---|---|---|---|  \n| TC1 (1) | Échec (4) | Passé (7) | Passé |  \n| TC2 (2) | Passé (5) | Échec (8) | Passé |  \n| TC3 (3) | Échec (6) | Échec (9) | Passé |  \n  \nLes tests sont répétés une fois que vous êtes informé que tous les défauts détectés lors de la série de tests sont corrigés et qu'une nouvelle version du logiciel est disponible. Parmi les tests ci-dessus, lesquels sont exécutés en tant que tests de régression ?  ",
+    "question": "Vous testez une user story avec trois critères d’acceptation : AC1, AC2 et AC3. AC1 est couvert par le scénario de test TC1, AC2 par TC2 et AC3 par TC3. L'historique d'exécution des tests comprenait trois séries de tests sur trois versions consécutives du logiciel, comme suit :\n\n| | Exécution 1 | Exécution 2 | Exécution 3 |  \n|---|---|---|---|  \n| TC1 (1) | Échec (4) | Passé (7) | Passé |  \n| TC2 (2) | Passé (5) | Échec (8) | Passé |  \n| TC3 (3) | Échec (6) | Échec (9) | Passé |\n\nLes tests sont répétés une fois que vous êtes informé que tous les défauts détectés lors de la série de tests sont corrigés et qu'une nouvelle version du logiciel est disponible. Parmi les tests ci-dessus, lesquels sont exécutés en tant que tests de régression ?  ",
     "options": [
       "A) Seulement 4, 7, 8, 9",
       "B) Seulement 5, 7",
@@ -5184,7 +5184,7 @@
     "id": 270,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Vous testez un système qui calcule la note finale du cours pour un étudiant donné. La note finale est attribuée en fonction du résultat final, selon les règles suivantes :  \n- 0 – 50 points : échec  \n- 51 – 60 points : suffisant  \n- 61 – 70 points : satisfaisant  \n- 71 – 80 points : bien  \n- 81 – 90 points : très bien  \n- 91 – 100 points : excellent  \n  \nVous avez préparé l'ensemble de scénarios de test suivant :  \n  \n| TC | Résultat final | Note finale |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | très bien |  \n| TC4 | 60 | assez |  \n| TC5 | 70 | satisfaisant |  \n| TC6 | 80 | bon |\n\nQuelle est la couverture de l'analyse des valeurs limites (BVA) à 2 valeurs pour le résultat final obtenu avec les cas de test existants ?",
+    "question": "Vous testez un système qui calcule la note finale du cours pour un étudiant donné. La note finale est attribuée en fonction du résultat final, selon les règles suivantes :  \n- 0 – 50 points : échec  \n- 51 – 60 points : suffisant  \n- 61 – 70 points : satisfaisant  \n- 71 – 80 points : bien  \n- 81 – 90 points : très bien  \n- 91 – 100 points : excellent\n\nVous avez préparé l'ensemble de scénarios de test suivant :\n\n| TC | Résultat final | Note finale |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | très bien |  \n| TC4 | 60 | assez |  \n| TC5 | 70 | satisfaisant |  \n| TC6 | 80 | bon |\n\nQuelle est la couverture de l'analyse des valeurs limites (BVA) à 2 valeurs pour le résultat final obtenu avec les cas de test existants ?",
     "options": [
       "A) 50 %",
       "B) 60 %",
@@ -5199,7 +5199,7 @@
     "id": 309,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Le tableau de décision suivant contient les règles permettant de déterminer le risque d’artériosclérose.  \n  \n| | Règle 1 | Règle 2 | Règle 3 | Règle 4 | Règle 5 |  \n|---|---|---|---|---|---|  \n| Cholestérol (mg/dl) | ≤124 | ≤124 | 125-200 | 125-200 | ≥201 |  \n| Pression artérielle (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Niveau de risque | très faible | faible | moyen | élevé | très élevé |  \n  \nVous avez conçu les cas de tests suivants :  \n- TC1 : Cholestérol=125, TA=141  \n- TC2 : Cholestérol=200, TA=201  \n- TC3 : Cholestérol=124, TA=201  \n- TC4 : Cholestérol=109, TA=200  \n- TC5 : Cholestérol=201, TA=140\n\nQuelle couverture de table de décision ces cas de test atteignent-ils ?",
+    "question": "Le tableau de décision suivant contient les règles permettant de déterminer le risque d’artériosclérose.\n\n| | Règle 1 | Règle 2 | Règle 3 | Règle 4 | Règle 5 |  \n|---|---|---|---|---|---|  \n| Cholestérol (mg/dl) | ≤124 | ≤124 | 125-200 | 125-200 | ≥201 |  \n| Pression artérielle (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Niveau de risque | très faible | faible | moyen | élevé | très élevé |\n\nVous avez conçu les cas de tests suivants :  \n- TC1 : Cholestérol=125, TA=141  \n- TC2 : Cholestérol=200, TA=201  \n- TC3 : Cholestérol=124, TA=201  \n- TC4 : Cholestérol=109, TA=200  \n- TC5 : Cholestérol=201, TA=140\n\nQuelle couverture de table de décision ces cas de test atteignent-ils ?",
     "options": [
       "A) 40 %",
       "B) 60 %",
@@ -5214,7 +5214,7 @@
     "id": 319,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous testez une application Web qui permet aux utilisateurs de RECHERCHER des produits, d'AFFICHER les détails, d'AJOUTER au panier et de passer une COMMANDE. Vous disposez de 7 cas de test avec ces priorités (1 = la plus élevée) :  \n- TC1 : RECHERCHE produit A (4)  \n- TC2 : RECHERCHE produit B (4)  \n- TC3 : VOIR détails A (3)  \n- TC4 : VOIR détails B (2)  \n- TC5 : AJOUTER le produit À (3)  \n- TC6 : AJOUTER le produit B (1)  \n- TC7 : passer la COMMANDE (5)  \n  \nDépendances : LOOKUP doit être testé avant VIEW, VIEW avant ADD et ADD avant ORDER.\n\nQuel scénario de test doit être exécuté en quatrième ?",
+    "question": "Vous testez une application Web qui permet aux utilisateurs de RECHERCHER des produits, d'AFFICHER les détails, d'AJOUTER au panier et de passer une COMMANDE. Vous disposez de 7 cas de test avec ces priorités (1 = la plus élevée) :  \n- TC1 : RECHERCHE produit A (4)  \n- TC2 : RECHERCHE produit B (4)  \n- TC3 : VOIR détails A (3)  \n- TC4 : VOIR détails B (2)  \n- TC5 : AJOUTER le produit À (3)  \n- TC6 : AJOUTER le produit B (1)  \n- TC7 : passer la COMMANDE (5)\n\nDépendances : LOOKUP doit être testé avant VIEW, VIEW avant ADD et ADD avant ORDER.\n\nQuel scénario de test doit être exécuté en quatrième ?",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -5229,7 +5229,7 @@
     "id": 325,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous testez une fonction de tri qui prend un ensemble de nombres et les renvoie triés par ordre croissant. Le journal d'exécution est :  \n  \n- TC1 : Entrée : '3'. Sortie : « 3 ». Résultat : réussi  \n- TC2 : Entrée : `3 11 6 5`. Sortie : « 3 5 6 11 ». Résultat : réussi  \n- TC3 : Entrée : `8 7 3 7 1`. Sortie : `1 3 7 8`. Résultat : échec  \n- TC4 : Entrée : `-2 -2 -2 -3 -3`. Sortie : `-3 -2`. Résultat : échec  \n- TC5 : Entrée : `0 -2 0 3 4 4`. Sortie : `-2 0 3 4`. Résultat : échec\n\nLequel des éléments suivants fournit la MEILLEURE description du bogue à utiliser dans un rapport de défaut ?",
+    "question": "Vous testez une fonction de tri qui prend un ensemble de nombres et les renvoie triés par ordre croissant. Le journal d'exécution est :\n\n- TC1 : Entrée : '3'. Sortie : « 3 ». Résultat : réussi  \n- TC2 : Entrée : `3 11 6 5`. Sortie : « 3 5 6 11 ». Résultat : réussi  \n- TC3 : Entrée : `8 7 3 7 1`. Sortie : `1 3 7 8`. Résultat : échec  \n- TC4 : Entrée : `-2 -2 -2 -3 -3`. Sortie : `-3 -2`. Résultat : échec  \n- TC5 : Entrée : `0 -2 0 3 4 4`. Sortie : `-2 0 3 4`. Résultat : échec\n\nLequel des éléments suivants fournit la MEILLEURE description du bogue à utiliser dans un rapport de défaut ?",
     "options": [
       "A) Le système ne parvient pas à trier plusieurs ensembles de nombres. Référence : TC3, TC4, TC5.",
       "B) Le système semble ignorer les doublons lors du tri. Référence : TC3, TC4, TC5.",
@@ -5244,7 +5244,7 @@
     "id": 355,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous préparez un planning d'exécution de tests pour 7 cas de tests (TC1-TC7).  \n  \nLes dépendances sont :  \n- TC2 dépend de TC1  \n- TC4 dépend de TC2 et TC3  \n- TC5 dépend du TC3  \n- TC6 dépend de TC4 et TC5  \n- TC7 dépend du TC6  \n  \nLes priorités (1=la plus élevée) sont : TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nQuel est le bon ordre d’exécution en respectant les dépendances et les priorités ?",
+    "question": "Vous préparez un planning d'exécution de tests pour 7 cas de tests (TC1-TC7).\n\nLes dépendances sont :  \n- TC2 dépend de TC1  \n- TC4 dépend de TC2 et TC3  \n- TC5 dépend du TC3  \n- TC6 dépend de TC4 et TC5  \n- TC7 dépend du TC6\n\nLes priorités (1=la plus élevée) sont : TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nQuel est le bon ordre d’exécution en respectant les dépendances et les priorités ?",
     "options": [
       "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
       "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
@@ -5259,7 +5259,7 @@
     "id": 1014,
     "chapter": 2,
     "topic": "Regresión vs Confirmación",
-    "question": "Les cas de tests ont été exécutés :  \n- Échec du TC1  \n- SS2 réussi  \n- Échec de SS3  \n  \nAprès corrections, TC1, TC2 et TC3 sont à nouveau exécutés. Lesquelles de ces exécutions sont considérées comme des tests de régression ?  ",
+    "question": "Les cas de tests ont été exécutés :  \n- Échec du TC1  \n- SS2 réussi  \n- Échec de SS3\n\nAprès corrections, TC1, TC2 et TC3 sont à nouveau exécutés. Lesquelles de ces exécutions sont considérées comme des tests de régression ?  ",
     "options": [
       "CT1",
       "TC2",
@@ -5273,7 +5273,7 @@
   {
     "id": "q_batch2_t5hos07b9",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :  \n  \n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |  \n|---|---|---|---|---|  \n| TC1 | Connexion | 2 | 2 | Aucun |  \n| TC2 | Vérifier le solde | 3 | 3 | TC1 |  \n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |  \n| TC4 | Changer le code PIN | 4 | 4 | TC1 |  \n  \nEn appliquant une priorisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très faible),\n\nquel serait l'ordre d'exécution LE PLUS approprié ?",
+    "question": "Vous disposez des cas de test suivants pour un système bancaire en ligne :\n\n| Cas | Risque de fonctionnalité | Probabilité du risque | Impact du risque | Dépendance |  \n|---|---|---|---|---|  \n| TC1 | Connexion | 2 | 2 | Aucun |  \n| TC2 | Vérifier le solde | 3 | 3 | TC1 |  \n| TC3 | Transférer de l'argent | 2 | 2 | TC1, TC2 |  \n| TC4 | Changer le code PIN | 4 | 4 | TC1 |\n\nEn appliquant une priorisation basée sur les risques, où l'impact et la probabilité sont mesurés sur une échelle de 1 à 5 (1=Très élevé, 2=Élevé, 3=Moyen, 4=Faible, 5=Très faible),\n\nquel serait l'ordre d'exécution LE PLUS approprié ?",
     "options": [
       "TC1, TC3, TC2, TC4",
       "TC1, TC2, TC3, TC4",
@@ -5290,7 +5290,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Une équipe de développement a corrigé plusieurs défauts dans une nouvelle version de l'application. Les cas de test suivants ont été exécutés dans la version précédente :  \n  \n| Test | Résultat dans la version précédente |  \n|---|---|  \n| TC1 | Échec |  \n| TC2 | Passé |  \n| TC3 | Échec |  \n  \nAprès les corrections, l’équipe exécute à nouveau les cas de test TC1, TC2 et TC3. Lesquelles de ces exécutions sont considérées comme des tests de régression ?  ",
+    "question": "Une équipe de développement a corrigé plusieurs défauts dans une nouvelle version de l'application. Les cas de test suivants ont été exécutés dans la version précédente :\n\n| Test | Résultat dans la version précédente |  \n|---|---|  \n| TC1 | Échec |  \n| TC2 | Passé |  \n| TC3 | Échec |\n\nAprès les corrections, l’équipe exécute à nouveau les cas de test TC1, TC2 et TC3. Lesquelles de ces exécutions sont considérées comme des tests de régression ?  ",
     "options": [
       "TC1 et TC3",
       "TC2 et TC3",

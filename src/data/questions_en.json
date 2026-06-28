@@ -48,7 +48,7 @@
     "id": 1007,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following skills is essential for a tester\n\nwhen evaluating the quality of a software product?  \n  \ni. Effective communication  \n  \nii. Technical knowledge  \n  \niii. Analytical ability  \n  \niv. Time management",
+    "question": "Which of the following skills is essential for a tester\n\nwhen evaluating the quality of a software product?\n\ni. Effective communication\n\nii. Technical knowledge\n\niii. Analytical ability\n\niv. Time management",
     "options": [
       "i and ii are essential; iii and iv are not",
       "iii and iv are essential; i and ii are not",
@@ -93,7 +93,7 @@
     "id": 1039,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following skills (i-v) are essential for a tester in their daily work?  \n  \ni. Ability to write clear reports  \n  \nii. Knowledge of programming languages  \n  \niii. Risk analysis ability  \n  \niv. Being a good communicator  \n  \nv. Knowing automation tools  ",
+    "question": "Which of the following skills (i-v) are essential for a tester in their daily work?\n\ni. Ability to write clear reports\n\nii. Knowledge of programming languages\n\niii. Risk analysis ability\n\niv. Being a good communicator\n\nv. Knowing automation tools  ",
     "options": [
       "i, iii and iv are essential; ii and v are not",
       "ii, iii and v are essential; i and iv are not",
@@ -318,7 +318,7 @@
     "id": 254,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following factors have a SIGNIFICANT influence on the testing approach? Yo. The SDLC  \n  \nii. The number of defects detected in previous projects  \n  \niii. The identified product risks  \n  \niv. New regulatory requirements mandating formal white box testing  \n  \nv. Setting up the test environment  ",
+    "question": "Which of the following factors have a SIGNIFICANT influence on the testing approach? Yo. The SDLC\n\nii. The number of defects detected in previous projects\n\niii. The identified product risks\n\niv. New regulatory requirements mandating formal white box testing\n\nv. Setting up the test environment  ",
     "options": [
       "A) i, ii have a significant influence",
       "B) i, iii, iv have a significant influence",
@@ -348,7 +348,7 @@
     "id": 256,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Which of the following skills (i-v) are MOST important for a tester? Yo. Have knowledge of the domain  \n  \nii. Create a product vision  \n  \niii. Be a good team player  \n  \niv. Plan and organize the team's work  \n  \nv. Critical thinking  ",
+    "question": "Which of the following skills (i-v) are MOST important for a tester? Yo. Have knowledge of the domain\n\nii. Create a product vision\n\niii. Be a good team player\n\niv. Plan and organize the team's work\n\nv. Critical thinking  ",
     "options": [
       "A) ii and iv are important",
       "B) i, iii and v are important",
@@ -633,7 +633,7 @@
     "id": 365,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Given the following testware:  \n  \ni. Test completion report  \n  \nii. Data in a database used as inputs and expected results  \n  \niii. List of items needed to build the test environment  \n  \niv. Documented sequences of test cases in execution order  \n  \nv. Test cases.\n\nWhich of the following BEST shows the testware produced as a result of performing test implementation?",
+    "question": "Given the following testware:\n\ni. Test completion report\n\nii. Data in a database used as inputs and expected results\n\niii. List of items needed to build the test environment\n\niv. Documented sequences of test cases in execution order\n\nv. Test cases.\n\nWhich of the following BEST shows the testware produced as a result of performing test implementation?",
     "options": [
       "A) ii, iv",
       "B) iii, v",
@@ -678,7 +678,7 @@
     "id": 368,
     "chapter": 1,
     "topic": "Fundamentals of Testing",
-    "question": "Given the following benefits and drawbacks of test independence:  \n  \ni. Testers work in a different location from the developers  \n  \nii. Testers question the assumptions programmers make\n\nwhen writing code  \n  \niii. A confrontational dynamic has been established between testers and developers  \n  \niv. Developers have become convinced that testers are mainly responsible for quality  \n  \nv. Testers have different biases from the developers. Which are MOST LIKELY considered benefits?",
+    "question": "Given the following benefits and drawbacks of test independence:\n\ni. Testers work in a different location from the developers\n\nii. Testers question the assumptions programmers make\n\nwhen writing code\n\niii. A confrontational dynamic has been established between testers and developers\n\niv. Developers have become convinced that testers are mainly responsible for quality\n\nv. Testers have different biases from the developers. Which are MOST LIKELY considered benefits?",
     "options": [
       "A) i, iv",
       "B) ii, v",
@@ -2028,7 +2028,7 @@
     "id": 339,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following examples of defects:  \n  \ni. Two different parts of the design specification contradict each other due to the complexity of the design  \n  \nii. A response time is too long and makes users lose patience  \n  \niii. A path in the code cannot be reached during execution  \n  \niv. A variable is declared but never used in the program  \n  \nv. The amount of memory the program needs to generate a report is excessive.\n\nWhich of the following BEST identifies the defects that could be found through static testing (rather than dynamic)?",
+    "question": "Given the following examples of defects:\n\ni. Two different parts of the design specification contradict each other due to the complexity of the design\n\nii. A response time is too long and makes users lose patience\n\niii. A path in the code cannot be reached during execution\n\niv. A variable is declared but never used in the program\n\nv. The amount of memory the program needs to generate a report is excessive.\n\nWhich of the following BEST identifies the defects that could be found through static testing (rather than dynamic)?",
     "options": [
       "A) ii, v",
       "B) iii, v",
@@ -2103,7 +2103,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Static Testing",
-    "question": "Given the following descriptions of review activities:  \n  \n1. Detected anomalies are discussed and decisions are made about their status, owner, and next steps  \n  \n2. Defects are recorded and the necessary updates are addressed before the work product is accepted  \n  \n3. Reviewers use techniques to generate suggestions and questions about the work product and identify anomalies  \n  \n4. The objective of the review and its schedule are set to ensure a focused and efficient review  \n  \n5. Participants are given access to the item to be reviewed.\n\nWhat is the CORRECT sequence of review process activities?",
+    "question": "Given the following descriptions of review activities:\n\n1. Detected anomalies are discussed and decisions are made about their status, owner, and next steps\n\n2. Defects are recorded and the necessary updates are addressed before the work product is accepted\n\n3. Reviewers use techniques to generate suggestions and questions about the work product and identify anomalies\n\n4. The objective of the review and its schedule are set to ensure a focused and efficient review\n\n5. Participants are given access to the item to be reviewed.\n\nWhat is the CORRECT sequence of review process activities?",
     "options": [
       "A) 4 - 3 - 5 - 2 - 1",
       "B) 4 - 5 - 3 - 1 - 2",
@@ -3618,7 +3618,7 @@
     "id": "q_batch2_zdybwbzfz",
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "A discount system for an online store applies the following rules: If the customer is VIP AND the order is > $100: 20% discount. If the customer is VIP AND the order is <= $100: 10% discount. If the customer is NOT VIP AND the order is > $100: 5% discount. If the customer is NOT VIP AND the order is <= $100: no discount.\n\nHow many decision rules are needed in the complete decision table?",
+    "question": "A discount system for an online store applies the following rules:\n\n- If the customer is VIP AND the order is > $100: 20% discount\n- If the customer is VIP AND the order is <= $100: 10% discount\n- If the customer is NOT VIP AND the order is > $100: 5% discount\n- If the customer is NOT VIP AND the order is <= $100: no discount\n\nHow many decision rules are needed in the complete decision table?",
     "options": [
       "2",
       "3",
@@ -4173,7 +4173,7 @@
     "id": 361,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Consider the following defect report for a shopping web application: Application: WebShop v0.9.1. Module: Shopping cart. Summary: 'The cart Delete button does not work\n\nwhen there is exactly 1 item'. Steps:  \n  \n1) Log in  \n  \n2) Add 1 item to the cart  \n  \n3) Click Delete. Expected result: The item is removed and the cart is empty. Actual result: Nothing happens. Which of the following elements is MISSING from this defect report?",
+    "question": "Consider the following defect report for a shopping web application: Application: WebShop v0.9.1. Module: Shopping cart. Summary: 'The cart Delete button does not work\n\nwhen there is exactly 1 item'. Steps:\n\n1) Log in\n\n2) Add 1 item to the cart\n\n3) Click Delete. Expected result: The item is removed and the cart is empty. Actual result: Nothing happens. Which of the following elements is MISSING from this defect report?",
     "options": [
       "A) The identifier of the test case that revealed the defect",
       "B) The system environment/configuration data",
@@ -4713,7 +4713,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Test Tools",
-    "question": "Given the test tool categories (i. Collaboration,  \n  \nii. DevOps,  \n  \niii. Management,  \n  \niv. Non-functional,  \n  \nv. Design/Implementation). Tools of\n\nwhich categories are MOST likely to support test execution?",
+    "question": "Given the test tool categories (i. Collaboration,\n\nii. DevOps,\n\niii. Management,\n\niv. Non-functional,\n\nv. Design/Implementation). Tools of\n\nwhich categories are MOST likely to support test execution?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -5169,7 +5169,7 @@
     "id": 263,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three rounds of testing on three consecutive versions of the software as follows:  \n  \n| | Execution 1 | Execution 2 | Execution 3 |  \n|---|---|---|---|  \n| TC1 (1) | Failed (4) | Past (7) | Past |  \n| TC2 (2) | Past (5) | Failed (8) | Past |  \n| TC3 (3) | Failed (6) | Failed (9) | Past |  \n  \nTesting is repeated once you are informed that all defects found in the round of testing are fixed and a new version of the software is available.\n\nWhich of the above tests are run as regression tests?",
+    "question": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three rounds of testing on three consecutive versions of the software as follows:\n\n| | Execution 1 | Execution 2 | Execution 3 |  \n|---|---|---|---|  \n| TC1 (1) | Failed (4) | Past (7) | Past |  \n| TC2 (2) | Past (5) | Failed (8) | Past |  \n| TC3 (3) | Failed (6) | Failed (9) | Past |\n\nTesting is repeated once you are informed that all defects found in the round of testing are fixed and a new version of the software is available.\n\nWhich of the above tests are run as regression tests?",
     "options": [
       "A) Only 4, 7, 8, 9",
       "B) Only 5, 7",
@@ -5184,7 +5184,7 @@
     "id": 270,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules:  \n- 0 – 50 points: fail  \n- 51 – 60 points: sufficient  \n- 61 – 70 points: satisfactory  \n- 71 – 80 points: good  \n- 81 – 90 points: very good  \n- 91 – 100 points: excellent  \n  \nYou have prepared the following set of test cases:  \n  \n| TC | Final result | Final note |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | very good |  \n| TC4 | 60 | enough |  \n| TC5 | 70 | satisfactory |  \n| TC6 | 80 | good |\n\nWhat is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?",
+    "question": "You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules:  \n- 0 – 50 points: fail  \n- 51 – 60 points: sufficient  \n- 61 – 70 points: satisfactory  \n- 71 – 80 points: good  \n- 81 – 90 points: very good  \n- 91 – 100 points: excellent\n\nYou have prepared the following set of test cases:\n\n| TC | Final result | Final note |  \n|---|---|---|  \n| TC1 | 91 | excellent |  \n| TC2 | 50 | suspense |  \n| TC3 | 81 | very good |  \n| TC4 | 60 | enough |  \n| TC5 | 70 | satisfactory |  \n| TC6 | 80 | good |\n\nWhat is the 2-value boundary value analysis (BVA) coverage for the final result achieved with the existing test cases?",
     "options": [
       "A) 50%",
       "B) 60%",
@@ -5199,7 +5199,7 @@
     "id": 309,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "The following decision table contains the rules for determining the risk of arteriosclerosis.  \n  \n| | Rule 1 | Rule 2 | Rule 3 | Rule 4 | Rule 5 |  \n|---|---|---|---|---|---|  \n| Cholesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Blood pressure (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Risk level | very low | low | medium | high | very high |  \n  \nYou have designed the following test cases:  \n- TC1: Cholesterol=125, BP=141  \n- TC2: Cholesterol=200, BP=201  \n- TC3: Cholesterol=124, BP=201  \n- TC4: Cholesterol=109, BP=200  \n- TC5: Cholesterol=201, BP=140\n\nWhat decision table coverage do these test cases achieve?",
+    "question": "The following decision table contains the rules for determining the risk of arteriosclerosis.\n\n| | Rule 1 | Rule 2 | Rule 3 | Rule 4 | Rule 5 |  \n|---|---|---|---|---|---|  \n| Cholesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Blood pressure (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Risk level | very low | low | medium | high | very high |\n\nYou have designed the following test cases:  \n- TC1: Cholesterol=125, BP=141  \n- TC2: Cholesterol=200, BP=201  \n- TC3: Cholesterol=124, BP=201  \n- TC4: Cholesterol=109, BP=200  \n- TC5: Cholesterol=201, BP=140\n\nWhat decision table coverage do these test cases achieve?",
     "options": [
       "A) 40%",
       "B) 60%",
@@ -5214,7 +5214,7 @@
     "id": 319,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You are testing a web application that allows users to SEARCH products, VIEW details, ADD to cart, and place an ORDER. You have 7 test cases with these priorities (1=highest):  \n- TC1: SEARCH product A (4)  \n- TC2: SEARCH product B (4)  \n- TC3: SEE details A (3)  \n- TC4: SEE details B (2)  \n- TC5: ADD product TO (3)  \n- TC6: ADD product B (1)  \n- TC7: place ORDER (5)  \n  \nDependencies: LOOKUP must be tested before VIEW, VIEW before ADD, and ADD before ORDER.\n\nWhich test case should be executed fourth?",
+    "question": "You are testing a web application that allows users to SEARCH products, VIEW details, ADD to cart, and place an ORDER. You have 7 test cases with these priorities (1=highest):  \n- TC1: SEARCH product A (4)  \n- TC2: SEARCH product B (4)  \n- TC3: SEE details A (3)  \n- TC4: SEE details B (2)  \n- TC5: ADD product TO (3)  \n- TC6: ADD product B (1)  \n- TC7: place ORDER (5)\n\nDependencies: LOOKUP must be tested before VIEW, VIEW before ADD, and ADD before ORDER.\n\nWhich test case should be executed fourth?",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -5229,7 +5229,7 @@
     "id": 325,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You are testing a sort function that takes a set of numbers and returns them sorted in ascending order. The execution log is:  \n  \n- TC1: Input: `3`. Output: `3`. Result: passed  \n- TC2: Input: `3 11 6 5`. Output: `3 5 6 11`. Result: passed  \n- TC3: Input: `8 7 3 7 1`. Output: `1 3 7 8`. Result: failed  \n- TC4: Input: `-2 -2 -2 -3 -3`. Output: `-3 -2`. Result: failed  \n- TC5: Input: `0 -2 0 3 4 4`. Output: `-2 0 3 4`. Result: failed\n\nWhich of the following provides the BEST description of the bug to use in a defect report?",
+    "question": "You are testing a sort function that takes a set of numbers and returns them sorted in ascending order. The execution log is:\n\n- TC1: Input: `3`. Output: `3`. Result: passed  \n- TC2: Input: `3 11 6 5`. Output: `3 5 6 11`. Result: passed  \n- TC3: Input: `8 7 3 7 1`. Output: `1 3 7 8`. Result: failed  \n- TC4: Input: `-2 -2 -2 -3 -3`. Output: `-3 -2`. Result: failed  \n- TC5: Input: `0 -2 0 3 4 4`. Output: `-2 0 3 4`. Result: failed\n\nWhich of the following provides the BEST description of the bug to use in a defect report?",
     "options": [
       "A) The system fails to sort several sets of numbers. Reference: TC3, TC4, TC5.",
       "B) The system seems to ignore duplicates when sorting. Reference: TC3, TC4, TC5.",
@@ -5244,7 +5244,7 @@
     "id": 355,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You are preparing a test execution schedule for 7 test cases (TC1-TC7).  \n  \nThe dependencies are:  \n- TC2 depends on TC1  \n- TC4 depends on TC2 and TC3  \n- TC5 depends on TC3  \n- TC6 depends on TC4 and TC5  \n- TC7 depends on TC6  \n  \nThe priorities (1=highest) are: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nWhat is the correct order of execution respecting dependencies and priorities?",
+    "question": "You are preparing a test execution schedule for 7 test cases (TC1-TC7).\n\nThe dependencies are:  \n- TC2 depends on TC1  \n- TC4 depends on TC2 and TC3  \n- TC5 depends on TC3  \n- TC6 depends on TC4 and TC5  \n- TC7 depends on TC6\n\nThe priorities (1=highest) are: TC1-p3, TC2-p5, TC3-p1, TC4-p4, TC5-p2, TC6-p6, TC7-p7.\n\nWhat is the correct order of execution respecting dependencies and priorities?",
     "options": [
       "A) TC3, TC5, TC1, TC2, TC4, TC6, TC7",
       "B) TC1, TC2, TC3, TC4, TC5, TC6, TC7",
@@ -5259,7 +5259,7 @@
     "id": 1014,
     "chapter": 2,
     "topic": "Regresión vs Confirmación",
-    "question": "The test cases were executed:  \n- TC1 Failed  \n- SS2 Passed  \n- SS3 Failed  \n  \nAfter corrections, TC1, TC2 and TC3 are executed again.\n\nWhich of these runs are considered regression testing?",
+    "question": "The test cases were executed:  \n- TC1 Failed  \n- SS2 Passed  \n- SS3 Failed\n\nAfter corrections, TC1, TC2 and TC3 are executed again.\n\nWhich of these runs are considered regression testing?",
     "options": [
       "TC1",
       "TC2",
@@ -5273,7 +5273,7 @@
   {
     "id": "q_batch2_t5hos07b9",
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "You have the following test cases for an online banking system:  \n  \n| Case | Functionality Risk | Risk Probability | Risk Impact | Dependency |  \n|---|---|---|---|---|  \n| TC1 | Login | 2 | 2 | None |  \n| TC2 | Check balance | 3 | 3 | TC1 |  \n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |  \n| TC4 | Change PIN | 4 | 4 | TC1 |  \n  \nApplying risk-based prioritization,\n\nwhere impact and probability is measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
+    "question": "You have the following test cases for an online banking system:\n\n| Case | Functionality Risk | Risk Probability | Risk Impact | Dependency |  \n|---|---|---|---|---|  \n| TC1 | Login | 2 | 2 | None |  \n| TC2 | Check balance | 3 | 3 | TC1 |  \n| TC3 | Transfer money | 2 | 2 | TC1, TC2 |  \n| TC4 | Change PIN | 4 | 4 | TC1 |\n\nApplying risk-based prioritization,\n\nwhere impact and probability is measured on a scale of 1 to 5 (1=Very High, 2=High, 3=Medium, 4=Low, 5=Very Low), what would be the MOST appropriate execution order?",
     "options": [
       "TC1, TC3, TC2, TC4",
       "TC1, TC2, TC3, TC4",
@@ -5290,7 +5290,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version:  \n  \n| Test | Result in previous version |  \n|---|---|  \n| TC1 | Failed |  \n| TC2 | Passed |  \n| TC3 | Failed |  \n  \nAfter corrections, the team runs test cases TC1, TC2, and TC3 again.\n\nWhich of these runs are considered regression testing?",
+    "question": "A development team has fixed several defects in a new version of the application. The following test cases were executed in the previous version:\n\n| Test | Result in previous version |  \n|---|---|  \n| TC1 | Failed |  \n| TC2 | Passed |  \n| TC3 | Failed |\n\nAfter corrections, the team runs test cases TC1, TC2, and TC3 again.\n\nWhich of these runs are considered regression testing?",
     "options": [
       "TC1 and TC3",
       "TC2 and TC3",

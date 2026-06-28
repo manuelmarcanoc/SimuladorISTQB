@@ -888,7 +888,7 @@
     "id": 309,
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "A tabela de decisão a seguir contém as regras para determinar o risco de arteriosclerose.  \n  \n| | Regra 1 | Regra 2 | Regra 3 | Regra 4 | Regra 5 |  \n|---|---|---|---|---|---|  \n| Colesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Pressão arterial (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Nível de risco | muito baixo | baixo | médio | alto | muito alto |  \n  \nVocê projetou os seguintes casos de teste:  \n- TC1: Colesterol=125, PA=141  \n- TC2: Colesterol=200, PA=201  \n- TC3: Colesterol=124, PA=201  \n- TC4: Colesterol=109, PA=200  \n- TC5: Colesterol=201, PA=140\n\nQual cobertura de tabela de decisão esses casos de teste alcançam?",
+    "question": "A tabela de decisão a seguir contém as regras para determinar o risco de arteriosclerose.\n\n| | Regra 1 | Regra 2 | Regra 3 | Regra 4 | Regra 5 |  \n|---|---|---|---|---|---|  \n| Colesterol (mg/dl) | ≤124 | ≤124 | 125–200 | 125–200 | ≥201 |  \n| Pressão arterial (mm Hg) | ≤140 | >140 | ≤140 | >140 | – |  \n| Nível de risco | muito baixo | baixo | médio | alto | muito alto |\n\nVocê projetou os seguintes casos de teste:  \n- TC1: Colesterol=125, PA=141  \n- TC2: Colesterol=200, PA=201  \n- TC3: Colesterol=124, PA=201  \n- TC4: Colesterol=109, PA=200  \n- TC5: Colesterol=201, PA=140\n\nQual cobertura de tabela de decisão esses casos de teste alcançam?",
     "options": [
       "A) 40%",
       "B) 60%",
@@ -1038,7 +1038,7 @@
     "id": 319,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Você está testando um aplicativo web que permite aos usuários BUSCAR produtos, VER detalhes, ADICIONAR ao carrinho e FAZER um pedido. Você tem 7 casos de teste com estas prioridades (1=maior):  \n- TC1: BUSCAR produto A (4)  \n- TC2: BUSCAR produto B (4)  \n- TC3: VER detalhes A (3)  \n- TC4: VER detalhes B (2)  \n- TC5: ADICIONAR produto A (3)  \n- TC6: ADICIONAR produto B (1)  \n- TC7: FAZER PEDIDO (5)  \n  \nDependências: BUSCAR deve ser testado antes de VER, VER antes de ADICIONAR, e ADICIONAR antes de PEDIDO.\n\nQual caso de teste deve ser executado em quarto lugar?",
+    "question": "Você está testando um aplicativo web que permite aos usuários BUSCAR produtos, VER detalhes, ADICIONAR ao carrinho e FAZER um pedido. Você tem 7 casos de teste com estas prioridades (1=maior):  \n- TC1: BUSCAR produto A (4)  \n- TC2: BUSCAR produto B (4)  \n- TC3: VER detalhes A (3)  \n- TC4: VER detalhes B (2)  \n- TC5: ADICIONAR produto A (3)  \n- TC6: ADICIONAR produto B (1)  \n- TC7: FAZER PEDIDO (5)\n\nDependências: BUSCAR deve ser testado antes de VER, VER antes de ADICIONAR, e ADICIONAR antes de PEDIDO.\n\nQual caso de teste deve ser executado em quarto lugar?",
     "options": [
       "A) TC3",
       "B) TC1",
@@ -1128,7 +1128,7 @@
     "id": 325,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Você está testando uma função de ordenação que recebe um conjunto de números e os retorna em ordem crescente. O log de execução é:  \n  \n- TC1: Entrada: `3`. Saída: `3`. Resultado: passou  \n- TC2: Entrada: `3 11 6 5`. Saída: `3 5 6 11`. Resultado: passou  \n- TC3: Entrada: `8 7 3 7 1`. Saída: `1 3 7 8`. Resultado: falhou  \n- TC4: Entrada: `-2 -2 -2 -3 -3`. Saída: `-3 -2`. Resultado: falhou  \n- TC5: Entrada: `0 -2 0 3 4 4`. Saída: `-2 0 3 4`. Resultado: falhou\n\nQual das alternativas a seguir fornece a MELHOR descrição da falha para usar em um relatório de defeito?",
+    "question": "Você está testando uma função de ordenação que recebe um conjunto de números e os retorna em ordem crescente. O log de execução é:\n\n- TC1: Entrada: `3`. Saída: `3`. Resultado: passou  \n- TC2: Entrada: `3 11 6 5`. Saída: `3 5 6 11`. Resultado: passou  \n- TC3: Entrada: `8 7 3 7 1`. Saída: `1 3 7 8`. Resultado: falhou  \n- TC4: Entrada: `-2 -2 -2 -3 -3`. Saída: `-3 -2`. Resultado: falhou  \n- TC5: Entrada: `0 -2 0 3 4 4`. Saída: `-2 0 3 4`. Resultado: falhou\n\nQual das alternativas a seguir fornece a MELHOR descrição da falha para usar em um relatório de defeito?",
     "options": [
       "A) O sistema falha em ordenar vários conjuntos de números. Referência: TC3, TC4, TC5.",
       "B) O sistema parece ignorar as duplicatas ao ordenar. Referência: TC3, TC4, TC5.",
@@ -1878,7 +1878,7 @@
     "id": 375,
     "chapter": 3,
     "topic": "Pruebas Estáticas",
-    "question": "Dadas as seguintes descrições de atividades de revisão:  \n  \n1. As anomalias detectadas são debatidas e decisões são tomadas sobre seu status, proprietário e próximos passos  \n  \n2. Os defeitos são registrados e as atualizações necessárias são tratadas antes da aceitação do produto de trabalho  \n  \n3. Os revisores empregam técnicas para gerar sugestões e perguntas sobre o produto de trabalho e identificar anomalias  \n  \n4. O objetivo da revisão e seu cronograma são estabelecidos para garantir uma revisão focada e eficiente  \n  \n5. Os participantes recebem acesso ao item a ser revisado.\n\nQual é a sequência CORRETA das atividades do processo de revisão?",
+    "question": "Dadas as seguintes descrições de atividades de revisão:\n\n1. As anomalias detectadas são debatidas e decisões são tomadas sobre seu status, proprietário e próximos passos\n\n2. Os defeitos são registrados e as atualizações necessárias são tratadas antes da aceitação do produto de trabalho\n\n3. Os revisores empregam técnicas para gerar sugestões e perguntas sobre o produto de trabalho e identificar anomalias\n\n4. O objetivo da revisão e seu cronograma são estabelecidos para garantir uma revisão focada e eficiente\n\n5. Os participantes recebem acesso ao item a ser revisado.\n\nQual é a sequência CORRETA das atividades do processo de revisão?",
     "options": [
       "A) 4 – 3 – 5 – 2 – 1",
       "B) 4 – 5 – 3 – 1 – 2",
@@ -2208,7 +2208,7 @@
     "id": 397,
     "chapter": 6,
     "topic": "Herramientas de Prueba",
-    "question": "Dadas as categorias de ferramentas de teste (i. Colaboração,  \n  \nii. DevOps,  \n  \niii. Gestão,  \n  \niv. Não funcionais,  \n  \nv. Design/Implementação). Ferramentas de\n\nquais categorias são MAIS propensas a facilitar a execução de testes?",
+    "question": "Dadas as categorias de ferramentas de teste (i. Colaboração,\n\nii. DevOps,\n\niii. Gestão,\n\niv. Não funcionais,\n\nv. Design/Implementação). Ferramentas de\n\nquais categorias são MAIS propensas a facilitar a execução de testes?",
     "options": [
       "A) i, v",
       "B) ii, iv",
@@ -3280,7 +3280,7 @@
     "id": 1007,
     "chapter": 1,
     "topic": "Habilidades del Probador",
-    "question": "Qual das seguintes habilidades é essencial para um testador ao avaliar a qualidade de um produto de software?  \n  \ni. Comunicação efetiva  \n  \nii. Conhecimento técnico  \n  \niii. Capacidade de análise  \n  \niv. Gerenciamento do tempo  ",
+    "question": "Qual das seguintes habilidades é essencial para um testador ao avaliar a qualidade de um produto de software?\n\ni. Comunicação efetiva\n\nii. Conhecimento técnico\n\niii. Capacidade de análise\n\niv. Gerenciamento do tempo  ",
     "options": [
       "i e ii são essenciais; iii e iv não são",
       "iii e iv são essenciais; i e ii não são",
@@ -3385,7 +3385,7 @@
     "id": 1014,
     "chapter": 2,
     "topic": "Regresión vs Confirmación",
-    "question": "Foram executados os seguintes casos de teste:  \n- TC1 Falhou  \n- TC2 Passou  \n- TC3 Falhou  \n  \nApós as correções, TC1, TC2 e TC3 são executados novamente.\n\nQuais dessas execuções são consideradas testes de regressão?",
+    "question": "Foram executados os seguintes casos de teste:  \n- TC1 Falhou  \n- TC2 Passou  \n- TC3 Falhou\n\nApós as correções, TC1, TC2 e TC3 são executados novamente.\n\nQuais dessas execuções são consideradas testes de regressão?",
     "options": [
       "TC1",
       "TC2",
@@ -4704,7 +4704,7 @@
   {
     "id": "q_batch2_zdybwbzfz",
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "Um sistema de descontos para uma loja online aplica as seguintes regras: Se o cliente for VIP E o pedido for > $100: 20% de desconto. Se o cliente for VIP E o pedido for ≤ $100: 10% de desconto. Se o cliente NÃO for VIP E o pedido for > $100: 5% de desconto. Se o cliente NÃO for VIP E o pedido for ≤ $100: sem desconto. Quantas regras de decisão são necessárias na tabela de decisão completa?",
+    "question": "Um sistema de descontos para uma loja online aplica as seguintes regras:\n\n- Se o cliente for VIP E o pedido for > $100: 20% de desconto\n- Se o cliente for VIP E o pedido for ≤ $100: 10% de desconto\n- Se o cliente NÃO for VIP E o pedido for > $100: 5% de desconto\n- Se o cliente NÃO for VIP E o pedido for ≤ $100: sem desconto\n\nQuantas regras de decisão são necessárias na tabela de decisão completa?",
     "options": [
       "2",
       "3",
