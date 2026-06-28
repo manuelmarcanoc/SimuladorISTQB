@@ -5888,5 +5888,21 @@
     "explanation": "A. Las revisiones informales no requieren un moderador, no producen informes formales y permiten discusiones abiertas, lo cual encaja con las características mencionadas.\nB. Las revisiones técnicas suelen requerir un moderador y un enfoque más estructurado, lo que no se alinea con la descripción dada.\nC. Las inspecciones son muy formales y requieren documentación específica, lo que contradice la falta de un informe formal en este caso.\nD. Las revisiones guiadas se estructuran con un moderador y un objetivo claro de evaluación, lo cual no está presente en la situación descrita.",
     "source": "User Provided Batch 9",
     "id": "q_batch9_8"
+  },
+  {
+    "id": "q_custom_risk_complex_4311",
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Tienes los siguientes casos de prueba para un sistema de comercio electrónico:\n\n| Caso | Funcionalidad | Probabilidad | Impacto | Dependencia |\n|---|---|---|---|---|\n| TC1 | Inicio de sesión | 3 | 3 | Ninguna |\n| TC2 | Añadir al carrito | 2 | 2 | TC1 |\n| TC3 | Pago (Checkout) | 1 | 1 | TC2, TC5 |\n| TC4 | Buscar productos | 2 | 3 | TC1 |\n| TC5 | Aplicar cupón | 1 | 2 | TC2 |\n| TC6 | Cerrar sesión | 4 | 4 | TC1 |\n\nAplicando priorización basada en riesgo, donde el nivel de riesgo se calcula como Probabilidad x Impacto (escala 1=Muy Alto, 5=Muy Bajo; por tanto, un menor valor numérico indica un MAYOR riesgo). El objetivo es ejecutar las pruebas de mayor riesgo lo antes posible, siempre que sus dependencias estén resueltas.\n\n¿Cuál sería el orden de ejecución MÁS apropiado?",
+    "options": [
+      "A) TC1, TC4, TC2, TC5, TC3, TC6",
+      "B) TC1, TC2, TC5, TC3, TC4, TC6",
+      "C) TC3, TC5, TC2, TC4, TC1, TC6",
+      "D) TC1, TC2, TC4, TC5, TC3, TC6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Es correcto. Se empieza con TC1 (único sin dependencias). Tras TC1, están disponibles TC2 (riesgo=4), TC4 (riesgo=6) y TC6 (riesgo=16). Se elige TC2 por tener mayor riesgo (menor valor). Tras TC2, se desbloquea TC5. Disponibles: TC4 (6), TC5 (2), TC6 (16). Se elige TC5. Tras TC5, se desbloquea TC3. Disponibles: TC3 (1), TC4 (6), TC6 (16). Se elige TC3. Tras TC3, quedan TC4 (6) y TC6 (16). Se elige TC4 y finalmente TC6.\n\nA. Incorrecto. Ejecuta TC4 antes que TC2, pero TC2 tiene mayor riesgo (4 vs 6).\nC. Incorrecto. Ignora completamente las dependencias y solo ordena por riesgo matemático.\nD. Incorrecto. Ejecuta TC4 antes que TC5, a pesar de que tras ejecutar TC2, TC5 queda desbloqueado y tiene un riesgo mucho mayor (2) que TC4 (6).",
+    "source": "Antigravity Custom"
   }
 ]

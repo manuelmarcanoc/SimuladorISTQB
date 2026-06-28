@@ -5956,5 +5956,21 @@
     "explanation": "A. Correct. Les revues informelles ne nécessitent pas de modérateur, ne produisent pas de rapports formels et permettent des discussions ouvertes, ce qui correspond aux caractéristiques mentionnées.\nB. Incorrect. Les revues techniques nécessitent généralement une approche structurée, ce qui ne correspond pas à la description donnée.\nC. Incorrect. Les inspections sont très formelles et nécessitent une documentation spécifique, ce qui contredit l'absence de rapport formel dans ce cas.\nD. Incorrect. Les \"Walkthroughs\" sont structurés avec l'auteur qui dirige, ce qui n'est pas présent dans la situation décrite.",
     "source": "User Provided Batch 9",
     "id": "q_batch9_8"
+  },
+  {
+    "id": "q_custom_risk_complex_4311",
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "Vous avez les cas de test suivants pour un système de commerce électronique :\n\n| Cas | Fonctionnalité | Probabilité | Impact | Dépendance |\n|---|---|---|---|---|\n| TC1 | Connexion | 3 | 3 | Aucune |\n| TC2 | Ajouter au panier | 2 | 2 | TC1 |\n| TC3 | Paiement | 1 | 1 | TC2, TC5 |\n| TC4 | Rechercher des produits | 2 | 3 | TC1 |\n| TC5 | Appliquer un coupon | 1 | 2 | TC2 |\n| TC6 | Déconnexion | 4 | 4 | TC1 |\n\nEn appliquant une priorisation basée sur les risques, où le niveau de risque est calculé comme Probabilité x Impact (échelle 1=Très Élevé, 5=Très Faible ; par conséquent, une valeur numérique plus faible indique un risque PLUS ÉLEVÉ). L'objectif est d'exécuter les tests à plus haut risque le plus tôt possible, à condition que leurs dépendances soient satisfaites.\n\nQuel serait l'ordre d'exécution LE PLUS approprié ?",
+    "options": [
+      "A) TC1, TC4, TC2, TC5, TC3, TC6",
+      "B) TC1, TC2, TC5, TC3, TC4, TC6",
+      "C) TC3, TC5, TC2, TC4, TC1, TC6",
+      "D) TC1, TC2, TC4, TC5, TC3, TC6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Correct. Commencez par TC1 (le seul sans dépendances). Après TC1, sont disponibles TC2 (risque=4), TC4 (risque=6) et TC6 (risque=16). Choisissez TC2 car son risque est plus élevé (valeur plus faible). Après TC2, TC5 est débloqué. Disponibles: TC4 (6), TC5 (2), TC6 (16). Choisissez TC5. Après TC5, TC3 est débloqué. Disponibles: TC3 (1), TC4 (6), TC6 (16). Choisissez TC3. Après TC3, il reste TC4 (6) et TC6 (16). Choisissez TC4, puis finalement TC6.\n\nA. Incorrect. Exécute TC4 avant TC2, mais TC2 a un risque plus élevé (4 vs 6).\nC. Incorrect. Ignore complètement les dépendances et ne trie que par risque mathématique.\nD. Incorrect. Exécute TC4 avant TC5, même si après l'exécution de TC2, TC5 est débloqué et a un risque beaucoup plus élevé (2) que TC4 (6).",
+    "source": "Antigravity Custom"
   }
 ]

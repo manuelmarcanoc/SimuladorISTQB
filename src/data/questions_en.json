@@ -5956,5 +5956,21 @@
     "explanation": "A. Correct. Informal reviews do not require a moderator, do not produce formal reports, and allow open discussions, fitting the characteristics mentioned.\nB. Incorrect. Technical reviews usually require a structured approach, which does not align with the given description.\nC. Incorrect. Inspections are very formal and require specific documentation, contradicting the lack of a formal report in this case.\nD. Incorrect. Walkthroughs are structured with the author leading, which is not present in the described situation.",
     "source": "User Provided Batch 9",
     "id": "q_batch9_8"
+  },
+  {
+    "id": "q_custom_risk_complex_4311",
+    "chapter": 5,
+    "topic": "Gestión de las Actividades de Prueba",
+    "difficulty": "hard",
+    "question": "You have the following test cases for an e-commerce system:\n\n| Case | Functionality | Probability | Impact | Dependency |\n|---|---|---|---|---|\n| TC1 | Login | 3 | 3 | None |\n| TC2 | Add to cart | 2 | 2 | TC1 |\n| TC3 | Checkout | 1 | 1 | TC2, TC5 |\n| TC4 | Search products | 2 | 3 | TC1 |\n| TC5 | Apply coupon | 1 | 2 | TC2 |\n| TC6 | Logout | 4 | 4 | TC1 |\n\nApplying risk-based prioritization, where the risk level is calculated as Probability x Impact (scale 1=Very High, 5=Very Low; therefore, a lower numerical value indicates HIGHER risk). The objective is to execute the highest risk tests as early as possible, provided their dependencies are met.\n\nWhat would be the MOST appropriate execution order?",
+    "options": [
+      "A) TC1, TC4, TC2, TC5, TC3, TC6",
+      "B) TC1, TC2, TC5, TC3, TC4, TC6",
+      "C) TC3, TC5, TC2, TC4, TC1, TC6",
+      "D) TC1, TC2, TC4, TC5, TC3, TC6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B. Correct. Start with TC1 (only one with no dependencies). After TC1, available are TC2 (risk=4), TC4 (risk=6) and TC6 (risk=16). Choose TC2 as it has higher risk (lower value). After TC2, TC5 is unlocked. Available: TC4 (6), TC5 (2), TC6 (16). Choose TC5. After TC5, TC3 is unlocked. Available: TC3 (1), TC4 (6), TC6 (16). Choose TC3. After TC3, remaining are TC4 (6) and TC6 (16). Choose TC4, then finally TC6.\n\nA. Incorrect. Executes TC4 before TC2, but TC2 has higher risk (4 vs 6).\nC. Incorrect. Completely ignores dependencies and only sorts by mathematical risk.\nD. Incorrect. Executes TC4 before TC5, even though after executing TC2, TC5 is unlocked and has a much higher risk (2) than TC4 (6).",
+    "source": "Antigravity Custom"
   }
 ]
