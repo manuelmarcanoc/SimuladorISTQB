@@ -3,7 +3,7 @@ import QuestionCard from './QuestionCard';
 import Results from './Results';
 import QuizSetup from './QuizSetup';
 import QuestionNav from './QuestionNav';
-import questionsDataEs from '../data/questions.json';
+// Removed questionsDataEs import
 import { t } from '../i18n';
 import {
   loadStats, saveStats, loadAchievements, saveAchievements,
@@ -126,7 +126,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
     // Shuffle options within each question
     const randomizedQuestions = filtered.map(q => {
       const withMeta = q.options.map((opt, idx) => ({
-        text: opt.replace(/^[A-Ea-e][)\.]\s*/, ''),
+        text: opt.replace(/^[A-Ea-e][).]\s*/, ''),
         isCorrect: idx === q.correctAnswer,
         originalIndex: idx
       }));
@@ -175,7 +175,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
             question: newQData.question,
             explanation: newQData.explanation,
             options: prevQ.optionMapping 
-              ? prevQ.optionMapping.map(origIdx => newQData.options[origIdx].replace(/^[A-Ea-e][)\.]\s*/, ''))
+              ? prevQ.optionMapping.map(origIdx => newQData.options[origIdx].replace(/^[A-Ea-e][).]\s*/, ''))
               : prevQ.options
           };
         }));

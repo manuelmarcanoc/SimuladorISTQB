@@ -10,7 +10,6 @@ import { setLanguage, t } from './i18n';
 
 const BMC_URL = 'https://buymeacoffee.com/manuelmc';
 const SHARE_URL = 'https://istqbeasy.com';
-const SHARE_TEXT = '🎓 Simulador ISTQB CTFL v4.0 gratuito con más de 357 preguntas en ES/EN/FR. ¡Os lo recomiendo para preparar la certificación!';
 
 function App() {
   const [activeTab, setActiveTab] = useState('simulador');
@@ -141,10 +140,10 @@ function App() {
           className="share-footer-btn"
           onClick={() => {
             if (navigator.share) {
-              navigator.share({ title: 'ISTQBeasy', text: SHARE_TEXT, url: SHARE_URL });
+              navigator.share({ title: 'ISTQBeasy', text: t('shareText'), url: SHARE_URL });
             } else {
               navigator.clipboard.writeText(SHARE_URL);
-              alert('¡Enlace copiado! Compártelo en foros y grupos 🚀');
+              alert('¡Enlace copiado! / Link copied!');
             }
           }}
         >
@@ -152,7 +151,7 @@ function App() {
             <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
             <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
           </svg>
-          Compartir
+          {t('shareBtn')}
         </button>
         <a
           href={BMC_URL}
@@ -167,11 +166,11 @@ function App() {
 
         <div className="footer-links">
           <button className="footer-link-btn" onClick={() => { setLegalTab('sobre'); setShowLegal(true); }}>
-            Sobre el proyecto
+            {t('aboutProject')}
           </button>
           <span className="footer-dot">•</span>
           <button className="footer-link-btn" onClick={() => { setLegalTab('privacidad'); setShowLegal(true); }}>
-            Política de Privacidad
+            {t('privacyPolicy')}
           </button>
         </div>
       </footer>
@@ -182,13 +181,13 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
         className="bmc-float"
-        title="¿Te ha ayudado? ¡Invítame a un café!"
+        title={t('coffeeTitle')}
       >
         ☕
       </a>
 
       <CookieBanner />
-      {showLegal && <LegalPage onClose={() => setShowLegal(false)} initialTab={legalTab} />}
+      {showLegal && <LegalPage onClose={() => setShowLegal(false)} initialTab={legalTab} language={lang} />}
     </div>
   );
 }
