@@ -1173,7 +1173,7 @@
     "id": 1064,
     "chapter": 2,
     "topic": "Tests tout au long du SDLC",
-    "question": "Laquelle des affirmations suivantes décrit le MIEUX l'objectif des tests système par rapport aux tests d'intégration ? (1) Les tests système se concentrent sur le comportement du système complet dans son ensemble. (2) Les tests d'intégration vérifient l'interaction entre les modules individuels. (3) Les tests système sont plus spécifiques et se concentrent sur des composants isolés. (4) Les tests d'intégration sont réalisés après les tests d'acceptation.  ",
+    "question": "Laquelle des affirmations suivantes décrit le MIEUX l'objectif des tests système par rapport aux tests d'intégration ?\n- 1. Les tests système se concentrent sur le comportement du système complet dans son ensemble.\n- 2. Les tests d'intégration vérifient l'interaction entre les modules individuels.\n- 3. Les tests système sont plus spécifiques et se concentrent sur des composants isolés.\n- 4. Les tests d'intégration sont réalisés après les tests d'acceptation.  ",
     "options": [
       "1 et 2 sont correctes",
       "1 et 3 sont correctes",
@@ -3453,7 +3453,7 @@
     "id": 449,
     "chapter": 4,
     "topic": "Techniques d'analyse et de conception des tests",
-    "question": "CAS PRATIQUE : Système de vote en ligne. Conditions de vote : (1) Citoyen enregistré, (2) Âgé de plus de 18 ans, (3) N'a pas déjà voté. Il ne peut voter que s'il remplit les 3. Concevez la table de décision minimale.\n\nCombien de règles de comportement distinctes (pas de règles impossibles) existe-t-il ?",
+    "question": "CAS PRATIQUE : Système de vote en ligne. Conditions de vote :\n- 1. Citoyen enregistré\n- 2. Âgé de plus de 18 ans\n- 3. N'a pas déjà voté. Il ne peut voter que s'il remplit les 3. Concevez la table de décision minimale.\n\nCombien de règles de comportement distinctes (pas de règles impossibles) existe-t-il ?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3963,7 +3963,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Gestion des activités de test",
-    "question": "Votre équipe suit un processus utilisant le pipeline de livraison DevOps. Les trois premières étapes sont : (1) Développement du code (2) Pousser le code vers le système de contrôle de version et le fusionner avec la branche 'test' (3) Exécuter les tests de composants du code poussé.\n\nLequel des éléments suivants est la MEILLEURE option comme critère d'entrée pour l'étape (2) de ce pipeline ?",
+    "question": "Votre équipe suit un processus utilisant le pipeline de livraison DevOps. Les trois premières étapes sont :\n- 1. Développement du code\n- 2. Pousser le code vers le système de contrôle de version et le fusionner avec la branche 'test'\n- 3. Exécuter les tests de composants du code poussé.\n\nLequel des éléments suivants est la MEILLEURE option comme critère d'entrée pour l'étape\n- 2. de ce pipeline ?",
     "options": [
       "A) L'analyse statique ne renvoie aucun avertissement de sévérité élevée pour le code poussé",
       "B) Le système de contrôle de version ne signale aucun conflit lors de la fusion du code avec la branche 'test'",
@@ -5122,7 +5122,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Un analyste de test prépare le rapport de défaut suivant : ID : BUG-00721 ​​​​​​| Titre : Le champ « Date de naissance » accepte les dates futures | Gravité : moyenne | Priorité : Élevée | Rapporté par: A. López | Configuration : application v3.2.1, Chrome 120 | Étapes à reproduire : (1) Ouvrez le formulaire d'inscription, (2) Saisissez la date de naissance '15/08/2030', (3) Cliquez sur 'Enregistrer'.\n\nQuelle est l’information la PLUS importante qui manque dans ce rapport ?",
+    "question": "Un analyste de test prépare le rapport de défaut suivant : ID : BUG-00721 ​​​​​​| Titre : Le champ « Date de naissance » accepte les dates futures | Gravité : moyenne | Priorité : Élevée | Rapporté par: A. López | Configuration : application v3.2.1, Chrome 120 | Étapes à reproduire :\n- 1. Ouvrez le formulaire d'inscription\n- 2. Saisissez la date de naissance '15/08/2030'\n- 3. Cliquez sur 'Enregistrer'.\n\nQuelle est l’information la PLUS importante qui manque dans ce rapport ?",
     "options": [
       "Le nom du développeur chargé de résoudre le défaut.",
       "Le résultat réel obtenu et le résultat attendu, pour faciliter la reproduction et la correction.",

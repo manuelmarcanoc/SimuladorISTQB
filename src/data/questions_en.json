@@ -1173,7 +1173,7 @@
     "id": 1064,
     "chapter": 2,
     "topic": "Testing Throughout the SDLC",
-    "question": "Which of the following statements BEST describes the purpose of system testing compared to integration testing? (1) System testing focuses on the behavior of the complete system as a whole. (2) Integration testing verifies the interaction between individual modules. (3) System testing is more specific and focuses on isolated components. (4) Integration testing is performed after acceptance testing.  ",
+    "question": "Which of the following statements BEST describes the purpose of system testing compared to integration testing?\n- 1. System testing focuses on the behavior of the complete system as a whole.\n- 2. Integration testing verifies the interaction between individual modules.\n- 3. System testing is more specific and focuses on isolated components.\n- 4. Integration testing is performed after acceptance testing.  ",
     "options": [
       "1 and 2 are correct",
       "1 and 3 are correct",
@@ -3453,7 +3453,7 @@
     "id": 449,
     "chapter": 4,
     "topic": "Test Analysis and Design Techniques",
-    "question": "PRACTICAL CASE: Online voting system. Voting conditions: (1) Registered citizen, (2) Over 18 years old, (3) Has not already voted. They can only vote if they meet all 3. Design the minimal decision table.\n\nHow many distinct behavior rules (not impossible rules) are there?",
+    "question": "PRACTICAL CASE: Online voting system. Voting conditions:\n- 1. Registered citizen\n- 2. Over 18 years old\n- 3. Has not already voted. They can only vote if they meet all 3. Design the minimal decision table.\n\nHow many distinct behavior rules (not impossible rules) are there?",
     "options": [
       "A) 2",
       "B) 3",
@@ -3963,7 +3963,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Managing the Test Activities",
-    "question": "Your team follows a process that uses the DevOps delivery pipeline. The first three steps are: (1) Code development (2) Push the code to the version control system and merge it with the 'test' branch (3) Run component tests of the pushed code.\n\nWhich of the following is the BEST option as an entry criterion for step (2) of this pipeline?",
+    "question": "Your team follows a process that uses the DevOps delivery pipeline. The first three steps are:\n- 1. Code development\n- 2. Push the code to the version control system and merge it with the 'test' branch\n- 3. Run component tests of the pushed code.\n\nWhich of the following is the BEST option as an entry criterion for step\n- 2. of this pipeline?",
     "options": [
       "A) Static analysis returns no high-severity warnings for the pushed code",
       "B) The version control system reports no conflicts when merging the code with the 'test' branch",
@@ -5122,7 +5122,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "A test analyst prepares the following defect report: ID: BUG-00721 ​​| Title: 'Date of Birth' field accepts future dates | Severity: Medium | Priority: High | Reported by: A. López | Configuration: App v3.2.1, Chrome 120 | Steps to reproduce: (1) Open registration form, (2) Enter date of birth '08/15/2030', (3) Click 'Save'.\n\nWhat is the MOST important information missing from this report?",
+    "question": "A test analyst prepares the following defect report: ID: BUG-00721 ​​| Title: 'Date of Birth' field accepts future dates | Severity: Medium | Priority: High | Reported by: A. López | Configuration: App v3.2.1, Chrome 120 | Steps to reproduce:\n- 1. Open registration form\n- 2. Enter date of birth '08/15/2030'\n- 3. Click 'Save'.\n\nWhat is the MOST important information missing from this report?",
     "options": [
       "The name of the developer assigned to resolve the defect.",
       "The actual result obtained and the expected result, to facilitate reproduction and correction.",

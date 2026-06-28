@@ -1008,7 +1008,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Tu equipo sigue un proceso que usa el pipeline de entrega de DevOps. Los primeros tres pasos son: (1) Desarrollo de código (2) Enviar el código al sistema de control de versiones y fusionarlo con la rama 'test' (3) Ejecutar pruebas de componente del código enviado.\n\n¿Cuál de las siguientes es la MEJOR opción como criterio de entrada para el paso (2) de este pipeline?  ",
+    "question": "Tu equipo sigue un proceso que usa el pipeline de entrega de DevOps. Los primeros tres pasos son:\n- 1. Desarrollo de código\n- 2. Enviar el código al sistema de control de versiones y fusionarlo con la rama 'test'\n- 3. Ejecutar pruebas de componente del código enviado.\n\n¿Cuál de las siguientes es la MEJOR opción como criterio de entrada para el paso\n- 2. de este pipeline?  ",
     "options": [
       "A) El análisis estático no devuelve advertencias de alta severidad para el código enviado",
       "B) El sistema de control de versiones no reporta conflictos al fusionar el código con la rama 'test'",
@@ -2938,7 +2938,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "CASO PRÁCTICO: Sistema de votación online. Condiciones de voto: (1) Ciudadano registrado, (2) Mayor de 18 años, (3) No ha votado ya. Solo puede votar si cumple las 3. Diseña la tabla de decisión mínima.\n\n¿Cuántas reglas distintas de comportamiento (no reglas imposibles) existen?  ",
+    "question": "CASO PRÁCTICO: Sistema de votación online. Condiciones de voto:\n- 1. Ciudadano registrado\n- 2. Mayor de 18 años\n- 3. No ha votado ya.\n\nSolo puede votar si cumple las 3. Diseña la tabla de decisión mínima.\n\n¿Cuántas reglas distintas de comportamiento (no reglas imposibles) existen?  ",
     "options": [
       "A) 2",
       "B) 3",
@@ -4135,7 +4135,7 @@
     "id": 1064,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "¿Cuál de los siguientes enunciados describe MEJOR el propósito de las pruebas de sistema en comparación con las pruebas de integración? (1) Las pruebas de sistema se centran en el comportamiento del sistema completo como un todo. (2) Las pruebas de integración verifican la interacción entre módulos individuales. (3) Las pruebas de sistema son más específicas y se enfocan en componentes aislados. (4) Las pruebas de integración se realizan después de las pruebas de aceptación.  ",
+    "question": "¿Cuál de los siguientes enunciados describe MEJOR el propósito de las pruebas de sistema en comparación con las pruebas de integración?\n- 1. Las pruebas de sistema se centran en el comportamiento del sistema completo como un todo.\n- 2. Las pruebas de integración verifican la interacción entre módulos individuales.\n- 3. Las pruebas de sistema son más específicas y se enfocan en componentes aislados.\n- 4. Las pruebas de integración se realizan después de las pruebas de aceptación.  ",
     "options": [
       "1 y 2 son correctas",
       "1 y 3 son correctas",
@@ -5190,7 +5190,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Un analista de pruebas prepara el siguiente informe de defecto: ID: BUG-00721 | Título: El campo 'Fecha de nacimiento' acepta fechas futuras | Severidad: Media | Prioridad: Alta | Reportado por: A. López | Configuración: App v3.2.1, Chrome 120 | Pasos para reproducir: (1) Abrir formulario de registro, (2) Ingresar fecha de nacimiento '15/08/2030', (3) Hacer clic en 'Guardar'.\n\n¿Cuál es la información MÁS importante que falta en este informe?  ",
+    "question": "Un analista de pruebas prepara el siguiente informe de defecto: ID: BUG-00721 | Título: El campo 'Fecha de nacimiento' acepta fechas futuras | Severidad: Media | Prioridad: Alta | Reportado por: A. López | Configuración: App v3.2.1, Chrome 120 | Pasos para reproducir:\n- 1. Abrir formulario de registro\n- 2. Ingresar fecha de nacimiento '15/08/2030'\n- 3. Hacer clic en 'Guardar'.\n\n¿Cuál es la información MÁS importante que falta en este informe?  ",
     "options": [
       "El nombre del desarrollador asignado para resolver el defecto.",
       "El resultado real obtenido y el resultado esperado, para facilitar la reproducción y corrección.",

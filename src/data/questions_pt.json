@@ -1008,7 +1008,7 @@
     "id": 317,
     "chapter": 5,
     "topic": "Gestión de las Actividades de Prueba",
-    "question": "Sua equipe segue um processo que usa o pipeline de entrega do DevOps. Os três primeiros passos são: (1) Desenvolvimento de código (2) Enviar o código para o sistema de controle de versão e mesclá-lo com o branch 'test' (3) Executar os testes de componente do código enviado.\n\nQual das alternativas a seguir é a MELHOR opção como critério de entrada para o passo (2) deste pipeline?",
+    "question": "Sua equipe segue um processo que usa o pipeline de entrega do DevOps. Os três primeiros passos são:\n- 1. Desenvolvimento de código\n- 2. Enviar o código para o sistema de controle de versão e mesclá-lo com o branch 'test'\n- 3. Executar os testes de componente do código enviado.\n\nQual das alternativas a seguir é a MELHOR opção como critério de entrada para o passo\n- 2. deste pipeline?",
     "options": [
       "A) A análise estática não retorna avisos de alta severidade para o código enviado",
       "B) O sistema de controle de versão não relata conflitos ao mesclar o código com o branch 'test'",
@@ -2938,7 +2938,7 @@
   {
     "chapter": 4,
     "topic": "Técnicas de Análisis y Diseño de Pruebas",
-    "question": "ESTUDO DE CASO: Sistema de votação online. Condições de voto: (1) Cidadão registrado, (2) Maior de 18 anos, (3) Ainda não votou. Só pode votar se cumprir as 3. Projete a tabela de decisão mínima. Quantas regras distintas de comportamento (não regras impossíveis) existem?",
+    "question": "ESTUDO DE CASO: Sistema de votação online. Condições de voto:\n- 1. Cidadão registrado\n- 2. Maior de 18 anos\n- 3. Ainda não votou.\n\nSó pode votar se cumprir as 3. Projete a tabela de decisão mínima. Quantas regras distintas de comportamento (não regras impossíveis) existem?",
     "options": [
       "A) 2",
       "B) 3",
@@ -4135,7 +4135,7 @@
     "id": 1064,
     "chapter": 2,
     "topic": "Testing a lo largo del SDLC",
-    "question": "Qual dos seguintes enunciados descreve MELHOR o propósito dos testes de sistema em comparação com os testes de integração? (1) Os testes de sistema concentram-se no comportamento do sistema completo\n\ncomo um todo. (2) Os testes de integração verificam a interação entre módulos individuais. (3) Os testes de sistema são mais específicos e concentram-se em componentes isolados. (4) Os testes de integração são realizados após os testes de aceite.",
+    "question": "Qual dos seguintes enunciados descreve MELHOR o propósito dos testes de sistema em comparação com os testes de integração?\n- 1. Os testes de sistema concentram-se no comportamento do sistema completo\n\ncomo um todo.\n- 2. Os testes de integração verificam a interação entre módulos individuais.\n- 3. Os testes de sistema são mais específicos e concentram-se em componentes isolados.\n- 4. Os testes de integração são realizados após os testes de aceite.",
     "options": [
       "1 e 2 estão corretas",
       "1 e 3 estão corretas",
@@ -5190,7 +5190,7 @@
     "chapter": 5,
     "topic": "Desarrollo y Testing",
     "difficulty": "medium",
-    "question": "Um analista de testes prepara o seguinte relatório de defeito: ID: BUG-00721 | Título: O campo 'Data de nascimento' aceita datas futuras | Severidade: Média | Prioridade: Alta | Reportado por: A. López | Configuração: App v3.2.1, Chrome 120 | Passos para reproduzir: (1) Abrir o formulário de cadastro, (2) Inserir data de nascimento '15/08/2030', (3) Clicar em 'Salvar'.\n\nQual é a informação MAIS importante que falta neste relatório?",
+    "question": "Um analista de testes prepara o seguinte relatório de defeito: ID: BUG-00721 | Título: O campo 'Data de nascimento' aceita datas futuras | Severidade: Média | Prioridade: Alta | Reportado por: A. López | Configuração: App v3.2.1, Chrome 120 | Passos para reproduzir:\n- 1. Abrir o formulário de cadastro\n- 2. Inserir data de nascimento '15/08/2030'\n- 3. Clicar em 'Salvar'.\n\nQual é a informação MAIS importante que falta neste relatório?",
     "options": [
       "O nome do desenvolvedor designado para resolver o defeito.",
       "O resultado real obtido e o resultado esperado, para facilitar a reprodução e a correção.",
