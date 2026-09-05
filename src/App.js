@@ -175,17 +175,6 @@ function App() {
         </div>
       </footer>
 
-      {/* Floating Buy Me a Coffee button */}
-      <a
-        href={BMC_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bmc-float"
-        title={t('coffeeTitle')}
-      >
-        ☕
-      </a>
-
       <CookieBanner />
       {showLegal && <LegalPage onClose={() => setShowLegal(false)} initialTab={legalTab} language={lang} />}
     </div>

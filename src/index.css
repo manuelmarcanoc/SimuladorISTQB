@@ -1087,36 +1087,6 @@ h1, h2, h3, h4, h5, h6, .app-title {
   box-shadow: 4px 4px 0 rgba(0,0,0,0.5);
 }
 
-/* Floating Buy Me a Coffee button */
-.bmc-float {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #ffdd00;
-  color: #1c1a17;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.18), 0 2px 4px rgba(0,0,0,0.12);
-  z-index: 999;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 2px solid rgba(0,0,0,0.08);
-}
-
-.bmc-float:hover {
-  transform: scale(1.12) translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.22);
-}
-
-.bmc-float:active {
-  transform: scale(0.97);
-}
-
 /* Official-style Buy Me a Coffee button (faithful replica of the BMC widget) */
 .bmc-official {
   display: inline-flex;
