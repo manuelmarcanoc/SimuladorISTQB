@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { t, tl, getLanguage } from '../i18n';
+import AdComponent from './AdComponent';
 
 const Results = ({ score, totalQuestions, userAnswers, questions, onRestart }) => {
   const [showReview, setShowReview] = useState(false);
@@ -87,6 +88,11 @@ const Results = ({ score, totalQuestions, userAnswers, questions, onRestart }) =
           <span className="stat-value">{totalQuestions}</span>
           <span className="stat-label">{t('total')}</span>
         </div>
+      </div>
+
+      {/* Anuncio entre resultados y desglose por capítulo */}
+      <div style={{ margin: '1.5rem auto', maxWidth: '728px', width: '100%' }}>
+        <AdComponent adSlot="6641167211" />
       </div>
 
       {/* Chapter breakdown */}

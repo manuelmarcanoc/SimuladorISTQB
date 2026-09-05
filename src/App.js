@@ -4,6 +4,7 @@ import StudyNotes from './components/StudyNotes';
 import ConceptMatch from './components/ConceptMatch';
 import StatsPanel from './components/StatsPanel';
 import AdComponent from './components/AdComponent';
+import GuiasPage from './components/GuiasPage';
 import CookieBanner from './components/CookieBanner';
 import LegalPage from './components/LegalPage';
 import { setLanguage, t } from './i18n';
@@ -43,6 +44,8 @@ function App() {
         return <ConceptMatch language={lang} />;
       case 'stats':
         return <StatsPanel language={lang} />;
+      case 'guias':
+        return <GuiasPage />;
       default:
         return <Quiz language={lang} />;
     }
@@ -84,6 +87,12 @@ function App() {
             onClick={() => setActiveTab('stats')}
           >
             {t('stats')}
+          </button>
+          <button 
+            className={`nav-btn ${activeTab === 'guias' ? 'active' : ''}`}
+            onClick={() => setActiveTab('guias')}
+          >
+            {t('guides')}
           </button>
         </nav>
         <div className="header-actions">
@@ -133,6 +142,12 @@ function App() {
         <aside className="ad-sidebar right-ad">
           <AdComponent adSlot="6641167211" />
         </aside>
+      </div>
+
+      <div className="seo-about-bar">
+        Simulador gratuito para la certificación <strong>ISTQB CTFL v4.0</strong> &mdash; 394 preguntas en ES / EN / FR / PT
+        &nbsp;&middot;&nbsp; Capítulos 1&ndash;6 del syllabus oficial &nbsp;&middot;&nbsp;
+        Modo examen, repaso de errores y estadísticas de progreso
       </div>
 
       <footer className="app-footer">
