@@ -5904,5 +5904,305 @@
     "correctAnswer": 1,
     "explanation": "B. Es correcto. Se empieza con TC1 (único sin dependencias). Tras TC1, están disponibles TC2 (riesgo=4), TC4 (riesgo=6) y TC6 (riesgo=16). Se elige TC2 por tener mayor riesgo (menor valor). Tras TC2, se desbloquea TC5. Disponibles: TC4 (6), TC5 (2), TC6 (16). Se elige TC5. Tras TC5, se desbloquea TC3. Disponibles: TC3 (1), TC4 (6), TC6 (16). Se elige TC3. Tras TC3, quedan TC4 (6) y TC6 (16). Se elige TC4 y finalmente TC6.\n\nA. Incorrecto. Ejecuta TC4 antes que TC2, pero TC2 tiene mayor riesgo (4 vs 6).\nC. Incorrecto. Ignora completamente las dependencias y solo ordena por riesgo matemático.\nD. Incorrecto. Ejecuta TC4 antes que TC5, a pesar de que tras ejecutar TC2, TC5 queda desbloqueado y tiene un riesgo mucho mayor (2) que TC4 (6).",
     "source": "Antigravity Custom"
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "En un proyecto de software, el equipo decide aplicar exactamente el mismo enfoque y nivel de rigor en las pruebas de un sistema de control de tráfico aéreo que en una aplicación de entretenimiento para móviles. ¿Qué principio del testing están ignorando?",
+    "options": [
+      "A) Las pruebas tempranas ahorran tiempo y dinero",
+      "B) Las pruebas dependen del contexto",
+      "C) Las pruebas muestran la presencia de defectos, no su ausencia",
+      "D) Falacia de la ausencia de defectos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El principio \"Las pruebas dependen del contexto\" establece que los sistemas se prueban de forma diferente según su propósito, riesgo e impacto.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1088
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Cuál de las siguientes es una descripción precisa de la diferencia entre error, defecto y fallo según el glosario ISTQB?",
+    "options": [
+      "A) Un error es causado por un defecto, que a su vez provoca un fallo.",
+      "B) Un defecto es una acción humana que produce un fallo.",
+      "C) Un error humano produce un defecto, que al ejecutarse puede causar un fallo.",
+      "D) Un fallo es el estado interno del software que genera un defecto."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Una persona comete un error, que introduce un defecto en el código o documento. Si se ejecuta el código con ese defecto, puede producir un fallo.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1089
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "Durante la revisión de los requisitos, el tester se da cuenta de que la especificación de un campo de contraseña es contradictoria. ¿A qué contribución del testing corresponde este escenario?",
+    "options": [
+      "A) Evitar que los defectos pasen a la fase de diseño y codificación.",
+      "B) Garantizar que no habrá fallos en producción.",
+      "C) Aumentar la confianza de los desarrolladores en el código.",
+      "D) Ejecutar pruebas estáticas para reducir el tiempo de ejecución."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Detectar defectos en los requisitos evita que esos defectos se propaguen a fases posteriores como el diseño o la codificación (detección temprana).",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1090
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing en el Ciclo de Vida",
+    "question": "Un equipo está trabajando en un proyecto ágil. Realizan pequeñas entregas funcionales cada dos semanas. ¿Qué afirmación describe mejor el testing en este contexto?",
+    "options": [
+      "A) Las pruebas de aceptación solo se realizan al final del proyecto entero.",
+      "B) Las actividades de prueba se integran de forma continua a lo largo de cada iteración.",
+      "C) Los desarrolladores no participan en las pruebas para mantener la independencia.",
+      "D) Las pruebas de regresión se evitan porque el código es nuevo en cada iteración."
+    ],
+    "correctAnswer": 1,
+    "explanation": "En los ciclos de vida ágiles, el testing es una actividad continua que ocurre a lo largo de toda la iteración, no solo en una fase final.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1091
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing en el Ciclo de Vida",
+    "question": "¿Cuál es el objetivo principal de las pruebas de regresión?",
+    "options": [
+      "A) Confirmar que un defecto previamente reportado ha sido solucionado.",
+      "B) Asegurar que los cambios realizados no han introducido fallos en áreas del código que antes funcionaban.",
+      "C) Validar que el sistema cumple con las expectativas del usuario final.",
+      "D) Medir el rendimiento del sistema bajo cargas extremas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las pruebas de regresión se ejecutan para confirmar que los cambios en el código no han provocado efectos adversos (nuevos defectos) en partes del sistema que no se modificaron.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1092
+  },
+  {
+    "chapter": 2,
+    "topic": "Testing en el Ciclo de Vida",
+    "question": "¿Qué tipo de prueba está más estrechamente relacionada con asegurar que el sistema satisface las necesidades del usuario y procesos de negocio?",
+    "options": [
+      "A) Pruebas de componente",
+      "B) Pruebas de integración de componentes",
+      "C) Pruebas de sistema",
+      "D) Pruebas de aceptación"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las pruebas de aceptación (específicamente la UAT) se centran en validar si el sistema cumple los procesos de negocio y es apto para los usuarios.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1093
+  },
+  {
+    "chapter": 3,
+    "topic": "Testing Estático",
+    "question": "¿Cuál de las siguientes opciones es un beneficio principal del análisis estático de código en comparación con las pruebas dinámicas?",
+    "options": [
+      "A) Permite evaluar el comportamiento del sistema bajo estrés de memoria.",
+      "B) Puede detectar vulnerabilidades de seguridad y problemas de mantenibilidad antes de ejecutar el código.",
+      "C) Garantiza que el software cumple con los requisitos del usuario.",
+      "D) Evalúa la interfaz de usuario en diferentes navegadores."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El análisis estático examina el código fuente sin ejecutarlo, siendo ideal para encontrar problemas de estilo, mantenibilidad o vulnerabilidades tempranamente.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1094
+  },
+  {
+    "chapter": 3,
+    "topic": "Testing Estático",
+    "question": "En un proceso de revisión formal (como una inspección), ¿cuál es el papel típico del Escriba (Registrador)?",
+    "options": [
+      "A) Guiar la reunión y asegurar que se sigan los procesos.",
+      "B) Explicar el documento a los demás participantes paso a paso.",
+      "C) Documentar todos los defectos encontrados y decisiones tomadas durante la reunión.",
+      "D) Reparar inmediatamente los defectos reportados."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El escriba tiene la función de registrar de forma precisa los problemas, defectos y puntos abiertos durante la reunión de revisión.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1095
+  },
+  {
+    "chapter": 4,
+    "topic": "Análisis y Diseño de Pruebas",
+    "question": "En un sistema de reservas, la política es: Para edades de 0 a 2 años, el billete es gratis. Para edades de 3 a 12, es a mitad de precio. Para 13 o más, es precio completo. Aplicando el análisis de valores límite (BVA) de 2 valores, ¿cuáles serían los valores límite para la partición de 3 a 12 años?",
+    "options": [
+      "A) 2, 3, 12, 13",
+      "B) 3, 12",
+      "C) 2, 3, 4, 11, 12, 13",
+      "D) 0, 2, 3, 12, 13"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Con BVA de 2 valores, los límites para la partición [3, 12] se prueban en los valores en el borde y justo fuera. Frontera inferior: 3 y 2. Frontera superior: 12 y 13.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1096
+  },
+  {
+    "chapter": 4,
+    "topic": "Análisis y Diseño de Pruebas",
+    "question": "¿Qué mide la cobertura de sentencias (statement coverage)?",
+    "options": [
+      "A) El porcentaje de sentencias ejecutables que han sido ejercitadas por un conjunto de pruebas.",
+      "B) El porcentaje de combinaciones de decisiones que se han probado.",
+      "C) El número de funciones o métodos que han sido llamados.",
+      "D) El grado en que se han cubierto las especificaciones de requisitos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La cobertura de sentencias mide la proporción de sentencias (líneas de código ejecutables) que han sido ejecutadas al menos una vez por los casos de prueba.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1097
+  },
+  {
+    "chapter": 4,
+    "topic": "Análisis y Diseño de Pruebas",
+    "question": "Estás ejecutando pruebas sin disponer de una especificación escrita formal, basándote en tu experiencia previa con sistemas bancarios similares para encontrar defectos. ¿Qué técnica estás utilizando principalmente?",
+    "options": [
+      "A) Pruebas de partición de equivalencia",
+      "B) Pruebas exploratorias",
+      "C) Pruebas de caja blanca",
+      "D) Tabla de decisión"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las pruebas exploratorias se basan fuertemente en el conocimiento, intuición y experiencia del probador, diseñando y ejecutando pruebas simultáneamente.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1098
+  },
+  {
+    "chapter": 4,
+    "topic": "Análisis y Diseño de Pruebas",
+    "question": "Un cajero automático permite 3 intentos fallidos de PIN antes de bloquear la tarjeta. ¿Qué técnica de diseño de caja negra es la más adecuada para modelar y probar este comportamiento en particular?",
+    "options": [
+      "A) Pruebas de transición de estados",
+      "B) Cobertura de sentencias",
+      "C) Partición de equivalencia",
+      "D) Análisis estático"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El sistema cambia su estado (de normal a bloqueado) tras una secuencia de eventos (3 PIN incorrectos). La técnica de transición de estados es ideal para probar esto.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1099
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión del Testing",
+    "question": "Según el syllabus, ¿cuál de los siguientes es un ejemplo de un Riesgo de Producto (riesgo de calidad)?",
+    "options": [
+      "A) El entorno de pruebas no estará listo a tiempo para la fecha de inicio planificada.",
+      "B) Una nueva pieza de hardware no funciona con el sistema operativo actual, causando fallos en los cálculos.",
+      "C) El presupuesto asignado para el equipo de QA se recorta a la mitad.",
+      "D) Un tester clave del equipo se enferma durante dos semanas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los riesgos de producto están relacionados con fallos en la calidad del software en sí. Los demás son Riesgos de Proyecto.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1100
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión del Testing",
+    "question": "En un informe de defecto efectivo, ¿por qué es crítico incluir los pasos para reproducir el problema?",
+    "options": [
+      "A) Para justificar el salario del tester y documentar su tiempo de trabajo.",
+      "B) Para permitir que los desarrolladores puedan observar el fallo en sus propios entornos y confirmar la corrección.",
+      "C) Para asegurar que la herramienta de gestión de defectos pueda clasificar automáticamente la prioridad.",
+      "D) Para que el cliente pueda ejecutar la misma prueba."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los pasos para reproducir permiten al desarrollador recrear el fallo en su entorno para aislar el defecto, debuggearlo y comprobar que su corrección funciona.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1101
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión del Testing",
+    "question": "¿Qué factor suele utilizarse en técnicas de estimación basadas en métricas?",
+    "options": [
+      "A) La intuición de los expertos senior (Planning Poker).",
+      "B) Datos históricos de proyectos anteriores de tamaño y complejidad similares.",
+      "C) El presupuesto máximo que tiene el cliente.",
+      "D) El número de días hasta la fecha límite de lanzamiento."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La estimación basada en métricas utiliza datos históricos de proyectos anteriores para calcular el esfuerzo necesario.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1102
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Testing",
+    "question": "¿Cuál es un riesgo típico asociado a la introducción de una nueva herramienta de automatización en un equipo?",
+    "options": [
+      "A) La herramienta ejecutará las pruebas mucho más rápido que un humano.",
+      "B) Subestimar el esfuerzo necesario para mantener los scripts de prueba cuando la aplicación cambie.",
+      "C) Que los desarrolladores escriban código de mayor calidad.",
+      "D) Reducción de la carga de trabajo de pruebas repetitivas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un riesgo común es subestimar el tiempo, coste y esfuerzo necesarios para el mantenimiento de los scripts y activos de prueba generados por la herramienta.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1103
+  },
+  {
+    "chapter": 6,
+    "topic": "Herramientas de Testing",
+    "question": "¿Cuál es el propósito principal de una herramienta de preparación de datos de prueba?",
+    "options": [
+      "A) Ejecutar casos de prueba automáticamente y comparar resultados.",
+      "B) Analizar el código fuente para encontrar violaciones de estándares de codificación.",
+      "C) Generar, manipular y enmascarar datos masivos para ser utilizados durante las pruebas.",
+      "D) Monitorizar el rendimiento del servidor en producción."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las herramientas de datos de prueba ayudan a crear, extraer o anonimizar datos para popular bases de datos con el fin de tener entornos de prueba listos.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1104
+  },
+  {
+    "chapter": 4,
+    "topic": "Análisis y Diseño de Pruebas",
+    "question": "En el diseño de pruebas, ¿qué técnica asegura que combinaciones específicas de condiciones de entrada generen las reglas de negocio correctas?",
+    "options": [
+      "A) Análisis estático",
+      "B) Tabla de decisión",
+      "C) Pruebas de transición de estados",
+      "D) Suposición de errores"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las Tablas de Decisión son la técnica principal para probar reglas de negocio complejas que dependen de múltiples condiciones de entrada que interactúan entre sí.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1105
+  },
+  {
+    "chapter": 5,
+    "topic": "Gestión del Testing",
+    "question": "¿A qué concepto se refiere el Cuadrante de Pruebas Ágiles?",
+    "options": [
+      "A) Un modelo para categorizar tipos de pruebas según su propósito y para apoyar al equipo/criticar al producto.",
+      "B) Un documento formal que reemplaza al Plan de Pruebas maestro en entornos ágiles.",
+      "C) Los 4 roles principales en un equipo Scrum.",
+      "D) Las cuatro etapas de vida de un defecto."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los cuadrantes de pruebas ágiles agrupan los tipos de pruebas en 4 áreas para ayudar a planificar y comunicar el alcance del testing, diferenciando si están orientadas al negocio o a la tecnología.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1106
+  },
+  {
+    "chapter": 1,
+    "topic": "Fundamentos del Testing",
+    "question": "¿Por qué es importante que un tester mantenga un grado de independencia en las pruebas?",
+    "options": [
+      "A) Porque los testers nunca deben hablar con los desarrolladores para no verse influenciados.",
+      "B) Para evitar que su propio sesgo de confirmación les impida ver los defectos en un producto que ellos mismos han construido.",
+      "C) Porque el testing independiente siempre es más barato que el testing hecho por los autores.",
+      "D) Porque el testing independiente garantiza que se encontrarán el 100% de los defectos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La independencia aporta una perspectiva objetiva y evita el sesgo de confirmación cognitivo que tiene el autor del software.",
+    "source": "Nuevas Preguntas - ISTQBeasy",
+    "id": 1107
   }
 ]
