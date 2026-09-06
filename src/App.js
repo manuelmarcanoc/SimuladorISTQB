@@ -13,7 +13,7 @@ const BMC_URL = 'https://buymeacoffee.com/manuelmc';
 const SHARE_URL = 'https://istqbeasy.com';
 
 function App() {
-  const [activeTab, setActiveTab] = useState('simulador');
+  const [activeTab, setActiveTab] = useState('guias');
   const [lang, setLang] = useState('es');
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem('istqb-dark') === 'true';

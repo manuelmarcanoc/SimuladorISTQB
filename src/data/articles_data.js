@@ -4,7 +4,7 @@
 export const ARTICLES = [
   {
     id: 'que-es-istqb-ctfl',
-    emoji: '📋',
+    emoji: '',
     title: '¿Qué es el ISTQB CTFL v4.0? Guía completa',
     description: 'Todo lo que necesitas saber sobre la certificación de testing más reconocida del mundo, actualizada en 2023.',
     date: '2024-09-01',
@@ -13,6 +13,7 @@ export const ARTICLES = [
       {
         heading: 'La certificación ISTQB en pocas palabras',
         content: [
+          { type: 'img', src: '/testing_study.jpg', alt: 'Persona estudiando testing de software de forma minimalista' },
           { type: 'p', text: 'El ISTQB (International Software Testing Qualifications Board) es el organismo internacional que define los estándares de certificación en testing de software. Con más de un millón de profesionales certificados en más de 120 países, sus certificaciones son las más reconocidas y valoradas en la industria del software.' },
           { type: 'p', text: 'El CTFL (Certified Tester Foundation Level) es el nivel base de la pirámide de certificaciones ISTQB. Es el punto de entrada para cualquier profesional del testing y sirve como base para certificaciones más avanzadas como CTAL (Advanced Level) o especializaciones como CT-AE (Automation Engineer) o CT-AI (AI Testing).' },
         ]
@@ -75,7 +76,7 @@ export const ARTICLES = [
 
   {
     id: 'capitulos-syllabus-ctfl',
-    emoji: '📚',
+    emoji: '',
     title: 'Los 6 capítulos del syllabus CTFL v4.0 explicados',
     description: 'Guía detallada de cada capítulo del temario oficial: contenido, conceptos clave y peso en el examen.',
     date: '2024-09-05',
@@ -181,7 +182,7 @@ export const ARTICLES = [
 
   {
     id: 'tecnicas-diseno-pruebas',
-    emoji: '🎯',
+    emoji: '',
     title: 'Técnicas de diseño de pruebas CTFL: guía completa',
     description: 'Caja negra, caja blanca y basadas en experiencia: todas las técnicas que entran en el examen con ejemplos.',
     date: '2024-09-10',
@@ -275,7 +276,7 @@ export const ARTICLES = [
 
   {
     id: 'como-aprobar-istqb-primera',
-    emoji: '🏆',
+    emoji: '',
     title: '10 consejos para aprobar el ISTQB CTFL a la primera',
     description: 'Estrategias probadas, plan de estudio y errores que debes evitar para superar el examen con garantías.',
     date: '2024-09-15',
@@ -333,7 +334,7 @@ export const ARTICLES = [
 
   {
     id: 'testing-estatico-revisiones',
-    emoji: '🔍',
+    emoji: '',
     title: 'Testing estático: revisiones, inspecciones y análisis de código',
     description: 'El capítulo 3 del syllabus CTFL explicado con detalle: tipos de revisión, roles y beneficios del testing sin ejecución.',
     date: '2024-09-20',

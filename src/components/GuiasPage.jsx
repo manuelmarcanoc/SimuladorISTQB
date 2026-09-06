@@ -7,6 +7,12 @@ const Block = ({ block, idx }) => {
   switch (block.type) {
     case 'p':
       return <p key={idx} className="ga-p">{block.text}</p>;
+    case 'img':
+      return (
+        <div key={idx} style={{ textAlign: 'center', margin: '2rem 0' }}>
+          <img src={block.src} alt={block.alt} style={{ maxWidth: '100%', borderRadius: '8px' }} />
+        </div>
+      );
     case 'ul':
       return (
         <ul key={idx} className="ga-ul">
@@ -22,7 +28,6 @@ const Block = ({ block, idx }) => {
     case 'tip':
       return (
         <div key={idx} className="ga-tip">
-          <span className="ga-tip-icon">💡</span>
           <span>{block.text}</span>
         </div>
       );
@@ -55,7 +60,7 @@ const ArticleCard = ({ article, onClick }) => (
       <h2 className="ga-card-title">{article.title}</h2>
       <p className="ga-card-desc">{article.description}</p>
       <div className="ga-card-meta">
-        <span className="ga-read-time">🕐 {article.readTime} de lectura</span>
+        <span className="ga-read-time">{article.readTime} de lectura</span>
         <span className="ga-read-link">Leer artículo →</span>
       </div>
     </div>
@@ -74,7 +79,7 @@ const ArticleView = ({ article, onBack }) => (
         <span className="ga-article-emoji" aria-hidden="true">{article.emoji}</span>
         <h1 className="ga-article-title">{article.title}</h1>
         <p className="ga-article-desc">{article.description}</p>
-        <span className="ga-article-meta">🕐 {article.readTime} de lectura</span>
+        <span className="ga-article-meta">{article.readTime} de lectura</span>
       </header>
 
       {article.sections.map((section, i) => (
