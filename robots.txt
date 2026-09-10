@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
+# ISTQBeasy — https://istqbeasy.com
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://istqbeasy.com/sitemap.xml
