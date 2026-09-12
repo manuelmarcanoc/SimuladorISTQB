@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const isDev = process.env.NODE_ENV === 'development';
+const isDev = import.meta.env.DEV;
 
 const AdComponent = ({ adSlot, format = 'auto', style = {} }) => {
   const adRef = useRef(null);

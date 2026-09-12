@@ -77,9 +77,13 @@ const ACHIEVEMENTS_CONFIG = [
 const STORAGE_KEY_STATS = 'istqb_stats';
 const STORAGE_KEY_ACHIEVEMENTS = 'istqb_achievements';
 
-export function loadStats() {
+// Cada certificación guarda sus propias estadísticas.
+// CTFL conserva las claves históricas para no perder el progreso existente.
+const nsKey = (base, cert) => (!cert || cert === 'ctfl' ? base : `${base}_${cert}`);
+
+export function loadStats(cert) {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY_STATS);
+    const raw = localStorage.getItem(nsKey(STORAGE_KEY_STATS, cert));
     return raw ? JSON.parse(raw) : getDefaultStats();
   } catch {
     return getDefaultStats();
@@ -101,24 +105,24 @@ export function getDefaultStats() {
   };
 }
 
-export function saveStats(stats) {
+export function saveStats(stats, cert) {
   try {
-    localStorage.setItem(STORAGE_KEY_STATS, JSON.stringify(stats));
+    localStorage.setItem(nsKey(STORAGE_KEY_STATS, cert), JSON.stringify(stats));
   } catch {}
 }
 
-export function loadAchievements() {
+export function loadAchievements(cert) {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY_ACHIEVEMENTS);
+    const raw = localStorage.getItem(nsKey(STORAGE_KEY_ACHIEVEMENTS, cert));
     return raw ? JSON.parse(raw) : [];
   } catch {
     return [];
   }
 }
 
-export function saveAchievements(list) {
+export function saveAchievements(list, cert) {
   try {
-    localStorage.setItem(STORAGE_KEY_ACHIEVEMENTS, JSON.stringify(list));
+    localStorage.setItem(nsKey(STORAGE_KEY_ACHIEVEMENTS, cert), JSON.stringify(list));
   } catch {}
 }
 
@@ -136,9 +140,9 @@ export function checkAndUnlockAchievements(stats, currentUnlocked) {
 
 /* ────────────────────────────────────────────────────────── */
 
-const Achievements = ({ onClose }) => {
-  const [stats] = useState(() => loadStats());
-  const [unlocked] = useState(() => loadAchievements());
+const Achievements = ({ onClose, cert = 'ctfl' }) => {
+  const [stats] = useState(() => loadStats(cert));
+  const [unlocked] = useState(() => loadAchievements(cert));
 
   return (
     <div className="retro-window" style={{ display: 'flex', flexDirection: 'column', maxHeight: '100%' }}>

@@ -5,6 +5,7 @@ import QuizSetup from './QuizSetup';
 import QuestionNav from './QuestionNav';
 // Removed questionsDataEs import
 import { t } from '../i18n';
+import { getCert, dataFile } from '../certs';
 import {
   loadStats, saveStats, loadAchievements, saveAchievements,
   checkAndUnlockAchievements,
@@ -23,7 +24,7 @@ function shuffle(arr) {
 
 
 
-const Quiz = ({ language, onClose, onNewAchievements }) => {
+const Quiz = ({ language, cert = 'ctfl', onClose, onNewAchievements }) => {
   const [isSetupPhase, setIsSetupPhase] = useState(true);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -57,7 +58,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
 
     // Save wrong questions for "Repasar Errores"
     const wrongQs = questions.filter((_, i) => userAnswers[i] && !userAnswers[i].isCorrect);
-    saveWrongQuestions(wrongQs);
+    saveWrongQuestions(wrongQs, cert);
 
     // Build chapter stats
     const chapterStats = {};
@@ -69,14 +70,14 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
     });
 
     // Update global stats
-    const stats = loadStats();
+    const stats = loadStats(cert);
     const newBestStreak = Math.max(stats.bestStreak || 0, currentStreak);
     const updatedStats = {
       ...stats,
       totalAnswered: (stats.totalAnswered || 0) + questions.length,
       totalCorrect: (stats.totalCorrect || 0) + correctCount,
       totalExams: (stats.totalExams || 0) + 1,
-      passedExams: (stats.passedExams || 0) + (pct >= 65 ? 1 : 0),
+      passedExams: (stats.passedExams || 0) + (pct >= getCert(cert).exam.passPct ? 1 : 0),
       perfectExams: (stats.perfectExams || 0) + (pct === 100 ? 1 : 0),
       bestStreak: newBestStreak,
       examHistory: [
@@ -95,20 +96,20 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
       updatedStats.lastStudyDate = today;
     }
 
-    saveStats(updatedStats);
+    saveStats(updatedStats, cert);
 
     // Check achievements
-    const currentUnlocked = loadAchievements();
+    const currentUnlocked = loadAchievements(cert);
     const { allUnlocked, newlyUnlocked } = checkAndUnlockAchievements(updatedStats, currentUnlocked);
     if (newlyUnlocked.length > 0) {
-      saveAchievements(allUnlocked);
+      saveAchievements(allUnlocked, cert);
       onNewAchievements && onNewAchievements(newlyUnlocked);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showResults]);
+  }, [showResults, cert]);
 
   const startQuiz = useCallback((config) => {
-    import(`../data/questions${language === 'es' ? '' : '_' + language}.json`)
+    import(`../data/${dataFile('questions', cert, language)}.json`)
       .catch(() => import('../data/questions.json'))
       .then((module) => {
         const questionsData = module.default || module;
@@ -157,13 +158,13 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
         console.error("Error loading questions for lang", language, err);
         alert("Translation not available yet. Please wait a few seconds and try again.");
       });
-  }, [language]);
+  }, [language, cert]);
 
   // Translate active questions when language changes mid-quiz
   useEffect(() => {
     if (isSetupPhase || questions.length === 0) return;
     
-    import(`../data/questions${language === 'es' ? '' : '_' + language}.json`)
+    import(`../data/${dataFile('questions', cert, language)}.json`)
       .catch(() => import('../data/questions.json'))
       .then((module) => {
         const questionsData = module.default || module;
@@ -182,7 +183,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
       })
       .catch(err => console.error("Error translating questions on the fly", err));
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [language]);
+  }, [language, cert]);
 
   const handleOptionSelect = useCallback((index) => {
     setUserAnswers(prev => {
@@ -257,7 +258,7 @@ const Quiz = ({ language, onClose, onNewAchievements }) => {
 
         <div className="card-body">
           {isSetupPhase ? (
-            <QuizSetup onStartQuiz={startQuiz} language={language} />
+            <QuizSetup onStartQuiz={startQuiz} language={language} cert={cert} />
           ) : showResults ? (
             <Results
               score={calculateScore()}

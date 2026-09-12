@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { loadStats } from './Achievements';
 import { t, tl, getLanguage } from '../i18n';
+import { getCert } from '../certs';
 
 function formatDate(dateStr, locale) {
   if (!dateStr) return '—';
@@ -8,10 +9,10 @@ function formatDate(dateStr, locale) {
   return d.toLocaleDateString(locale, { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 }
 
-const StatsPanel = ({ language }) => {
-  const CHAPTER_NAMES = tl(getLanguage(), 'chapterShort');
+const StatsPanel = ({ language, cert = 'ctfl' }) => {
+  const CHAPTER_NAMES = getCert(cert).chapterShort || tl(getLanguage(), 'chapterShort');
   const locale = tl(getLanguage(), 'locale');
-  const [stats] = useState(() => loadStats());
+  const [stats] = useState(() => loadStats(cert));
   const history = stats.examHistory || [];
   const totalPct = stats.totalAnswered > 0
     ? Math.round((stats.totalCorrect / stats.totalAnswered) * 100)

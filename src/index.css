@@ -11,8 +11,8 @@
   --glass-border: rgba(0, 0, 0, 0.06);
 
   --text-main: #1c1a17;   /* warm near-black ink */
-  --text-muted: #6b6557;
-  --text-light: #a59e8e;
+  --text-muted: #4a453b;  /* darker for better contrast */
+  --text-light: #6a6455;  /* darker for better contrast */
 
   /* Ink primary + single amber accent */
   --primary: #1c1a17;
@@ -1826,4 +1826,50 @@ h1, h2, h3, h4, h5, h6, .app-title {
   .ga-article-title {
     font-size: 1.5rem;
   }
+}
+
+
+/* ===== Selector de certificación ===== */
+.cert-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 16px 0;
+}
+.cert-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 7px 14px;
+  border: 1px solid var(--border, #d4d4d8);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--text-muted, #71717a);
+  cursor: pointer;
+  font: inherit;
+  line-height: 1.2;
+  transition: all .15s ease;
+}
+.cert-btn:hover { border-color: var(--primary, #2563eb); color: var(--primary, #2563eb); }
+.cert-btn.active {
+  border-color: var(--primary, #2563eb);
+  background: var(--primary, #2563eb);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, .25);
+}
+.cert-code { font-size: .82rem; font-weight: 700; letter-spacing: .02em; }
+.cert-name { font-size: .68rem; opacity: .85; }
+
+.notes-chapter-subtitle {
+  margin: -.6rem 0 1rem;
+  font-size: .8rem;
+  opacity: .7;
+  font-style: italic;
+}
+
+@media (max-width: 520px) {
+  .cert-btn { flex: 1 1 auto; align-items: center; padding: 6px 10px; }
+  .cert-name { display: none; }
 }

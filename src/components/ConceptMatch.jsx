@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { t } from '../i18n';
+import { dataFile } from '../certs';
 import { loadStats, saveStats, loadAchievements, saveAchievements, checkAndUnlockAchievements } from './Achievements';
 
 function shuffleArray(array) {
@@ -11,7 +12,7 @@ function shuffleArray(array) {
   return newArr;
 }
 
-const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
+const ConceptMatch = ({ language, cert = 'ctfl', onClose, onNewAchievements }) => {
   const [roundTerms, setRoundTerms] = useState([]);
   const [roundDefs, setRoundDefs] = useState([]);
   const [matchedIds, setMatchedIds] = useState(new Set());
@@ -26,7 +27,7 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
   const [isStarted, setIsStarted] = useState(false);
 
   const startNewRound = useCallback(() => {
-    import(`../data/concepts${language === 'es' ? '' : '_' + language}.json`)
+    import(`../data/${dataFile('concepts', cert, language)}.json`)
       .then((module) => {
         const conceptsData = module.default;
         const shuffledConcepts = shuffleArray(conceptsData).slice(0, 5);
@@ -49,7 +50,7 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
         setIsStarted(true);
       })
       .catch(err => console.error("Error loading concepts:", err));
-  }, [language]);
+  }, [language, cert]);
 
   const handleTermClick = (id) => {
     if (matchedIds.has(id)) return;
@@ -93,13 +94,13 @@ const ConceptMatch = ({ language, onClose, onNewAchievements }) => {
   useEffect(() => {
     if (isStarted && matchedIds.size === 5 && !roundComplete) {
       setRoundComplete(true);
-      const stats = loadStats();
+      const stats = loadStats(cert);
       const updatedStats = { ...stats, flashcardsCompleted: (stats.flashcardsCompleted || 0) + 1 };
-      saveStats(updatedStats);
-      const currentUnlocked = loadAchievements();
+      saveStats(updatedStats, cert);
+      const currentUnlocked = loadAchievements(cert);
       const { allUnlocked, newlyUnlocked } = checkAndUnlockAchievements(updatedStats, currentUnlocked);
       if (newlyUnlocked.length > 0) {
-        saveAchievements(allUnlocked);
+        saveAchievements(allUnlocked, cert);
         if (onNewAchievements) onNewAchievements(newlyUnlocked);
       }
     }

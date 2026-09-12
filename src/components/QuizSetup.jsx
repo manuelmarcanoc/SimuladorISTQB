@@ -1,39 +1,41 @@
 import React, { useState, useEffect } from 'react';
-import questionsData from '../data/questions.json';
+import { getCert } from '../certs';
 import { loadWrongQuestions } from '../utils/storage';
 import { t, tl } from '../i18n';
 
-const QuizSetup = ({ onStartQuiz, language = 'es' }) => {
+const QuizSetup = ({ onStartQuiz, language = 'es', cert = 'ctfl' }) => {
   const [chapter, setChapter] = useState('all');
   const [questionCount, setQuestionCount] = useState(40);
   const [availableQuestions, setAvailableQuestions] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
 
-  const chapterNames = tl(language, 'chapterNames');
+  const certInfo = getCert(cert);
+  const chapterNames = certInfo.chapterNames || tl(language, 'chapterNames');
   const CHAPTERS = [
     { value: 'all', label: t('allChapters') },
-    ...[1, 2, 3, 4, 5, 6].map((n) => ({ value: String(n), label: `${n}. ${chapterNames[n]}` })),
+    ...certInfo.chapters.map((n) => ({ value: String(n), label: `${n}. ${chapterNames[n]}` })),
   ];
 
   useEffect(() => {
-    setWrongCount(loadWrongQuestions().length);
-  }, []);
+    setWrongCount(loadWrongQuestions(cert).length);
+    setChapter('all');
+  }, [cert]);
 
   useEffect(() => {
-    let filtered = questionsData;
-    if (chapter !== 'all') {
-      filtered = filtered.filter(q => q.chapter === parseInt(chapter, 10));
-    }
-    setAvailableQuestions(filtered.length);
-  }, [chapter]);
+    setAvailableQuestions(
+      chapter === 'all'
+        ? certInfo.questionCount
+        : certInfo.chapterCounts[parseInt(chapter, 10)] || 0
+    );
+  }, [chapter, certInfo]);
 
   const handleStart = (mode) => {
     if (mode === 'official') {
-      onStartQuiz({ chapter: 'all', count: 40, timePerQuestion: 97 });
+      onStartQuiz({ chapter: 'all', count: certInfo.exam.questions, timePerQuestion: certInfo.exam.timePerQuestion });
       return;
     }
     if (mode === 'review') {
-      const wrongQs = loadWrongQuestions();
+      const wrongQs = loadWrongQuestions(cert);
       onStartQuiz({ questions: wrongQs, count: wrongQs.length, timePerQuestion: 90 });
       return;
     }
@@ -48,7 +50,7 @@ const QuizSetup = ({ onStartQuiz, language = 'es' }) => {
     <div className="animate-in setup-wrapper">
       <div className="setup-hero">
         <h2 className="card-title" style={{ textAlign: 'center', marginBottom: '0.5rem' }}>{t('configTitle')}</h2>
-        <p className="setup-hero-sub">{t('configSubtitle')}</p>
+        <p className="setup-hero-sub">{t('configSubtitle', { cert: certInfo.label })}</p>
       </div>
 
       <div className="setup-form">
@@ -114,7 +116,7 @@ const QuizSetup = ({ onStartQuiz, language = 'es' }) => {
         )}
 
         <p className="setup-bank">
-          {t('totalBank', { n: questionsData.length })}
+          {t('totalBank', { n: certInfo.questionCount, cert: certInfo.label })}
         </p>
 
         <div className="setup-info notes-exam-tip" style={{ marginTop: '0.8rem', textAlign: 'left' }}>
