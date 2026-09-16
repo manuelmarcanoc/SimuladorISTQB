@@ -1086,5 +1086,73 @@
     "source": "Syllabus CTAL-TAE v2.0 — Cap. 8 (Mejora continua)",
     "points": 1,
     "difficulty": "easy"
+  },
+  {
+    "id": 9065,
+    "chapter": 1,
+    "topic": "Objetivos y límites de la automatización",
+    "question": "¿Cuál de las siguientes es una limitación de la automatización de pruebas?",
+    "options": [
+      "A) Las pruebas de usabilidad se pueden automatizar eficazmente",
+      "B) La automatización de pruebas solo se puede ejecutar después de que el sistema bajo prueba (SUT) esté implementado y desplegado",
+      "C) La automatización de pruebas solo puede verificar resultados que se pueden comprobar visualmente",
+      "D) La automatización de pruebas solo puede verificar resultados que se pueden comprobar mediante código"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es correcta. La automatización de pruebas solo puede verificar resultados que se pueden comprobar mediante código (resultados verificables programáticamente). No puede evaluar aspectos subjetivos como la usabilidad o la estética visual, que requieren juicio humano. A) es falsa: la usabilidad requiere evaluación humana. B) es falsa: se pueden automatizar pruebas unitarias antes del despliegue. C) es falsa: la verificación visual no es la única forma.",
+    "source": "ISTQB CT-TAE Sample Exam Q#1",
+    "points": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 9066,
+    "chapter": 1,
+    "topic": "Automatización en el SDLC",
+    "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre la automatización de pruebas y el SDLC?",
+    "options": [
+      "A) En el desarrollo ágil de software, las pruebas automatizadas se centran más en las pruebas de aceptación que en las pruebas de componentes",
+      "B) En el desarrollo ágil de software, las pruebas automatizadas se centran más en las pruebas de componentes que en las pruebas de aceptación",
+      "C) En el modelo V, la ejecución de pruebas automatizadas debe realizarse después de la ejecución de pruebas manuales",
+      "D) En el modelo V, la implementación de la automatización de pruebas se realiza a lo largo de todo el ciclo de desarrollo de software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es correcta. En el desarrollo ágil, las pruebas automatizadas se centran más en las pruebas de componentes (unitarias) que en las pruebas de aceptación, ya que los desarrolladores escriben pruebas unitarias continuamente como parte de prácticas como TDD. A) invierte la prioridad; C) no existe tal restricción en el modelo V; D) es incorrecta ya que la automatización se implementa en fases específicas, no a lo largo de todo el ciclo.",
+    "source": "ISTQB CT-TAE Sample Exam Q#2",
+    "points": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 9067,
+    "chapter": 1,
+    "topic": "Arquitectura del SUT y elección de herramienta",
+    "question": "¿Cuál de los siguientes factores NO es necesario considerar al determinar las herramientas de prueba adecuadas?",
+    "options": [
+      "A) Arquitectura del SUT",
+      "B) Composición real y experiencia del equipo de pruebas",
+      "C) Licenciamiento y soporte de la herramienta de prueba",
+      "D) Calidad de los requisitos del SUT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción D) es correcta. La calidad de los requisitos del SUT no es un factor necesario para considerar al seleccionar herramientas de prueba. Los factores relevantes incluyen la arquitectura del SUT (A), la experiencia del equipo (B) y el licenciamiento/soporte de la herramienta (C). La calidad de los requisitos afecta al diseño de pruebas, no a la selección de herramientas.",
+    "source": "ISTQB CT-TAE Sample Exam Q#3",
+    "points": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9068,
+    "chapter": 2,
+    "topic": "Diseño para testabilidad",
+    "question": "Cuando un sistema está diseñado para la testabilidad, una de las características es que el framework de automatización de pruebas (TAF) puede acceder a interfaces para realizar acciones sobre el sistema. ¿Cómo se llama esta característica?",
+    "options": [
+      "A) Observabilidad",
+      "B) Controlabilidad",
+      "C) Mantenibilidad",
+      "D) Interoperabilidad"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción B) es correcta. La controlabilidad es la característica que permite al TAF acceder a interfaces para realizar acciones sobre el sistema bajo prueba. La observabilidad (A) se refiere a la capacidad de verificar los resultados de las acciones realizadas. La mantenibilidad (C) se refiere a la facilidad de modificar el sistema. La interoperabilidad (D) se refiere a la capacidad de interactuar con otros sistemas.",
+    "source": "ISTQB CT-TAE Sample Exam Q#4",
+    "points": 1,
+    "difficulty": "medium"
   }
 ]
